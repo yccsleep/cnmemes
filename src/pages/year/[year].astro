@@ -13,13 +13,15 @@ export function getStaticPaths() {
 
 const { year } = Astro.props;
 const allYears = [...new Set(memes.map(m => m.year))].sort((a, b) => b - a);
+const currentYear = allYears[0];
 const yearMemes = memes.filter(m => m.year === year);
+const isCurrentYear = year === currentYear;
 ---
 
-<Base title={`${year} Chinese Internet Memes`} description={`${yearMemes.length} Chinese internet memes and slang terms from ${year}, explained in English.`}>
+<Base title={`${year} Chinese Internet Memes`} description={`${yearMemes.length} Chinese internet memes from ${year}, explained in English.`}>
   <section class="hero" style="padding-bottom:24px;">
     <h1><span class="cn-part">{year}</span> Chinese Internet Memes</h1>
-    <p>{yearMemes.length} memes and slang terms from {year}</p>
+    <p>{yearMemes.length} memes from {year}{isCurrentYear ? ' · Continuously updating 🔄' : ''}</p>
   </section>
 
   <div class="container">

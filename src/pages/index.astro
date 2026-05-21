@@ -5,6 +5,7 @@ import memes from '../data/memes.json';
 
 const years = [...new Set(memes.map(m => m.year))].sort((a, b) => b - a);
 const totalCount = memes.length;
+const currentYear = years[0];
 
 // Recent memes first
 const sortedMemes = [...memes].sort((a, b) => b.year - a.year);
@@ -17,11 +18,11 @@ const statusCounts = {
 };
 ---
 
-<Base title="Chinese Internet Slang Dictionary" description="Decoding Chinese internet memes and slang for English speakers. 526 entries from 2015-2026.">
+<Base title="Chinese Internet Meme Dictionary" description="Decoding Chinese internet memes for English speakers. From 2015 to today, updated monthly.">
 
   <section class="hero">
     <h1><span class="cn-part">中文梗典</span> — Chinese Meme Dictionary</h1>
-    <p>Decoding {totalCount} Chinese internet memes and slang terms for the world. From 内卷 to yyds, understand what China's internet is really saying.</p>
+    <p>Decoding Chinese internet memes for the world. From 内卷 to yyds, understand what China's internet is really saying. Updated monthly.</p>
     
     <div class="search-box">
       <input type="text" id="searchInput" placeholder="Search by Chinese, English, or Pinyin..." autocomplete="off" />
@@ -31,9 +32,9 @@ const statusCounts = {
   <div class="container">
     <!-- Year pills -->
     <div class="year-pills">
-      <a href="/" class="year-pill active">All ({totalCount})</a>
+      <a href="/" class="year-pill active">All</a>
       {years.map(y => (
-        <a href={`/year/${y}`} class="year-pill">{y} ({memes.filter(m => m.year === y).length})</a>
+        <a href={`/year/${y}`} class="year-pill">{y}{y === currentYear ? ' 🔄' : ''}</a>
       ))}
     </div>
 
