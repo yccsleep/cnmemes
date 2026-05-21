@@ -1,0 +1,48 @@
+---
+import Base from '../../layouts/Base.astro';
+import MemeCard from '../../components/MemeCard.astro';
+import memes from '../../data/memes.json';
+
+export function getStaticPaths() {
+  const allTags = new Set<string>();
+  memes.forEach(m => m.tags.forEach(t => allTags.add(t)));
+  return [...allTags].map(tag => ({
+    params: { tag },
+    props: { tag }
+  }));
+}
+
+const { tag } = Astro.props;
+const tagMemes = memes.filter(m => m.tags.includes(tag));
+const allTags = [...new Set(memes.flatMap(m => m.tags))].sort();
+---
+
+<Base title={`${tag} — Chinese Internet Memes`} description={`Chinese internet memes tagged "${tag}". ${tagMemes.length} entries explained in English.`}>
+  <section class="hero" style="padding-bottom:24px;">
+    <h1>Tag: <span class="cn-part">{tag}</span></h1>
+    <p>{tagMemes.length} memes tagged "{tag}"</p>
+  </section>
+
+  <div class="container">
+    <div class="year-pills">
+      {allTags.map(t => (
+        <a href={`/tag/${t}`} class={`year-pill ${t === tag ? 'active' : ''}`}>{t}</a>
+      ))}
+    </div>
+
+    <div class="meme-grid">
+      {tagMemes.map(m => (
+        <MemeCard
+          slug={m.slug}
+          chinese_name={m.chinese_name}
+          english_name={m.english_name}
+          pinyin={m.pinyin}
+          english_explanation={m.english_explanation}
+          year={m.year}
+          status={m.status}
+          tags={m.tags}
+        />
+      ))}
+    </div>
+  </div>
+</Base>

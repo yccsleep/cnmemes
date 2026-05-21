@@ -1,0 +1,84 @@
+---
+import Base from '../layouts/Base.astro';
+import MemeCard from '../components/MemeCard.astro';
+import memes from '../data/memes.json';
+
+const years = [...new Set(memes.map(m => m.year))].sort((a, b) => b - a);
+const totalCount = memes.length;
+
+// Recent memes first
+const sortedMemes = [...memes].sort((a, b) => b.year - a.year);
+
+// Stats
+const statusCounts = {
+  classic: memes.filter(m => m.status === 'classic').length,
+  popular: memes.filter(m => m.status === 'still popular').length,
+  fading: memes.filter(m => m.status === 'fading').length,
+};
+---
+
+<Base title="Chinese Internet Slang Dictionary" description="Decoding Chinese internet memes and slang for English speakers. 526 entries from 2015-2026.">
+
+  <section class="hero">
+    <h1><span class="cn-part">中文梗典</span> — Chinese Meme Dictionary</h1>
+    <p>Decoding {totalCount} Chinese internet memes and slang terms for the world. From 内卷 to yyds, understand what China's internet is really saying.</p>
+    
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search by Chinese, English, or Pinyin..." autocomplete="off" />
+    </div>
+  </section>
+
+  <div class="container">
+    <!-- Year pills -->
+    <div class="year-pills">
+      <a href="/" class="year-pill active">All ({totalCount})</a>
+      {years.map(y => (
+        <a href={`/year/${y}`} class="year-pill">{y} ({memes.filter(m => m.year === y).length})</a>
+      ))}
+    </div>
+
+    <!-- Stats row -->
+    <div style="display:flex;gap:16px;justify-content:center;margin-bottom:36px;flex-wrap:wrap;">
+      <div style="display:flex;align-items:center;gap:6px;font-size:13px;color:var(--text-dim);">
+        <span class="status-dot classic"></span> {statusCounts.classic} classic
+      </div>
+      <div style="display:flex;align-items:center;gap:6px;font-size:13px;color:var(--text-dim);">
+        <span class="status-dot popular"></span> {statusCounts.popular} still popular
+      </div>
+      <div style="display:flex;align-items:center;gap:6px;font-size:13px;color:var(--text-dim);">
+        <span class="status-dot fading"></span> {statusCounts.fading} fading
+      </div>
+    </div>
+
+    <!-- Meme grid -->
+    <div class="meme-grid" id="memeGrid">
+      {sortedMemes.map(m => (
+        <MemeCard
+          slug={m.slug}
+          chinese_name={m.chinese_name}
+          english_name={m.english_name}
+          pinyin={m.pinyin}
+          english_explanation={m.english_explanation}
+          year={m.year}
+          status={m.status}
+          tags={m.tags}
+        />
+      ))}
+    </div>
+  </div>
+
+  <script define:vars={{ memes: sortedMemes }}>
+    const searchInput = document.getElementById('searchInput');
+    const grid = document.getElementById('memeGrid');
+    const cards = Array.from(grid.children);
+    
+    searchInput.addEventListener('input', (e) => {
+      const q = e.target.value.toLowerCase().trim();
+      cards.forEach((card, i) => {
+        const m = memes[i];
+        const haystack = [m.chinese_name, m.english_name, m.pinyin, m.english_explanation, ...m.tags].join(' ').toLowerCase();
+        card.style.display = !q || haystack.includes(q) ? '' : 'none';
+      });
+    });
+  </script>
+</Base>

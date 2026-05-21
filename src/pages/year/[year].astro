@@ -1,0 +1,48 @@
+---
+import Base from '../../layouts/Base.astro';
+import MemeCard from '../../components/MemeCard.astro';
+import memes from '../../data/memes.json';
+
+export function getStaticPaths() {
+  const years = [...new Set(memes.map(m => m.year))];
+  return years.map(y => ({
+    params: { year: String(y) },
+    props: { year: y }
+  }));
+}
+
+const { year } = Astro.props;
+const allYears = [...new Set(memes.map(m => m.year))].sort((a, b) => b - a);
+const yearMemes = memes.filter(m => m.year === year);
+---
+
+<Base title={`${year} Chinese Internet Memes`} description={`${yearMemes.length} Chinese internet memes and slang terms from ${year}, explained in English.`}>
+  <section class="hero" style="padding-bottom:24px;">
+    <h1><span class="cn-part">{year}</span> Chinese Internet Memes</h1>
+    <p>{yearMemes.length} memes and slang terms from {year}</p>
+  </section>
+
+  <div class="container">
+    <div class="year-pills">
+      <a href="/" class="year-pill">All</a>
+      {allYears.map(y => (
+        <a href={`/year/${y}`} class={`year-pill ${y === year ? 'active' : ''}`}>{y}</a>
+      ))}
+    </div>
+
+    <div class="meme-grid">
+      {yearMemes.map(m => (
+        <MemeCard
+          slug={m.slug}
+          chinese_name={m.chinese_name}
+          english_name={m.english_name}
+          pinyin={m.pinyin}
+          english_explanation={m.english_explanation}
+          year={m.year}
+          status={m.status}
+          tags={m.tags}
+        />
+      ))}
+    </div>
+  </div>
+</Base>

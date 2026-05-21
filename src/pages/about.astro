@@ -1,0 +1,47 @@
+---
+import Base from '../layouts/Base.astro';
+import memes from '../data/memes.json';
+
+const totalCount = memes.length;
+const yearRange = `${Math.min(...memes.map(m => m.year))}–${Math.max(...memes.map(m => m.year))}`;
+---
+
+<Base title="About" description="About CNMemes — the most comprehensive Chinese internet slang dictionary for English speakers.">
+  <div class="meme-detail">
+    <div class="meme-header">
+      <h1 class="cn-name">About CNMemes</h1>
+      <div class="en-name">中文梗典 — Your Guide to Chinese Internet Culture</div>
+    </div>
+
+    <div class="meme-section">
+      <div class="section-title">What Is This?</div>
+      <p>
+        CNMemes is the most comprehensive English-language dictionary of Chinese internet memes, slang, and viral expressions. We currently have <strong>{totalCount} entries</strong> spanning <strong>{yearRange}</strong>, each with detailed explanations, cultural context, and real-world usage examples.
+      </p>
+    </div>
+
+    <div class="meme-section">
+      <div class="section-title">Why Does This Exist?</div>
+      <p>
+        Chinese internet culture is one of the richest and most creative in the world, but most of it is invisible to English speakers. When someone says "yyds" or "内卷" or "显眼包," there's a whole universe of meaning, history, and social context packed into those characters — meaning that gets lost without proper explanation.
+      </p>
+      <p style="margin-top:12px;">
+        We built CNMemes to bridge that gap. Whether you're learning Chinese, working with Chinese colleagues, studying Chinese media, or just curious about what's trending on Weibo and Douyin, this dictionary helps you understand not just what these words mean, but why they matter.
+      </p>
+    </div>
+
+    <div class="meme-section">
+      <div class="section-title">How We Work</div>
+      <p>
+        Every entry includes the Chinese original, pinyin pronunciation, an English equivalent, a conversational explanation written for people with zero China background, cultural context explaining the social forces behind the meme, and example sentences showing how it's actually used. We update monthly with new memes and slang.
+      </p>
+    </div>
+
+    <div class="meme-section">
+      <div class="section-title">Contact</div>
+      <p>
+        Found an error? Have a meme suggestion? Want to collaborate? Reach out at <strong>hello@cnmemes.com</strong>.
+      </p>
+    </div>
+  </div>
+</Base>

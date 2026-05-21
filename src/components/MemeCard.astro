@@ -1,0 +1,28 @@
+---
+interface Props {
+  slug: string;
+  chinese_name: string;
+  english_name: string;
+  pinyin: string;
+  english_explanation: string;
+  year: number;
+  status: string;
+  tags: string[];
+}
+
+const { slug, chinese_name, english_name, pinyin, english_explanation, year, status, tags } = Astro.props;
+
+const statusClass = status === 'still popular' ? 'popular' : status === 'fading' ? 'fading' : 'classic';
+---
+
+<a href={`/meme/${slug}`} class="meme-card">
+  <div class="card-cn">{chinese_name}</div>
+  <div class="card-en">{english_name}</div>
+  <div class="card-pinyin">{pinyin}</div>
+  <div class="card-excerpt">{english_explanation}</div>
+  <div class="card-meta">
+    <span class="tag tag-year">{year}</span>
+    <span class={`tag tag-${statusClass}`}>{status}</span>
+    {tags.slice(0, 2).map(t => <span class="tag tag-topic">{t}</span>)}
+  </div>
+</a>
