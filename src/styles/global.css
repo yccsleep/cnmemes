@@ -205,7 +205,7 @@ img { max-width: 100%; }
 /* ─── Hero ───────────────────────────────────────────────────── */
 .hero {
   text-align: center;
-  padding: 72px 28px 52px;
+  padding: 64px 28px 36px;
   background: linear-gradient(180deg, var(--bg-subtle) 0%, var(--bg) 100%);
 }
 
