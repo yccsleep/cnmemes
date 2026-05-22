@@ -82,6 +82,7 @@ const definedTermSchema = {
       <div class="meta-row">
         <span class="tag tag-year">{meme.year}</span>
         <span class={`tag tag-${statusClass}`}>{meme.status}</span>
+        <span style="color:#f0a500;font-size:16px;letter-spacing:2px;" title={`Popularity: ${meme.popularity}/5`}>{'★'.repeat(meme.popularity)}{'☆'.repeat(5-meme.popularity)}</span>
         {meme.tags.map(t => <a href={`/tag/${t}`} class="tag tag-topic">{t}</a>)}
       </div>
     </div>
@@ -125,6 +126,7 @@ const definedTermSchema = {
               year={m.year}
               status={m.status}
               tags={m.tags}
+              popularity={m.popularity}
             />
           ))}
         </div>

@@ -7,10 +7,15 @@ const years = [...new Set(memes.map(m => m.year))].sort((a, b) => b - a);
 const totalCount = memes.length;
 const currentYear = years[0];
 
-// Recent memes first
-const sortedMemes = [...memes].sort((a, b) => b.year - a.year);
+// Hot memes: popularity >= 3, sorted by popularity desc then year desc
+const hotMemes = [...memes]
+  .filter(m => m.popularity >= 4)
+  .sort((a, b) => b.popularity - a.popularity || b.year - a.year)
+  .slice(0, 20);
 
-// Stats
+// All memes: recent first
+const sortedMemes = [...memes].sort((a, b) => b.year - a.year || b.popularity - a.popularity);
+
 const statusCounts = {
   classic: memes.filter(m => m.status === 'classic').length,
   popular: memes.filter(m => m.status === 'still popular').length,
@@ -28,22 +33,35 @@ const statusCounts = {
     "description": "The most complete English-language dictionary of Chinese internet memes, from 2015 to today.",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": {
-        "@type": "EntryPoint",
-        "urlTemplate": "https://cnmemes.com/?search={search_term_string}"
-      },
+      "target": { "@type": "EntryPoint", "urlTemplate": "https://cnmemes.com/?search={search_term_string}" },
       "query-input": "required name=search_term_string"
     }
   })}></script>
 
+  <!-- Hero -->
   <section class="hero">
     <h1>What Do Chinese Internet Memes Mean?</h1>
     <p>The most complete English guide to Chinese internet memes — from <strong>内卷</strong> (involution) to <strong>yyds</strong> (GOAT), every meme explained with cultural context. Updated monthly.</p>
-    
     <div class="search-box">
       <input type="text" id="searchInput" placeholder="Search memes in Chinese, English, or Pinyin..." autocomplete="off" aria-label="Search Chinese memes" />
     </div>
   </section>
+
+  <!-- Hot memes ticker -->
+  <div class="hot-strip">
+    <div class="hot-label">🔥 Trending</div>
+    <div class="hot-track-wrap">
+      <div class="hot-track" id="hotTrack">
+        {[...hotMemes, ...hotMemes].map(m => (
+          <a href={`/meme/${m.slug}`} class="hot-item">
+            <span class="hot-cn">{m.chinese_name}</span>
+            <span class="hot-en">{m.english_name}</span>
+            <span class="hot-stars">{'★'.repeat(m.popularity)}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </div>
 
   <div class="container">
     <!-- Year pills -->
@@ -79,6 +97,7 @@ const statusCounts = {
           year={m.year}
           status={m.status}
           tags={m.tags}
+          popularity={m.popularity}
         />
       ))}
     </div>
@@ -88,7 +107,6 @@ const statusCounts = {
     const searchInput = document.getElementById('searchInput');
     const grid = document.getElementById('memeGrid');
     const cards = Array.from(grid.children);
-    
     searchInput.addEventListener('input', (e) => {
       const q = e.target.value.toLowerCase().trim();
       cards.forEach((card, i) => {
@@ -99,3 +117,96 @@ const statusCounts = {
     });
   </script>
 </Base>
+
+<style>
+/* Hot strip */
+.hot-strip {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  background: #1a0a0a;
+  border-top: 1px solid #3a1a1a;
+  border-bottom: 1px solid #3a1a1a;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.hot-label {
+  flex-shrink: 0;
+  background: var(--accent);
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 10px 16px;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  z-index: 2;
+}
+
+.hot-track-wrap {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.hot-track-wrap::before,
+.hot-track-wrap::after {
+  content: '';
+  position: absolute;
+  top: 0; bottom: 0;
+  width: 40px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.hot-track-wrap::before { left: 0; background: linear-gradient(to right, #1a0a0a, transparent); }
+.hot-track-wrap::after { right: 0; background: linear-gradient(to left, #1a0a0a, transparent); }
+
+.hot-track {
+  display: flex;
+  gap: 0;
+  animation: scroll-left 60s linear infinite;
+  width: max-content;
+}
+
+.hot-track:hover { animation-play-state: paused; }
+
+@keyframes scroll-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.hot-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-right: 1px solid #2a1a1a;
+  white-space: nowrap;
+  transition: background 0.2s;
+}
+
+.hot-item:hover {
+  background: rgba(194, 59, 34, 0.1);
+  text-decoration: none;
+}
+
+.hot-cn {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 15px;
+  color: #ffd166;
+  font-weight: 700;
+}
+
+.hot-en {
+  font-size: 12px;
+  color: #888;
+}
+
+.hot-stars {
+  font-size: 11px;
+  color: #f0a500;
+  letter-spacing: 1px;
+}
+</style>

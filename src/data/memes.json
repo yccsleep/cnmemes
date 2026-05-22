@@ -24,7 +24,8 @@
         "chinese": "身为创业狗，融资没消息，工资先欠着，但梦想不能停。",
         "english": "As a startup dog: no funding news, salary on hold, but the dream must go on."
       }
-    ]
+    ],
+    "popularity": 2
   },
   {
     "slug": "xiao-gong-ju",
@@ -51,7 +52,8 @@
         "chinese": "我们家小公举今天又在发脾气了。",
         "english": "Our little princess is throwing another fit today."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "ni-zheme-niubi-ni-jiali-ren-zhidao-ma",
@@ -78,7 +80,8 @@
         "chinese": "他刚开始学吉他就说自己天赋异禀，你这么牛逼你家里人知道吗？",
         "english": "He just started learning guitar and already thinks he's naturally gifted — does his family know he's such a genius?"
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "beijing-tan",
@@ -105,7 +108,8 @@
         "chinese": "周末就应该北京瘫，什么计划都不用有。",
         "english": "Weekends were made for the Beijing Slouch — no plans, no ambitions, just pure horizontal existence."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "badao-zongcai",
@@ -132,7 +136,8 @@
         "chinese": "霸道总裁爱上我？拜托，他连我的名字都记不住。",
         "english": "Domineering CEO falls for me? Please — he can't even remember my name."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "sha-bai-tian",
@@ -159,7 +164,8 @@
         "chinese": "这部剧的女主太傻白甜了，遇到什么事都靠男主来解决。",
         "english": "The female lead in this drama is such a 傻白甜 — she relies on the male lead to rescue her from literally everything."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "mali-su",
@@ -186,7 +192,8 @@
         "chinese": "我今天运气好得不行，感觉自己开启了玛丽苏模式。",
         "english": "My luck was insane today — I felt like I'd switched on full Mary Sue mode."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "tu-yang-tu-sen-po",
@@ -213,7 +220,8 @@
         "chinese": "他真的觉得那个项目一个月就能做完，图样图森破。",
         "english": "He genuinely thought the project could be done in a month — too young, too simple, sometimes naive."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "meng-meng-da",
@@ -240,7 +248,8 @@
         "chinese": "这只小猫咪缩成一团睡觉，萌萌哒，我心都化了。",
         "english": "That kitten curled up napping is so freaking cute, my heart just melted."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "me-me-da",
@@ -267,7 +276,8 @@
         "chinese": "宝贝，晚安么么哒，做个好梦哦～",
         "english": "Goodnight babe, kiss kiss, sweet dreams~"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "nuan-nan",
@@ -294,7 +304,8 @@
         "chinese": "现在的女生都喜欢暖男，不喜欢那种大男子主义的。",
         "english": "Girls these days prefer a '暖男' over the macho, my-way-or-the-highway type."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "nv-shen",
@@ -321,7 +332,8 @@
         "chinese": "今天化了个美美的妆，感觉自己就是女神！",
         "english": "Put on a full glam look today — feeling like an absolute goddess!"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "nan-shen",
@@ -348,7 +360,8 @@
         "chinese": "吴彦祖在我心里永远是男神级别的存在。",
         "english": "Daniel Wu will forever be god-tier dream guy material in my eyes."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "bai-fu-mei",
@@ -375,7 +388,8 @@
         "chinese": "我就是个普通人，怎么可能找到白富美当女朋友呢？",
         "english": "I'm just an average guy — how could I ever land a 白富美 girlfriend?"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "gao-fu-shuai",
@@ -402,7 +416,8 @@
         "chinese": "我既不高也不富也不帅，感情上的事就随缘吧。",
         "english": "I'm not tall, not rich, and not handsome — I'll just let fate handle my love life."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "zhai-nv",
@@ -429,7 +444,8 @@
         "chinese": "朋友叫我去爬山，我这个宅女哪受得了，借口头疼就拒绝了。",
         "english": "My friend invited me hiking, but as a true homebody girl I couldn't handle it — I made up a headache and turned her down flat."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "zhai-nan",
@@ -456,7 +472,8 @@
         "chinese": "宅男的快乐你不懂，一个人、一台电脑、一箱泡面就够了。",
         "english": "You wouldn't understand the joy of being a 宅男 — just me, my PC, and a crate of instant noodles. Life's complete."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "si-zhai",
@@ -483,7 +500,8 @@
         "chinese": "我已经连续五天没出门了，果然是个死宅。",
         "english": "I haven't left the house in five days straight — guess I really am a hardcore homebody."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "san-ci-yuan",
@@ -510,7 +528,8 @@
         "chinese": "三次元根本找不到这么完美的人，还是二次元好。",
         "english": "You'd never find someone this perfect in the real world; 2D is just better."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "er-ci-yuan",
@@ -537,7 +556,8 @@
         "chinese": "这家奶茶店的装修风格好二次元，全是动漫人物。",
         "english": "This bubble tea shop's decor is so 2D-world — anime characters absolutely everywhere."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "luo-li",
@@ -564,7 +584,8 @@
         "chinese": "这部动漫里的萝莉角色太可爱了，已经成为本季最火的人物。",
         "english": "The loli character in this anime is so adorable — she's become the most popular figure of the season."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "zheng-tai",
@@ -591,7 +612,8 @@
         "chinese": "他虽然已经二十五岁了，但长相还是正太脸，根本不像成年人。",
         "english": "He's already 25, but his face is still so boyishly pretty that he looks nothing like an adult."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "yu-jie",
@@ -618,7 +640,8 @@
         "chinese": "她说话的方式好有御姐感，让人忍不住想听她的。",
         "english": "The way she speaks has such a 御姐 vibe — you just can't help but want to do what she says."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "meng-mei-zi",
@@ -645,7 +668,8 @@
         "chinese": "直播间里那个萌妹子弹游戏比我厉害多了。",
         "english": "That cute girl in the livestream is way better at the game than I am."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "nv-han-zi",
@@ -672,7 +696,8 @@
         "chinese": "别看她平时大大咧咧的，典型女汉子，其实内心也很细腻。",
         "english": "Don't let her rough-and-ready attitude fool you — she's a total 女汉子 on the outside but surprisingly sensitive deep down."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "qi-pa",
@@ -699,7 +724,8 @@
         "chinese": "奇葩说里那些选手真的很厉害，观点都超出人意料。",
         "english": "The contestants on '奇葩说' are genuinely impressive — their arguments always catch you completely off guard."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "dou-bi",
@@ -726,7 +752,8 @@
         "chinese": "算了，我就是个逗比，认了。",
         "english": "Whatever, I'm just a dork — I own it."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "xue-zha",
@@ -753,7 +780,8 @@
         "chinese": "学霸熬夜是为了刷题，学渣熬夜是为了打游戏。",
         "english": "The 学霸 pulls an all-nighter grinding practice problems; the 学渣 pulls an all-nighter grinding video games."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "xueba",
@@ -780,7 +808,8 @@
         "chinese": "室友是学霸，期末考前一天才开始复习，结果还拿了满分。",
         "english": "My roommate is a total academic overlord — started reviewing the night before finals and still got a perfect score."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "xinji-biao",
@@ -807,7 +836,8 @@
         "chinese": "哈哈我抢先占了最后一块蛋糕，我真是个心机婊。",
         "english": "Haha, I sneakily grabbed the last piece of cake — I'm such a calculating little schemer."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "lv-cha-biao",
@@ -834,7 +864,8 @@
         "chinese": "那个新来的同事在男领导面前娇滴滴的，背后却抢功劳，真是绿茶婊本茶。",
         "english": "That new coworker acts all sweet and delicate in front of the male managers, but steals credit behind their backs — a true green tea b*tch through and through."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "baobao-xinli-ku",
@@ -861,7 +892,8 @@
         "chinese": "相亲对象完全不是我喜欢的类型，宝宝心里苦。",
         "english": "The blind date they set me up with is absolutely not my type. Baby is suffering inside."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "lei-jue-bu-ai",
@@ -888,7 +920,8 @@
         "chinese": "加班加到这种程度，哪有时间谈恋爱，累觉不爱。",
         "english": "Working overtime this much, who has time for romance? I'm too tired to even think about love."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "xin-sai",
@@ -915,7 +948,8 @@
         "chinese": "刚发现自己昨天交的报告发错文件了，心塞到不行。",
         "english": "I just realized I submitted the wrong file in yesterday's report. My heart literally cannot."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "zui-xuan-minzu-feng",
@@ -942,7 +976,8 @@
         "chinese": "这个视频配上最炫民族风简直绝了，笑死我了。",
         "english": "This video paired with 'The Most Dazzling Ethnic Style' is absolutely perfect — I'm dying of laughter."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "jiangnan-style",
@@ -969,7 +1004,8 @@
         "chinese": "他穿得一身江南style，结果地铁都坐不起。",
         "english": "He's dressed head-to-toe in that upscale 'Jiangnan Style' look, but can barely afford the subway fare."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "xiao-pingguo",
@@ -996,7 +1032,8 @@
         "chinese": "广场上的大妈们又在跳小苹果了，热闹得很。",
         "english": "The aunties in the square are doing their 'Little Apple' dance again — the whole place is buzzing with energy."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "tfboys",
@@ -1023,7 +1060,8 @@
         "chinese": "2015年的微博简直就是TFBOYS的主场，粉丝多得吓人。",
         "english": "Weibo in 2015 was basically TFBOYS's home turf — the sheer number of fans was overwhelming."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "zhen-huan-ti",
@@ -1050,7 +1088,8 @@
         "chinese": "那奶茶铺子的珍珠，甚是讨本宫欢心，明日还要再去。",
         "english": "The pearls in that tea shop's drink have greatly pleased this empress; I shall return again tomorrow."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "yuan-fang-ni-zenme-kan",
@@ -1077,7 +1116,8 @@
         "chinese": "领导又开了两小时会什么都没决定，元芳你怎么看？",
         "english": "The boss held a two-hour meeting and decided absolutely nothing — Yuan Fang, what do you think?"
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "jia-junpeng",
@@ -1104,7 +1144,8 @@
         "chinese": "别打游戏了，贾君鹏附体啊你？你妈喊你回家吃饭呢。",
         "english": "Stop gaming — are you possessed by Jia Junpeng? Your mom is calling you home for dinner."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "huo-jiu-jian",
@@ -1130,7 +1171,8 @@
         "chinese": "公司老板给大家发了双倍奖金，活久见。",
         "english": "The boss actually gave everyone double bonuses. I've officially lived long enough to see the impossible."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "tu-hao",
@@ -1157,7 +1199,8 @@
         "chinese": "土豪，我们做朋友吧！你请客！",
         "english": "Hey big spender, let's be friends — you're buying!"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "ni-xi",
@@ -1184,7 +1227,8 @@
         "chinese": "这部剧讲的就是丑小鸭逆袭成女神的故事，看得我热血沸腾。",
         "english": "This drama is all about an ugly duckling's 逆袭 into a goddess — I was pumped watching every minute of it."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "diao-si",
@@ -1211,7 +1255,8 @@
         "chinese": "屌丝也有春天，努力总会有回报的。",
         "english": "Even underdogs get their spring — hard work eventually pays off."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "yi-zu",
@@ -1238,7 +1283,8 @@
         "chinese": "北京的蚁族越来越多，房租涨得他们根本喘不过气来。",
         "english": "The Ant Tribe in Beijing keeps growing; rising rents are squeezing the life out of them."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "bei-piao",
@@ -1265,7 +1311,8 @@
         "chinese": "每次回老家过年，亲戚问我混得怎么样，我只能苦笑说还在漂着呢。",
         "english": "Every time I go home for the New Year, relatives ask how I'm doing, and all I can do is smile bitterly and say I'm still drifting."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "mogu-tou",
@@ -1292,7 +1339,8 @@
         "chinese": "每天上班下班，工资不涨，我已经蘑菇头附体了。",
         "english": "Same commute, same pay, no raises in sight — the spirit of Mushroom Head has fully possessed me."
       }
-    ]
+    ],
+    "popularity": 2
   },
   {
     "slug": "jin-guanzhang",
@@ -1319,7 +1367,8 @@
         "chinese": "周五下班前被要求加班，我整个人都金馆长了。",
         "english": "Asked to work overtime right before Friday clocks out — I've fully turned into Director Kim."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "biao-qing-bao",
@@ -1346,7 +1395,8 @@
         "chinese": "你的表情包库存有多少？随时准备开战！",
         "english": "How big is your meme pack stash? Ready for a meme war anytime!"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "lao-siji-dai-dai-wo",
@@ -1373,7 +1423,8 @@
         "chinese": "第一次相亲，完全不知道怎么办，老司机带带我。",
         "english": "It's my first blind date and I have absolutely no idea what I'm doing — Old Driver, show me the way."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "lao-siji",
@@ -1400,7 +1451,8 @@
         "chinese": "老司机带带我，我是新手上路。",
         "english": "Veteran, take me under your wing — I'm just a newbie on the road."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "yan-zhi-ji-zhengyi",
@@ -1427,7 +1479,8 @@
         "chinese": "面试官一看到她就笑了，颜值即正义这话真没错。",
         "english": "The interviewer lit up the moment he saw her. 'Looks are justice' really isn't just a saying."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "o2o-wu-tu-wu",
@@ -1454,7 +1507,8 @@
         "chinese": "2015年但凡沾上O2O两个字，投资人就疯狂追捧。",
         "english": "Back in 2015, slap the letters O2O on anything and investors would throw money at you without blinking."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "hulianwang-jia",
@@ -1481,7 +1535,8 @@
         "chinese": "我们公司准备做互联网+养老，用APP帮老人预约按摩服务。",
         "english": "Our company is launching an Internet Plus eldercare project — basically an app that lets seniors book massages."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "zhuyao-kan-qizhi",
@@ -1508,7 +1563,8 @@
         "chinese": "我穿这件衣服可能不好看，但主要看气质。",
         "english": "This outfit might not be the most stylish on me, but hey, it's mainly about the aura."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "zhuizi-lian",
@@ -1535,7 +1591,8 @@
         "chinese": "现在的网红都是锥子脸大眼睛，根本分不清谁是谁。",
         "english": "All these influencers have the same awl face and big eyes — you literally can't tell them apart."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "wang-hong-lian",
@@ -1562,7 +1619,8 @@
         "chinese": "现在直播平台上的女主播几乎都是网红脸，分不清谁是谁。",
         "english": "Almost every female streamer on the live platforms has that influencer face now — you literally can't tell them apart."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "xiao-xian-rou",
@@ -1589,7 +1647,8 @@
         "chinese": "品牌现在都爱找小鲜肉代言，流量高，女粉丝买账。",
         "english": "Brands these days love signing fresh meat as spokespeople — huge traffic, and the female fans absolutely open their wallets."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ge-you-tan",
@@ -1616,7 +1675,8 @@
         "chinese": "期末考试结束，整个人葛优瘫，啥都不想干。",
         "english": "Finals are over — full Ge You Slump mode activated, I don't want to do a single thing."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "shijie-name-da-wo-xiang-qu-kankan",
@@ -1643,7 +1703,8 @@
         "chinese": "领导又加班？世界那么大我想去看看，但房贷还没还完。",
         "english": "Another overtime request from the boss? The world is so big and I want to go see it, but my mortgage isn't going to pay itself."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "wo-de-neixin-jihu-shi-bengkui-de",
@@ -1670,7 +1731,8 @@
         "chinese": "老板让我周末加班，我笑着答应，但我的内心几乎是崩溃的。",
         "english": "I smiled and agreed when my boss asked me to work the weekend, but inside I was basically falling apart."
       }
-    ]
+    ],
+    "popularity": 2
   },
   {
     "slug": "zhong-yao-de-shi-qing-shuo-san-bian",
@@ -1697,7 +1759,8 @@
         "chinese": "不要忘记带身份证！不要忘记带身份证！不要忘记带身份证！重要的事情说三遍。",
         "english": "Don't forget your ID! Don't forget your ID! Don't forget your ID! Important things must be said three times."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ran-bing-luan",
@@ -1724,7 +1787,8 @@
         "chinese": "我背了一整晚的单词，然并卵，考试还是不及格。",
         "english": "I crammed vocabulary all night long — so what, I still failed the exam."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "duang",
@@ -1751,7 +1815,8 @@
         "chinese": "这部电影的特效duang duang的，看得我眼睛都花了。",
         "english": "The special effects in this movie are pure duang — my eyes can't even handle it.chinese_name"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "me-me-zha",
@@ -1778,7 +1843,8 @@
         "chinese": "又帮我解决了难题，么么扎，爱你这个小天才！",
         "english": "You solved my problem again — kiss-stab, love you, you little genius!"
       }
-    ]
+    ],
+    "popularity": 2
   },
   {
     "slug": "li-hai-le",
@@ -1805,7 +1871,8 @@
         "chinese": "他又在朋友圈晒豪车，厉害了我的哥。",
         "english": "He's showing off a luxury car on WeChat Moments again — wow, quite the big shot, huh."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "honghuang-jie",
@@ -1832,7 +1899,8 @@
         "chinese": "期末考试复习了三天，感觉自己就是洪荒姐附体，随时要崩溃。",
         "english": "Three days of exam cramming and I've fully become the Primordial Sister — total collapse imminent."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "fu-yuanhui",
@@ -1859,7 +1927,8 @@
         "chinese": "期末考试前我的表情就是傅园慧本慧。",
         "english": "My face before finals is pure Fu Yuanhui energy."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "wang-jianlin-yi-ge-yi",
@@ -1886,7 +1955,8 @@
         "chinese": "老板说今年的目标很简单，我还以为是王健林附体呢。",
         "english": "The boss said this year's target is 'simple' — for a second I thought Wang Jianlin had possessed him."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "xianggu",
@@ -1913,7 +1983,8 @@
         "chinese": "周一又来了，香菇😢",
         "english": "Monday is here again. Mushroom. (a.k.a. I want to cry.)"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "lan-shou",
@@ -1940,7 +2011,8 @@
         "chinese": "考试又没过，真的蓝瘦，香菇死了。",
         "english": "Failed the exam again — I'm beyond devastated, I could just dissolve into a pile of mushrooms."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "xian-yu-tan",
@@ -1967,7 +2039,8 @@
         "chinese": "加完这周的班，我整个人直接咸鱼瘫在沙发上，连外卖都懒得点。",
         "english": "After all those overtime hours this week, I collapsed onto the couch like a salted fish — too lazy to even order delivery."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "xiao-er-bu-yu",
@@ -1994,7 +2067,8 @@
         "chinese": "朋友问我为什么还单身，我笑而不语，转身离开。",
         "english": "My friend asked why I'm still single. I just smiled silently and walked away."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "liang-liang",
@@ -2021,7 +2095,8 @@
         "chinese": "昨晚没睡好，今天的考试肯定凉凉。",
         "english": "Didn't sleep well last night — today's exam is absolutely cooked."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "wen-ru-lao-gou",
@@ -2048,7 +2123,8 @@
         "chinese": "股票又跌了20%，他稳如老狗，继续吃着泡面。",
         "english": "His stocks dropped another 20%, but he was steady as an old dog, just kept eating his instant noodles."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "la-ji",
@@ -2075,7 +2151,8 @@
         "chinese": "辣鸡队友，每次都是他把局势搞砸的。",
         "english": "What a garbage teammate — he's the one who ruins every match."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "la-yanjing",
@@ -2102,7 +2179,8 @@
         "chinese": "刚刷到一段尬舞视频，辣眼睛到我赶紧划走了。",
         "english": "I just scrolled past the most cringe-worthy awkward dance video — it was so eye-searing I swiped away immediately."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "b-zhan",
@@ -2129,7 +2207,8 @@
         "chinese": "他在B站上传了一个鬼畜视频，几天内就爆火了。",
         "english": "He uploaded a crazy remix video to Bilibili and it went viral within days."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "gui-chu",
@@ -2156,7 +2235,8 @@
         "chinese": "他整天看鬼畜视频，脑子都被那些魔性音乐洗坏了。",
         "english": "He spends all day watching 鬼畜 videos — his brain has been completely scrambled by all those hypnotic beats."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "tianyuan-nvquan",
@@ -2183,7 +2263,8 @@
         "chinese": "真正的女权追求平等，田园女权只想要特权。",
         "english": "Real feminism pursues equality; 'pastoral feminism' just wants privileges."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "zhi-nan-ai",
@@ -2210,7 +2291,8 @@
         "chinese": "你觉得女生化妆是骗人？你这直男癌得治了。",
         "english": "You think women wearing makeup is deceptive? Your straight-male syndrome seriously needs treatment."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "gangtie-zhinan",
@@ -2237,7 +2319,8 @@
         "chinese": "钢铁直男永远不懂为什么女朋友需要那么多口红颜色。",
         "english": "A Steel-Bro will never understand why his girlfriend needs so many shades of lipstick."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "zha-xin-le-lao-tie",
@@ -2264,7 +2347,8 @@
         "chinese": "看到同龄人已经买房买车，扎心了老铁。",
         "english": "Seeing people my age already owning houses and cars — that one stabs deep, man."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "zha-xin-le",
@@ -2291,7 +2375,8 @@
         "chinese": "又到年底，钱包还是空的，扎心了老铁。",
         "english": "Year-end again, wallet still empty — that really hits, man."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ga-wu",
@@ -2318,7 +2403,8 @@
         "chinese": "老板说要开会，结果变成了尬舞大赛，这公司真的太魔幻了。",
         "english": "The boss said we were having a meeting, but it turned into an awkward dance-off — this company is genuinely surreal."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ga-liao",
@@ -2345,7 +2431,8 @@
         "chinese": "每次跟暗恋对象发消息都变成尬聊，我感觉自己真的不行。",
         "english": "Every time I text my crush it turns into a cringe-fest. I'm starting to think I'm just fundamentally bad at this."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "gou-dai",
@@ -2372,7 +2459,8 @@
         "chinese": "又要加班到凌晨，我真的狗带算了。",
         "english": "Working overtime until midnight again — I might as well just drop dead."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "xi-si-ji-kong",
@@ -2399,7 +2487,8 @@
         "chinese": "这部电影里的反派其实一直在帮主角，细思极恐啊。",
         "english": "The villain in this movie was actually helping the protagonist all along — the more you think about it, the creepier it is."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "bu-ming-jue-li",
@@ -2426,7 +2515,8 @@
         "chinese": "看完大神的代码，完全不明觉厉，只能默默点赞。",
         "english": "After reading the master coder's work, I was totally lost but deeply impressed — silently hit the like button and moved on."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "xi-da-pu-ben",
@@ -2453,7 +2543,8 @@
         "chinese": "公司宣布今年多放一天假，全体员工喜大普奔。",
         "english": "The company announced an extra day off this year, and every single employee is absolutely ecstatic."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "ren-jian-bu-chai",
@@ -2480,7 +2571,8 @@
         "chinese": "别跟他说那家店早就倒闭了，人艰不拆，让他开心一会儿。",
         "english": "Don't tell him that shop closed long ago — life is hard enough, let the guy be happy for a moment."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "shao-yi-dian-tao-lu-duo-yi-dian-zhen-cheng",
@@ -2507,7 +2599,8 @@
         "chinese": "跟你谈了半天，希望你少一点套路，多一点真诚，我不想被当成傻瓜。",
         "english": "After all this talking, I just want you to be straight with me — less games, more honesty. I'm not an idiot."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "man-man-de-tao-lu",
@@ -2534,7 +2627,8 @@
         "chinese": "这广告看起来感人，其实满满的套路，就是为了卖东西。",
         "english": "This ad looks touching, but it's just tricks all the way down — purely engineered to sell you something."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "tao-lu",
@@ -2561,7 +2655,8 @@
         "chinese": "满满的都是套路，可我就是喜欢。",
         "english": "It's nothing but games, and yet… I love it anyway."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "liu-liu-liu",
@@ -2588,7 +2683,8 @@
         "chinese": "你居然记住了所有人的生日，666啊。",
         "english": "You actually remembered everyone's birthday? That's seriously impressive, 666!"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "shuang-ji-liu-liu-liu",
@@ -2615,7 +2711,8 @@
         "chinese": "老板今天给大家发奖金，双击666走起！",
         "english": "The boss handed out bonuses today — double-tap 666, let's go!"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "lao-tie-mei-mao-bing",
@@ -2642,7 +2739,8 @@
         "chinese": "你帮我提前订好票了？老铁没毛病，靠谱！",
         "english": "You already booked the tickets for me? Bro, no problems — you're the real deal!"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "lao-tie",
@@ -2669,7 +2767,8 @@
         "chinese": "老铁们，今晚直播见，不见不散！",
         "english": "Homies, see you all at tonight's livestream — don't you dare miss it!"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "bu-ming-zhen-xiang-de-chi-gua-qun-zhong",
@@ -2696,7 +2795,8 @@
         "chinese": "又有明星出事了？吃瓜群众已就位，等待真相浮出水面。",
         "english": "Another celebrity scandal? The melon-eating crowd is in position, waiting for the truth to surface."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "chi-gua-qunzhong",
@@ -2723,7 +2823,8 @@
         "chinese": "公司高层内斗跟我没关系，我就吃瓜看戏就好了。",
         "english": "The power struggle among the company executives has nothing to do with me — I'll just sit back, eat my melon, and enjoy the show."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "youyi-de-xiaochuan-shuo-fan-jiu-fan",
@@ -2750,7 +2851,8 @@
         "chinese": "他居然站我对家那边，友谊的小船说翻就翻啊。",
         "english": "He actually took the other side against me — and just like that, our friendship boat went under."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "honghuang-shaonv",
@@ -2777,7 +2879,8 @@
         "chinese": "她用洪荒之力备考，终于考上了理想的大学。",
         "english": "She summoned every ounce of her primordial power to study for the exam and finally got into her dream university."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "hong-huang-zhi-li",
@@ -2804,7 +2907,8 @@
         "chinese": "减肥这件事我用了洪荒之力，结果只瘦了一斤。",
         "english": "I summoned the primordial force of the universe to lose weight, and I dropped a whole pound."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "li-hai-le-wo-de-ge",
@@ -2831,7 +2935,8 @@
         "chinese": "他居然把老板的名字写错了，厉害了我的哥。",
         "english": "He actually misspelled the boss's name — well, aren't you just impressive, buddy."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "ge-you-tang",
@@ -2858,7 +2963,8 @@
         "chinese": "假期最后一天，什么都不想做，就想葛优躺一整天。",
         "english": "On the last day of the holiday, I don't want to do anything — just lie there like Ge You all day long."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "xian-zheng-ta-yi-ge-yi",
@@ -2885,7 +2991,8 @@
         "chinese": "定个小目标，先挣它一个亿吧！",
         "english": "Set yourself a modest little goal — first, let's rake in 100 million yuan!"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "ding-ge-xiao-mubiao",
@@ -2912,7 +3019,8 @@
         "chinese": "他说先定个小目标，结果目标是买套北京的房子。",
         "english": "He said he just wanted to set a modest little goal — turns out the goal was buying an apartment in Beijing."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "xiao-mubiao",
@@ -2939,7 +3047,8 @@
         "chinese": "我也给自己定了个小目标：先把信用卡还清。",
         "english": "I've set myself a small goal too: pay off my credit card first."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "lan-shou-xianggu",
@@ -2965,7 +3074,8 @@
         "chinese": "失恋第三天，蓝瘦香菇，感觉整个人都不好了。",
         "english": "Day three after the breakup. Feeling like a sad little mushroom. Everything is wrong.chinese_name"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "emmm",
@@ -2992,7 +3102,8 @@
         "chinese": "他又发了张自拍说自己很low-key，emmm，好吧。",
         "english": "He posted another selfie saying he's super low-key... emmm, sure."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "si-ka",
@@ -3019,7 +3130,8 @@
         "chinese": "skr skr，老板今天夸我了，我直接起飞。",
         "english": "Skr skr, the boss complimented me today — I'm absolutely vibing right now."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "yinxing-pinkun-renkou",
@@ -3046,7 +3158,8 @@
         "chinese": "别看她穿得这么好，其实是隐形贫困人口，信用卡都快刷爆了。",
         "english": "Don't let the outfits fool you — she's secretly broke, nearly maxed out every credit card she owns."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "fo-xi-shenghuo",
@@ -3073,7 +3186,8 @@
         "chinese": "他追我追得很热情，但我现在是佛系生活，无所谓了。",
         "english": "He's been chasing me pretty hard, but I'm on my whole Buddhist-chill thing now — I really couldn't care less."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "fo-xi-qing-nian",
@@ -3100,7 +3214,8 @@
         "chinese": "佛系青年喝咖啡：有就喝，没有也行，加糖不加糖都一样。",
         "english": "The Buddhist-style youth orders coffee: if it's there, great; if not, fine; sugar or no sugar — truly doesn't matter."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "fo-xi",
@@ -3127,7 +3242,8 @@
         "chinese": "我现在完全佛系了，升不升职都无所谓。",
         "english": "I've gone full Buddhist-mode — whether I get promoted or not, I honestly couldn't care less."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "xia-tou",
@@ -3154,7 +3270,8 @@
         "chinese": "这个明星塌房之后，粉丝们纷纷表示下头，取关走人。",
         "english": "After that celebrity's scandal broke, fans said they were done with him and unfollowed en masse."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "shang-tou",
@@ -3181,7 +3298,8 @@
         "chinese": "我对他真的上头了，脑子里全是他的事。",
         "english": "I'm totally head-over-heels for him; I can't stop thinking about him."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "da-lian",
@@ -3208,7 +3326,8 @@
         "chinese": "专家预测今年经济会大涨，结果跌成这样，打脸打得太响了。",
         "english": "The expert predicted the economy would soar this year, but it tanked this hard — that's one loud slap to the face."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "zuo-si",
@@ -3235,7 +3354,8 @@
         "chinese": "别作死了，都快考试了你还在打游戏？",
         "english": "Stop courting disaster — exams are coming and you're still gaming?"
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "hua-shi-zuo-si",
@@ -3262,7 +3382,8 @@
         "chinese": "我昨晚熬夜打游戏，今早迟到被经理当众点名，感觉自己在花式作死。",
         "english": "I stayed up all night gaming and showed up late this morning — got called out by the manager in front of everyone. I'm basically self-destructing in the most creative ways possible."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "ao-zui-chang-de-ye-yong-zui-gui-de-huazhuangpin",
@@ -3289,7 +3410,8 @@
         "chinese": "熬最长的夜，用最贵的化妆品，这就是我们这代人的养生之道。",
         "english": "Pulling the longest all-nighters and buying the priciest skincare — that's basically our generation's idea of 'taking care of ourselves.'"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "tuo-fa-jiao-lv",
@@ -3316,7 +3438,8 @@
         "chinese": "程序员标配：格子衬衫、黑眼圈，还有挥之不去的脱发焦虑。",
         "english": "The programmer starter pack: plaid shirt, dark circles, and ever-present hair loss anxiety."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "tu-tou",
@@ -3343,7 +3466,8 @@
         "chinese": "程序员秃头是行业特色，我已经认命了。",
         "english": "Going bald is just an occupational hazard for programmers — I've made my peace with it."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "chengnian-ren-de-bengkui",
@@ -3370,7 +3494,8 @@
         "chinese": "今天在地铁里差点崩了，但还是忍住了，毕竟是成年人的崩溃，不能让人看见。",
         "english": "Almost lost it on the subway today, but held it together — adult breakdowns aren't meant to be witnessed."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "youqu-de-linghun",
@@ -3397,7 +3522,8 @@
         "chinese": "他自称有趣的灵魂，结果聊了三句就开始推销保险。",
         "english": "He called himself 'an interesting soul,' but three sentences in he was already selling insurance."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "hao-kan-de-pi-nang-qian-pian-yi-lv-you-qu-de-ling-hun-wan-li-tiao-yi",
@@ -3424,7 +3550,8 @@
         "chinese": "他长得一般，但特别有意思，真是好看的皮囊千篇一律，有趣的灵魂万里挑一啊。",
         "english": "He's not particularly good-looking, but he's incredibly interesting — truly a case of pretty faces being common while a fascinating soul is rare."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "li-hai-le-wo-de-guo",
@@ -3451,7 +3578,8 @@
         "chinese": "外卖30分钟送到，厉害了我的国。",
         "english": "Food delivery in 30 minutes — truly, my country is something else."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "zhan-lang-er",
@@ -3478,7 +3606,8 @@
         "chinese": "现在有些外交官说话越来越战狼风格，让人看了又尴尬又好笑。",
         "english": "Some diplomats these days are leaning so hard into the Wolf Warrior style that it's equal parts cringeworthy and hilarious to watch."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "zan-ye-bu-gan-wen",
@@ -3505,7 +3634,8 @@
         "chinese": "群里发了个奇怪的通知，咱也不敢问是啥意思，默默照做就好。",
         "english": "A bizarre announcement appeared in the group chat. I dare not ask what it means — I'll just quietly comply."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "zan-ye-bu-zhidao",
@@ -3532,7 +3662,8 @@
         "chinese": "这道数学题怎么解？咱也不知道，反正就交白卷吧。",
         "english": "How do you solve this math problem? Don't ask me — I'm just handing in a blank sheet."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "hao-hai-yo",
@@ -3559,7 +3690,8 @@
         "chinese": "周末终于不用上班，好嗨哟！",
         "english": "Finally a weekend with no work — feeling SO high right now!"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "pao-xiao-ti",
@@ -3586,7 +3718,8 @@
         "chinese": "凭什么我要忍受这一切！我也是有尊严的人好不好！！！",
         "english": "Why do I have to put up with all this! I'm a person with dignity too, okay!!!"
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "beiaoer",
@@ -3613,7 +3746,8 @@
         "chinese": "我今天穿了新款球鞋出门，感觉自己有点battle。",
         "english": "I wore my new sneakers out today and honestly felt a little show-offy myself."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "diss",
@@ -3640,7 +3774,8 @@
         "chinese": "别以为发条推文就算diss了，你得有实力才行。",
         "english": "Don't think posting a tweet counts as a diss — you actually need to back it up."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "zhongguo-you-xiha",
@@ -3667,7 +3802,8 @@
         "chinese": "自从看了中国有嘻哈，我同事开会都开始押韵了。",
         "english": "Ever since The Rap of China aired, my coworkers have started rhyming in meetings."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ni-you-freestyle-ma",
@@ -3694,7 +3830,8 @@
         "chinese": "面试官突然让我现场写代码，那一刻感觉自己需要freestyle。",
         "english": "The interviewer suddenly asked me to code on the spot — that was the moment I realized I needed some serious freestyle."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "freestyle-fu-li-si-tai-er",
@@ -3721,7 +3858,8 @@
         "chinese": "你做饭有没有freestyle？能不能不按食谱来？",
         "english": "Can you freestyle your cooking? Like, not follow the recipe for once?"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ying-he",
@@ -3748,7 +3886,8 @@
         "chinese": "他不用任何框架，纯手写代码完成了整个项目，硬核程序员。",
         "english": "He wrote the entire project from scratch without any framework — a true hardcore programmer."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "qiu-sheng-yu-hen-qiang",
@@ -3775,7 +3914,8 @@
         "chinese": "老板刚批评完方案，他马上说'您说得对，我回去彻底改'，求生欲很强啊。",
         "english": "The second the boss criticized his proposal, he said 'You're absolutely right, I'll redo the whole thing' — classic survival mode activated."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "qiu-sheng-yu",
@@ -3802,7 +3942,8 @@
         "chinese": "跟女朋友吵架的时候，不管对不对都要先道歉，这就是求生欲。",
         "english": "When arguing with your girlfriend, apologize first no matter who's right — that's what survival instinct looks like."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "xiao-que-sang",
@@ -3829,7 +3970,8 @@
         "chinese": "好不容易等到周末想睡个懒觉，结果楼上装修队八点准时开工，小确丧实名制。",
         "english": "I finally had a weekend to sleep in, and the renovation crew upstairs started drilling at 8 a.m. on the dot. Certified, registered petite despair."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "sang-wenhua",
@@ -3856,7 +3998,8 @@
         "chinese": "我的人生已经烂透了，但我还是要把这杯奶茶喝完。",
         "english": "My life is a complete mess, but I'm still going to finish this bubble tea."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "sang",
@@ -3883,7 +4026,8 @@
         "chinese": "我的人生目标就是活着，其他的随缘吧。",
         "english": "My life goal is simply to exist. Everything else is up to fate, I guess."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "jia-xi",
@@ -3910,7 +4054,8 @@
         "chinese": "你们两个都分手了，她还在评论区加戏，真的绷不住了。",
         "english": "They already broke up, and she's still out there adding drama in the comment section — I can't even."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "xi-jing-shang-shen",
@@ -3937,7 +4082,8 @@
         "chinese": "我今天真的戏精上身了，在公司开会突然想哭，不知道为什么。",
         "english": "The drama spirit totally possessed me today — I randomly felt like crying in the middle of a work meeting for absolutely no reason."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "xi-jing",
@@ -3964,7 +4110,8 @@
         "chinese": "我们组的戏精又在群里发长篇感言了，这次是因为打印机卡纸。",
         "english": "The office drama queen posted another emotional essay in the group chat — this time because the printer jammed."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "penke-yangsheng",
@@ -3991,7 +4138,8 @@
         "chinese": "烫完头发立刻抹护发精华，朋克养生的精髓就是边伤害边修复。",
         "english": "Got my hair bleached and immediately slathered on a hair serum — the essence of punk wellness is damaging and repairing yourself at the same time."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "yang-sheng-peng-ke",
@@ -4018,7 +4166,8 @@
         "chinese": "喝完奶茶马上吃一片维生素，这就是我们养生朋克的日常。",
         "english": "Chug a bubble tea, immediately chase it with a vitamin tablet — that's just the daily routine of us wellness punks."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "baowen-bei-li-pao-gouqi",
@@ -4045,7 +4194,8 @@
         "chinese": "曾经喝酒蹦迪，现在保温杯里泡枸杞，这就是生活。",
         "english": "I used to drink and club all night; now it's wolfberries in a thermos. That's life for you."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "bao-wen-bei",
@@ -4072,7 +4222,8 @@
         "chinese": "曾经的摇滚青年，如今端着保温杯养生，岁月真是把杀猪刀啊。",
         "english": "Once a rock-and-roll youth, now sipping health tonics from a thermos — time really is merciless."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "zhongnian-youni-nan",
@@ -4099,7 +4250,8 @@
         "chinese": "他留着大背头，穿着皱巴巴的衬衫，活脱脱一个中年油腻男。",
         "english": "With that slicked-back hair and wrinkled shirt, he's the spitting image of a greasy middle-aged man."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "youni",
@@ -4126,7 +4278,8 @@
         "chinese": "别这么油腻好吗，发这种朋友圈真的很尴尬。",
         "english": "Can you not be so greasy? Posting stuff like that on WeChat Moments is genuinely cringe."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "pi-yi-xia-hen-kaixin",
@@ -4153,7 +4306,8 @@
         "chinese": "作业还没写完就出去玩了，皮一下很开心，明天再说吧。",
         "english": "Went out to play before finishing my homework — feeling great about that little act of defiance. Tomorrow's a thing."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "pi-pi-xia-women-zou",
@@ -4180,7 +4334,8 @@
         "chinese": "老板又加班？皮皮虾我们走，江湖再见！",
         "english": "Boss wants overtime again? Mantis Shrimp, let's bolt — see you never, corporate world!"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ni-de-liangxin-bu-hui-teng-ma",
@@ -4207,7 +4362,8 @@
         "chinese": "你吃了我最后一包泡面，你的良心不会痛吗？",
         "english": "You ate my last pack of instant noodles — doesn't your conscience hurt?chinese_name"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "hao-yangmao",
@@ -4234,7 +4390,8 @@
         "chinese": "这个APP新用户有红包，快去薅羊毛！",
         "english": "This app is giving red packets to new users — go grab those freebies while you can!"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "o-huo",
@@ -4261,7 +4418,8 @@
         "chinese": "刚发现今天的会议是昨天……哦豁，完了。",
         "english": "Just realized the meeting was yesterday... uh oh, I'm done for."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "cai-ji",
@@ -4288,7 +4446,8 @@
         "chinese": "别嘲笑我了，菜鸡互啄而已，你也没好到哪去。",
         "english": "Stop laughing at me — this is just two scrubs clowning on each other; you're not exactly a pro either."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "cai-de-bu-xing",
@@ -4315,7 +4474,8 @@
         "chinese": "他做的PPT菜得不行，老板看了直摇头。",
         "english": "His PowerPoint was so bad it was beyond saving — the boss just kept shaking his head."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "liang-nv",
@@ -4342,7 +4502,8 @@
         "chinese": "同事一进门就叫我靓女，我就知道他要让我帮忙加班了。",
         "english": "When my coworker walked in calling me '靓女,' I immediately knew he was about to ask me to cover his overtime shift."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "liang-zai",
@@ -4369,7 +4530,8 @@
         "chinese": "靓仔，你这加班费呢？哦，没有。",
         "english": "Handsome, where's your overtime pay? Oh right, there isn't any."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "xiao-ke-ai",
@@ -4396,7 +4558,8 @@
         "chinese": "你这个小可爱，怎么可以这么好看！",
         "english": "You absolute little sweetie, how are you allowed to be this cute?!"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "xiao-jie-jie",
@@ -4423,7 +4586,8 @@
         "chinese": "请问小姐姐，这附近有没有好吃的餐厅？",
         "english": "Excuse me, miss, are there any good restaurants around here?"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "xiao-gege",
@@ -4450,7 +4614,8 @@
         "chinese": "小哥哥，请问这附近有咖啡店吗？",
         "english": "Excuse me, cutie, is there a coffee shop around here?"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "lao-muqin",
@@ -4477,7 +4642,8 @@
         "chinese": "带新人真的太累了，我每天操碎了一颗老母亲的心。",
         "english": "Training new employees is exhausting — every day I'm running on pure old-mother worry and nothing else."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "gang-tie-zhi-nan-ai",
@@ -4504,7 +4670,8 @@
         "chinese": "钢铁直男癌的症状之一：觉得女生化妆就是欺骗。",
         "english": "One classic symptom of Terminal Straight-Guy Syndrome: believing women who wear makeup are basically committing fraud."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "bei-wei-xiao-zhao",
@@ -4531,7 +4698,8 @@
         "chinese": "被客户骂了一顿，卑微小赵还要回复：感谢您的宝贵意见！",
         "english": "After getting chewed out by a client, Humble Little Zhao still replies: 'Thank you for your valuable feedback!'"
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "shi-chui",
@@ -4558,7 +4726,8 @@
         "chinese": "别再洗白了，石锤都出来了，你还在辩解什么？",
         "english": "Stop trying to whitewash it — the smoking gun is already out there, what are you even defending?"
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "shi-chui-2",
@@ -4585,7 +4754,8 @@
         "chinese": "实锤来了！她私信截图已经曝光了。",
         "english": "The smoking gun is here! Screenshots of her private messages have been leaked."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "hu-dui",
@@ -4612,7 +4782,8 @@
         "chinese": "我们俩就是互怼着玩，别当真啦。",
         "english": "We're just trash-talking each other for fun — don't take it seriously."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "jianpan-xia",
@@ -4639,7 +4810,8 @@
         "chinese": "又是一堆键盘侠在评论区发表意见，自己出来做点实事啊！",
         "english": "Another crowd of keyboard warriors sounding off in the comments — why don't you actually come out and do something useful for once!"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "tai-gang",
@@ -4666,7 +4838,8 @@
         "chinese": "别跟他解释了，他在抬杠呢，根本没在认真听。",
         "english": "Don't bother explaining to him — he's just nitpicking and isn't actually listening."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "gang-jing",
@@ -4693,7 +4866,8 @@
         "chinese": "别理他，他就是个杠精，说什么都要反驳两句才开心。",
         "english": "Just ignore him — he's a total 杠精, he can't be happy unless he argues back no matter what you say."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "tui-tui-tui",
@@ -4720,7 +4894,8 @@
         "chinese": "相亲对象问我有没有房有没有车，我只想退退退。",
         "english": "My blind date asked if I own an apartment and a car — all I wanted to do was back away screaming."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "wo-tai-nan-le",
@@ -4747,7 +4922,8 @@
         "chinese": "考试又没过，钱包又空了，我真的太南了。",
         "english": "Failed the exam again, wallet's empty again — I'm genuinely having it way too hard."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "a-wo-si-le",
@@ -4774,7 +4950,8 @@
         "chinese": "这只猫咪的表情也太可爱了吧，awsl！",
         "english": "That cat's expression is way too adorable — awsl, I can't handle it!"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "queren-guo-yanshen",
@@ -4801,7 +4978,8 @@
         "chinese": "确认过眼神，你也是每天加班到十点的打工人。",
         "english": "I can tell just by looking at you — you're also the kind of person who works overtime until 10 PM every night."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "zha-nan",
@@ -4828,7 +5006,8 @@
         "chinese": "早就听说他是渣男，你当时怎么不听劝呢？",
         "english": "Everyone knew he was a fuckboy — why didn't you listen when we warned you?"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "nan-ren-dou-shi-da-zhu-ti-zi",
@@ -4855,7 +5034,8 @@
         "chinese": "朋友圈里晒恩爱，背地里找小三，男人都是大猪蹄子没错了。",
         "english": "Posting couple photos online while secretly cheating — yep, all men really are big pig trotters."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "da-zhu-ti-zi",
@@ -4882,7 +5062,8 @@
         "chinese": "男朋友又忘了我们的纪念日，大猪蹄子一个。",
         "english": "My boyfriend forgot our anniversary again. What a big pig trotter."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "fei-qiu",
@@ -4909,7 +5090,8 @@
         "chinese": "今天买彩票又没中，不愧是我，永远的非酋。",
         "english": "Bought lottery tickets again today and won nothing — as expected, I'm a permanent non-chief."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "ou-huang",
@@ -4936,7 +5118,8 @@
         "chinese": "我买彩票从没中过，你才是欧皇，帮我买一张吧。",
         "english": "I've never won the lottery once — you're the Lucky Emperor here, buy me a ticket."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "c-wei-chu-dao",
@@ -4963,7 +5146,8 @@
         "chinese": "别人还在排队，他已经C位出道了，项目一上线就爆了。",
         "english": "While others were still waiting in line, he debuted center-stage — his project went viral the moment it launched."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "c-wei",
@@ -4990,7 +5174,8 @@
         "chinese": "这次发布会，新款手机直接站上了C位，其他产品都成了陪衬。",
         "english": "At the launch event, the new phone took center stage and made everything else look like a prop."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "wang-jingze",
@@ -5017,7 +5202,8 @@
         "chinese": "我就是不吃这家的外卖——结果自己偷偷点了一份，太王境泽了。",
         "english": "I insisted I'd never order from that place again, then secretly ordered from them myself. So Wang Jingze of me."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "zhen-xiang-xian-chang",
@@ -5044,7 +5230,8 @@
         "chinese": "我本来说不喝奶茶了要减肥，今天又买了一杯，真香现场属于是。",
         "english": "I said I was giving up milk tea to lose weight, then bought a cup today. Caught myself in a full 真香 moment."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "zhen-xiang-jing-gao",
@@ -5071,7 +5258,8 @@
         "chinese": "我说要节食，但看到蛋糕就真香了，完全忍不住。",
         "english": "I said I was dieting, but one look at the cake and it was 'truly amazing' — couldn't resist at all."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "zhen-xiang",
@@ -5098,7 +5286,8 @@
         "chinese": "他昨天还说不喜欢吃榴莲，今天已经买了两个，真香定律又应验了。",
         "english": "Yesterday he claimed to hate durian; today he bought two of them. The 'Smells Amazing' law strikes again."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "tu-wei-qing-hua",
@@ -5125,7 +5314,8 @@
         "chinese": "你是不是学厨师的？因为你让我心里热乎乎的。",
         "english": "Did you study cooking? Because you make my heart feel all warm inside."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "tu-wei",
@@ -5152,7 +5342,8 @@
         "chinese": "这个土味视频太尬了，但我居然看完了。",
         "english": "This cringe rustic video was so awkward, yet somehow I watched the whole thing."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "lv-xing-qing-wa",
@@ -5179,7 +5370,8 @@
         "chinese": "养了个旅行青蛙，天天等它回家，我妈终于明白她等我的感受了。",
         "english": "I've been raising a Travel Frog and waiting for it to come home every day — my mom finally understands how she feels waiting for me."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "fo-xi-yang-wa",
@@ -5206,7 +5398,8 @@
         "chinese": "现在流行佛系养蛙，连游戏都不想卷了。",
         "english": "Buddhist frog parenting is trending now — people don't even want to grind in games anymore."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "xin-xiaodai",
@@ -5233,7 +5426,8 @@
         "chinese": "看了账单直接笑出来，信小呆本人无误。",
         "english": "I looked at my statement and just laughed — yep, that's me, a certified Xin Xiaodai."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "zhuan-fa-zhe-tiao-jin-li",
@@ -5260,7 +5454,8 @@
         "chinese": "老板今天心情特别好，说不定要发奖金，赶紧转发锦鲤保佑一下。",
         "english": "The boss is in a great mood today — maybe there's a bonus coming. Quick, forward the koi for good luck."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "jin-li",
@@ -5287,7 +5482,8 @@
         "chinese": "考试前疯狂转发锦鲤，希望能过六级。",
         "english": "Frantically reposting lucky koi memes before the exam, hoping it'll help me pass CET-6.chinese_name"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "ying-he-sheng-huo",
@@ -5314,7 +5510,8 @@
         "chinese": "没有空调？硬核生活玩家早就用冰块和风扇搞定了。",
         "english": "No air conditioning? The hardcore living crowd solved that ages ago with ice blocks and a fan."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "ying-he-lao-ren",
@@ -5341,7 +5538,8 @@
         "chinese": "看到那个硬核老人每天凌晨四点去健身房，我一个年轻人还有什么理由不锻炼呢？",
         "english": "Seeing that badass elderly man hit the gym every day at 4 a.m., what excuse do I, a young person, even have not to work out?"
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "liang-tou-le",
@@ -5368,7 +5566,8 @@
         "chinese": "这部剧口碑凉透了，播了三集就没人看了。",
         "english": "That show's reputation is totally dead — nobody was watching by episode three."
       }
-    ]
+    ],
+    "popularity": 2
   },
   {
     "slug": "liang-le",
@@ -5395,7 +5594,8 @@
         "chinese": "期末考试没复习，这门课应该凉了。",
         "english": "I didn't study for finals at all — that class is basically done for."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "chun-chun",
@@ -5422,7 +5622,8 @@
         "chinese": "他对你那么好，你还在犹豫？你纯纯是不珍惜啊。",
         "english": "He treats you so well and you're still hesitating? You're just totally throwing it away."
       }
-    ]
+    ],
+    "popularity": 2
   },
   {
     "slug": "duan-she-li",
@@ -5449,7 +5650,8 @@
         "chinese": "今年的目标就是断舍离，衣柜、社交、工作全部整理一遍。",
         "english": "My goal this year is to declutter everything — wardrobe, social circle, career, the whole lot."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "li-pu-ta-ma-gei-li-pu-kai-men",
@@ -5476,7 +5678,8 @@
         "chinese": "公司让我们自愿加班还不给钱，离谱他妈给离谱开门。",
         "english": "The company asked us to 'voluntarily' work overtime for free — that's not just absurd, absurdity had to open the door and let it in."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "li-da-pu",
@@ -5503,7 +5706,8 @@
         "chinese": "他约好了见面，结果临时放鸽子，还说是我的问题，真的离大谱。",
         "english": "He agreed to meet up, then stood me up at the last minute and said it was my fault — honestly, beyond the pale."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "li-pu",
@@ -5530,7 +5734,8 @@
         "chinese": "他迟到了三个小时还觉得没什么问题，真的很离谱。",
         "english": "He showed up three hours late and thought it was totally fine — that's just beyond ridiculous."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "xi-pin",
@@ -5557,7 +5762,8 @@
         "chinese": "他说分手是为了让我过得更好，细品一下这句话。",
         "english": "He said he broke up with me for my own good — really take a moment to taste those words."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ni-pin-ni-xi-pin",
@@ -5584,7 +5790,8 @@
         "chinese": "老板说这次奖金'结合实际情况发放'，你品你细品。",
         "english": "The boss said bonuses will be 'distributed based on actual conditions.' Savor that. Really savor it."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "rui-si-bai",
@@ -5611,7 +5818,8 @@
         "chinese": "能在老板面前直接说不，瑞思拜，真的瑞思拜。",
         "english": "You said no straight to your boss's face — respect, genuinely, 瑞思拜."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "san-zhuang-ying-yu",
@@ -5638,7 +5846,8 @@
         "chinese": "这个project整体上还OK，就是细节方面需要再polish一下。",
         "english": "This project is overall OK, it just needs a bit more polishing on the details."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "suliao-yingyu",
@@ -5665,7 +5874,8 @@
         "chinese": "用塑料英语跟老外聊了半天，对方一脸懵。",
         "english": "I chatted with a foreigner in my plastic English for ages, and they looked totally lost the whole time."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "su-liao-jie-mei",
@@ -5692,7 +5902,8 @@
         "chinese": "别看她们在网上互夸得那么甜，典型的塑料姐妹情。",
         "english": "Don't let all that mutual praise on social media fool you — that's textbook plastic-sister energy right there."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "pan-ta",
@@ -5719,7 +5930,8 @@
         "chinese": "新来的实习生有点意思，大家使劲盘他吧。",
         "english": "The new intern seems interesting — let's all mess with him and see what he's made of."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "wo-lie-kai-le",
@@ -5746,7 +5958,8 @@
         "chinese": "考试最后一题不会做，我裂开了。",
         "english": "I had no idea how to answer the last exam question. I'm done, I'm splitting."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "hao-jiaguo",
@@ -5773,7 +5986,8 @@
         "chinese": "好家伙，刚发完工资就全还给了房东。",
         "english": "Oh wow, barely got my paycheck and every last yuan already went to the landlord."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "hei-ren-wen-hao",
@@ -5800,7 +6014,8 @@
         "chinese": "明明昨天还好好的，今天突然分手？黑人问号！",
         "english": "Everything was fine yesterday and now suddenly we're breaking up? Black guy question mark!"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "wen-hao-lian",
@@ -5827,7 +6042,8 @@
         "chinese": "她男朋友劈腿了还说是对方勾引他，问号脸挂满全场。",
         "english": "Her boyfriend cheated and claimed he was seduced — everyone in the room collectively became a question mark face."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "xiao-pengyou-ni-shifou-you-hen-duo-wenhao",
@@ -5854,7 +6070,8 @@
         "chinese": "相亲对象一上来就问我买房了没，小朋友你是否有很多问号？",
         "english": "My blind date opened with 'have you bought an apartment yet?' — kid, do you have many question marks?"
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "yu-ni-wu-guan",
@@ -5881,7 +6098,8 @@
         "chinese": "我赚多少钱，完全与你无关，请别再问了。",
         "english": "How much I earn is completely none of your business — please stop asking."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "yu-nv-wu-gua",
@@ -5908,7 +6126,8 @@
         "chinese": "他问我为什么辞职，我就回了他三个字：雨女无瓜。",
         "english": "He asked me why I quit my job, so I hit him back with three characters: none of your business."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "bai-piao-guai",
@@ -5935,7 +6154,8 @@
         "chinese": "UP主辛苦了，但我是白嫖怪，投币就免了吧。",
         "english": "Great work, content creator — but I'm a freeloader, so I'll skip the coin tip, thanks."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "bai-piao-dang",
@@ -5962,7 +6182,8 @@
         "chinese": "白嫖党表示，能用免费版的就绝对不买会员。",
         "english": "As a proud free-rider, if there's a free version available, buying a membership is simply out of the question."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "bai-piao",
@@ -5989,7 +6210,8 @@
         "chinese": "这款游戏我一分钱没花，全靠白嫖活动奖励通关了。",
         "english": "I cleared this game without spending a single cent — all through freeloading event rewards."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "ao-li-gei",
@@ -6016,7 +6238,8 @@
         "chinese": "减肥第一天，奥利给！坚持就是胜利！",
         "english": "Day one of dieting — LET'S GO! Persistence is victory!"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "chui-bao",
@@ -6043,7 +6266,8 @@
         "chinese": "这家店的奶茶真的绝了，我要吹爆它，朋友们快去！",
         "english": "The milk tea at this place is absolutely incredible — I'm raving about it nonstop, everyone go now!"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "shangye-hu-chui",
@@ -6070,7 +6294,8 @@
         "chinese": "别误会，我们只是商业互吹，纯属互相捧场而已。",
         "english": "Don't get the wrong idea — we're just doing a bit of reciprocal flattery, purely hyping each other up for show."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "cai-hong-pi",
@@ -6097,7 +6322,8 @@
         "chinese": "同事们都在给老板拍彩虹屁，说他的方案是天才之作。",
         "english": "'All the colleagues were blowing rainbow farts at the boss, calling his plan an absolute work of genius.'"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "kua-kua-qun",
@@ -6124,7 +6350,8 @@
         "chinese": "哇！你能抵抗外界诱惑、坚守内心平静整整一天，这种定力简直是禅宗大师级别的！",
         "english": "Wow! The fact that you resisted external pressures and maintained inner stillness for a full day shows the discipline of a Zen master!"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "kua-kua",
@@ -6151,7 +6378,8 @@
         "chinese": "你能在百忙之中保持对自我的深刻反思，这种自我觉察能力令人叹为观止，未来可期！",
         "english": "The fact that you can engage in such profound self-reflection amid your busy schedule is absolutely breathtaking — your future is limitless!"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "fu-bao",
@@ -6178,7 +6406,8 @@
         "chinese": "领导说多干活是福报，我说那福报留给他自己吧。",
         "english": "The boss says working extra is a blessing — I told him he's welcome to keep that blessing for himself."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "fendou-bi",
@@ -6205,7 +6434,8 @@
         "chinese": "别跟那个奋斗逼比，他连春节都不休息，你不用学他。",
         "english": "Don't compare yourself to that hustle bro — he didn't even take Chinese New Year off. You don't need to be like him."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ling-ling-qi",
@@ -6232,7 +6462,8 @@
         "chinese": "听说隔壁部门在搞007，人都快废了。",
         "english": "I heard the department next door is running a 007 schedule — the people there are basically falling apart."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "jiu-jiu-liu",
@@ -6259,7 +6490,8 @@
         "chinese": "他入职才两个月就辞职了，说受不了996的生活。",
         "english": "He quit after just two months, saying he couldn't take the 996 lifestyle anymore."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "suan-le",
@@ -6286,7 +6518,8 @@
         "chinese": "看到朋友秀出满分成绩，网友纷纷留言：酸了酸了！",
         "english": "When their friend posted a perfect score, the comment section exploded with: 'So sour! So sour!'"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "wo-ning-meng-le",
@@ -6313,7 +6546,8 @@
         "chinese": "看到她晒出的婚纱照，我整个人都柠檬了。",
         "english": "After seeing her wedding photos, I have completely and utterly gone lemon."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ning-meng-jing",
@@ -6340,7 +6574,8 @@
         "chinese": "看到同学毕业就拿到高薪offer，柠檬精附体了。",
         "english": "My classmate landed a high-paying job offer right after graduation. The lemon spirit has fully possessed me."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "wo-tai-nan-le-2",
@@ -6367,7 +6602,8 @@
         "chinese": "房租又涨了，工资没涨，我太难了。",
         "english": "Rent went up again, salary didn't — I'm really out here struggling.chinese_name"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "hao-zi-wei-zhi",
@@ -6394,7 +6630,8 @@
         "chinese": "我熬夜打游戏挂科了，耗子尾汁，耗子尾汁。",
         "english": "I failed my exam because I was up all night gaming. Rat tail juice indeed — I really need to get my act together."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "nai-cha-xu-ming",
@@ -6421,7 +6658,8 @@
         "chinese": "考试周不喝奶茶续命根本撑不住。",
         "english": "There's no surviving exam week without milk tea life support."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "qiu-tian-de-di-yi-bei-nai-cha",
@@ -6448,7 +6686,8 @@
         "chinese": "今年秋天的第一杯奶茶是自己买的，单身快乐。",
         "english": "I bought my own first milk tea of autumn this year. Single and thriving."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "chu-quan",
@@ -6475,7 +6714,8 @@
         "chinese": "她凭这个综艺节目彻底出圈，粉丝数量翻了十倍。",
         "english": "She completely broke out thanks to this variety show — her fanbase grew tenfold."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "po-quan",
@@ -6502,7 +6742,8 @@
         "chinese": "他靠一个搞笑视频成功破圈，粉丝从几千涨到了几百万。",
         "english": "He broke out of his niche with one funny video — his followers went from a few thousand to several million overnight."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "hu-le",
@@ -6529,7 +6770,8 @@
         "chinese": "我面试都没过初筛，感觉自己糊了。",
         "english": "I didn't even pass the first round of interviews. I think my career is already over."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ta-fang",
@@ -6556,7 +6798,8 @@
         "chinese": "他塌房得太彻底了，连粉丝群都解散了。",
         "english": "His fall from grace was so complete that even the fan groups disbanded."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "shu-ju-nv-gong",
@@ -6583,7 +6826,8 @@
         "chinese": "数据女工打卡上班，今天要标注一万张猫图。",
         "english": "The data pieceworker clocks in — today's task: labeling ten thousand pictures of cats."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "kong-ping",
@@ -6610,7 +6854,8 @@
         "chinese": "这条新闻下面的评论看起来太整齐了，明显是控评。",
         "english": "The comments under this news article look way too uniform — obviously astroturfed."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "fan-quan",
@@ -6637,7 +6882,8 @@
         "chinese": "别把这件事搞成饭圈那一套，理性讨论好不好？",
         "english": "Don't turn this into a fandom circus — can we please just have a rational discussion?"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "hulianwang-zui-ti",
@@ -6664,7 +6910,8 @@
         "chinese": "终于有人当我的互联网嘴替了，把那个烂会议吐槽得体无完肤。",
         "english": "Someone finally became my internet spokesperson and absolutely roasted that terrible meeting in the way I never could."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "chai-mang-he",
@@ -6691,7 +6938,8 @@
         "chinese": "新公司第一天上班，拆盲盒的感觉，不知道老板是天使还是恶魔。",
         "english": "First day at the new job — total mystery-box moment. Is the boss an angel or a total nightmare? Only one way to find out."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ming-chang-mian",
@@ -6718,7 +6966,8 @@
         "chinese": "今天开会老板突然拍桌子，绝对是本月名场面。",
         "english": "The boss slammed the table out of nowhere in today's meeting — that's definitely the iconic moment of the month."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "tun-huo-xia",
@@ -6745,7 +6994,8 @@
         "chinese": "超市一说要涨价，囤货侠们立刻清空了货架。",
         "english": "The moment the supermarket hinted at a price hike, the Stockpile Heroes immediately cleared out the shelves."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "tuan-zhang",
@@ -6772,7 +7022,8 @@
         "chinese": "封控期间没有团长，我们可能真的要喝西北风了。",
         "english": "Without a group buy leader during the lockdown, we might have literally had nothing to eat."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ren-jian-qing-xing",
@@ -6799,7 +7050,8 @@
         "chinese": "别人都在追那个明星，就我一个人人间清醒，知道那不过是人设。",
         "english": "Everyone else is obsessed with that celebrity, and here I am, the lone clear-headed soul who knows it's all just a manufactured persona."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "hou-lang",
@@ -6826,7 +7078,8 @@
         "chinese": "前浪把机会都占了，还来夸我们后浪，真是讽刺。",
         "english": "The older wave took all the opportunities, and now they're here praising us younger ones — truly ironic."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "xiaofei-jiangji",
@@ -6853,7 +7106,8 @@
         "chinese": "消费降级之后，发现泡面其实挺好吃的。",
         "english": "Ever since my consumption downgrade, I've discovered that instant noodles are actually pretty decent."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "jing-zhi-qiong",
@@ -6880,7 +7134,8 @@
         "chinese": "我就是精致穷，住在合租房里，但每天早上一定要喝一杯手冲咖啡。",
         "english": "I'm elegantly poor — living in a shared apartment, but I absolutely must have a pour-over coffee every morning."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "yi-shi-gan",
@@ -6907,7 +7162,8 @@
         "chinese": "情人节就算一个人过，也要给自己买束花，仪式感不能少。",
         "english": "Even if I'm spending Valentine's Day alone, I still buy myself flowers — you can't skip the sense of ritual."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "fenwei-gan",
@@ -6934,7 +7190,8 @@
         "chinese": "她整个人都很有氛围感，走到哪里都像在拍电影。",
         "english": "She just radiates this cinematic atmosphere wherever she goes, like she's always the lead in a film."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "ba-cao",
@@ -6961,7 +7218,8 @@
         "chinese": "去了那家排队两小时的网红餐厅，拔草了，感觉也就那样。",
         "english": "I went to that influencer restaurant I waited two hours for, scratched it off the list — honestly, it was just okay."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "zhong-cao",
@@ -6988,7 +7246,8 @@
         "chinese": "最近被朋友种草了一家新开的火锅店，周末一定要去试试。",
         "english": "My friend has been hyping this new hotpot place so much that I'm totally hooked — definitely going this weekend."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "zhi-bo-dai-huo",
@@ -7015,7 +7274,8 @@
         "chinese": "现在很多农民也开始直播带货，把山里的土特产卖到全国各地。",
         "english": "These days even farmers are doing live-stream selling, shipping mountain-grown specialties to customers all across the country."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "yun-beng-di",
@@ -7042,7 +7302,8 @@
         "chinese": "疫情让我爱上了云蹦迪，省钱还省体力。",
         "english": "The pandemic got me hooked on cloud clubbing — saves money and saves energy."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "yun-jian-gong",
@@ -7069,7 +7330,8 @@
         "chinese": "云监工们发现小黄吊车今天偷懒了，评论区炸锅。",
         "english": "The cloud supervisors noticed that crane 'Little Yellow' was slacking today, and the comment section exploded."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "baofuxing-xiaofei",
@@ -7096,7 +7358,8 @@
         "chinese": "本来打算报复性消费，结果一看余额，只能报复性存钱了。",
         "english": "I planned to go on a revenge spending spree, but then I checked my bank balance and had to settle for revenge saving instead."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "yexing-xiaofei",
@@ -7123,7 +7386,8 @@
         "chinese": "昨晚在直播间野性消费了三双鞋，钱包空了但心里很爽。",
         "english": "I wildly consumed three pairs of shoes in the livestream last night — wallet's empty but my heart is full."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "bai-lian-hua",
@@ -7150,7 +7414,8 @@
         "chinese": "这部剧的女主角又是白莲花人设，看得我尴尬症都犯了。",
         "english": "The female lead in this drama is yet another white lotus archetype — watching her gave me second-hand embarrassment."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "lv-cha",
@@ -7177,7 +7442,8 @@
         "chinese": "你没发现吗？她在男生面前就变成另一个人了，绿茶属性太明显了。",
         "english": "Haven't you noticed? She becomes a totally different person around guys — her green tea energy is way too obvious."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "bei-tai",
@@ -7204,7 +7470,8 @@
         "chinese": "别再做备胎了，要学会爱自己。",
         "english": "Stop being someone's backup plan — it's time to start loving yourself."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "gongju-ren",
@@ -7231,7 +7498,8 @@
         "chinese": "每次她需要帮忙搬东西才找我，我感觉自己就是个工具人。",
         "english": "She only hits me up when she needs help moving stuff — I feel like a complete utility guy."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "zui-ti",
@@ -7258,7 +7526,8 @@
         "chinese": "剧里那个角色怼领导的那段，简直是打工人的嘴替。",
         "english": "That scene where the character claps back at the boss is the ultimate mouthpiece for every office worker."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "yin-yang-guai-qi",
@@ -7285,7 +7554,8 @@
         "chinese": "没事，你说得都对，我就是太不懂事了。",
         "english": "It's fine, you're totally right, I'm clearly the one who just doesn't get it."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "xian-yu",
@@ -7312,7 +7582,8 @@
         "chinese": "老板让我冲业绩，但我已经是一条快乐的咸鱼了。",
         "english": "My boss wants me to chase targets, but I've already become a happy salted fish."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "wo-zhi-hu-hao-jia-huo",
@@ -7339,7 +7610,8 @@
         "chinese": "他加班到凌晨三点还被扣了绩效，我直呼好家伙。",
         "english": "He worked until 3 a.m. and still got his performance bonus docked — holy cow, dude."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "shi-ge-hen-ren",
@@ -7366,7 +7638,8 @@
         "chinese": "我为了省钱每天走路上班，朋友说我是个狠人。",
         "english": "I walk to work every day to save money; my friends say I'm one ruthless operator."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "fa-dian",
@@ -7393,7 +7666,8 @@
         "chinese": "她最近发癫发得有点严重，发了二十条语音给我。",
         "english": "She's been on a real unhinged streak lately — she sent me twenty voice messages in a row."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "lei-mu",
@@ -7420,7 +7694,8 @@
         "chinese": "工资条到了，扣完五险一金到手两千八，泪目。",
         "english": "Got my payslip — after all the deductions, I take home 2,800 yuan. Moved to tears (of despair)."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "xin-tai-zha-le",
@@ -7447,7 +7722,8 @@
         "chinese": "刚刚看到期末考试范围，心态炸了，这也太多了吧！",
         "english": "I just saw the scope of the final exam and my brain exploded — there's way too much to study!"
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "bangbu-zhu-le",
@@ -7474,7 +7750,8 @@
         "chinese": "这个价格？我蚌埠住了，太离谱了吧。",
         "english": "That price? I'm dead — that's absolutely unhinged."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "beng-bu-zhu-le",
@@ -7501,7 +7778,8 @@
         "chinese": "他一本正经地说完那句话，全场都绷不住了。",
         "english": "The moment he said that with a completely straight face, everyone in the room just lost it."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "wo-ku-le",
@@ -7528,7 +7806,8 @@
         "chinese": "刚被老板发来一堆周末任务，我枯了。",
         "english": "My boss just sent me a pile of weekend tasks. I'm withered."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ye-qing-jie",
@@ -7555,7 +7834,8 @@
         "chinese": "看到小时候最爱的动画片出了真人版，爷青结。",
         "english": "They made a live-action remake of my favorite childhood cartoon. That's a wrap on my youth."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ye-qing-hui",
@@ -7582,7 +7862,8 @@
         "chinese": "居然还能找到小时候玩的那款游戏，爷青回了属于是。",
         "english": "I actually found that game I played as a kid — my childhood just came rushing back, no cap."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "po-fang-le",
@@ -7609,7 +7890,8 @@
         "chinese": "你别发那种歌给我，深夜破防了不负责任的。",
         "english": "Stop sending me songs like that — making someone's defenses crumble at midnight is just irresponsible."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "she-niu",
@@ -7636,7 +7918,8 @@
         "chinese": "他在地铁上突然开始跟陌生人聊天，完全不社恐，真是社牛本牛。",
         "english": "He just started chatting up a stranger on the subway out of nowhere — zero social anxiety, a true 社牛 through and through."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "she-kong",
@@ -7663,7 +7946,8 @@
         "chinese": "外卖送到了但我社恐发作，让它在门口放了二十分钟。",
         "english": "My food delivery arrived but my 社恐 kicked in, so I let it sit outside for twenty minutes."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "wei-kuan-ren",
@@ -7690,7 +7974,8 @@
         "chinese": "尾款人互相鼓励：熬过今晚付完尾款，我们就解脱了！",
         "english": "Final-payment people cheering each other on: once we get through tonight and pay off the balance, we'll finally be free!"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "fan-yan-fan-yu",
@@ -7717,7 +8002,8 @@
         "chinese": "凡言凡语：努力不一定有回报，但不努力一定很舒服。",
         "english": "Ordinary truth: Hard work doesn't guarantee reward, but not working hard is guaranteed to feel great in the moment."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "fan-er-sai-wen-xue",
@@ -7744,7 +8030,8 @@
         "chinese": "在巴黎住久了真不习惯，回国之后总觉得哪里不对劲。",
         "english": "After living in Paris so long I just can't readjust — being back home feels somehow off."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "fan-er-sai",
@@ -7771,7 +8058,8 @@
         "chinese": "公司非要给我升职，我只想安静地做个小员工，真的不想太出风头。",
         "english": "'The company insists on promoting me again — I just wanted to quietly stay in my little role without all this attention.'"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "emo",
@@ -7798,7 +8086,8 @@
         "chinese": "深夜一个人听歌最容易emo，建议大家白天听。",
         "english": "Listening to music alone late at night is the fastest way to get emo — strongly recommend daytime listening instead."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "jing-shen-nei-hao",
@@ -7825,7 +8114,8 @@
         "chinese": "发一条朋友圈删了又发，发了又删，这种精神内耗真的太累了。",
         "english": "Posted something on Moments, deleted it, posted it again, deleted it again — this kind of mental self-torture is absolutely exhausting."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "she-chu",
@@ -7852,7 +8142,8 @@
         "chinese": "社畜的快乐就是周五下班后那五分钟。",
         "english": "The joy of an office drone is those five minutes after clocking out on Friday."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "mo-yu",
@@ -7879,7 +8170,8 @@
         "chinese": "老板一走，大家就开始摸鱼了。",
         "english": "The moment the boss left, everyone started goofing off."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "tang-ping",
@@ -7906,7 +8198,8 @@
         "chinese": "既然买不起房，不如躺平，把钱花在自己喜欢的事上。",
         "english": "Since buying a house is out of reach anyway, might as well lie flat and spend money on things I actually enjoy."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "nei-juan",
@@ -7935,7 +8228,8 @@
         "chinese": "我们组一个人开始周末来公司，结果全组都被迫卷起来了。",
         "english": "One person on our team started coming in on weekends, and now the whole group is being dragged into the grind against our will."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "da-gong-ren",
@@ -7962,7 +8256,8 @@
         "chinese": "打工人打工魂，打工都是人上人。",
         "english": "A working person with a worker's soul — every wage slave is the cream of the crop. (ironic rallying cry)chinese_name"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "san-fen",
@@ -7989,7 +8284,8 @@
         "chinese": "散粉的快乐你不懂，喜欢就喜欢，累了就睡觉。",
         "english": "You wouldn't understand the joy of being a loose fan — like when you feel like it, sleep when you're tired."
       }
-    ]
+    ],
+    "popularity": 2
   },
   {
     "slug": "lu-ren-fen",
@@ -8016,7 +8312,8 @@
         "chinese": "路人粉表示，这次他的新剧真的拍得不错，值得一看。",
         "english": "Speaking as a casual fan, I have to say his new drama is genuinely good — worth watching."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "lao-tie-liu-liu-liu",
@@ -8043,7 +8340,8 @@
         "chinese": "老铁666，这道菜你是怎么做到这么好吃的？",
         "english": "Dude, you're on fire — how did you make this dish taste so insanely good?"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ying-yuan",
@@ -8070,7 +8368,8 @@
         "chinese": "她为了给爱豆应援，一个月的零花钱全花在购买专辑上了。",
         "english": "She spent her entire month's allowance buying albums just to support her favorite idol's chart ranking."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "da-bang",
@@ -8097,7 +8396,8 @@
         "chinese": "为了给哥哥打榜，我这个月的零花钱全花光了。",
         "english": "I blew my entire month's allowance voting to get my idol to the top of the charts."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "chao-hua",
@@ -8124,7 +8424,8 @@
         "chinese": "这个超话的粉丝太能打了，数据刷得飞起。",
         "english": "The fans in this Super Topic are absolutely relentless — their data-boosting game is on another level."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "ying-kong",
@@ -8151,7 +8452,8 @@
         "chinese": "他一开口说话就硬控全场，所有人都看呆了。",
         "english": "The moment he started talking he hard-controlled the whole room — everyone was completely frozen."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "er-chuang",
@@ -8178,7 +8480,8 @@
         "chinese": "她剪的二创获得了百万播放，比原视频还火。",
         "english": "The fan remix she made hit a million views — even more popular than the original video."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "zheng-huo",
@@ -8205,7 +8508,8 @@
         "chinese": "这个UP主真的太会整活了，用算盘弹钢琴曲笑死我了。",
         "english": "This content creator is an absolute legend — playing a piano piece on an abacus had me dead."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ying-ma-le",
@@ -8232,7 +8536,8 @@
         "chinese": "老板又给我加班，赢麻了。",
         "english": "Boss gave me overtime again. Winning so hard over here. (sarcastic)"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "po-fang-shun-jian",
@@ -8259,7 +8564,8 @@
         "chinese": "深夜一个人听老歌，瞬间破防，想起了很多事。",
         "english": "Listening to old songs alone late at night, my defenses crumbled in an instant and a flood of memories hit me."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "mai-ta-mai-ta",
@@ -8286,7 +8592,8 @@
         "chinese": "朋友发来新款奶茶的照片，我当场就说买它买它，完全停不下来。",
         "english": "My friend sent me a photo of the new bubble tea flavor and I instantly went 'buy it buy it' — absolutely no self-control."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "wei-ya",
@@ -8313,7 +8620,8 @@
         "chinese": "我就是个普通打工人，学不了薇娅，但也不想步她后尘。",
         "english": "I'm just an ordinary worker, I can't be the next Viya — and I definitely don't want to follow in her footsteps either."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "li-jiaqi",
@@ -8340,7 +8648,8 @@
         "chinese": "你就是直播间的李佳琦，什么都能卖出去！",
         "english": "You're basically the Li Jiaqi of the live stream — you could sell anything!"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "kong-ping-2",
@@ -8367,7 +8676,8 @@
         "chinese": "每到周五下班，感觉自己就是空瓶状态，根本充不上电。",
         "english": "Every Friday after work I feel like an empty bottle — I just can't recharge no matter what."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "dai-pai",
@@ -8394,7 +8704,8 @@
         "chinese": "她的代拍生意越做越大，现在专门负责各大明星的机场拍摄。",
         "english": "Her proxy photography business has really taken off — she now specializes in shooting celebrities at airports."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "zhan-jie",
@@ -8421,7 +8732,8 @@
         "chinese": "我偶像能有这么多高清资源，全靠站姐们风雨无阻地跟拍。",
         "english": "The only reason I have so many high-quality photos of my idol is because the Station Sisters follow them rain or shine."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "tuo-fen-hui-cai",
@@ -8448,7 +8760,8 @@
         "chinese": "最可怕的不是黑粉，而是脱粉回踩的前任粉丝。",
         "english": "The scariest critics aren't the antis — they're the former fans who turned around and started stomping."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "ding-liu",
@@ -8475,7 +8788,8 @@
         "chinese": "这部剧集齐了三位顶流，播出第一天就破了平台纪录。",
         "english": "This drama assembled three A-list megastars, and it shattered platform records on its very first day of release."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "yuanshen-qidong",
@@ -8502,7 +8816,8 @@
         "chinese": "老板说今天可以早退，原神启动！",
         "english": "The boss said we can leave early today — GENSHIN, LAUNCH!"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "liu-genghong",
@@ -8529,7 +8844,8 @@
         "chinese": "你也是刘畊宏女孩啊？我们宿舍四个人都在跟他跳。",
         "english": "You're a Liu Genghong Girl too? All four of us in the dorm have been dancing along with him."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "gu-yong-zhe",
@@ -8556,7 +8872,8 @@
         "chinese": "那些默默备考的同学才是真正的孤勇者。",
         "english": "Those students quietly grinding through exam prep are the real solitary heroes."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "fo-xi-fumu",
@@ -8583,7 +8900,8 @@
         "chinese": "现在流行鸡娃，但她选择做佛系父母，从不给女儿报课外班。",
         "english": "Everyone's obsessing over raising overachiever kids these days, but she went the Zen parent route and never signed her daughter up for a single after-school class."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ji-wa",
@@ -8610,7 +8928,8 @@
         "chinese": "现在的家长都在内卷，不鸡娃感觉就会落后。",
         "english": "These days all parents are caught up in the rat race — if you don't push your kid hard, you feel like they'll be left behind."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "xiao-zhen-zuo-ti-jia",
@@ -8637,7 +8956,8 @@
         "chinese": "小镇做题家的尽头，是在大城市租着隔断间，反思当年为什么那么拼命背单词。",
         "english": "The final destination of the small-town test grinder: renting a subdivided room in the big city, wondering why you ever memorized so many vocabulary words."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "song-chi-gan",
@@ -8664,7 +8984,8 @@
         "chinese": "我要学着有点松弛感，不要什么事都那么紧张。",
         "english": "I need to cultivate some 松弛感 and stop tensing up over every little thing."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "qing-xu-jia-zhi",
@@ -8691,7 +9012,8 @@
         "chinese": "我不需要对方多有钱，但情绪价值一定要给够。",
         "english": "I don't need them to be rich, but they absolutely have to deliver on emotional value."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "ping-ti",
@@ -8718,7 +9040,8 @@
         "chinese": "瑞幸咖啡就是星巴克的平替，我现在再也不去星巴克了。",
         "english": "Luckin Coffee is my Starbucks dupe — I haven't set foot in a Starbucks since."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "xx-tianhuaban",
@@ -8745,7 +9068,8 @@
         "chinese": "这家店的红烧肉是我吃过的天花板，再也找不到第二家这么好吃的了。",
         "english": "This restaurant's braised pork belly is the absolute ceiling — I'll never find a second place that comes close."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "bai-lan",
@@ -8772,7 +9096,8 @@
         "chinese": "期末复习根本来不及了，摆烂吧，就当积累社会经验。",
         "english": "There's no way I can catch up on finals now, so I'm just going to embrace the chaos — call it 'life experience.'"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "tang-ping-zhu-yi",
@@ -8799,7 +9124,8 @@
         "chinese": "他辞掉了大厂的工作，彻底躺平，每天只做自己喜欢的事。",
         "english": "He quit his big-tech job and fully embraced tang ping, spending each day doing only what he loves."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "fan-juan",
@@ -8826,7 +9152,8 @@
         "chinese": "大家都在卷学历，但反卷的人开始思考这到底有没有意义。",
         "english": "Everyone's in a credentials arms race, but the anti-involution crowd is starting to ask whether any of it actually means anything."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "juan-wang",
@@ -8853,7 +9180,8 @@
         "chinese": "考研季一到，图书馆里卷王们占满了所有座位。",
         "english": "Once postgrad exam season hits, the Grind Kings have claimed every single seat in the library."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "hua-bing",
@@ -8880,7 +9208,8 @@
         "chinese": "别被那些创业公司画饼，期权根本不值钱。",
         "english": "Don't get taken in by startup pie-drawing — those stock options are basically worthless."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "zhi-chang-pua",
@@ -8907,7 +9236,8 @@
         "chinese": "他用职场PUA那套话术让我觉得离开公司就会完蛋，结果跳槽之后才发现自己挺值钱的。",
         "english": "He used those workplace PUA tactics to make me feel like I'd be nothing without the company — turns out after I quit, I was worth a lot more than he let on."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "shuan-q",
@@ -8934,7 +9264,8 @@
         "chinese": "老板说这个月奖金取消了，栓Q啊。",
         "english": "Boss just said the bonus is cancelled this month. Oh wow, thank you, truly."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "jia-ren-men",
@@ -8961,7 +9292,8 @@
         "chinese": "家人们，谁懂啊，上班第一天就想辞职。",
         "english": "Fam, who else gets it — I wanted to quit on my very first day of work."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "ni-tian",
@@ -8988,7 +9320,8 @@
         "chinese": "公司要求员工假期打卡汇报，逆天操作啊。",
         "english": "The company requires employees to clock in and report during vacation — absolutely outrageous move."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "na-nie",
@@ -9015,7 +9348,8 @@
         "chinese": "你看他在台上多从容，观众都被他拿捏住了。",
         "english": "Look how relaxed he is on stage — he's got the whole audience right where he wants them."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "jue-jue-zi",
@@ -9042,7 +9376,8 @@
         "chinese": "考完试发现题目全都没复习到，绝绝子了我。",
         "english": "Finished the exam only to realize I hadn't studied any of the topics. An absolute disaster, I am done."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "yong-yuan-de-shen",
@@ -9069,7 +9404,8 @@
         "chinese": "她在演唱会上的表现真的yyds，全场都沸腾了。",
         "english": "Her performance at the concert was absolutely divine — the whole crowd went wild.chinese_name"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "qingxu-wending",
@@ -9096,7 +9432,8 @@
         "chinese": "裁员名单出来了，我情绪稳定，稳定到手都在抖。",
         "english": "The layoff list dropped. I was totally emotionally stable — so stable my hands were shaking."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "nei-hao",
@@ -9123,7 +9460,8 @@
         "chinese": "别对那件事想太多了，内耗只会让你越来越累。",
         "english": "Stop overthinking it — all that internal spinning will just wear you out even more."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "ban-wei",
@@ -9150,7 +9488,8 @@
         "chinese": "假期最后一天，班味已经上来了，根本玩不下去。",
         "english": "It's the last day of vacation and the work stench has already set in — I can't even enjoy myself anymore."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "kao-yan-re",
@@ -9177,7 +9516,8 @@
         "chinese": "找不到好工作，只能跟着考研热的大流走了。",
         "english": "Can't find a decent job, so I'm just going with the flow and joining the grad exam craze."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "kao-gong-re",
@@ -9204,7 +9544,8 @@
         "chinese": "现在考公热这么严重，图书馆里全是背申论的年轻人。",
         "english": "Civil service exam fever is so intense these days — the library is packed with young people memorizing essay templates."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "er-jiu-zhi-hao-wo-de-jingshen-neihao",
@@ -9231,7 +9572,8 @@
         "chinese": "朋友说二舅治好了他的精神内耗，但他第二天又开始焦虑了。",
         "english": "My friend said Second Uncle cured his inner turmoil, but he was anxious again the next day."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "er-jiu",
@@ -9258,7 +9600,8 @@
         "chinese": "二舅治好了我的精神内耗，至少治好了三天。",
         "english": "Second Uncle cured my existential anxiety — for at least three days, anyway."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "juan-wang-zhi-wang",
@@ -9285,7 +9628,8 @@
         "chinese": "我刚以为自己够卷了，结果同事连周末都在写报告，卷王之王非他莫属。",
         "english": "I thought I was working hard enough, but then my coworker spent the whole weekend writing reports — he's definitely the ultimate tryhard."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "shang-an-nan",
@@ -9312,7 +9656,8 @@
         "chinese": "朋友考了三年公务员还没上岸，感觉这条路越来越难走了。",
         "english": "My friend has been taking the civil service exam for three years and still hasn't reached shore — the path just keeps getting harder."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "shang-an",
@@ -9339,7 +9684,8 @@
         "chinese": "室友上岸了，今晚请客吃饭庆祝。",
         "english": "My roommate passed her grad school entrance exam, so she's treating us to dinner tonight to celebrate."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "tou-gan",
@@ -9366,7 +9712,8 @@
         "chinese": "她去演唱会都不发朋友圈，偷感十足。",
         "english": "She went to the concert and didn't post a single thing — total low-key lurker energy."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "fa-feng-wen-xue",
@@ -9393,7 +9740,8 @@
         "chinese": "你知道吗，你发的这条消息让我看了三十遍，每一遍都让我更想原地爆炸，谢谢你，谢谢你给我的人生带来了新的体验。",
         "english": "Do you know what, I've read the message you sent thirty times, and each time I want to explode on the spot even more — thank you, truly, thank you for bringing this brand-new experience into my life."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "fa-feng",
@@ -9420,7 +9768,8 @@
         "chinese": "失恋第三天，朋友说她开始发疯文学了，连发二十条语音。",
         "english": "Three days after the breakup, my friend said she'd entered 'unhinged literature' mode and sent twenty voice messages in a row."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "bao-gai",
@@ -9447,7 +9796,8 @@
         "chinese": "这次旅行回来我要爆改自己，健身、读书、早睡，绝对不摆烂了！",
         "english": "When I get back from this trip I'm doing a total self-overhaul — gym, books, early bedtime. No more lying flat!"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "bei-po-yingye",
@@ -9474,7 +9824,8 @@
         "chinese": "我本来想周末好好休息，结果被老板叫去开会，又开始被迫营业了。",
         "english": "I was planning to actually rest this weekend, but my boss called me in for a meeting — forced back into business mode once again."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "fan-che",
@@ -9501,7 +9852,8 @@
         "chinese": "这次演讲我准备了好久，结果还是翻车，忘词了。",
         "english": "I prepared for this presentation for so long, and I still crashed and burned — completely blanked on my lines."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "she-si-xian-chang",
@@ -9528,7 +9880,8 @@
         "chinese": "领导突然翻到我吐槽公司的朋友圈，社死现场已上演。",
         "english": "My manager somehow found my WeChat post roasting the company — the social death scene had officially begun."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "she-si",
@@ -9555,7 +9908,8 @@
         "chinese": "妈妈在亲戚面前问我有没有对象，我当场社死。",
         "english": "My mom asked in front of all our relatives whether I had a boyfriend/girlfriend — I died on the spot."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "gu-ai-ling",
@@ -9582,7 +9936,8 @@
         "chinese": "妈妈又说让我向谷爱凌学习，我说妈您先给我找个斯坦福的录取通知书来。",
         "english": "Mom told me to learn from Eileen Gu again. I said, Mom, first get me a Stanford acceptance letter and we can talk."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "juben-sha",
@@ -9609,7 +9964,8 @@
         "chinese": "他在剧本杀里哭得稀里哗啦，结果发现是感情本。",
         "english": "He cried his eyes out during the game, only to discover it was a romance-themed script."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "fei-pan-re",
@@ -9636,7 +9992,8 @@
         "chinese": "他说去打飞盘锻炼身体，其实是去相亲的吧？",
         "english": "He says he's going to play frisbee for exercise, but let's be real — he's going there to meet someone, right?"
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "lu-ying-re",
@@ -9663,7 +10020,8 @@
         "chinese": "露营热都过了，那些买了一堆装备的人现在怎么办？",
         "english": "The camping craze is already over — what are all those people supposed to do with the mountains of gear they bought?"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "duobaan-chuanda",
@@ -9690,7 +10048,8 @@
         "chinese": "她全身都是亮色，典型的多巴胺穿搭，站在地铁里像个移动的调色板。",
         "english": "She was head-to-toe in bright colors — classic dopamine dressing — standing in the subway like a walking color palette."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "te-zhong-bing-lv-you",
@@ -9717,7 +10076,8 @@
         "chinese": "穷学生就适合特种兵旅游，省钱还能到处玩，累点也值了。",
         "english": "Special Forces Tourism is perfect for broke students — you save money, see everything, and the exhaustion is totally worth it."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "qiong-gui-tao-can",
@@ -9744,7 +10104,8 @@
         "chinese": "现在年轻人流行穷鬼套餐，能省一点是一点。",
         "english": "The 'broke bundle' lifestyle is trending among young people now — save wherever you can."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "ben-cao-gang-mu-jianshen-cao",
@@ -9771,7 +10132,8 @@
         "chinese": "公司团建又来了，领导说要我们一起表演本草纲目健身操，我当场想请假。",
         "english": "Team-building event is here again — the boss wants us to perform the Herbal Classic exercise dance together. I immediately considered calling in sick."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "liu-genghong-nvhai",
@@ -9798,7 +10160,8 @@
         "chinese": "我室友现在是资深刘畊宏女孩，《本草纲目》都能背着跳了。",
         "english": "My roommate is now a hardcore Liu Genghong Girl — she can do the whole 'Compendium of Materia Medica' routine from memory."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "yang-le-ge-yang",
@@ -9825,7 +10188,8 @@
         "chinese": "这个项目就是现实版的羊了个羊，看着简单，实际上根本不让你赢。",
         "english": "This project is a real-life Sheep-a-Sheep — looks straightforward, but it's designed so you basically can't win."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ci-ke",
@@ -9852,7 +10216,8 @@
         "chinese": "现在买东西一定要先看价格，刺客太多了。",
         "english": "You have to check the price before picking anything up these days — there are price assassins everywhere."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ju-ying-lao-ban",
@@ -9879,7 +10244,8 @@
         "chinese": "在巨婴老板手下工作，感觉自己是保姆不是员工。",
         "english": "Working under a man-baby boss feels less like being an employee and more like being a nanny."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ling-ling-hou-zheng-dun",
@@ -9906,7 +10272,8 @@
         "chinese": "00后整顿职场真的猛，下班准时走，一分钟都不多留。",
         "english": "Gen-Z really is reshaping the workplace — they leave the second the clock hits five, not a minute more."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "zheng-dun-zhi-chang",
@@ -9933,7 +10300,8 @@
         "chinese": "我决定了，下周开始整顿职场，开会迟到不再帮领导挡着了。",
         "english": "I've made up my mind — starting next week I'm rectifying this workplace, no more covering for the boss when he's late to meetings."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "dui-hao-ru-zuo",
@@ -9960,7 +10328,8 @@
         "chinese": "这篇文章描述的'躺平青年'，你别对号入座啊——哦，你已经对上了。",
         "english": "Don't go assuming that article about 'lying-flat youth' is describing you — oh, you already did, didn't you."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "mbti-mbti",
@@ -9987,7 +10356,8 @@
         "chinese": "他发消息已读不回，果然是典型的INTJ，太难懂了。",
         "english": "He left my message on read again — classic INTJ behavior, absolutely impossible to figure out."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "e-ren",
@@ -10014,7 +10384,8 @@
         "chinese": "作为i人，我完全不理解e人怎么能每天都出去玩还不累。",
         "english": "As an introvert, I genuinely don't understand how extroverts go out every single day and never run out of energy."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "i-ren",
@@ -10041,7 +10412,8 @@
         "chinese": "别叫我打电话，我是i人，发消息就好。",
         "english": "Don't make me call — I'm an i人, just text me."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "lao-nv",
@@ -10068,7 +10440,8 @@
         "chinese": "网上教怎么识别捞女的视频越来越多，说明现在年轻人谈恋爱压力真的很大。",
         "english": "There are more and more videos online teaching guys how to spot a 捞女, which shows just how much pressure young people feel when dating these days."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "xian-yan-bao",
@@ -10095,7 +10468,8 @@
         "chinese": "我就是个显眼包，走到哪里都要让大家注意到我。",
         "english": "I'm totally a 显眼包 — wherever I go, I make sure everyone notices me."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "xue-gao-ci-ke",
@@ -10122,7 +10496,8 @@
         "chinese": "以后拿雪糕之前一定要先看价格，被刺客偷袭了好几次了。",
         "english": "From now on I'm checking the price before grabbing any ice cream — I've been assassinated one too many times.chinese_name"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "na-nie-jing-zhun",
@@ -10149,7 +10524,8 @@
         "chinese": "她知道我不好意思拒绝，所以当着所有人的面问我，拿捏精准啊。",
         "english": "She knew I couldn't say no in public, so she asked me right in front of everyone. Perfectly calculated move."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "wei-xx-ke-tou",
@@ -10176,7 +10552,8 @@
         "chinese": "他一个人修好了整个系统，全组人都在为他磕头。",
         "english": "He fixed the entire system by himself — the whole team is bowing down to him."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "man-jiuye",
@@ -10203,7 +10580,8 @@
         "chinese": "他不是找不到工作，就是想慢就业，感受一下生活。",
         "english": "It's not that he can't find a job — he's just doing the slow employment thing, taking time to actually live a little."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "shuang-fei-yuan-xiao",
@@ -10230,7 +10608,8 @@
         "chinese": "双非院校的学生也不是不努力，只是起点不一样罢了。",
         "english": "Students from double-non universities aren't less hardworking — they just started the race from a different line."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "fenwei-gan-shengji",
@@ -10257,7 +10636,8 @@
         "chinese": "她出门前一定要换上好看的杯子拍照，说是给约会氛围感升级。",
         "english": "Before heading out she always swaps in a prettier cup for photos, says it upgrades the date-night vibe."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "beng-tie-qidong",
@@ -10284,7 +10664,8 @@
         "chinese": "朋友问我周末干嘛，我说崩铁启动，他秒懂。",
         "english": "My friend asked what I was doing this weekend. I said 'HSR mode activated' and he immediately understood."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "yuanshen-tianhuaban",
@@ -10311,7 +10692,8 @@
         "chinese": "我们公司福利是行业原神天花板，就这还叫好？",
         "english": "Our company benefits are the Genshin ceiling of the industry — and people still call this good?"
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "xu-ni-ou-xiang",
@@ -10338,7 +10720,8 @@
         "chinese": "他花了好几万给虚拟偶像打call，朋友都觉得他疯了。",
         "english": "He spent tens of thousands cheering on his virtual idol, and his friends all think he's lost his mind."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "man-shenghuo",
@@ -10365,7 +10748,8 @@
         "chinese": "年轻人追求慢生活，不是因为懒，而是不想再被无休止的内卷消耗了。",
         "english": "Young people pursuing slow living aren't being lazy — they just don't want to be ground down by endless involution anymore."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "duan-wang-sheng-huo",
@@ -10392,7 +10776,8 @@
         "chinese": "她说要过断网生活，结果还是每天发朋友圈记录自己有多自律。",
         "english": "She said she was going offline, but still posted to Moments every day documenting how disciplined she was being."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "yuan-shi-ren",
@@ -10419,7 +10804,8 @@
         "chinese": "室友嘲笑我还在用旧手机，说我是原始人，我觉得挺好的。",
         "english": "My roommate mocked me for still using an old phone and called me a primitive person — honestly, I'm fine with that."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "ta-luo-pai-re",
@@ -10446,7 +10832,8 @@
         "chinese": "她现在什么都用塔罗牌决定，连要不要换工作都要先问牌。",
         "english": "She decides everything by tarot now — even whether to change jobs, she asks the cards first."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "xuanxue-re",
@@ -10473,7 +10860,8 @@
         "chinese": "找不到工作，只能靠玄学续命了，今天算了个八字感觉好多了。",
         "english": "Can't find a job, so I'm surviving on mysticism — got my Ba Zi read today and honestly felt a lot better."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "da-zi-jing-ji",
@@ -10500,7 +10888,8 @@
         "chinese": "搭子经济的兴起说明年轻人既渴望陪伴，又不想承担太多社交压力。",
         "english": "The rise of the buddy economy shows that young people crave company but don't want the baggage of heavy social obligations."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ping-ti-jing-ji",
@@ -10527,7 +10916,8 @@
         "chinese": "现在年轻人都流行平替经济，买东西不再只看牌子了。",
         "english": "The dupe economy is all the rage among young people now — nobody's buying something just for the brand name anymore."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "zao-ba-ren",
@@ -10554,7 +10944,8 @@
         "chinese": "早八人报到！昨晚熬夜到两点，今天还是准时坐在教室里。",
         "english": "Early eight crew, checking in! Stayed up until 2 AM last night, still sitting in class right on time."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "zao-ba",
@@ -10581,7 +10972,8 @@
         "chinese": "早八人互相理解，大家都不容易。",
         "english": "We early-eight people understand each other — none of us have it easy."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "zao-c-wan-a",
@@ -10608,7 +11000,8 @@
         "chinese": "早C晚A是做到了，但熬夜的习惯还是改不掉，护肤全白费了吧。",
         "english": "Sure, I'm doing the morning-C evening-A routine, but I still can't stop staying up late — probably cancels out all the skincare effort."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "cheng-shi-man-bu",
@@ -10635,7 +11028,8 @@
         "chinese": "最近压力好大，我需要来一场city walk来清空一下脑子。",
         "english": "I've been so stressed lately; I need a city walk to clear my head."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "chou-xiang",
@@ -10662,7 +11056,8 @@
         "chinese": "今天发生的事情真的很抽象，地铁上有人拿着喇叭唱国歌。",
         "english": "What happened today was genuinely abstract — some guy on the subway was belting out the national anthem through a megaphone."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "xx-de-jintou-shi-xx",
@@ -10689,7 +11084,8 @@
         "chinese": "打工的尽头是创业，创业的尽头还是打工。",
         "english": "The end of being an employee is starting a business — and the end of starting a business is being an employee again."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "gongzhu-bing",
@@ -10716,7 +11112,8 @@
         "chinese": "我知道我有点公主病，但偶尔被宠一下有什么错呢？",
         "english": "I know I've got a touch of Princess Syndrome, but what's wrong with being spoiled every once in a while?"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "mei-la-de-feng",
@@ -10743,7 +11140,8 @@
         "chinese": "美拉德风真的太适合我的肤色了，穿上就有一种高端咖啡馆的感觉。",
         "english": "The Maillard style really suits my skin tone — wearing it makes me feel like I belong in an upscale coffee shop."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "duobaan-sexi",
@@ -10770,7 +11168,8 @@
         "chinese": "她今天穿了一套多巴胺色系的搭配，黄色上衣配绿色裤子，走在街上超吸睛。",
         "english": "She wore a full dopamine palette outfit today — yellow top with green pants — and totally turned heads on the street."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "xian-cheng-po-luo-men",
@@ -10797,7 +11196,8 @@
         "chinese": "我在外面累死累活，还比不上县城婆罗门随便找个关系户岗位。",
         "english": "I work myself to the bone out here, and still can't compete with a county-town Brahmin who just slots into some connected local job."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "fan-xiang-lv-you",
@@ -10824,7 +11224,8 @@
         "chinese": "别卷三亚了，反向旅游去鹤岗拍雪景才是今年最潮的玩法。",
         "english": "Stop fighting over Sanya — the trendiest thing this year is reverse tourism: heading to Hegang to shoot snow photos instead."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "te-zhong-bing-jing-ji",
@@ -10851,7 +11252,8 @@
         "chinese": "特种兵经济证明年轻人没钱但有体力，商家开始专门针对他们打折。",
         "english": "The commando tourism economy proves young people may lack money but not stamina, and businesses have started offering discounts specifically targeting them."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "er-bin",
@@ -10878,7 +11280,8 @@
         "chinese": "没想到尔滨这么争气，直接火出圈了。",
         "english": "Who would have thought Harbin would pull through like this — it literally blew up everywhere."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "zibo-shaokao",
@@ -10905,7 +11308,8 @@
         "chinese": "这家公司对员工好得像淄博对待游客一样，真的太罕见了。",
         "english": "This company treats its employees as warmly as Zibo treated tourists — genuinely rare these days."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "jiubawu-feiwu",
@@ -10932,7 +11336,8 @@
         "chinese": "985废物群里大家都在聊找不到工作，顿时感觉不孤独了。",
         "english": "Everyone in the '985 Losers' group chat is talking about not being able to find a job — suddenly I don't feel so alone."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "kong-yiji-kunjing",
@@ -10959,7 +11364,8 @@
         "chinese": "他不是不能去工厂上班，只是那件'长衫'脱不下来。",
         "english": "It's not that he can't work in a factory — it's just that he can't bring himself to take off that scholar's robe."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "xiao-hai-jie",
@@ -10986,7 +11392,8 @@
         "chinese": "看她安慰哭泣同学的样子，完全是小孩姐本姐，比我情商高多了。",
         "english": "The way she comforted her crying classmate — total Little Kid Sis energy, way higher EQ than me."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "xiao-hai-ge",
@@ -11013,7 +11420,8 @@
         "chinese": "小孩哥说'烦恼都是自找的'，我一个成年人被他说破防了。",
         "english": "Little Kid Bro said 'most worries are self-inflicted,' and I, a full-grown adult, felt personally called out."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "gong-zhu-qing-shang-che",
@@ -11040,7 +11448,8 @@
         "chinese": "每次他来接我都说'公主请上车'，甜到齁。",
         "english": "Every time he picks me up he says 'Princess, your chariot awaits' — it's almost too sweet to handle."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "da-zi",
@@ -11067,7 +11476,8 @@
         "chinese": "我们只是健身搭子，不是那种关系。",
         "english": "We're just gym buddies — it's not like that between us."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "kong-yiji-wenxue",
@@ -11094,7 +11504,8 @@
         "chinese": "投了两百份简历没有回音，学历既是我的骄傲，也是我的枷锁，这就是孔乙己文学的现实。",
         "english": "Two hundred résumés, zero replies. My degree is both my pride and my shackle — that's Kong Yiji Literature in real life.chinese_name"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "yang-sheng-z-shi-dai",
@@ -11121,7 +11532,8 @@
         "chinese": "朋友叫我去蹦迪，我拒绝了，在家泡脚听白噪音，养生Z世代实锤。",
         "english": "My friend asked me to go clubbing, but I stayed home soaking my feet and listening to white noise — fully confirmed Wellness Gen-Z."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "cui-pi-shenti",
@@ -11148,7 +11560,8 @@
         "chinese": "脆皮身体真的不是借口，我打了个喷嚏，脖子扭了。",
         "english": "The fragile body thing is no joke — I sneezed and somehow managed to strain my neck."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "li-zhi-nao",
@@ -11175,7 +11588,8 @@
         "chinese": "她说自己离职脑已经持续三个月了，但还是没敢提。",
         "english": "She says her Quit-Brain has been going on for three months now, but she still hasn't dared to bring it up."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "jiang-ben-zeng-xiao",
@@ -11202,7 +11616,8 @@
         "chinese": "新版APP删了一半功能还说是优化体验，这波降本增笑玩得挺溜的。",
         "english": "The new app removed half its features and called it an 'improved experience' — a masterclass in Cut Costs, Boost Laughs."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "ban-tang-ban-juan",
@@ -11229,7 +11644,8 @@
         "chinese": "卷又卷不动，躺又躺不平，只能半躺半卷地过着。",
         "english": "Can't keep up with the grind, can't fully let go either — so here I am, floating somewhere in the middle."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "sishiwu-du-rensheng",
@@ -11258,7 +11674,8 @@
         "chinese": "年轻人卷不动又躺不平，干脆45度凑合过吧。",
         "english": "Young people can't keep grinding but can't fully give up either, so they just tilt at 45 degrees and make do."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "sishiwu-du-tang",
@@ -11285,7 +11702,8 @@
         "chinese": "领导让我加班，我选择45度躺，完成任务就下班。",
         "english": "My boss asked me to work overtime, so I went full 45-degree mode — finished the task and walked right out the door."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "huo-ren-wei-si",
@@ -11312,7 +11730,8 @@
         "chinese": "朋友问我最近怎么样，我就说活人微死吧，撑着呢。",
         "english": "A friend asked how I was doing lately, and I just said 'half-dead while alive' — just barely getting by."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "huo-ren-gan",
@@ -11339,7 +11758,8 @@
         "chinese": "现在的网红都太精致了，完全没有活人感，看着好累。",
         "english": "All these influencers are so polished they don't feel human at all. It's exhausting to watch."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "bao-bao-xiong",
@@ -11366,7 +11786,8 @@
         "chinese": "她就是个保保熊，你说话稍微重一点她就不开心了。",
         "english": "She's such a Baby Bear — say one slightly harsh thing and she pouts for the rest of the day."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "city-bu-city",
@@ -11393,7 +11814,8 @@
         "chinese": "穿着睡衣去便利店，这操作city不city？",
         "english": "Going to the convenience store in pajamas — is that move city or absolutely not city?"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "shuzi-youmin",
@@ -11420,7 +11842,8 @@
         "chinese": "我也想成为数字游民，但先得搞清楚怎么稳定接单。",
         "english": "I want to become a digital nomad too, but first I need to figure out how to land clients consistently."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ai-sheng-cheng-nei-rong",
@@ -11447,7 +11870,8 @@
         "chinese": "期末论文全靠AIGC救命，我只负责改了个名字。",
         "english": "My final paper was pure AIGC — my only contribution was changing the title."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ai-xie-zuo",
@@ -11474,7 +11898,8 @@
         "chinese": "老师说不能AI写作，但我还是用了，反正他也分不清。",
         "english": "The teacher said no AI writing, but I did it anyway — it's not like he can tell the difference."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ai-huihua",
@@ -11501,7 +11926,8 @@
         "chinese": "你这头像是自己画的还是AI绘画的？感觉太完美了。",
         "english": "Did you draw this avatar yourself or is it AI-generated? It looks almost too perfect."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "yin-fa-jing-ji",
@@ -11528,7 +11954,8 @@
         "chinese": "银发经济火了，连我奶奶都开始直播卖货了。",
         "english": "The silver economy is booming — even my grandma has started livestreaming to sell products."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "ti-qian-yang-lao",
@@ -11555,7 +11982,8 @@
         "chinese": "周末不出门、不社交，就在阳台种菜，提前养老真的很爽。",
         "english": "Staying in on weekends, no socializing, just growing vegetables on the balcony — early retirement life is honestly great."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "zhongyi-re",
@@ -11582,7 +12010,8 @@
         "chinese": "加班猝死风险那么高，不整点中医调理一下怎么行，赶紧买点黄芪补气。",
         "english": "With overtime death risks this high, you better try some TCM to balance yourself out — time to grab some astragalus root."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ba-duan-jin",
@@ -11609,7 +12038,8 @@
         "chinese": "朋友圈全是人晒八段锦打卡，00后已经开始和爷爷抢养生赛道了。",
         "english": "My feed is flooded with people posting their Eight-Piece Brocade check-ins — Gen-Z is now competing with grandpa for the wellness lifestyle lane."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "lvyou-dazi",
@@ -11636,7 +12066,8 @@
         "chinese": "我们就是旅游搭子关系，出门玩得来，但平时也不怎么联系。",
         "english": "We're just travel partners — great together on trips, but we don't really keep in touch otherwise."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "xuexi-dazi",
@@ -11663,7 +12094,8 @@
         "chinese": "想找个考研学习搭子，互相监督打卡，一起上岸！",
         "english": "Looking for a grad-exam study partner to keep each other accountable and get through this together!"
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "qingxu-dazi",
@@ -11690,7 +12122,8 @@
         "chinese": "她不是我的闺蜜，就是个情绪搭子，专门一起哭剧的那种。",
         "english": "She's not my bestie — she's my vibe buddy, the kind you specifically cry over TV dramas with."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "sun-ying-sha",
@@ -11717,7 +12150,8 @@
         "chinese": "收到录取通知书的时候，我直接孙颖莎附体了，在宿舍嗷嗷叫了五分钟。",
         "english": "When I got my acceptance letter, I was fully possessed by Sun Yingsha energy and screamed in my dorm room for five minutes straight."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "fan-zhendong",
@@ -11744,7 +12178,8 @@
         "chinese": "期末考了满分，但我已经樊振东了，真的不想卷了。",
         "english": "Got a perfect score on finals, but I've gone full Fan Zhendong — I genuinely don't want to grind anymore."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "quan-hongchan",
@@ -11771,7 +12206,8 @@
         "chinese": "她对采访的回答太真实了，全红婵永远不会说官方套话。",
         "english": "Her interview answers are so real — Quan Hongchan would never give you a scripted PR response."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "bali-aoyun-geng",
@@ -11798,7 +12234,8 @@
         "chinese": "今天被老板骂了，我就用巴黎奥运梗安慰自己：裁判不公平，但我心里有金牌。",
         "english": "Got chewed out by my boss today, so I comforted myself with a Paris Olympics meme: the ref might be rigged, but I've got a gold medal in my heart."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "wo-zhen-de-hui-xie",
@@ -11825,7 +12262,8 @@
         "chinese": "刚买的奶茶摔了一地，我真的会谢。",
         "english": "I just dropped my freshly bought bubble tea all over the floor. I absolutely cannot."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "xu-ni-zhu-bo",
@@ -11852,7 +12290,8 @@
         "chinese": "他说他女朋友是虚拟主播，我们都不知道该怎么接话。",
         "english": "He said his girlfriend is a VTuber — none of us knew how to respond to that."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "guochan-youxi-jueqi",
@@ -11879,7 +12318,8 @@
         "chinese": "以前说国产游戏崛起都被嘲，现在外国玩家抢着买，扬眉吐气了。",
         "english": "People used to laugh when we talked about domestic games rising — now foreign players are rushing to buy them. Finally, some respect."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "hei-shenhua-wukong",
@@ -11906,7 +12346,8 @@
         "chinese": "玩了《黑神话悟空》才知道，国产游戏终于站起来了！",
         "english": "After playing Black Myth: Wukong, I finally believe — Chinese games have truly arrived!"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "cheng-shi-ying-xiao",
@@ -11933,7 +12374,8 @@
         "chinese": "我们市长最近天天研究城市营销，感觉他比网红更懂流量。",
         "english": "Our mayor has been studying city marketing nonstop lately — honestly, he understands viral traffic better than most influencers."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "haerbin-dong-li",
@@ -11960,7 +12402,8 @@
         "chinese": "别整那些花里胡哨的，来点冻梨就挺好，实在。",
         "english": "Skip all the fancy stuff — just give me some frozen pear. Simple and real, that's the way."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "tianshui-malatang",
@@ -11987,7 +12430,8 @@
         "chinese": "天水麻辣烫火了之后，我们县的特产也开始被人关注了。",
         "english": "Ever since Tianshui spicy hot pot blew up, people finally started paying attention to our county's local specialties too."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "er-bin-xianxiang",
@@ -12014,7 +12458,8 @@
         "chinese": "感觉现在很多城市都想复制尔滨现象，但那种真诚劲儿学不来。",
         "english": "Lots of cities are trying to copy the Harbin Phenomenon now, but that genuine warmth and sincerity just can't be faked."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "shai-bei-yang-sheng",
@@ -12041,7 +12486,8 @@
         "chinese": "现在年轻人流行晒背养生，公园里到处都是趴着晒太阳的人。",
         "english": "Sunning your back is the new thing among young people — the parks are full of folks lying face-down soaking up rays."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "fan-xiang-xiao-fei",
@@ -12068,7 +12514,8 @@
         "chinese": "反向消费不是穷，是看透了品牌溢价的本质。",
         "english": "Reverse consumption isn't about being broke — it's about seeing through the myth of brand markups."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "bai-ren-fan",
@@ -12095,7 +12542,8 @@
         "chinese": "看了那个外国博主的饮食vlog，全程白人饭，就一块芝士配饼干，他们真的不饿吗？",
         "english": "Watched that foreign blogger's food vlog — pure white people food the whole way through, just a block of cheese with crackers. Are they seriously not hungry?"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "chouxiang-wenxue",
@@ -12122,7 +12570,8 @@
         "chinese": "闹钟响了，我凝视天花板，感受到了存在主义的召唤，最终还是选择了继续躺平。",
         "english": "The alarm rang. I stared at the ceiling, felt the call of existentialism, and ultimately chose to lie flat once more."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "wen-hua-da-zi",
@@ -12149,7 +12598,8 @@
         "chinese": "她不是我的好朋友，就是个文化搭子，我们只在看展览的时候联系。",
         "english": "She's not really a close friend — just a culture buddy. We only reach out when there's an exhibition to check out."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "cui-pi-daxuesheng",
@@ -12176,7 +12626,8 @@
         "chinese": "脆皮大学生报到，军训第一天就中暑进了医院。",
         "english": "Fragile college student checking in — got heatstroke on the very first day of military training and ended up in the hospital."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "shai-bei",
@@ -12203,7 +12654,8 @@
         "chinese": "现在年轻人流行晒背，说是补阳气，其实就是躺平晒太阳。",
         "english": "Young people are all into sunning their backs now — they call it replenishing yang energy, but really it's just lying flat in the sun."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "shui-ling-ling",
@@ -12230,7 +12682,8 @@
         "chinese": "她水灵灵地问老板能不能准时下班，全办公室都沉默了。",
         "english": "She innocently asked the boss if she could leave on time — the entire office fell silent.chinese_name"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "kai-yuan-zhi-guang",
@@ -12257,7 +12710,8 @@
         "chinese": "我们组的老王从不提交PR，却天天夸开源精神，开源之光本光了。",
         "english": "Old Wang on our team never submits a single PR but preaches open-source spirit every day — he really is the Light of Open Source, all shine and no heat."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "deepseek-zhen-han",
@@ -12284,7 +12738,8 @@
         "chinese": "又在发DeepSeek震撼的帖子？哥们冷静一下，先看看它能不能帮你找到工作。",
         "english": "Posting another 'DeepSeek is shocking' take? Bro, calm down — first check if it can help you find a job."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "fei-yi-chu-quan",
@@ -12311,7 +12766,8 @@
         "chinese": "没想到皮影戏能非遗出圈，现在连我弟弟都开始学了。",
         "english": "Who knew shadow puppetry would blow up like this — now even my little brother has started learning it."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "pang-dong-lai",
@@ -12338,7 +12794,8 @@
         "chinese": "胖东来又给员工涨工资了，我老板连正眼都不瞧我。",
         "english": "Pang Dong Lai raised salaries again, while my boss won't even give me a second glance."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "guo-chao-san-dian-ling",
@@ -12365,7 +12822,8 @@
         "chinese": "这个设计把敦煌壁画和赛博朋克融合得这么好，果然是国潮3.0的精髓。",
         "english": "Blending Dunhuang murals with cyberpunk this seamlessly — that's the essence of China Chic 3.0 right there."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "hanfu-richang-hua",
@@ -12392,7 +12850,8 @@
         "chinese": "汉服日常化就是让老祖宗的衣服回到街头，不只是拍照用的。",
         "english": "Hanfu everyday means bringing our ancestors' clothes back to the streets, not just for photo shoots."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ma-mian-qun",
@@ -12419,7 +12878,8 @@
         "chinese": "男朋友问我要什么生日礼物，我说马面裙，他以为我在骂他。",
         "english": "My boyfriend asked what I wanted for my birthday; I said a horse-face skirt and he thought I was insulting him."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "xin-zhong-shi-chuan-da",
@@ -12446,7 +12906,8 @@
         "chinese": "最近新中式穿搭太火了，连我妈都说我终于穿得好看了。",
         "english": "New Chinese Style fashion is so hot right now — even my mom finally said I look good for once."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "xin-zhong-shi",
@@ -12473,7 +12934,8 @@
         "chinese": "我买了一套新中式茶具，准备在家里假装自己是个隐居的文人。",
         "english": "I bought a neo-Chinese style tea set so I can pretend to be a reclusive scholar-poet in my own apartment."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "bao-zhu-fan-wan",
@@ -12500,7 +12962,8 @@
         "chinese": "听说AI能写代码了，程序员们瑟瑟发抖，都在想怎么保住饭碗。",
         "english": "Word is AI can write code now, and developers are shaking in their boots, wondering how to keep their jobs."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ai-tongshi",
@@ -12527,7 +12990,8 @@
         "chinese": "AI同事不要年终奖、不请假，我感觉我快被优化掉了。",
         "english": "My AI coworker doesn't need a year-end bonus or vacation days — I have a feeling I'm about to get 'optimized' out of a job."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "shuzi-yuangong",
@@ -12554,7 +13018,8 @@
         "chinese": "每天机械地复制粘贴，我跟数字员工有什么区别？",
         "english": "Copy-pasting robotically every single day — at this point, what exactly is the difference between me and a digital employee?"
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "tongyong-zhinengti",
@@ -12581,7 +13046,8 @@
         "chinese": "老板又让我做PPT又让我去接客户，我果然是公司的通用智能体。",
         "english": "My boss has me making slides AND picking up clients now. Turns out I'm the company's general-purpose agent after all."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "manus-wai-lai-ci",
@@ -12608,7 +13074,8 @@
         "chinese": "我终于抢到Manus邀请码了，结果体验了十分钟就不想用了。",
         "english": "I finally scored a Manus invite code, but after ten minutes with it I couldn't be bothered to continue."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "ren-xing-ji-qi-ren",
@@ -12635,7 +13102,8 @@
         "chinese": "朋友问我周末有什么计划，我愣了半天，人形机器人哪有什么计划，就是充电待机。",
         "english": "A friend asked what my weekend plans were and I blanked — humanoid robots don't have plans, we just charge up and go on standby."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ji-qi-ren-niu-yang-ge",
@@ -12662,7 +13130,8 @@
         "chinese": "那个发布会上的机器人真的在扭秧歌，科技感和土味完美结合，绝了。",
         "english": "That robot at the launch event was literally doing the yangge dance — peak tech meets peak corniness, an absolute masterpiece."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "chunwan-jiqiren",
@@ -12689,7 +13158,8 @@
         "chinese": "别装了，你那个'元气满满'的朋友圈就是春晚机器人表演。",
         "english": "Drop the act — your 'full of energy and positivity' social media feed is just a Spring Gala Robot performance."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "yushu-keji",
@@ -12716,7 +13186,8 @@
         "chinese": "看了春晚的机器人表演，感觉宇树科技比我跳舞还好看。",
         "english": "After watching the Gala robot performance, I realized Unitree's robots dance better than I ever will."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "yi-ren-you",
@@ -12743,7 +13214,8 @@
         "chinese": "不想等别人凑时间了，直接一人游，说走就走。",
         "english": "Done waiting around for people to sync schedules — just going solo, leaving whenever I want."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "yi-ren-shi",
@@ -12770,7 +13242,8 @@
         "chinese": "一人食的最高境界就是不用抢最后一块肉。",
         "english": "The ultimate zen of eating alone: no one to fight over the last piece of meat."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "du-ju-wen-hua",
@@ -12797,7 +13270,8 @@
         "chinese": "一个人的火锅虽然看起来孤独，但这就是独居文化的精髓啊。",
         "english": "A hot pot for one might look lonely to outsiders, but that's exactly the essence of solo living culture."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "dan-shen-jing-ji",
@@ -12824,7 +13298,8 @@
         "chinese": "我不是找不到对象，我只是在为单身经济做贡献。",
         "english": "It's not that I can't find a partner — I'm just doing my part to contribute to the singles economy."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "gu-du-jing-ji",
@@ -12851,7 +13326,8 @@
         "chinese": "越来越多年轻人不婚不育，孤独经济反而越做越大。",
         "english": "As more and more young people opt out of marriage and kids, the solitude economy just keeps growing bigger."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "bu-xiu-tu",
@@ -12878,7 +13354,8 @@
         "chinese": "她的不修图照片反而比那些精修过的更好看，自信真的是最好的滤镜。",
         "english": "Her unfiltered photos actually look better than the heavily edited ones — confidence really is the best filter."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "qu-lv-jing",
@@ -12905,7 +13382,8 @@
         "chinese": "她发了一组去滤镜的旅行照，真实到让人打消了去三亚的念头。",
         "english": "She posted a filter-free travel photo dump so brutally real it made everyone reconsider their Sanya vacation plans."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "suren-jueqi",
@@ -12932,7 +13410,8 @@
         "chinese": "她就用手机随便拍了个做饭视频，结果涨了五十万粉，素人崛起真的不是说说而已。",
         "english": "She just casually filmed herself cooking on her phone and gained 500,000 followers — 'the rise of the ordinary person' is no joke."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "qu-ai-wei",
@@ -12959,7 +13438,8 @@
         "chinese": "现在很多人专门靠帮别人去AI味赚钱，这也算一门新职业了。",
         "english": "A lot of people are now making money specifically by removing the AI smell from other people's writing — it's basically a new profession."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ren-wei",
@@ -12986,7 +13466,8 @@
         "chinese": "他那条道歉视频终于有点人味了，感觉是真心的。",
         "english": "His apology video finally felt human — like he actually meant it for once."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "fan-ai-lang-chao",
@@ -13013,7 +13494,8 @@
         "chinese": "反AI浪潮不是说AI不好，是说我们不能把思考都外包出去。",
         "english": "The Anti-AI Wave isn't about AI being bad — it's about not outsourcing all our thinking to machines."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "xu-ni-lian-ren",
@@ -13040,7 +13522,8 @@
         "chinese": "现在虚拟恋人都比真恋爱省心，至少不会吵架。",
         "english": "Honestly, a virtual lover is less hassle than a real relationship — at least they won't pick fights with you."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "shuzi-fenshen",
@@ -13067,7 +13550,8 @@
         "chinese": "现在AI这么发达，我打算训练一个数字分身专门回复相亲对象的消息。",
         "english": "With AI this advanced, I'm thinking of training a digital avatar just to handle all my blind-date chats."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "ai-da-zi",
@@ -13094,7 +13578,8 @@
         "chinese": "不知道怎么回复领导消息？问问你的AI搭子帮你润色一下。",
         "english": "Not sure how to reply to your boss's message? Ask your AI buddy to polish it for you."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ti-shi-ci-gong-cheng",
@@ -13121,7 +13606,8 @@
         "chinese": "花了三千块学提示词工程，结果发现AI根本不需要哄。",
         "english": "I spent three thousand yuan on a prompt engineering course, only to discover the AI doesn't need to be coaxed at all."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "dong-de-dou-dong",
@@ -13148,7 +13634,8 @@
         "chinese": "他能升职靠的不是能力，懂的都懂。",
         "english": "How he got that promotion had nothing to do with ability — those who know, know."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "shuang-wen-xian-shi-ban",
@@ -13175,7 +13662,8 @@
         "chinese": "爽文现实版：我一眼识破了骗局，霸气转身离去——结果走错门，尴尬了三秒。",
         "english": "Power fantasy IRL: I saw through the scam instantly, turned away with total swagger — then walked into the wrong door and stood there awkwardly for three seconds."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "wen-hua-chu-hai",
@@ -13202,7 +13690,8 @@
         "chinese": "某短剧App在美国爆火，网友：这就是文化出海？好吧，算吧。",
         "english": "A Chinese short-drama app blew up in America. Netizens replied: 'This counts as cultural going global? Okay, sure, we'll take it.'"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "guo-man-jueqi",
@@ -13229,7 +13718,8 @@
         "chinese": "又一部预告片做得比正片好看的国漫……国漫崛起，崛起个寂寞。",
         "english": "Another Chinese anime where the trailer looks better than the actual show... 'The rise of Chinese animation' — rising into nothing, apparently."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "nazha-er-xianxiang",
@@ -13256,7 +13746,8 @@
         "chinese": "哪吒2现象说明国产动画真的站起来了，以后不用羡慕迪士尼了。",
         "english": "The Ne Zha 2 phenomenon proves that Chinese animation has truly risen — no need to envy Disney anymore."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "xian-cheng-jing-ji",
@@ -13283,7 +13774,8 @@
         "chinese": "县城经济的精髓就是：不内卷、不焦虑，下午三点约朋友打麻将。",
         "english": "The essence of county-town economy: no rat race, no anxiety — just texting your friends at 3 PM to come play mahjong."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "shengyulv-jiaolv",
@@ -13310,7 +13802,8 @@
         "chinese": "又看到催生新闻了，生育率焦虑今天份已到账。",
         "english": "Saw another 'have more babies' headline. Today's dose of birth rate anxiety has been delivered."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "fuye-ganxu",
@@ -13337,7 +13830,8 @@
         "chinese": "公司又降薪了，副业刚需不是段子，是真的。",
         "english": "The company cut salaries again. 'Side hustle survival mode' isn't a joke anymore — it's just reality."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ling-gong-jing-ji",
@@ -13364,7 +13858,8 @@
         "chinese": "朋友问我在哪上班，我说我深度参与零工经济，听起来体面多了。",
         "english": "A friend asked where I work, so I said I'm 'deeply engaged in the gig economy' — sounds a lot more dignified than the truth."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ai-tidai-jiaolv",
@@ -13391,7 +13886,8 @@
         "chinese": "同事说不用担心AI替代焦虑，结果下周他们部门就裁了一半人。",
         "english": "My coworker said not to worry about AI replacement anxiety — turns out half his department got laid off the following week."
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "fan-xiang-tang-ping",
@@ -13418,7 +13914,8 @@
         "chinese": "他看起来每天都在摸鱼，结果季度绩效第一，这就是反向躺平的艺术。",
         "english": "He looks like he's slacking off every day, but he came in first on the quarterly review — that's the art of reverse lying flat."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "guochan-ai-jueqi",
@@ -13445,7 +13942,8 @@
         "chinese": "以前觉得国产AI崛起是爱国滤镜，现在确实得承认技术真的上来了。",
         "english": "I used to think 'rise of domestic AI' was just patriotic hype, but honestly I have to admit the tech has genuinely caught up."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "zhi-neng-ti",
@@ -13472,7 +13970,8 @@
         "chinese": "他说他在做智能体创业，其实就是套了个API写了几行提示词。",
         "english": "He says he's building an AI agent startup — really he just wrapped an API and wrote a few prompt lines."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ju-shen-zhi-neng",
@@ -13499,7 +13998,8 @@
         "chinese": "投资人现在见谁都问：你们的具身智能落地方案是什么？",
         "english": "Every investor right now asks the same question: 'What's your embodied AI deployment plan?'"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "deepseek-re",
@@ -13526,7 +14026,8 @@
         "chinese": "DeepSeek热真的把硅谷搞懵了，这波国产AI太争气了！",
         "english": "DeepSeek Fever really caught Silicon Valley off guard — our homegrown AI is genuinely making us proud this time!"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "ai-wei",
@@ -13553,7 +14054,8 @@
         "chinese": "他的道歉信AI味十足，读起来像客服机器人写的。",
         "english": "His apology letter had serious AI flavour — it read like it was drafted by a customer-service bot.chinese_name"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "slug": "sai-bo-qing-ming",
@@ -13580,7 +14082,8 @@
         "chinese": "那个陪我度过大学四年的购物APP倒闭了，今天赛博清明，献花一朵。",
         "english": "The shopping app that got me through four years of college just shut down. Cyber Qingming today — here's a flower for you, old friend."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "cun-chao",
@@ -13607,7 +14110,8 @@
         "chinese": "村超告诉我们，快乐不需要钱，一块草地就够了。",
         "english": "Village Super League proves you don't need money for joy — just a patch of grass and some heart."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "cun-ba",
@@ -13634,7 +14138,8 @@
         "chinese": "村BA告诉我们，最好的比赛不需要大牌赞助商。",
         "english": "Village BA reminds us that the best games don't need big-name sponsors."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "fufei-duanju",
@@ -13661,7 +14166,8 @@
         "chinese": "付费短剧就是专门在最爽的地方断集，逼你掏钱的那种。",
         "english": "Paid micro-dramas always cut off right at the most exciting moment — it's basically a machine designed to make you open your wallet."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "wei-duan-ju",
@@ -13688,7 +14194,8 @@
         "chinese": "微短剧的剧情虽然狗血，但下班后看两集真的解压。",
         "english": "The plots in micro-dramas are totally over the top, but watching a couple of episodes after work is genuinely stress-relieving."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "duan-ju-chu-hai",
@@ -13715,7 +14222,8 @@
         "chinese": "我们公司准备入局短剧出海赛道，这块市场增长太快了。",
         "english": "Our company is jumping into the overseas short-drama track — this market is growing way too fast to ignore."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ai-duan-ju",
@@ -13742,7 +14250,8 @@
         "chinese": "现在AI短剧越来越多，有些连演员都不需要了，直接生成就行。",
         "english": "AI mini-dramas are everywhere now — some don't even need actors anymore, just hit generate and you're done."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "ai-yanyuan",
@@ -13769,7 +14278,8 @@
         "chinese": "领导在会上说了一堆废话，感觉在看AI演员表演。",
         "english": "The manager spouted nothing but filler in the meeting — felt like watching an AI Actor perform."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "ai-zhu-chi-ren",
@@ -13796,7 +14306,8 @@
         "chinese": "我学了四年播音，结果被AI主持人卷成这样，毕业即失业啊。",
         "english": "I studied broadcasting for four years, only to get out-competed by an AI host. Graduated straight into unemployment."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "ai-sheng-cheng-chun-wan",
@@ -13823,7 +14334,8 @@
         "chinese": "AI生成春晚火了，说明大家心里都有一台自己想看的晚会。",
         "english": "The AI-generated Gala trend blew up because everyone has the show they actually want to watch living rent-free in their head."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "shangye-hangtian",
@@ -13850,7 +14362,8 @@
         "chinese": "这个品牌的新品发布会搞得那么热闹，结果产品还没影，商业航天罢了。",
         "english": "That brand threw such a flashy product launch event, but the thing still doesn't exist — classic commercial spaceflight."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "feixing-qiche",
@@ -13877,7 +14390,8 @@
         "chinese": "老板说公司在拥抱未来，结果给我们发了飞行汽车的宣传册，工资照样不涨。",
         "english": "The boss says the company is embracing the future — turns out that means handing us flying car brochures while salaries stay exactly the same."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "di-kong-jing-ji",
@@ -13904,7 +14418,8 @@
         "chinese": "我在低空经济找到工作了，就是给无人机充电的。",
         "english": "I landed a job in the low-altitude economy — I charge drones for a living."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "xin-zhi-shengchan-li",
@@ -13931,7 +14446,8 @@
         "chinese": "楼下新开了一家卖智能马桶的店，门口挂着横幅：践行新质生产力。",
         "english": "A new smart-toilet shop opened downstairs with a banner out front reading: 'Putting New Quality Productive Forces into Practice.'"
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "zhen-ren-fuwu-yijia",
@@ -13958,7 +14474,8 @@
         "chinese": "朋友说他花双倍价格找真人英语老师，就是不想对着AI练口语，典型的真人服务溢价。",
         "english": "My friend pays twice the price for a human English tutor because he refuses to practice speaking with an AI — a textbook case of the human service premium."
       }
-    ]
+    ],
+    "popularity": 2
   },
   {
     "slug": "hui-gui-ren-wei",
@@ -13985,7 +14502,8 @@
         "chinese": "他发的朋友圈终于有点人味了，不像以前那样像广告。",
         "english": "His WeChat Moments finally feel like a real person again — not like a walking advertisement."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "ai-pao-mo",
@@ -14012,7 +14530,8 @@
         "chinese": "我们公司裁了一半人说要用AI替代，结果AI每天在群里发错文件，AI泡沫害了多少人啊。",
         "english": "Our company laid off half the staff saying AI would replace them — now the AI sends wrong files in the group chat every day. The AI Bubble has claimed so many victims."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "suan-li-jiao-lv",
@@ -14039,7 +14558,8 @@
         "chinese": "看到别人发布新大模型，我的算力焦虑又犯了，感觉自己永远在起跑线上。",
         "english": "Every time someone else drops a new large model, my compute anxiety flares up again — feels like I'm perpetually stuck at the starting line."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "tan-ji-da-gong-ren",
@@ -14066,7 +14586,8 @@
         "chinese": "碳基打工人的优势大概就是还会喝奶茶吧。",
         "english": "The only advantage we carbon-based worker drones have over AI is probably that we can still enjoy a cup of milk tea."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "gui-ji-da-gong-ren",
@@ -14093,7 +14614,8 @@
         "chinese": "硅基打工人不需要休息，所以老板才敢在凌晨两点发消息。",
         "english": "Silicon-based worker drones don't need sleep, which is exactly why my boss feels fine texting at 2 a.m."
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "slug": "shuzi-yongsheng",
@@ -14120,7 +14642,8 @@
         "chinese": "数字永生听起来很科幻，但我总觉得那个'人'说的话根本不像我妈。",
         "english": "Digital immortality sounds sci-fi, but I just can't shake the feeling that thing doesn't talk anything like my mom."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "gui-ji-lian-ren",
@@ -14147,7 +14670,8 @@
         "chinese": "朋友们都在相亲，我在和硅基恋人过七夕，挺好的。",
         "english": "Everyone else is going on blind dates; I'm spending Qixi Festival with my silicon-based lover. Honestly, not bad."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "gui-ji-pengyou",
@@ -14174,7 +14698,8 @@
         "chinese": "碳基朋友全去度假了，还好有硅基朋友陪我过周末。",
         "english": "All my carbon-based friends went on vacation, thank goodness my silicon-based friend is here to keep me company this weekend."
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "slug": "ai-ban-lv",
@@ -14201,6 +14726,7 @@
         "chinese": "他天天跟AI伴侣聊天，说比找真人省心多了。",
         "english": "He chats with his AI companion every day and says it's way less stressful than dealing with real people."
       }
-    ]
+    ],
+    "popularity": 4
   }
 ]

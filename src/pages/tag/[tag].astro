@@ -41,6 +41,7 @@ const allTags = [...new Set(memes.flatMap(m => m.tags))].sort();
           year={m.year}
           status={m.status}
           tags={m.tags}
+          popularity={m.popularity}
         />
       ))}
     </div>
