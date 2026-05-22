@@ -207,7 +207,6 @@ img { max-width: 100%; }
   text-align: center;
   padding: 72px 28px 52px;
   background: linear-gradient(180deg, var(--bg-subtle) 0%, var(--bg) 100%);
-  border-bottom: 1px solid var(--border-subtle);
 }
 
 .hero h1 {

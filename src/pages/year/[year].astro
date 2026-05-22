@@ -16,9 +16,26 @@ const allYears = [...new Set(memes.map(m => m.year))].sort((a, b) => b - a);
 const currentYear = allYears[0];
 const yearMemes = memes.filter(m => m.year === year);
 const isCurrentYear = year === currentYear;
+const topMemes = yearMemes.filter(m => m.popularity >= 4).slice(0, 5).map(m => m.chinese_name).join('、');
+
+const collectionSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": `${year} Chinese Internet Memes`,
+  "description": `${yearMemes.length} Chinese internet memes and slang terms from ${year}, explained in English with cultural context.`,
+  "url": `https://cnmemes.com/year/${year}`,
+  "hasPart": yearMemes.slice(0, 10).map(m => ({
+    "@type": "DefinedTerm",
+    "name": m.chinese_name,
+    "alternateName": m.english_name,
+    "url": `https://cnmemes.com/meme/${m.slug}`
+  }))
+};
 ---
 
-<Base title={`${year} Chinese Internet Memes`} description={`${yearMemes.length} Chinese internet memes from ${year}, explained in English.`}>
+<Base title={`${year} Chinese Internet Memes — ${yearMemes.length} Memes Explained`} description={`The best Chinese internet memes of ${year} explained in English. From ${topMemes} and more — ${yearMemes.length} memes with cultural context and usage examples.`}>
+
+<script type="application/ld+json" set:html={JSON.stringify(collectionSchema)} />
   <section class="hero" style="padding-bottom:24px;">
     <h1><span class="cn-part">{year}</span> Chinese Internet Memes</h1>
     <p>{yearMemes.length} memes from {year}{isCurrentYear ? ' · Continuously updating 🔄' : ''}</p>

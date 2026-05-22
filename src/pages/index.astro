@@ -45,7 +45,7 @@ const statusCounts = {
     </div>
   </section>
 
-  <div class="container">
+  <div class="container" style="padding-top:36px;">
     <!-- Year pills -->
     <div class="year-pills">
       <a href="/" class="year-pill active">All</a>
@@ -83,40 +83,110 @@ const statusCounts = {
       </div>
     </div>
 
-    <!-- Meme grid -->
+    <!-- Meme grid: only render first 48, rest hidden -->
     <div class="meme-grid" id="memeGrid">
-      {sortedMemes.map(m => (
-        <MemeCard
-          slug={m.slug}
-          chinese_name={m.chinese_name}
-          english_name={m.english_name}
-          pinyin={m.pinyin}
-          english_explanation={m.english_explanation}
-          year={m.year}
-          status={m.status}
-          tags={m.tags}
-          popularity={m.popularity}
-        />
+      {sortedMemes.map((m, i) => (
+        <div class={i >= 48 ? 'card-hidden' : ''}>
+          <MemeCard
+            slug={m.slug}
+            chinese_name={m.chinese_name}
+            english_name={m.english_name}
+            pinyin={m.pinyin}
+            english_explanation={m.english_explanation}
+            year={m.year}
+            status={m.status}
+            tags={m.tags}
+            popularity={m.popularity}
+          />
+        </div>
       ))}
+    </div>
+
+    <!-- Load more -->
+    <div id="loadMoreWrap" style="text-align:center;margin:40px 0 20px;">
+      <button id="loadMoreBtn" class="load-more-btn">Load More Memes</button>
+      <div id="loadMoreCount" style="font-size:12px;color:var(--text-muted);margin-top:8px;">Showing 48 of {sortedMemes.length}</div>
     </div>
   </div>
 
-  <script define:vars={{ memes: sortedMemes }}>
+  <script define:vars={{ memes: sortedMemes, totalCount: sortedMemes.length }}>
     const searchInput = document.getElementById('searchInput');
     const grid = document.getElementById('memeGrid');
-    const cards = Array.from(grid.children);
+    const loadMoreBtn = document.getElementById('loadMoreBtn');
+    const loadMoreWrap = document.getElementById('loadMoreWrap');
+    const loadMoreCount = document.getElementById('loadMoreCount');
+    const PAGE = 48;
+    let showing = PAGE;
+    let isSearching = false;
+
+    // Init: hide cards beyond PAGE
+    const allWrappers = Array.from(grid.children);
+    allWrappers.forEach((wrap, i) => {
+      if (i >= PAGE) wrap.style.display = 'none';
+    });
+
+    // Load more
+    loadMoreBtn.addEventListener('click', () => {
+      const next = showing + PAGE;
+      allWrappers.slice(showing, next).forEach(wrap => {
+        wrap.style.display = '';
+        wrap.style.animation = 'fadeIn 0.3s ease';
+      });
+      showing = Math.min(next, totalCount);
+      loadMoreCount.textContent = `Showing ${showing} of ${totalCount}`;
+      if (showing >= totalCount) loadMoreWrap.style.display = 'none';
+    });
+
+    // Search: show all matching, hide non-matching
     searchInput.addEventListener('input', (e) => {
       const q = e.target.value.toLowerCase().trim();
-      cards.forEach((card, i) => {
-        const m = memes[i];
-        const haystack = [m.chinese_name, m.english_name, m.pinyin, m.english_explanation, ...m.tags].join(' ').toLowerCase();
-        card.style.display = !q || haystack.includes(q) ? '' : 'none';
-      });
+      isSearching = !!q;
+      if (isSearching) {
+        loadMoreWrap.style.display = 'none';
+        allWrappers.forEach((wrap, i) => {
+          const m = memes[i];
+          const haystack = [m.chinese_name, m.english_name, m.pinyin, m.english_explanation, ...m.tags].join(' ').toLowerCase();
+          wrap.style.display = haystack.includes(q) ? '' : 'none';
+        });
+      } else {
+        // Reset to paged view
+        allWrappers.forEach((wrap, i) => {
+          wrap.style.display = i < showing ? '' : 'none';
+        });
+        if (showing < totalCount) loadMoreWrap.style.display = 'block';
+      }
     });
   </script>
 </Base>
 
 <style>
+.load-more-btn {
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  color: var(--text-dim);
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 32px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  letter-spacing: 0.3px;
+}
+
+.load-more-btn:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: white;
+  box-shadow: 0 4px 14px rgba(194,59,34,0.3);
+  transform: translateY(-1px);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
 .hot-strip {
   display: flex;
   align-items: center;
@@ -161,7 +231,7 @@ const statusCounts = {
 .hot-track {
   display: flex;
   width: max-content;
-  animation: scroll-left 120s linear infinite;
+  animation: scroll-left 180s linear infinite;
 }
 
 .hot-track:hover { animation-play-state: paused; }

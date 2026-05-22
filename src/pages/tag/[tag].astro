@@ -15,12 +15,14 @@ export function getStaticPaths() {
 const { tag } = Astro.props;
 const tagMemes = memes.filter(m => m.tags.includes(tag));
 const allTags = [...new Set(memes.flatMap(m => m.tags))].sort();
+const tagLabel = tag.replace(/-/g, ' ');
+const topExamples = tagMemes.filter(m => m.popularity >= 4).slice(0,3).map(m => m.english_name).join(', ');
 ---
 
-<Base title={`${tag} — Chinese Internet Memes`} description={`Chinese internet memes tagged "${tag}". ${tagMemes.length} entries explained in English.`}>
+<Base title={`${tagLabel} Chinese Memes — ${tagMemes.length} Memes Explained`} description={`Chinese internet memes about ${tagLabel}. Includes ${topExamples} and ${tagMemes.length - 3} more — each explained in English with cultural context.`}>
   <section class="hero" style="padding-bottom:24px;">
-    <h1>Tag: <span class="cn-part">{tag}</span></h1>
-    <p>{tagMemes.length} memes tagged "{tag}"</p>
+    <h1>Chinese <span class="cn-part">{tagLabel}</span> Memes</h1>
+    <p>{tagMemes.length} memes tagged "{tagLabel}" — explained in English</p>
   </section>
 
   <div class="container">

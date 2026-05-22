@@ -39,6 +39,10 @@ const fullTitle = `${title} | CNMemes`;
   <meta name="twitter:description" content={description} />
   <meta name="twitter:site" content="@cnmemes" />
 
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="alternate icon" href="/favicon.svg" />
+  <meta name="theme-color" content="#c23b22" />
+
   <!-- Prevent dark mode flash -->
   <script is:inline>
     (function(){
@@ -64,7 +68,6 @@ const fullTitle = `${title} | CNMemes`;
       </a>
       <nav class="site-nav" aria-label="Main navigation">
         <a href="/">Home</a>
-        <a href="/year/2024">Browse</a>
         <a href="/about">About</a>
         <button id="themeToggle" aria-label="Toggle dark mode" class="theme-btn">🌙</button>
       </nav>
