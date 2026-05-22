@@ -43,8 +43,7 @@ const fullTitle = `${title} | CNMemes`;
   <script is:inline>
     (function(){
       var stored = localStorage.getItem('theme');
-      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      if (stored === 'dark' || (!stored && prefersDark)) {
+      if (stored === 'dark') {
         document.documentElement.setAttribute('data-theme', 'dark');
       }
     })();
@@ -60,11 +59,11 @@ const fullTitle = `${title} | CNMemes`;
     <div class="header-inner">
       <a href="/" class="site-logo">
         <span class="logo-cn">中文梗典</span>
+        <span class="logo-divider"></span>
         <span class="logo-en">CNMemes</span>
       </a>
       <nav class="site-nav" aria-label="Main navigation">
         <a href="/">Home</a>
-        <a href="/year/2026">Latest</a>
         <a href="/year/2024">Browse</a>
         <a href="/about">About</a>
         <button id="themeToggle" aria-label="Toggle dark mode" class="theme-btn">🌙</button>
@@ -73,7 +72,7 @@ const fullTitle = `${title} | CNMemes`;
   </header>
 
   <script>
-    // Dark mode: persist preference
+    // Dark mode: persist preference, default light
     const toggle = document.getElementById('themeToggle');
     const root = document.documentElement;
 
@@ -82,10 +81,8 @@ const fullTitle = `${title} | CNMemes`;
       if (toggle) toggle.textContent = dark ? '☀️' : '🌙';
     }
 
-    // Init from localStorage or system preference
     const stored = localStorage.getItem('theme');
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    applyTheme(stored ? stored === 'dark' : prefersDark);
+    applyTheme(stored === 'dark');
 
     toggle?.addEventListener('click', () => {
       const isDark = root.getAttribute('data-theme') === 'dark';
@@ -100,26 +97,35 @@ const fullTitle = `${title} | CNMemes`;
 
   <footer class="site-footer">
     <div class="container">
-      <div style="display:flex;gap:40px;justify-content:center;flex-wrap:wrap;margin-bottom:20px;font-size:13px;">
+      <div class="footer-links">
         <div>
-          <div style="font-weight:700;color:var(--text);margin-bottom:8px;">Browse by Year</div>
-          <div style="display:flex;gap:12px;flex-wrap:wrap;">
+          <div class="footer-col-title">Browse by Year</div>
+          <div class="footer-col-links">
             {[2026,2025,2024,2023,2022,2021,2020,2019,2018,2017,2016,2015].map(y => (
-              <a href={`/year/${y}`} style="color:var(--text-dim);">{y}</a>
+              <a href={`/year/${y}`}>{y}</a>
             ))}
           </div>
         </div>
         <div>
-          <div style="font-weight:700;color:var(--text);margin-bottom:8px;">Browse by Topic</div>
-          <div style="display:flex;gap:12px;flex-wrap:wrap;">
+          <div class="footer-col-title">Browse by Topic</div>
+          <div class="footer-col-links">
             {['workplace','Gen-Z','social-commentary','lifestyle','economy','gaming'].map(t => (
-              <a href={`/tag/${t}`} style="color:var(--text-dim);">{t}</a>
+              <a href={`/tag/${t}`}>{t}</a>
             ))}
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Pages</div>
+          <div class="footer-col-links" style="flex-direction:column;gap:6px;">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
           </div>
         </div>
       </div>
-      <p>CNMemes.com — The English-language dictionary of Chinese internet memes</p>
-      <p style="margin-top:6px;">© {new Date().getFullYear()} CNMemes. Updated monthly.</p>
+      <div class="footer-copy">
+        <p>CNMemes.com — The English-language dictionary of Chinese internet memes</p>
+        <p style="margin-top:4px;">© {new Date().getFullYear()} CNMemes · Updated monthly · <a href="mailto:whycici@gmail.com">whycici@gmail.com</a></p>
+      </div>
     </div>
   </footer>
 </body>
