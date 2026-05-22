@@ -17,7 +17,33 @@
   --font-mono: 'JetBrains Mono', monospace;
   --max-width: 1080px;
   --radius: 8px;
+  /* Hot strip */
+  --hot-bg: #1a0a08;
+  --hot-border: #3a1a14;
+  --hot-hover: rgba(194,59,34,0.08);
+  --hot-cn: #ffd166;
 }
+
+[data-theme="dark"] {
+  --bg: #0f0f0f;
+  --surface: #1a1a1a;
+  --border: #2a2a2a;
+  --text: #e8e8e0;
+  --text-dim: #888880;
+  --accent: #e04e33;
+  --accent-light: #2a1008;
+  --gold: #d4a017;
+  --gold-light: #1a1500;
+  --green: #3a9958;
+  --green-light: #0a1a0f;
+  --purple: #9b72cc;
+  --purple-light: #1a1028;
+  --hot-bg: #140806;
+  --hot-border: #2a1410;
+  --hot-hover: rgba(224,78,51,0.12);
+  --hot-cn: #ffd166;
+}
+
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -94,6 +120,23 @@ a:hover { text-decoration: underline; }
 .site-nav a:hover {
   color: var(--accent);
   text-decoration: none;
+}
+
+.theme-btn {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 4px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 1;
+  transition: border-color 0.2s, background 0.2s;
+  color: inherit;
+}
+
+.theme-btn:hover {
+  background: var(--accent-light);
+  border-color: var(--accent);
 }
 
 /* Footer */

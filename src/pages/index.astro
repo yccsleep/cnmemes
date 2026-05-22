@@ -7,13 +7,11 @@ const years = [...new Set(memes.map(m => m.year))].sort((a, b) => b - a);
 const totalCount = memes.length;
 const currentYear = years[0];
 
-// Hot memes: popularity >= 3, sorted by popularity desc then year desc
 const hotMemes = [...memes]
   .filter(m => m.popularity >= 4)
   .sort((a, b) => b.popularity - a.popularity || b.year - a.year)
-  .slice(0, 20);
+  .slice(0, 24);
 
-// All memes: recent first
 const sortedMemes = [...memes].sort((a, b) => b.year - a.year || b.popularity - a.popularity);
 
 const statusCounts = {
@@ -47,22 +45,6 @@ const statusCounts = {
     </div>
   </section>
 
-  <!-- Hot memes ticker -->
-  <div class="hot-strip">
-    <div class="hot-label">🔥 Trending</div>
-    <div class="hot-track-wrap">
-      <div class="hot-track" id="hotTrack">
-        {[...hotMemes, ...hotMemes].map(m => (
-          <a href={`/meme/${m.slug}`} class="hot-item">
-            <span class="hot-cn">{m.chinese_name}</span>
-            <span class="hot-en">{m.english_name}</span>
-            <span class="hot-stars">{'★'.repeat(m.popularity)}</span>
-          </a>
-        ))}
-      </div>
-    </div>
-  </div>
-
   <div class="container">
     <!-- Year pills -->
     <div class="year-pills">
@@ -70,6 +52,22 @@ const statusCounts = {
       {years.map(y => (
         <a href={`/year/${y}`} class="year-pill">{y}{y === currentYear ? ' 🔄' : ''}</a>
       ))}
+    </div>
+
+    <!-- Hot memes ticker — below year pills -->
+    <div class="hot-strip">
+      <div class="hot-label">🔥 Trending</div>
+      <div class="hot-track-wrap">
+        <div class="hot-track">
+          {[...hotMemes, ...hotMemes].map(m => (
+            <a href={`/meme/${m.slug}`} class="hot-item">
+              <span class="hot-cn">{m.chinese_name}</span>
+              <span class="hot-en">{m.english_name}</span>
+              <span class="hot-stars">{'★'.repeat(m.popularity)}</span>
+            </a>
+          ))}
+        </div>
+      </div>
     </div>
 
     <!-- Stats row -->
@@ -119,28 +117,26 @@ const statusCounts = {
 </Base>
 
 <style>
-/* Hot strip */
 .hot-strip {
   display: flex;
   align-items: center;
-  gap: 0;
-  background: #1a0a0a;
-  border-top: 1px solid #3a1a1a;
-  border-bottom: 1px solid #3a1a1a;
+  background: var(--hot-bg);
+  border: 1px solid var(--hot-border);
+  border-radius: 8px;
   overflow: hidden;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
 }
 
 .hot-label {
   flex-shrink: 0;
   background: var(--accent);
   color: white;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
-  padding: 10px 16px;
+  padding: 10px 14px;
   letter-spacing: 1px;
   white-space: nowrap;
-  z-index: 2;
+  text-transform: uppercase;
 }
 
 .hot-track-wrap {
@@ -154,25 +150,24 @@ const statusCounts = {
   content: '';
   position: absolute;
   top: 0; bottom: 0;
-  width: 40px;
+  width: 32px;
   z-index: 1;
   pointer-events: none;
 }
 
-.hot-track-wrap::before { left: 0; background: linear-gradient(to right, #1a0a0a, transparent); }
-.hot-track-wrap::after { right: 0; background: linear-gradient(to left, #1a0a0a, transparent); }
+.hot-track-wrap::before { left: 0; background: linear-gradient(to right, var(--hot-bg), transparent); }
+.hot-track-wrap::after  { right: 0; background: linear-gradient(to left,  var(--hot-bg), transparent); }
 
 .hot-track {
   display: flex;
-  gap: 0;
-  animation: scroll-left 60s linear infinite;
   width: max-content;
+  animation: scroll-left 120s linear infinite;
 }
 
 .hot-track:hover { animation-play-state: paused; }
 
 @keyframes scroll-left {
-  0% { transform: translateX(0); }
+  0%   { transform: translateX(0); }
   100% { transform: translateX(-50%); }
 }
 
@@ -180,33 +175,16 @@ const statusCounts = {
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 10px 20px;
+  padding: 10px 18px;
   text-decoration: none;
-  border-right: 1px solid #2a1a1a;
+  border-right: 1px solid var(--hot-border);
   white-space: nowrap;
   transition: background 0.2s;
 }
 
-.hot-item:hover {
-  background: rgba(194, 59, 34, 0.1);
-  text-decoration: none;
-}
+.hot-item:hover { background: var(--hot-hover); text-decoration: none; }
 
-.hot-cn {
-  font-family: 'Noto Serif SC', serif;
-  font-size: 15px;
-  color: #ffd166;
-  font-weight: 700;
-}
-
-.hot-en {
-  font-size: 12px;
-  color: #888;
-}
-
-.hot-stars {
-  font-size: 11px;
-  color: #f0a500;
-  letter-spacing: 1px;
-}
+.hot-cn   { font-family: 'Noto Serif SC', serif; font-size: 14px; color: var(--hot-cn); font-weight: 700; }
+.hot-en   { font-size: 12px; color: var(--text-dim); }
+.hot-stars{ font-size: 11px; color: #f0a500; letter-spacing: 1px; }
 </style>

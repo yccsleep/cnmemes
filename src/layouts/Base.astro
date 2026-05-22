@@ -39,6 +39,17 @@ const fullTitle = `${title} | CNMemes`;
   <meta name="twitter:description" content={description} />
   <meta name="twitter:site" content="@cnmemes" />
 
+  <!-- Prevent dark mode flash -->
+  <script is:inline>
+    (function(){
+      var stored = localStorage.getItem('theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (stored === 'dark' || (!stored && prefersDark)) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -56,9 +67,32 @@ const fullTitle = `${title} | CNMemes`;
         <a href="/year/2026">Latest</a>
         <a href="/year/2024">Browse</a>
         <a href="/about">About</a>
+        <button id="themeToggle" aria-label="Toggle dark mode" class="theme-btn">🌙</button>
       </nav>
     </div>
   </header>
+
+  <script>
+    // Dark mode: persist preference
+    const toggle = document.getElementById('themeToggle');
+    const root = document.documentElement;
+
+    function applyTheme(dark) {
+      root.setAttribute('data-theme', dark ? 'dark' : 'light');
+      if (toggle) toggle.textContent = dark ? '☀️' : '🌙';
+    }
+
+    // Init from localStorage or system preference
+    const stored = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    applyTheme(stored ? stored === 'dark' : prefersDark);
+
+    toggle?.addEventListener('click', () => {
+      const isDark = root.getAttribute('data-theme') === 'dark';
+      localStorage.setItem('theme', isDark ? 'light' : 'dark');
+      applyTheme(!isDark);
+    });
+  </script>
 
   <main id="main-content">
     <slot />
