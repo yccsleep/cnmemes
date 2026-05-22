@@ -22,35 +22,36 @@ const pageTitle = `${meme.chinese_name} Meaning — ${meme.english_name} | Chine
 const pageDesc = `What does ${meme.chinese_name} (${meme.pinyin}) mean? It means "${meme.english_name}" — ${meme.english_explanation.slice(0, 110)}...`;
 
 // FAQ schema for Featured Snippets
+const faqItems = [
+  {
+    "@type": "Question",
+    "name": `What does ${meme.chinese_name} mean in Chinese?`,
+    "acceptedAnswer": { "@type": "Answer", "text": meme.english_explanation }
+  },
+  {
+    "@type": "Question",
+    "name": `What is the cultural context of ${meme.chinese_name}?`,
+    "acceptedAnswer": { "@type": "Answer", "text": meme.cultural_context }
+  },
+  {
+    "@type": "Question",
+    "name": `How do you pronounce ${meme.chinese_name}?`,
+    "acceptedAnswer": { "@type": "Answer", "text": `${meme.chinese_name} is pronounced "${meme.pinyin}" in Mandarin Chinese.` }
+  }
+];
+
+if (meme.origin_story) {
+  faqItems.push({
+    "@type": "Question",
+    "name": `Where did ${meme.chinese_name} come from?`,
+    "acceptedAnswer": { "@type": "Answer", "text": meme.origin_story }
+  });
+}
+
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": `What does ${meme.chinese_name} mean in Chinese?`,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": meme.english_explanation
-      }
-    },
-    {
-      "@type": "Question", 
-      "name": `What is the cultural context of ${meme.chinese_name}?`,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": meme.cultural_context
-      }
-    },
-    {
-      "@type": "Question",
-      "name": `How do you pronounce ${meme.chinese_name}?`,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": `${meme.chinese_name} is pronounced "${meme.pinyin}" in Mandarin Chinese.`
-      }
-    }
-  ]
+  "mainEntity": faqItems
 };
 
 const definedTermSchema = {
@@ -92,10 +93,24 @@ const definedTermSchema = {
       <p>{meme.english_explanation}</p>
     </div>
 
+    {meme.origin_story && (
+      <div class="meme-section">
+        <h2 class="section-title">Origin Story</h2>
+        <p>{meme.origin_story}</p>
+      </div>
+    )}
+
     <div class="meme-section">
       <h2 class="section-title">Cultural Context</h2>
       <p>{meme.cultural_context}</p>
     </div>
+
+    {meme.similar_expressions && (
+      <div class="meme-section">
+        <h2 class="section-title">Similar Expressions in English</h2>
+        <p>{meme.similar_expressions}</p>
+      </div>
+    )}
 
     <div class="meme-section">
       <h2 class="section-title">How Is It Used? (Example Sentences)</h2>

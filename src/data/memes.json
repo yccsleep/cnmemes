@@ -389,7 +389,9 @@
         "english": "I'm just an average guy — how could I ever land a 白富美 girlfriend?"
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "The female counterpart to 高富帅, describing the ideal woman as fair-skinned (白), rich (富), and beautiful (美). Fair skin has been a beauty standard in East Asia for centuries, tied to the idea that pale skin meant you didn't do outdoor labor.",
+    "similar_expressions": "Similar to the Western 'trophy wife' concept but framed positively. The skin color component reflects deep-rooted East Asian beauty standards very different from Western ideals."
   },
   {
     "slug": "gao-fu-shuai",
@@ -417,7 +419,9 @@
         "english": "I'm not tall, not rich, and not handsome — I'll just let fate handle my love life."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Emerged from Chinese dating culture and social media around 2010-2012, crystallizing the aspirational male ideal of the era: tall (高), rich (富), handsome (帅). Became mainstream by 2015 as a shorthand for the perfect man — and a source of humor about impossible standards.",
+    "similar_expressions": "The Chinese equivalent of a 'ten' or 'a catch.' Similar to how English uses 'tall, dark, and handsome' but with wealth explicitly included."
   },
   {
     "slug": "zhai-nv",
@@ -557,7 +561,9 @@
         "english": "This bubble tea shop's decor is so 2D-world — anime characters absolutely everywhere."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Borrowed from Japanese (二次元, nijigen), literally '2D dimension.' Originally referred to anime and manga characters who exist only in two dimensions. As Chinese anime fandom exploded in the 2010s, the term came to describe the entire subculture of anime, manga, and gaming.",
+    "similar_expressions": "Similar to the English 'anime fan' or 'otaku' (though 宅男/宅女 is the closer Chinese equivalent to otaku). '2D world' versus '3D world' (reality) is a common distinction in fan communities globally."
   },
   {
     "slug": "luo-li",
@@ -1200,7 +1206,9 @@
         "english": "Hey big spender, let's be friends — you're buying!"
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Originally meant rural despots or local bullies in pre-Communist China. After China's economic boom, it was repurposed to describe the newly wealthy — especially those who spent extravagantly without taste. A 2013 iPhone gold edition triggered a viral wave of '土豪金' (nouveau riche gold) jokes.",
+    "similar_expressions": "Closer to 'nouveau riche' or 'new money' than simply 'rich.' Like the English 'bougie' but more extreme — think someone who buys a Lamborghini but eats instant noodles."
   },
   {
     "slug": "ni-xi",
@@ -1256,7 +1264,9 @@
         "english": "Even underdogs get their spring — hard work eventually pays off."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Started as a crude insult in gaming forums around 2011, targeting poor rural players who couldn't afford good equipment. In a remarkable reversal, the term was reclaimed — millions of young Chinese people self-identified as 屌丝 as an act of ironic pride, rejecting the pressure to be 高富帅.",
+    "similar_expressions": "Similar to how 'nerd' or 'loser' was reclaimed in English culture. The self-deprecating pride is reminiscent of 'I'm a mess and I own it.'"
   },
   {
     "slug": "yi-zu",
@@ -1396,7 +1406,9 @@
         "english": "How big is your meme pack stash? Ready for a meme war anytime!"
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "China's homegrown meme culture exploded around 2015 as WeChat's sticker feature went mainstream. Unlike Western memes that spread via Reddit or Twitter, Chinese memes spread primarily through WeChat and QQ chat groups, making them more personal and conversational.",
+    "similar_expressions": "Directly equivalent to 'meme' or 'reaction image' in English. China's meme ecosystem is parallel to but largely separate from Western internet culture."
   },
   {
     "slug": "lao-siji-dai-dai-wo",
@@ -1452,7 +1464,9 @@
         "english": "Veteran, take me under your wing — I'm just a newbie on the road."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Originally trucker slang for an experienced long-haul driver. Around 2015 it mutated into internet slang for someone experienced in navigating risqué or adult content online — 'getting on the bus' meant accessing such content. Later broadened to mean any experienced expert.",
+    "similar_expressions": "Like calling someone a 'veteran' or 'seasoned pro.' The 'driving' metaphor for adult content is similar to how English uses 'Netflix and chill.'"
   },
   {
     "slug": "yan-zhi-ji-zhengyi",
@@ -1676,7 +1690,9 @@
         "english": "Finals are over — full Ge You Slump mode activated, I don't want to do a single thing."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Taken from a 1993 sitcom 'I Love My Family' where actor Ge You slumped completely boneless on a couch. The screenshot resurfaced in 2015 and became the defining image of China's burnout generation — the visual ancestor of the entire '躺平' movement.",
+    "similar_expressions": "The Chinese predecessor to 'lying flat' and 'quiet quitting.' Similar to the Western concept of 'couch potato' but elevated to an art form and a generational statement."
   },
   {
     "slug": "shijie-name-da-wo-xiang-qu-kankan",
@@ -1704,7 +1720,9 @@
         "english": "Another overtime request from the boss? The world is so big and I want to go see it, but my mortgage isn't going to pay itself."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "In May 2015, a schoolteacher in Henan province submitted the shortest resignation letter in Chinese history — just this one sentence. The letter went viral overnight after being posted online, sparking nationwide debate about work-life balance and personal freedom.",
+    "similar_expressions": "Like saying 'I quit' but make it poetry. Similar to 'wanderlust' or 'the world is your oyster' — but with the weight of quitting a stable job behind it."
   },
   {
     "slug": "wo-de-neixin-jihu-shi-bengkui-de",
@@ -2208,7 +2226,9 @@
         "english": "He uploaded a crazy remix video to Bilibili and it went viral within days."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Bilibili (哔哩哔哩) started in 2009 as an anime video site requiring users to pass a 100-question anime knowledge test to register. It evolved into China's leading video platform for Gen Z — a mix of YouTube, Twitch, and Reddit with a distinctive bullet comment (弹幕) culture where viewer comments fly across the screen.",
+    "similar_expressions": "Like YouTube but with bullet comments (danmaku), a stronger community identity, and originally much higher barrier to entry. The required knowledge test created an in-group culture that persists even as the platform mainstreamed."
   },
   {
     "slug": "gui-chu",
@@ -2236,7 +2256,9 @@
         "english": "He spends all day watching 鬼畜 videos — his brain has been completely scrambled by all those hypnotic beats."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Borrowed from Japanese internet culture (鬼畜, literally 'demon beast'), referring to videos that rapidly repeat audio and video clips to create surreal, hypnotic effects. Chinese Bilibili creators mastered the format, making politicians and celebrities say absurd things through clever editing.",
+    "similar_expressions": "Similar to Western 'YouTube Poop' or 'YTPMV' (YouTube Poop Music Video). The rapid-cut remix style has become a distinct art form in Chinese internet culture."
   },
   {
     "slug": "tianyuan-nvquan",
@@ -2292,7 +2314,9 @@
         "english": "You think women wearing makeup is deceptive? Your straight-male syndrome seriously needs treatment."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Coined by Chinese feminist internet communities around 2015-2016 to describe extreme male chauvinism. The '-癌' (cancer) suffix makes it a disease metaphor. Symptoms include telling women how to dress, assuming cooking is women's work, and being baffled by feminism.",
+    "similar_expressions": "Similar to 'toxic masculinity' or 'chauvinist pig' in English feminist discourse. The disease framing is more aggressive than English equivalents."
   },
   {
     "slug": "gangtie-zhinan",
@@ -2656,7 +2680,9 @@
         "english": "It's nothing but games, and yet… I love it anyway."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Originally a martial arts term for practiced sequences of moves (套路, tào lù). Around 2016 it shifted to mean scripted, predictable behavior in relationships and social situations — especially romantic manipulation tactics. The phrase '套路太深' (the tricks run too deep) became a relationship anthem.",
+    "similar_expressions": "Similar to 'playing games,' 'mind games,' or 'running a script' in English dating culture. Related to 'manipulation tactics' but more neutral — even positive strategies can be called 套路."
   },
   {
     "slug": "liu-liu-liu",
@@ -2684,7 +2710,9 @@
         "english": "You actually remembered everyone's birthday? That's seriously impressive, 666!"
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "In Chinese internet gaming culture, 666 (liù liù liù) became slang for 'awesome' or 'smooth' because the pronunciation flows effortlessly. Popularized through gaming streams where fans would flood the chat with 666 when a player did something impressive.",
+    "similar_expressions": "Functions like 'GG,' 'insane,' or 'smooth' in English gaming culture. The triple repetition adds emphasis, similar to how English speakers might say 'so, so good.'"
   },
   {
     "slug": "shuang-ji-liu-liu-liu",
@@ -2768,7 +2796,9 @@
         "english": "Homies, see you all at tonight's livestream — don't you dare miss it!"
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Northeastern Chinese dialect (东北话) for 'buddy' or 'bro,' literally meaning 'old iron.' Exploded nationally through Kuaishou, the short-video platform popular in lower-tier cities and rural areas, where northeastern hosts used it constantly with their audiences.",
+    "similar_expressions": "Like 'bro,' 'homie,' or 'mate' in English — a casual term of endearment for someone you feel close to. The northeastern China origin gives it a slightly working-class, authentic flavor."
   },
   {
     "slug": "bu-ming-zhen-xiang-de-chi-gua-qun-zhong",
@@ -2824,7 +2854,9 @@
         "english": "The power struggle among the company executives has nothing to do with me — I'll just sit back, eat my melon, and enjoy the show."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Originated from a news photo where bystanders watched an altercation while eating watermelon — unbothered, just spectating. The image perfectly captured the Chinese internet's relationship with online drama: watching, commenting, but not getting involved.",
+    "similar_expressions": "The Chinese equivalent of 'spectator,' 'popcorn moment,' or 'I'm just here for the drama.' The watermelon eating suggests leisurely, detached observation."
   },
   {
     "slug": "youyi-de-xiaochuan-shuo-fan-jiu-fan",
@@ -2908,7 +2940,9 @@
         "english": "I summoned the primordial force of the universe to lose weight, and I dropped a whole pound."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Swimmer Fu Yuanhui's post-race interview at the 2016 Rio Olympics became instantly iconic when she said she had used her '洪荒之力' (primordial/prehistoric power) — ancient Chinese mythological energy from before time itself. The mismatch between ancient cosmic power and swimming a race in a pool was perfectly absurd.",
+    "similar_expressions": "Like pulling energy from the universe itself — hyperbolic beyond 'I gave 110%.' The mythological reference (primordial chaos energy from Chinese cosmology) gave it cosmic weight that transcended sports."
   },
   {
     "slug": "li-hai-le-wo-de-ge",
@@ -2936,7 +2970,9 @@
         "english": "He actually misspelled the boss's name — well, aren't you just impressive, buddy."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Originally from a viral video where someone praised a friend's achievement with exaggerated reverence. '厉害了' (so impressive) + '我的哥' (my brother/man) created a template for praising both genuine achievements and ridiculous ones with equal theatrical admiration. Used sincerely and ironically.",
+    "similar_expressions": "Like 'get you some' or 'respect' in English — equal parts genuine admiration and ironic hype. The '哥' (older brother/dude) adds casual intimacy to what could be formal praise."
   },
   {
     "slug": "ge-you-tang",
@@ -2992,7 +3028,9 @@
         "english": "Set yourself a modest little goal — first, let's rake in 100 million yuan!"
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Billionaire Wang Jianlin's 2016 advice to young entrepreneurs: 'Set a small goal first — for example, make 100 million yuan.' The phrase became the template for all absurdly humble claims about enormous amounts. The framing of 100 million as a 'small goal' captured China's wealth gap in one sentence.",
+    "similar_expressions": "Like 'just casually make a billion' — ironic use of modesty framing for enormous figures. Similar to Jeff Bezos giving advice about 'small businesses' while running Amazon."
   },
   {
     "slug": "ding-ge-xiao-mubiao",
@@ -3048,7 +3086,9 @@
         "english": "I've set myself a small goal too: pay off my credit card first."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "In 2016, billionaire Wang Jianlin said in an interview: 'Set a small goal first, for example, earn 100 million yuan.' The contrast between calling 100 million a 'small' goal became an instant meme about China's wealth gap, used to mock both the ultra-rich and one's own modest ambitions.",
+    "similar_expressions": "Like the English ironic use of 'just a small thing' for something enormous. Captures the same energy as a millionaire saying 'just buy a yacht.'"
   },
   {
     "slug": "lan-shou-xianggu",
@@ -3075,7 +3115,9 @@
         "english": "Day three after the breakup. Feeling like a sad little mushroom. Everything is wrong.chinese_name"
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "A 2016 viral video showed a distressed young man saying he felt 难受想哭 (nán shòu xiǎng kū, 'so sad I want to cry'). Internet users noticed that 难受 sounds like 蓝瘦 (blue thin) and 想哭 sounds like 香菇 (mushroom) — creating a nonsensical but phonetically perfect substitute that exploded across social media.",
+    "similar_expressions": "A uniquely Chinese phonetic wordplay meme. Similar to how English memes might replace 'laugh' with 'laff' or use homophones for humor, but the specific substitution here is much more elaborate."
   },
   {
     "slug": "emmm",
@@ -3215,7 +3257,9 @@
         "english": "The Buddhist-style youth orders coffee: if it's there, great; if not, fine; sugar or no sugar — truly doesn't matter."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "The 2017 'Buddhist youth' concept spread from a Japanese lifestyle article into Chinese social media as young people, exhausted by competitive pressure, embraced detachment as identity. '都行，随便，无所谓' (anything goes, whatever, doesn't matter) became their three sacred phrases — elegant resignation as philosophy.",
+    "similar_expressions": "Like 'chill,' 'whatever,' or Zen-influenced detachment in English — but organized into a complete youth identity. The Buddhist framing gives spiritual legitimacy to what is essentially opting out of ambition."
   },
   {
     "slug": "fo-xi",
@@ -3243,7 +3287,9 @@
         "english": "I've gone full Buddhist-mode — whether I get promoted or not, I honestly couldn't care less."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Appeared in a 2017 Japanese magazine article about 'Buddhist-style men' who were indifferent to romance and career advancement. Exploded in China as young people, exhausted by hyper-competition, embraced the aesthetic of not caring: 佛系购物 (Buddhist shopping — whatever), 佛系恋爱 (Buddhist romance — whatever).",
+    "similar_expressions": "Closest to 'going with the flow,' 'whatever happens, happens,' or IDGAF culture. Captures the same exhausted detachment as 'not my problem' but framed peacefully rather than rudely."
   },
   {
     "slug": "xia-tou",
@@ -4391,7 +4437,9 @@
         "english": "This app is giving red packets to new users — go grab those freebies while you can!"
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Literally 'shearing wool from sheep,' originally describing taking advantage of promotional offers. Exploded during China's e-commerce discount war (Double 11, 618) when platforms offered insane subsidies. Professional 薅羊毛 communities emerged, sharing strategies to extract maximum value from every deal.",
+    "similar_expressions": "Like 'coupon stacking,' 'deal hunting,' or 'gaming the system.' The sheep/wool metaphor implies the company is the sheep and users are extracting value from it."
   },
   {
     "slug": "o-huo",
@@ -4811,7 +4859,9 @@
         "english": "Another crowd of keyboard warriors sounding off in the comments — why don't you actually come out and do something useful for once!"
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Predates 2018 but crystallized during multiple online mob incidents where internet users mass-attacked individuals with little evidence. The 'keyboard knight' fights fierce battles online but would never do anything in real life — their weapon is the keyboard, their battlefield is the comment section.",
+    "similar_expressions": "Equivalent to 'keyboard warrior' in English — almost a direct translation. Also similar to 'armchair activist' for those who feel politically engaged through online outrage."
   },
   {
     "slug": "tai-gang",
@@ -4867,7 +4917,9 @@
         "english": "Just ignore him — he's a total 杠精, he can't be happy unless he argues back no matter what you say."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Emerged from Chinese social media around 2017-2018 as comment sections became increasingly combative. A 杠精 will argue any position just to argue — if you say the sky is blue, they'll find a way to disagree. The 精 suffix implies someone who has mastered this skill to a freakish degree.",
+    "similar_expressions": "Like a 'contrarian,' 'devil's advocate addict,' or 'reply guy' in English internet culture. Related to 'trolling' but 杠精 argues sincerely rather than for chaos."
   },
   {
     "slug": "tui-tui-tui",
@@ -5007,7 +5059,9 @@
         "english": "Everyone knew he was a fuckboy — why didn't you listen when we warned you?"
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Emerged from Chinese dating culture online forums where women shared stories of manipulative, commitment-phobic men. The term exploded as social media gave platforms for these stories to spread. By 2018, entire accounts were dedicated to identifying and warning about 渣男 behavior.",
+    "similar_expressions": "Similar to 'fuckboy,' 'player,' or 'trash man' in English dating culture. More specifically implies emotional manipulation and leading people on, rather than just casual dating."
   },
   {
     "slug": "nan-ren-dou-shi-da-zhu-ti-zi",
@@ -5175,7 +5229,9 @@
         "english": "At the launch event, the new phone took center stage and made everything else look like a prop."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "From the 2018 idol competition reality show 'Produce 101 China.' The center position in a performance lineup, literally 'C position.' Contestants competed intensely for the C position as it determined visibility. Quickly spread beyond entertainment to mean anyone who naturally takes center stage.",
+    "similar_expressions": "Like 'center stage,' 'the spotlight,' or 'top billing.' The reality TV origin mirrors how English terms like 'main character energy' come from entertainment culture."
   },
   {
     "slug": "wang-jingze",
@@ -5287,7 +5343,9 @@
         "english": "Yesterday he claimed to hate durian; today he bought two of them. The 'Smells Amazing' law strikes again."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "From a 2018 reality TV show where contestant Wang Jingze declared he would never eat the show's provided food — then 20 minutes later was filmed eating it enthusiastically. A producer held up a sign: 'I said: This is truly fragrant (真香).' The clip became the template for all hypocrisy.",
+    "similar_expressions": "Perfectly equivalent to 'eating your words' or 'never say never.' The specific 真香 format — declaring you'll never do something, then doing it — is now a universal Chinese internet structure."
   },
   {
     "slug": "tu-wei-qing-hua",
@@ -5315,7 +5373,9 @@
         "english": "Did you study cooking? Because you make my heart feel all warm inside."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Went massively viral around 2018 through short video apps. Rural or working-class creators would deliver cheesy, punny pickup lines with completely straight faces. The contrast between the sincere delivery and the ridiculous content created a new genre of romantic humor.",
+    "similar_expressions": "Like 'dad jokes' crossed with pickup lines. The 'earthy' (土) quality means they're rustic and unsophisticated — sincere in a way that sophisticated urban humor isn't."
   },
   {
     "slug": "tu-wei",
@@ -5483,7 +5543,9 @@
         "english": "Frantically reposting lucky koi memes before the exam, hoping it'll help me pass CET-6.chinese_name"
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "In 2018, Weibo user 信小呆 went viral for sharing her incredible luck — she won a trip sponsored by Alipay with over a million prizes. She became known as a 'koi fish' of good luck. Alipay then ran a campaign asking people to retweet 信小呆 for luck, which 3 million people did within hours.",
+    "similar_expressions": "Like retweeting a 'lucky post' or sharing a chain letter for luck in English culture. The koi fish symbol is deeply embedded in Chinese culture as a symbol of fortune."
   },
   {
     "slug": "ying-he-sheng-huo",
@@ -5707,7 +5769,9 @@
         "english": "He agreed to meet up, then stood me up at the last minute and said it was my fault — honestly, beyond the pale."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "The intensified version of 离谱 (off the charts). 大 (big) pushes it further — not just off the musical score, but so far off that the score doesn't exist. The graduated scale (离谱 → 离大谱 → 离谱他妈给离谱开门) reflects how Chinese internet humor systematically intensifies expressions.",
+    "similar_expressions": "Like 'off the charts,' 'absolutely unhinged,' or 'that's a lot.' The graduated intensification system (each level more extreme) mirrors how English uses 'crazy → insane → absolutely mental.'"
   },
   {
     "slug": "li-pu",
@@ -5735,7 +5799,9 @@
         "english": "He showed up three hours late and thought it was totally fine — that's just beyond ridiculous."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Literally 'off the score' (like a musician playing notes not on the sheet music), meaning wildly out of line or absurd. Exploded in 2019-2020 as Chinese social media became saturated with increasingly extreme news stories. '离大谱' (way off the score) is the intensified version.",
+    "similar_expressions": "Like 'off the charts,' 'insane,' 'unhinged,' or 'that's a lot.' The music metaphor (off the score) is similar to how English uses 'off the charts' for excess."
   },
   {
     "slug": "xi-pin",
@@ -5987,7 +6053,9 @@
         "english": "Oh wow, barely got my paycheck and every last yuan already went to the landlord."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "An old Chinese expression of amazement (like 'well I'll be!'), revived in 2019 through meme culture as a reaction to increasingly absurd news and social situations. Used when something is so outrageous that polite language fails — 好家伙 fills the gap where profanity might go.",
+    "similar_expressions": "Like 'well damn,' 'holy moly,' 'no way,' or 'I can't believe it.' The folksy, almost grandpa-ish quality of the expression makes its use by young people inherently funny."
   },
   {
     "slug": "hei-ren-wen-hao",
@@ -6211,7 +6279,9 @@
         "english": "I cleared this game without spending a single cent — all through freeloading event rewards."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Gaming slang that spread to general internet culture. Originally described players who enjoyed games without paying — especially prevalent as China's mobile gaming market exploded with free-to-play models. The term exploded when streamers and content creators started calling out audiences who consumed content without supporting creators.",
+    "similar_expressions": "Like 'freeloading,' 'getting it for free,' or 'exploiting free trials.' The gaming origin reflects how China's digital economy shaped internet culture."
   },
   {
     "slug": "ao-li-gei",
@@ -6239,7 +6309,9 @@
         "english": "Day one of dieting — LET'S GO! Persistence is victory!"
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "A 2019 viral video showed a heavyset man doing an extremely energetic motivational speech, shouting 'Are you excited?! Give it to me!' (奥利给, ào lì gěi — invented nonsense words). His sheer enthusiasm became a perfect meme for manufactured hype, used both sincerely and ironically.",
+    "similar_expressions": "Like 'LET'S GOOO,' 'HYPE,' or 'ARE YOU READY?!' in English hype culture. Works both as genuine excitement and ironic commentary on performative enthusiasm."
   },
   {
     "slug": "chui-bao",
@@ -6407,7 +6479,9 @@
         "english": "The boss says working extra is a blessing — I told him he's welcome to keep that blessing for himself."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Jack Ma (Alibaba founder) defended 996 work culture by calling it a 'blessing' (福报) — a Buddhist term for karmic reward. The backlash was instant and massive. 福报 became deeply sarcastic, used whenever someone tries to frame exploitation as a spiritual benefit.",
+    "similar_expressions": "Like sarcastically calling overwork a 'blessing' or 'character building.' Similar energy to 'exposure bucks' when companies refuse to pay for creative work."
   },
   {
     "slug": "fendou-bi",
@@ -6491,7 +6565,9 @@
         "english": "He quit after just two months, saying he couldn't take the 996 lifestyle anymore."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "In 2019, a GitHub repository called '996.ICU' (work 996, end up in the ICU) went viral globally, documenting tech companies that enforced 9am-9pm six-day work weeks. It triggered China's most visible labor debate in years, with tech billionaires defending it as a 'blessing' and millions of workers sharing burnout stories.",
+    "similar_expressions": "Like 'crunch culture,' 'hustle culture,' or 'always-on work culture' in English tech. The specific numerical format (9-9-6) makes it more concrete and damning than vague English equivalents."
   },
   {
     "slug": "suan-le",
@@ -6575,7 +6651,9 @@
         "english": "My classmate landed a high-paying job offer right after graduation. The lemon spirit has fully possessed me."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Evolved from the English loanword 'sour' to describe jealousy. 柠檬 (lemon) = sour, 精 = spirit/essence. A 柠檬精 is someone so consumed by jealousy they've essentially become pure lemon juice. The meme format: 'I'm not jealous, I'm just... [turning into a lemon]'",
+    "similar_expressions": "Like 'green with envy' or 'salty' in English. The lemon metaphor for jealousy is uniquely Chinese — English uses 'green' (from 'green-eyed monster') while Chinese uses 'sour.'"
   },
   {
     "slug": "wo-tai-nan-le-2",
@@ -6603,7 +6681,9 @@
         "english": "Rent went up again, salary didn't — I'm really out here struggling.chinese_name"
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "From a 2019 viral video of a pet owner explaining his dog's complicated life with complete seriousness: 'I'm having such a hard time' (我太难了). The absurdity of narrating a dog's hardships resonated so deeply that the phrase became the year's anthem of exhausted self-pity.",
+    "similar_expressions": "Like 'this is so hard,' 'I can't even,' or 'adulting is hard' in English. The video origin adds a layer of irony — everyone knows life isn't THAT hard, but it feels that way."
   },
   {
     "slug": "hao-zi-wei-zhi",
@@ -6687,7 +6767,9 @@
         "english": "I bought my own first milk tea of autumn this year. Single and thriving."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "A 2020 WeChat Moments trend: send '秋天的第一杯奶茶' (the first milk tea of autumn) to someone, and they'd send you money to buy it as a gift. Started as a romantic gesture, became a cultural ritual. Brands used it heavily for seasonal marketing.",
+    "similar_expressions": "Like seasonal traditions — 'pumpkin spice season' in English — but monetized and gamified. The ritual of asking someone to 'buy you' something digitally is uniquely Chinese WeChat culture."
   },
   {
     "slug": "chu-quan",
@@ -6799,7 +6881,9 @@
         "english": "His fall from grace was so complete that even the fan groups disbanded."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Fan community terminology — when your idol's 'house' (公房, their public image) collapses due to a scandal. The metaphor is vivid: you've built your emotional investment on a foundation, and that foundation just caved in. Major 塌房 events (celebrities caught in fraud, relationship scandals) became cultural events.",
+    "similar_expressions": "Like a celebrity 'falling from grace,' 'getting cancelled,' or 'their image crumbling.' The housing metaphor emphasizes the investment fans make — it's not just disappointment, it's losing something you built."
   },
   {
     "slug": "shu-ju-nv-gong",
@@ -7191,7 +7275,9 @@
         "english": "She just radiates this cinematic atmosphere wherever she goes, like she's always the lead in a film."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Literally 'atmosphere sense' or 'vibe.' Exploded with China's aesthetic photography culture on Xiaohongshu (Little Red Book). Photos, cafés, apartments, outfits — everything was evaluated for its 氛围感. The term elevated lifestyle aesthetics into a near-spiritual pursuit.",
+    "similar_expressions": "Like 'vibes,' 'aesthetic,' or 'the feeling.' The Chinese version is more deliberately curated than English 'vibes' — 氛围感 is something you construct carefully, not just stumble into."
   },
   {
     "slug": "ba-cao",
@@ -7247,7 +7333,9 @@
         "english": "My friend has been hyping this new hotpot place so much that I'm totally hooked — definitely going this weekend."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "From product recommendation culture — to 种草 (plant grass) means to recommend something so enthusiastically that a desire 'grows' in the listener. The opposite, 拔草 (pull grass), means to talk someone out of a purchase or lose interest. Exploded with China's KOL (Key Opinion Leader) economy.",
+    "similar_expressions": "Like 'to hype,' 'to recommend,' or 'to sell someone on something.' The grass-planting metaphor implies that desire grows organically from a seed — useful for understanding China's massive influencer marketing culture."
   },
   {
     "slug": "zhi-bo-dai-huo",
@@ -7275,7 +7363,9 @@
         "english": "These days even farmers are doing live-stream selling, shipping mountain-grown specialties to customers all across the country."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "China invented and perfected livestream commerce at a scale the world hadn't seen. During COVID, millions of small businesses turned to live shopping as physical retail closed. Top streamers like Li Jiaqi could sell 15,000 lipsticks in five minutes. The model transformed Chinese retail permanently.",
+    "similar_expressions": "Like 'live shopping,' 'QVC but on steroids,' or 'influencer commerce.' China's version is far more advanced than Western equivalents — entire supply chains and economies formed around it."
   },
   {
     "slug": "yun-beng-di",
@@ -7443,7 +7533,9 @@
         "english": "Haven't you noticed? She becomes a totally different person around guys — her green tea energy is way too obvious."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Emerged from Chinese relationship forums around 2013-2014, crystallizing into mainstream use by 2020. A 绿茶 (green tea) person presents as pure, innocent, and delicate — like green tea — while actually calculating and manipulative underneath. The tea metaphor implies they seem healthy and refined but have a bitter edge.",
+    "similar_expressions": "Like 'two-faced,' 'wolf in sheep's clothing,' or someone who plays innocent while pulling strings. More specifically gendered than English equivalents — though the male version (绿茶男) exists."
   },
   {
     "slug": "bei-tai",
@@ -7499,7 +7591,9 @@
         "english": "She only hits me up when she needs help moving stuff — I feel like a complete utility guy."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "From online relationship discussions where certain people are used purely for their utility — the friend who helps you move, the guy who pays for dates but is never romantically considered, the employee who does all the work. Being a 工具人 means being valued only for what you provide, not who you are.",
+    "similar_expressions": "Like 'being used,' 'friendzoned while being exploited,' or a 'utility player' with negative connotations. More specific than English equivalents — the 工具人 knows they're being used and can't or won't stop."
   },
   {
     "slug": "zui-ti",
@@ -7527,7 +7621,9 @@
         "english": "That scene where the character claps back at the boss is the ultimate mouthpiece for every office worker."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "The person who says what you're thinking but were too afraid to say — your 'mouth substitute.' Exploded in 2020 as online personalities who spoke bluntly about taboo topics gained massive followings. Being someone's 嘴替 is a compliment — you've given voice to their suppressed feelings.",
+    "similar_expressions": "Like 'speaking my truth,' 'saying what we're all thinking,' or being someone's 'voice.' Related to the English concept of 'cancelable opinions' — things people think but won't say publicly."
   },
   {
     "slug": "yin-yang-guai-qi",
@@ -7555,7 +7651,9 @@
         "english": "It's fine, you're totally right, I'm clearly the one who just doesn't get it."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "An ancient Chinese phrase describing yin-yang imbalance, repurposed to describe passive-aggressive, sarcastic communication styles. Went viral as Chinese social media increasingly featured this style — superficially polite comments that are obviously hostile if you read between the lines.",
+    "similar_expressions": "Like 'passive-aggressive,' 'backhanded compliment,' 'sarcastic,' or 'shady' in English. The Chinese concept is specifically about maintaining a veneer of politeness while delivering hostility — the 'bless your heart' phenomenon."
   },
   {
     "slug": "xian-yu",
@@ -7751,7 +7849,9 @@
         "english": "That price? I'm dead — that's absolutely unhinged."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "A phonetic pun: 蚌埠 (Bengbu) is a city in Anhui province. 蚌埠住了 sounds like 绷不住了 (bēng bù zhù le) — 'can't hold it together anymore' / 'I'm losing it.' The wordplay lets people say they're falling apart while technically just mentioning a city.",
+    "similar_expressions": "Like using wordplay or homophones to express strong emotion indirectly. The city-name pun has no English equivalent — it's a purely Chinese internet phenomenon."
   },
   {
     "slug": "beng-bu-zhu-le",
@@ -7863,7 +7963,9 @@
         "english": "I actually found that game I played as a kid — my childhood just came rushing back, no cap."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Emerged from nostalgia culture in 2020 as millennials' childhood IP (cartoons, games, toys) returned in remakes, sequels, or collaborations. 爷 (grandpa/I) + 青春 (youth) + 回 (return) = 'My youth is back.' Used when anything from your childhood resurfaces.",
+    "similar_expressions": "Like 'nostalgia hit,' 'childhood unlocked,' or 'this brings me back' in English. The use of 爷 (a masculine self-reference implying age and world-weariness) adds ironic gravitas to what is essentially 'I remember this cartoon.'"
   },
   {
     "slug": "po-fang-le",
@@ -7891,7 +7993,9 @@
         "english": "Stop sending me songs like that — making someone's defenses crumble at midnight is just irresponsible."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Gaming terminology (防 = defense/shield) meaning your emotional defenses have been penetrated. Used when something hits you unexpectedly hard emotionally — a video, a line of text, a piece of news that gets past your cynical outer shell and makes you genuinely feel something.",
+    "similar_expressions": "Like 'this hit different,' 'I'm not crying, you're crying,' or 'right in the feels.' The gaming metaphor (shields broken) reflects how deeply gaming culture has permeated Chinese internet language."
   },
   {
     "slug": "she-niu",
@@ -7947,7 +8051,9 @@
         "english": "My food delivery arrived but my 社恐 kicked in, so I let it sit outside for twenty minutes."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Short for 社交恐惧症 (social anxiety disorder), adopted as casual self-identification by introverted young Chinese people. Unlike clinical social anxiety, 社恐 became a trendy identity — people who preferred texting over calling, avoided small talk, and ordered via app to skip human interaction.",
+    "similar_expressions": "Like casually calling yourself 'socially awkward,' 'introverted,' or 'an introvert' in English. The clinical origin (phobia) was diluted into a personality type — similar to how 'OCD' gets casually misused."
   },
   {
     "slug": "wei-kuan-ren",
@@ -8059,7 +8165,9 @@
         "english": "'The company insists on promoting me again — I just wanted to quietly stay in my little role without all this attention.'"
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Named after 'The Rose of Versailles,' a manga set in French royalty. In 2020, Chinese blogger 蒙淇淇w described a narrative pattern: wealthy people who complained about their luxury problems in ways that highlighted their wealth while pretending to be humble. The term spread globally to describe humblebrag culture.",
+    "similar_expressions": "The Chinese equivalent of 'humblebrag' — but more systematic and often more elaborate. While English 'humblebrag' is a single statement, 凡尔赛文学 (Versailles Literature) describes an art form."
   },
   {
     "slug": "emo",
@@ -8087,7 +8195,9 @@
         "english": "Listening to music alone late at night is the fastest way to get emo — strongly recommend daytime listening instead."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Borrowed from English 'emo' (emotional/emo music subculture) but repurposed in Chinese internet to mean feeling sad, melancholic, or in your feelings — without the specific musical connotation. Used as a verb: 我emo了 (I'm emo-ing / feeling sad).",
+    "similar_expressions": "Functions like 'feeling a type of way,' 'in my feelings,' 'having a moment,' or 'vibing sadly' in English. The borrowed English word gives it a trendy, slightly ironic distance from genuine sadness."
   },
   {
     "slug": "jing-shen-nei-hao",
@@ -8115,7 +8225,9 @@
         "english": "Posted something on Moments, deleted it, posted it again, deleted it again — this kind of mental self-torture is absolutely exhausting."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Psychological concept that became a social media sensation in 2020. Unlike physical exhaustion, 精神内耗 is the energy drain from constant internal conflict — overthinking, self-doubt, rumination. Resonated deeply with China's hyper-competitive youth who were mentally exhausted before they even started work.",
+    "similar_expressions": "Like 'mental drain,' 'rumination,' 'analysis paralysis,' or 'living in your head.' Closer to the psychological concept of 'ego depletion' than casual English equivalents."
   },
   {
     "slug": "she-chu",
@@ -8143,7 +8255,9 @@
         "english": "The joy of an office drone is those five minutes after clocking out on Friday."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Borrowed directly from Japanese (社畜, shachiku) — a portmanteau of 会社 (company) and 家畜 (livestock). The image of office workers as corporate cattle resonated immediately with Chinese young professionals facing 996 culture. Japan exported the concept; China adopted and amplified it.",
+    "similar_expressions": "Like 'corporate drone,' 'office drone,' or 'wage slave' in English. The livestock metaphor is more visceral than English equivalents — implying you have no more agency than a farm animal."
   },
   {
     "slug": "mo-yu",
@@ -8171,7 +8285,9 @@
         "english": "The moment the boss left, everyone started goofing off."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Ancient Chinese idiom meaning 'fishing in troubled waters' (opportunism), repurposed in modern work culture to mean slacking off at the office. Went mainstream as China's work culture debate intensified in 2020. Entire communities formed around sharing 摸鱼 strategies.",
+    "similar_expressions": "Like 'slacking off,' 'goldbricking,' 'cyberloafing,' or 'quiet quitting' in English. The fishing metaphor implies skill — a good 摸鱼 practitioner does it artfully without getting caught."
   },
   {
     "slug": "tang-ping",
@@ -8199,7 +8315,9 @@
         "english": "Since buying a house is out of reach anyway, might as well lie flat and spend money on things I actually enjoy."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Emerged from a 2021 post (though roots in 2020) by a man who quit his job, stopped pursuing career goals, and simply lay flat. His manifesto against hustle culture spread rapidly. The government's concerned response — calling躺平 'shameful' — only amplified it.",
+    "similar_expressions": "The Chinese version of 'quiet quitting,' 'opting out,' or 'not playing the game.' More radical than Western equivalents — 躺平 advocates actively reject societal expectations rather than just reducing effort at work."
   },
   {
     "slug": "nei-juan",
@@ -8229,7 +8347,9 @@
         "english": "One person on our team started coming in on weekends, and now the whole group is being dragged into the grind against our will."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Academic term from sociologist Clifford Geertz describing societies stuck in increasing complexity with no development. Went viral in 2020 when a photo of a Peking University student doing coursework on a bicycle while cycling to class was shared as the perfect image of competitive self-destruction among Chinese students.",
+    "similar_expressions": "Closest English equivalent is 'rat race' but more specific — involution implies everyone working harder with diminishing collective returns. Like 'competitive self-harm.' Also related to 'credentialism' and 'arms race' dynamics."
   },
   {
     "slug": "da-gong-ren",
@@ -8257,7 +8377,9 @@
         "english": "A working person with a worker's soul — every wage slave is the cream of the crop. (ironic rallying cry)chinese_name"
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Exploded in October 2020 from a viral short video by creator 'Migrant Worker Zhang Hao' who delivered absurdly motivational speeches about the dignity of being a wage worker. His catchphrase: 'Migrant workers, working souls, migrant workers are the best.' The irony of calling exhausting labor 'glorious' resonated with millions.",
+    "similar_expressions": "The Chinese equivalent of 'wage slave' but reclaimed with ironic pride. Related to 'corporate drone,' 'nine-to-fiver,' and the broader 'I hate Mondays' working culture — but more politically aware."
   },
   {
     "slug": "san-fen",
@@ -8537,7 +8659,9 @@
         "english": "Boss gave me overtime again. Winning so hard over here. (sarcastic)"
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Gaming slang — 'winning to the point of numbness.' If you've won so much that winning no longer feels like anything, you've 赢麻了. Went viral as a reaction to overwhelming victories — used both genuinely (national sports wins) and ironically (scoring a small discount).",
+    "similar_expressions": "Like 'winning so hard it doesn't even feel real' or 'too blessed to be stressed.' The numbness angle is interesting — it implies excess success, not just regular success."
   },
   {
     "slug": "po-fang-shun-jian",
@@ -8649,7 +8773,9 @@
         "english": "You're basically the Li Jiaqi of the live stream — you could sell anything!"
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Li Jiaqi (Austin Li) became China's most famous livestream host, known for his 'Oh my god, buy it!' catchphrases and ability to sell millions of products in minutes. His 2021 Singles Day stream drew 250 million viewers. When he stumbled in 2022 (tank-shaped cake controversy), it showed how precarious influencer power could be.",
+    "similar_expressions": "Like a celebrity QVC host crossed with a rock star. No direct Western equivalent at his scale — the closest would be if a single Amazon influencer could move entire retail markets with one stream."
   },
   {
     "slug": "kong-ping-2",
@@ -8929,7 +9055,9 @@
         "english": "These days all parents are caught up in the rat race — if you don't push your kid hard, you feel like they'll be left behind."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "From a chicken injection metaphor — pumping children full of activities and tutoring like injecting a chicken with stimulants. Went viral as Chinese middle-class parenting anxiety peaked: piano lessons, coding classes, English tutoring, math competitions — all before age 10. The government's 双减 policy (reducing homework and tutoring) was partly a response.",
+    "similar_expressions": "Like 'tiger parenting,' 'helicopter parenting,' or 'intensive parenting.' The injection metaphor is more visceral — implying you're artificially stimulating development rather than letting it grow naturally."
   },
   {
     "slug": "xiao-zhen-zuo-ti-jia",
@@ -8957,7 +9085,9 @@
         "english": "The final destination of the small-town test grinder: renting a subdivided room in the big city, wondering why you ever memorized so many vocabulary words."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "A self-deprecating term for students from small cities or rural areas who scored into elite universities through sheer exam performance — but found themselves outcompeted by urban students with better social skills, networks, and cultural capital. The gaokao (college entrance exam) was supposed to level the playing field; 小镇做题家 reveals it didn't.",
+    "similar_expressions": "Like 'first-generation college student struggles' or 'book smart but socially behind.' Related to concepts of cultural capital and the gap between academic success and social success."
   },
   {
     "slug": "song-chi-gan",
@@ -8985,7 +9115,9 @@
         "english": "I need to cultivate some 松弛感 and stop tensing up over every little thing."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "The aesthetic opposite of anxiety and overeffort. Viral in 2021-2022 after a story about a family who missed their flight due to passport issues and responded with complete calm — no tears, no shouting. That graceful response to chaos defined 松弛感. The wealthy class's appearance of effortless ease became aspirational.",
+    "similar_expressions": "Like 'effortless cool,' 'the cool girl,' 'sprezzatura' (Italian concept of studied carelessness), or 'old money energy.' The Chinese concept is specifically about handling adversity without visible stress."
   },
   {
     "slug": "qing-xu-jia-zhi",
@@ -9013,7 +9145,9 @@
         "english": "I don't need them to be rich, but they absolutely have to deliver on emotional value."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Emerged from relationship and consumer psychology discussions. The idea that products, relationships, and experiences have emotional value beyond their functional value. Went viral as people began explicitly evaluating whether partners, friends, and purchases provided adequate emotional return on investment.",
+    "similar_expressions": "Like 'emotional ROI,' 'does this spark joy,' or evaluating whether something 'fills your cup.' The term makes emotional support transactional in a way that English lacks a direct equivalent for."
   },
   {
     "slug": "ping-ti",
@@ -9041,7 +9175,9 @@
         "english": "Luckin Coffee is my Starbucks dupe — I haven't set foot in a Starbucks since."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Exploded with China's consumer culture content. 平替 (affordable substitute) became the language of smart consumption: the 平替 of a Chanel bag, the 平替 of luxury skincare. Entire Xiaohongshu accounts were built around finding quality dupes. The 2022 economic slowdown made 平替 culture mainstream.",
+    "similar_expressions": "Like 'dupe,' 'budget alternative,' or 'looks expensive but isn't.' The Chinese concept is more systematized — 平替 hunting is a skill and an identity, not just occasional bargain shopping."
   },
   {
     "slug": "xx-tianhuaban",
@@ -9069,7 +9205,9 @@
         "english": "This restaurant's braised pork belly is the absolute ceiling — I'll never find a second place that comes close."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Gaming and streaming slang for the highest possible level in a category — the ceiling. When someone is the 天花板 (ceiling) of beauty, talent, or skill, they've hit the maximum. Went from gaming to describing celebrities and then everything: the beauty ceiling, the cooking ceiling, the 'husband material' ceiling.",
+    "similar_expressions": "Like 'the gold standard,' 'top tier,' or 'the pinnacle.' The ceiling metaphor specifically implies you can't go higher — this is the absolute maximum."
   },
   {
     "slug": "bai-lan",
@@ -9097,7 +9235,9 @@
         "english": "There's no way I can catch up on finals now, so I'm just going to embrace the chaos — call it 'life experience.'"
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Sports term meaning to intentionally lose ('tank') for draft picks. Entered mainstream culture in 2021 as young people began openly embracing failure rather than trying and failing. Unlike 躺平 (lying flat, passive), 摆烂 is more active — you're consciously choosing to let things deteriorate.",
+    "similar_expressions": "Like 'letting it burn,' 'not even trying,' or 'embracing the chaos.' More active than 'giving up' — you're making a choice to stop maintaining standards. Related to 'burn it all down' energy."
   },
   {
     "slug": "tang-ping-zhu-yi",
@@ -9209,7 +9349,9 @@
         "english": "Don't get taken in by startup pie-drawing — those stock options are basically worthless."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Literally 'draw a pie' — from the ancient idiom about drawing a pie to satisfy hunger. In modern workplace culture, it means making grand promises that never materialize: salary increases, promotions, equity. The boss is always drawing pies; employees are always hungry.",
+    "similar_expressions": "Like 'dangling a carrot,' 'empty promises,' or 'all talk, no action.' The pie-drawing metaphor perfectly captures the gap between the promise (a beautiful drawing) and reality (you can't eat it)."
   },
   {
     "slug": "zhi-chang-pua",
@@ -9237,7 +9379,9 @@
         "english": "He used those workplace PUA tactics to make me feel like I'd be nothing without the company — turns out after I quit, I was worth a lot more than he let on."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "PUA (Pick-Up Artist) tactics crossed from dating into workplace culture. Bosses use PUA techniques on employees: manufactured scarcity ('you're lucky to work here'), gaslighting ('you're too sensitive'), and manufactured competition ('your colleague doesn't complain'). The term exposed these manipulation tactics.",
+    "similar_expressions": "Like 'workplace manipulation,' 'toxic management,' or 'psychological games at work.' The PUA origin (pickup artist tactics) makes it more specific — these are deliberate influence techniques, not just bad management."
   },
   {
     "slug": "shuan-q",
@@ -9265,7 +9409,9 @@
         "english": "Boss just said the bonus is cancelled this month. Oh wow, thank you, truly."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "A phonetic approximation of 'thank you' (谢谢, xiè xiè) that gained viral status in 2021 through a viral video. The deliberately clunky phonetics made it irresistibly funny. Quickly became a multi-purpose expression meaning anything from genuine thanks to exasperated resignation.",
+    "similar_expressions": "Like 'thanks I hate it' or using deliberately broken English for comedy. The phonetic humor — making Chinese words sound like mangled English — is a distinctly internet-era comedy form."
   },
   {
     "slug": "jia-ren-men",
@@ -9293,7 +9439,9 @@
         "english": "Fam, who else gets it — I wanted to quit on my very first day of work."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Livestreaming hosts address their audiences as 家人们 (family members) to create intimacy and loyalty. When a streamer calls you 家人, you're part of their family — implying obligation to support them (buy products, tip, subscribe). The parasocial warmth is deliberate and commercially calculated.",
+    "similar_expressions": "Like 'guys,' 'folks,' 'y'all,' or 'friends' in English content creator language. The 'family' framing is more intense — it implies mutual care and obligation rather than casual address."
   },
   {
     "slug": "ni-tian",
@@ -9349,7 +9497,9 @@
         "english": "Look how relaxed he is on stage — he's got the whole audience right where he wants them."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Literally 'grasp and pinch' — a cooking term for knowing exactly how much of something to use. In 2021 internet culture it came to mean perfectly reading and controlling a situation or person. '把你拿捏住了' means 'I've got you figured out completely.'",
+    "similar_expressions": "Like 'having someone pegged,' 'reading someone perfectly,' or 'having someone in the palm of your hand.' The cooking origin gives it a methodical, precise quality — you've measured someone exactly."
   },
   {
     "slug": "jue-jue-zi",
@@ -9377,7 +9527,9 @@
         "english": "Finished the exam only to realize I hadn't studied any of the topics. An absolute disaster, I am done."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "A feminine, cutesy intensifier that exploded through Chinese social media in 2021. Adding 子 (a diminutive suffix) to 绝绝 (absolutely/completely) created something that sounded both extreme and adorable. Quickly became so overused it became a joke about vapid influencer language.",
+    "similar_expressions": "Like 'literally,' 'absolutely,' 'totally,' or 'I can't even' in English influencer speech. The rapid rise and backlash mirrors how English 'literally' became both ubiquitous and mocked."
   },
   {
     "slug": "yong-yuan-de-shen",
@@ -9405,7 +9557,9 @@
         "english": "Her performance at the concert was absolutely divine — the whole crowd went wild.chinese_name"
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Abbreviation of 永远的神 (yǒngyuǎn de shén, 'forever a god'). Originated in esports commentary to describe legendary players. In 2021 it escaped gaming, spreading to describe anything considered the greatest of all time — from Olympic athletes to a good bowl of noodles.",
+    "similar_expressions": "The Chinese version of GOAT (Greatest of All Time). Like English's 'GOAT,' it escalated from sports to general superlative. The 2021 explosion coincided with China's strong Olympic performance, where athletes were constantly called yyds."
   },
   {
     "slug": "qingxu-wending",
@@ -9461,7 +9615,9 @@
         "english": "Stop overthinking it — all that internal spinning will just wear you out even more."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Short for 精神内耗, internal mental drain. In 2022-2023 it became common as a standalone word as the concept spread. The specific Chinese framing emphasizes that the energy drain is self-generated — your own thoughts consuming your resources before you can apply them to the world.",
+    "similar_expressions": "Like 'mental drain,' 'living in your head,' or 'analysis paralysis.' The internal combustion metaphor — you're burning your own fuel without moving — is more specific than English equivalents."
   },
   {
     "slug": "ban-wei",
@@ -9489,7 +9645,9 @@
         "english": "It's the last day of vacation and the work stench has already set in — I can't even enjoy myself anymore."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "The unmistakable 'work smell' — the subtle changes in posture, expression, energy, and spirit that accumulate from sustained office labor. First recognized in viral photos of people on Monday versus Friday. 班味 is both physical (slumped shoulders, dull eyes) and spiritual (the life drained from your face by the grind).",
+    "similar_expressions": "Like 'office drone energy,' 'Monday face,' or looking 'beaten down by life.' The fact that it's a recognizable 'smell' (味 means smell/flavor) implies it's visceral and impossible to hide."
   },
   {
     "slug": "kao-yan-re",
@@ -9517,7 +9675,9 @@
         "english": "Can't find a decent job, so I'm just going with the flow and joining the grad exam craze."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Graduate school applications in China surged as job market competition intensified. In 2023, over 4 million people applied for graduate programs — up from 1 million a decade earlier. Going to graduate school became a way to delay entering a brutal job market, leading to concerns about 考研 being a 'refuge' rather than genuine academic pursuit.",
+    "similar_expressions": "Like 'going back to school when the job market is bad' — using education as shelter from economic difficulty. The scale of China's exam competition makes it more acute than Western equivalents."
   },
   {
     "slug": "kao-gong-re",
@@ -9545,7 +9705,9 @@
         "english": "Civil service exam fever is so intense these days — the library is packed with young people memorizing essay templates."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "The civil service exam (公务员考试, 国考) attracted record numbers of applicants as private sector uncertainty grew. In 2022, 2 million people competed for 30,000 positions. Young people who once chased tech startup dreams now competed for stable government jobs. The reversal reflected deep economic anxiety.",
+    "similar_expressions": "Like the concept of 'flight to safety' in investing but applied to careers. Mirrors how economic uncertainty in many countries increases interest in government and public sector jobs."
   },
   {
     "slug": "er-jiu-zhi-hao-wo-de-jingshen-neihao",
@@ -9685,7 +9847,9 @@
         "english": "My roommate passed her grad school entrance exam, so she's treating us to dinner tonight to celebrate."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Literally 'coming ashore' — reaching land after struggling in water. In Chinese test culture, it means successfully passing a high-stakes exam: the gaokao, civil service exam, or graduate entrance exam. The ocean metaphor captures both the struggle and the relief — you've been drowning, and now you've reached solid ground.",
+    "similar_expressions": "Like 'making it,' 'landing the job,' or 'passing the bar' in English. The water metaphor implies near-drowning struggle — not just success, but survival after nearly failing."
   },
   {
     "slug": "tou-gan",
@@ -9741,7 +9905,9 @@
         "english": "Do you know what, I've read the message you sent thirty times, and each time I want to explode on the spot even more — thank you, truly, thank you for bringing this brand-new experience into my life."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Madness Literature emerged as a coping mechanism during prolonged COVID restrictions. The format: deliberately unhinged, stream-of-consciousness text with escalating absurdity. What began as catharsis became art form — intentional chaos as communication. Companies started using the style in marketing, signaling its mainstream arrival.",
+    "similar_expressions": "Like 'unhinged posting,' 'chaotic energy content,' or 'going feral online.' The literary (文学) framing is important — it's performed madness with craft, not actual breakdown."
   },
   {
     "slug": "fa-feng",
@@ -9769,7 +9935,9 @@
         "english": "Three days after the breakup, my friend said she'd entered 'unhinged literature' mode and sent twenty voice messages in a row."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "As pandemic restrictions created pressure cooker conditions, 发疯文学 (madness literature) emerged — deliberately unhinged, stream-of-consciousness text art. People would write extremely long, chaotic, emotional texts as a coping mechanism and share them as art. The controlled madness was both cathartic and funny.",
+    "similar_expressions": "Like 'unhinged posting,' 'going feral online,' or 'I need everyone to know I'm not okay.' The literary framing is key — 发疯文学 is performed madness, not actual distress."
   },
   {
     "slug": "bao-gai",
@@ -9909,7 +10077,9 @@
         "english": "My mom asked in front of all our relatives whether I had a boyfriend/girlfriend — I died on the spot."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Short for 社会性死亡 (social death) — a moment of embarrassment so severe it feels like your social existence has ended. Went viral through video compilations of cringe-worthy social situations: sending a message to the wrong group, being called out publicly, making an unrecoverable mistake in front of everyone.",
+    "similar_expressions": "Like 'I want to die,' 'the floor should swallow me,' 'social suicide,' or a 'cringe attack.' The death metaphor for embarrassment is universal — English has similar expressions, but 社死 is more specifically about public humiliation."
   },
   {
     "slug": "gu-ai-ling",
@@ -10049,7 +10219,9 @@
         "english": "She was head-to-toe in bright colors — classic dopamine dressing — standing in the subway like a walking color palette."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "The neuroscience of dopamine met Chinese fashion content in 2022. Bright, clashing, maximalist outfits — the opposite of quiet luxury — were framed as scientifically mood-boosting. Xiaohongshu filled with dopamine dressing guides. The trend was as much about giving people permission to wear bold colors as it was about fashion.",
+    "similar_expressions": "Like 'dopamine dressing' in English (the term exists there too), 'color therapy,' or 'maximalist fashion.' The neuroscience framing gave fashion choices a rational justification beyond aesthetics."
   },
   {
     "slug": "te-zhong-bing-lv-you",
@@ -10077,7 +10249,9 @@
         "english": "Special Forces Tourism is perfect for broke students — you save money, see everything, and the exhaustion is totally worth it."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "College students began sharing extreme budget travel videos — 5 cities in 4 days, sleeping on trains, eating instant noodles. Called 特种兵 (special forces) for their military-level efficiency and endurance. The trend revealed both limited budgets and intense desire to experience the world before career obligations hit.",
+    "similar_expressions": "Like 'backpacker culture,' 'sprint tourism,' or 'extreme budget travel.' The military metaphor (special forces tourism) implies both discipline and discomfort — you're not sightseeing, you're executing a mission."
   },
   {
     "slug": "qiong-gui-tao-can",
@@ -10105,7 +10279,9 @@
         "english": "The 'broke bundle' lifestyle is trending among young people now — save wherever you can."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "As China's economic pressures mounted in 2022, discount combo meals at restaurants became a cultural phenomenon. Luckin Coffee's 9.9 RMB coffee, McDonald's 穷鬼套餐, cheap convenience store meals — eating affordably became content. The self-deprecating '穷鬼' (poor ghost) framing made thrift funny rather than shameful.",
+    "similar_expressions": "Like 'broke bitch meal,' 'poverty meal,' or 'budget eats' in English internet culture. The self-deprecating humor mirrors how English speakers joke about 'adulting' and 'eating cereal for dinner.'"
   },
   {
     "slug": "ben-cao-gang-mu-jianshen-cao",
@@ -10273,7 +10449,9 @@
         "english": "Gen-Z really is reshaping the workplace — they leave the second the clock hits five, not a minute more."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Stories of Gen Z workers (born after 2000) refusing toxic workplace norms went viral in 2022: recording managers who violated labor law, quitting on the spot when mistreated, demanding contracts be followed literally. Framed as '00后整顿职场' (Gen Z cleaning up the workplace), it thrilled older workers who had simply endured.",
+    "similar_expressions": "Like 'Gen Z won't take it anymore' or the quiet quitting movement — but with more visible confrontation. The specific generational framing (00后) implies both youth and the confidence that comes from having different expectations than previous generations."
   },
   {
     "slug": "zheng-dun-zhi-chang",
@@ -10301,7 +10479,9 @@
         "english": "I've made up my mind — starting next week I'm rectifying this workplace, no more covering for the boss when he's late to meetings."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "In 2022, videos of young Gen Z workers refusing to comply with toxic workplace norms went massively viral. They pushed back on unpaid overtime, answered back to rude managers, quit on the spot. The narrative became: '00后开始整顿职场' (Gen Z is cleaning up the workplace), and it thrilled millions of millennials who had complied for years.",
+    "similar_expressions": "Like 'quiet quitting' but more active and confrontational. Related to 'setting limits' and 'work-life balance' movements globally, but with more viral, individual confrontation stories."
   },
   {
     "slug": "dui-hao-ru-zuo",
@@ -10357,7 +10537,9 @@
         "english": "He left my message on read again — classic INTJ behavior, absolutely impossible to figure out."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "The 90-year-old personality test went spectacularly viral in China in 2022, becoming a prerequisite for friendship, dating, and workplace discussions. Job listings requested MBTI types. Dating profiles led with them. INTJ became aspirational; ENFP became the 'free spirit.' The test's pseudoscientific status barely mattered.",
+    "similar_expressions": "Like how Western millennials use MBTI, but 10x more intense. The Chinese MBTI craze happened later but deeper — it became the dominant personality framework in a way Western astrology is for some demographics."
   },
   {
     "slug": "e-ren",
@@ -10385,7 +10567,9 @@
         "english": "As an introvert, I genuinely don't understand how extroverts go out every single day and never run out of energy."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "The extrovert counterpart to i人 in the MBTI viral wave. E-types became associated with social energy, networking, and the ability to talk to strangers — qualities that were both admired and gently mocked. '纯e人' (pure E-type) implied someone who physically cannot be alone.",
+    "similar_expressions": "Like 'extrovert' in English, but with the specific MBTI framing that implies a complete personality system. The i/e distinction became a new social shorthand replacing older personality classifications."
   },
   {
     "slug": "i-ren",
@@ -10413,7 +10597,9 @@
         "english": "Don't make me call — I'm an i人, just text me."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "MBTI personality typing went massively viral in China in 2022, with I (introvert) and E (extravert) becoming the most used distinction. '我是i人' (I'm an I-type) became a complete social identity — explaining why you didn't want to call, preferred texting, needed alone time after social events.",
+    "similar_expressions": "Like identifying as an introvert in English, but more systematized and social-media-ready. The MBTI explosion in China mirrored the Western popularity of the test but happened faster and more completely."
   },
   {
     "slug": "lao-nv",
@@ -10441,7 +10627,9 @@
         "english": "There are more and more videos online teaching guys how to spot a 捞女, which shows just how much pressure young people feel when dating these days."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Dating app culture created a specific discourse around women who date strategically for financial benefit. 捞女 (fishing girl — one who fishes for wealthy partners) became a major topic as viral videos showed women discussing their relationship 'strategies.' The term sparked fierce gender debates online.",
+    "similar_expressions": "Like 'gold digger' but with more algorithmic precision — 捞女 implies a methodical, calculated approach rather than simple opportunism. The debate around the term mirrors Western arguments about gold-digging vs. financially-aware dating."
   },
   {
     "slug": "xian-yan-bao",
@@ -10469,7 +10657,9 @@
         "english": "I'm totally a 显眼包 — wherever I go, I make sure everyone notices me."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Originally negative — a 'conspicuous package' drawing unwanted attention. But in 2022-2023 it transformed into something almost celebratory. Being 显眼包 meant being unafraid to stand out, wear bold fashion, take up space. Gen Z reclaimed the word as a badge of unapologetic visibility.",
+    "similar_expressions": "Like 'attention-seeker' used positively, 'main character energy,' or 'maximalist.' The transformation from insult to compliment mirrors how 'extra' became positive in English youth culture."
   },
   {
     "slug": "xue-gao-ci-ke",
@@ -10497,7 +10687,9 @@
         "english": "From now on I'm checking the price before grabbing any ice cream — I've been assassinated one too many times.chinese_name"
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "In summer 2022, videos went viral of people reaching for ice cream in freezers without checking prices, then getting stabbed by the total at checkout — premium ice creams priced at 60-80 RMB hidden among the 3 RMB options. The 'assassin' (刺客) metaphor for hidden high prices quickly expanded to any concealed expensive item.",
+    "similar_expressions": "Like 'price shock,' 'sticker shock,' or 'getting ambushed by a price.' The assassin metaphor implies deliberate concealment — not just expensive, but sneakily expensive."
   },
   {
     "slug": "na-nie-jing-zhun",
@@ -10917,7 +11109,9 @@
         "english": "The dupe economy is all the rage among young people now — nobody's buying something just for the brand name anymore."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "As China's economy slowed and youth unemployment rose, 'affordable substitutes' culture became a complete economic philosophy. Not just budget alternatives to luxury goods, but a wholesale rethinking of consumption: What are you actually paying for? What is brand premium really worth? Consumer downgrading became intellectualized.",
+    "similar_expressions": "Like 'value investing but for consumption,' the 'dupe economy,' or the deinfluencing movement. The economic framing elevates it beyond simple bargain hunting to a critique of luxury brand value."
   },
   {
     "slug": "zao-ba-ren",
@@ -11029,7 +11223,9 @@
         "english": "I've been so stressed lately; I need a city walk to clear my head."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Borrowed from English urban planning (city walk/walkable cities), the term was repurposed in 2023 Chinese internet to mean a specific aesthetic of aimlessly wandering urban streets with a camera. The beauty is in having no destination — a rebellious act in China's goal-oriented culture. Photographs from these walks flood Xiaohongshu.",
+    "similar_expressions": "Like 'flaneur' (the 19th century French concept of urban wandering), 'street photography walks,' or 'getting lost on purpose.' The rejection of productivity is the point — city walking is explicitly useless and therefore meaningful."
   },
   {
     "slug": "chou-xiang",
@@ -11057,7 +11253,9 @@
         "english": "What happened today was genuinely abstract — some guy on the subway was belting out the national anthem through a megaphone."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Chinese internet's term for content so bizarre, surreal, and context-defying that 'abstract' is the only word. Stemming from absurdist meme communities, 抽象 became the aesthetic descriptor for humor that abandons logic entirely. If you need to explain why something is funny, it's not 抽象 enough.",
+    "similar_expressions": "Like 'surreal humor,' 'absurdist,' 'shitposting,' or 'dada meme.' The Chinese 抽象 aesthetic has its own distinct flavor — often involving sudden costume changes, non-sequiturs, and deliberately terrible production values."
   },
   {
     "slug": "xx-de-jintou-shi-xx",
@@ -11281,7 +11479,9 @@
         "english": "Who would have thought Harbin would pull through like this — it literally blew up everywhere."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Harbin (哈尔滨) went insanely viral in late 2023/early 2024 as southern Chinese tourists discovered the northern city's ice sculptures and architecture. The city's tourism bureau responded with increasingly elaborate hospitality — putting ice sculptures in airports, offering free activities, local officials personally greeting tourists. '尔滨你让我感受到了被需要' (Harbin, you made me feel needed) became iconic.",
+    "similar_expressions": "Like a destination going viral for exceeding expectations, except the government's enthusiastic response was itself part of the meme. Harbin became a template for how cities could use social media to drive tourism."
   },
   {
     "slug": "zibo-shaokao",
@@ -11309,7 +11509,9 @@
         "english": "This company treats its employees as warmly as Zibo treated tourists — genuinely rare these days."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "In spring 2023, college students who had been quarantined in Zibo during COVID returned to thank the city by visiting and posting about its food. Zibo's government welcomed them with free transportation and dedicated BBQ areas. The hospitality went viral, triggering a tourism wave that overwhelmed the small city — a grassroots phenomenon born from gratitude.",
+    "similar_expressions": "Like a small town going viral for being genuinely welcoming — a story about authentic hospitality rather than manufactured tourism marketing. The origin in COVID gratitude gives it emotional weight."
   },
   {
     "slug": "jiubawu-feiwu",
@@ -11477,7 +11679,9 @@
         "english": "We're just gym buddies — it's not like that between us."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Traditional friendships require deep emotional investment. 搭子 is the pragmatic alternative — someone who does a specific activity with you without the full weight of friendship. You might have a 饭搭子 (meal partner), 健身搭子 (gym partner), or 旅游搭子 (travel partner) who you barely know otherwise.",
+    "similar_expressions": "Like 'activity partner,' 'gym buddy,' or 'Netflix buddy' — but more formalized. The concept reflects both modern urban loneliness and a practical solution to wanting companionship without the vulnerability of deep friendship."
   },
   {
     "slug": "kong-yiji-wenxue",
@@ -11505,7 +11709,9 @@
         "english": "Two hundred résumés, zero replies. My degree is both my pride and my shackle — that's Kong Yiji Literature in real life.chinese_name"
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Lu Xun's 1919 short story character Kong Yiji — an educated man too proud to do manual labor, too poor to live like a scholar — became a meme in 2023 when a young graduate wrote: 'My degree is a long robe I can never take off.' The post crystallized the experience of millions of overeducated, underemployed youth.",
+    "similar_expressions": "Like 'overeducated and underpaid,' 'too qualified to be happy,' or the concept of 'credential inflation.' The literary reference gives it historical weight — China has been producing 孔乙己 for over a century."
   },
   {
     "slug": "yang-sheng-z-shi-dai",
@@ -11617,7 +11823,9 @@
         "english": "The new app removed half its features and called it an 'improved experience' — a masterclass in Cut Costs, Boost Laughs."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Corporate buzzword 降本增效 (cut costs, increase efficiency) was satirized as 降本增笑 (cut costs, increase laughs/ridicule) as companies made increasingly absurd cost-cutting decisions while claiming efficiency. The parody captured perfectly how corporate speak sanitizes painful decisions.",
+    "similar_expressions": "Like 'corporate synergies' or 'right-sizing' as corporate euphemisms. The wordplay (笑 rhymes with 效) makes it a precise linguistic skewer of management speak."
   },
   {
     "slug": "ban-tang-ban-juan",
@@ -11815,7 +12023,9 @@
         "english": "Going to the convenience store in pajamas — is that move city or absolutely not city?"
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "From a viral video of a foreign tourist in China who kept asking '这个city不city啊' (is this city/urbane or not?), using 'city' as an adjective meaning cosmopolitan or sophisticated. The broken Mandarin-English hybrid became a template, used to evaluate anything for its urban, cool, or modern quality.",
+    "similar_expressions": "Like asking 'is this fancy/cool?' but as a bilingual code-switch. Reflects China's relationship with urban aspiration and the influence of English words in youth vocabulary."
   },
   {
     "slug": "shuzi-youmin",
@@ -12207,7 +12417,9 @@
         "english": "Her interview answers are so real — Quan Hongchan would never give you a scripted PR response."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "The teenage diver who won gold at the Tokyo 2020 Olympics became even more viral in 2024 Paris Olympics. Her hometown in rural Guangdong, initially flooded by tourists who came to see where she grew up, became a Chinese tourism phenomenon. Her humble origins and extraordinary talent made her both inspirational and heartbreaking.",
+    "similar_expressions": "Like an athlete whose humble origins become part of their narrative. But in China the attention on her family home and village (not just her athletic achievement) reflects specific Chinese values about hometown, family, and success."
   },
   {
     "slug": "bali-aoyun-geng",
@@ -12263,7 +12475,9 @@
         "english": "I just dropped my freshly bought bubble tea all over the floor. I absolutely cannot."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "From a viral Douyin comment: someone was so exasperated by a situation they wrote '我真的会谢' (I will truly be grateful... for the chance to disappear). The 谢 (thank) creates absurd politeness in the face of total exhaustion. Used when a situation is so ridiculous the only response is defeated irony.",
+    "similar_expressions": "Like 'I can't even,' 'I'm done,' or 'thanks I hate it.' The deliberate politeness ('thank you') applied to exasperating situations is the source of humor — it's too formal for how broken the speaker feels."
   },
   {
     "slug": "xu-ni-zhu-bo",
@@ -12347,7 +12561,9 @@
         "english": "After playing Black Myth: Wukong, I finally believe — Chinese games have truly arrived!"
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "China's first AAA game release in August 2024, based on Journey to the West. Broke Steam sales records and became a cultural event beyond gaming — proof that Chinese game development had reached global standards. The government promoted it as cultural soft power; gamers saw it as national pride.",
+    "similar_expressions": "Like 'Elden Ring' or 'The Last of Us' level cultural impact but with added national significance. No Western game carries the weight of proving an entire industry's global capability."
   },
   {
     "slug": "cheng-shi-ying-xiao",
@@ -12403,7 +12619,9 @@
         "english": "Skip all the fancy stuff — just give me some frozen pear. Simple and real, that's the way."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "During Harbin's 2024 viral tourism wave, the humble 冻梨 (frozen pear) — a cheap local snack — became a luxury icon. Served in fancy presentation at hotel buffets, photographed with elaborate backdrops, the frozen pear was elevated from peasant food to must-try delicacy purely through internet attention and ironic reverence.",
+    "similar_expressions": "Like when a humble food gets 'elevated' by internet virality — similar to how croissants, birria tacos, or specific regional foods suddenly become national trends through social media."
   },
   {
     "slug": "tianshui-malatang",
@@ -12431,7 +12649,9 @@
         "english": "Ever since Tianshui spicy hot pot blew up, people finally started paying attention to our county's local specialties too."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Following Zibo's viral tourism moment, Tianshui in Gansu province went viral in early 2024 for its distinctive malatang (spicy hot pot). Unlike Zibo (which was an organic grassroots moment), Tianshui's viral moment showed how cities had learned to actively court tourism virality. The government response was immediate and enthusiastic.",
+    "similar_expressions": "Like a food destination going viral — similar to how certain restaurants in the West suddenly get 3-hour waits after a viral review. But the Chinese version involves entire cities, government coordination, and millions of tourists in weeks."
   },
   {
     "slug": "er-bin-xianxiang",
@@ -12543,7 +12763,9 @@
         "english": "Watched that foreign blogger's food vlog — pure white people food the whole way through, just a block of cheese with crackers. Are they seriously not hungry?"
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Viral photos and videos of stereotypically bland Western (especially American) lunches — plain crackers, unadorned chicken breast, raw vegetables with no seasoning — became a meme in China about cultural food differences. '白人饭' started as observation, then became shorthand for any aggressively unseasoned, textureless, joyless meal.",
+    "similar_expressions": "Like 'sad desk lunch,' 'office worker food,' or the stereotype of bland Western food. The observation reflects genuine cultural differences in food attitudes — Chinese cuisine philosophy and Western diet culture are genuinely quite different."
   },
   {
     "slug": "chouxiang-wenxue",
@@ -12627,7 +12849,9 @@
         "english": "Fragile college student checking in — got heatstroke on the very first day of military training and ended up in the hospital."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Videos went viral in 2024 of college students injuring themselves in absurdly minor accidents — spraining an ankle stepping off a curb, breaking a wrist opening a bottle. '脆皮' (crispy skin, fragile) described a generation raised with less physical hardship than previous ones, leading to bodies unable to handle basic challenges.",
+    "similar_expressions": "Like 'soft generation,' 'can't handle anything,' or the stereotype of fragile youth. The food metaphor (crispy skin = brittle) is vivid — these students shatter under the slightest pressure."
   },
   {
     "slug": "shai-bei",
@@ -12683,7 +12907,9 @@
         "english": "She innocently asked the boss if she could leave on time — the entire office fell silent.chinese_name"
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Originally describing dewy, hydrated, luminous skin — the Chinese beauty ideal of 水光肌 (water-light skin). In 2024, '水灵灵地' became a viral meme modifier, used to describe anything doing something with fresh-faced, innocent energy. '水灵灵地上班' (going to work all dewy and fresh) captured the contrast between youthful appearance and grim reality.",
+    "similar_expressions": "Like 'dewy,' 'fresh-faced,' or 'wide-eyed' — but used ironically. The contrast between 水灵灵 (luminous and innocent) and grim situations creates the humor."
   },
   {
     "slug": "kai-yuan-zhi-guang",
@@ -12795,7 +13021,9 @@
         "english": "Pang Dong Lai raised salaries again, while my boss won't even give me a second glance."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "A regional supermarket chain from Henan province became a national cultural phenomenon in 2024-2025 for its extraordinary employee treatment: mandatory 5-day work weeks, annual forced vacations, high wages, and free mental health days. In a country of 996 culture, a business visibly valuing employee wellbeing became aspirational and almost utopian.",
+    "similar_expressions": "Like Costco or REI in America — companies praised for treating employees well — but more extreme.胖东来 became a symbol of what Chinese work culture could be, making it both inspiring and melancholy."
   },
   {
     "slug": "guo-chao-san-dian-ling",
@@ -12879,7 +13107,9 @@
         "english": "My boyfriend asked what I wanted for my birthday; I said a horse-face skirt and he thought I was insulting him."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "The 马面裙 (horse-face skirt) — a traditional Han Chinese pleated skirt — became Gen Z's it-girl garment in 2024-2025. Worn to school, offices, and shopping malls, it was both a fashion statement and a cultural identity marker. Demand exceeded supply; factories in Cao County, Shandong became famous for producing them.",
+    "similar_expressions": "Like a traditional garment becoming a modern fashion item — similar to how Japanese young people wear kimono-inspired clothing, or how Korean hanbok elements appear in streetwear. But more specifically a grassroots revival, not designer-driven."
   },
   {
     "slug": "xin-zhong-shi-chuan-da",
@@ -12907,7 +13137,9 @@
         "english": "New Chinese Style fashion is so hot right now — even my mom finally said I look good for once."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "The fashion movement combining traditional Chinese garment elements (立领 Mandarin collar, 盘扣 frog buttons, 马面裙 horse-face skirts) with contemporary silhouettes. Spread rapidly through Xiaohongshu as cultural confidence grew. Became a fashion statement about Chinese identity rather than just aesthetics.",
+    "similar_expressions": "Like 'modern hanfu,' 'Sino-chic,' or the broader global movement of incorporating traditional cultural garments into everyday fashion. Similar to how Korean fashion incorporates hanbok elements, but with explicit cultural identity significance."
   },
   {
     "slug": "xin-zhong-shi",
@@ -12935,7 +13167,9 @@
         "english": "I bought a neo-Chinese style tea set so I can pretend to be a reclusive scholar-poet in my own apartment."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "A design and fashion movement blending traditional Chinese aesthetics (hanfu silhouettes, ink wash painting, classical motifs) with contemporary styling. Exploded as China's cultural confidence grew — young people choosing Chinese-influenced fashion over purely Western styles. Ma Mian skirts became the defining garment.",
+    "similar_expressions": "Like 'chinoiserie' (Western incorporation of Chinese aesthetics) reversed — Chinese people incorporating their own traditional aesthetics into modern life. Related to global movements that reclaim cultural heritage fashion."
   },
   {
     "slug": "bao-zhu-fan-wan",
@@ -13747,7 +13981,9 @@
         "english": "The Ne Zha 2 phenomenon proves that Chinese animation has truly risen — no need to envy Disney anymore."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "The sequel to 2019's Ne Zha became a massive domestic blockbuster in early 2025, breaking records and generating enormous cultural discussion. It was framed both as entertainment and as proof of Chinese animation's maturity — 国漫崛起 (Chinese animation rising) narrative that carried national pride beyond just box office numbers.",
+    "similar_expressions": "Like a blockbuster film becoming a cultural moment and national pride symbol simultaneously. Similar to how some Hollywood films become cultural events, but with explicit framing as evidence of national capability."
   },
   {
     "slug": "xian-cheng-jing-ji",
@@ -13887,7 +14123,9 @@
         "english": "My coworker said not to worry about AI replacement anxiety — turns out half his department got laid off the following week."
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "As AI capabilities expanded rapidly in 2025, widespread fear about job displacement emerged across Chinese society. Unlike previous automation anxieties (factory robots), AI threatened white-collar knowledge workers who had assumed their skills were safe. The anxiety was particularly acute among recent graduates.",
+    "similar_expressions": "Like 'automation anxiety,' 'AI job displacement fears,' or the concept of 'technological unemployment.' The Chinese version carries extra weight because the job market was already stressed from other economic factors."
   },
   {
     "slug": "fan-xiang-tang-ping",
@@ -14027,7 +14265,9 @@
         "english": "DeepSeek Fever really caught Silicon Valley off guard — our homegrown AI is genuinely making us proud this time!"
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "Chinese AI company DeepSeek released models in early 2025 that matched or exceeded leading American AI at a fraction of the cost, using fewer advanced chips. The shock — that China had achieved this despite export controls — triggered a global AI industry reassessment and made DeepSeek a symbol of technological competition.",
+    "similar_expressions": "Like 'Sputnik moment' (America's shock at Soviet space achievement) but for AI. The DeepSeek release was both a genuine technical achievement and a geopolitical statement."
   },
   {
     "slug": "ai-wei",
@@ -14055,7 +14295,9 @@
         "english": "His apology letter had serious AI flavour — it read like it was drafted by a customer-service bot.chinese_name"
       }
     ],
-    "popularity": 5
+    "popularity": 5,
+    "origin_story": "As AI-generated content flooded Chinese social media in 2025, users developed sensitivity to its distinctive signatures: unnaturally smooth phrasing, generic examples, hollow positivity, and a certain weightlessness. '这篇文章AI味太重了' (this article reeks of AI) became a common quality judgment.",
+    "similar_expressions": "Like 'this sounds like ChatGPT wrote it,' 'AI slop,' or 'uncanny valley writing.' The '味' (smell/flavor) metaphor implies it's something you can sense even if you can't define it precisely."
   },
   {
     "slug": "sai-bo-qing-ming",

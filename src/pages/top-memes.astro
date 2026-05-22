@@ -1,0 +1,103 @@
+---
+import Base from '../layouts/Base.astro';
+import MemeCard from '../components/MemeCard.astro';
+import memes from '../data/memes.json';
+
+const topMemes = [...memes]
+  .filter(m => m.popularity === 5)
+  .sort((a, b) => b.year - a.year);
+
+const byYear = topMemes.reduce((acc, m) => {
+  acc[m.year] = acc[m.year] || [];
+  acc[m.year].push(m);
+  return acc;
+}, {} as Record<number, typeof topMemes>);
+
+const years = Object.keys(byYear).map(Number).sort((a, b) => b - a);
+const examples = topMemes.slice(0, 5).map(m => m.english_name).join(', ');
+
+const collectionSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Top Chinese Internet Memes — Most Popular Slang Explained",
+  "description": `The most viral Chinese internet memes explained in English. ${topMemes.length} must-know memes including ${examples} and more.`,
+  "url": "https://cnmemes.com/top-memes",
+  "hasPart": topMemes.slice(0, 10).map(m => ({
+    "@type": "DefinedTerm",
+    "name": m.chinese_name,
+    "alternateName": m.english_name,
+    "url": `https://cnmemes.com/meme/${m.slug}`
+  }))
+};
+---
+
+<Base
+  title="Top Chinese Internet Memes — Most Viral Slang Explained in English"
+  description={`The most viral Chinese internet memes explained in English. ${topMemes.length} must-know memes from 2015 to today — from 内卷 to yyds, each with cultural context and examples.`}
+>
+  <script type="application/ld+json" set:html={JSON.stringify(collectionSchema)} />
+
+  <section class="hero">
+    <h1>Top Chinese Internet Memes</h1>
+    <p>The <strong>{topMemes.length} most viral</strong> Chinese internet memes — rated ★★★★★ — explained in English with cultural context. The essential guide to Chinese internet culture.</p>
+  </section>
+
+  <div class="container" style="padding-top:28px;">
+
+    <!-- Quick nav by year -->
+    <div class="year-pills" style="margin-bottom:36px;">
+      {years.map(y => (
+        <a href={`#year-${y}`} class="year-pill">{y} ({byYear[y].length})</a>
+      ))}
+    </div>
+
+    <!-- Grouped by year -->
+    {years.map(y => (
+      <div id={`year-${y}`} style="margin-bottom:56px;">
+        <div class="year-heading">
+          <h2>{y}</h2>
+          <span class="year-count">{byYear[y].length} memes</span>
+        </div>
+        <div class="meme-grid">
+          {byYear[y].map(m => (
+            <MemeCard
+              slug={m.slug}
+              chinese_name={m.chinese_name}
+              english_name={m.english_name}
+              pinyin={m.pinyin}
+              english_explanation={m.english_explanation}
+              year={m.year}
+              status={m.status}
+              tags={m.tags}
+              popularity={m.popularity}
+            />
+          ))}
+        </div>
+      </div>
+    ))}
+
+  </div>
+</Base>
+
+<style>
+.year-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--accent);
+}
+
+.year-heading h2 {
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.year-count {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+</style>
