@@ -18,14 +18,30 @@ const statusCounts = {
 };
 ---
 
-<Base title="Chinese Internet Meme Dictionary" description="Decoding Chinese internet memes for English speakers. From 2015 to today, updated monthly.">
+<Base title="Chinese Internet Meme Dictionary" description="Understand Chinese internet memes and viral slang explained in English. Browse 500+ memes from 2015 to today, updated monthly.">
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "CNMemes — Chinese Meme Dictionary",
+    "url": "https://cnmemes.com",
+    "description": "The most complete English-language dictionary of Chinese internet memes, from 2015 to today.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://cnmemes.com/?search={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  })}></script>
 
   <section class="hero">
-    <h1><span class="cn-part">中文梗典</span> — Chinese Meme Dictionary</h1>
-    <p>Decoding Chinese internet memes for the world. From 内卷 to yyds, understand what China's internet is really saying. Updated monthly.</p>
+    <h1>What Do Chinese Internet Memes Mean?</h1>
+    <p>The most complete English guide to Chinese internet memes — from <strong>内卷</strong> (involution) to <strong>yyds</strong> (GOAT), every meme explained with cultural context. Updated monthly.</p>
     
     <div class="search-box">
-      <input type="text" id="searchInput" placeholder="Search by Chinese, English, or Pinyin..." autocomplete="off" />
+      <input type="text" id="searchInput" placeholder="Search memes in Chinese, English, or Pinyin..." autocomplete="off" aria-label="Search Chinese memes" />
     </div>
   </section>
 

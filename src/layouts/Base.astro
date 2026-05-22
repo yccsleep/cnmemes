@@ -2,9 +2,17 @@
 interface Props {
   title: string;
   description?: string;
+  type?: string;
 }
 
-const { title, description = "Decoding Chinese internet memes for the world. From 2015 to today, explained in English." } = Astro.props;
+const { 
+  title, 
+  description = "Decoding Chinese internet memes for the world. From 2015 to today, explained in English.",
+  type = "website"
+} = Astro.props;
+
+const canonicalURL = Astro.url.href;
+const fullTitle = `${title} | CNMemes`;
 ---
 
 <!DOCTYPE html>
@@ -12,9 +20,26 @@ const { title, description = "Decoding Chinese internet memes for the world. Fro
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{title} | CNMemes</title>
+  <title>{fullTitle}</title>
   <meta name="description" content={description} />
-  <link rel="canonical" href={Astro.url.href} />
+  <link rel="canonical" href={canonicalURL} />
+  <link rel="alternate" hreflang="en" href={canonicalURL} />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content={type} />
+  <meta property="og:title" content={fullTitle} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonicalURL} />
+  <meta property="og:site_name" content="CNMemes — Chinese Meme Dictionary" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content={fullTitle} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:site" content="@cnmemes" />
+
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Source+Sans+3:wght@400;600;700&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet" />
@@ -26,22 +51,41 @@ const { title, description = "Decoding Chinese internet memes for the world. Fro
         <span class="logo-cn">中文梗典</span>
         <span class="logo-en">CNMemes</span>
       </a>
-      <nav class="site-nav">
+      <nav class="site-nav" aria-label="Main navigation">
         <a href="/">Home</a>
+        <a href="/year/2026">Latest</a>
         <a href="/year/2024">Browse</a>
         <a href="/about">About</a>
       </nav>
     </div>
   </header>
 
-  <main>
+  <main id="main-content">
     <slot />
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>CNMemes.com — Decoding Chinese internet culture since 2015</p>
-      <p style="margin-top:6px;">© {new Date().getFullYear()} CNMemes. Built with curiosity.</p>
+      <div style="display:flex;gap:40px;justify-content:center;flex-wrap:wrap;margin-bottom:20px;font-size:13px;">
+        <div>
+          <div style="font-weight:700;color:var(--text);margin-bottom:8px;">Browse by Year</div>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;">
+            {[2026,2025,2024,2023,2022,2021,2020,2019,2018,2017,2016,2015].map(y => (
+              <a href={`/year/${y}`} style="color:var(--text-dim);">{y}</a>
+            ))}
+          </div>
+        </div>
+        <div>
+          <div style="font-weight:700;color:var(--text);margin-bottom:8px;">Browse by Topic</div>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;">
+            {['workplace','Gen-Z','social-commentary','lifestyle','economy','gaming'].map(t => (
+              <a href={`/tag/${t}`} style="color:var(--text-dim);">{t}</a>
+            ))}
+          </div>
+        </div>
+      </div>
+      <p>CNMemes.com — The English-language dictionary of Chinese internet memes</p>
+      <p style="margin-top:6px;">© {new Date().getFullYear()} CNMemes. Updated monthly.</p>
     </div>
   </footer>
 </body>
