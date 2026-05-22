@@ -618,3 +618,96 @@ img { max-width: 100%; }
   .year-pills { gap: 6px; }
   .year-pill { padding: 5px 13px; font-size: 12px; }
 }
+
+/* ─── Share buttons ──────────────────────────────────────────── */
+.share-section {
+  margin-top: 40px;
+  padding-top: 28px;
+  border-top: 1.5px solid var(--border);
+}
+
+.share-label {
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.share-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1.5px solid var(--border);
+  transition: all var(--transition);
+  background: var(--surface);
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+
+.share-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+
+.share-x {
+  border-color: #333;
+  color: #111;
+}
+[data-theme="dark"] .share-x {
+  border-color: #555;
+  color: var(--text);
+}
+.share-x:hover {
+  background: #111;
+  color: white;
+  border-color: #111;
+}
+[data-theme="dark"] .share-x:hover {
+  background: #e8e8e8;
+  color: #111;
+  border-color: #e8e8e8;
+}
+
+.share-reddit {
+  border-color: #ff4500;
+  color: #ff4500;
+}
+.share-reddit:hover {
+  background: #ff4500;
+  color: white;
+  border-color: #ff4500;
+}
+
+.share-copy {
+  border-color: var(--border);
+  color: var(--text-dim);
+}
+.share-copy:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-light);
+}
+.share-copy.copied {
+  border-color: var(--green);
+  color: var(--green);
+  background: var(--green-light);
+}
+
+@media (max-width: 480px) {
+  .share-buttons { gap: 8px; }
+  .share-btn { padding: 9px 16px; font-size: 12px; }
+}
