@@ -30,7 +30,7 @@
   /* Typography */
   --font-display:  'Noto Serif SC', 'Georgia', serif;
   --font-body:     'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
-  --font-mono:     'JetBrains Mono', monospace;
+
 
   /* Layout */
   --max-width:     1100px;
@@ -205,7 +205,7 @@ img { max-width: 100%; }
 /* ─── Hero ───────────────────────────────────────────────────── */
 .hero {
   text-align: center;
-  padding: 64px 28px 36px;
+  padding: 48px 28px 24px;
   background: linear-gradient(180deg, var(--bg-subtle) 0%, var(--bg) 100%);
 }
 
@@ -215,7 +215,7 @@ img { max-width: 100%; }
   font-weight: 700;
   line-height: 1.2;
   color: var(--text);
-  margin-bottom: 16px;
+  margin-bottom: 10px;
   letter-spacing: -0.5px;
 }
 
@@ -225,7 +225,7 @@ img { max-width: 100%; }
   font-size: 17px;
   color: var(--text-dim);
   max-width: 540px;
-  margin: 0 auto 36px;
+  margin: 0 auto 18px;
   line-height: 1.7;
 }
 

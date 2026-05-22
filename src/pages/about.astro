@@ -6,7 +6,21 @@ const totalCount = memes.length;
 const yearRange = `${Math.min(...memes.map(m => m.year))}–${Math.max(...memes.map(m => m.year))}`;
 ---
 
-<Base title="About" description="About CNMemes — the most comprehensive Chinese internet meme dictionary for English speakers.">
+<Base title="About CNMemes — Chinese Meme Dictionary for English Speakers" description="CNMemes is the most comprehensive English-language dictionary of Chinese internet memes. 500+ entries from 2015 to today, explained with cultural context.">
+
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "CNMemes",
+  "alternateName": "中文梗典",
+  "url": "https://cnmemes.com",
+  "description": "The most comprehensive English-language dictionary of Chinese internet memes, from 2015 to today.",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "whycici@gmail.com",
+    "contactType": "customer support"
+  }
+})}></script>
   <div class="meme-detail">
     <div class="meme-header">
       <h1 class="cn-name">About CNMemes</h1>

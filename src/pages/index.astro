@@ -21,7 +21,7 @@ const statusCounts = {
 };
 ---
 
-<Base title="Chinese Internet Meme Dictionary" description="Understand Chinese internet memes and viral slang explained in English. Browse 500+ memes from 2015 to today, updated monthly.">
+<Base title="Chinese Internet Meme Dictionary" description="What do Chinese internet memes mean? Explained in English — 500+ memes from 2015 to today with cultural context. Updated monthly.">
 
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
@@ -83,10 +83,10 @@ const statusCounts = {
       </div>
     </div>
 
-    <!-- Meme grid: only render first 48, rest hidden -->
+    <!-- Meme grid: render first 24 visible, rest hidden at HTML level -->
     <div class="meme-grid" id="memeGrid">
       {sortedMemes.map((m, i) => (
-        <div class={i >= 48 ? 'card-hidden' : ''}>
+        <div style={i >= 24 ? 'display:none' : ''}>
           <MemeCard
             slug={m.slug}
             chinese_name={m.chinese_name}
@@ -105,7 +105,7 @@ const statusCounts = {
     <!-- Load more -->
     <div id="loadMoreWrap" style="text-align:center;margin:40px 0 20px;">
       <button id="loadMoreBtn" class="load-more-btn">Load More Memes</button>
-      <div id="loadMoreCount" style="font-size:12px;color:var(--text-muted);margin-top:8px;">Showing 48 of {sortedMemes.length}</div>
+      <div id="loadMoreCount" style="font-size:12px;color:var(--text-muted);margin-top:8px;">Showing 24 of {sortedMemes.length}</div>
     </div>
   </div>
 
@@ -115,33 +115,27 @@ const statusCounts = {
     const loadMoreBtn = document.getElementById('loadMoreBtn');
     const loadMoreWrap = document.getElementById('loadMoreWrap');
     const loadMoreCount = document.getElementById('loadMoreCount');
-    const PAGE = 48;
+    const PAGE = 24;
     let showing = PAGE;
-    let isSearching = false;
 
-    // Init: hide cards beyond PAGE
     const allWrappers = Array.from(grid.children);
-    allWrappers.forEach((wrap, i) => {
-      if (i >= PAGE) wrap.style.display = 'none';
-    });
 
     // Load more
     loadMoreBtn.addEventListener('click', () => {
-      const next = showing + PAGE;
+      const next = Math.min(showing + PAGE, totalCount);
       allWrappers.slice(showing, next).forEach(wrap => {
         wrap.style.display = '';
         wrap.style.animation = 'fadeIn 0.3s ease';
       });
-      showing = Math.min(next, totalCount);
+      showing = next;
       loadMoreCount.textContent = `Showing ${showing} of ${totalCount}`;
       if (showing >= totalCount) loadMoreWrap.style.display = 'none';
     });
 
-    // Search: show all matching, hide non-matching
+    // Search
     searchInput.addEventListener('input', (e) => {
       const q = e.target.value.toLowerCase().trim();
-      isSearching = !!q;
-      if (isSearching) {
+      if (q) {
         loadMoreWrap.style.display = 'none';
         allWrappers.forEach((wrap, i) => {
           const m = memes[i];
@@ -149,10 +143,7 @@ const statusCounts = {
           wrap.style.display = haystack.includes(q) ? '' : 'none';
         });
       } else {
-        // Reset to paged view
-        allWrappers.forEach((wrap, i) => {
-          wrap.style.display = i < showing ? '' : 'none';
-        });
+        allWrappers.forEach((wrap, i) => { wrap.style.display = i < showing ? '' : 'none'; });
         if (showing < totalCount) loadMoreWrap.style.display = 'block';
       }
     });
