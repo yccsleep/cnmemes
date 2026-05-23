@@ -19,7 +19,7 @@ const examples = topMemes.slice(0, 5).map(m => m.english_name).join(', ');
 const collectionSchema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  "name": "Top Chinese Internet Memes — Most Popular Slang Explained",
+  "name": "Top Chinese Internet Memes — Most Popular Memes Explained",
   "description": `The most viral Chinese internet memes explained in English. ${topMemes.length} must-know memes including ${examples} and more.`,
   "url": "https://cnmemes.com/top-memes",
   "hasPart": topMemes.slice(0, 10).map(m => ({
@@ -32,7 +32,7 @@ const collectionSchema = {
 ---
 
 <Base
-  title="Top Chinese Internet Memes — Most Viral Slang Explained in English"
+  title="Top Chinese Internet Memes — Most Viral Chinese Memes Explained in English"
   description={`The most viral Chinese internet memes explained in English. ${topMemes.length} must-know memes from 2000 to today — from 内卷 to yyds, each with cultural context and examples.`}
 >
   <script type="application/ld+json" set:html={JSON.stringify(collectionSchema)} />

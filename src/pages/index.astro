@@ -60,9 +60,6 @@ const statusCounts = {
     <div class="search-box">
       <input type="text" id="searchInput" placeholder="Search memes in Chinese, English, or Pinyin..." autocomplete="off" aria-label="Search Chinese memes" />
     </div>
-    <div style="margin-top:14px;">
-      <button id="randomBtn" class="random-btn">🎲 Random Meme</button>
-    </div>
   </section>
 
   <div class="container" style="padding-top:24px;">
@@ -90,17 +87,20 @@ const statusCounts = {
       </div>
     </div>
 
+    <!-- New This Year banner -->
+    <a href={`/year/${currentYear}`} class="new-this-year-banner">
+      <span class="nty-label">🆕 New in {currentYear}</span>
+      <span class="nty-desc">
+        {memes.filter(m => m.year === currentYear).slice(0,3).map(m => m.chinese_name).join(' · ')} and more →
+      </span>
+    </a>
+
     <!-- Stats row -->
-    <div style="display:flex;gap:16px;justify-content:center;margin-bottom:36px;flex-wrap:wrap;">
-      <div style="display:flex;align-items:center;gap:6px;font-size:13px;color:var(--text-dim);">
-        <span class="status-dot classic"></span> {statusCounts.classic} classic
-      </div>
-      <div style="display:flex;align-items:center;gap:6px;font-size:13px;color:var(--text-dim);">
-        <span class="status-dot popular"></span> {statusCounts.popular} still popular
-      </div>
-      <div style="display:flex;align-items:center;gap:6px;font-size:13px;color:var(--text-dim);">
-        <span class="status-dot fading"></span> {statusCounts.fading} fading
-      </div>
+    <div class="stats-row">
+      <span><span class="status-dot classic"></span> {statusCounts.classic} classic</span>
+      <span><span class="status-dot popular"></span> {statusCounts.popular} still popular</span>
+      <span><span class="status-dot fading"></span> {statusCounts.fading} fading</span>
+      <a href="/top-memes" style="color:var(--accent);font-weight:600;">★★★★★ Top Memes →</a>
     </div>
 
     <!-- Meme grid: render first 24 visible, rest hidden at HTML level -->
@@ -152,22 +152,33 @@ const statusCounts = {
       if (showing >= totalCount) loadMoreWrap.style.display = 'none';
     });
 
-    // Random meme
-    const randomBtn = document.getElementById('randomBtn');
-    randomBtn?.addEventListener('click', () => {
-      const m = memes[Math.floor(Math.random() * memes.length)];
-      window.location.href = `/meme/${m.slug}`;
-    });
+    // Search with highlight
+    searchInput.addEventListener('input', (e) => {
       const q = e.target.value.toLowerCase().trim();
       if (q) {
         loadMoreWrap.style.display = 'none';
         allWrappers.forEach((wrap, i) => {
           const m = memes[i];
           const haystack = [m.chinese_name, m.english_name, m.pinyin, m.english_explanation, ...m.tags].join(' ').toLowerCase();
-          wrap.style.display = haystack.includes(q) ? '' : 'none';
+          const matches = haystack.includes(q);
+          wrap.style.display = matches ? '' : 'none';
+          if (matches) {
+            // Highlight in excerpt
+            const excerptEl = wrap.querySelector('.card-excerpt');
+            if (excerptEl) {
+              const text = m.english_explanation;
+              const re = new RegExp(`(${q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')})`, 'gi');
+              excerptEl.innerHTML = text.replace(re, '<mark class="search-hl">$1</mark>');
+            }
+          }
         });
       } else {
-        allWrappers.forEach((wrap, i) => { wrap.style.display = i < showing ? '' : 'none'; });
+        // Reset highlights
+        allWrappers.forEach((wrap, i) => {
+          wrap.style.display = i < showing ? '' : 'none';
+          const excerptEl = wrap.querySelector('.card-excerpt');
+          if (excerptEl) excerptEl.textContent = memes[i].english_explanation;
+        });
         if (showing < totalCount) loadMoreWrap.style.display = 'block';
       }
     });
@@ -175,22 +186,62 @@ const statusCounts = {
 </Base>
 
 <style>
-.random-btn {
-  background: none;
-  border: 1.5px solid var(--border);
-  color: var(--text-dim);
-  font-family: var(--font-body);
-  font-size: 13px;
-  font-weight: 600;
-  padding: 8px 20px;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all var(--transition);
-}
-.random-btn:hover {
-  border-color: var(--accent);
-  color: var(--accent);
+/* New This Year banner */
+.new-this-year-banner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   background: var(--accent-light);
+  border: 1.5px solid var(--accent-border);
+  border-radius: var(--radius);
+  padding: 12px 18px;
+  text-decoration: none;
+  margin-bottom: 20px;
+  transition: all var(--transition);
+  flex-wrap: wrap;
+}
+.new-this-year-banner:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.new-this-year-banner:hover .nty-label,
+.new-this-year-banner:hover .nty-desc { color: white; }
+.nty-label {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--accent);
+  white-space: nowrap;
+}
+.nty-desc {
+  font-size: 13px;
+  color: var(--text-dim);
+}
+
+/* Stats row */
+.stats-row {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+  font-size: 13px;
+  color: var(--text-dim);
+  align-items: center;
+}
+.stats-row span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Search highlight */
+mark.search-hl {
+  background: rgba(194, 59, 34, 0.15);
+  color: var(--accent);
+  border-radius: 2px;
+  padding: 0 1px;
+  font-weight: 600;
 }
 
 .load-more-btn {

@@ -17,23 +17,53 @@ const tagMemes = memes.filter(m => m.tags.includes(tag));
 const allTags = [...new Set(memes.flatMap(m => m.tags))].sort();
 const tagLabel = tag.replace(/-/g, ' ');
 const topExamples = tagMemes.filter(m => m.popularity >= 4).slice(0,3).map(m => m.english_name).join(', ');
+
+// Tag-specific intro paragraphs
+const tagIntros: Record<string, string> = {
+  workplace: `Chinese workplace culture has spawned some of the internet's most resonant memes. From 内卷 (involution — working harder with diminishing returns) to 摸鱼 (secretly slacking at the office), these ${tagMemes.length} memes capture the exhaustion, dark humor, and quiet resistance of China's working generation. If you've ever wondered what Chinese colleagues really mean when they talk about their jobs, start here.`,
+  burnout: `Burnout culture in China produced some of the most emotionally resonant internet language of the 2020s. Terms like 精神内耗 (mental drain), emo, and 躺平 (lying flat) gave millions of young people words for experiences they couldn't previously name. These ${tagMemes.length} memes chart the emotional landscape of a generation navigating intense pressure with dark humor and radical acceptance.`,
+  romance: `Chinese internet has developed a rich vocabulary for love, dating, and relationships — often more cynical and specific than Western equivalents. From 渣男 (trash man) to 海王 (romantic Aquaman), these ${tagMemes.length} memes reveal how Chinese young people talk about romance, manipulation, and the modern dating landscape.`,
+  fandom: `China's idol fan culture is among the most organized and intense in the world — with its own vocabulary, hierarchies, and rituals. These ${tagMemes.length} memes cover everything from 塌房 (your idol's image collapsing) to 饭圈 culture's elaborate support systems. Essential reading for understanding Chinese entertainment culture.`,
+  consumerism: `China's consumer internet culture has produced some of the world's most creative shopping vocabulary. From 薅羊毛 (extracting maximum value from deals) to 平替 (affordable substitutes for luxury), these ${tagMemes.length} memes reveal how Chinese consumers think about spending, value, and the tension between aspiration and frugality.`,
+  identity: `How Chinese young people see and define themselves online — through personality types, social categories, and self-constructed labels. These ${tagMemes.length} memes cover everything from MBTI obsession to the 屌丝 (underdog) identity that millions embraced ironically, then sincerely.`,
+  technology: `Chinese internet culture has developed unique reactions to AI, social media platforms, and technological change. These ${tagMemes.length} memes capture how China's digital generation processes, mocks, fears, and celebrates technology — from DeepSeek anxiety to AI味 (that unmistakable AI smell in generated content).`,
+  gaming: `Chinese gaming culture has exported vocabulary that spread far beyond gaming communities. Terms like 满血复活 (full HP revival) and 赢麻了 (winning to the point of numbness) are now used in everyday conversation. These ${tagMemes.length} memes show how gaming shaped Chinese internet language.`,
+  education: `China's intensely competitive education system generates its own internet culture. From 鸡娃 (hyper-intensive parenting) to 孔乙己文学 (the trap of being overeducated for a bad job market), these ${tagMemes.length} memes capture the pressures, anxieties, and black humor of China's education treadmill.`,
+  politics: `Chinese internet has developed sophisticated ways to discuss sensitive political topics — often through wordplay, animal metaphors, and oblique references. These ${tagMemes.length} memes include terms like 河蟹 (river crab — censorship) and 正能量 (positive energy — official-approved content). Understanding these requires knowing what can and cannot be said directly.`,
+  humor: `Pure internet absurdism — the memes that exist simply to be funny. From duang to 蓝瘦香菇 (blue thin mushroom = can't bear it), these ${tagMemes.length} memes represent Chinese internet humor at its most creative and least explicable. Some jokes translate; some require cultural osmosis.`,
+  "internet-culture": `Meta-memes about how Chinese internet itself works — the vocabulary of forums, platforms, and online behavior that has accumulated since the BBS era. These ${tagMemes.length} memes include foundational terms like 潜水 (lurking), 吐槽 (roasting), and 大V (verified influencer). Essential context for understanding all the other memes.`,
+  "self-deprecation": `Chinese internet users have built an elaborate vocabulary of self-mockery — embracing failure, mediocrity, and exhaustion as badges of honor. These ${tagMemes.length} memes capture the specific flavor of Chinese online self-deprecation: funny, resigned, and strangely warm.`,
+  lifestyle: `Memes about how people live, spend time, and present their lives online. These ${tagMemes.length} memes cover aesthetic trends, daily rituals, and the way Chinese internet has aestheticized ordinary life.`,
+};
+
+const intro = tagIntros[tag] || `Chinese internet memes about ${tagLabel} — ${tagMemes.length} entries explained in English with cultural context and usage examples.`;
 ---
 
-<Base title={`${tagLabel} Chinese Memes — ${tagMemes.length} Memes Explained`} description={`Chinese internet memes about ${tagLabel}. Includes ${topExamples} and ${tagMemes.length - 3} more — each explained in English with cultural context.`}>
+<Base
+  title={`${tagLabel} Chinese Memes — ${tagMemes.length} Explained`}
+  description={`Chinese internet memes about ${tagLabel}. Includes ${topExamples} and ${tagMemes.length - 3} more — each explained in English with cultural context.`}
+>
   <section class="hero" style="padding-bottom:24px;">
     <h1>Chinese <span class="cn-part">{tagLabel}</span> Memes</h1>
-    <p>{tagMemes.length} memes tagged "{tagLabel}" — explained in English</p>
+    <p>{tagMemes.length} memes — explained in English with cultural context</p>
   </section>
 
   <div class="container">
-    <div class="year-pills">
+
+    <!-- Tag intro -->
+    <div class="tag-intro">
+      <p>{intro}</p>
+    </div>
+
+    <!-- Tag pills -->
+    <div class="year-pills" style="margin-bottom:32px;">
       {allTags.map(t => (
-        <a href={`/tag/${t}`} class={`year-pill ${t === tag ? 'active' : ''}`}>{t}</a>
+        <a href={`/tag/${t}`} class={`year-pill ${t === tag ? 'active' : ''}`}>{t.replace(/-/g,' ')}</a>
       ))}
     </div>
 
     <div class="meme-grid">
-      {tagMemes.map(m => (
+      {tagMemes.sort((a,b) => b.popularity - a.popularity || b.year - a.year).map(m => (
         <MemeCard
           slug={m.slug}
           chinese_name={m.chinese_name}
@@ -49,3 +79,16 @@ const topExamples = tagMemes.filter(m => m.popularity >= 4).slice(0,3).map(m => 
     </div>
   </div>
 </Base>
+
+<style>
+.tag-intro {
+  background: var(--bg-subtle);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 16px 20px;
+  margin-bottom: 28px;
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--text-dim);
+}
+</style>

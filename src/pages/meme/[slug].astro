@@ -19,6 +19,21 @@ const eraLabels: Record<number, string> = { 2004: '2000–2004', 2009: '2005–2
 const pageYear = getPageYear(meme.year);
 const yearLabel = eraLabels[pageYear] || String(meme.year);
 
+// Same-tag memes sorted by popularity for prev/next
+const sameTagAll = memes
+  .filter(m => m.slug !== meme.slug && m.tags.some(t => meme.tags.includes(t)))
+  .sort((a, b) => b.popularity - a.popularity || b.year - a.year);
+
+const currentIdx = sameTagAll.findIndex(m => m.slug === meme.slug);
+// prev/next among same-tag sorted by year desc then popularity
+const samePeriodMemes = memes
+  .filter(m => m.slug !== meme.slug && m.tags.some(t => meme.tags.includes(t)))
+  .sort((a, b) => b.year - a.year || b.popularity - a.popularity);
+
+const thisIdx = samePeriodMemes.findIndex(m => m.slug === meme.slug);
+const prevMeme = thisIdx > 0 ? samePeriodMemes[thisIdx - 1] : samePeriodMemes[samePeriodMemes.length - 1];
+const nextMeme = thisIdx < samePeriodMemes.length - 1 ? samePeriodMemes[thisIdx + 1] : samePeriodMemes[0];
+
 // Related memes: prioritise same tag, then fill with high-popularity same-era memes
 const sameTagMemes = memes.filter(m =>
   m.slug !== meme.slug && m.tags.some(t => meme.tags.includes(t))
@@ -32,7 +47,7 @@ const fillMemes = memes.filter(m =>
 
 const related = [...sameTagMemes, ...fillMemes].slice(0, 4);
 
-const pageTitle = `${meme.chinese_name} Meaning — ${meme.english_name} | Chinese Internet Meme`;
+const pageTitle = `What Does ${meme.chinese_name} Mean? — ${meme.english_name} Explained`;
 const pageDesc = `What does ${meme.chinese_name} (${meme.pinyin}) mean? It means "${meme.english_name}" — ${meme.english_explanation.slice(0, 110)}...`;
 
 // FAQ schema
@@ -187,6 +202,18 @@ const definedTermSchema = {
       <a href="/top-memes" class="tag tag-topic">Top Memes →</a>
       <a href="/" class="tag tag-topic">All memes →</a>
     </div>
+
+    <!-- Prev / Next navigation -->
+    <nav class="meme-nav">
+      <a href={`/meme/${prevMeme.slug}`} class="meme-nav-btn meme-nav-prev">
+        <span class="meme-nav-dir">← Previous</span>
+        <span class="meme-nav-name">{prevMeme.chinese_name} — {prevMeme.english_name}</span>
+      </a>
+      <a href={`/meme/${nextMeme.slug}`} class="meme-nav-btn meme-nav-next">
+        <span class="meme-nav-dir">Next →</span>
+        <span class="meme-nav-name">{nextMeme.chinese_name} — {nextMeme.english_name}</span>
+      </a>
+    </nav>
   </div>
 </Base>
 
