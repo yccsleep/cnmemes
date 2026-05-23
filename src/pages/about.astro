@@ -3,10 +3,20 @@ import Base from '../layouts/Base.astro';
 import memes from '../data/memes.json';
 
 const totalCount = memes.length;
-const yearRange = `${Math.min(...memes.map(m => m.year))}–${Math.max(...memes.map(m => m.year))}`;
+const minYear = Math.min(...memes.map(m => m.year));
+const maxYear = Math.max(...memes.map(m => m.year));
+const yearRange = `${minYear}–${maxYear}`;
+const fiveStarCount = memes.filter(m => m.popularity === 5).length;
+const stillPopular = memes.filter(m => m.status === 'still popular').length;
+
+const tagCounts = memes.reduce((acc, m) => {
+  m.tags.forEach(t => { acc[t] = (acc[t] || 0) + 1; });
+  return acc;
+}, {} as Record<string, number>);
+const topTag = Object.entries(tagCounts).sort((a,b) => b[1]-a[1])[0];
 ---
 
-<Base title="About CNMemes — Chinese Meme Dictionary for English Speakers" description="CNMemes is the most comprehensive English-language dictionary of Chinese internet memes. 500+ entries from 2015 to today, explained with cultural context.">
+<Base title="About CNMemes — Chinese Meme Dictionary for English Speakers" description="CNMemes is the most comprehensive English-language dictionary of Chinese internet memes. 500+ entries from 2000 to today, explained with cultural context.">
 
 <script type="application/ld+json" set:html={JSON.stringify({
   "@context": "https://schema.org",
@@ -14,48 +24,115 @@ const yearRange = `${Math.min(...memes.map(m => m.year))}–${Math.max(...memes.
   "name": "CNMemes",
   "alternateName": "中文梗典",
   "url": "https://cnmemes.com",
-  "description": "The most comprehensive English-language dictionary of Chinese internet memes, from 2015 to today.",
+  "description": "The most comprehensive English-language dictionary of Chinese internet memes, from 2000 to today.",
   "contactPoint": {
     "@type": "ContactPoint",
     "email": "whycici@gmail.com",
     "contactType": "customer support"
   }
 })}></script>
+
   <div class="meme-detail">
     <div class="meme-header">
       <h1 class="cn-name">About CNMemes</h1>
-      <div class="en-name">中文梗典 — Your Guide to Chinese Internet Culture</div>
+      <div class="pinyin">中文梗典 — Your Guide to Chinese Internet Culture</div>
+    </div>
+
+    <!-- Stats grid -->
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-number">{totalCount}</div>
+        <div class="stat-label">Total Memes</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">{yearRange}</div>
+        <div class="stat-label">Years Covered</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">{fiveStarCount}</div>
+        <div class="stat-label">★★★★★ Viral Memes</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">{stillPopular}</div>
+        <div class="stat-label">Still Used Today</div>
+      </div>
     </div>
 
     <div class="meme-section">
-      <div class="section-title">What Is This?</div>
+      <h2 class="section-title">What Is This?</h2>
       <p>
-        CNMemes is the most comprehensive English-language dictionary of Chinese internet memes and viral expressions. Covering memes from {yearRange} and updated monthly, each entry includes detailed explanations, cultural context, and real-world usage examples.
+        CNMemes is the most comprehensive English-language dictionary of Chinese internet memes, slang, and viral expressions. Covering memes from {yearRange} and updated monthly, each entry includes detailed explanations, cultural context, and real-world usage examples.
       </p>
     </div>
 
     <div class="meme-section">
-      <div class="section-title">Why Does This Exist?</div>
+      <h2 class="section-title">Why Does This Exist?</h2>
       <p>
-        Chinese internet culture is one of the richest and most creative in the world, but most of it is invisible to English speakers. When someone says "yyds" or "内卷" or "显眼包," there's a whole universe of meaning, history, and social context packed into those characters — meaning that gets lost without proper explanation.
+        Chinese internet culture is one of the richest and most creative in the world — but most of it is invisible to English speakers. When someone says "yyds" or "内卷" or "显眼包," there's a whole universe of meaning, history, and social context packed into those characters. CNMemes bridges that gap.
       </p>
       <p style="margin-top:12px;">
-        We built CNMemes to bridge that gap. Whether you're learning Chinese, working with Chinese colleagues, studying Chinese media, or just curious about what's trending on Weibo and Douyin, this dictionary helps you understand not just what these words mean, but why they matter.
+        Whether you're learning Chinese, working with Chinese colleagues, following Chinese media, or just curious about what's trending on Weibo and Douyin, this dictionary explains not just what these words mean — but why they matter.
       </p>
     </div>
 
     <div class="meme-section">
-      <div class="section-title">How We Work</div>
+      <h2 class="section-title">How Each Entry Works</h2>
       <p>
-        Every entry includes the Chinese original, pinyin pronunciation, an English equivalent, a conversational explanation written for people with zero China background, cultural context explaining the social forces behind the meme, and example sentences showing how it's actually used. We update monthly with new memes.
+        Every meme includes: the Chinese original, pinyin pronunciation, an English equivalent, a plain-English explanation written for people with zero China background, cultural context explaining the social forces behind the meme, example sentences showing real usage, and for the most viral memes, an origin story tracing exactly where and how it started.
       </p>
     </div>
 
     <div class="meme-section">
-      <div class="section-title">Contact</div>
+      <h2 class="section-title">Update Schedule</h2>
+      <p>
+        New memes are added monthly. We track Chinese social media trends across Weibo, Douyin, Xiaohongshu, and Bilibili. If you see a meme missing, email us and we'll add it.
+      </p>
+    </div>
+
+    <div class="meme-section">
+      <h2 class="section-title">RSS Feed</h2>
+      <p>
+        Subscribe to our <a href="/rss.xml">RSS feed</a> to get the latest memes delivered to your reader.
+      </p>
+    </div>
+
+    <div class="meme-section">
+      <h2 class="section-title">Contact</h2>
       <p>
         Found an error? Have a meme suggestion? Want to collaborate? Reach out at <strong>whycici@gmail.com</strong>.
       </p>
     </div>
   </div>
 </Base>
+
+<style>
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 14px;
+  margin-bottom: 36px;
+}
+
+.stat-card {
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 16px;
+  text-align: center;
+}
+
+.stat-number {
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 4px;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: var(--text-dim);
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+</style>

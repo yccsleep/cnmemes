@@ -15,25 +15,113 @@ const { slug, chinese_name, english_name, pinyin, english_explanation, year, sta
 
 const statusClass = status === 'still popular' ? 'popular' : status === 'fading' ? 'fading' : 'classic';
 const stars = '★'.repeat(popularity) + '☆'.repeat(5 - popularity);
+
+// Era-aware year label and link
+const getPageYear = (y: number) => y >= 2015 ? y : y <= 2004 ? 2004 : y <= 2009 ? 2009 : 2014;
+const eraLabels: Record<number, string> = { 2004: '2000–2004', 2009: '2005–2009', 2014: '2010–2014' };
+const pageYear = getPageYear(year);
+const yearLabel = eraLabels[pageYear] || String(year);
 ---
 
-<a href={`/meme/${slug}`} class="meme-card">
-  <div class="card-cn">{chinese_name}</div>
-  <div class="card-en">{english_name}</div>
-  <div class="card-pinyin">{pinyin}</div>
-  <div class="card-excerpt">{english_explanation}</div>
+<div class="meme-card-wrap">
+  <a href={`/meme/${slug}`} class="meme-card">
+    <div class="card-cn">{chinese_name}</div>
+    <div class="card-en">{english_name}</div>
+    <div class="card-pinyin">{pinyin}</div>
+    <div class="card-excerpt">{english_explanation}</div>
+  </a>
   <div class="card-meta">
-    <span class="tag tag-year">{year}</span>
+    <a href={`/year/${pageYear}`} class="tag tag-year" onclick="event.stopPropagation()">{yearLabel}</a>
     <span class={`tag tag-${statusClass}`}>{status}</span>
+    {tags.slice(0, 2).map(t => (
+      <a href={`/tag/${t}`} class="tag tag-topic" onclick="event.stopPropagation()">{t}</a>
+    ))}
     <span class="popularity-stars" title={`Popularity: ${popularity}/5`}>{stars}</span>
   </div>
-</a>
+</div>
 
 <style>
+.meme-card-wrap {
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 22px 22px 16px;
+  transition: box-shadow var(--transition), transform var(--transition), border-color var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+
+.meme-card-wrap::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent), var(--gold));
+  opacity: 0;
+  transition: opacity var(--transition);
+}
+
+.meme-card-wrap:hover {
+  box-shadow: var(--shadow);
+  transform: translateY(-3px);
+  border-color: var(--accent-border);
+}
+
+.meme-card-wrap:hover::before { opacity: 1; }
+
+.meme-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  margin-bottom: 14px;
+}
+
+.meme-card:hover { text-decoration: none; }
+
+.card-cn {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 2px;
+  line-height: 1.2;
+}
+
+.card-en {
+  font-size: 14px;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.card-pinyin {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-bottom: 12px;
+}
+
+.card-excerpt {
+  font-size: 13.5px;
+  color: var(--text-dim);
+  line-height: 1.65;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card-meta {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .popularity-stars {
   font-size: 12px;
   color: #f0a500;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   margin-left: auto;
 }
 </style>

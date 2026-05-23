@@ -33,27 +33,31 @@ const collectionSchema = {
 
 <Base
   title="Top Chinese Internet Memes — Most Viral Slang Explained in English"
-  description={`The most viral Chinese internet memes explained in English. ${topMemes.length} must-know memes from 2015 to today — from 内卷 to yyds, each with cultural context and examples.`}
+  description={`The most viral Chinese internet memes explained in English. ${topMemes.length} must-know memes from 2000 to today — from 内卷 to yyds, each with cultural context and examples.`}
 >
   <script type="application/ld+json" set:html={JSON.stringify(collectionSchema)} />
 
   <section class="hero">
     <h1>Top Chinese Internet Memes</h1>
-    <p>The <strong>{topMemes.length} most viral</strong> Chinese internet memes — rated ★★★★★ — explained in English with cultural context. The essential guide to Chinese internet culture.</p>
+    <p>The <strong>{topMemes.length} most viral</strong> Chinese internet memes — rated ★★★★★ — explained in English with cultural context.</p>
+    <div class="search-box" style="margin-top:20px;">
+      <input type="text" id="topSearch" placeholder="Search top memes..." autocomplete="off" aria-label="Search top memes" />
+    </div>
   </section>
 
   <div class="container" style="padding-top:28px;">
 
     <!-- Quick nav by year -->
-    <div class="year-pills" style="margin-bottom:36px;">
+    <div class="year-pills" id="yearNav" style="margin-bottom:36px;">
       {years.map(y => (
         <a href={`#year-${y}`} class="year-pill">{y} ({byYear[y].length})</a>
       ))}
     </div>
 
     <!-- Grouped by year -->
+    <div id="topGrid">
     {years.map(y => (
-      <div id={`year-${y}`} style="margin-bottom:56px;">
+      <div id={`year-${y}`} class="year-group" style="margin-bottom:56px;">
         <div class="year-heading">
           <h2>{y}</h2>
           <span class="year-count">{byYear[y].length} memes</span>
@@ -75,8 +79,62 @@ const collectionSchema = {
         </div>
       </div>
     ))}
+    </div>
+
+    <!-- Search results (hidden by default) -->
+    <div id="searchResults" class="meme-grid" style="display:none;"></div>
+    <div id="noResults" style="display:none;text-align:center;padding:40px;color:var(--text-dim);">No memes found matching your search.</div>
 
   </div>
+
+  <script define:vars={{ topMemes }}>
+    const input = document.getElementById('topSearch');
+    const topGrid = document.getElementById('topGrid');
+    const searchResults = document.getElementById('searchResults');
+    const noResults = document.getElementById('noResults');
+    const yearNav = document.getElementById('yearNav');
+
+    input.addEventListener('input', (e) => {
+      const q = e.target.value.toLowerCase().trim();
+      if (!q) {
+        topGrid.style.display = '';
+        yearNav.style.display = '';
+        searchResults.style.display = 'none';
+        searchResults.innerHTML = '';
+        noResults.style.display = 'none';
+        return;
+      }
+
+      topGrid.style.display = 'none';
+      yearNav.style.display = 'none';
+      const matched = topMemes.filter(m => {
+        const h = [m.chinese_name, m.english_name, m.pinyin, m.english_explanation, ...m.tags].join(' ').toLowerCase();
+        return h.includes(q);
+      });
+
+      if (matched.length === 0) {
+        searchResults.style.display = 'none';
+        noResults.style.display = 'block';
+      } else {
+        noResults.style.display = 'none';
+        searchResults.innerHTML = matched.map(m => `
+          <div class="meme-card-wrap">
+            <a href="/meme/${m.slug}" class="meme-card">
+              <div class="card-cn">${m.chinese_name}</div>
+              <div class="card-en">${m.english_name}</div>
+              <div class="card-pinyin">${m.pinyin}</div>
+              <div class="card-excerpt">${m.english_explanation.slice(0, 140)}...</div>
+            </a>
+            <div class="card-meta">
+              <span class="tag tag-year">${m.year}</span>
+              <span class="popularity-stars">★★★★★</span>
+            </div>
+          </div>
+        `).join('');
+        searchResults.style.display = 'grid';
+      }
+    });
+  </script>
 </Base>
 
 <style>

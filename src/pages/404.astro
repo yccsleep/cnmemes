@@ -1,0 +1,57 @@
+---
+import Base from '../layouts/Base.astro';
+import memes from '../data/memes.json';
+
+// Pick 3 random high-popularity memes to suggest
+const suggestions = [...memes]
+  .filter(m => m.popularity === 5)
+  .sort(() => Math.random() - 0.5)
+  .slice(0, 3);
+---
+
+<Base title="Page Not Found" description="This page doesn't exist — but we have 500+ Chinese internet memes that do.">
+  <div style="max-width:600px;margin:0 auto;padding:80px 28px;text-align:center;">
+
+    <div style="font-family:var(--font-display);font-size:80px;line-height:1;margin-bottom:16px;">囧</div>
+
+    <h1 style="font-family:var(--font-display);font-size:32px;font-weight:700;margin-bottom:12px;color:var(--text);">
+      Page Not Found
+    </h1>
+    <p style="font-size:16px;color:var(--text-dim);margin-bottom:8px;">
+      The meme you're looking for doesn't exist here.
+    </p>
+    <p style="font-size:14px;color:var(--text-muted);margin-bottom:40px;">
+      (囧 = the Chinese internet's original "this is awkward" face — an ancient character that looks like a distressed emoji)
+    </p>
+
+    <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:48px;">
+      <a href="/" style="background:var(--accent);color:white;padding:12px 28px;border-radius:50px;font-weight:600;font-size:14px;text-decoration:none;">
+        → Back to Home
+      </a>
+      <a href="/top-memes" style="background:var(--surface);border:1.5px solid var(--border);color:var(--text-dim);padding:12px 28px;border-radius:50px;font-weight:600;font-size:14px;text-decoration:none;">
+        Top Memes
+      </a>
+    </div>
+
+    <div style="text-align:left;">
+      <p style="font-size:12px;letter-spacing:3px;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:16px;">You might like these</p>
+      <div style="display:flex;flex-direction:column;gap:12px;">
+        {suggestions.map(m => (
+          <a href={`/meme/${m.slug}`} style="display:flex;align-items:center;gap:14px;padding:14px 18px;background:var(--surface);border:1.5px solid var(--border);border-radius:var(--radius);text-decoration:none;transition:all 0.18s ease;" class="suggestion-card">
+            <span style="font-family:var(--font-display);font-size:22px;color:var(--text);">{m.chinese_name}</span>
+            <span style="font-size:13px;color:var(--accent);font-weight:600;">{m.english_name}</span>
+            <span style="margin-left:auto;font-size:11px;color:#f0a500;">★★★★★</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </div>
+</Base>
+
+<style>
+.suggestion-card:hover {
+  border-color: var(--accent-border);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+</style>

@@ -38,14 +38,14 @@ const statusCounts = {
 };
 ---
 
-<Base title="Chinese Internet Meme Dictionary" description="What do Chinese internet memes mean? Explained in English — 500+ memes from 2015 to today with cultural context. Updated monthly.">
+<Base title="Chinese Internet Meme Dictionary" description="What do Chinese internet memes mean? Explained in English — 500+ memes from 2000 to today with cultural context. Updated monthly.">
 
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "CNMemes — Chinese Meme Dictionary",
     "url": "https://cnmemes.com",
-    "description": "The most complete English-language dictionary of Chinese internet memes, from 2015 to today.",
+    "description": "The most complete English-language dictionary of Chinese internet memes, from 2000 to today.",
     "potentialAction": {
       "@type": "SearchAction",
       "target": { "@type": "EntryPoint", "urlTemplate": "https://cnmemes.com/?search={search_term_string}" },
@@ -59,6 +59,9 @@ const statusCounts = {
     <p>The most complete English guide to Chinese internet memes — from <strong>内卷</strong> (involution) to <strong>yyds</strong> (GOAT), every meme explained with cultural context. Updated monthly.</p>
     <div class="search-box">
       <input type="text" id="searchInput" placeholder="Search memes in Chinese, English, or Pinyin..." autocomplete="off" aria-label="Search Chinese memes" />
+    </div>
+    <div style="margin-top:14px;">
+      <button id="randomBtn" class="random-btn">🎲 Random Meme</button>
     </div>
   </section>
 
@@ -149,8 +152,12 @@ const statusCounts = {
       if (showing >= totalCount) loadMoreWrap.style.display = 'none';
     });
 
-    // Search
-    searchInput.addEventListener('input', (e) => {
+    // Random meme
+    const randomBtn = document.getElementById('randomBtn');
+    randomBtn?.addEventListener('click', () => {
+      const m = memes[Math.floor(Math.random() * memes.length)];
+      window.location.href = `/meme/${m.slug}`;
+    });
       const q = e.target.value.toLowerCase().trim();
       if (q) {
         loadMoreWrap.style.display = 'none';
@@ -168,6 +175,24 @@ const statusCounts = {
 </Base>
 
 <style>
+.random-btn {
+  background: none;
+  border: 1.5px solid var(--border);
+  color: var(--text-dim);
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+.random-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-light);
+}
+
 .load-more-btn {
   background: var(--surface);
   border: 1.5px solid var(--border);
@@ -265,4 +290,14 @@ const statusCounts = {
 .hot-cn   { font-family: 'Noto Serif SC', serif; font-size: 14px; color: var(--hot-cn); font-weight: 700; }
 .hot-en   { font-size: 12px; color: var(--text-dim); }
 .hot-stars{ font-size: 11px; color: #f0a500; letter-spacing: 1px; }
+
+@media (max-width: 480px) {
+  .hot-en { display: none; }
+  .hot-item { padding: 10px 12px; gap: 6px; }
+}
+
+@media (max-width: 480px) {
+  .hot-en { display: none; }
+  .hot-item { padding: 10px 12px; gap: 6px; }
+}
 </style>

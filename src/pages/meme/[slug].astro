@@ -13,16 +13,30 @@ export function getStaticPaths() {
 const { meme } = Astro.props;
 const statusClass = meme.status === 'still popular' ? 'popular' : meme.status === 'fading' ? 'fading' : 'classic';
 
-// Related memes: same year + same tags
-const related = memes
-  .filter(m => m.slug !== meme.slug && (m.year === meme.year || m.tags.some(t => meme.tags.includes(t))))
-  .slice(0, 4);
+// Era-aware year page link
+const getPageYear = (y: number) => y >= 2015 ? y : y <= 2004 ? 2004 : y <= 2009 ? 2009 : 2014;
+const eraLabels: Record<number, string> = { 2004: '2000–2004', 2009: '2005–2009', 2014: '2010–2014' };
+const pageYear = getPageYear(meme.year);
+const yearLabel = eraLabels[pageYear] || String(meme.year);
+
+// Related memes: prioritise same tag, then fill with high-popularity same-era memes
+const sameTagMemes = memes.filter(m =>
+  m.slug !== meme.slug && m.tags.some(t => meme.tags.includes(t))
+).sort((a, b) => b.popularity - a.popularity);
+
+const fillMemes = memes.filter(m =>
+  m.slug !== meme.slug &&
+  !sameTagMemes.find(s => s.slug === m.slug) &&
+  Math.abs(getPageYear(m.year) - pageYear) <= 1
+).sort((a, b) => b.popularity - a.popularity);
+
+const related = [...sameTagMemes, ...fillMemes].slice(0, 4);
 
 const pageTitle = `${meme.chinese_name} Meaning — ${meme.english_name} | Chinese Internet Meme`;
 const pageDesc = `What does ${meme.chinese_name} (${meme.pinyin}) mean? It means "${meme.english_name}" — ${meme.english_explanation.slice(0, 110)}...`;
 
-// FAQ schema for Featured Snippets
-const faqItems = [
+// FAQ schema
+const faqItems: any[] = [
   {
     "@type": "Question",
     "name": `What does ${meme.chinese_name} mean in Chinese?`,
@@ -48,12 +62,7 @@ if (meme.origin_story) {
   });
 }
 
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": faqItems
-};
-
+const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": faqItems };
 const definedTermSchema = {
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
@@ -71,9 +80,10 @@ const definedTermSchema = {
 
 <Base title={pageTitle} description={pageDesc}>
   <div class="meme-detail">
+    <!-- Breadcrumb with correct era-aware link -->
     <div class="breadcrumb">
       <a href="/">Home</a><span>›</span>
-      <a href={`/year/${meme.year}`}>{meme.year} Memes</a><span>›</span>
+      <a href={`/year/${pageYear}`}>{yearLabel}</a><span>›</span>
       {meme.chinese_name}
     </div>
 
@@ -81,9 +91,9 @@ const definedTermSchema = {
       <h1 class="cn-name">{meme.chinese_name} — {meme.english_name}</h1>
       <div class="pinyin">{meme.pinyin}</div>
       <div class="meta-row">
-        <span class="tag tag-year">{meme.year}</span>
+        <a href={`/year/${pageYear}`} class="tag tag-year">{yearLabel}</a>
         <span class={`tag tag-${statusClass}`}>{meme.status}</span>
-        <span style="color:#f0a500;font-size:16px;letter-spacing:2px;" title={`Popularity: ${meme.popularity}/5`}>{'★'.repeat(meme.popularity)}{'☆'.repeat(5-meme.popularity)}</span>
+        <span class="stars-display" title={`Popularity: ${meme.popularity}/5`}>{'★'.repeat(meme.popularity)}{'☆'.repeat(5-meme.popularity)}</span>
         {meme.tags.map(t => <a href={`/tag/${t}`} class="tag tag-topic">{t}</a>)}
       </div>
     </div>
@@ -113,7 +123,7 @@ const definedTermSchema = {
     )}
 
     <div class="meme-section">
-      <h2 class="section-title">How Is It Used? (Example Sentences)</h2>
+      <h2 class="section-title">How Is It Used?</h2>
       {meme.examples.map(ex => (
         <div class="example-block">
           <div class="example-cn">{ex.chinese}</div>
@@ -167,39 +177,34 @@ const definedTermSchema = {
       </div>
     </div>
 
-    <!-- Internal links for SEO -->
-    <div class="meme-section" style="margin-top:32px;padding-top:24px;border-top:1px solid var(--border);">
-      <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;font-size:13px;color:var(--text-dim);">
-        <span>Explore more:</span>
-        <a href={`/year/${meme.year}`} class="tag tag-year">All {meme.year} memes →</a>
-        {meme.tags.map(t => (
-          <a href={`/tag/${t}`} class="tag tag-topic">{t} memes →</a>
-        ))}
-        <a href="/" class="tag tag-topic">Full dictionary →</a>
-      </div>
+    <!-- Explore more internal links -->
+    <div class="explore-more">
+      <span>Explore more:</span>
+      <a href={`/year/${pageYear}`} class="tag tag-year">{yearLabel} memes →</a>
+      {meme.tags.map(t => (
+        <a href={`/tag/${t}`} class="tag tag-topic">{t} →</a>
+      ))}
+      <a href="/top-memes" class="tag tag-topic">Top Memes →</a>
+      <a href="/" class="tag tag-topic">All memes →</a>
     </div>
   </div>
 </Base>
 
 <script define:vars={{ meme }}>
   const pageUrl = window.location.href;
-  const shareText = `Did you know? ${meme.chinese_name} (${meme.pinyin}) means "${meme.english_name}" — ${meme.english_explanation.slice(0, 100)}...\n\n${pageUrl}`;
 
-  // X / Twitter
   document.getElementById('shareX').addEventListener('click', () => {
     const text = encodeURIComponent(`Did you know? ${meme.chinese_name} (${meme.pinyin}) = "${meme.english_name}"\n\n${meme.english_explanation.slice(0, 120)}...\n\n#ChineseMeme #LearnChinese`);
     const url = encodeURIComponent(pageUrl);
     window.open(`https://x.com/intent/post?text=${text}&url=${url}`, '_blank');
   });
 
-  // Reddit
   document.getElementById('shareReddit').addEventListener('click', () => {
     const title = encodeURIComponent(`TIL: ${meme.chinese_name} (${meme.english_name}) — Chinese internet meme explained`);
     const url = encodeURIComponent(pageUrl);
     window.open(`https://www.reddit.com/submit?url=${url}&title=${title}`, '_blank');
   });
 
-  // Copy link
   document.getElementById('copyLink').addEventListener('click', () => {
     navigator.clipboard.writeText(pageUrl).then(() => {
       const btn = document.getElementById('copyLinkText');

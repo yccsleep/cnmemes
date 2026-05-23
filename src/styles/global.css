@@ -347,84 +347,32 @@ img { max-width: 100%; }
   gap: 18px;
 }
 
-.meme-card {
-  background: var(--surface);
-  border: 1.5px solid var(--border);
-  border-radius: var(--radius-lg);
-  padding: 22px;
-  transition: box-shadow var(--transition), transform var(--transition), border-color var(--transition);
-  text-decoration: none;
-  color: inherit;
-  display: block;
-  position: relative;
-  overflow: hidden;
+.meme-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 18px;
 }
 
-.meme-card::before {
-  content: '';
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  height: 3px;
-  background: linear-gradient(90deg, var(--accent), var(--gold));
-  opacity: 0;
-  transition: opacity var(--transition);
-}
+/* Card styles now live in MemeCard.astro component */
 
-.meme-card:hover {
-  box-shadow: var(--shadow);
-  transform: translateY(-3px);
-  border-color: var(--accent-border);
-  text-decoration: none;
-}
-
-.meme-card:hover::before { opacity: 1; }
-
-.card-cn {
-  font-family: var(--font-display);
-  font-size: 24px;
-  font-weight: 700;
-  color: var(--text);
-  margin-bottom: 2px;
-  line-height: 1.2;
-}
-
-.card-en {
-  font-size: 14px;
-  color: var(--accent);
-  font-weight: 600;
-  margin-bottom: 4px;
-}
-
-.card-pinyin {
-  font-size: 12px;
-  color: var(--text-muted);
-  font-style: italic;
-  margin-bottom: 12px;
-}
-
-.card-excerpt {
-  font-size: 13.5px;
-  color: var(--text-dim);
-  line-height: 1.65;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  margin-bottom: 14px;
-}
-
-.card-meta {
-  display: flex;
-  gap: 6px;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.popularity-stars {
-  font-size: 12px;
+/* ─── Detail page stars ───────────────────────────────────────── */
+.stars-display {
   color: #f0a500;
-  letter-spacing: 0.5px;
-  margin-left: auto;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+/* ─── Explore more ───────────────────────────────────────────── */
+.explore-more {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  font-size: 13px;
+  color: var(--text-dim);
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
 }
 
 /* ─── Detail page ────────────────────────────────────────────── */
