@@ -7,6 +7,30 @@ const years = [...new Set(memes.map(m => m.year))].sort((a, b) => b - a);
 const totalCount = memes.length;
 const currentYear = years[0];
 
+// Build era-aware pill list: group pre-2015 into eras
+const eraMap: Record<number, { label: string; slug: string }> = {};
+[2002,2003,2004].forEach(y => eraMap[y] = { label: '2000–2004', slug: '2004' });
+[2005,2006,2007,2008,2009].forEach(y => eraMap[y] = { label: '2005–2009', slug: '2009' });
+[2010,2011,2012,2013,2014].forEach(y => eraMap[y] = { label: '2010–2014', slug: '2014' });
+
+// Build deduplicated pill list
+const seenEras = new Set<string>();
+const yearPills: { label: string; href: string; count: number }[] = [];
+for (const y of years) {
+  if (eraMap[y]) {
+    const era = eraMap[y];
+    if (!seenEras.has(era.label)) {
+      seenEras.add(era.label);
+      const eraYears = Object.entries(eraMap).filter(([,v]) => v.label === era.label).map(([k]) => Number(k));
+      const count = memes.filter(m => eraYears.includes(m.year)).length;
+      yearPills.push({ label: era.label, href: `/year/${era.slug}`, count });
+    }
+  } else {
+    const count = memes.filter(m => m.year === y).length;
+    yearPills.push({ label: y === currentYear ? `${y} 🔄` : String(y), href: `/year/${y}`, count });
+  }
+}
+
 const hotMemes = [...memes]
   .filter(m => m.popularity >= 4)
   .sort((a, b) => b.popularity - a.popularity || b.year - a.year)
@@ -49,8 +73,8 @@ const statusCounts = {
     <!-- Year pills -->
     <div class="year-pills">
       <a href="/" class="year-pill active">All</a>
-      {years.map(y => (
-        <a href={`/year/${y}`} class="year-pill">{y}{y === currentYear ? ' 🔄' : ''}</a>
+      {yearPills.map(p => (
+        <a href={p.href} class="year-pill">{p.label}</a>
       ))}
     </div>
 

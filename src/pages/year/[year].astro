@@ -18,11 +18,20 @@ const yearMemes = memes.filter(m => m.year === year);
 const isCurrentYear = year === currentYear;
 const topMemes = yearMemes.filter(m => m.popularity >= 4).slice(0, 5).map(m => m.chinese_name).join('、');
 
+// Era label for pre-2015 periods
+const eraLabel: Record<number, string> = {
+  2002: '2000–2004', 2003: '2000–2004', 2004: '2000–2004',
+  2005: '2005–2009', 2006: '2005–2009', 2007: '2005–2009', 2008: '2005–2009', 2009: '2005–2009',
+  2010: '2010–2014', 2011: '2010–2014', 2012: '2010–2014', 2013: '2010–2014', 2014: '2010–2014',
+};
+const displayLabel = eraLabel[year] || String(year);
+const isEra = year < 2015;
+
 const collectionSchema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  "name": `${year} Chinese Internet Memes`,
-  "description": `${yearMemes.length} Chinese internet memes and slang terms from ${year}, explained in English with cultural context.`,
+  "name": `${displayLabel} Chinese Internet Memes`,
+  "description": `${yearMemes.length} Chinese internet memes from ${displayLabel}, explained in English with cultural context.`,
   "url": `https://cnmemes.com/year/${year}`,
   "hasPart": yearMemes.slice(0, 10).map(m => ({
     "@type": "DefinedTerm",
@@ -33,20 +42,22 @@ const collectionSchema = {
 };
 ---
 
-<Base title={`${year} Chinese Internet Memes — ${yearMemes.length} Memes Explained`} description={`The best Chinese internet memes of ${year} explained in English. From ${topMemes} and more — ${yearMemes.length} memes with cultural context and usage examples.`}>
+<Base title={`${displayLabel} Chinese Internet Memes — ${yearMemes.length} Memes Explained`} description={`Chinese internet memes from ${displayLabel} explained in English. From ${topMemes} and more — ${yearMemes.length} memes with cultural context and usage examples.`}>
 
 <script type="application/ld+json" set:html={JSON.stringify(collectionSchema)} />
   <section class="hero" style="padding-bottom:24px;">
-    <h1><span class="cn-part">{year}</span> Chinese Internet Memes</h1>
-    <p>{yearMemes.length} memes from {year}{isCurrentYear ? ' · Continuously updating 🔄' : ''}</p>
+    <h1><span class="cn-part">{displayLabel}</span> Chinese Internet Memes</h1>
+    <p>{yearMemes.length} memes from {displayLabel}{isCurrentYear ? ' · Continuously updating 🔄' : ''}</p>
   </section>
 
   <div class="container">
     <div class="year-pills">
       <a href="/" class="year-pill">All</a>
-      {allYears.map(y => (
-        <a href={`/year/${y}`} class={`year-pill ${y === year ? 'active' : ''}`}>{y}</a>
-      ))}
+      {allYears.map(y => {
+        const label = eraLabel[y] || String(y);
+        const isActive = y === year;
+        return <a href={`/year/${y}`} class={`year-pill ${isActive ? 'active' : ''}`}>{label}</a>;
+      })}
     </div>
 
     <div class="meme-grid">
