@@ -38,7 +38,7 @@ const statusCounts = {
 };
 ---
 
-<Base title="Chinese Internet Meme Dictionary" description="What do Chinese internet memes mean? Explained in English — 500+ memes from 2000 to today with cultural context. Updated monthly.">
+<Base title="Chinese Internet Meme Dictionary" description="What do Chinese internet memes mean? Explained in English — 500+ memes from 2000 to today with cultural context.">
 
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
@@ -56,7 +56,7 @@ const statusCounts = {
   <!-- Hero -->
   <section class="hero">
     <h1>What Do Chinese Internet Memes Mean?</h1>
-    <p>The most complete English guide to Chinese internet memes — from <strong>内卷</strong> (involution) to <strong>yyds</strong> (GOAT), every meme explained with cultural context. Updated monthly.</p>
+    <p>The most complete English guide to Chinese internet memes — from <strong>内卷</strong> (involution) to <strong>yyds</strong> (GOAT), every meme explained with cultural context.</p>
     <div class="search-box">
       <input type="text" id="searchInput" placeholder="Search memes in Chinese, English, or Pinyin..." autocomplete="off" aria-label="Search Chinese memes" />
     </div>
@@ -87,20 +87,11 @@ const statusCounts = {
       </div>
     </div>
 
-    <!-- New This Year banner -->
-    <a href={`/year/${currentYear}`} class="new-this-year-banner">
-      <span class="nty-label">🆕 New in {currentYear}</span>
-      <span class="nty-desc">
-        {memes.filter(m => m.year === currentYear).slice(0,3).map(m => m.chinese_name).join(' · ')} and more →
-      </span>
-    </a>
-
     <!-- Stats row -->
     <div class="stats-row">
       <span><span class="status-dot classic"></span> {statusCounts.classic} classic</span>
       <span><span class="status-dot popular"></span> {statusCounts.popular} still popular</span>
       <span><span class="status-dot fading"></span> {statusCounts.fading} fading</span>
-      <a href="/top-memes" style="color:var(--accent);font-weight:600;">★★★★★ Top Memes →</a>
     </div>
 
     <!-- Meme grid: render first 24 visible, rest hidden at HTML level -->
@@ -186,38 +177,6 @@ const statusCounts = {
 </Base>
 
 <style>
-/* New This Year banner */
-.new-this-year-banner {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  background: var(--accent-light);
-  border: 1.5px solid var(--accent-border);
-  border-radius: var(--radius);
-  padding: 12px 18px;
-  text-decoration: none;
-  margin-bottom: 20px;
-  transition: all var(--transition);
-  flex-wrap: wrap;
-}
-.new-this-year-banner:hover {
-  background: var(--accent);
-  border-color: var(--accent);
-  text-decoration: none;
-}
-.new-this-year-banner:hover .nty-label,
-.new-this-year-banner:hover .nty-desc { color: white; }
-.nty-label {
-  font-size: 13px;
-  font-weight: 700;
-  color: var(--accent);
-  white-space: nowrap;
-}
-.nty-desc {
-  font-size: 13px;
-  color: var(--text-dim);
-}
-
 /* Stats row */
 .stats-row {
   display: flex;
@@ -341,11 +300,6 @@ mark.search-hl {
 .hot-cn   { font-family: 'Noto Serif SC', serif; font-size: 14px; color: var(--hot-cn); font-weight: 700; }
 .hot-en   { font-size: 12px; color: var(--text-dim); }
 .hot-stars{ font-size: 11px; color: #f0a500; letter-spacing: 1px; }
-
-@media (max-width: 480px) {
-  .hot-en { display: none; }
-  .hot-item { padding: 10px 12px; gap: 6px; }
-}
 
 @media (max-width: 480px) {
   .hot-en { display: none; }
