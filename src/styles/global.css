@@ -576,15 +576,16 @@ img { max-width: 100%; }
   flex-wrap: wrap;
   margin-bottom: 28px;
   text-align: left;
+  align-items: flex-start;
 }
 
 .footer-col-title {
   font-weight: 700;
   color: var(--text);
-  font-size: 13px;
+  font-size: 11px;
   margin-bottom: 10px;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 
 .footer-col-links {
@@ -598,6 +599,7 @@ img { max-width: 100%; }
   border-top: 1px solid var(--border-subtle);
   color: var(--text-muted);
   font-size: 12px;
+  text-align: center;
 }
 
 /* ─── Responsive ─────────────────────────────────────────────── */
