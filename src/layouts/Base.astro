@@ -107,25 +107,26 @@ const fullTitle = `${title} | CNMemes`;
   <footer class="site-footer">
     <div class="container">
       <div class="footer-links">
-        <div>
-          <div class="footer-col-title">Browse by Year</div>
-          <div class="footer-col-links">
-            {[2026,2025,2024,2023,2022,2021,2020,2019,2018,2017,2016,2015].map(y => (
-              <a href={`/year/${y}`}>{y}</a>
-            ))}
-          </div>
-        </div>
-        <div>
+        <div style="flex:2;min-width:260px;">
           <div class="footer-col-title">Browse by Topic</div>
           <div class="footer-col-links">
-            {['workplace','Gen-Z','social-commentary','lifestyle','economy','gaming'].map(t => (
-              <a href={`/tag/${t}`}>{t}</a>
-            ))}
+            <a href="/tag/workplace">Workplace</a>
+            <a href="/tag/burnout">Burnout</a>
+            <a href="/tag/romance">Romance</a>
+            <a href="/tag/identity">Identity</a>
+            <a href="/tag/fandom">Fandom</a>
+            <a href="/tag/consumerism">Consumerism</a>
+            <a href="/tag/technology">Technology</a>
+            <a href="/tag/gaming">Gaming</a>
+            <a href="/tag/education">Education</a>
+            <a href="/tag/politics">Politics</a>
+            <a href="/tag/humor">Humor</a>
+            <a href="/tag/internet-culture">Internet Culture</a>
           </div>
         </div>
         <div>
           <div class="footer-col-title">Pages</div>
-          <div class="footer-col-links" style="flex-direction:column;gap:6px;">
+          <div class="footer-col-links">
             <a href="/">Home</a>
             <a href="/top-memes">Top Memes</a>
             <a href="/about">About</a>
