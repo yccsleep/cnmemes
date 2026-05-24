@@ -13,6 +13,12 @@ const byYear = topMemes.reduce((acc, m) => {
   return acc;
 }, {} as Record<number, typeof topMemes>);
 
+// Sort within each year: still popular first, then classic, then fading
+const statusOrder: Record<string, number> = { 'still popular': 0, 'classic': 1, 'fading': 2 };
+Object.keys(byYear).forEach(y => {
+  byYear[Number(y)].sort((a, b) => (statusOrder[a.status] ?? 1) - (statusOrder[b.status] ?? 1));
+});
+
 const years = Object.keys(byYear).map(Number).sort((a, b) => b - a);
 const examples = topMemes.slice(0, 5).map(m => m.english_name).join(', ');
 

@@ -5,15 +5,8 @@ import memes from '../data/memes.json';
 const totalCount = memes.length;
 const minYear = Math.min(...memes.map(m => m.year));
 const maxYear = Math.max(...memes.map(m => m.year));
-const yearRange = `${minYear}–${maxYear}`;
 const fiveStarCount = memes.filter(m => m.popularity === 5).length;
 const stillPopular = memes.filter(m => m.status === 'still popular').length;
-
-const tagCounts = memes.reduce((acc, m) => {
-  m.tags.forEach(t => { acc[t] = (acc[t] || 0) + 1; });
-  return acc;
-}, {} as Record<string, number>);
-const topTag = Object.entries(tagCounts).sort((a,b) => b[1]-a[1])[0];
 ---
 
 <Base title="About CNMemes — Chinese Meme Dictionary for English Speakers" description="CNMemes is the most comprehensive English-language dictionary of Chinese internet memes. 500+ entries from 2000 to today, explained with cultural context.">
@@ -45,7 +38,7 @@ const topTag = Object.entries(tagCounts).sort((a,b) => b[1]-a[1])[0];
         <div class="stat-label">Total Memes</div>
       </div>
       <div class="stat-card">
-        <div class="stat-number">{yearRange}</div>
+        <div class="stat-number">2000–{maxYear}</div>
         <div class="stat-label">Years Covered</div>
       </div>
       <div class="stat-card">
@@ -61,7 +54,7 @@ const topTag = Object.entries(tagCounts).sort((a,b) => b[1]-a[1])[0];
     <div class="meme-section">
       <h2 class="section-title">What Is This?</h2>
       <p>
-        CNMemes is the most comprehensive English-language dictionary of Chinese internet memes and viral expressions. Covering memes from {yearRange} and updated monthly, each entry includes detailed explanations, cultural context, and real-world usage examples.
+        CNMemes is the most comprehensive English-language dictionary of Chinese internet memes and viral expressions. Covering memes from the early 2000s to today and updated monthly, each entry includes detailed explanations, cultural context, and real-world usage examples.
       </p>
     </div>
 

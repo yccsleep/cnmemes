@@ -19,12 +19,6 @@ const eraLabels: Record<number, string> = { 2004: '2000–2004', 2009: '2005–2
 const pageYear = getPageYear(meme.year);
 const yearLabel = eraLabels[pageYear] || String(meme.year);
 
-// Same-tag memes sorted by popularity for prev/next
-const sameTagAll = memes
-  .filter(m => m.slug !== meme.slug && m.tags.some(t => meme.tags.includes(t)))
-  .sort((a, b) => b.popularity - a.popularity || b.year - a.year);
-
-const currentIdx = sameTagAll.findIndex(m => m.slug === meme.slug);
 // prev/next among same-tag sorted by year desc then popularity
 const samePeriodMemes = memes
   .filter(m => m.slug !== meme.slug && m.tags.some(t => meme.tags.includes(t)))
@@ -77,14 +71,6 @@ if (meme.origin_story) {
   });
 }
 
-if (meme.image_description) {
-  faqItems.push({
-    "@type": "Question",
-    "name": `What does the ${meme.chinese_name} meme image look like?`,
-    "acceptedAnswer": { "@type": "Answer", "text": meme.image_description }
-  });
-}
-
 const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": faqItems };
 const definedTermSchema = {
   "@context": "https://schema.org",
@@ -125,16 +111,6 @@ const definedTermSchema = {
       <h2 class="section-title">What Does {meme.chinese_name} Mean?</h2>
       <p>{meme.english_explanation}</p>
     </div>
-
-    {meme.image_description && (
-      <div class="meme-section">
-        <h2 class="section-title">The Classic Image / Reaction Pic</h2>
-        <div class="image-desc-block">
-          <span class="image-desc-icon">🖼</span>
-          <p>{meme.image_description}</p>
-        </div>
-      </div>
-    )}
 
     {meme.origin_story && (
       <div class="meme-section">
