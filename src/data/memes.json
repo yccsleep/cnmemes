@@ -13243,5 +13243,599 @@
         "english": "This show is perfect as background content — you don't have to actually pay attention."
       }
     ]
+  },
+  {
+    "slug": "zuo-fu-wo-cheng",
+    "chinese_name": "做俯卧撑",
+    "pinyin": "zuò fǔ wò chēng",
+    "english_name": "Doing Push-Ups / Deflecting with Exercise",
+    "year": 2008,
+    "status": "classic",
+    "popularity": 4,
+    "tags": [
+      "politics",
+      "internet-culture",
+      "humor"
+    ],
+    "chinese_explanation": "源自2008年一起牢房死亡事件，官方称死者是在玩捉迷藏时撞墙而死，网友讽刺改为「做俯卧撑时死亡」，后成为回避责任、敷衍解释的代名词。",
+    "english_explanation": "In 2008, a man died in police custody in Yunnan province. Officials claimed he died while playing hide-and-seek. Internet users mocked this absurd explanation by inventing increasingly ridiculous alternatives — the most popular being 'he died doing push-ups.' The phrase became a template for any official explanation so implausible it insults your intelligence. When authorities offer an explanation that defies belief, you say they're 'doing push-ups again.'",
+    "cultural_context": "This meme was one of Chinese internet's earliest and most powerful tools for political satire. It showed how humor could circumvent censorship — you couldn't directly criticize the official account, but you could parody it. The push-up explanation spread globally and became a landmark moment in Chinese internet political discourse.",
+    "origin_story": "The 2008 Yunnan custody death case where officials claimed a prisoner died playing hide-and-seek (躲猫猫) became a national scandal not because of the death itself, but because of the absurdity of the explanation. Internet users crowdsourced parody explanations, with 'doing push-ups' becoming the most iconic. The incident forced the government to acknowledge internet public opinion as a political force.",
+    "similar_expressions": "Like 'he fell down the stairs' as a cover story, or any official explanation so implausible it becomes a joke. The push-up metaphor implies frantic, desperate activity that accomplishes nothing except making the person look guilty.",
+    "examples": [
+      {
+        "chinese": "又出事了，官方说在做俯卧撑，大家懂的。",
+        "english": "Something happened again — the official story is 'doing push-ups.' You know what that means."
+      },
+      {
+        "chinese": "这种解释跟做俯卧撑有什么区别？",
+        "english": "How is this explanation any different from 'doing push-ups'?"
+      }
+    ]
+  },
+  {
+    "slug": "duo-mao-mao",
+    "chinese_name": "躲猫猫",
+    "pinyin": "duǒ māo māo",
+    "english_name": "Playing Hide-and-Seek / Official Excuse for Suspicious Deaths",
+    "year": 2009,
+    "status": "classic",
+    "popularity": 4,
+    "tags": [
+      "politics",
+      "internet-culture",
+      "humor"
+    ],
+    "chinese_explanation": "2009年云南看守所死亡事件，官方称死者在玩捉迷藏时撞墙死亡，此后成为荒诞官方解释的代名词。",
+    "english_explanation": "In early 2009, a man died in a Yunnan detention center. Officials stated he died while playing hide-and-seek (躲猫猫) with other inmates and accidentally hit his head on a wall. The explanation was so absurd that it became a national meme overnight. 'Hide-and-seek' became shorthand for any suspicious death in custody given an implausible official explanation — a dark, bitter joke about accountability.",
+    "cultural_context": "The 躲猫猫 incident was a watershed in Chinese internet history. Authorities responded to public mockery by inviting internet users to form a 'citizen investigation team' — the first time the government formally acknowledged netizen power. The meme showed that humor could be more politically powerful than direct protest.",
+    "origin_story": "The case broke in February 2009 when Li Qiaoming's family received his body after he died in custody. Prison officials' explanation that he died playing hide-and-seek was immediately disbelieved. The resulting online storm forced an independent investigation, which found the real cause was beatings by other inmates — confirming what everyone suspected.",
+    "similar_expressions": "Similar to 'fell down the stairs' or 'suicide by cop' as skeptical shorthand for suspicious official narratives. The children's game metaphor makes the irony especially bitter.",
+    "examples": [
+      {
+        "chinese": "又一个在看守所里「躲猫猫」了。",
+        "english": "Another one 'playing hide-and-seek' in a detention center."
+      },
+      {
+        "chinese": "这个解释堪比躲猫猫，没人会信的。",
+        "english": "This explanation is on par with hide-and-seek — nobody believes it."
+      }
+    ]
+  },
+  {
+    "slug": "cheng-hui-wan",
+    "chinese_name": "城会玩",
+    "pinyin": "chéng huì wán",
+    "english_name": "City People Sure Know How to Have Fun",
+    "year": 2012,
+    "status": "classic",
+    "popularity": 3,
+    "tags": [
+      "humor",
+      "social-commentary",
+      "identity"
+    ],
+    "chinese_explanation": "城里人真会玩，对城市人奇葩行为的嘲讽或惊叹，表达对某些怪异潮流的困惑与不理解。",
+    "english_explanation": "Short for 城里人真会玩 (city people really know how to have fun). Used ironically when urban trends or behaviors seem bizarre, excessive, or inexplicable to outsiders. When a weird food trend, a strange fashion, or an absurd social media challenge goes viral, the rural or 'common sense' perspective responds: '城会玩.' It's mock-admiration — simultaneously impressed and baffled by the creativity of weirdness.",
+    "cultural_context": "Reflects China's urban-rural divide and the bemusement that often crosses between them. As cities developed increasingly niche subcultures, behaviors that seemed normal in Shanghai or Beijing appeared alien to the rest of the country. The phrase flipped the usual hierarchy — instead of city = sophisticated, city = confusingly weird.",
+    "similar_expressions": "Like 'must be a city thing,' 'rich people problems,' or the rural outsider's bemused 'I don't get it but okay.' The mock-admiration tone distinguishes it from straightforward criticism.",
+    "examples": [
+      {
+        "chinese": "花五百块买一杯咖啡？城会玩。",
+        "english": "Five hundred yuan for a coffee? City people sure know how to have fun."
+      },
+      {
+        "chinese": "看到这个操作，只能说城会玩了。",
+        "english": "Seeing this move — all I can say is, city people sure know how to play."
+      }
+    ]
+  },
+  {
+    "slug": "sha-diao",
+    "chinese_name": "沙雕",
+    "pinyin": "shā diāo",
+    "english_name": "Sand Sculpture / Dumb but Adorable",
+    "year": 2016,
+    "status": "still popular",
+    "popularity": 5,
+    "tags": [
+      "humor",
+      "self-deprecation",
+      "Gen-Z"
+    ],
+    "chinese_explanation": "傻X的谐音替代，字面意思是沙雕（沙子雕塑），形容某人或某事愚蠢可爱，语气比傻X温和，带有喜爱意味。",
+    "english_explanation": "A phonetic pun on a crude insult (沙雕 sounds like a profanity), meaning sand sculpture. Used to describe someone or something that is endearingly stupid — not maliciously dumb, but charmingly, goofily dumb. '你真沙雕' can be affectionate. 'This video is so 沙雕' means it's absurdly funny. It's the soft version of calling someone an idiot, with the sting removed and replaced with fondness.",
+    "cultural_context": "沙雕 became the preferred term for a whole genre of Chinese internet humor — absurdist, self-aware, deliberately silly content. Bilibili's 沙雕视频 (sand sculpture videos) are a recognized category: compilation videos of ridiculously funny moments, intentionally low-quality edits, and surreal comedy. The term humanized stupidity into something lovable.",
+    "origin_story": "The phonetic substitution allowed content to pass filters that blocked the original profanity. But unlike many filter-evasion words, 沙雕 took on its own distinct meaning — the sand sculpture image added a specific visual quality (intricate, effortful, ultimately ridiculous) that the original word lacked.",
+    "similar_expressions": "Like 'dumpus,' 'silly goose,' 'absolute clown,' or 'what a dingus' — insults that are actually affectionate. The sand sculpture metaphor implies something elaborate and impressive in its stupidity.",
+    "examples": [
+      {
+        "chinese": "这个视频太沙雕了，笑死我了。",
+        "english": "This video is so absurdly funny — I'm dead."
+      },
+      {
+        "chinese": "你真是个沙雕，但我喜欢你。",
+        "english": "You're such a dummy, but I like you."
+      }
+    ]
+  },
+  {
+    "slug": "pan-ta",
+    "chinese_name": "盘它",
+    "pinyin": "pán tā",
+    "english_name": "Work It / Handle It / Let's Do This",
+    "year": 2018,
+    "status": "classic",
+    "popularity": 4,
+    "tags": [
+      "lifestyle",
+      "internet-culture",
+      "humor"
+    ],
+    "chinese_explanation": "原指盘玩文玩核桃等收藏品，后引申为把玩、处理、搞定某事，也有上手试试的意思。",
+    "english_explanation": "Originally from the hobby of 盘玩 — slowly turning and polishing collectibles like walnuts or jade in your hand to develop their patina over time. The meditative, hands-on quality of 盘玩 transferred to mean: handle something, work it, mess around with it, give it a try. '盘它' can mean 'let's try this food,' 'I'll take care of this problem,' or 'watch me handle this situation.' The key quality is engaged, hands-on enjoyment.",
+    "cultural_context": "The collectibles hobby (文玩) that spawned this term is itself a fascinating cultural phenomenon — middle-aged Chinese men spending fortunes on walnuts, amber, and wooden beads to polish by hand. When young internet users borrowed 盘它, they brought ironic awareness of this older man hobby while genuinely adopting the energy of patient, engaged handling.",
+    "similar_expressions": "Like 'I got this,' 'let me work on it,' 'give it here,' or 'watch me.' The tactile quality — physical handling, turning something over — distinguishes it from more abstract 'I'll deal with it.'",
+    "examples": [
+      {
+        "chinese": "这道菜没见过，盘它！",
+        "english": "Never seen this dish before — let's try it!"
+      },
+      {
+        "chinese": "这个问题交给我，我来盘它。",
+        "english": "Give me this problem — I'll handle it."
+      }
+    ]
+  },
+  {
+    "slug": "wo-bu-yao-ni-jue-de",
+    "chinese_name": "我不要你觉得",
+    "pinyin": "wǒ bù yào nǐ jué de",
+    "english_name": "I Don't Want Your Opinion / I Want What I Want",
+    "year": 2019,
+    "status": "classic",
+    "popularity": 4,
+    "tags": [
+      "humor",
+      "social-commentary",
+      "romance"
+    ],
+    "chinese_explanation": "来自真人秀节目，导演回怼选手「我不要你觉得，我要我觉得」，成为强势表达个人意志、拒绝他人意见的梗。",
+    "english_explanation": "From a reality cooking show where director Sha Yi snapped at a contestant: 'I don't want what you think (我不要你觉得), I want what I think (我要我觉得).' The grammatically unusual construction — refusing the other person's feelings in favor of your own — became a template for anyone asserting their preferences against other people's opinions. Used both to describe controlling behavior and, ironically, to assert your own autonomy.",
+    "cultural_context": "The clip went viral because it captured something real about certain interpersonal dynamics — the person who asks for your opinion but has already decided, who wants validation not input. It became a way to call out or parody this behavior, and also a self-aware way to announce that you're making a decision regardless of what others think.",
+    "origin_story": "From the reality show '中餐厅' (Chinese Restaurant) Season 3 in 2019, where director Sha Yi (沙溢) dismissed a contestant's suggestion with this phrase. The moment was edited into a short clip that spread instantly.",
+    "similar_expressions": "Like 'I didn't ask for your opinion,' 'my way or the highway,' or 'I don't care what you think.' The specific doubled construction (I don't want your feelings, I want my feelings) has no clean English equivalent.",
+    "examples": [
+      {
+        "chinese": "我不要你觉得，我要我觉得，这件事我已经决定了。",
+        "english": "I don't want what you think — I want what I think. I've already decided."
+      },
+      {
+        "chinese": "他就是那种我不要你觉得的人，说什么都没用。",
+        "english": "He's exactly that 'I don't want your opinion' type — nothing you say matters."
+      }
+    ]
+  },
+  {
+    "slug": "zhen-xiang-ding-lv",
+    "chinese_name": "真香定律",
+    "pinyin": "zhēn xiāng dìng lǜ",
+    "english_name": "The True Fragrance Law / You'll Always Come Around",
+    "year": 2018,
+    "status": "classic",
+    "popularity": 4,
+    "tags": [
+      "humor",
+      "social-commentary",
+      "self-deprecation"
+    ],
+    "chinese_explanation": "源自真香梗，指人们总会对自己曾经否定的事物产生兴趣的普遍规律，是真香现象的总结性定律。",
+    "english_explanation": "The universal law derived from 真香: you will inevitably like the thing you said you'd never like. Stated formally as a law of human nature, it predicts with certainty that declared aversions will become attractions given enough time. '真香定律' is invoked prophetically ('the True Fragrance Law says you'll love this') or retrospectively ('and the True Fragrance Law strikes again'). It's both a joke about human inconsistency and a genuine psychological observation.",
+    "cultural_context": "The formalization of 真香 into a 定律 (law) reflects Chinese internet's love of systematizing humor — taking a joke and giving it the weight of natural law. The 真香定律 acknowledges that everyone has Wang Jingze moments, that declarations of 'never' are essentially promissory notes to your future self who will eat their words.",
+    "similar_expressions": "Like 'never say never,' 'you'll come around,' or 'give it time.' The 'law' framing elevates it from individual experience to universal principle — it's not that you specifically will change your mind, it's that this is how humans work.",
+    "examples": [
+      {
+        "chinese": "真香定律从不失效，你迟早会喜欢上的。",
+        "english": "The True Fragrance Law never fails — you'll like it eventually."
+      },
+      {
+        "chinese": "又一次印证了真香定律，上周说不喝奶茶，今天喝了三杯。",
+        "english": "The True Fragrance Law confirmed again — said no milk tea last week, had three cups today."
+      }
+    ]
+  },
+  {
+    "slug": "dai-jie-zou",
+    "chinese_name": "带节奏",
+    "pinyin": "dài jié zòu",
+    "english_name": "Setting the Rhythm / Manipulating the Narrative",
+    "year": 2017,
+    "status": "still popular",
+    "popularity": 4,
+    "tags": [
+      "internet-culture",
+      "politics",
+      "social-commentary"
+    ],
+    "chinese_explanation": "引导舆论走向，操控网络情绪，使讨论朝特定方向发展，可指恶意操纵也可指正当的话题引导。",
+    "english_explanation": "To set the rhythm — to deliberately steer public opinion, manipulate online emotions, or frame a narrative in a particular direction. A paid poster who floods comment sections with pro-government content is 带节奏. A celebrity PR team that redirects a scandal conversation is 带节奏. But so is a journalist whose framing guides readers to a conclusion. The term acknowledges that online discourse is rarely organic — someone is usually conducting the orchestra.",
+    "cultural_context": "带节奏 emerged as Chinese internet users became increasingly aware of coordinated influence operations — from government 五毛党 (fifty-cent party) to celebrity fan armies to corporate PR. The music metaphor (setting a rhythm, conducting) implies both skill and manipulation. Accusation of 带节奏 became a common way to delegitimize opposing views.",
+    "similar_expressions": "Like 'spinning,' 'setting the narrative,' 'astroturfing,' or 'manufacturing consent.' The rhythm metaphor captures the coordination aspect — it's not just propaganda, it's coordinated propaganda with timing.",
+    "examples": [
+      {
+        "chinese": "这条评论明显在带节奏，大家不要上当。",
+        "english": "This comment is obviously manipulating the narrative — don't fall for it."
+      },
+      {
+        "chinese": "他们家粉丝又在带节奏了，把黑料说成白的。",
+        "english": "Their fans are steering the narrative again — turning bad news into good."
+      }
+    ]
+  },
+  {
+    "slug": "an-li",
+    "chinese_name": "安利",
+    "pinyin": "ān lì",
+    "english_name": "To Recommend Enthusiastically / To Push Something on Someone",
+    "year": 2014,
+    "status": "still popular",
+    "popularity": 4,
+    "tags": [
+      "consumerism",
+      "fandom",
+      "internet-culture"
+    ],
+    "chinese_explanation": "来自安利（Amway）品牌，借指向他人热情推荐某事物，被安利即被种草，是网络推荐文化的核心动词。",
+    "english_explanation": "From Amway (安利 in Chinese) — the direct sales company famous for enthusiastic, persistent product recommendations from friends. The brand became a verb: to 安利 someone means to passionately recommend something to them — a show, a song, a restaurant, a product. Unlike the Western connotation of MLM pressure, Chinese 安利 is usually positive: fan communities 安利 their idols to newcomers, friends 安利 good restaurants, content creators 安利 products they genuinely love.",
+    "cultural_context": "The Amway-to-verb transformation happened as China's recommendation economy exploded. Where 种草 (planting grass) focuses on the receiver getting hooked, 安利 focuses on the recommender's enthusiastic push. The MLM origin adds a layer of self-awareness — the person doing 安利 often knows they sound like a salesperson and does it anyway.",
+    "similar_expressions": "Like 'to pitch,' 'to push,' 'to evangelize about,' or 'to rec.' The Amway origin is forgotten by most users — it functions purely as a recommendation verb.",
+    "examples": [
+      {
+        "chinese": "强烈安利这部剧，我看了三遍！",
+        "english": "Strongly recommending this drama — I've watched it three times!"
+      },
+      {
+        "chinese": "被朋友安利了一家餐厅，果然很好吃。",
+        "english": "A friend pushed this restaurant on me — turns out it's genuinely delicious."
+      }
+    ]
+  },
+  {
+    "slug": "da-call",
+    "chinese_name": "打call",
+    "pinyin": "dǎ call",
+    "english_name": "To Cheer For / Show Support",
+    "year": 2018,
+    "status": "still popular",
+    "popularity": 4,
+    "tags": [
+      "fandom",
+      "lifestyle",
+      "internet-culture"
+    ],
+    "chinese_explanation": "来自日本演唱会文化，粉丝在演唱会上大声呼喊配合节拍，后泛指为某人或某事积极支持、加油打气。",
+    "english_explanation": "From Japanese concert culture where fans shout specific calls and responses during performances. In China it escaped fan culture to mean actively cheering for, supporting, or endorsing anything. You can 打call for a friend's project, a restaurant you like, a policy you support, or a sports team. The concert origin gives it a communal, enthusiastic quality — 打call implies visible, vocal support, not just passive agreement.",
+    "cultural_context": "The journey from Japanese concert halls to Chinese everyday speech passed through idol fan culture and then exploded onto general social media. 打call became particularly common during the reality TV idol competition era (2018-2021) when voting and supporting idols was called 打call. It then broadened to any enthusiastic public support.",
+    "similar_expressions": "Like 'to root for,' 'to stan,' 'to give props to,' or 'to hype up.' More active and vocal than simply liking something — 打call implies you're actively making noise in someone's support.",
+    "examples": [
+      {
+        "chinese": "这个政策太好了，我要给它打call！",
+        "english": "This policy is great — I'm cheering for it!"
+      },
+      {
+        "chinese": "为我们的团队打call，加油！",
+        "english": "Cheering for our team — let's go!"
+      }
+    ]
+  },
+  {
+    "slug": "shen-xian-da-jia",
+    "chinese_name": "神仙打架",
+    "pinyin": "shén xiān dǎ jià",
+    "english_name": "Gods Fighting / Elite Showdown",
+    "year": 2018,
+    "status": "classic",
+    "popularity": 4,
+    "tags": [
+      "fandom",
+      "internet-culture",
+      "humor"
+    ],
+    "chinese_explanation": "形容高手之间的竞争或对决，旁观者只能仰望，也用于形容评论区或讨论中的高质量交锋。",
+    "english_explanation": "When gods fight, ordinary people can only watch in awe. Used when experts, masters, or exceptionally talented people compete or debate — the quality is so high that regular people can't participate, only witness. A chess tournament between grandmasters is 神仙打架. A comment section where two experts have an extremely high-level argument is 神仙打架. The gods metaphor implies the competition is on a plane above ordinary human capability.",
+    "cultural_context": "The phrase captures a specific kind of internet spectator experience — watching a debate or competition where you're not qualified to participate but can recognize the quality. It democratizes awe: you don't need to understand the specifics to appreciate that something exceptional is happening.",
+    "similar_expressions": "Like 'watching the gods play chess,' 'above my pay grade,' or 'this is beyond me.' The fight metaphor implies active competition, not just display — these are gods who are genuinely trying to defeat each other.",
+    "examples": [
+      {
+        "chinese": "这两个程序员的技术讨论，简直是神仙打架，我看不懂。",
+        "english": "This technical discussion between two programmers is a gods-level showdown — I can't follow it."
+      },
+      {
+        "chinese": "决赛这两个队，神仙打架，看得过瘾！",
+        "english": "These two teams in the final — gods fighting, absolutely thrilling to watch!"
+      }
+    ]
+  },
+  {
+    "slug": "ke-tang",
+    "chinese_name": "磕糖",
+    "pinyin": "kē táng",
+    "english_name": "Eating the Sugar / Consuming Romantic Content",
+    "year": 2019,
+    "status": "still popular",
+    "popularity": 4,
+    "tags": [
+      "fandom",
+      "romance",
+      "internet-culture"
+    ],
+    "chinese_explanation": "粉丝享用偶像CP或情侣的甜蜜互动内容，糖指甜蜜内容，磕指享用、啃食，是饭圈核心行为之一。",
+    "english_explanation": "The act of consuming sweet romantic content — shipping two celebrities (real or fictional), savoring their interactions, and getting a sugar rush from their chemistry. 糖 (sugar) is the sweet content: a glance between costars, a moment of physical proximity, a fan-compiled video of two people who should be together. 磕 means to knock/nibble at — you're cracking open the sugar and eating it. The whole practice is 磕糖.",
+    "cultural_context": "磕糖culture is central to Chinese fan communities. It's distinct from Western shipping in its formalization — there are 磕糖 specialists who compile evidence, 磕糖 accounts dedicated to specific pairings, and 磕糖 content as a recognized genre. The sugar metaphor emphasizes the physical pleasure-like quality of consuming this content: sweet, slightly guilty, addictive.",
+    "similar_expressions": "Like 'shipping,' 'getting the feels from,' or 'living for their interactions.' The sugar/eating metaphor is more visceral than English shipping — it implies actual consumption and pleasure, not just abstract hope.",
+    "examples": [
+      {
+        "chinese": "今天又磕到糖了，这两个人真的太甜了！",
+        "english": "Got my sugar hit today — these two are so sweet together!"
+      },
+      {
+        "chinese": "我磕这对CP磕了三年，终于官宣了！",
+        "english": "I've been shipping this CP for three years — they finally went official!"
+      }
+    ]
+  },
+  {
+    "slug": "cp",
+    "chinese_name": "CP",
+    "pinyin": "CP",
+    "english_name": "Couple Pairing / Shipped Relationship",
+    "year": 2013,
+    "status": "still popular",
+    "popularity": 5,
+    "tags": [
+      "fandom",
+      "romance",
+      "internet-culture"
+    ],
+    "chinese_explanation": "Coupling的缩写，指两个人（真实或虚构）的配对关系，是粉丝将两人想象成情侣的行为和对象。",
+    "english_explanation": "From 'coupling' — a pairing of two people (real celebrities, fictional characters, or even streamer-viewer combinations) that fans imagine as a romantic couple. CP culture in China is enormous: fans compile evidence of interactions, create fan fiction, purchase merchandise of their OTP, and invest emotionally in whether their CP will 'go official' (官宣). A well-matched CP generates constant content for their fan communities.",
+    "cultural_context": "Chinese CP culture is more organized and commercially significant than Western shipping. Entertainment companies actively cultivate CP relationships between their artists because the fan engagement drives enormous revenue. Some celebrity friendships are maintained for years specifically to feed the CP economy. The blur between authentic connection and commercially managed parasocial product is deeply embedded in Chinese entertainment.",
+    "origin_story": "Borrowed from Japanese 'coupling' terminology in anime/manga fan culture, which itself came from English. Entered Chinese internet through anime fan communities and then exploded when applied to real celebrities during idol drama era.",
+    "similar_expressions": "Like 'ship,' 'OTP' (one true pairing), or 'couple goals.' Chinese CP culture is more institutionalized than Western shipping — with dedicated fan communities, management company support, and commercial products.",
+    "examples": [
+      {
+        "chinese": "你磕哪对CP？我最近在磕XX和YY。",
+        "english": "Which CP are you shipping? I've been into XX and YY lately."
+      },
+      {
+        "chinese": "这对CP的互动太甜了，官宣是早晚的事。",
+        "english": "This CP's interactions are so sweet — going official is just a matter of time."
+      }
+    ]
+  },
+  {
+    "slug": "bao-gan",
+    "chinese_name": "爆肝",
+    "pinyin": "bào gān",
+    "english_name": "Exploding Liver / Grinding to Exhaustion",
+    "year": 2015,
+    "status": "still popular",
+    "popularity": 4,
+    "tags": [
+      "gaming",
+      "workplace",
+      "burnout"
+    ],
+    "chinese_explanation": "原为游戏术语，指长时间高强度游戏到肝脏爆炸，后泛指任何熬夜拼命工作或学习到极度疲惫的状态。",
+    "english_explanation": "Literally 'explode the liver' — gaming slang for grinding so hard that your liver metaphorically explodes from the effort. The liver reference comes from Traditional Chinese Medicine, where the liver is associated with staying up late and overexertion. 爆肝 describes any marathon session of intensive work: gaming all night for an event, cramming for exams until dawn, working overtime for a deadline. The physical organ reference makes exhaustion visceral and dramatic.",
+    "cultural_context": "Started in gaming communities where players would 爆肝 (grind intensively) for limited-time events or to level up quickly. As gaming culture merged with 996 work culture discourse, 爆肝 transferred to describe any form of unsustainable intensive effort. It's now used across contexts — 爆肝学习 (grinding at studying), 爆肝加班 (overtime to exhaustion).",
+    "similar_expressions": "Like 'grinding,' 'going hard,' 'burning the midnight oil,' or 'pulling an all-nighter.' The liver exploding metaphor is more visceral than English equivalents — it implies physical damage from overexertion.",
+    "examples": [
+      {
+        "chinese": "期末周爆肝三天，终于把论文写完了。",
+        "english": "Exploded my liver for three days during finals week — finally finished the thesis."
+      },
+      {
+        "chinese": "为了赶这个活动，玩家们纷纷爆肝。",
+        "english": "Players went into liver-exploding mode to grind this event."
+      }
+    ]
+  },
+  {
+    "slug": "ge-le",
+    "chinese_name": "鸽了",
+    "pinyin": "gē le",
+    "english_name": "Ghosted / Bailed / Stood Someone Up",
+    "year": 2017,
+    "status": "still popular",
+    "popularity": 5,
+    "tags": [
+      "romance",
+      "lifestyle",
+      "internet-culture"
+    ],
+    "chinese_explanation": "放鸽子的口语简称，指爽约、失信、没有按约定行事，也指开发者跳票（游戏/产品延期）。",
+    "english_explanation": "From 放鸽子 (release a pigeon/dove) — the Chinese equivalent of standing someone up. '鸽了' means you bailed, ghosted, didn't show up, or failed to deliver what you promised. It applies to social plans ('I鸽了, sorry'), gaming commitments ('that streamer鸽了 again'), and development promises ('the game has been鸽ing for three years'). The pigeon metaphor is perfect: you released a bird that flew away and never came back.",
+    "cultural_context": "鸽了 and its culture reflect something real about Chinese social commitments — plans are often tentative, and 鸽ing is common enough that it has robust vocabulary. Gaming culture made it particularly visible: developers who missed release dates were accused of 鸽ing, and the word became standard in gaming communities before spreading everywhere.",
+    "similar_expressions": "Like 'ghosted,' 'bailed,' 'flaked,' 'stood up,' or 'no-showed.' The pigeon metaphor (releasing and never returning) is more poetic than English equivalents.",
+    "examples": [
+      {
+        "chinese": "他又鸽了，说好七点见面，到现在人影都没有。",
+        "english": "He bailed again — said we'd meet at seven, not a trace of him."
+      },
+      {
+        "chinese": "这款游戏又跳票了，开发商鸽玩家已经三次了。",
+        "english": "The game got delayed again — developers have bailed on players three times now."
+      }
+    ]
+  },
+  {
+    "slug": "po-tian-de-fu-gui",
+    "chinese_name": "泼天的富贵",
+    "pinyin": "pō tiān de fù guì",
+    "english_name": "A Fortune Raining From the Sky / Sudden Massive Opportunity",
+    "year": 2024,
+    "status": "still popular",
+    "popularity": 4,
+    "tags": [
+      "consumerism",
+      "internet-culture",
+      "social-commentary"
+    ],
+    "chinese_explanation": "突然降临的巨大机遇或流量，尤指某城市或品牌因偶然事件突然爆火，能否接住这泼天富贵成为关键。",
+    "english_explanation": "A fortune so large it's pouring from the sky like a flood — describing sudden, massive opportunities that fall on businesses, cities, or individuals due to viral moments. When Harbin went viral, people asked whether it could '接住这泼天的富贵' (catch this fortune raining from heaven). The phrase highlights both the opportunity and the challenge: this kind of luck is rare and overwhelming, and whether you can handle it determines everything.",
+    "cultural_context": "Went viral in 2024 alongside Harbin's tourism explosion and Tianshui's malatang phenomenon. Chinese social media had become powerful enough to create overnight economic windfalls for unprepared cities and businesses. 泼天的富贵 captured both the excitement of these moments and the pressure — you can't control when fortune pours down, only whether you're ready to catch it.",
+    "similar_expressions": "Like 'windfall,' 'striking gold,' 'overnight success,' or 'viral lottery.' The pouring/flooding metaphor implies both abundance and overwhelming force — you can be drowned by fortune as easily as enriched by it.",
+    "examples": [
+      {
+        "chinese": "哈尔滨接住了泼天的富贵，成了今年最火的旅游城市。",
+        "english": "Harbin caught its fortune raining from the sky — became this year's hottest tourist city."
+      },
+      {
+        "chinese": "这个品牌突然爆火，不知道能不能接住这泼天的富贵。",
+        "english": "This brand suddenly went viral — wonder if they can handle the fortune pouring down on them."
+      }
+    ]
+  },
+  {
+    "slug": "ting-quan",
+    "chinese_name": "听劝",
+    "pinyin": "tīng quàn",
+    "english_name": "Taking Advice / Being Open to Persuasion",
+    "year": 2024,
+    "status": "still popular",
+    "popularity": 4,
+    "tags": [
+      "lifestyle",
+      "internet-culture",
+      "social-commentary"
+    ],
+    "chinese_explanation": "愿意听取他人的建议并改变，与不听劝相对，因某明星听取粉丝建议改变造型后爆火，成为年度热词。",
+    "english_explanation": "Being willing to take advice and actually act on it. Went viral when a celebrity visibly changed their look after fans suggested it — and looked dramatically better. The contrast between 听劝 (taking advice, open to change) and 不听劝 (stubborn, knows best) became a personality typology. 听劝 implies genuine receptivity: you didn't just hear the advice, you incorporated it. It became aspirational — being 听劝 means having the self-awareness to improve.",
+    "cultural_context": "In a social media environment where everyone gives unsolicited advice constantly, 听劝 acknowledges that sometimes the crowd is right. The celebrity origin gave it a specific aesthetic dimension — taking style advice and visibly transforming. Extended to life decisions, career choices, and relationship behavior.",
+    "similar_expressions": "Like 'taking the note,' 'being coachable,' 'receptive to feedback,' or 'actually listening.' The opposite (不听劝) is equally important — the stubborn person who ignores good advice.",
+    "examples": [
+      {
+        "chinese": "换了发型之后好看多了，听劝是对的。",
+        "english": "The new hairstyle looks so much better — taking the advice was the right call."
+      },
+      {
+        "chinese": "你就是不听劝，早说了那条路堵，你偏不走高速。",
+        "english": "You never take advice — told you that road would be jammed, but you refused to take the highway."
+      }
+    ]
+  },
+  {
+    "slug": "chao-zuo-ye",
+    "chinese_name": "抄作业",
+    "pinyin": "chāo zuò yè",
+    "english_name": "Copying Homework / Following Someone's Playbook",
+    "year": 2020,
+    "status": "still popular",
+    "popularity": 4,
+    "tags": [
+      "internet-culture",
+      "politics",
+      "social-commentary"
+    ],
+    "chinese_explanation": "照搬他人的成功经验或做法，可指良性学习借鉴，也可指政策抄袭或投机取巧，语境不同含义不同。",
+    "english_explanation": "Copying someone's homework — taking their solution and using it yourself. Used at every scale: a student literally copying classwork, a city copying another city's successful tourism strategy, a country copying another country's policy, a startup copying a successful business model. The homework metaphor implies both the pragmatism of learning from others and the laziness of not doing your own work. Context determines whether it's clever or embarrassing.",
+    "cultural_context": "Particularly prominent in discussions of international policy and business strategy. When China's urban policies succeed, other cities 抄作业. When Western countries want to implement similar pandemic measures, they're 抄作业 from China. The phrase is value-neutral — whether copying homework is smart efficiency or intellectual theft depends entirely on who's doing it and who's watching.",
+    "similar_expressions": "Like 'following their playbook,' 'taking a page from their book,' 'copying their model,' or 'borrowing their blueprint.' The schoolwork metaphor implies both the appropriateness and the slightly embarrassing nature of the copying.",
+    "examples": [
+      {
+        "chinese": "哈尔滨成功之后，很多城市开始抄作业，搞文旅活动。",
+        "english": "After Harbin's success, many cities started copying the homework — launching tourism and culture campaigns."
+      },
+      {
+        "chinese": "这个商业模式不是创新，就是在抄作业。",
+        "english": "This business model isn't innovation — it's just copying homework."
+      }
+    ]
+  },
+  {
+    "slug": "zhu-da-yi-ge",
+    "chinese_name": "主打一个",
+    "pinyin": "zhǔ dǎ yī gè",
+    "english_name": "The Main Thing Is / Leading With",
+    "year": 2023,
+    "status": "still popular",
+    "popularity": 5,
+    "tags": [
+      "internet-culture",
+      "Gen-Z",
+      "lifestyle"
+    ],
+    "chinese_explanation": "主要特点是某一个方面，句式梗，后接特质或状态，用于定义某人或某事的核心特征，极高频。",
+    "english_explanation": "A sentence structure meaning 'the main thing is [X]' or 'leading with [X].' Exploded across Chinese social media as a template for describing the defining quality of anything: 主打一个不在乎 (leading with not caring), 主打一个真实 (the main thing is being real), 主打一个随缘 (going with the flow is the vibe). It's both a description and a statement of intent — this is the energy I'm bringing.",
+    "cultural_context": "The phrase's explosion reflected a trend of self-definition through single-quality declarations. Rather than complex self-descriptions, Gen Z distilled their identity or mood into one concept led by 主打. It became a way to announce your current life philosophy, aesthetic, or emotional state in three characters.",
+    "similar_expressions": "Like 'it's giving [X],' 'the vibe is [X],' 'leading with [X],' or 'my whole thing is [X].' The single-quality focus mirrors English 'it's giving' energy — reducing complexity to one defining characteristic.",
+    "examples": [
+      {
+        "chinese": "今天主打一个不在乎，什么都无所谓。",
+        "english": "Today's main energy is not caring — nothing matters."
+      },
+      {
+        "chinese": "她主打一个神秘感，从不解释自己的行为。",
+        "english": "Her whole thing is mystery — never explains herself."
+      }
+    ]
+  },
+  {
+    "slug": "yao-yao-ling-xian",
+    "chinese_name": "遥遥领先",
+    "pinyin": "yáo yáo lǐng xiān",
+    "english_name": "Far and Away the Leader / Humorously Overstated Superiority",
+    "year": 2023,
+    "status": "still popular",
+    "popularity": 5,
+    "tags": [
+      "technology",
+      "humor",
+      "social-commentary"
+    ],
+    "chinese_explanation": "华为余承东在产品发布会上频繁使用的词，成为对过度自信声明的讽刺梗，也被用于调侃任何夸张的自吹自擂。",
+    "english_explanation": "Literally 'far and away leading.' Huawei executive Yu Chengdong (余承东, nicknamed 'Yu the Great') used this phrase repeatedly at product launches to describe Huawei's supposed superiority. The repetition became a meme — any time someone makes an extravagant claim of superiority, you apply '遥遥领先.' Used both to mock Huawei's marketing language and as a general template for anyone claiming to be obviously, incomparably the best at anything.",
+    "cultural_context": "The meme captured something real about Chinese tech nationalism and corporate boosterism. Yu Chengdong's declarations of Huawei superiority — often disputed by benchmarks — became a symbol of confidence untethered from evidence. The phrase spread to mock any gap between claimed and actual performance.",
+    "origin_story": "Yu Chengdong used 遥遥领先 so frequently at Huawei product events that clips went viral in 2023. The phrase became inseparable from him — he was nicknamed '余大嘴' (Big Mouth Yu) — and then escaped Huawei entirely to describe any overconfident claim.",
+    "similar_expressions": "Like 'miles ahead,' 'no contest,' or 'easily the best' — but with the ironic awareness that such claims are usually marketing. Similar to how 'world-class' or 'industry-leading' became ironic in English corporate contexts.",
+    "examples": [
+      {
+        "chinese": "我做的饭，遥遥领先！",
+        "english": "My cooking? Far and away the best — no contest!"
+      },
+      {
+        "chinese": "他们的产品还没到货，就已经说自己遥遥领先了。",
+        "english": "Their product hasn't even shipped and they're already claiming to be far and away the leader."
+      }
+    ]
+  },
+  {
+    "slug": "cao-tai-ban-zi",
+    "chinese_name": "草台班子",
+    "pinyin": "cǎo tái bān zi",
+    "english_name": "Makeshift Troupe / Amateur-Hour Operation",
+    "year": 2022,
+    "status": "still popular",
+    "popularity": 5,
+    "tags": [
+      "workplace",
+      "social-commentary",
+      "humor"
+    ],
+    "chinese_explanation": "形容不专业、临时凑合的团队或组织，原指在草地上搭台演出的简陋戏班，现泛指各种混乱不堪的团队，包括正规机构。",
+    "english_explanation": "Literally a 'grass-stage troupe' — traveling opera companies that performed on makeshift stages in fields, the bottom rung of traditional theater. Extended to describe any operation that looks organized from the outside but is actually improvised chaos inside. The revelation is always the same: that company/government/institution/sports team you thought was professional? 草台班子. Everyone is just figuring it out as they go.",
+    "cultural_context": "Exploded in 2022-2024 as a way to express disillusionment with institutions. The specific insight 草台班子 captures: not just that organizations are incompetent, but that there's no wizard behind the curtain — no master plan, no adults in charge, just people winging it. This was particularly resonant during COVID management and corporate scandals.",
+    "similar_expressions": "Like 'fly-by-night operation,' 'rinky-dink outfit,' 'amateur hour,' or 'the left hand doesn't know what the right hand is doing.' The theater metaphor (makeshift stage, traveling players) implies performance without substance.",
+    "examples": [
+      {
+        "chinese": "进公司才发现是个草台班子，什么流程都没有。",
+        "english": "Joined the company only to discover it's amateur hour — no processes at all."
+      },
+      {
+        "chinese": "看他们的处理方式，完全是草台班子的水平。",
+        "english": "Looking at how they handled it — total amateur-hour operation."
+      }
+    ]
   }
 ]
