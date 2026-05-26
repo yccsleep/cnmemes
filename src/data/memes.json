@@ -1254,31 +1254,6 @@
     "similar_expressions": "Directly equivalent to 'meme' or 'reaction image' in English. China's meme ecosystem is parallel to but largely separate from Western internet culture."
   },
   {
-    "slug": "lao-siji-dai-dai-wo",
-    "chinese_name": "老司机带带我",
-    "pinyin": "lǎo sījī dài dài wǒ",
-    "english_name": "Carry Me, Old Driver",
-    "year": 2016,
-    "status": "classic",
-    "tags": [
-      "romance"
-    ],
-    "chinese_explanation": "以\"老司机\"比喻经验丰富的前辈，请求带领新手进入某个领域，多含调侃意味。",
-    "english_explanation": "Literally 'Old Driver, take me along,' this phrase playfully begs a seasoned veteran to show a newbie the ropes. 'Old Driver' (老司机) started as slang for someone with suspiciously extensive knowledge of adult or risqué content online, implying they've been around the block — many, many times. Over time it expanded to mean any experienced expert. Saying 'carry me, Old Driver' is a self-deprecating admission that you're clueless and need a guide, delivered with a wink.",
-    "cultural_context": "Emerging around 2015 on Chinese platforms like Bilibili and Weibo, the meme thrived during a period of rapid internet growth when younger users were navigating everything from gaming meta to workplace politics to dating apps. The 'driver' metaphor resonated because it captured both admiration for expertise and a cheeky acknowledgment that said expertise might be of the morally questionable variety.",
-    "examples": [
-      {
-        "chinese": "我刚开始玩这个游戏，老司机带带我吧！",
-        "english": "I just started playing this game — Old Driver, please take me under your wing!"
-      },
-      {
-        "chinese": "第一次相亲，完全不知道怎么办，老司机带带我。",
-        "english": "It's my first blind date and I have absolutely no idea what I'm doing — Old Driver, show me the way."
-      }
-    ],
-    "popularity": 4
-  },
-  {
     "slug": "lao-siji",
     "chinese_name": "老司机",
     "pinyin": "lǎo sījī",
@@ -1545,31 +1520,6 @@
     "similar_expressions": "Like saying 'I quit' but make it poetry. Similar to 'wanderlust' or 'the world is your oyster' — but with the weight of quitting a stable job behind it."
   },
   {
-    "slug": "wo-de-neixin-jihu-shi-bengkui-de",
-    "chinese_name": "我的内心几乎是崩溃的",
-    "pinyin": "wǒ de nèixīn jīhū shì bēngkuì de",
-    "english_name": "I'm basically having an internal meltdown",
-    "year": 2015,
-    "status": "classic",
-    "tags": [
-      "workplace"
-    ],
-    "chinese_explanation": "表达内心压力极大却强撑表面平静，常用于自嘲或吐槽日常崩溃瞬间。",
-    "english_explanation": "Picture someone smiling through gritted teeth while everything inside them is quietly collapsing — that's this phrase in a nutshell. Originating from a viral interview clip where a migrant worker used oddly formal, composed language to describe his utterly devastating situation, it became the go-to expression for anyone holding it together on the outside while screaming internally. Think: your boss dumps a weekend project on you at 5pm Friday and you reply 'Sure, no problem!' — inside, you're basically having a breakdown.",
-    "cultural_context": "In 2015 China, rapid urbanization created a generation of workers navigating relentless pressure — long hours, high costs, and social expectations to appear unfazed. The original clip resonated because its speaker's calm, almost bureaucratic delivery while describing personal hardship perfectly mirrored the stoic mask millions wear daily. It gave people a funny, slightly literary way to voice exhaustion without full-on complaining.",
-    "examples": [
-      {
-        "chinese": "看到期末考试的题目，我的内心几乎是崩溃的。",
-        "english": "When I saw the final exam questions, I was basically having an internal meltdown."
-      },
-      {
-        "chinese": "老板让我周末加班，我笑着答应，但我的内心几乎是崩溃的。",
-        "english": "I smiled and agreed when my boss asked me to work the weekend, but inside I was basically falling apart."
-      }
-    ],
-    "popularity": 2
-  },
-  {
     "slug": "zhong-yao-de-shi-qing-shuo-san-bian",
     "chinese_name": "重要的事情说三遍",
     "pinyin": "zhòng yào de shì qíng shuō sān biàn",
@@ -1643,32 +1593,6 @@
       {
         "chinese": "这部电影的特效duang duang的，看得我眼睛都花了。",
         "english": "The special effects in this movie are pure duang — my eyes can't even handle it.chinese_name"
-      }
-    ],
-    "popularity": 4
-  },
-  {
-    "slug": "wang-jianlin-yi-ge-yi",
-    "chinese_name": "王健林一个亿",
-    "pinyin": "Wáng Jiànlín yī gè yì",
-    "english_name": "Wang Jianlin's 'Small Goal' of 100 Million",
-    "year": 2016,
-    "status": "classic",
-    "tags": [
-      "consumerism",
-      "workplace"
-    ],
-    "chinese_explanation": "王健林在采访中称\"先定一个能实现的小目标，比如先挣它一个亿\"，引发网友对贫富差距的调侃。",
-    "english_explanation": "In a 2016 TV interview, Chinese real estate billionaire Wang Jianlin casually advised young people to 'set a small, achievable goal first — like making 100 million yuan.' To him, pocket change; to everyone else, roughly $15 million USD. The clip went viral instantly as the perfect encapsulation of how the ultra-rich are living in a completely different reality. It's now shorthand for hilariously out-of-touch ambition or ironic self-mockery about modest personal goals.",
-    "cultural_context": "China's economic boom created extreme wealth inequality alongside a generation of young people struggling with high housing costs and stagnant wages. Wang Jianlin, founder of Wanda Group and once Asia's richest man, became an unwitting symbol of the chasm between the super-rich and ordinary citizens. His offhand remark crystallized widespread anxieties about class mobility and sparked national conversations about whether the Chinese Dream was equally accessible to all.",
-    "examples": [
-      {
-        "chinese": "我给自己定了个小目标，先把信用卡还清，毕竟不是每个人都能像王健林那样先挣它一个亿。",
-        "english": "I've set myself a small goal: pay off my credit card. Not everyone can be like Wang Jianlin and start with 100 million yuan."
-      },
-      {
-        "chinese": "老板说今年的目标很简单，我还以为是王健林附体呢。",
-        "english": "The boss said this year's target is 'simple' — for a second I thought Wang Jianlin had possessed him."
       }
     ],
     "popularity": 4
@@ -1962,31 +1886,6 @@
     "popularity": 4
   },
   {
-    "slug": "zha-xin-le-lao-tie",
-    "chinese_name": "扎心了老铁",
-    "pinyin": "zhā xīn le lǎo tiě",
-    "english_name": "That Hits Different, Bro / Right in the Feels, Mate",
-    "year": 2016,
-    "status": "classic",
-    "tags": [
-      "workplace"
-    ],
-    "chinese_explanation": "表达某件事让人内心受到强烈触动，常用于自嘲或感叹现实的无奈与心酸。",
-    "english_explanation": "Literally 'stabbed in the heart, old iron,' this phrase is the Chinese internet's go-to reaction when something cuts a little too close to home. 'Old iron' (老铁) is northeastern slang for a close buddy, giving the whole thing a bro-ish warmth. Think of it as saying 'oof, that hit hard, man' — equal parts pain, humor, and resigned acceptance of life's brutal truths. It flourished on live-streaming platforms like Kuaishou and became the battle cry of anyone nodding along to a meme that described their life a bit too accurately.",
-    "cultural_context": "The phrase rose alongside China's explosion of short-video and live-streaming platforms around 2016, particularly Kuaishou, which was popular among working-class youth in smaller cities. It resonated with a generation navigating economic pressure, competitive job markets, and social expectations, using humor and shared commiseration as a coping mechanism. The northeastern dialect flavor gave it an earthy, relatable authenticity that polished urban slang often lacked.",
-    "examples": [
-      {
-        "chinese": "又加班到深夜，扎心了老铁，生活不易啊。",
-        "english": "Another night of overtime until midnight — right in the feels, bro. Life isn't easy."
-      },
-      {
-        "chinese": "看到同龄人已经买房买车，扎心了老铁。",
-        "english": "Seeing people my age already owning houses and cars — that one stabs deep, man."
-      }
-    ],
-    "popularity": 4
-  },
-  {
     "slug": "zha-xin-le",
     "chinese_name": "扎心了",
     "pinyin": "zhā xīn le",
@@ -2192,58 +2091,6 @@
     "popularity": 3
   },
   {
-    "slug": "shao-yi-dian-tao-lu-duo-yi-dian-zhen-cheng",
-    "chinese_name": "少一点套路多一点真诚",
-    "pinyin": "shǎo yī diǎn tào lù, duō yī diǎn zhēn chéng",
-    "english_name": "Less scheming, more sincerity",
-    "year": 2016,
-    "status": "classic",
-    "tags": [
-      "romance",
-      "workplace"
-    ],
-    "chinese_explanation": "表达对真诚相待的渴望，厌倦虚伪套路和套话，希望人与人之间更直接真实。",
-    "english_explanation": "A weary plea for authenticity in a world full of scripted moves and calculated social performances. Think of it as the Chinese internet's way of saying 'just be real with me.' Born from frustration with rehearsed pickup lines, corporate double-speak, and hollow social niceties, this phrase became a rallying cry for anyone tired of feeling played. It's equal parts lament and gentle demand — stop gaming me, and just say what you mean.",
-    "cultural_context": "By 2016, Chinese social media was saturated with viral 'life hacks' for romance, networking, and negotiation — essentially scripts for manipulating outcomes. The phrase pushed back against this 'tào lù' (套路) culture, where every interaction felt engineered. It resonated especially with young urbanites exhausted by the performative nature of dating apps, workplace politics, and online influencer culture.",
-    "examples": [
-      {
-        "chinese": "现在的人啊，少一点套路，多一点真诚，难道不好吗？",
-        "english": "Is it really so hard for people these days to drop the act and just be genuine with each other?"
-      },
-      {
-        "chinese": "跟你谈了半天，希望你少一点套路，多一点真诚，我不想被当成傻瓜。",
-        "english": "After all this talking, I just want you to be straight with me — less games, more honesty. I'm not an idiot."
-      }
-    ],
-    "popularity": 4
-  },
-  {
-    "slug": "man-man-de-tao-lu",
-    "chinese_name": "满满的套路",
-    "pinyin": "mǎn mǎn de tào lù",
-    "english_name": "Full of tricks / So many plays",
-    "year": 2016,
-    "status": "classic",
-    "tags": [
-      "romance",
-      "workplace"
-    ],
-    "chinese_explanation": "形容某人或某事充满了精心设计的套路和手段，带有调侃或无奈的意味。",
-    "english_explanation": "A sardonic expression used when someone or something is absolutely dripping with calculated moves, hidden agendas, or rehearsed manipulation. Think of it as calling out the script behind the curtain — whether it's a charming suitor who seems too smooth, a boss whose 'favor' always comes with strings, or a marketing campaign that feels engineered to the last pixel. It's part eye-roll, part grudging admiration, and totally relatable.",
-    "cultural_context": "Emerging around 2016 amid China's booming social media and dating app culture, the phrase captured a generation's growing cynicism toward performative sincerity. As scripted reality shows, polished influencer personas, and corporate feel-good campaigns flooded feeds, Chinese netizens needed a shorthand for 'I see what you're doing there.' The term spread rapidly on Weibo and WeChat as a way to reclaim savviness.",
-    "examples": [
-      {
-        "chinese": "他送花、请吃饭、还帮我搬东西，满满的套路啊！",
-        "english": "He sent flowers, treated me to dinner, and even helped me move — that's a playbook full of moves right there!"
-      },
-      {
-        "chinese": "这广告看起来感人，其实满满的套路，就是为了卖东西。",
-        "english": "This ad looks touching, but it's just tricks all the way down — purely engineered to sell you something."
-      }
-    ],
-    "popularity": 4
-  },
-  {
     "slug": "tao-lu",
     "chinese_name": "套路",
     "pinyin": "tào lù",
@@ -2297,32 +2144,6 @@
     "popularity": 5,
     "origin_story": "In Chinese internet gaming culture, 666 (liù liù liù) became slang for 'awesome' or 'smooth' because the pronunciation flows effortlessly. Popularized through gaming streams where fans would flood the chat with 666 when a player did something impressive.",
     "similar_expressions": "Functions like 'GG,' 'insane,' or 'smooth' in English gaming culture. The triple repetition adds emphasis, similar to how English speakers might say 'so, so good.'"
-  },
-  {
-    "slug": "shuang-ji-liu-liu-liu",
-    "chinese_name": "双击666",
-    "pinyin": "shuāng jī liù liù liù",
-    "english_name": "Double-tap 666 / Double-tap for respect",
-    "year": 2016,
-    "status": "classic",
-    "tags": [
-      "fandom",
-      "gaming"
-    ],
-    "chinese_explanation": "源自直播平台，观众双击屏幕并打出\"666\"表示对主播操作或表演的极度赞叹与崇拜。",
-    "english_explanation": "Imagine the chat exploding with '666' every time a streamer pulls off something insane — that's the vibe. On Chinese live-streaming platforms like YY and Douyu, viewers double-tap the screen to trigger animations and spam '666' (liù liù liù), which sounds like a slang term for 'smooth' or 'slick.' Together, the gesture became the ultimate hype move: part standing ovation, part internet high-five, shouting 'you absolute legend' without typing a single real word.",
-    "cultural_context": "China's live-streaming industry exploded around 2015–2016, with platforms like Douyu, Huya, and YY attracting tens of millions of daily viewers. The number 6 in Chinese internet slang (溜, liū) means impressively skilled or smooth. Platforms gamified viewer interaction with tap-to-cheer mechanics, turning '双击666' into a reflex reaction for expressing awe, which quickly jumped from gaming streams into everyday social media and workplace chat culture.",
-    "examples": [
-      {
-        "chinese": "这个选手的操作也太骚了，双击666！",
-        "english": "That player's moves are insane — double-tap 666, absolute legend!"
-      },
-      {
-        "chinese": "老板今天给大家发奖金，双击666走起！",
-        "english": "The boss handed out bonuses today — double-tap 666, let's go!"
-      }
-    ],
-    "popularity": 4
   },
   {
     "slug": "lao-tie",
@@ -2461,31 +2282,6 @@
     "similar_expressions": "Like 'get you some' or 'respect' in English — equal parts genuine admiration and ironic hype. The '哥' (older brother/dude) adds casual intimacy to what could be formal praise."
   },
   {
-    "slug": "ge-you-tang",
-    "chinese_name": "葛优躺",
-    "pinyin": "Gě Yōu tǎng",
-    "english_name": "Ge You Slouch / The Ge You Flop",
-    "year": 2016,
-    "status": "classic",
-    "tags": [
-      "workplace"
-    ],
-    "chinese_explanation": "源自1993年情景喜剧《我爱我家》，葛优饰演的角色瘫坐沙发的画面成为网络上表达颓废、摆烂心态的经典表情包。",
-    "english_explanation": "Picture a man so thoroughly done with life that he's half-melted into a couch — that's the Ge You Slouch. It's a screenshot of actor Ge You playing a lazy freeloader in the 1993 sitcom 'I Love My Family,' repurposed by Chinese millennials in 2016 as the ultimate symbol of giving up, zoning out, and refusing to adult. Think of it as China's version of 'nope, not today' — expressed entirely through one man's boneless posture.",
-    "cultural_context": "The meme exploded in 2016 amid rising work pressure, soaring housing prices, and growing disillusionment among young urban Chinese. It gave a humorous face to the 'lying flat' sentiment years before 躺平 became a buzzword. The image resonated because it perfectly captured the exhausted resignation of a generation caught between sky-high expectations and limited social mobility.",
-    "examples": [
-      {
-        "chinese": "周一早上看到满屏的邮件，我整个人就葛优躺了。",
-        "english": "Seeing a inbox full of emails on Monday morning, I just completely flopped into the Ge You Slouch."
-      },
-      {
-        "chinese": "假期最后一天，什么都不想做，就想葛优躺一整天。",
-        "english": "On the last day of the holiday, I don't want to do anything — just lie there like Ge You all day long."
-      }
-    ],
-    "popularity": 4
-  },
-  {
     "slug": "xian-zheng-ta-yi-ge-yi",
     "chinese_name": "先挣它一个亿",
     "pinyin": "xiān zhèng tā yī gè yì",
@@ -2511,32 +2307,6 @@
     "popularity": 5,
     "origin_story": "Billionaire Wang Jianlin's 2016 advice to young entrepreneurs: 'Set a small goal first — for example, make 100 million yuan.' The phrase became the template for all absurdly humble claims about enormous amounts. The framing of 100 million as a 'small goal' captured China's wealth gap in one sentence.",
     "similar_expressions": "Like 'just casually make a billion' — ironic use of modesty framing for enormous figures. Similar to Jeff Bezos giving advice about 'small businesses' while running Amazon."
-  },
-  {
-    "slug": "ding-ge-xiao-mubiao",
-    "chinese_name": "定个小目标",
-    "pinyin": "dìng gè xiǎo mùbiāo",
-    "english_name": "Set a Modest Little Goal",
-    "year": 2016,
-    "status": "classic",
-    "tags": [
-      "consumerism",
-      "workplace"
-    ],
-    "chinese_explanation": "源自王健林采访语录\"先定个小目标，比如挣它一个亿\"，讽刺富人对财富的轻描淡写。",
-    "english_explanation": "Born when billionaire Wang Jianlin casually told Chinese youth on TV to 'set a modest little goal first — like making 100 million yuan.' The absurdity was instant: 100 million yuan is roughly $15 million USD. Chinese netizens seized on it to mock the jaw-dropping disconnect between the ultra-rich and ordinary people, and the phrase quickly became the go-to sarcastic opener for any hilariously unrealistic ambition.",
-    "cultural_context": "China's explosive economic growth created extreme wealth inequality by the mid-2010s. Self-made billionaires like Wanda Group's Wang Jianlin became media celebrities, but their casual advice to struggling youth highlighted a vast class divide. The meme captured a generation's mix of dark humor, economic anxiety, and weary resignation toward get-rich platitudes that felt utterly out of touch.",
-    "examples": [
-      {
-        "chinese": "先定个小目标，比如把这周的作业写完。",
-        "english": "Let's set a modest little goal first — like actually finishing this week's homework."
-      },
-      {
-        "chinese": "他说先定个小目标，结果目标是买套北京的房子。",
-        "english": "He said he just wanted to set a modest little goal — turns out the goal was buying an apartment in Beijing."
-      }
-    ],
-    "popularity": 4
   },
   {
     "slug": "xiao-mubiao",
@@ -2976,33 +2746,6 @@
     "popularity": 4
   },
   {
-    "slug": "li-hai-le-wo-de-guo",
-    "chinese_name": "厉害了我的国",
-    "pinyin": "lì hài le wǒ de guó",
-    "english_name": "Wow, My Country Is Amazing!",
-    "year": 2017,
-    "status": "classic",
-    "tags": [
-      "consumerism",
-      "politics",
-      "technology"
-    ],
-    "chinese_explanation": "源自2017年官方宣传纪录片，用于赞美中国成就，后被网友反讽式引用，表达对夸大宣传的调侃。",
-    "english_explanation": "Originally a phrase of patriotic pride celebrating China's achievements — think bullet trains, space rockets, and bridge engineering — it quickly got hijacked by irony-savvy netizens. Now it doubles as a sarcastic eye-roll whenever someone over-promotes China's greatness or encounters the gap between official narrative and everyday reality. Equal parts genuine pride and deadpan mockery depending entirely on who's saying it and how.",
-    "cultural_context": "In 2017, a state-produced documentary film bearing this title showcased China's infrastructure and tech milestones. The phrase rode a wave of nationalistic sentiment during Xi Jinping's 'China Dream' era. Netizens — always resourceful — flipped it into gentle satire, using it to poke fun at propaganda overreach, corporate hype, and anything that felt suspiciously too good to be true.",
-    "examples": [
-      {
-        "chinese": "高铁又准点了，厉害了我的国！",
-        "english": "The high-speed rail was on time again — wow, my country is amazing!"
-      },
-      {
-        "chinese": "外卖30分钟送到，厉害了我的国。",
-        "english": "Food delivery in 30 minutes — truly, my country is something else."
-      }
-    ],
-    "popularity": 4
-  },
-  {
     "slug": "zhan-lang-er",
     "chinese_name": "战狼2",
     "pinyin": "Zhàn Láng Èr",
@@ -3430,31 +3173,6 @@
       }
     ],
     "popularity": 4
-  },
-  {
-    "slug": "xi-jing-shang-shen",
-    "chinese_name": "戏精上身",
-    "pinyin": "xì jīng shàng shēn",
-    "english_name": "Drama Queen Mode Activated / Possessed by the Drama Spirit",
-    "year": 2017,
-    "status": "classic",
-    "tags": [
-      "self-deprecation"
-    ],
-    "chinese_explanation": "形容一个人突然变得极度戏剧化、夸张，像被戏精附体一样表现过度。",
-    "english_explanation": "Literally 'possessed by a drama spirit,' this meme describes someone who suddenly turns every minor situation into a full theatrical performance. Whether sobbing over spilled milk, monologuing about a missed bus, or turning a mild disagreement into Shakespeare, the 'drama spirit' has taken over their body. It's used both to mock others and laugh at yourself when you catch yourself being spectacularly extra for absolutely no good reason.",
-    "cultural_context": "Emerging from Chinese social media around 2017, the meme tapped into a generation raised on melodramatic TV dramas and reality shows. As young Chinese netizens developed sharper self-awareness and ironic humor, mocking over-the-top emotional performances — in others and in themselves — became a way to bond and release stress in an increasingly high-pressure social environment.",
-    "examples": [
-      {
-        "chinese": "她男朋友只是晚回了一条消息，她就开始戏精上身，哭得梨花带雨。",
-        "english": "Her boyfriend replied just a little late, and she went full drama mode — crying her eyes out like it was the end of the world."
-      },
-      {
-        "chinese": "我今天真的戏精上身了，在公司开会突然想哭，不知道为什么。",
-        "english": "The drama spirit totally possessed me today — I randomly felt like crying in the middle of a work meeting for absolutely no reason."
-      }
-    ],
-    "popularity": 3
   },
   {
     "slug": "xi-jing",
@@ -3909,31 +3627,6 @@
       {
         "chinese": "带新人真的太累了，我每天操碎了一颗老母亲的心。",
         "english": "Training new employees is exhausting — every day I'm running on pure old-mother worry and nothing else."
-      }
-    ],
-    "popularity": 4
-  },
-  {
-    "slug": "gang-tie-zhi-nan-ai",
-    "chinese_name": "钢铁直男癌",
-    "pinyin": "gāng tiě zhí nán ái",
-    "english_name": "Terminal Straight-Guy Syndrome",
-    "year": 2018,
-    "status": "classic",
-    "tags": [
-      "romance"
-    ],
-    "chinese_explanation": "形容极度固执、自以为是、缺乏情商、对女性缺乏尊重的直男行为或思想。",
-    "english_explanation": "Imagine 'toxic masculinity' got a Chinese makeover and a dramatic flair. '钢铁直男癌' (literally 'steel straight-man cancer') describes a guy so rigidly set in his macho ways that he's practically a medical condition. He thinks women should dress modestly, scoffs at skincare, insists his girlfriend doesn't need expensive gifts, and genuinely believes he's being perfectly reasonable the whole time. It's the Chinese internet's way of diagnosing men who combine stubborn gender traditionalism with spectacular emotional obliviousness.",
-    "cultural_context": "As China's post-80s and post-90s generations became more vocal about gender equality online, the term emerged to critique men who clung to patriarchal attitudes while remaining blind to them. Rising feminist discourse on Weibo and Douban gave women a shared vocabulary to call out these behaviors, and the darkly comedic 'cancer' suffix amplified the sense that such attitudes were both pervasive and deeply ingrained in Chinese society.",
-    "examples": [
-      {
-        "chinese": "他觉得女朋友买口红是乱花钱，真是钢铁直男癌晚期。",
-        "english": "He thinks his girlfriend buying lipstick is a waste of money — a textbook terminal case of straight-guy syndrome."
-      },
-      {
-        "chinese": "钢铁直男癌的症状之一：觉得女生化妆就是欺骗。",
-        "english": "One classic symptom of Terminal Straight-Guy Syndrome: believing women who wear makeup are basically committing fraud."
       }
     ],
     "popularity": 4
@@ -4536,31 +4229,6 @@
     "similar_expressions": "Like retweeting a 'lucky post' or sharing a chain letter for luck in English culture. The koi fish symbol is deeply embedded in Chinese culture as a symbol of fortune."
   },
   {
-    "slug": "liang-le",
-    "chinese_name": "凉了",
-    "pinyin": "liáng le",
-    "english_name": "It's over / Toast",
-    "year": 2019,
-    "status": "classic",
-    "tags": [
-      "workplace"
-    ],
-    "chinese_explanation": "指事情彻底失败或希望破灭，带有无奈和自嘲的语气，常用于职场、考试等失意场合。",
-    "english_explanation": "Literally meaning 'gone cold,' 凉了 is what Chinese netizens say when something has completely fallen apart — your job prospects, your project, your chances with a crush. Think of it as the verbal equivalent of watching your coffee go cold while staring at bad news. It captures that uniquely Chinese mix of gallows humor and resigned acceptance, said with a sigh and maybe a bitter laugh. Equal parts 'I'm done' and 'well, that happened.'",
-    "cultural_context": "Emerging amid intense competition in China's job market and the pressures of the '996' work culture (9am–9pm, 6 days a week), 凉了 resonated with a generation of young workers and students feeling the squeeze of high expectations and limited upward mobility. It became a shorthand for collective exhaustion, frequently appearing on Weibo and Bilibili whenever economic anxieties or workplace frustrations needed a two-syllable outlet.",
-    "examples": [
-      {
-        "chinese": "面试结束后他们说'我们会通知你的'，我知道这次凉了。",
-        "english": "After the interview they said 'we'll be in touch' — I knew it was toast."
-      },
-      {
-        "chinese": "期末考试没复习，这门课应该凉了。",
-        "english": "I didn't study for finals at all — that class is basically done for."
-      }
-    ],
-    "popularity": 3
-  },
-  {
     "slug": "chun-chun",
     "chinese_name": "纯纯",
     "pinyin": "chún chún",
@@ -4690,56 +4358,6 @@
     "similar_expressions": "Like 'off the charts,' 'insane,' 'unhinged,' or 'that's a lot.' The music metaphor (off the score) is similar to how English uses 'off the charts' for excess."
   },
   {
-    "slug": "xi-pin",
-    "chinese_name": "细品",
-    "pinyin": "xì pǐn",
-    "english_name": "Savor it slowly / Read between the lines",
-    "year": 2019,
-    "status": "classic",
-    "tags": [
-      "workplace"
-    ],
-    "chinese_explanation": "细品，意为仔细体会言外之意，常用于暗示某句话或某件事耐人寻味，值得反复琢磨。",
-    "english_explanation": "Literally 'taste it carefully,' 细品 is the internet's way of saying 'sit with that for a moment.' You drop it after a statement loaded with irony, hidden meaning, or delicious hypocrisy, inviting the reader to slow down and truly absorb the absurdity. Think of it as the Chinese equivalent of 'let that sink in' — a nudge to stop scrolling and actually think about what was just said.",
-    "cultural_context": "Emerging around 2019 on Weibo and Bilibili, 细品 thrived in an era of overloaded information feeds where nuanced critique had to be wrapped in humor to survive platform moderation. It gave Chinese netizens a low-risk, witty tool for pointing out contradictions in corporate speak, social double standards, or political irony without spelling things out too explicitly.",
-    "examples": [
-      {
-        "chinese": "领导说：'我们要加班是因为我们热爱工作。'细品。",
-        "english": "The boss said: 'We work overtime because we love our jobs.' Savor that slowly."
-      },
-      {
-        "chinese": "他说分手是为了让我过得更好，细品一下这句话。",
-        "english": "He said he broke up with me for my own good — really take a moment to taste those words."
-      }
-    ],
-    "popularity": 4
-  },
-  {
-    "slug": "ni-pin-ni-xi-pin",
-    "chinese_name": "你品你细品",
-    "pinyin": "nǐ pǐn, nǐ xì pǐn",
-    "english_name": "Sit with it. Really sit with it.",
-    "year": 2019,
-    "status": "classic",
-    "tags": [
-      "self-deprecation"
-    ],
-    "chinese_explanation": "让对方慢慢体会言外之意，暗示某事值得反复咀嚼，带有一种意味深长的调侃。",
-    "english_explanation": "A sly nudge telling someone to slow down and really absorb what was just said — because there's a layer of meaning hiding underneath. Think of it as the Chinese internet's version of a knowing smirk. Originating from a viral video clip, it became the go-to phrase for delivering subtle shade, dry humor, or uncomfortable truths and then stepping back to let the other person connect the dots themselves. The repetition of 'pǐn' ('savor') adds a mock-serious, tea-connoisseur flavor.",
-    "cultural_context": "Born during a period of intense online culture in China, this phrase spread via short-video platforms like Douyin and Bilibili in 2019. It resonated with a generation skilled at reading between the lines — whether navigating workplace dynamics, social pressures, or political sensitivities — where saying things indirectly is both an art form and a survival skill.",
-    "examples": [
-      {
-        "chinese": "他说'我没有不高兴'，你品，你细品……",
-        "english": "He said 'I'm not upset.' Sit with that. Really sit with it..."
-      },
-      {
-        "chinese": "老板说这次奖金'结合实际情况发放'，你品你细品。",
-        "english": "The boss said bonuses will be 'distributed based on actual conditions.' Savor that. Really savor it."
-      }
-    ],
-    "popularity": 4
-  },
-  {
     "slug": "rui-si-bai",
     "chinese_name": "瑞思拜",
     "pinyin": "ruì sī bài",
@@ -4790,31 +4408,6 @@
     "popularity": 4
   },
   {
-    "slug": "suliao-yingyu",
-    "chinese_name": "塑料英语",
-    "pinyin": "sùliào yīngyǔ",
-    "english_name": "Plastic English",
-    "year": 2019,
-    "status": "classic",
-    "tags": [
-      "education"
-    ],
-    "chinese_explanation": "指中国人说的发音不标准、带有浓重中式口音的蹩脚英语，带有自嘲意味。",
-    "english_explanation": "\"Plastic English\" describes the charmingly mangled, heavily accented English spoken by Chinese people who learned the language from textbooks rather than native speakers. The term is self-mockingly affectionate — think reading 'Excuse me' aloud as 'Ek-si-kyuze mi' with full confidence. Rather than shame, the meme celebrates the gap between years of classroom drilling and real-world pronunciation, turning linguistic awkwardness into a badge of relatable humor shared across Chinese social media.",
-    "cultural_context": "China's education system emphasizes written English and grammar over spoken fluency, producing generations of students who ace tests but struggle with pronunciation. As global pop culture and overseas travel became more accessible in the late 2010s, the gap between textbook English and real spoken English became increasingly apparent and meme-worthy, especially among younger urban Chinese who could laugh at themselves online.",
-    "examples": [
-      {
-        "chinese": "我的塑料英语在外国友人面前彻底暴露了。",
-        "english": "My plastic English was completely exposed in front of the foreign friends."
-      },
-      {
-        "chinese": "用塑料英语跟老外聊了半天，对方一脸懵。",
-        "english": "I chatted with a foreigner in my plastic English for ages, and they looked totally lost the whole time."
-      }
-    ],
-    "popularity": 3
-  },
-  {
     "slug": "su-liao-jie-mei",
     "chinese_name": "塑料姐妹",
     "pinyin": "sù liào jiě mèi",
@@ -4843,26 +4436,26 @@
     "slug": "pan-ta",
     "chinese_name": "盘他",
     "pinyin": "pán tā",
-    "english_name": "Work it / Play with it / Give it a good rub",
+    "english_name": "Work It / Handle It / Let's Do This",
     "year": 2019,
     "status": "classic",
     "tags": [
       "fandom"
     ],
-    "chinese_explanation": "源自古玩圈\"盘玩\"文化，意为反复把玩、炒热某人或某物，后泛指热情追捧或调戏。",
-    "english_explanation": "Originally from the world of Chinese antique collectors, where 'pán' means to cradle and polish a precious object until it develops a beautiful patina. Internet culture hijacked it to mean hyping someone up, fangirling obsessively, or playfully teasing a person or trend. If your friend group latches onto a new idol or meme and just won't let it go — rolling it around endlessly like a prized jade bead — that's 盘他 energy.",
-    "cultural_context": "China's antique and jade-collecting hobbyist community uses 盘 to describe the meditative act of handling objects to improve their luster. In 2019, a viral video of an elderly man affectionately 'working' a string of beads sparked the phrase's leap into mainstream slang, coinciding with the explosive growth of idol-fandom culture on platforms like Weibo and Bilibili.",
+    "chinese_explanation": "原指盘玩文玩核桃等收藏品，后引申为把玩、处理、搞定某事，也有上手试试的意思。",
+    "english_explanation": "Originally from the hobby of 盘玩 — slowly turning and polishing collectibles like walnuts or jade in your hand to develop their patina over time. The meditative, hands-on quality of 盘玩 transferred to mean: handle something, work it, mess around with it, give it a try. '盘它' can mean 'let's try this food,' 'I'll take care of this problem,' or 'watch me handle this situation.' The key quality is engaged, hands-on enjoyment.",
+    "cultural_context": "The collectibles hobby (文玩) that spawned this term is itself a fascinating cultural phenomenon — middle-aged Chinese men spending fortunes on walnuts, amber, and wooden beads to polish by hand. When young internet users borrowed 盘它, they brought ironic awareness of this older man hobby while genuinely adopting the energy of patient, engaged handling.",
     "examples": [
       {
-        "chinese": "这个小哥哥太可爱了，粉丝们都在盘他！",
-        "english": "This guy is way too cute — fans are absolutely obsessing over him!"
+        "chinese": "这道菜没见过，盘它！",
+        "english": "Never seen this dish before — let's try it!"
       },
       {
-        "chinese": "新来的实习生有点意思，大家使劲盘他吧。",
-        "english": "The new intern seems interesting — let's all mess with him and see what he's made of."
+        "chinese": "这个问题交给我，我来盘它。",
+        "english": "Give me this problem — I'll handle it."
       }
     ],
-    "popularity": 3
+    "popularity": 4
   },
   {
     "slug": "wo-lie-kai-le",
@@ -5037,56 +4630,6 @@
       {
         "chinese": "他问我为什么辞职，我就回了他三个字：雨女无瓜。",
         "english": "He asked me why I quit my job, so I hit him back with three characters: none of your business."
-      }
-    ],
-    "popularity": 4
-  },
-  {
-    "slug": "bai-piao-guai",
-    "chinese_name": "白嫖怪",
-    "pinyin": "bái piáo guài",
-    "english_name": "Freeloader / Cheapskate Monster",
-    "year": 2019,
-    "status": "classic",
-    "tags": [
-      "consumerism"
-    ],
-    "chinese_explanation": "专门白嫖别人劳动成果、从不付费却理直气壮的人，常用于自嘲或调侃他人。",
-    "english_explanation": "A '白嫖怪' is the person who consumes everything for free — games, content, software, music — and feels absolutely zero guilt about it. The word breaks down as 白 (free/without cost) + 嫖 (a crude term for paying for sex, repurposed here for 'getting something for nothing') + 怪 (monster/creature). It's used both as a badge of pride by self-aware cheapskates and as a gentle roast for shameless freeloaders. Think of it as the internet's affectionate name for the person who will never buy the premium plan.",
-    "cultural_context": "Emerged amid China's booming digital content economy, where platforms struggled to convert users to paid subscriptions. With youth unemployment concerns and rising costs, many young Chinese identified proudly as 白嫖怪 — squeezing every free trial and pirated resource available. The meme reflects tension between creator monetization and a generation conditioned by years of free internet content.",
-    "examples": [
-      {
-        "chinese": "我就是个白嫖怪，会员能白嫖绝对不花一分钱。",
-        "english": "I'm a total freeloader — if I can get the membership for free, I'm not spending a single cent."
-      },
-      {
-        "chinese": "UP主辛苦了，但我是白嫖怪，投币就免了吧。",
-        "english": "Great work, content creator — but I'm a freeloader, so I'll skip the coin tip, thanks."
-      }
-    ],
-    "popularity": 3
-  },
-  {
-    "slug": "bai-piao-dang",
-    "chinese_name": "白嫖党",
-    "pinyin": "bái piáo dǎng",
-    "english_name": "The Freeloaders' Party / Free-Riders Club",
-    "year": 2019,
-    "status": "classic",
-    "tags": [
-      "consumerism"
-    ],
-    "chinese_explanation": "指那些只享受免费内容或服务、从不付费的网络用户群体，带有自嘲意味。",
-    "english_explanation": "A tongue-in-cheek label for internet users who consume content, services, or products entirely for free — never paying, never subscribing, never tipping creators. Think: watches every episode on a free trial, uses ad-blockers, downloads instead of buying. The term borrows '嫖' (originally meaning to visit prostitutes without paying) for maximum ironic punch. Rather than a criticism, it's worn as a badge of honor by budget-savvy netizens who've turned freeloading into a lifestyle philosophy.",
-    "cultural_context": "Emerged amid China's booming digital content economy, where platforms like Bilibili, iQIYI, and various games pushed hard for paid memberships and VIP tiers. As subscription fatigue grew among young, cash-strapped users, 白嫖党 became a rallying identity — part protest, part humor — reflecting genuine economic pressure on millennials and Gen-Z navigating high living costs and a competitive job market.",
-    "examples": [
-      {
-        "chinese": "我是坚定的白嫖党，绝对不会给这个游戏充钱的。",
-        "english": "I'm a committed member of the Freeloaders' Party — there's no way I'm spending a single yuan on this game."
-      },
-      {
-        "chinese": "白嫖党表示，能用免费版的就绝对不买会员。",
-        "english": "As a proud free-rider, if there's a free version available, buying a membership is simply out of the question."
       }
     ],
     "popularity": 4
@@ -5384,56 +4927,6 @@
     "similar_expressions": "Like 'crunch culture,' 'hustle culture,' or 'always-on work culture' in English tech. The specific numerical format (9-9-6) makes it more concrete and damning than vague English equivalents."
   },
   {
-    "slug": "suan-le",
-    "chinese_name": "酸了",
-    "pinyin": "suān le",
-    "english_name": "Feeling sour / I'm so jealous it hurts",
-    "year": 2019,
-    "status": "classic",
-    "tags": [
-      "fandom"
-    ],
-    "chinese_explanation": "看到别人的成就或好运时，用来自嘲式地表达羡慕嫉妒的网络用语，带有幽默和无奈的情绪。",
-    "english_explanation": "When life hands someone else the lemon and you're just standing there producing all the acid yourself — that's 酸了. It's the internet's way of saying 'I'm so jealous I can taste it,' delivered with a self-aware, self-deprecating smirk. Rather than openly admitting envy (which feels too earnest), Chinese netizens use this phrase to mock their own sour feelings when someone flexes good luck, talent, or success online. It's bitter, funny, and oddly endearing.",
-    "cultural_context": "As Chinese social media exploded with influencers flaunting wealth, celebrity gossip, and life milestones, ordinary users needed a pressure valve. 酸了 emerged as a way to acknowledge life's inequality with a laugh rather than resentment. The word 酸 (sour/jealous) already existed in Chinese slang, but the addition of 了 made it feel immediate and meme-ready — perfectly suited for rapid-fire comment sections on Weibo and Bilibili.",
-    "examples": [
-      {
-        "chinese": "他才二十岁就买了别墅，我酸了。",
-        "english": "He bought a villa at just twenty years old — I'm feeling seriously sour over here."
-      },
-      {
-        "chinese": "看到朋友秀出满分成绩，网友纷纷留言：酸了酸了！",
-        "english": "When their friend posted a perfect score, the comment section exploded with: 'So sour! So sour!'"
-      }
-    ],
-    "popularity": 4
-  },
-  {
-    "slug": "wo-ning-meng-le",
-    "chinese_name": "我柠檬了",
-    "pinyin": "wǒ níng méng le",
-    "english_name": "I've gone lemon / I'm so jealous",
-    "year": 2019,
-    "status": "classic",
-    "tags": [
-      "self-deprecation"
-    ],
-    "chinese_explanation": "表达强烈羡慕嫉妒的网络流行语，源自\"柠檬精\"，意为酸溜溜地嫉妒别人。",
-    "english_explanation": "When life hands you lemons, Chinese internet users *become* the lemon. \"我柠檬了\" is a playfully self-aware way of saying \"I'm so jealous I could burst.\" Derived from the slang \"柠檬精\" (lemon spirit/essence), the phrase frames jealousy as a fun, relatable transformation rather than something shameful. You see someone's gorgeous vacation photos, their promotion, or their perfect relationship — and instead of stewing in silence, you announce that you have fully, physically become a lemon. Sour and proud of it.",
-    "cultural_context": "Emerging around 2019 on Weibo and Douyin, the meme flourished as young Chinese users increasingly performed emotions ironically online. Against a backdrop of intense social comparison fueled by curated social-media highlight reels, \"我柠檬了\" gave people a self-deprecating, humorous outlet for envy — acknowledging the feeling openly rather than hiding it, in a culture where direct expressions of jealousy can be seen as petty.",
-    "examples": [
-      {
-        "chinese": "他又去马尔代夫度假了？我柠檬了！",
-        "english": "He went to the Maldives again for vacation? I've fully turned into a lemon!"
-      },
-      {
-        "chinese": "看到她晒出的婚纱照，我整个人都柠檬了。",
-        "english": "After seeing her wedding photos, I have completely and utterly gone lemon."
-      }
-    ],
-    "popularity": 4
-  },
-  {
     "slug": "ning-meng-jing",
     "chinese_name": "柠檬精",
     "pinyin": "níng méng jīng",
@@ -5565,31 +5058,6 @@
     "popularity": 5,
     "origin_story": "A 2020 WeChat Moments trend: send '秋天的第一杯奶茶' (the first milk tea of autumn) to someone, and they'd send you money to buy it as a gift. Started as a romantic gesture, became a cultural ritual. Brands used it heavily for seasonal marketing.",
     "similar_expressions": "Like seasonal traditions — 'pumpkin spice season' in English — but monetized and gamified. The ritual of asking someone to 'buy you' something digitally is uniquely Chinese WeChat culture."
-  },
-  {
-    "slug": "chu-quan",
-    "chinese_name": "出圈",
-    "pinyin": "chū quān",
-    "english_name": "Going Mainstream / Breaking Out of the Bubble",
-    "year": 2020,
-    "status": "classic",
-    "tags": [
-      "fandom"
-    ],
-    "chinese_explanation": "指某人或某事物突破原有圈子，获得更广泛群体的关注和认可，从小众走向大众。",
-    "english_explanation": "Imagine a fandom or niche community as a bubble — 出圈 is the moment something escapes that bubble and lands on everyone's radar. A K-pop idol 出圈s when your grandma knows their name. A meme 出圈s when it appears on the evening news. It captures the electric feeling of niche culture crashing into the mainstream, carrying both excitement and a little mourning from original fans who liked it before it was cool.",
-    "cultural_context": "China's internet is famously fragmented into distinct 'circles' (圈子) — fandoms, hobbyist groups, subcultures — each with its own vocabulary and platforms. As short-video apps like Douyin exploded around 2019–2020, content began crossing these walls at unprecedented speed, making 出圈 the perfect word for an era when a Bilibili video could suddenly be trending on Weibo.",
-    "examples": [
-      {
-        "chinese": "这首歌真的出圈了，连我爸都在哼。",
-        "english": "This song has really gone mainstream — even my dad is humming it."
-      },
-      {
-        "chinese": "她凭这个综艺节目彻底出圈，粉丝数量翻了十倍。",
-        "english": "She completely broke out thanks to this variety show — her fanbase grew tenfold."
-      }
-    ],
-    "popularity": 4
   },
   {
     "slug": "po-quan",
@@ -5724,31 +5192,6 @@
       }
     ],
     "popularity": 4
-  },
-  {
-    "slug": "hulianwang-zui-ti",
-    "chinese_name": "互联网嘴替",
-    "pinyin": "hùliánwǎng zuǐ tì",
-    "english_name": "Internet Voice Double / My Internet Spokesperson",
-    "year": 2020,
-    "status": "classic",
-    "tags": [
-      "self-deprecation"
-    ],
-    "chinese_explanation": "指某人说出了自己想说却说不出口的话，成为自己在网上的\"代言人\"。",
-    "english_explanation": "Ever scrolled past a tweet or post and thought 'this person is literally living inside my head'? That's your 互联网嘴替 — your internet mouth-stand-in, or voice double. It refers to someone online who perfectly articulates what you've been feeling but couldn't express. The phrase captures that instant parasocial bond: a stranger says exactly the thing, and suddenly they're your designated spokesperson to the world.",
-    "cultural_context": "As Chinese social media exploded in the 2010s–2020s, users increasingly sought relatable voices amid pressure to self-censor or appear agreeable offline. Platforms like Weibo and Douyin elevated expressive, blunt content creators who voiced frustrations about work culture, relationships, and society that ordinary users felt but hesitated to say publicly, making the 'mouth substitute' figure both emotionally necessary and culturally celebrated.",
-    "examples": [
-      {
-        "chinese": "这个博主真的是我的互联网嘴替，每次都能说出我心里想说的话！",
-        "english": "This blogger is literally my internet voice double — they always say exactly what I'm thinking!"
-      },
-      {
-        "chinese": "终于有人当我的互联网嘴替了，把那个烂会议吐槽得体无完肤。",
-        "english": "Someone finally became my internet spokesperson and absolutely roasted that terrible meeting in the way I never could."
-      }
-    ],
-    "popularity": 3
   },
   {
     "slug": "chai-mang-he",
@@ -6602,31 +6045,6 @@
       {
         "chinese": "尾款人互相鼓励：熬过今晚付完尾款，我们就解脱了！",
         "english": "Final-payment people cheering each other on: once we get through tonight and pay off the balance, we'll finally be free!"
-      }
-    ],
-    "popularity": 4
-  },
-  {
-    "slug": "fan-er-sai-wen-xue",
-    "chinese_name": "凡尔赛文学",
-    "pinyin": "Fán ěr sài wén xué",
-    "english_name": "Versailles Literature / Humble-bragging Style",
-    "year": 2020,
-    "status": "classic",
-    "tags": [
-      "self-deprecation"
-    ],
-    "chinese_explanation": "用看似抱怨或低调的方式炫耀自己的财富、地位或幸福生活，表面谦虚实则凡尔赛。",
-    "english_explanation": "Versailles Literature is the art of the stealth flex — complaining about your luxurious life so subtly that it takes a second to realize you're actually bragging. Named after the Palace of Versailles, synonymous with opulence, the style involves a three-step formula: start with a fake grievance, drop the lavish detail casually, then wrap it in faux humility. Think 'Ugh, my driver was late again and now my Hermès scarf smells like car leather.' It's the internet's way of calling out — and lovingly mocking — those who can't resist showing off.",
-    "cultural_context": "As China's middle and upper-middle classes expanded rapidly in the 2010s, social media became a stage for lifestyle display. The term was popularized in late 2020 by blogger 'Méng Jiāo Jiāo' whose posts epitomized the genre. It tapped into growing public sensitivity around wealth inequality and the performative modesty often used to mask ostentatious consumption, giving ordinary netizens a humorous framework to identify and satirize this behavior.",
-    "examples": [
-      {
-        "chinese": "最近好烦，男朋友又给我买了一个包，家里都快放不下了。",
-        "english": "So annoyed lately — my boyfriend bought me another bag and I'm running out of closet space."
-      },
-      {
-        "chinese": "在巴黎住久了真不习惯，回国之后总觉得哪里不对劲。",
-        "english": "After living in Paris so long I just can't readjust — being back home feels somehow off."
       }
     ],
     "popularity": 4
@@ -7793,31 +7211,6 @@
     "similar_expressions": "Like the concept of 'flight to safety' in investing but applied to careers. Mirrors how economic uncertainty in many countries increases interest in government and public sector jobs."
   },
   {
-    "slug": "er-jiu-zhi-hao-wo-de-jingshen-neihao",
-    "chinese_name": "二舅治好我的精神内耗",
-    "pinyin": "Èr jiù zhì hǎo wǒ de jīngshén nèihào",
-    "english_name": "My Second Uncle Cured My Inner Turmoil",
-    "year": 2022,
-    "status": "classic",
-    "tags": [
-      "self-deprecation"
-    ],
-    "chinese_explanation": "2022年爆火的B站视频，讲述农村二舅坎坷却豁达的一生，引发网友对\"精神内耗\"的反思与共鸣。",
-    "english_explanation": "In the summer of 2022, a Bilibili video about a rural Chinese man nicknamed 'Second Uncle' went massively viral. Despite a hard life full of setbacks — disability, poverty, unfulfilled potential — he lived with quiet resilience and zero self-pity. Young urban Chinese, drowning in anxiety and overthinking ('精神内耗', or 'inner turmoil'), found his story weirdly therapeutic. 'Second Uncle cured my inner turmoil' became the ironic battle cry of a generation exhausted by their own spiraling minds.",
-    "cultural_context": "The meme hit a nerve during a period of intense pressure on Chinese youth: brutal job markets, the lingering shadow of gaokao culture, COVID fatigue, and the 'involution' (内卷) grind. 'Inner turmoil' (精神内耗) perfectly described the mental drain of endless self-doubt and overthinking. Second Uncle's stoic rural simplicity became a mirror — and a gentle rebuke — for overstimulated city dwellers paralyzed by anxiety.",
-    "examples": [
-      {
-        "chinese": "看完二舅的视频，感觉他真的治好了我的精神内耗，我决定不再焦虑了。",
-        "english": "After watching Second Uncle's video, I felt like he genuinely cured my inner turmoil — I've decided to stop spiraling."
-      },
-      {
-        "chinese": "朋友说二舅治好了他的精神内耗，但他第二天又开始焦虑了。",
-        "english": "My friend said Second Uncle cured his inner turmoil, but he was anxious again the next day."
-      }
-    ],
-    "popularity": 4
-  },
-  {
     "slug": "er-jiu",
     "chinese_name": "二舅",
     "pinyin": "Èr Jiù",
@@ -7841,31 +7234,6 @@
       }
     ],
     "popularity": 4
-  },
-  {
-    "slug": "juan-wang-zhi-wang",
-    "chinese_name": "卷王之王",
-    "pinyin": "juǎn wáng zhī wáng",
-    "english_name": "King of the Grind / Ultimate Tryhard",
-    "year": 2022,
-    "status": "classic",
-    "tags": [
-      "workplace"
-    ],
-    "chinese_explanation": "指在内卷竞争中表现最为极致、拼命内耗的人，带有自嘲和调侃意味。",
-    "english_explanation": "The 'King of Kings' of cutthroat overachieving — someone so deep in the grind that they've lapped everyone else in the race to burn out. Born from 'juǎn' (involution), this title is equal parts mockery and dark badge of honor for the person who stays at the office until 2 a.m., not because they want to, but because everyone else does. Essentially, the MVP of a game nobody actually wins.",
-    "cultural_context": "China's 'involution' (内卷) crisis describes brutal zero-sum competition in education and the workplace, where extra effort yields diminishing returns. By 2022, with youth unemployment rising and the '996' work culture widely criticized, young people used 卷王之王 to satirize the absurdity of hyper-competition — both mocking others and ruefully acknowledging their own participation in an exhausting system.",
-    "examples": [
-      {
-        "chinese": "他每天早上六点到公司，晚上十二点才走，真是卷王之王啊。",
-        "english": "He shows up at 6 a.m. and leaves at midnight every day — he's truly the king of the grind."
-      },
-      {
-        "chinese": "我刚以为自己够卷了，结果同事连周末都在写报告，卷王之王非他莫属。",
-        "english": "I thought I was working hard enough, but then my coworker spent the whole weekend writing reports — he's definitely the ultimate tryhard."
-      }
-    ],
-    "popularity": 3
   },
   {
     "slug": "shang-an-nan",
@@ -8631,58 +7999,6 @@
       }
     ],
     "popularity": 3
-  },
-  {
-    "slug": "da-zi-jing-ji",
-    "chinese_name": "搭子经济",
-    "pinyin": "dā zi jīng jì",
-    "english_name": "Buddy Economy / Activity-Partner Economy",
-    "year": 2023,
-    "status": "still popular",
-    "tags": [
-      "consumerism"
-    ],
-    "chinese_explanation": "指年轻人为特定活动寻找\"搭子\"（临时伴侣）而形成的新型消费和社交模式，如饭搭子、健身搭子等。",
-    "english_explanation": "Think of it as Tinder, but for going to hotpot alone without the sadness. Chinese Gen-Zers are pairing up with strangers for specific activities — eating, gym sessions, studying, watching movies — no strings attached. Your 'dāzi' is a purpose-built companion for one slice of life. It's not friendship, it's not dating; it's a hyper-efficient social contract that says: 'Let's do this one thing together and keep it casual.'",
-    "cultural_context": "As urban loneliness rose among young Chinese professionals and students post-pandemic, many craved companionship without the commitment of deep friendships. Paired with China's booming solo economy (single-person hotpot restaurants, solo KTV booths), the 'dāzi' trend turned niche companionship into a marketable demand — spawning apps, social media groups, and even businesses catering specifically to activity-partner matching.",
-    "examples": [
-      {
-        "chinese": "我最近在找一个健身搭子，互相督促才有动力。",
-        "english": "I've been looking for a gym buddy lately — we can keep each other motivated."
-      },
-      {
-        "chinese": "搭子经济的兴起说明年轻人既渴望陪伴，又不想承担太多社交压力。",
-        "english": "The rise of the buddy economy shows that young people crave company but don't want the baggage of heavy social obligations."
-      }
-    ],
-    "popularity": 4
-  },
-  {
-    "slug": "ping-ti-jing-ji",
-    "chinese_name": "平替经济",
-    "pinyin": "píng tì jīng jì",
-    "english_name": "Dupe Economy / Budget Substitute Economy",
-    "year": 2023,
-    "status": "still popular",
-    "tags": [
-      "consumerism"
-    ],
-    "chinese_explanation": "指消费者放弃高价品牌，转而选择功能相似、价格更低的替代品的消费趋势。",
-    "english_explanation": "Why pay luxury prices when the knockoff works just as well? '平替经济' describes the booming trend of Chinese consumers — especially younger ones — swapping expensive branded goods for cheaper alternatives ('平替', or 'flat substitutes') that do the job without the designer price tag. Think drugstore skincare instead of La Mer, or domestic coffee chains instead of Starbucks. It's savvy spending rebranded as a lifestyle flex.",
-    "cultural_context": "As China's post-pandemic economic recovery proved slower than expected, youth unemployment rose and consumer confidence dipped. Younger generations began openly embracing frugality not as defeat but as a smart choice, driving explosive growth in domestic budget brands, white-label goods, and platforms like Pinduoduo and 1688 that cater to bargain hunters.",
-    "examples": [
-      {
-        "chinese": "这款国产粉底液是大牌的平替，效果差不多但只要五分之一的价格。",
-        "english": "This domestic foundation is a dupe for the luxury brand — same effect but only a fifth of the price."
-      },
-      {
-        "chinese": "现在年轻人都流行平替经济，买东西不再只看牌子了。",
-        "english": "The dupe economy is all the rage among young people now — nobody's buying something just for the brand name anymore."
-      }
-    ],
-    "popularity": 5,
-    "origin_story": "As China's economy slowed and youth unemployment rose, 'affordable substitutes' culture became a complete economic philosophy. Not just budget alternatives to luxury goods, but a wholesale rethinking of consumption: What are you actually paying for? What is brand premium really worth? Consumer downgrading became intellectualized.",
-    "similar_expressions": "Like 'value investing but for consumption,' the 'dupe economy,' or the deinfluencing movement. The economic framing elevates it beyond simple bargain hunting to a critique of luxury brand value."
   },
   {
     "slug": "zao-ba-ren",
@@ -9597,56 +8913,6 @@
     "similar_expressions": "Like a food destination going viral — similar to how certain restaurants in the West suddenly get 3-hour waits after a viral review. But the Chinese version involves entire cities, government coordination, and millions of tourists in weeks."
   },
   {
-    "slug": "er-bin-xianxiang",
-    "chinese_name": "尔滨现象",
-    "pinyin": "Ěr Bīn Xiànxiàng",
-    "english_name": "The Harbin Phenomenon",
-    "year": 2024,
-    "status": "classic",
-    "tags": [
-      "consumerism"
-    ],
-    "chinese_explanation": "2024年冬哈尔滨旅游爆火，全国游客涌入，当地政府和市民极力讨好南方游客，形成独特的\"宠客\"文化现象。",
-    "english_explanation": "In the winter of 2024, Harbin — China's frosty northeastern city — became an unlikely viral tourism sensation. Locals and city officials bent over backwards to pamper visitors, especially southerners experiencing snow for the first time. Ice sculptures got lit up like Vegas, free activities multiplied overnight, and the city's almost desperate eagerness to please became a wholesome, slightly absurd meme about hospitality, regional pride, and the power of going viral.",
-    "cultural_context": "Harbin's tourism boom came as China's post-COVID economy was still sputtering and northeastern China ('dongbei') faced long-term economic decline and population loss. The city's all-out effort to attract and retain tourists — including installing heated outdoor rest stations and importing real reindeer — reflected both genuine civic pride and economic anxiety, making the phenomenon a symbol of grassroots resilience and the strange dynamics of clout-chasing in the social media age.",
-    "examples": [
-      {
-        "chinese": "这次哈尔滨真的太会了，为了留住游客连真驯鹿都整来了，尔滨现象名不虚传！",
-        "english": "Harbin really went all out this time — they even brought in real reindeer to keep tourists happy. The 'Harbin Phenomenon' totally lives up to the hype!"
-      },
-      {
-        "chinese": "感觉现在很多城市都想复制尔滨现象，但那种真诚劲儿学不来。",
-        "english": "Lots of cities are trying to copy the Harbin Phenomenon now, but that genuine warmth and sincerity just can't be faked."
-      }
-    ],
-    "popularity": 4
-  },
-  {
-    "slug": "shai-bei-yang-sheng",
-    "chinese_name": "晒背养生",
-    "pinyin": "shài bèi yǎng shēng",
-    "english_name": "Sun-Your-Back Wellness",
-    "year": 2024,
-    "status": "classic",
-    "tags": [
-      "self-deprecation"
-    ],
-    "chinese_explanation": "年轻人流行在户外晒太阳照背部，认为可以补充阳气、改善健康，兼具养生与社交属性。",
-    "english_explanation": "The viral Chinese wellness trend of lying face-down in parks and public spaces to bask your back in sunlight. Rooted in traditional Chinese medicine beliefs that sunning the spine boosts 'yang energy' and improves health, it became a cultural moment in 2024 when hordes of young city-dwellers — many burned out from work and screen life — started flooding parks like human solar panels. Equal parts genuine health ritual and ironic Gen-Z coping mechanism.",
-    "cultural_context": "Against a backdrop of post-pandemic fatigue, youth unemployment pressure, and the '躺平' (lying flat) ethos, young Chinese people embraced low-cost outdoor wellness as both a real health practice and a soft rebellion against hustle culture. Traditional Chinese medicine concepts went viral on social media, giving this simple act of sunbathing a culturally resonant, semi-serious health justification.",
-    "examples": [
-      {
-        "chinese": "周末约不约去公园晒背养生？听说对脊椎很好。",
-        "english": "Wanna go sun our backs in the park this weekend? Supposedly it's great for the spine."
-      },
-      {
-        "chinese": "现在年轻人流行晒背养生，公园里到处都是趴着晒太阳的人。",
-        "english": "Sunning your back is the new thing among young people — the parks are full of folks lying face-down soaking up rays."
-      }
-    ],
-    "popularity": 3
-  },
-  {
     "slug": "fan-xiang-xiao-fei",
     "chinese_name": "反向消费",
     "pinyin": "fǎn xiàng xiāo fèi",
@@ -9804,57 +9070,6 @@
     "similar_expressions": "Like 'dewy,' 'fresh-faced,' or 'wide-eyed' — but used ironically. The contrast between 水灵灵 (luminous and innocent) and grim situations creates the humor."
   },
   {
-    "slug": "kai-yuan-zhi-guang",
-    "chinese_name": "开源之光",
-    "pinyin": "kāi yuán zhī guāng",
-    "english_name": "Light of Open Source",
-    "year": 2025,
-    "status": "classic",
-    "tags": [
-      "technology",
-      "workplace"
-    ],
-    "chinese_explanation": "用来讽刺或称赞那些大量使用、依赖开源项目却不回馈社区的个人或企业。",
-    "english_explanation": "A sardonic — sometimes genuinely admiring — label slapped on developers, startups, or tech giants who feast on open-source software without contributing a single commit back. Think of it as calling someone a 'pillar of the community' while they raid the food bank. In 2025 Chinese tech culture it spread widely as frustration with big companies free-riding on volunteer-maintained projects boiled over, but it can also be used earnestly to celebrate actual open-source heroes.",
-    "cultural_context": "China's tech boom relied heavily on global open-source ecosystems, yet Chinese companies have historically ranked low in upstream contributions. As domestic 'open-source nationalism' grew alongside US-China tech tensions, the irony of claiming open-source credentials while giving nothing back became a hot-button topic, making this phrase a sharp tool for calling out corporate hypocrisy in developer communities.",
-    "examples": [
-      {
-        "chinese": "某大厂又发布了基于Linux的'自研'系统，真不愧是开源之光。",
-        "english": "That big tech firm just launched another 'self-developed' OS built on Linux — a true Light of Open Source indeed."
-      },
-      {
-        "chinese": "我们组的老王从不提交PR，却天天夸开源精神，开源之光本光了。",
-        "english": "Old Wang on our team never submits a single PR but preaches open-source spirit every day — he really is the Light of Open Source, all shine and no heat."
-      }
-    ],
-    "popularity": 3
-  },
-  {
-    "slug": "fei-yi-chu-quan",
-    "chinese_name": "非遗出圈",
-    "pinyin": "fēi yí chū quān",
-    "english_name": "Intangible Heritage Goes Viral",
-    "year": 2025,
-    "status": "classic",
-    "tags": [
-      "fandom"
-    ],
-    "chinese_explanation": "指传统非物质文化遗产借助社交媒体走红，突破小众圈子被大众广泛关注和喜爱的现象。",
-    "english_explanation": "When a dusty old tradition — shadow puppetry, embroidery, clay figurines, you name it — suddenly blows up on Douyin and everyone's obsessed with it overnight. China's intangible cultural heritage (非遗, fēi yí) used to gather dust in museums; now Gen-Z creators are remixing it into viral content, and grandma's folk art is getting more views than most K-pop groups. It's heritage with an algorithm boost.",
-    "cultural_context": "China has one of the world's largest inventories of UNESCO-recognized intangible cultural heritage. As younger generations seek cultural identity and authenticity, platforms like Douyin (TikTok's Chinese twin) have become launchpads for craftspeople and performers. Government cultural promotion campaigns in the early 2020s also incentivized creators to showcase traditional arts, turning niche crafts into mainstream trends and sparking a broader 'national style' (国潮) aesthetic movement.",
-    "examples": [
-      {
-        "chinese": "这个苗族刺绣博主真的把非遗出圈了，我现在天天刷她的视频。",
-        "english": "This Miao embroidery blogger has truly made intangible heritage go viral — I've been watching her videos every day now."
-      },
-      {
-        "chinese": "没想到皮影戏能非遗出圈，现在连我弟弟都开始学了。",
-        "english": "Who knew shadow puppetry would blow up like this — now even my little brother has started learning it."
-      }
-    ],
-    "popularity": 3
-  },
-  {
     "slug": "pang-dong-lai",
     "chinese_name": "胖东来",
     "pinyin": "Pàng Dōng Lái",
@@ -9883,56 +9098,6 @@
     "similar_expressions": "Like Costco or REI in America — companies praised for treating employees well — but more extreme.胖东来 became a symbol of what Chinese work culture could be, making it both inspiring and melancholy."
   },
   {
-    "slug": "guo-chao-san-dian-ling",
-    "chinese_name": "国潮3.0",
-    "pinyin": "Guó Cháo sān diǎn líng",
-    "english_name": "China Chic 3.0 / National Trend 3.0",
-    "year": 2025,
-    "status": "classic",
-    "tags": [
-      "consumerism"
-    ],
-    "chinese_explanation": "国潮3.0指中国本土品牌与文化自信的第三波浪潮，融合科技、非遗与国际审美，超越单纯国货消费，成为一种身份认同与生活方式。",
-    "english_explanation": "China Chic 3.0 is the latest evolution of the 'buy Chinese, love Chinese' movement — but this time it's less about slapping a dragon on a sneaker and more about genuine cultural confidence. Gen-Z consumers aren't just choosing domestic brands out of patriotism; they're choosing them because they're actually cool, innovative, and rooted in real heritage. Think cutting-edge tech aesthetics mixed with Tang dynasty motifs, or indie music scenes sampling guqin. The '3.0' signals a maturation: less performative nationalism, more authentic creative identity.",
-    "cultural_context": "The 国潮 wave began circa 2018 with Li-Ning's New York Fashion Week moment (1.0), deepened into broad domestic brand revival (2.0), and by 2025 has entered a self-assured 3.0 phase driven by post-pandemic economic nationalism, improving domestic product quality, and a generation that grew up with TikTok and Douyin seeing no contradiction between global savviness and local pride.",
-    "examples": [
-      {
-        "chinese": "现在年轻人买东西根本不看是不是洋牌，国潮3.0时代，国货才是真正的潮流。",
-        "english": "Young people these days don't care if it's a foreign brand — in the China Chic 3.0 era, domestic goods are the real trend."
-      },
-      {
-        "chinese": "这个设计把敦煌壁画和赛博朋克融合得这么好，果然是国潮3.0的精髓。",
-        "english": "Blending Dunhuang murals with cyberpunk this seamlessly — that's the essence of China Chic 3.0 right there."
-      }
-    ],
-    "popularity": 3
-  },
-  {
-    "slug": "hanfu-richang-hua",
-    "chinese_name": "汉服日常化",
-    "pinyin": "Hànfú rìcháng huà",
-    "english_name": "Hanfu Everyday Movement",
-    "year": 2025,
-    "status": "classic",
-    "tags": [
-      "fandom"
-    ],
-    "chinese_explanation": "指将汉服（传统汉族服饰）融入日常生活，而非仅限于特定场合或表演展示。",
-    "english_explanation": "Imagine if wearing a Renaissance fair costume to grab bubble tea became totally normal — that's basically the vibe. 'Hanfu Everyday' is the movement of young Chinese people wearing traditional Han dynasty-inspired robes, sashes, and layered silks not just at festivals or photoshoots, but to class, coffee shops, and the office. It's part cultural pride, part aesthetic rebellion, and part soft nationalism, wrapped in very photogenic silk.",
-    "cultural_context": "Riding a wave of cultural nationalism and 'guochao' (national trend) consumerism, Gen-Z Chinese youth began reclaiming traditional aesthetics as cool rather than antiquated. The hanfu market exploded into a multi-billion yuan industry by the mid-2020s, with social platforms like Xiaohongshu amplifying daily outfit posts and normalizing what was once considered cosplay.",
-    "examples": [
-      {
-        "chinese": "我今天穿汉服去超市买菜，收银员说我像穿越过来的。",
-        "english": "I wore hanfu to the supermarket today and the cashier said I looked like I'd time-traveled here."
-      },
-      {
-        "chinese": "汉服日常化就是让老祖宗的衣服回到街头，不只是拍照用的。",
-        "english": "Hanfu everyday means bringing our ancestors' clothes back to the streets, not just for photo shoots."
-      }
-    ],
-    "popularity": 4
-  },
-  {
     "slug": "ma-mian-qun",
     "chinese_name": "马面裙",
     "pinyin": "mǎ miàn qún",
@@ -9958,33 +9123,6 @@
     "popularity": 5,
     "origin_story": "The 马面裙 (horse-face skirt) — a traditional Han Chinese pleated skirt — became Gen Z's it-girl garment in 2024-2025. Worn to school, offices, and shopping malls, it was both a fashion statement and a cultural identity marker. Demand exceeded supply; factories in Cao County, Shandong became famous for producing them.",
     "similar_expressions": "Like a traditional garment becoming a modern fashion item — similar to how Japanese young people wear kimono-inspired clothing, or how Korean hanbok elements appear in streetwear. But more specifically a grassroots revival, not designer-driven."
-  },
-  {
-    "slug": "xin-zhong-shi-chuan-da",
-    "chinese_name": "新中式穿搭",
-    "pinyin": "xīn zhōng shì chuān dā",
-    "english_name": "New Chinese Style Dressing",
-    "year": 2025,
-    "status": "still popular",
-    "tags": [
-      "fandom"
-    ],
-    "chinese_explanation": "将传统汉服、旗袍等元素与现代时尚融合，打造既有中国韵味又不失潮流感的穿搭风格。",
-    "english_explanation": "Think of it as China's answer to cottagecore — a fashion trend blending traditional Chinese aesthetics (think linen mandarin collars, ink-wash prints, jade accessories, and hanfu-inspired silhouettes) with contemporary streetwear and daily wear. Gen-Z fashionistas are ditching fast fashion in favor of looks that say 'I passed Chinese history class AND have great taste.' It's patriotic chic meets actual wearability, and your grandmother might actually approve.",
-    "cultural_context": "Rising alongside 'guochao' (national wave) cultural pride, this trend reflects young Chinese consumers reclaiming heritage aesthetics post-pandemic. Fueled by domestic brands like Shang Xia and indie designers on Xiaohongshu (RedNote), it's part of a broader identity shift where wearing Chinese-inspired clothing signals cultural confidence rather than being seen as old-fashioned or uncool.",
-    "examples": [
-      {
-        "chinese": "她今天穿了一套新中式穿搭，马面裙配白色衬衫，走在街上回头率超高。",
-        "english": "She wore a New Chinese Style outfit today — a pleated mamian skirt paired with a white shirt — and turned heads everywhere she walked."
-      },
-      {
-        "chinese": "最近新中式穿搭太火了，连我妈都说我终于穿得好看了。",
-        "english": "New Chinese Style fashion is so hot right now — even my mom finally said I look good for once."
-      }
-    ],
-    "popularity": 5,
-    "origin_story": "The fashion movement combining traditional Chinese garment elements (立领 Mandarin collar, 盘扣 frog buttons, 马面裙 horse-face skirts) with contemporary silhouettes. Spread rapidly through Xiaohongshu as cultural confidence grew. Became a fashion statement about Chinese identity rather than just aesthetics.",
-    "similar_expressions": "Like 'modern hanfu,' 'Sino-chic,' or the broader global movement of incorporating traditional cultural garments into everyday fashion. Similar to how Korean fashion incorporates hanbok elements, but with explicit cultural identity significance."
   },
   {
     "slug": "xin-zhong-shi",
@@ -10144,32 +9282,6 @@
     "popularity": 4
   },
   {
-    "slug": "yushu-keji",
-    "chinese_name": "宇树科技",
-    "pinyin": "Yùshù Kējì",
-    "english_name": "Unitree Robotics",
-    "year": 2025,
-    "status": "classic",
-    "tags": [
-      "consumerism",
-      "technology"
-    ],
-    "chinese_explanation": "宇树科技是中国机器人公司，其人形机器人在春晚亮相后引发全民热议，成为科技自信的象征。",
-    "english_explanation": "Unitree Robotics became a meme sensation after its humanoid robots danced on China's biggest TV event — the Spring Festival Gala — in early 2025. The clip went viral globally, sparking a mix of awe, pride, and dark humor. Chinese netizens joked that the robots were coming for their jobs before their bosses even had the chance. The brand became shorthand for China's tech ambitions, robot anxiety, and the bittersweet feeling of living in 'the future' while still stuck in a 996 work grind.",
-    "cultural_context": "China's push for robotics leadership accelerated visibly in 2025, with Unitree's agile, affordable humanoid robots drawing global attention. The Spring Gala appearance — watched by hundreds of millions — turned a tech company into a cultural moment. For Chinese youth already anxious about automation and unemployment, the spectacle was both inspiring and unsettling, fueling memes about robots replacing workers in a tough job market.",
-    "examples": [
-      {
-        "chinese": "又加班到凌晨，宇树科技快来把我换掉吧。",
-        "english": "Another midnight overtime shift — Unitree Robotics, please just come replace me already."
-      },
-      {
-        "chinese": "看了春晚的机器人表演，感觉宇树科技比我跳舞还好看。",
-        "english": "After watching the Gala robot performance, I realized Unitree's robots dance better than I ever will."
-      }
-    ],
-    "popularity": 3
-  },
-  {
     "slug": "yi-ren-you",
     "chinese_name": "一人游",
     "pinyin": "yī rén yóu",
@@ -10215,31 +9327,6 @@
       {
         "chinese": "一人食的最高境界就是不用抢最后一块肉。",
         "english": "The ultimate zen of eating alone: no one to fight over the last piece of meat."
-      }
-    ],
-    "popularity": 4
-  },
-  {
-    "slug": "du-ju-wen-hua",
-    "chinese_name": "独居文化",
-    "pinyin": "dú jū wén huà",
-    "english_name": "Solo Living Culture",
-    "year": 2025,
-    "status": "classic",
-    "tags": [
-      "consumerism"
-    ],
-    "chinese_explanation": "年轻人选择独自生活，享受个人空间与自由，形成一种新兴生活方式潮流。",
-    "english_explanation": "独居文化 is the Chinese Gen-Z embrace of living alone as a lifestyle flex, not a consolation prize. Think carefully curated solo dinners, one-person hot pot sets, and the quiet joy of answering to nobody. It reframes solitude as self-sovereignty — equal parts aesthetic movement and gentle rebellion against the pressure to couple up, move back home, or follow the traditional life script.",
-    "cultural_context": "Skyrocketing urban rents, delayed marriage ages, and post-pandemic introspection pushed millions of young Chinese urbanites into solo households. Rather than treating this as failure, they turned it into identity. Social media amplified the aesthetic: cozy solo apartments, self-care routines, and single-serving everything normalized what older generations once considered lonely or embarrassing.",
-    "examples": [
-      {
-        "chinese": "自从开始独居，我终于找到了属于自己的节奏，再也不想凑合过日子了。",
-        "english": "Ever since I started living alone, I've finally found my own rhythm — no more compromising just to get by."
-      },
-      {
-        "chinese": "一个人的火锅虽然看起来孤独，但这就是独居文化的精髓啊。",
-        "english": "A hot pot for one might look lonely to outsiders, but that's exactly the essence of solo living culture."
       }
     ],
     "popularity": 4
@@ -10295,31 +9382,6 @@
     "popularity": 4
   },
   {
-    "slug": "suren-jueqi",
-    "chinese_name": "素人崛起",
-    "pinyin": "sùrén juéqǐ",
-    "english_name": "The Rise of the Ordinary Person",
-    "year": 2025,
-    "status": "classic",
-    "tags": [
-      "consumerism"
-    ],
-    "chinese_explanation": "普通人凭借真实感和接地气内容逆袭，击败精英或专业人士的社会现象。",
-    "english_explanation": "This meme celebrates the unexpected triumph of ordinary, unpolished individuals over trained experts or polished elites — think an amateur food blogger outperforming a Michelin-trained chef's restaurant in likes. It captures a 2025 vibe where authenticity and relatability beat credentials and production value. The 'ordinary person' wins not despite their roughness, but because of it. Equal parts underdog fantasy and quiet dig at institutions.",
-    "cultural_context": "Amid youth unemployment pressures and skepticism toward credentialism, Chinese Gen-Z has increasingly celebrated 'unglamorous' content creators and grassroots hustlers who go viral simply by being real. The meme reflects disillusionment with elite gatekeepers — prestigious degrees, polished influencers, corporate ladders — and a collective appetite for stories where the nobody beats the somebody.",
-    "examples": [
-      {
-        "chinese": "那个没有任何背景的素人选手在决赛上把专业选手全打败了，这就是素人崛起啊！",
-        "english": "That contestant with zero industry connections beat all the pros in the finals — this is literally 'the rise of the ordinary person'!"
-      },
-      {
-        "chinese": "她就用手机随便拍了个做饭视频，结果涨了五十万粉，素人崛起真的不是说说而已。",
-        "english": "She just casually filmed herself cooking on her phone and gained 500,000 followers — 'the rise of the ordinary person' is no joke."
-      }
-    ],
-    "popularity": 3
-  },
-  {
     "slug": "qu-ai-wei",
     "chinese_name": "去AI味",
     "pinyin": "qù AI wèi",
@@ -10369,32 +9431,6 @@
       }
     ],
     "popularity": 4
-  },
-  {
-    "slug": "fan-ai-lang-chao",
-    "chinese_name": "反AI浪潮",
-    "pinyin": "fǎn AI làng cháo",
-    "english_name": "Anti-AI Wave",
-    "year": 2025,
-    "status": "classic",
-    "tags": [
-      "technology",
-      "workplace"
-    ],
-    "chinese_explanation": "指网络上兴起的对AI取代人类工作、创作和思维的抵制与反思浪潮，带有焦虑与自嘲色彩。",
-    "english_explanation": "The 'Anti-AI Wave' is China's version of the global tech-backlash meme, but with extra existential flavor. As AI tools flooded workplaces and creative spaces, a counter-current emerged — people proudly declaring they still do things 'the human way,' whether out of genuine principle or just because they can't get the AI to work right. It's equal parts protest, coping mechanism, and ironic self-deprecation from a generation watching their skills get automated in real time.",
-    "cultural_context": "By 2025, AI tools like writing assistants, image generators, and coding bots became deeply embedded in Chinese workplaces and schools. Amid growing anxiety about job displacement and the devaluation of human creativity, a grassroots online sentiment emerged pushing back against uncritical AI adoption. This coincided with debates around academic integrity, artistic authenticity, and the psychological toll of constant comparison to machine output.",
-    "examples": [
-      {
-        "chinese": "我加入反AI浪潮了，以后写东西全靠自己，哪怕写得烂。",
-        "english": "I've joined the Anti-AI Wave — from now on I write everything myself, even if it's terrible."
-      },
-      {
-        "chinese": "反AI浪潮不是说AI不好，是说我们不能把思考都外包出去。",
-        "english": "The Anti-AI Wave isn't about AI being bad — it's about not outsourcing all our thinking to machines."
-      }
-    ],
-    "popularity": 3
   },
   {
     "slug": "xu-ni-lian-ren",
@@ -10498,85 +9534,6 @@
     "popularity": 3
   },
   {
-    "slug": "wen-hua-chu-hai",
-    "chinese_name": "文化出海",
-    "pinyin": "wén huà chū hǎi",
-    "english_name": "Cultural Going Global / Culture Sets Sail",
-    "year": 2025,
-    "status": "classic",
-    "tags": [
-      "consumerism"
-    ],
-    "chinese_explanation": "指中国文化产品（游戏、影视、音乐、短视频等）走向海外市场并获得国际认可的现象。",
-    "english_explanation": "Literally 'culture sets sail,' this phrase captures China's booming export of homegrown pop culture — think viral mobile games, C-dramas binge-watched in Southeast Asia, and TikTok-adjacent content conquering global feeds. It's part national pride, part meme, part economic buzzword. Chinese netizens use it proudly when a local IP goes international, but also ironically when the 'export' is something embarrassingly niche. The vibe sits somewhere between 'we made it' and 'wait, they actually like this?'",
-    "cultural_context": "As China's domestic market matured, industries from gaming (miHoYo's global hits) to short drama apps began aggressively targeting overseas audiences. The 2024–2025 wave of Chinese-made apps and content succeeding abroad fueled both genuine patriotic enthusiasm and a self-aware internet meme culture around what 'representing China' actually means when a costume drama about palace intrigue tops charts in Thailand.",
-    "examples": [
-      {
-        "chinese": "《黑神话：悟空》真的做到了文化出海，老外玩得比我们还疯。",
-        "english": "Black Myth: Wukong actually pulled off cultural going global — foreigners are playing it even harder than we are."
-      },
-      {
-        "chinese": "某短剧App在美国爆火，网友：这就是文化出海？好吧，算吧。",
-        "english": "A Chinese short-drama app blew up in America. Netizens replied: 'This counts as cultural going global? Okay, sure, we'll take it.'"
-      }
-    ],
-    "popularity": 4
-  },
-  {
-    "slug": "guo-man-jueqi",
-    "chinese_name": "国漫崛起",
-    "pinyin": "guó màn juéqǐ",
-    "english_name": "The Rise of Chinese Animation",
-    "year": 2025,
-    "status": "still popular",
-    "tags": [
-      "fandom",
-      "technology"
-    ],
-    "chinese_explanation": "指中国动漫产业不断发展壮大，国产动画逐渐赶超日美的网络流行语，常带有自豪或调侃意味。",
-    "english_explanation": "A rallying cry and internet meme celebrating — sometimes sarcastically — the supposed golden age of Chinese homegrown animation. Fans use it to hype every new domestic hit, but it's also deployed ironically when a hyped title flops spectacularly. Think of it as 'China's anime era has arrived!' uttered with equal parts genuine pride and knowing self-awareness. By 2025 it had become a staple reaction phrase in fandom spaces.",
-    "cultural_context": "China's animation industry grew rapidly through the 2010s–2020s, fueled by government support and platform investment. Breakout hits like Ne Zha and White Snake gave audiences genuine reasons to cheer. Yet inconsistent quality meant fans learned to temper expectations. The phrase crystallized this tension between patriotic optimism and the recurring disappointment of overhyped releases, making it a versatile all-purpose fandom shorthand.",
-    "examples": [
-      {
-        "chinese": "《天官赐福》动画第二季口碑炸裂，网友纷纷感叹：国漫崛起不是梦！",
-        "english": "The second season of 'Heaven Official's Blessing' received rave reviews, and fans exclaimed: 'The rise of Chinese animation is no longer just a dream!'"
-      },
-      {
-        "chinese": "又一部预告片做得比正片好看的国漫……国漫崛起，崛起个寂寞。",
-        "english": "Another Chinese anime where the trailer looks better than the actual show... 'The rise of Chinese animation' — rising into nothing, apparently."
-      }
-    ],
-    "popularity": 4
-  },
-  {
-    "slug": "nazha-er-xianxiang",
-    "chinese_name": "哪吒2现象",
-    "pinyin": "Nǎzhā èr xiànxiàng",
-    "english_name": "The Ne Zha 2 Phenomenon",
-    "year": 2025,
-    "status": "still popular",
-    "tags": [
-      "consumerism",
-      "fandom"
-    ],
-    "chinese_explanation": "指《哪吒之魔童降世2》上映后引发的全民观影热潮及相关文化讨论，象征国产动画崛起与民族自豪感的爆发。",
-    "english_explanation": "Refers to the massive cultural shockwave triggered by the release of 'Ne Zha 2' in early 2025, which shattered Chinese box office records and sparked nationwide pride in homegrown animation. The 'phenomenon' label captures how it transcended mere movie-going: people saw it multiple times, workplaces scheduled group outings, and online discourse exploded with debates about Chinese soft power, artistic ambition, and whether this proved domestic animation had finally arrived. Think less 'it's a hit film' and more 'it became a collective identity moment.'",
-    "cultural_context": "Against a backdrop of economic uncertainty and ongoing US-China tensions, Ne Zha 2 arrived as a feel-good nationalist touchstone. Chinese audiences, increasingly skeptical of Hollywood imports and hungry for cultural confidence, embraced it as proof that domestic studios could compete globally. The film's success was amplified by social media pile-ons, government endorsement, and a generation of young viewers eager for homegrown heroes to root for.",
-    "examples": [
-      {
-        "chinese": "我们公司搞了团建去看哪吒2，这就是哪吒2现象吧，连老板都哭了。",
-        "english": "Our company organized a team-building trip to see Ne Zha 2 — that's the Ne Zha 2 phenomenon for you; even the boss was crying."
-      },
-      {
-        "chinese": "哪吒2现象说明国产动画真的站起来了，以后不用羡慕迪士尼了。",
-        "english": "The Ne Zha 2 phenomenon proves that Chinese animation has truly risen — no need to envy Disney anymore."
-      }
-    ],
-    "popularity": 5,
-    "origin_story": "The sequel to 2019's Ne Zha became a massive domestic blockbuster in early 2025, breaking records and generating enormous cultural discussion. It was framed both as entertainment and as proof of Chinese animation's maturity — 国漫崛起 (Chinese animation rising) narrative that carried national pride beyond just box office numbers.",
-    "similar_expressions": "Like a blockbuster film becoming a cultural moment and national pride symbol simultaneously. Similar to how some Hollywood films become cultural events, but with explicit framing as evidence of national capability."
-  },
-  {
     "slug": "ai-tidai-jiaolv",
     "chinese_name": "AI替代焦虑",
     "pinyin": "AI tìdài jiāolǜ",
@@ -10629,32 +9586,6 @@
       }
     ],
     "popularity": 3
-  },
-  {
-    "slug": "guochan-ai-jueqi",
-    "chinese_name": "国产AI崛起",
-    "pinyin": "guóchǎn AI juéqǐ",
-    "english_name": "The Rise of Domestic AI",
-    "year": 2025,
-    "status": "classic",
-    "tags": [
-      "consumerism",
-      "technology"
-    ],
-    "chinese_explanation": "指中国自研AI模型（如DeepSeek等）迅速崛起，挑战西方科技巨头主导地位的现象与网络情绪。",
-    "english_explanation": "This meme captures the collective excitement — equal parts patriotic pride and genuine amazement — when Chinese-developed AI models like DeepSeek started seriously challenging OpenAI and Google on benchmarks. Online it's used to hype local tech wins, mock earlier assumptions that China was perpetually 'catching up,' and sometimes as gentle sarcasm when domestic products still fall short. Think of it as the tech equivalent of a sports upset chant.",
-    "cultural_context": "Against a backdrop of US chip export restrictions and tech decoupling, China's homegrown AI sector became a flashpoint for national sentiment in 2025. When models like DeepSeek-R1 matched or beat Western rivals at a fraction of the cost, it triggered a wave of online pride, stock market frenzies, and meme culture celebrating technological self-reliance — a theme that resonates deeply with broader 'dual circulation' economic policy narratives.",
-    "examples": [
-      {
-        "chinese": "DeepSeek又登顶了，国产AI崛起不是口号，是真的干出来的！",
-        "english": "DeepSeek topped the charts again — 'the rise of domestic AI' isn't just a slogan, they actually delivered!"
-      },
-      {
-        "chinese": "以前觉得国产AI崛起是爱国滤镜，现在确实得承认技术真的上来了。",
-        "english": "I used to think 'rise of domestic AI' was just patriotic hype, but honestly I have to admit the tech has genuinely caught up."
-      }
-    ],
-    "popularity": 4
   },
   {
     "slug": "deepseek-re",
@@ -10788,32 +9719,6 @@
     "popularity": 4
   },
   {
-    "slug": "fufei-duanju",
-    "chinese_name": "付费短剧",
-    "pinyin": "fùfèi duǎnjù",
-    "english_name": "Paid micro-drama / pay-per-episode short series",
-    "year": 2026,
-    "status": "classic",
-    "tags": [
-      "consumerism",
-      "romance"
-    ],
-    "chinese_explanation": "付费短剧是指在手机平台上按集或按包付费观看的超短剧集，剧情狗血、节奏飞快，专为碎片化时间设计。",
-    "english_explanation": "Imagine soap operas compressed into 60-second episodes, engineered to be maximally addictive and sold chapter-by-chapter for a few cents each. That's the paid micro-drama — China's runaway mobile entertainment format. Think Cinderella-meets-CEO plotlines, reincarnation revenge arcs, or rags-to-riches fantasies, all delivered at breakneck speed on apps like Douyin and Kuaishou. Before you know it, you've spent ¥30 finding out if the billionaire remembered his amnesiac wife.",
-    "cultural_context": "China's micro-drama industry exploded past ¥50 billion in annual revenue by the mid-2020s, thriving on short attention spans, affordable per-episode pricing, and algorithmically optimized cliffhangers. The format particularly resonates with blue-collar workers, older audiences, and anyone seeking low-effort escapism during commutes or lunch breaks. Its rise reflects broader anxieties around economic pressure and the appeal of fantasy wish-fulfillment narratives.",
-    "examples": [
-      {
-        "chinese": "我最近迷上付费短剧了，一不小心充了好几十块，结局还不咋地。",
-        "english": "I got hooked on paid micro-dramas lately — accidentally spent like fifty yuan, and the ending wasn't even that good."
-      },
-      {
-        "chinese": "付费短剧就是专门在最爽的地方断集，逼你掏钱的那种。",
-        "english": "Paid micro-dramas always cut off right at the most exciting moment — it's basically a machine designed to make you open your wallet."
-      }
-    ],
-    "popularity": 3
-  },
-  {
     "slug": "wei-duan-ju",
     "chinese_name": "微短剧",
     "pinyin": "wēi duǎn jù",
@@ -10840,57 +9745,6 @@
     "popularity": 4
   },
   {
-    "slug": "duan-ju-chu-hai",
-    "chinese_name": "短剧出海",
-    "pinyin": "duǎn jù chū hǎi",
-    "english_name": "Short Drama Goes Global",
-    "year": 2026,
-    "status": "still popular",
-    "tags": [
-      "consumerism",
-      "technology"
-    ],
-    "chinese_explanation": "中国竖屏微短剧大规模进军海外市场，在欧美东南亚等地掀起收视热潮的现象。",
-    "english_explanation": "Imagine soap operas compressed into three-minute vertical videos, packed with billionaires falling for Cinderellas, werewolf romances, and revenge arcs — then imagine them conquering TikTok and ReelShort from Kansas to Kuala Lumpur. That's '短剧出海': China's micro-drama industry taking its addictive, algorithmically-tuned melodrama global and quietly raking in millions from audiences who can't stop tapping 'next episode.'",
-    "cultural_context": "China's domestic short-drama market exploded after 2022, producing thousands of hyper-compressed serialized stories optimized for mobile. By 2024–2026, platforms like ReelShort and DramaBox were adapting these formats for Western tastes, localizing scripts while keeping the turbo-charged emotional beats. The trend became a rare example of Chinese cultural-tech exports succeeding in Western markets, sparking both business excitement and media commentary about soft power.",
-    "examples": [
-      {
-        "chinese": "现在美国大妈也在刷短剧，中国短剧出海真的太猛了！",
-        "english": "Even American grandmas are binge-watching them now — China's short drama exports are absolutely crushing it!"
-      },
-      {
-        "chinese": "我们公司准备入局短剧出海赛道，这块市场增长太快了。",
-        "english": "Our company is jumping into the overseas short-drama track — this market is growing way too fast to ignore."
-      }
-    ],
-    "popularity": 4
-  },
-  {
-    "slug": "ai-duan-ju",
-    "chinese_name": "AI短剧",
-    "pinyin": "AI duǎn jù",
-    "english_name": "AI Mini-Drama",
-    "year": 2026,
-    "status": "still popular",
-    "tags": [
-      "technology"
-    ],
-    "chinese_explanation": "用AI生成的短视频剧集，剧情狗血、画面奇异，成为网络娱乐新风口。",
-    "english_explanation": "AI短剧 refers to ultra-short video dramas generated entirely by AI tools — think five-minute melodramas where the faces occasionally melt and the plot logic is held together with vibes alone. Birthed from China's exploding short-drama industry and turbocharged by generative AI, these bite-sized soaps are equal parts impressive and hilariously uncanny. Audiences watch them ironically, earnestly, or both, and the meme celebrates the glorious chaos of AI storytelling gone both right and very, very wrong.",
-    "cultural_context": "China's short-drama (短剧) industry was already a multi-billion-yuan juggernaut before AI entered the picture. By 2025–2026, creators began mass-producing episodes using text-to-video and AI dubbing tools, flooding platforms like Douyin and Kuaishou with content at inhuman speed. The meme reflects both amazement at the technology and gentle mockery of the formulaic, often surreal output it produces.",
-    "examples": [
-      {
-        "chinese": "我昨晚刷了一整夜AI短剧，男主角的手指有八根，但剧情真的很上头。",
-        "english": "I binge-watched AI mini-dramas all night — the male lead had eight fingers, but the plot was genuinely addictive."
-      },
-      {
-        "chinese": "现在AI短剧越来越多，有些连演员都不需要了，直接生成就行。",
-        "english": "AI mini-dramas are everywhere now — some don't even need actors anymore, just hit generate and you're done."
-      }
-    ],
-    "popularity": 4
-  },
-  {
     "slug": "hui-gui-ren-wei",
     "chinese_name": "回归人味",
     "pinyin": "huí guī rén wèi",
@@ -10911,33 +9765,6 @@
       {
         "chinese": "他发的朋友圈终于有点人味了，不像以前那样像广告。",
         "english": "His WeChat Moments finally feel like a real person again — not like a walking advertisement."
-      }
-    ],
-    "popularity": 3
-  },
-  {
-    "slug": "ai-pao-mo",
-    "chinese_name": "AI泡沫",
-    "pinyin": "AI pào mò",
-    "english_name": "AI Bubble",
-    "year": 2026,
-    "status": "classic",
-    "tags": [
-      "consumerism",
-      "technology",
-      "workplace"
-    ],
-    "chinese_explanation": "指AI热潮虚高、产品同质化严重、实际价值远不及炒作的社会现象，带有自嘲与讽刺意味。",
-    "english_explanation": "\"AI Bubble\" is the sardonic Chinese netizen's verdict on the AI gold rush: a sea of near-identical chatbots, copilots, and 'intelligent' gadgets flooding the market while actual productivity gains remain suspiciously hard to find. It's used to roast overhyped startups, eye-roll at yet another 'AI-powered' toothbrush, or commiserate with colleagues whose jobs were supposedly replaced by tools that hallucinate meeting notes. Think Silicon Valley hype cycle, but with extra baijiu.",
-    "cultural_context": "As global AI investment surged through 2024–2026, Chinese consumers and workers grew increasingly skeptical of products slapping 'AI' onto mundane features to justify premium pricing. Layoffs attributed to automation, combined with underwhelming real-world AI performance, fueled a collective disillusionment. The meme crystallized frustration among tech workers, students, and office employees who felt the AI boom benefited investors far more than ordinary people.",
-    "examples": [
-      {
-        "chinese": "又一个'AI助手'上线了，功能还不如搜索引擎，果然是AI泡沫时代的产物。",
-        "english": "Another 'AI assistant' just launched — does less than a search engine. A true child of the AI Bubble era."
-      },
-      {
-        "chinese": "我们公司裁了一半人说要用AI替代，结果AI每天在群里发错文件，AI泡沫害了多少人啊。",
-        "english": "Our company laid off half the staff saying AI would replace them — now the AI sends wrong files in the group chat every day. The AI Bubble has claimed so many victims."
       }
     ],
     "popularity": 3
@@ -10992,31 +9819,6 @@
       }
     ],
     "popularity": 4
-  },
-  {
-    "slug": "shuzi-yongsheng",
-    "chinese_name": "数字永生",
-    "pinyin": "shùzì yǒngshēng",
-    "english_name": "Digital Immortality",
-    "year": 2026,
-    "status": "classic",
-    "tags": [
-      "technology"
-    ],
-    "chinese_explanation": "指通过AI技术将逝者的声音、形象、记忆数字化复现，使其在虚拟世界中\"永续存在\"的现象。",
-    "english_explanation": "When an AI reconstructs a deceased person's voice, face, and personality so convincingly that they seem to live on in your phone. What started as a grief-tech novelty exploded into mainstream culture as companies offered to 'resurrect' loved ones via chatbot. Cue equal parts comfort, existential dread, and heated family group-chat arguments about whether grandma's AI clone should get a vote on the Spring Festival menu.",
-    "cultural_context": "Driven by rapid advances in Chinese AI and a cultural emphasis on ancestor veneration, startups began offering digital resurrection services around 2024–2026. The trend sparked fierce public debate about consent, exploitation of grief, and what 'personhood' means when your data outlives your body — all amplified by China's massive aging population and sky-high demand for elder-care solutions.",
-    "examples": [
-      {
-        "chinese": "他花了好几万给去世的父亲做了数字永生，现在逢年过节还会跟AI爸爸视频通话。",
-        "english": "He spent tens of thousands having his late father digitally immortalized — now he video-calls AI-Dad every holiday."
-      },
-      {
-        "chinese": "数字永生听起来很科幻，但我总觉得那个'人'说的话根本不像我妈。",
-        "english": "Digital immortality sounds sci-fi, but I just can't shake the feeling that thing doesn't talk anything like my mom."
-      }
-    ],
-    "popularity": 3
   },
   {
     "slug": "ai-ban-lv",
@@ -11202,7 +10004,7 @@
     ]
   },
   {
-    "slug": "zha-nü",
+    "slug": "zha-nv",
     "chinese_name": "渣女",
     "pinyin": "zhā nǚ",
     "english_name": "Trash Woman / Female Player",
@@ -11490,56 +10292,6 @@
     ]
   },
   {
-    "slug": "me-me-za",
-    "chinese_name": "么么扎",
-    "pinyin": "me me zā",
-    "english_name": "Muah Zap / Kiss Poke",
-    "year": 2016,
-    "status": "classic",
-    "popularity": 2,
-    "tags": [
-      "romance"
-    ],
-    "chinese_explanation": "么么哒的变体，扎有戳一下的意思，比么么哒更调皮活泼。",
-    "english_explanation": "A playful variant of 么么哒 (muah), where 扎 means to poke or jab. The combination creates a 'kiss-poke' gesture that implies playful affection rather than sincere sweetness. Used in the same contexts as 么么哒 but with a more mischievous energy. Unlike the sweeter 么么哒, 么么扎 adds a playful jab — imagine blowing a kiss and immediately poking someone. It captured a specific mood of flirtatious teasing that dominated early WeChat and QQ conversations.",
-    "cultural_context": "Variants and mutations of popular expressions are common in Chinese internet culture — users constantly remix and modify existing terms to create slightly different emotional nuances. 么么扎 represents this remix culture applied to basic affection expressions.",
-    "examples": [
-      {
-        "chinese": "好久不见！么么扎～",
-        "english": "Long time no see! Kiss-poke~"
-      },
-      {
-        "chinese": "你好可爱！么么扎一下。",
-        "english": "You're so cute! Kiss-poke."
-      }
-    ]
-  },
-  {
-    "slug": "dai-pai",
-    "chinese_name": "代拍",
-    "pinyin": "dài pāi",
-    "english_name": "Proxy Paparazzi / Fan Photography Service",
-    "year": 2021,
-    "status": "fading",
-    "popularity": 2,
-    "tags": [
-      "fandom"
-    ],
-    "chinese_explanation": "粉丝雇人在机场、活动现场等地为明星拍照，再将照片分发给粉丝群体的商业行为。",
-    "english_explanation": "A uniquely Chinese fan economy service where professional photographers are hired by fan communities to photograph celebrities at airports, events, and public appearances. The photos are then distributed to fan groups. 代拍 created a cottage industry — skilled photographers could earn significant income following celebrities, while fans got high-quality candid shots they couldn't get themselves.",
-    "cultural_context": "Reflects the extraordinary organization and commercial sophistication of Chinese fan communities. Unlike Western paparazzi (media-driven), 代拍 is fan-driven — the goal is to share images within fan communities, not sell to tabloids. The industry was partially curbed by regulations around celebrity image rights.",
-    "examples": [
-      {
-        "chinese": "这张机场图是代拍拍的，质量超好。",
-        "english": "This airport photo was taken by a proxy photographer — the quality is amazing."
-      },
-      {
-        "chinese": "他们家粉丝组织了代拍团队，每次都有好多图。",
-        "english": "His fan club organized a photography team — there are always tons of photos."
-      }
-    ]
-  },
-  {
     "slug": "fo-xi-fu-mu",
     "chinese_name": "佛系父母",
     "pinyin": "fó xì fù mǔ",
@@ -11690,31 +10442,6 @@
     ]
   },
   {
-    "slug": "sun-ying-sha",
-    "chinese_name": "孙颖莎",
-    "pinyin": "sūn yǐng shā",
-    "english_name": "Sun Yingsha (Table Tennis Star)",
-    "year": 2024,
-    "status": "classic",
-    "popularity": 3,
-    "tags": [
-      "lifestyle"
-    ],
-    "chinese_explanation": "中国乒乓球女运动员，巴黎奥运会金牌得主，与樊振东的\"莎头组合\"深受球迷喜爱。",
-    "english_explanation": "China's top female table tennis player and Paris 2024 gold medalist. Known for her aggressive playing style and her fan-beloved partnership with male star Fan Zhendong (樊振东) — together called the '莎头组合' by fans who ship them as a couple. Her dominance in the sport and charismatic personality made her one of China's most beloved athletes in 2024.",
-    "cultural_context": "In Chinese sports fan culture, athletes are shipped (romantically paired by fans) similarly to entertainment celebrities. The '莎头组合' shipping of Sun Yingsha and Fan Zhendong became one of the most prominent sports fan phenomena of 2024, blending sports fandom with parasocial romantic fantasy.",
-    "examples": [
-      {
-        "chinese": "孙颖莎又赢了，莎头组合天下无敌！",
-        "english": "Sun Yingsha won again — the 莎头 combo is unbeatable!"
-      },
-      {
-        "chinese": "她打球太好看了，看完比赛又爱上了。",
-        "english": "Her playing is so beautiful to watch — fell in love all over again after the match."
-      }
-    ]
-  },
-  {
     "slug": "ying-yong",
     "chinese_name": "应援",
     "pinyin": "yìng yuán",
@@ -11790,7 +10517,7 @@
     ]
   },
   {
-    "slug": "shu-ju-nü-gong",
+    "slug": "shu-ju-nv-gong",
     "chinese_name": "数据女工",
     "pinyin": "shù jù nǚ gōng",
     "english_name": "Data Girl-Workers / Fan Data Laborers",
@@ -11813,56 +10540,6 @@
       {
         "chinese": "我已经从数据女工退休了，不值得搞这些。",
         "english": "I've retired from being a data girl-worker — not worth it."
-      }
-    ]
-  },
-  {
-    "slug": "ben-cao-gang-mu-jian-shen-cao",
-    "chinese_name": "本草纲目健身操",
-    "pinyin": "běn cǎo gāng mù jiàn shēn cāo",
-    "english_name": "Compendium of Materia Medica Workout",
-    "year": 2022,
-    "status": "fading",
-    "popularity": 2,
-    "tags": [
-      "lifestyle"
-    ],
-    "chinese_explanation": "刘畊宏直播健身时配合周杰伦《本草纲目》音乐的健身操，在2022年疫情期间走红。",
-    "english_explanation": "A workout routine created by fitness streamer Liu Genghong (劉畊宏) set to Jay Chou's song 'Compendium of Materia Medica' (本草纲目). During 2022 COVID lockdowns, millions of people stuck at home joined Liu's livestreams and did this specific routine together. The combination of nostalgia (Jay Chou), accessible fitness, and pandemic boredom created a cultural moment.",
-    "cultural_context": "The 本草纲目健身操 moment captured something specific about COVID-era China: mass participation in synchronized activities as social bonding. Millions of people doing the same workout at the same time created community during isolation. The routine's popularity crashed when lockdowns ended and people returned to normal life.",
-    "examples": [
-      {
-        "chinese": "2022年封控那段时间，每天跟刘畊宏跳本草纲目操。",
-        "english": "During the 2022 lockdowns, I did the Compendium of Materia Medica workout with Liu Genghong every day."
-      },
-      {
-        "chinese": "本草纲目操治好了我的封控抑郁。",
-        "english": "The Compendium workout cured my lockdown depression."
-      }
-    ]
-  },
-  {
-    "slug": "fan-zhen-dong",
-    "chinese_name": "樊振东",
-    "pinyin": "fán zhèn dōng",
-    "english_name": "Fan Zhendong (Table Tennis Champion)",
-    "year": 2024,
-    "status": "classic",
-    "popularity": 3,
-    "tags": [
-      "lifestyle"
-    ],
-    "chinese_explanation": "中国乒乓球男运动员，奥运冠军，与孙颖莎并称\"莎头组合\"，深受粉丝喜爱。",
-    "english_explanation": "China's top male table tennis player and reigning world champion. Multiple Olympic gold medalist known for his powerful forehand and complete game. Beloved by fans not just for his dominance but for his humble, low-key personality in contrast to his extraordinary achievements. His fan community ships him with partner Sun Yingsha as the '莎头组合.'",
-    "cultural_context": "Fan Zhendong represents a type of Chinese sports celebrity that fans find particularly appealing: genuinely humble about extraordinary talent. His contrast with more self-promotional athletes makes him aspirationally likable. The shipping culture around him and Sun Yingsha shows how sports fandom and entertainment fandom have merged in China.",
-    "examples": [
-      {
-        "chinese": "樊振东又拿世界冠军了，低调的神。",
-        "english": "Fan Zhendong won the world championship again — the quietly dominant god."
-      },
-      {
-        "chinese": "莎头组合天下第一！",
-        "english": "The 莎头 duo is number one in the world!"
       }
     ]
   },
@@ -11913,31 +10590,6 @@
       {
         "chinese": "真香定律：王境泽告诉我们，永远不要说永远不。",
         "english": "The True Fragrance Law: Wang Jingze taught us to never say never."
-      }
-    ]
-  },
-  {
-    "slug": "kong-ping-2021",
-    "chinese_name": "空瓶",
-    "pinyin": "kōng píng",
-    "english_name": "Empty Bottle / Used Up Product",
-    "year": 2021,
-    "status": "fading",
-    "popularity": 2,
-    "tags": [
-      "fandom"
-    ],
-    "chinese_explanation": "美妆护肤品用到见底，粉丝在社交媒体分享空瓶，表示对产品的认可，也是种草文化的一部分。",
-    "english_explanation": "An empty product bottle — specifically the practice of sharing photos of finished skincare and beauty products on social media as authentic product reviews. An 空瓶 represents genuine use and tacit approval: if you finished the whole bottle, you must have liked it. 空瓶 posts became a trusted form of recommendation in a sea of paid promotions.",
-    "cultural_context": "空瓶 culture emerged as a response to the paid promotion epidemic on Chinese beauty platforms. Consumers grew suspicious of influencer recommendations (how many products do they actually use?). 空瓶 posts — showing the evidence of real consumption — became more trustworthy signals. The empty bottle became a receipt for genuine endorsement.",
-    "examples": [
-      {
-        "chinese": "终于把这瓶精华用完了，分享一个空瓶，真的好用！",
-        "english": "Finally finished this serum — sharing an empty bottle review: genuinely good!"
-      },
-      {
-        "chinese": "她晒了一堆空瓶，看来这个牌子真的不错。",
-        "english": "She posted a bunch of empty bottles — seems like this brand is genuinely good."
       }
     ]
   },
@@ -13312,7 +11964,7 @@
     "popularity": 3,
     "tags": [
       "humor",
-      "social-commentary",
+      "internet-culture",
       "identity"
     ],
     "chinese_explanation": "城里人真会玩，对城市人奇葩行为的嘲讽或惊叹，表达对某些怪异潮流的困惑与不理解。",
@@ -13341,7 +11993,7 @@
     "tags": [
       "humor",
       "self-deprecation",
-      "Gen-Z"
+      "identity"
     ],
     "chinese_explanation": "傻X的谐音替代，字面意思是沙雕（沙子雕塑），形容某人或某事愚蠢可爱，语气比傻X温和，带有喜爱意味。",
     "english_explanation": "A phonetic pun on a crude insult (沙雕 sounds like a profanity), meaning sand sculpture. Used to describe someone or something that is endearingly stupid — not maliciously dumb, but charmingly, goofily dumb. '你真沙雕' can be affectionate. 'This video is so 沙雕' means it's absurdly funny. It's the soft version of calling someone an idiot, with the sting removed and replaced with fondness.",
@@ -13360,34 +12012,6 @@
     ]
   },
   {
-    "slug": "pan-ta",
-    "chinese_name": "盘它",
-    "pinyin": "pán tā",
-    "english_name": "Work It / Handle It / Let's Do This",
-    "year": 2018,
-    "status": "classic",
-    "popularity": 4,
-    "tags": [
-      "lifestyle",
-      "internet-culture",
-      "humor"
-    ],
-    "chinese_explanation": "原指盘玩文玩核桃等收藏品，后引申为把玩、处理、搞定某事，也有上手试试的意思。",
-    "english_explanation": "Originally from the hobby of 盘玩 — slowly turning and polishing collectibles like walnuts or jade in your hand to develop their patina over time. The meditative, hands-on quality of 盘玩 transferred to mean: handle something, work it, mess around with it, give it a try. '盘它' can mean 'let's try this food,' 'I'll take care of this problem,' or 'watch me handle this situation.' The key quality is engaged, hands-on enjoyment.",
-    "cultural_context": "The collectibles hobby (文玩) that spawned this term is itself a fascinating cultural phenomenon — middle-aged Chinese men spending fortunes on walnuts, amber, and wooden beads to polish by hand. When young internet users borrowed 盘它, they brought ironic awareness of this older man hobby while genuinely adopting the energy of patient, engaged handling.",
-    "similar_expressions": "Like 'I got this,' 'let me work on it,' 'give it here,' or 'watch me.' The tactile quality — physical handling, turning something over — distinguishes it from more abstract 'I'll deal with it.'",
-    "examples": [
-      {
-        "chinese": "这道菜没见过，盘它！",
-        "english": "Never seen this dish before — let's try it!"
-      },
-      {
-        "chinese": "这个问题交给我，我来盘它。",
-        "english": "Give me this problem — I'll handle it."
-      }
-    ]
-  },
-  {
     "slug": "wo-bu-yao-ni-jue-de",
     "chinese_name": "我不要你觉得",
     "pinyin": "wǒ bù yào nǐ jué de",
@@ -13397,7 +12021,7 @@
     "popularity": 4,
     "tags": [
       "humor",
-      "social-commentary",
+      "internet-culture",
       "romance"
     ],
     "chinese_explanation": "来自真人秀节目，导演回怼选手「我不要你觉得，我要我觉得」，成为强势表达个人意志、拒绝他人意见的梗。",
@@ -13426,7 +12050,7 @@
     "popularity": 4,
     "tags": [
       "humor",
-      "social-commentary",
+      "internet-culture",
       "self-deprecation"
     ],
     "chinese_explanation": "源自真香梗，指人们总会对自己曾经否定的事物产生兴趣的普遍规律，是真香现象的总结性定律。",
@@ -13454,8 +12078,7 @@
     "popularity": 4,
     "tags": [
       "internet-culture",
-      "politics",
-      "social-commentary"
+      "politics"
     ],
     "chinese_explanation": "引导舆论走向，操控网络情绪，使讨论朝特定方向发展，可指恶意操纵也可指正当的话题引导。",
     "english_explanation": "To set the rhythm — to deliberately steer public opinion, manipulate online emotions, or frame a narrative in a particular direction. A paid poster who floods comment sections with pro-government content is 带节奏. A celebrity PR team that redirects a scandal conversation is 带节奏. But so is a journalist whose framing guides readers to a conclusion. The term acknowledges that online discourse is rarely organic — someone is usually conducting the orchestra.",
@@ -13679,8 +12302,7 @@
     "popularity": 4,
     "tags": [
       "consumerism",
-      "internet-culture",
-      "social-commentary"
+      "internet-culture"
     ],
     "chinese_explanation": "突然降临的巨大机遇或流量，尤指某城市或品牌因偶然事件突然爆火，能否接住这泼天富贵成为关键。",
     "english_explanation": "A fortune so large it's pouring from the sky like a flood — describing sudden, massive opportunities that fall on businesses, cities, or individuals due to viral moments. When Harbin went viral, people asked whether it could '接住这泼天的富贵' (catch this fortune raining from heaven). The phrase highlights both the opportunity and the challenge: this kind of luck is rare and overwhelming, and whether you can handle it determines everything.",
@@ -13707,8 +12329,7 @@
     "popularity": 4,
     "tags": [
       "lifestyle",
-      "internet-culture",
-      "social-commentary"
+      "internet-culture"
     ],
     "chinese_explanation": "愿意听取他人的建议并改变，与不听劝相对，因某明星听取粉丝建议改变造型后爆火，成为年度热词。",
     "english_explanation": "Being willing to take advice and actually act on it. Went viral when a celebrity visibly changed their look after fans suggested it — and looked dramatically better. The contrast between 听劝 (taking advice, open to change) and 不听劝 (stubborn, knows best) became a personality typology. 听劝 implies genuine receptivity: you didn't just hear the advice, you incorporated it. It became aspirational — being 听劝 means having the self-awareness to improve.",
@@ -13735,8 +12356,7 @@
     "popularity": 4,
     "tags": [
       "internet-culture",
-      "politics",
-      "social-commentary"
+      "politics"
     ],
     "chinese_explanation": "照搬他人的成功经验或做法，可指良性学习借鉴，也可指政策抄袭或投机取巧，语境不同含义不同。",
     "english_explanation": "Copying someone's homework — taking their solution and using it yourself. Used at every scale: a student literally copying classwork, a city copying another city's successful tourism strategy, a country copying another country's policy, a startup copying a successful business model. The homework metaphor implies both the pragmatism of learning from others and the laziness of not doing your own work. Context determines whether it's clever or embarrassing.",
@@ -13763,7 +12383,7 @@
     "popularity": 5,
     "tags": [
       "internet-culture",
-      "Gen-Z",
+      "identity",
       "lifestyle"
     ],
     "chinese_explanation": "主要特点是某一个方面，句式梗，后接特质或状态，用于定义某人或某事的核心特征，极高频。",
@@ -13792,7 +12412,7 @@
     "tags": [
       "technology",
       "humor",
-      "social-commentary"
+      "internet-culture"
     ],
     "chinese_explanation": "华为余承东在产品发布会上频繁使用的词，成为对过度自信声明的讽刺梗，也被用于调侃任何夸张的自吹自擂。",
     "english_explanation": "Literally 'far and away leading.' Huawei executive Yu Chengdong (余承东, nicknamed 'Yu the Great') used this phrase repeatedly at product launches to describe Huawei's supposed superiority. The repetition became a meme — any time someone makes an extravagant claim of superiority, you apply '遥遥领先.' Used both to mock Huawei's marketing language and as a general template for anyone claiming to be obviously, incomparably the best at anything.",
@@ -13820,7 +12440,7 @@
     "popularity": 5,
     "tags": [
       "workplace",
-      "social-commentary",
+      "internet-culture",
       "humor"
     ],
     "chinese_explanation": "形容不专业、临时凑合的团队或组织，原指在草地上搭台演出的简陋戏班，现泛指各种混乱不堪的团队，包括正规机构。",
@@ -13835,6 +12455,789 @@
       {
         "chinese": "看他们的处理方式，完全是草台班子的水平。",
         "english": "Looking at how they handled it — total amateur-hour operation."
+      }
+    ]
+  },
+  {
+    "slug": "xiao-si",
+    "chinese_name": "笑死",
+    "pinyin": "xiào sǐ",
+    "english_name": "Dying of Laughter / LMAO",
+    "year": 2020,
+    "status": "still popular",
+    "popularity": 5,
+    "tags": [
+      "humor",
+      "internet-culture",
+      "self-deprecation"
+    ],
+    "chinese_explanation": "笑死了的简略形式，表示某事极其好笑，笑到要死的程度，是中文网络最高频的表达之一。",
+    "english_explanation": "Short for 笑死了 (laughing to death) — the Chinese internet's exact equivalent of 'lmao' or 'I'm dead.' Used as a standalone reaction to anything funny, often dropped at the start of a comment: '笑死，他真的这么做了' (lmao, he actually did it). It's so common it functions less as genuine description and more as a verbal tic of amusement. The 死 (death) is pure hyperbole — nobody is actually dying, they're just acknowledging something landed.",
+    "cultural_context": "笑死 belongs to a family of Chinese internet expressions that use death imagery casually for emotional emphasis — 笑死 (laugh to death), 累死 (tired to death), 饿死 (starving to death). The exaggeration is so normalized that the literal meaning has completely faded. It's the baseline unit of expressing amusement online, as automatic as English speakers typing 'lol' without actually laughing.",
+    "similar_expressions": "Almost exactly 'lmao,' 'I'm dead,' 'dying,' or 'I can't' in English internet usage. Like those, it has inflated to the point where it signals mild amusement rather than genuine helpless laughter.",
+    "examples": [
+      {
+        "chinese": "笑死，这个评论比视频还好看。",
+        "english": "Lmao, this comment is funnier than the video."
+      },
+      {
+        "chinese": "笑死我了，他居然真的信了。",
+        "english": "I'm dead — he actually believed it."
+      }
+    ]
+  },
+  {
+    "slug": "ma-le",
+    "chinese_name": "麻了",
+    "pinyin": "má le",
+    "english_name": "Gone Numb / Emotionally Flatlined",
+    "year": 2021,
+    "status": "still popular",
+    "popularity": 5,
+    "tags": [
+      "burnout",
+      "self-deprecation",
+      "internet-culture"
+    ],
+    "chinese_explanation": "原指身体麻木，引申为情绪上的麻木、无感，因看到太多离谱事物而失去反应能力。",
+    "english_explanation": "Literally 'gone numb' — extended from physical numbness to emotional flatlining. When you've encountered so much absurdity, bad news, or overwhelming content that you've lost the capacity to react, you're 麻了. '我看麻了' (I've watched myself numb) means whatever you saw was so much that your reactions stopped working. It captures a specific modern condition: not sadness, not anger, just the gray static of having felt too much.",
+    "cultural_context": "麻了 became prominent as Chinese internet users described the experience of constant exposure to overwhelming content — bizarre news, workplace absurdity, social media chaos. It's distinct from depression or anger; it's the protective shutdown that follows overstimulation. The word captured the emotional texture of being chronically online in a high-pressure society.",
+    "similar_expressions": "Like 'I'm numb to it now,' 'I've gone past caring,' or 'emotional damage' used ironically. The numbness implies prior overload — you weren't always numb, you were numbed by exposure.",
+    "examples": [
+      {
+        "chinese": "今年的瓜太多了，我已经麻了。",
+        "english": "Too much drama this year — I've gone completely numb."
+      },
+      {
+        "chinese": "连续加班一个月，整个人都麻了。",
+        "english": "A month of straight overtime — I'm completely flatlined."
+      }
+    ]
+  },
+  {
+    "slug": "ji-le",
+    "chinese_name": "寄了",
+    "pinyin": "jì le",
+    "english_name": "It's Over / Done For / RIP",
+    "year": 2022,
+    "status": "still popular",
+    "popularity": 4,
+    "tags": [
+      "internet-culture",
+      "gaming",
+      "self-deprecation"
+    ],
+    "chinese_explanation": "完蛋了的网络说法，寄是完的谐音变体，表示某事失败、结束或无可挽回。",
+    "english_explanation": "Internet slang for 'it's over' or 'done for.' 寄 (to mail/send) became a homophone-adjacent substitute for 完了 (finished) — partly because 寄 sounds vaguely like the English 'GG' and partly through gaming culture. When you fail an exam, when a plan collapses, when your team is losing badly: 寄了. It carries a tone of resigned acceptance — not panic, just the flat acknowledgment that this particular thing has ended badly.",
+    "cultural_context": "寄了 spread from gaming communities where players announced defeat, then escaped into general use. The choice of 寄 (mail/send) is characteristically Chinese internet — finding an unrelated character whose use creates an in-group code. It joined a vocabulary of resigned failure acknowledgment that suits a generation facing a difficult job market and high pressure.",
+    "similar_expressions": "Like 'it's over,' 'we're cooked,' 'GG,' 'RIP,' or 'that's a wrap.' The resignation is key — 寄了 isn't a cry for help, it's a calm postmortem.",
+    "examples": [
+      {
+        "chinese": "考试没复习，这下寄了。",
+        "english": "Didn't study for the exam — I'm done for."
+      },
+      {
+        "chinese": "看了一眼比分，寄了，输定了。",
+        "english": "Glanced at the score — it's over, we're definitely losing."
+      }
+    ]
+  },
+  {
+    "slug": "hong-wen",
+    "chinese_name": "红温",
+    "pinyin": "hóng wēn",
+    "english_name": "Red-Faced / Flustered to the Boiling Point",
+    "year": 2024,
+    "status": "still popular",
+    "popularity": 4,
+    "tags": [
+      "internet-culture",
+      "humor",
+      "self-deprecation"
+    ],
+    "chinese_explanation": "脸涨红、体温升高的状态，形容因生气、尴尬、急躁而情绪失控、面红耳赤的样子。",
+    "english_explanation": "Literally 'red temperature' — the state of your face flushing red and your body heating up from anger, embarrassment, or agitation. When someone loses their composure in an argument, gets flustered by mockery, or visibly cannot handle a situation, they've 红温了. It's often used to mock someone who has lost their cool: pointing out that an opponent is 红温 means they've emotionally lost the exchange, regardless of the actual argument.",
+    "cultural_context": "红温 became popular in gaming and debate culture, where staying composed is a competitive advantage. Accusing someone of being 红温 is a way to claim victory by pointing out their loss of emotional control. It reflects a broader Chinese internet value where 情绪稳定 (emotional stability) is prized and visible agitation is seen as defeat.",
+    "similar_expressions": "Like 'mad,' 'triggered,' 'big mad,' or 'losing your cool.' The temperature/color metaphor is vivid — you can literally see the person overheating. Pointing it out is a way of saying 'you've already lost.'",
+    "examples": [
+      {
+        "chinese": "他被说了几句就红温了，破防得太快。",
+        "english": "A few words and he was already red-faced — lost his cool way too fast."
+      },
+      {
+        "chinese": "别红温啊，开个玩笑而已。",
+        "english": "Don't get all heated — it's just a joke."
+      }
+    ]
+  },
+  {
+    "slug": "niu-ma",
+    "chinese_name": "牛马",
+    "pinyin": "niú mǎ",
+    "english_name": "Ox and Horse / Beast of Burden Worker",
+    "year": 2024,
+    "status": "still popular",
+    "popularity": 5,
+    "tags": [
+      "workplace",
+      "self-deprecation",
+      "burnout"
+    ],
+    "chinese_explanation": "牛和马，比喻像牲口一样被驱使劳作的打工人，比打工人更强烈的自嘲，强调被剥削、无尊严的处境。",
+    "english_explanation": "Literally 'ox and horse' — the draft animals that pull plows and carts. A darker, more bitter evolution of 打工人 (worker). Where 打工人 has a note of ironic dignity, 牛马 strips that away entirely: you are livestock, valued only for the labor extracted from you. '资本家的牛马' (the capitalist's ox and horse) became a common self-description among Chinese workers in 2024, expressing a more radical disillusionment with work than earlier terms.",
+    "cultural_context": "The shift from 打工人 (2020) to 牛马 (2024) tracks a darkening mood. 打工人 still allowed for self-respect through irony; 牛马 abandons it. The term reflects deepening pessimism about labor conditions, the job market, and economic mobility. Calling yourself 牛马 isn't just complaining about work — it's denying that your work confers any human dignity at all.",
+    "similar_expressions": "Like 'wage slave,' 'cog in the machine,' or 'beast of burden' — but more visceral. The livestock comparison is more dehumanizing than English equivalents, which is precisely the point the speaker is making.",
+    "examples": [
+      {
+        "chinese": "周末还要加班，我们就是资本家的牛马。",
+        "english": "Working weekends too — we're just the capitalist's beasts of burden."
+      },
+      {
+        "chinese": "牛马的命，哪有资格谈梦想。",
+        "english": "The life of an ox and horse — what right do we have to talk about dreams?"
+      }
+    ]
+  },
+  {
+    "slug": "yi-lao-shi-qiu-fang-guo",
+    "chinese_name": "已老实求放过",
+    "pinyin": "yǐ lǎo shí qiú fàng guò",
+    "english_name": "I've Behaved, Please Let Me Off",
+    "year": 2024,
+    "status": "still popular",
+    "popularity": 4,
+    "tags": [
+      "humor",
+      "self-deprecation",
+      "internet-culture"
+    ],
+    "chinese_explanation": "已经老实了，求饶请求放过，用于夸张地表示认输、求饶或不想再被折腾的心情。",
+    "english_explanation": "Literally 'I've already become obedient, begging to be let off.' A theatrical surrender phrase used when you've had enough — of teasing, of a difficult task, of life's relentless demands. When friends keep roasting you, when work keeps piling on, when the universe won't cut you a break, you put up your hands: 已老实求放过. It's comic capitulation, performing total defeat as a way of asking for mercy.",
+    "cultural_context": "The phrase fits a 2024 mood of exhausted comic surrender — a generation that responds to pressure not with defiance but with theatrical white-flag-waving. It's related to 求生欲 (survival instinct) humor and the broader tendency to perform powerlessness as both coping mechanism and bid for sympathy. The formal, almost classical phrasing makes the surrender funnier.",
+    "similar_expressions": "Like 'I surrender,' 'mercy,' 'I give up, you win,' or 'please, no more.' The formal, slightly archaic phrasing adds comedy — it's surrender performed with exaggerated ceremony.",
+    "examples": [
+      {
+        "chinese": "别再发我黑历史了，已老实求放过。",
+        "english": "Stop posting my embarrassing past — I've behaved, please let me off."
+      },
+      {
+        "chinese": "这周的工作太多了，已老实求放过。",
+        "english": "Too much work this week — I surrender, please have mercy."
+      }
+    ]
+  },
+  {
+    "slug": "na-za-le",
+    "chinese_name": "那咋了",
+    "pinyin": "nà zǎ le",
+    "english_name": "So What? / And Then What?",
+    "year": 2024,
+    "status": "still popular",
+    "popularity": 4,
+    "tags": [
+      "humor",
+      "self-deprecation",
+      "burnout"
+    ],
+    "chinese_explanation": "那又怎样的东北话变体，表示满不在乎、破罐破摔的态度，对负面评价或后果的无所谓回应。",
+    "english_explanation": "A northeastern Chinese dialect version of 那又怎样 (so what?). Used as an unbothered comeback to criticism, consequences, or pressure. 'You'll never get promoted with that attitude' — '那咋了.' 'Everyone else is working harder than you' — '那咋了.' The phrase embodies a 2024 mood of cheerful defiance: not angry rebellion, just a genuine inability to be made to care. The dialect flavor adds a relaxed, working-class confidence.",
+    "cultural_context": "那咋了 captures an evolution of 摆烂 (let it rot) and 躺平 (lying flat) culture — the attitude has graduated from passive withdrawal to active, breezy dismissal. The northeastern dialect packaging is significant: northeastern China has a cultural reputation for blunt, unpretentious confidence, and the phrase borrows that energy. It's opting out, but cheerfully.",
+    "similar_expressions": "Like 'so what,' 'and?,' 'okay and?,' or 'that's a me problem' delivered with total unconcern. The dialect quality gives it a relaxed, almost folksy confidence rather than teenage sullenness.",
+    "examples": [
+      {
+        "chinese": "「你这样会被淘汰的」「那咋了」",
+        "english": "'You'll get left behind like this.' 'So what?'"
+      },
+      {
+        "chinese": "考砸了？那咋了，明年再来。",
+        "english": "Failed the exam? So what — try again next year."
+      }
+    ]
+  },
+  {
+    "slug": "ba-bi-q",
+    "chinese_name": "芭比Q",
+    "pinyin": "bā bǐ Q",
+    "english_name": "Barbecued / It's All Over / We're Toast",
+    "year": 2022,
+    "status": "still popular",
+    "popularity": 5,
+    "tags": [
+      "humor",
+      "internet-culture",
+      "gaming"
+    ],
+    "chinese_explanation": "源自英文BBQ（烧烤）的音译，意为完蛋了、被烤了，表示彻底失败或无可挽回的糟糕局面。",
+    "english_explanation": "A phonetic rendering of the English 'BBQ' (barbecue). When something is barbecued, it's been cooked over fire — finished, done, toast. 芭比Q了 means 'it's all over' or 'we're cooked,' usually said with comic dismay. The phrase exploded from a viral video where a game streamer dramatically announced '完了完了，芭比Q了' (it's over, it's over, we're barbecued) when his game character died. The absurd mismatch between the cheerful word 'barbecue' and the doom it describes is the entire joke.",
+    "cultural_context": "芭比Q became one of 2022's defining catchphrases, spreading from gaming streams to general internet use to actual everyday speech among young people. It belongs to a family of Chinese internet expressions for resigned doom (寄了, 凉了, 完蛋), but stands out for its sheer silliness — there is no logical reason being 'barbecued' should mean failure, which is exactly why it's funny.",
+    "similar_expressions": "Like 'we're toast,' 'it's cooked,' 'we're done for,' or 'GG.' The barbecue imagery makes it more lighthearted than English equivalents — even catastrophe is delivered with a goofy grin.",
+    "examples": [
+      {
+        "chinese": "作业忘带了，这下芭比Q了。",
+        "english": "Forgot my homework — we're totally barbecued now."
+      },
+      {
+        "chinese": "完了完了，芭比Q了，老板看到了。",
+        "english": "It's over, it's over, we're toast — the boss saw."
+      }
+    ]
+  },
+  {
+    "slug": "lao-liu",
+    "chinese_name": "老六",
+    "pinyin": "lǎo liù",
+    "english_name": "Sneaky Player / The Underhanded One",
+    "year": 2022,
+    "status": "still popular",
+    "popularity": 4,
+    "tags": [
+      "gaming",
+      "humor",
+      "internet-culture"
+    ],
+    "chinese_explanation": "源自游戏，指不按常理出牌、阴险偷袭、躲在角落使坏的玩家，后泛指行事出人意料或暗中搞事的人。",
+    "english_explanation": "From gaming culture (particularly CS:GO, where a five-player team's unpredictable extra is the 'sixth man'). A 老六 is the player who doesn't play by the rules — camping in corners, ambushing from behind, winning through sneaky unconventional tactics rather than direct skill. Off the gaming context, calling someone 老六 means they're slyly underhanded, the person who does something unexpected and slightly devious. It can be an insult or grudging admiration.",
+    "cultural_context": "老六 reflects how thoroughly gaming vocabulary has saturated Chinese internet speech. The term carries a specific moral ambiguity — the 老六 isn't a straightforward cheater, but someone whose cleverness operates outside the spirit of fair play. In a culture that values both cleverness and propriety, 老六 sits in the interesting tension between the two.",
+    "similar_expressions": "Like 'a camper,' 'a sneaky one,' 'sus,' or 'the sneaky bastard.' The gaming origin (sixth man) is specific, but the broader meaning — admirably or annoyingly underhanded — translates well.",
+    "examples": [
+      {
+        "chinese": "他不声不响就把方案改了，真是个老六。",
+        "english": "He quietly changed the whole plan — what a sneaky one."
+      },
+      {
+        "chinese": "躲在角落阴人，你这个老六。",
+        "english": "Hiding in the corner to ambush people — you absolute sneak."
+      }
+    ]
+  },
+  {
+    "slug": "gan-fan-ren",
+    "chinese_name": "干饭人",
+    "pinyin": "gàn fàn rén",
+    "english_name": "The Chow-Down Crew / Serious Eater",
+    "year": 2020,
+    "status": "still popular",
+    "popularity": 4,
+    "tags": [
+      "humor",
+      "lifestyle",
+      "self-deprecation"
+    ],
+    "chinese_explanation": "干饭指用力吃饭、努力吃饭，干饭人是热爱吃饭、把吃饭当成头等大事的人，是打工人的姊妹梗。",
+    "english_explanation": "干饭 means to attack your food with vigor — not just eating, but eating with purpose and enthusiasm. A 干饭人 is someone for whom mealtime is a sacred priority, who approaches a bowl of rice with the focus and energy of a serious task. The phrase mirrors 打工人 (worker) in structure, creating a comic parallel: you may be a miserable laborer, but you are also, gloriously, a 干饭人. Food is the one domain where effort always pays off.",
+    "cultural_context": "干饭人 emerged alongside 打工人 in 2020 as part of a wave of XX人 (XX person) identity memes. Where 打工人 expressed work exhaustion, 干饭人 offered the consolation: eating is the reliable joy that work cannot take away. The phrase often comes with a cheerful battle cry — '干饭人，干饭魂' (chow-down people, chow-down spirit).",
+    "similar_expressions": "Like 'foodie,' but more about the act than the taste — closer to 'I live for lunch' or 'serious about my food.' The verb 干 (to do forcefully) gives it an energetic, almost militant quality absent from English food enthusiasm.",
+    "examples": [
+      {
+        "chinese": "中午十二点，干饭人准时干饭！",
+        "english": "Twelve noon — the chow-down crew eats right on schedule!"
+      },
+      {
+        "chinese": "工作再累，干饭人的快乐不能少。",
+        "english": "However tiring work gets, a serious eater's joy must not be cut."
+      }
+    ]
+  },
+  {
+    "slug": "shu-shu-wen-xue",
+    "chinese_name": "鼠鼠文学",
+    "pinyin": "shǔ shǔ wén xué",
+    "english_name": "Rat Literature / Lowly Mouse Self-Pity",
+    "year": 2022,
+    "status": "still popular",
+    "popularity": 4,
+    "tags": [
+      "self-deprecation",
+      "burnout",
+      "internet-culture"
+    ],
+    "chinese_explanation": "以鼠鼠（老鼠）自称的卑微自嘲文体，将自己比作生活在阴沟里的老鼠，表达极度低自尊和无奈的处境。",
+    "english_explanation": "A self-deprecating writing style where the speaker refers to themselves as 鼠鼠 (a little rat/mouse), narrating their life as that of a lowly creature living in a gutter. 'rat rat me is just a sewer mouse, doesn't deserve good things' — the tone is extreme, almost theatrically abject self-pity. 鼠鼠文学 takes the existing culture of online self-deprecation to its bleakest, most darkly comic extreme, with the speaker positioned beneath even ordinary human dignity.",
+    "cultural_context": "鼠鼠文学 emerged from male-dominated forums and reflects a specific strain of young male disillusionment — economic anxiety, dating market despair, and downward mobility expressed through the imagery of vermin. While darkly funny, it touches genuine feelings of worthlessness among young people facing a difficult economy. The childish reduplication 鼠鼠 (instead of 老鼠) adds a pitiful, infantilized quality.",
+    "similar_expressions": "Like calling yourself 'gutter trash,' 'a sewer creature,' or 'human garbage' — but with an ironic, performed quality. The rat imagery and baby-talk reduplication create a tone with no precise English equivalent.",
+    "examples": [
+      {
+        "chinese": "鼠鼠我啊，就是个住在下水道里的鼠鼠。",
+        "english": "Rat rat me — just a little rat living in the sewer."
+      },
+      {
+        "chinese": "这种好事哪轮得到鼠鼠我啊。",
+        "english": "Good things like this would never come to a lowly rat like me."
+      }
+    ]
+  },
+  {
+    "slug": "wa-ya-wa",
+    "chinese_name": "挖呀挖",
+    "pinyin": "wā ya wā",
+    "english_name": "Dig, Dig, Dig / The Kindergarten Teacher Song",
+    "year": 2023,
+    "status": "fading",
+    "popularity": 4,
+    "tags": [
+      "internet-culture",
+      "humor",
+      "fandom"
+    ],
+    "chinese_explanation": "源自一位幼儿园老师演唱的儿歌「在小小的花园里面挖呀挖呀挖」，2023年突然爆红全网，引发全民模仿和二创。",
+    "english_explanation": "From a children's song — 'in the tiny tiny garden, we dig and dig and dig' — performed by a kindergarten teacher in a short video. In spring 2023 the clip went inexplicably, massively viral. The gentle, repetitive melody and the teacher's sweet delivery hypnotized the entire Chinese internet for weeks. Everyone sang it, parodied it, analyzed why it was so catchy, and debated the sudden fame (and monetization) of the teachers who performed it.",
+    "cultural_context": "挖呀挖 became a case study in the randomness of virality — a simple children's song with no special qualities becoming a national phenomenon overnight. It also sparked discussion about internet fame: multiple teachers performed versions, competing for credit and commercial opportunities, raising questions about who 'owns' a viral moment. By late 2023 it had faded as quickly as it rose.",
+    "similar_expressions": "Like a song that's inescapable for one season then vanishes — similar to how certain TikTok sounds dominate briefly. The specific phenomenon of an entire internet fixating on a children's song has parallels in 'Baby Shark' but with adults as the primary spreaders.",
+    "examples": [
+      {
+        "chinese": "那段时间全网都在唱挖呀挖。",
+        "english": "For a while there, the whole internet was singing 'dig dig dig.'"
+      },
+      {
+        "chinese": "挖呀挖火得莫名其妙，但确实洗脑。",
+        "english": "'Dig dig dig' went viral for no clear reason, but it really was an earworm."
+      }
+    ]
+  },
+  {
+    "slug": "zun-du-jia-du",
+    "chinese_name": "尊嘟假嘟",
+    "pinyin": "zūn du jiǎ du",
+    "english_name": "Weally? / Cutesy 'For Real?'",
+    "year": 2023,
+    "status": "still popular",
+    "popularity": 4,
+    "tags": [
+      "humor",
+      "internet-culture",
+      "romance"
+    ],
+    "chinese_explanation": "真的假的的萌化变音，模仿小孩或撒娇的发音方式，表达惊讶或确认时的可爱语气。",
+    "english_explanation": "A cutesy mispronunciation of 真的假的 (really? / for real?). By softening the consonants — 真 becomes 尊, 假 becomes a babyish version — the phrase transforms a normal expression of surprise into something deliberately adorable, mimicking baby talk or a coquettish speaking style. Often paired with a specific cute frog image. It's used when you want to react with surprise but in maximum soft, endearing mode.",
+    "cultural_context": "尊嘟假嘟 is part of a broader trend of 'cutesy mispronunciation' in Chinese internet culture (撒娇/萌化语言), where deliberately childish speech signals warmth, playfulness, or flirtatiousness. The trend reflects how online communication develops registers — there's a normal way to express surprise, and then there's the deliberately soft, cute way that signals a particular mood or relationship closeness.",
+    "similar_expressions": "Like typing 'weally?' instead of 'really?' or 'fr fr???' in a deliberately cute way. The baby-talk softening of consonants for endearment exists in many internet cultures.",
+    "examples": [
+      {
+        "chinese": "啊？尊嘟假嘟？我不敢相信。",
+        "english": "Huh? Weally for weal? I can't believe it."
+      },
+      {
+        "chinese": "他真的这么说了？尊嘟假嘟。",
+        "english": "He really said that? Weally?"
+      }
+    ]
+  },
+  {
+    "slug": "ming-yun-de-chi-lun",
+    "chinese_name": "命运的齿轮开始转动",
+    "pinyin": "mìng yùn de chǐ lún kāi shǐ zhuàn dòng",
+    "english_name": "The Gears of Fate Begin to Turn",
+    "year": 2023,
+    "status": "still popular",
+    "popularity": 4,
+    "tags": [
+      "humor",
+      "internet-culture",
+      "self-deprecation"
+    ],
+    "chinese_explanation": "一句戏剧化的旁白式表达，用于标记某个看似平常却影响深远的转折时刻，常用于回顾事情的起点。",
+    "english_explanation": "A dramatic, narrator-style phrase used to mark a turning point — the seemingly ordinary moment when, in retrospect, everything began. You apply it to a photo of your younger self, the day you downloaded a certain app, the first time you met someone. The grandiose phrasing (gears of fate, turning) treats a mundane moment with epic, cinematic weight. The humor comes from the gap between the portentous language and the trivial or comic event it actually describes.",
+    "cultural_context": "The phrase taps into a storytelling impulse — narrating your own life as if it were a drama with foreshadowing and destiny. It became a popular caption format for nostalgic or origin-story posts. It reflects the internet's love of retroactive narrative: finding the 'beginning' of any story and marking it with maximum dramatic flourish.",
+    "similar_expressions": "Like 'little did I know,' 'and so it begins,' or 'this is where it all started.' The mechanical fate imagery (gears turning) gives it a more cinematic, anime-narrator quality than English equivalents.",
+    "examples": [
+      {
+        "chinese": "这是我第一次打开那个软件，命运的齿轮开始转动。",
+        "english": "This was the first time I opened that app — the gears of fate began to turn."
+      },
+      {
+        "chinese": "看到这张照片，命运的齿轮开始转动了。",
+        "english": "Looking at this photo — that's when the gears of fate started turning."
+      }
+    ]
+  },
+  {
+    "slug": "gao-chou-xiang",
+    "chinese_name": "搞抽象",
+    "pinyin": "gǎo chōu xiàng",
+    "english_name": "Doing the Absurd / Being Deliberately Surreal",
+    "year": 2024,
+    "status": "still popular",
+    "popularity": 4,
+    "tags": [
+      "humor",
+      "internet-culture",
+      "identity"
+    ],
+    "chinese_explanation": "抽象的动词化，指故意制造荒诞、不合逻辑、无厘头的内容或行为，是抽象文化的核心动作。",
+    "english_explanation": "The verb form of 抽象 (abstract/absurd). 搞抽象 means to deliberately create content or behavior that is surreal, illogical, nonsensical, and anti-meaning. It's the active practice of a whole aesthetic — making jokes that don't make sense, responding to things with deliberate non-sequiturs, embracing chaos over coherence. To 搞抽象 is to reject normal logical communication in favor of something weirder and funnier. It's both a comedy style and a worldview.",
+    "cultural_context": "抽象文化 (absurdist culture) became a defining strain of Chinese internet humor in 2023-2024, partly traceable to certain streamers and communities. 搞抽象 represents a generational comedy sensibility — meaning is exhausting, logic is overrated, and the funniest response to a confusing world is more confusion. It connects to global 'surreal meme' and anti-humor trends but has its own distinctly Chinese flavor.",
+    "similar_expressions": "Like 'being deliberately unhinged,' 'posting surreal,' 'anti-humor,' or 'doing a bit that makes no sense.' The verb 搞 (to do/make) gives it an active, intentional quality — this isn't accidental weirdness, it's a craft.",
+    "examples": [
+      {
+        "chinese": "他评论区天天搞抽象，没一句正经话。",
+        "english": "His comment section is pure absurdism every day — not one normal sentence."
+      },
+      {
+        "chinese": "别跟我讲道理，我们这是搞抽象。",
+        "english": "Don't try to reason with me — what we're doing here is pure absurdism."
+      }
+    ]
+  },
+  {
+    "slug": "dun",
+    "chinese_name": "蹲",
+    "pinyin": "dūn",
+    "english_name": "Crouching / Waiting For / Calling Dibs On Updates",
+    "year": 2021,
+    "status": "still popular",
+    "popularity": 4,
+    "tags": [
+      "internet-culture",
+      "fandom",
+      "consumerism"
+    ],
+    "chinese_explanation": "字面意思是蹲下，网络用法指蹲守、等待某个结果或内容，蹲一个即希望有人提供某信息或更新。",
+    "english_explanation": "Literally 'to crouch.' Online, 蹲 means to wait expectantly for something — an update, a result, a resource, a recommendation. Posting '蹲一个' (crouching for one) under a question means 'I want the answer too — please update me.' '蹲个链接' means 'I'm waiting for someone to share the shopping link.' The crouching imagery suggests patient, ready waiting — you've settled into position and you're watching for what comes.",
+    "cultural_context": "蹲 reflects how Chinese internet communities coordinate information sharing. Instead of just lurking silently, users actively 蹲 — announcing their interest, which both signals demand and subscribes them to updates. It's a small but important piece of community grammar, especially in shopping communities (Xiaohongshu), fan groups, and Q&A threads.",
+    "similar_expressions": "Like 'commenting for later,' 'following for updates,' 'saving my spot,' or 'I need this too.' The crouching metaphor — physically settling in to wait — is more vivid than English equivalents.",
+    "examples": [
+      {
+        "chinese": "蹲一个结果，楼主记得更新。",
+        "english": "Crouching for the result — OP, remember to update."
+      },
+      {
+        "chinese": "这件衣服好看，蹲个链接。",
+        "english": "This outfit looks great — waiting for someone to drop the link."
+      }
+    ]
+  },
+  {
+    "slug": "ma-zhu",
+    "chinese_name": "码住",
+    "pinyin": "mǎ zhù",
+    "english_name": "Save It / Bookmark This",
+    "year": 2021,
+    "status": "still popular",
+    "popularity": 4,
+    "tags": [
+      "internet-culture",
+      "lifestyle",
+      "consumerism"
+    ],
+    "chinese_explanation": "码指标记、保存，码住即把有用的内容标记收藏起来以便日后查看，是网络收藏行为的高频动词。",
+    "english_explanation": "码 means to mark or stack up; 码住 means to save, bookmark, or stash something useful for later. When you see a helpful tutorial, a good recommendation list, or a resource you'll want again, you comment '码住' — both bookmarking it and signaling to others that it's worth keeping. It functions like saying 'saving this' out loud, turning a private action into a visible community endorsement of useful content.",
+    "cultural_context": "码住 is part of the practical vocabulary of content-heavy Chinese platforms like Xiaohongshu, where users constantly archive tutorials, shopping guides, and tips. Commenting 码住 serves a dual function: a personal bookmark and a public vote of usefulness that boosts the content's visibility. It reflects an internet culture organized around saving and curating practical information.",
+    "similar_expressions": "Like 'saving this,' 'bookmarked,' 'adding to my list,' or 'noted.' Like English 'saving this,' it's both a genuine action and a comment-section ritual that signals content value.",
+    "examples": [
+      {
+        "chinese": "这篇攻略太有用了，码住！",
+        "english": "This guide is so useful — saving it!"
+      },
+      {
+        "chinese": "先码住，周末再慢慢看。",
+        "english": "Bookmarking this for now — I'll go through it slowly this weekend."
+      }
+    ]
+  },
+  {
+    "slug": "zhong-er-bing",
+    "chinese_name": "中二病",
+    "pinyin": "zhōng èr bìng",
+    "english_name": "Eighth-Grader Syndrome / Chuunibyou",
+    "year": 2012,
+    "status": "still popular",
+    "popularity": 4,
+    "tags": [
+      "identity",
+      "humor",
+      "self-deprecation"
+    ],
+    "chinese_explanation": "源自日语「中二病」，指青春期（初中二年级前后）特有的自我中心、幻想自己与众不同、装酷耍帅的心理状态。",
+    "english_explanation": "Borrowed from Japanese 中二病 (chuunibyou — 'middle school second year syndrome'). It describes the specific adolescent condition of believing you possess secret powers, hidden depths, or a uniquely tortured soul. The 中二 sufferer gives themselves an edgy nickname, claims to see the world differently from the 'sheep' around them, and performs profound suffering. Used both to mock teenagers and, ruefully, to describe one's own cringeworthy younger self.",
+    "cultural_context": "中二病 entered Chinese through anime fan communities and became universally understood. It names a near-universal developmental phase with affectionate mockery. Chinese internet users frequently invoke it for self-deprecation — 'my 中二 period' refers to the embarrassing teenage years when you wrote dark poetry and thought you were special. It also describes adults who never grew out of it.",
+    "similar_expressions": "Like 'edgelord,' 'going through a phase,' 'that's so cringe teenage me,' or 'thinks they're the main character.' The Japanese origin term has spread globally; English speakers in anime communities use 'chuunibyou' directly.",
+    "examples": [
+      {
+        "chinese": "他中二病又犯了，又开始说自己有特殊能力。",
+        "english": "His eighth-grader syndrome is flaring up again — claiming he has special powers."
+      },
+      {
+        "chinese": "翻到以前的日记，满满的中二病，太羞耻了。",
+        "english": "Found my old diary — pure eighth-grader syndrome, so embarrassing."
+      }
+    ]
+  },
+  {
+    "slug": "ao-jiao",
+    "chinese_name": "傲娇",
+    "pinyin": "ào jiāo",
+    "english_name": "Tsundere / Prickly-Sweet",
+    "year": 2011,
+    "status": "still popular",
+    "popularity": 4,
+    "tags": [
+      "identity",
+      "romance",
+      "humor"
+    ],
+    "chinese_explanation": "源自日语「ツンデレ」，形容表面高傲冷淡、口是心非，实际内心温柔在意的性格，口嫌体正直。",
+    "english_explanation": "Borrowed from the Japanese 'tsundere' — a personality type that is outwardly proud, cold, or harsh, but inwardly warm and caring. The 傲娇 person says 'it's not like I did this for you!' while clearly having done it for you. Their mouth refuses what their heart wants (口嫌体正直 — mouth rejects, body is honest). It's a beloved character archetype in anime and a real way to describe people whose prickliness masks affection.",
+    "cultural_context": "傲娇 came from anime fandom but became general vocabulary for describing personality. It names a specific, recognizable pattern of emotional expression — affection delivered through denial and mock-hostility. In a culture where direct emotional expression can be difficult, 傲娇 resonated as both a fictional archetype and a real description of how some people, especially in family or romantic contexts, show they care.",
+    "similar_expressions": "Like 'tsundere' (used directly in English anime communities), 'has a tough exterior,' or 'mean but secretly soft.' The specific 'denial as affection' pattern is captured well by the Japanese loanword.",
+    "examples": [
+      {
+        "chinese": "她嘴上说不在乎，其实很傲娇，特别在意。",
+        "english": "She says she doesn't care, but she's totally tsundere — she cares a lot."
+      },
+      {
+        "chinese": "「我才不是为你做的呢」——典型的傲娇。",
+        "english": "'It's not like I did it for you' — classic tsundere."
+      }
+    ]
+  },
+  {
+    "slug": "fu-hei",
+    "chinese_name": "腹黑",
+    "pinyin": "fù hēi",
+    "english_name": "Black-Bellied / Sweet Face, Scheming Mind",
+    "year": 2011,
+    "status": "still popular",
+    "popularity": 4,
+    "tags": [
+      "identity",
+      "humor",
+      "internet-culture"
+    ],
+    "chinese_explanation": "源自日语「腹黒い」，字面意思是肚子里是黑的，形容表面温和无害、内心却城府深、爱算计的人。",
+    "english_explanation": "Borrowed from the Japanese 腹黒い (black-bellied). It describes someone whose gentle, harmless, often smiling exterior conceals a calculating, scheming, sometimes mischievous inner nature. A 腹黑 character is the sweet-faced one who is secretly always three steps ahead, manipulating situations with a pleasant smile. It's not pure villainy — 腹黑 implies cleverness and wit, and is often an attractive trait in fictional characters.",
+    "cultural_context": "Like 傲娇, 腹黑 entered through anime fandom and became a standard personality descriptor. It names something real and recognizable — the gap between a person's pleasant surface and their strategic inner workings. In fiction it's often charming; in real life it's used both admiringly (clever, sharp) and warily (don't trust the sweet smile).",
+    "similar_expressions": "Like 'devious behind a sweet smile,' 'secretly scheming,' or 'a wolf in sheep's clothing' — but less sinister. 腹黑 implies cleverness and charm, not pure malice.",
+    "examples": [
+      {
+        "chinese": "别看他笑得温和，其实很腹黑，早就算计好了。",
+        "english": "Don't be fooled by his gentle smile — he's black-bellied, he planned this all along."
+      },
+      {
+        "chinese": "这个角色又可爱又腹黑，特别有魅力。",
+        "english": "This character is both cute and secretly scheming — very charming."
+      }
+    ]
+  },
+  {
+    "slug": "mai-meng",
+    "chinese_name": "卖萌",
+    "pinyin": "mài méng",
+    "english_name": "Acting Cute / Performing Adorableness",
+    "year": 2010,
+    "status": "still popular",
+    "popularity": 4,
+    "tags": [
+      "internet-culture",
+      "humor",
+      "identity"
+    ],
+    "chinese_explanation": "卖指出售、表演，萌指可爱，卖萌即故意表现出可爱的样子来讨人喜欢或化解尴尬。",
+    "english_explanation": "卖 means to sell or perform; 萌 means cute (itself borrowed from Japanese moe). 卖萌 means to deliberately act cute — putting on an adorable performance to win affection, get your way, or defuse an awkward situation. It can be a baby-talk voice, a cutesy pose, or playful childishness deployed strategically. Both people and brands 卖萌 — even serious institutions sometimes 卖萌 on social media to seem approachable.",
+    "cultural_context": "卖萌 became central to Chinese internet aesthetics, where cuteness is a major cultural currency. The word's commercial framing (卖 = sell) acknowledges that cuteness is a performance with a purpose — it's deployed, not just expressed. Government agencies, brands, and official accounts all learned to 卖萌 to seem relatable, making it a recognized communication strategy.",
+    "similar_expressions": "Like 'acting cute,' 'being deliberately adorable,' 'turning on the charm,' or 'playing the cute card.' The 'selling' framing emphasizes that it's a strategic performance.",
+    "examples": [
+      {
+        "chinese": "她一卖萌，大家就拿她没办法了。",
+        "english": "Once she starts acting cute, nobody can stay mad at her."
+      },
+      {
+        "chinese": "连官方账号都开始卖萌了，挺接地气。",
+        "english": "Even the official account started acting cute — pretty relatable."
+      }
+    ]
+  },
+  {
+    "slug": "ren-rou-sou-suo",
+    "chinese_name": "人肉搜索",
+    "pinyin": "rén ròu sōu suǒ",
+    "english_name": "Human Flesh Search / Crowdsourced Doxxing",
+    "year": 2008,
+    "status": "classic",
+    "popularity": 4,
+    "tags": [
+      "internet-culture",
+      "politics"
+    ],
+    "chinese_explanation": "网民集体协作，通过人工搜索挖掘某个人的真实身份和个人信息，可用于伸张正义也可用于网络暴力。",
+    "english_explanation": "Literally 'human flesh search' — the practice of internet users collectively investigating someone to uncover their real identity, address, workplace, and personal details. Unlike algorithmic search, 人肉搜索 uses crowds of humans pooling information. It has been used to expose corrupt officials and animal abusers, but also to harass and destroy ordinary people over minor controversies. It's one of the most powerful and dangerous forces of the Chinese internet.",
+    "cultural_context": "人肉搜索 emerged in the late 2000s as Chinese netizens discovered their collective investigative power. It embodies the internet's dual nature — capable of holding the powerful accountable when institutions fail, but also of mob violence against individuals. Major cases prompted national debate about privacy, vigilantism, and the limits of online justice. The phrase is understood with a mix of awe and dread.",
+    "similar_expressions": "Like 'doxxing' or 'crowdsourced investigation,' but 人肉搜索 specifically emphasizes the collective human effort. The 'human flesh' imagery is more visceral than English 'doxxing' — it suggests something is being hunted.",
+    "examples": [
+      {
+        "chinese": "他的信息被人肉搜索出来了，现在很危险。",
+        "english": "His information got dug up by a human flesh search — he's in danger now."
+      },
+      {
+        "chinese": "人肉搜索是把双刃剑，能伸张正义也能伤害无辜。",
+        "english": "Human flesh search is a double-edged sword — it can deliver justice or harm the innocent."
+      }
+    ]
+  },
+  {
+    "slug": "qian-fang-gao-neng",
+    "chinese_name": "前方高能",
+    "pinyin": "qián fāng gāo néng",
+    "english_name": "High Energy Ahead / Intense Scene Warning",
+    "year": 2014,
+    "status": "still popular",
+    "popularity": 4,
+    "tags": [
+      "internet-culture",
+      "gaming",
+      "humor"
+    ],
+    "chinese_explanation": "源自弹幕文化，提醒观众接下来的内容精彩、震撼、吓人或令人激动，做好心理准备。",
+    "english_explanation": "Literally 'high energy ahead.' A warning that appears in danmu (弹幕 — scrolling on-screen comments) alerting viewers that something intense is coming — a scary scene, a shocking twist, an epic moment, or something so cringe-inducing you need to brace yourself. Often written as '前方高能预警' (high-energy warning ahead). It's the danmu community looking out for each other, like a friend grabbing your arm before the jump scare.",
+    "cultural_context": "前方高能 is inseparable from Bilibili's danmu culture, where viewers' comments scroll across the video in real time, creating a communal viewing experience. The warning reflects the collective, social nature of Chinese video watching — viewers from different times leave messages for those who come after. It originally came from sci-fi (high-energy reaction warnings) and was adopted ironically.",
+    "similar_expressions": "Like 'brace yourself,' 'incoming,' 'warning: intense,' or a spoiler/content warning. The danmu context — a live warning from fellow viewers — is specific to Chinese video culture.",
+    "examples": [
+      {
+        "chinese": "前方高能，胆小的赶紧捂眼睛。",
+        "english": "High energy ahead — if you scare easily, cover your eyes now."
+      },
+      {
+        "chinese": "弹幕都在刷前方高能，我都不敢往下看了。",
+        "english": "The danmu is all 'high energy ahead' — I'm scared to keep watching."
+      }
+    ]
+  },
+  {
+    "slug": "ying-gang",
+    "chinese_name": "硬刚",
+    "pinyin": "yìng gāng",
+    "english_name": "Going Head-On / Confronting Directly",
+    "year": 2018,
+    "status": "still popular",
+    "popularity": 4,
+    "tags": [
+      "internet-culture",
+      "gaming",
+      "humor"
+    ],
+    "chinese_explanation": "硬指强硬，刚指正面对抗，硬刚即不绕弯、不退让，直接正面硬碰硬地对抗或挑战。",
+    "english_explanation": "硬 means hard/tough; 刚 means to confront head-on. 硬刚 means to take something on directly, without strategy, evasion, or retreat — pure frontal confrontation. You can 硬刚 a difficult exam, a powerful opponent, a boss, or an argument. The word carries a tone of admirable (or reckless) courage: instead of finding a clever workaround, you square up and meet the challenge force-against-force.",
+    "cultural_context": "硬刚 spread from gaming, where it described choosing direct combat over tactical play, then entered general use. It reflects a cultural appreciation for the person who refuses to back down — though it can also imply foolishness, taking on something you should have approached more cleverly. The word sits in tension with Chinese internet's other dominant mode: avoidance, lying flat, and strategic retreat.",
+    "similar_expressions": "Like 'going toe-to-toe,' 'meeting it head-on,' 'squaring up,' or 'taking it straight on.' It implies confrontation without finesse — brave or foolish depending on context.",
+    "examples": [
+      {
+        "chinese": "他不服就直接硬刚，从不绕弯子。",
+        "english": "When he disagrees he confronts it head-on — never beats around the bush."
+      },
+      {
+        "chinese": "实力不够就别硬刚，要讲策略。",
+        "english": "If you're not strong enough, don't go head-on — you need strategy."
+      }
+    ]
+  },
+  {
+    "slug": "qiu-chui-de-chui",
+    "chinese_name": "求锤得锤",
+    "pinyin": "qiú chuí dé chuí",
+    "english_name": "Asked for Proof, Got the Proof",
+    "year": 2018,
+    "status": "still popular",
+    "popularity": 4,
+    "tags": [
+      "internet-culture",
+      "fandom",
+      "humor"
+    ],
+    "chinese_explanation": "锤指实锤（确凿证据），求锤得锤指本来怀疑或要求证据，结果证据真的出现了，常用于明星塌房事件。",
+    "english_explanation": "锤 (hammer) is internet slang for solid proof — 实锤 means a 'real hammer,' an undeniable piece of evidence. 求锤得锤 means 'asked for a hammer, got a hammer' — you (or skeptics) demanded proof of some accusation, and then the proof actually materialized, often dramatically. It's most common in celebrity scandals: fans demand evidence their idol did something wrong, and then the evidence drops, confirming the worst.",
+    "cultural_context": "求锤得锤 is core vocabulary of Chinese celebrity scandal culture (塌房 — idol collapse). The hammer metaphor — proof landing like a hammer blow — captures the dramatic, decisive quality of scandal revelations. The phrase often carries grim satisfaction or schadenfreude: the doubters wanted proof, and the internet delivered.",
+    "similar_expressions": "Like 'be careful what you wish for,' 'asked and answered,' or 'the receipts dropped.' The hammer metaphor for decisive evidence is distinctly Chinese internet.",
+    "examples": [
+      {
+        "chinese": "粉丝还在洗白，结果求锤得锤，证据全出来了。",
+        "english": "Fans were still defending him — then they asked for proof and got it, all the evidence came out."
+      },
+      {
+        "chinese": "这次真是求锤得锤，再也没法狡辩了。",
+        "english": "This time the proof really landed — no more weaseling out of it."
+      }
+    ]
+  },
+  {
+    "slug": "shang-zhuo",
+    "chinese_name": "上桌",
+    "pinyin": "shàng zhuō",
+    "english_name": "Getting a Seat at the Table",
+    "year": 2024,
+    "status": "still popular",
+    "popularity": 4,
+    "tags": [
+      "identity",
+      "workplace",
+      "humor"
+    ],
+    "chinese_explanation": "字面指上饭桌吃饭，引申为年轻人开始获得话语权和参与重要事务的资格，常见于「00后上桌」。",
+    "english_explanation": "Literally 'getting on the table' — from the Chinese family custom where children eat at a separate small table until they're old enough to join the adults' table. Extended to mean young people finally gaining a voice, decision-making power, and recognition. '00后上桌' (the post-2000s generation gets a seat at the table) describes Gen Z entering workplaces, politics, and cultural conversations as participants rather than observers. It marks a generational shift in who gets to speak.",
+    "cultural_context": "上桌 became prominent in 2024 as China's post-2000 generation entered the workforce and public discourse in force. The dinner table metaphor is culturally rich — in traditional Chinese family structure, table seating literally encodes hierarchy and seniority. 'Getting a seat at the table' as a generation captures both the literal aging-up and the symbolic claiming of authority from older generations.",
+    "similar_expressions": "Like 'getting a seat at the table,' 'coming of age,' or 'the kids are running things now.' The Chinese dinner-table custom gives the metaphor a specific cultural grounding around family hierarchy.",
+    "examples": [
+      {
+        "chinese": "00后上桌之后，职场风气都变了。",
+        "english": "Once Gen Z got a seat at the table, the whole workplace culture changed."
+      },
+      {
+        "chinese": "终于轮到我们这代人上桌了。",
+        "english": "It's finally our generation's turn to take a seat at the table."
+      }
+    ]
+  },
+  {
+    "slug": "ga-le",
+    "chinese_name": "嘎了",
+    "pinyin": "gā le",
+    "english_name": "Kicked the Bucket / Done For",
+    "year": 2023,
+    "status": "still popular",
+    "popularity": 4,
+    "tags": [
+      "humor",
+      "gaming",
+      "internet-culture"
+    ],
+    "chinese_explanation": "东北方言，指死了、完蛋了，语气轻松诙谐，常用于游戏角色死亡或调侃某事失败。",
+    "english_explanation": "Northeastern Chinese dialect for dying or being finished. 嘎 imitates an abrupt cut-off sound — like something stopping suddenly. 嘎了 is used lightly and comically: a game character dies (嘎了), a plant you forgot to water 嘎了, a plan falls apart (嘎了). The dialect flavor makes it casual and funny rather than morbid — it's death and failure delivered with a shrug and a regional accent.",
+    "cultural_context": "嘎了 is part of the broad influence of northeastern Chinese dialect (东北话) on internet language. Northeastern speech is associated with humor, bluntness, and warmth in Chinese popular culture — so borrowing 嘎了 brings that comedic, unbothered tone. It joined a family of casual death/failure words (寄了, 凉了, 芭比Q) that let people discuss bad outcomes lightly.",
+    "similar_expressions": "Like 'kicked the bucket,' 'it's a goner,' 'done for,' or 'RIP.' The dialect origin gives it a casual, comic regional flavor similar to how regional English slang can soften a grim topic.",
+    "examples": [
+      {
+        "chinese": "游戏里一不小心就嘎了，太菜了。",
+        "english": "Got careless in the game and kicked the bucket — so bad at this."
+      },
+      {
+        "chinese": "我养的花又嘎了，养啥死啥。",
+        "english": "My plant kicked the bucket again — everything I grow dies."
+      }
+    ]
+  },
+  {
+    "slug": "ting-wo-shuo-xie-xie-ni",
+    "chinese_name": "听我说谢谢你",
+    "pinyin": "tīng wǒ shuō xiè xie nǐ",
+    "english_name": "Listen to Me Say Thank You",
+    "year": 2022,
+    "status": "fading",
+    "popularity": 3,
+    "tags": [
+      "humor",
+      "internet-culture",
+      "self-deprecation"
+    ],
+    "chinese_explanation": "源自一首儿童感恩歌曲，因被滥用于不恰当场合（如给医护人员表演）而成为讽刺性梗，表达尴尬或反讽的感谢。",
+    "english_explanation": "From a children's gratitude song — 'listen to me say thank you, thanks for being in my life.' The song went viral in 2022 not for being good, but for being awkwardly overused: performed by children at inappropriate occasions, used in cringe-inducing ways to thank healthcare workers and others. It became an ironic meme — saying '听我说谢谢你' now usually signals sarcastic, hollow, or performatively awkward gratitude rather than sincere thanks.",
+    "cultural_context": "The song's transformation into a meme reflects Chinese internet's sharp eye for performative sincerity. The original was earnest, but its overuse in staged, obligatory gratitude performances — especially during the pandemic — made it a symbol of empty ceremony. Invoking it became a way to mock insincere thanks or awkward, forced displays of appreciation.",
+    "similar_expressions": "Like saying 'thoughts and prayers' sarcastically, or 'thank you for your service' delivered with an eye-roll. The shift from sincere to ironic mirrors how earnest phrases get co-opted by internet sarcasm.",
+    "examples": [
+      {
+        "chinese": "他这种敷衍的感谢，真的是听我说谢谢你。",
+        "english": "His perfunctory thanks is pure 'listen to me say thank you' energy."
+      },
+      {
+        "chinese": "那段时间到处都在播听我说谢谢你，听到耳朵起茧。",
+        "english": "For a while 'listen to me say thank you' was playing everywhere — heard it till my ears were numb."
       }
     ]
   }

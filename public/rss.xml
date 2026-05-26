@@ -5,7 +5,7 @@
     <link>https://cnmemes.com</link>
     <description>The most complete English-language dictionary of Chinese internet memes. Updated monthly.</description>
     <language>en-us</language>
-    <lastBuildDate>2026-05-23</lastBuildDate>
+    <lastBuildDate>2026-05-26</lastBuildDate>
     <atom:link href="https://cnmemes.com/rss.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>胖东来 (Pàng Dōng Lái) — Pang Dong Lai (The Dream Employer)</title>
@@ -22,25 +22,11 @@
     <category>fandom</category>
   </item>
   <item>
-    <title>新中式穿搭 (xīn zhōng shì chuān dā) — New Chinese Style Dressing</title>
-    <link>https://cnmemes.com/meme/xin-zhong-shi-chuan-da</link>
-    <guid>https://cnmemes.com/meme/xin-zhong-shi-chuan-da</guid>
-    <description>Think of it as China's answer to cottagecore — a fashion trend blending traditional Chinese aesthetics (think linen mandarin collars, ink-wash prints, jade accessories, and hanfu-inspired silhouettes) with contemporary streetwear and daily wear. Gen-Z fashionistas are ditching fast fashion in favor of looks that say 'I passed Chinese history class AND have great taste.' It's patriotic chic meets actual wearability, and your grandmother might actually approve.</description>
-    <category>fandom</category>
-  </item>
-  <item>
     <title>新中式 (xīn zhōng shì) — New Chinese Style / Neo-Chinese Aesthetic</title>
     <link>https://cnmemes.com/meme/xin-zhong-shi</link>
     <guid>https://cnmemes.com/meme/xin-zhong-shi</guid>
     <description>Think cottagecore, but make it Confucian. '新中式' is the Gen-Z embrace of redesigned traditional Chinese aesthetics — think flowing hanfu-inspired cuts on a coffee date, ceramic teacups instead of Stanley tumblers, and ink-wash motifs on your phone case. It's not your grandma's chinoiserie; it's young Chinese people reclaiming cultural heritage as cool, aspirational, and very Instagram-worthy, often with a side of gentle irony about performing tradition while doom-scrolling.</description>
     <category>self-deprecation</category>
-  </item>
-  <item>
-    <title>哪吒2现象 (Nǎzhā èr xiànxiàng) — The Ne Zha 2 Phenomenon</title>
-    <link>https://cnmemes.com/meme/nazha-er-xianxiang</link>
-    <guid>https://cnmemes.com/meme/nazha-er-xianxiang</guid>
-    <description>Refers to the massive cultural shockwave triggered by the release of 'Ne Zha 2' in early 2025, which shattered Chinese box office records and sparked nationwide pride in homegrown animation. The 'phenomenon' label captures how it transcended mere movie-going: people saw it multiple times, workplaces scheduled group outings, and online discourse exploded with debates about Chinese soft power, artistic ambition, and whether this proved domestic animation had finally arrived. Think less 'it's a hit film' and more 'it became a collective identity moment.'</description>
-    <category>consumerism, fandom</category>
   </item>
   <item>
     <title>AI替代焦虑 (AI tìdài jiāolǜ) — AI Replacement Anxiety</title>
@@ -127,11 +113,11 @@
     <category>workplace</category>
   </item>
   <item>
-    <title>平替经济 (píng tì jīng jì) — Dupe Economy / Budget Substitute Economy</title>
-    <link>https://cnmemes.com/meme/ping-ti-jing-ji</link>
-    <guid>https://cnmemes.com/meme/ping-ti-jing-ji</guid>
-    <description>Why pay luxury prices when the knockoff works just as well? '平替经济' describes the booming trend of Chinese consumers — especially younger ones — swapping expensive branded goods for cheaper alternatives ('平替', or 'flat substitutes') that do the job without the designer price tag. Think drugstore skincare instead of La Mer, or domestic coffee chains instead of Starbucks. It's savvy spending rebranded as a lifestyle flex.</description>
-    <category>consumerism</category>
+    <title>牛马 (niú mǎ) — Ox and Horse / Beast of Burden Worker</title>
+    <link>https://cnmemes.com/meme/niu-ma</link>
+    <guid>https://cnmemes.com/meme/niu-ma</guid>
+    <description>Literally 'ox and horse' — the draft animals that pull plows and carts. A darker, more bitter evolution of 打工人 (worker). Where 打工人 has a note of ironic dignity, 牛马 strips that away entirely: you are livestock, valued only for the labor extracted from you. '资本家的牛马' (the capitalist's ox and horse) became a common self-description among Chinese workers in 2024, expressing a more radical disillusionment with work than earlier terms.</description>
+    <category>workplace, self-deprecation, burnout</category>
   </item>
   <item>
     <title>City Walk (Chéng Shì Màn Bù) — Urban Strolling / City Wandering</title>
@@ -174,6 +160,20 @@
     <guid>https://cnmemes.com/meme/kong-yiji-wenxue</guid>
     <description>Named after a tragic scholar character in a Lu Xun short story, this meme captures the plight of over-educated, under-employed young Chinese people who feel trapped by their degrees. Just like the fictional Kong Yiji — too proud to do manual labor, too powerless to rise — these graduates joke darkly that their diplomas are both a badge of honor and a pair of handcuffs they can't take off.</description>
     <category>consumerism, education</category>
+  </item>
+  <item>
+    <title>主打一个 (zhǔ dǎ yī gè) — The Main Thing Is / Leading With</title>
+    <link>https://cnmemes.com/meme/zhu-da-yi-ge</link>
+    <guid>https://cnmemes.com/meme/zhu-da-yi-ge</guid>
+    <description>A sentence structure meaning 'the main thing is [X]' or 'leading with [X].' Exploded across Chinese social media as a template for describing the defining quality of anything: 主打一个不在乎 (leading with not caring), 主打一个真实 (the main thing is being real), 主打一个随缘 (going with the flow is the vibe). It's both a description and a statement of intent — this is the energy I'm bringing.</description>
+    <category>internet-culture, identity, lifestyle</category>
+  </item>
+  <item>
+    <title>遥遥领先 (yáo yáo lǐng xiān) — Far and Away the Leader / Humorously Overstated Superiority</title>
+    <link>https://cnmemes.com/meme/yao-yao-ling-xian</link>
+    <guid>https://cnmemes.com/meme/yao-yao-ling-xian</guid>
+    <description>Literally 'far and away leading.' Huawei executive Yu Chengdong (余承东, nicknamed 'Yu the Great') used this phrase repeatedly at product launches to describe Huawei's supposed superiority. The repetition became a meme — any time someone makes an extravagant claim of superiority, you apply '遥遥领先.' Used both to mock Huawei's marketing language and as a general template for anyone claiming to be obviously, incomparably the best at anything.</description>
+    <category>technology, humor, internet-culture</category>
   </item>
   <item>
     <title>内耗 (nèi hào) — Internal Consumption / Mental Drain</title>
@@ -309,6 +309,20 @@
     <category>consumerism</category>
   </item>
   <item>
+    <title>草台班子 (cǎo tái bān zi) — Makeshift Troupe / Amateur-Hour Operation</title>
+    <link>https://cnmemes.com/meme/cao-tai-ban-zi</link>
+    <guid>https://cnmemes.com/meme/cao-tai-ban-zi</guid>
+    <description>Literally a 'grass-stage troupe' — traveling opera companies that performed on makeshift stages in fields, the bottom rung of traditional theater. Extended to describe any operation that looks organized from the outside but is actually improvised chaos inside. The revelation is always the same: that company/government/institution/sports team you thought was professional? 草台班子. Everyone is just figuring it out as they go.</description>
+    <category>workplace, internet-culture, humor</category>
+  </item>
+  <item>
+    <title>芭比Q (bā bǐ Q) — Barbecued / It's All Over / We're Toast</title>
+    <link>https://cnmemes.com/meme/ba-bi-q</link>
+    <guid>https://cnmemes.com/meme/ba-bi-q</guid>
+    <description>A phonetic rendering of the English 'BBQ' (barbecue). When something is barbecued, it's been cooked over fire — finished, done, toast. 芭比Q了 means 'it's all over' or 'we're cooked,' usually said with comic dismay. The phrase exploded from a viral video where a game streamer dramatically announced '完了完了，芭比Q了' (it's over, it's over, we're barbecued) when his game character died. The absurd mismatch between the cheerful word 'barbecue' and the doom it describes is the entire joke.</description>
+    <category>humor, internet-culture, gaming</category>
+  </item>
+  <item>
     <title>赢麻了 (yíng má le) — Winning So Hard It's Gone Numb</title>
     <link>https://cnmemes.com/meme/ying-ma-le</link>
     <guid>https://cnmemes.com/meme/ying-ma-le</guid>
@@ -342,20 +356,6 @@
     <guid>https://cnmemes.com/meme/song-chi-gan</guid>
     <description>Imagine someone who misses their flight, shrugs, and immediately finds a better hotel — that's 松弛感. It describes a quality of effortless calm and emotional ease that makes a person seem unbothered by life's chaos. Not laziness, not indifference — more like an inner poise that never performs stress for an audience. In a culture that glorifies grinding and anxiety as proof of seriousness, having 松弛感 is quietly radical. Think 'main character energy' meets Zen Buddhism, served at room temperature.</description>
     <category>self-deprecation</category>
-  </item>
-  <item>
-    <title>情绪价值 (qíng xù jià zhí) — Emotional Value</title>
-    <link>https://cnmemes.com/meme/qing-xu-jia-zhi</link>
-    <guid>https://cnmemes.com/meme/qing-xu-jia-zhi</guid>
-    <description>Think of 'emotional value' as the vibe tax your relationships either pay or owe you. If someone makes you feel heard, calm, happy, and energized just by being around them, their emotional value is sky-high. If they leave you drained, anxious, or performing emotional labor unpaid — their score tanks. Gen-Z Chinese netizens turned this originally HR-flavored term into a universal relationship KPI, applied to partners, friends, and even celebrities.</description>
-    <category>romance</category>
-  </item>
-  <item>
-    <title>XX平替 (píng tì) — Budget Dupe / Affordable Alternative</title>
-    <link>https://cnmemes.com/meme/ping-ti</link>
-    <guid>https://cnmemes.com/meme/ping-ti</guid>
-    <description>Think of '平替' as China's version of 'dupe culture.' It refers to a cheaper product that delivers roughly the same vibe, quality, or clout as a pricey brand-name item. Slap any category in front — skincare, clothing, coffee — and you've got yourself a recommendation. It's less about being broke and more about being smart: why pay for the logo when you can pay for the thing itself? Gen-Z shoppers turned this into a full-blown lifestyle philosophy.</description>
-    <category>consumerism</category>
   </item>
   </channel>
 </rss>
