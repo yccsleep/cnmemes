@@ -3,12 +3,14 @@ interface Props {
   title: string;
   description?: string;
   type?: string;
+  image?: string;
 }
 
 const { 
   title, 
   description = "Decoding Chinese internet memes for the world. From 2000 to today, explained in English.",
-  type = "website"
+  type = "website",
+  image = "https://cnmemes.com/og-image.png"
 } = Astro.props;
 
 const canonicalURL = Astro.url.href;
@@ -34,12 +36,17 @@ const fullTitle = `${title} | CNMemes`;
   <meta property="og:url" content={canonicalURL} />
   <meta property="og:site_name" content="CNMemes — Chinese Meme Dictionary" />
   <meta property="og:locale" content="en_US" />
+  <meta property="og:image" content={image} />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="CNMemes — The Chinese Internet Meme Dictionary" />
 
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={fullTitle} />
   <meta name="twitter:description" content={description} />
   <meta name="twitter:site" content="@cnmemes" />
+  <meta name="twitter:image" content={image} />
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-9W4F0BEMB5"></script>

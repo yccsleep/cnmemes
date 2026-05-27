@@ -85,6 +85,31 @@ const definedTermSchema = {
   },
   "url": `https://cnmemes.com/meme/${meme.slug}`
 };
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://cnmemes.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": `${yearLabel} Memes`,
+      "item": `https://cnmemes.com/year/${pageYear}`
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": meme.chinese_name,
+      "item": `https://cnmemes.com/meme/${meme.slug}`
+    }
+  ]
+};
 ---
 
 <Base title={pageTitle} description={pageDesc}>
@@ -98,7 +123,11 @@ const definedTermSchema = {
 
     <div class="meme-header">
       <h1 class="cn-name">{meme.chinese_name} — {meme.english_name}</h1>
-      <div class="pinyin">{meme.pinyin}</div>
+      <div class="pinyin">
+        <span class="pinyin-label">Pronounced</span>
+        <span class="pinyin-text">{meme.pinyin}</span>
+        <span class="pinyin-lang">in Mandarin</span>
+      </div>
       <div class="meta-row">
         <a href={`/year/${pageYear}`} class="tag tag-year">{yearLabel}</a>
         <span class={`tag tag-${statusClass}`}>{meme.status}</span>
@@ -241,3 +270,4 @@ const definedTermSchema = {
 
 <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
 <script type="application/ld+json" set:html={JSON.stringify(definedTermSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />

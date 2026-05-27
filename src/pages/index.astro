@@ -3,39 +3,38 @@ import Base from '../layouts/Base.astro';
 import MemeCard from '../components/MemeCard.astro';
 import memes from '../data/memes.json';
 
-const years = [...new Set(memes.map(m => m.year))].sort((a, b) => b - a);
 const totalCount = memes.length;
 const currentYear = Math.max(...memes.map(m => m.year));
 
-// Era config
-const eraConfig: Record<number, string> = {
-  2004: '2000–2004', 2009: '2005–2009', 2014: '2010–2014'
-};
-const pageYearOf = (y: number): number => y >= 2015 ? y : y <= 2004 ? 2004 : y <= 2009 ? 2009 : 2014;
-
-// Build deduplicated pill list — one entry per unique page
-const seen = new Set<number>();
-const yearPills: { label: string; href: string }[] = [];
-for (const y of years) {
-  const py = pageYearOf(y);
-  if (seen.has(py)) continue;
-  seen.add(py);
-  const label = eraConfig[py] ?? (py === currentYear ? `${py} 🔄` : String(py));
-  yearPills.push({ label, href: `/year/${py}` });
-}
-
+// 🔥 Trending ticker — what's hot recently: last 3 years + still popular
 const hotMemes = [...memes]
-  .filter(m => m.popularity >= 4)
-  .sort((a, b) => b.popularity - a.popularity || b.year - a.year)
+  .filter(m => m.year >= currentYear - 2 && m.status === 'still popular')
+  .sort((a, b) => b.year - a.year || b.popularity - a.popularity);
+
+// 📚 The Essentials — must-know memes: 5-star + still popular, sorted by relevance
+const essentials = [...memes]
+  .filter(m => m.popularity === 5 && m.status === 'still popular')
+  .sort((a, b) => b.year - a.year)
   .slice(0, 24);
 
-const sortedMemes = [...memes].sort((a, b) => b.year - a.year || b.popularity - a.popularity);
+// 🆕 Fresh this year
+const freshMemes = [...memes]
+  .filter(m => m.year === currentYear)
+  .sort((a, b) => b.popularity - a.popularity)
+  .slice(0, 8);
 
-const statusCounts = {
-  classic: memes.filter(m => m.status === 'classic').length,
-  popular: memes.filter(m => m.status === 'still popular').length,
-  fading: memes.filter(m => m.status === 'fading').length,
-};
+// 🎭 Browse by Vibe — scenario-based entry points
+const vibes = [
+  { tag: 'workplace', emoji: '💼', label: 'Work & Burnout', desc: 'Memes your Chinese coworkers live by' },
+  { tag: 'romance', emoji: '💔', label: 'Love & Dating', desc: 'How Chinese Gen-Z talks about romance' },
+  { tag: 'self-deprecation', emoji: '🙃', label: 'Self-Deprecation', desc: 'The art of roasting yourself' },
+  { tag: 'fandom', emoji: '✨', label: 'Fandom & Idols', desc: 'Inside Chinese stan culture' },
+  { tag: 'humor', emoji: '🤪', label: 'Pure Absurdism', desc: 'Memes that exist just to be funny' },
+  { tag: 'internet-culture', emoji: '🌐', label: 'Internet Culture', desc: 'How the Chinese internet works' },
+];
+
+// Full archive — sorted newest first
+const allMemes = [...memes].sort((a, b) => b.year - a.year || b.popularity - a.popularity);
 ---
 
 <Base title="Chinese Internet Meme Dictionary" description="What do Chinese internet memes mean? Explained in English — 500+ memes from 2000 to today with cultural context.">
@@ -58,20 +57,13 @@ const statusCounts = {
     <h1>What Do Chinese Internet Memes Mean?</h1>
     <p>The most complete English guide to Chinese internet memes — from <strong>内卷</strong> (involution) to <strong>yyds</strong> (GOAT), every meme explained with cultural context.</p>
     <div class="search-box">
-      <input type="text" id="searchInput" placeholder="Search memes in Chinese, English, or Pinyin..." autocomplete="off" aria-label="Search Chinese memes" />
+      <input type="text" id="searchInput" placeholder="Search 500+ memes in Chinese, English, or Pinyin..." autocomplete="off" aria-label="Search Chinese memes" />
     </div>
+    <div class="hero-hint">New here? Start with <strong>The Essentials</strong> below — the memes everyone should know.</div>
   </section>
 
-  <div class="container" style="padding-top:24px;">
-    <!-- Year pills -->
-    <div class="year-pills">
-      <a href="/" class="year-pill active">All</a>
-      {yearPills.map(p => (
-        <a href={p.href} class="year-pill">{p.label}</a>
-      ))}
-    </div>
-
-    <!-- Hot memes ticker — below year pills -->
+  <!-- 🔥 Trending ticker -->
+  <div class="container" style="padding-top:20px;">
     <div class="hot-strip">
       <div class="hot-label">🔥 Trending</div>
       <div class="hot-track-wrap">
@@ -86,55 +78,129 @@ const statusCounts = {
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Stats row -->
-    <div class="stats-row">
-      <span><span class="status-dot classic"></span> {statusCounts.classic} classic</span>
-      <span><span class="status-dot popular"></span> {statusCounts.popular} still popular</span>
-      <span><span class="status-dot fading"></span> {statusCounts.fading} fading</span>
-    </div>
-
-    <!-- Meme grid: render first 24 visible, rest hidden at HTML level -->
-    <div class="meme-grid" id="memeGrid">
-      {sortedMemes.map((m, i) => (
-        <div style={i >= 24 ? 'display:none' : ''}>
-          <MemeCard
-            slug={m.slug}
-            chinese_name={m.chinese_name}
-            english_name={m.english_name}
-            pinyin={m.pinyin}
-            english_explanation={m.english_explanation}
-            year={m.year}
-            status={m.status}
-            tags={m.tags}
-            popularity={m.popularity}
-          />
-        </div>
-      ))}
-    </div>
-
-    <!-- Load more -->
-    <div id="loadMoreWrap" style="text-align:center;margin:40px 0 20px;">
-      <button id="loadMoreBtn" class="load-more-btn">Load More Memes</button>
-      <div id="loadMoreCount" style="font-size:12px;color:var(--text-muted);margin-top:8px;">Showing 24 of {sortedMemes.length}</div>
+  <!-- Search results (hidden until search) -->
+  <div class="container" id="searchResultsWrap" style="display:none;">
+    <h2 class="section-heading"><span id="searchCount">0</span> results</h2>
+    <div class="meme-grid" id="searchResults"></div>
+    <div id="noResults" style="display:none;text-align:center;padding:40px;color:var(--text-muted);">
+      No memes found. Try a different search term.
     </div>
   </div>
 
-  <script define:vars={{ memes: sortedMemes, totalCount: sortedMemes.length }}>
+  <!-- Default curated content (hidden during search) -->
+  <div id="curatedContent">
+
+    <!-- 📚 The Essentials -->
+    <section class="container home-section">
+      <div class="section-head">
+        <div>
+          <h2 class="section-heading">📚 The Essentials</h2>
+          <p class="section-sub">Start here — the must-know memes that define today's Chinese internet.</p>
+        </div>
+      </div>
+      <div class="meme-grid">
+        {essentials.map(m => (
+          <MemeCard
+            slug={m.slug} chinese_name={m.chinese_name} english_name={m.english_name}
+            pinyin={m.pinyin} english_explanation={m.english_explanation}
+            year={m.year} status={m.status} tags={m.tags} popularity={m.popularity}
+          />
+        ))}
+      </div>
+      <div class="section-more">
+        <a href="/top-memes" class="section-more-btn">See all top memes →</a>
+      </div>
+    </section>
+
+    <!-- 🎭 Browse by Vibe -->
+    <section class="container home-section">
+      <div class="section-head">
+        <div>
+          <h2 class="section-heading">🎭 Browse by Vibe</h2>
+          <p class="section-sub">Jump into the corner of Chinese internet culture you're curious about.</p>
+        </div>
+      </div>
+      <div class="vibe-grid">
+        {vibes.map(v => (
+          <a href={`/tag/${v.tag}`} class="vibe-card">
+            <span class="vibe-emoji">{v.emoji}</span>
+            <span class="vibe-label">{v.label}</span>
+            <span class="vibe-desc">{v.desc}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- 🆕 Fresh this year -->
+    <section class="container home-section">
+      <div class="section-head">
+        <div>
+          <h2 class="section-heading">🆕 Fresh in {currentYear}</h2>
+          <p class="section-sub">The newest memes to hit the Chinese internet this year.</p>
+        </div>
+      </div>
+      <div class="meme-grid">
+        {freshMemes.map(m => (
+          <MemeCard
+            slug={m.slug} chinese_name={m.chinese_name} english_name={m.english_name}
+            pinyin={m.pinyin} english_explanation={m.english_explanation}
+            year={m.year} status={m.status} tags={m.tags} popularity={m.popularity}
+          />
+        ))}
+      </div>
+      <div class="section-more">
+        <a href={`/year/${currentYear}`} class="section-more-btn">See all {currentYear} memes →</a>
+      </div>
+    </section>
+
+    <!-- Full archive (collapsed) -->
+    <section class="container home-section">
+      <div class="section-head">
+        <div>
+          <h2 class="section-heading">📖 The Full Archive</h2>
+          <p class="section-sub">All {totalCount} memes, newest first.</p>
+        </div>
+      </div>
+      <div class="meme-grid" id="archiveGrid">
+        {allMemes.map((m, i) => (
+          <div style={i >= 24 ? 'display:none' : ''}>
+            <MemeCard
+              slug={m.slug} chinese_name={m.chinese_name} english_name={m.english_name}
+              pinyin={m.pinyin} english_explanation={m.english_explanation}
+              year={m.year} status={m.status} tags={m.tags} popularity={m.popularity}
+            />
+          </div>
+        ))}
+      </div>
+      <div id="loadMoreWrap" style="text-align:center;margin:36px 0 20px;">
+        <button id="loadMoreBtn" class="load-more-btn">Load More Memes</button>
+        <div id="loadMoreCount" style="font-size:12px;color:var(--text-muted);margin-top:8px;">Showing 24 of {totalCount}</div>
+      </div>
+    </section>
+
+  </div>
+
+  <script define:vars={{ allMemes, totalCount }}>
     const searchInput = document.getElementById('searchInput');
-    const grid = document.getElementById('memeGrid');
+    const curated = document.getElementById('curatedContent');
+    const searchWrap = document.getElementById('searchResultsWrap');
+    const searchResults = document.getElementById('searchResults');
+    const searchCount = document.getElementById('searchCount');
+    const noResults = document.getElementById('noResults');
+    const archiveGrid = document.getElementById('archiveGrid');
     const loadMoreBtn = document.getElementById('loadMoreBtn');
     const loadMoreWrap = document.getElementById('loadMoreWrap');
     const loadMoreCount = document.getElementById('loadMoreCount');
     const PAGE = 24;
     let showing = PAGE;
+    const archiveWrappers = Array.from(archiveGrid.children);
 
-    const allWrappers = Array.from(grid.children);
-
-    // Load more
+    // Load more (archive)
     loadMoreBtn.addEventListener('click', () => {
       const next = Math.min(showing + PAGE, totalCount);
-      allWrappers.slice(showing, next).forEach(wrap => {
+      archiveWrappers.slice(showing, next).forEach(wrap => {
         wrap.style.display = '';
         wrap.style.animation = 'fadeIn 0.3s ease';
       });
@@ -143,55 +209,157 @@ const statusCounts = {
       if (showing >= totalCount) loadMoreWrap.style.display = 'none';
     });
 
-    // Search with highlight
+    // Search
+    function escapeHtml(s) {
+      return s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+    }
+    function eraLabel(y) {
+      if (y >= 2015) return String(y);
+      if (y <= 2004) return '2000–2004';
+      if (y <= 2009) return '2005–2009';
+      return '2010–2014';
+    }
+    function pageYearOf(y) {
+      return y >= 2015 ? y : y <= 2004 ? 2004 : y <= 2009 ? 2009 : 2014;
+    }
+
     searchInput.addEventListener('input', (e) => {
       const q = e.target.value.toLowerCase().trim();
-      if (q) {
-        loadMoreWrap.style.display = 'none';
-        allWrappers.forEach((wrap, i) => {
-          const m = memes[i];
-          const haystack = [m.chinese_name, m.english_name, m.pinyin, m.english_explanation, ...m.tags].join(' ').toLowerCase();
-          const matches = haystack.includes(q);
-          wrap.style.display = matches ? '' : 'none';
-          if (matches) {
-            // Highlight in excerpt
-            const excerptEl = wrap.querySelector('.card-excerpt');
-            if (excerptEl) {
-              const text = m.english_explanation;
-              const re = new RegExp(`(${q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')})`, 'gi');
-              excerptEl.innerHTML = text.replace(re, '<mark class="search-hl">$1</mark>');
-            }
-          }
-        });
-      } else {
-        // Reset highlights
-        allWrappers.forEach((wrap, i) => {
-          wrap.style.display = i < showing ? '' : 'none';
-          const excerptEl = wrap.querySelector('.card-excerpt');
-          if (excerptEl) excerptEl.textContent = memes[i].english_explanation;
-        });
-        if (showing < totalCount) loadMoreWrap.style.display = 'block';
+      if (!q) {
+        curated.style.display = '';
+        searchWrap.style.display = 'none';
+        return;
       }
+      curated.style.display = 'none';
+      searchWrap.style.display = '';
+
+      const matched = allMemes.filter(m => {
+        const hay = [m.chinese_name, m.english_name, m.pinyin, m.english_explanation, ...m.tags].join(' ').toLowerCase();
+        return hay.includes(q);
+      });
+
+      searchCount.textContent = matched.length;
+      if (matched.length === 0) {
+        searchResults.innerHTML = '';
+        noResults.style.display = 'block';
+        return;
+      }
+      noResults.style.display = 'none';
+
+      const re = new RegExp(`(${q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')})`, 'gi');
+      searchResults.innerHTML = matched.map(m => {
+        const statusClass = m.status === 'still popular' ? 'popular' : m.status === 'fading' ? 'fading' : 'classic';
+        const stars = '★'.repeat(m.popularity) + '☆'.repeat(5 - m.popularity);
+        const excerpt = escapeHtml(m.english_explanation).replace(re, '<mark class="search-hl">$1</mark>');
+        const py = pageYearOf(m.year);
+        return `
+          <div class="meme-card-wrap">
+            <a href="/meme/${m.slug}" class="meme-card">
+              <div class="card-cn">${m.chinese_name}</div>
+              <div class="card-en">${escapeHtml(m.english_name)}</div>
+              <div class="card-pinyin">${m.pinyin}</div>
+              <div class="card-excerpt">${excerpt}</div>
+            </a>
+            <div class="card-meta">
+              <a href="/year/${py}" class="tag tag-year">${eraLabel(m.year)}</a>
+              <span class="tag tag-${statusClass}">${m.status}</span>
+              <span class="popularity-stars">${stars}</span>
+            </div>
+          </div>`;
+      }).join('');
     });
   </script>
 </Base>
 
 <style>
-/* Stats row */
-.stats-row {
+.hero-hint {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-top: 14px;
+}
+.hero-hint strong { color: var(--accent); font-weight: 600; }
+
+.home-section { margin-bottom: 56px; }
+
+.section-head {
   display: flex;
-  gap: 16px;
-  justify-content: center;
-  margin-bottom: 32px;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.section-heading {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.section-sub {
+  font-size: 14px;
+  color: var(--text-dim);
+  margin-top: 4px;
+}
+
+.section-more {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.section-more-btn {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  padding: 8px 20px;
+  border: 1.5px solid var(--accent-border);
+  border-radius: 50px;
+  transition: all 0.18s ease;
+}
+.section-more-btn:hover {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+  text-decoration: none;
+}
+
+/* Vibe grid */
+.vibe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 14px;
+}
+
+.vibe-card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 20px 22px;
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  text-decoration: none;
+  transition: all 0.18s ease;
+}
+.vibe-card:hover {
+  border-color: var(--accent-border);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
+  text-decoration: none;
+}
+
+.vibe-emoji { font-size: 28px; }
+.vibe-label {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text);
+}
+.vibe-desc {
   font-size: 13px;
   color: var(--text-dim);
-  align-items: center;
-}
-.stats-row span {
-  display: flex;
-  align-items: center;
-  gap: 5px;
+  line-height: 1.5;
 }
 
 /* Search highlight */
@@ -216,7 +384,6 @@ mark.search-hl {
   transition: all 0.18s ease;
   letter-spacing: 0.3px;
 }
-
 .load-more-btn:hover {
   background: var(--accent);
   border-color: var(--accent);
@@ -230,6 +397,7 @@ mark.search-hl {
   to   { opacity: 1; transform: translateY(0); }
 }
 
+/* Trending ticker */
 .hot-strip {
   display: flex;
   align-items: center;
@@ -237,9 +405,8 @@ mark.search-hl {
   border: 1px solid var(--hot-border);
   border-radius: 8px;
   overflow: hidden;
-  margin-bottom: 32px;
+  margin-bottom: 8px;
 }
-
 .hot-label {
   flex-shrink: 0;
   background: var(--accent);
@@ -251,13 +418,11 @@ mark.search-hl {
   white-space: nowrap;
   text-transform: uppercase;
 }
-
 .hot-track-wrap {
   flex: 1;
   overflow: hidden;
   position: relative;
 }
-
 .hot-track-wrap::before,
 .hot-track-wrap::after {
   content: '';
@@ -267,23 +432,18 @@ mark.search-hl {
   z-index: 1;
   pointer-events: none;
 }
-
 .hot-track-wrap::before { left: 0; background: linear-gradient(to right, var(--hot-bg), transparent); }
 .hot-track-wrap::after  { right: 0; background: linear-gradient(to left,  var(--hot-bg), transparent); }
-
 .hot-track {
   display: flex;
   width: max-content;
   animation: scroll-left 180s linear infinite;
 }
-
 .hot-track:hover { animation-play-state: paused; }
-
 @keyframes scroll-left {
   0%   { transform: translateX(0); }
   100% { transform: translateX(-50%); }
 }
-
 .hot-item {
   display: flex;
   align-items: center;
@@ -294,15 +454,19 @@ mark.search-hl {
   white-space: nowrap;
   transition: background 0.2s;
 }
-
 .hot-item:hover { background: var(--hot-hover); text-decoration: none; }
-
 .hot-cn   { font-family: 'Noto Serif SC', serif; font-size: 14px; color: var(--hot-cn); font-weight: 700; }
 .hot-en   { font-size: 12px; color: var(--text-dim); }
 .hot-stars{ font-size: 11px; color: #f0a500; letter-spacing: 1px; }
 
+@media (max-width: 768px) {
+  .section-heading { font-size: 21px; }
+  .home-section { margin-bottom: 44px; }
+}
+
 @media (max-width: 480px) {
   .hot-en { display: none; }
   .hot-item { padding: 10px 12px; gap: 6px; }
+  .vibe-grid { grid-template-columns: 1fr; }
 }
 </style>
