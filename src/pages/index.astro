@@ -35,6 +35,18 @@ const vibes = [
 
 // Full archive — sorted newest first
 const allMemes = [...memes].sort((a, b) => b.year - a.year || b.popularity - a.popularity);
+
+// Year navigation pills (deduplicated, era-aware)
+const eraLabels: Record<number, string> = { 2004: '2000–2004', 2009: '2005–2009', 2014: '2010–2014' };
+const pageYearOf = (y: number) => y >= 2015 ? y : y <= 2004 ? 2004 : y <= 2009 ? 2009 : 2014;
+const yearPills: { label: string; href: string }[] = [];
+const seenYears = new Set<number>();
+for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
+  const py = pageYearOf(y);
+  if (seenYears.has(py)) continue;
+  seenYears.add(py);
+  yearPills.push({ label: eraLabels[py] ?? String(py), href: `/year/${py}` });
+}
 ---
 
 <Base title="Chinese Internet Memes Explained in English" description="What do Chinese internet memes mean? 500+ memes and slang terms explained in English with cultural context — from 内卷 to yyds, 2000 to today.">
@@ -96,14 +108,6 @@ const allMemes = [...memes].sort((a, b) => b.year - a.year || b.popularity - a.p
 
   <!-- Default curated content (hidden during search) -->
   <div id="curatedContent">
-
-    <!-- Intro / about content for SEO + new visitors -->
-    <section class="container" style="padding-top:32px;padding-bottom:8px;">
-      <div class="home-intro">
-        <p>Chinese internet culture moves fast and speaks its own language. Every year, new <strong>Chinese internet memes</strong> and slang terms emerge from Weibo, Douyin, Bilibili, and Xiaohongshu — words like <strong>内卷</strong> (involution), <strong>躺平</strong> (lying flat), and <strong>yyds</strong> (the GOAT) that capture how a whole generation thinks, works, and jokes. Most of it is invisible to English speakers.</p>
-        <p>CNMemes explains it all. Whether you're learning Mandarin, working with Chinese colleagues, following Chinese media, or just curious what's trending online, this dictionary tells you not only what each meme means, but the cultural story behind it — where it came from, why it caught on, and how people actually use it.</p>
-      </div>
-    </section>
 
     <!-- 📚 The Essentials -->
     <section class="container home-section">
@@ -175,8 +179,13 @@ const allMemes = [...memes].sort((a, b) => b.year - a.year || b.popularity - a.p
       <div class="section-head">
         <div>
           <h2 class="section-heading">📖 The Full Archive — All Chinese Memes</h2>
-          <p class="section-sub">All {totalCount} memes, newest first.</p>
+          <p class="section-sub">All {totalCount} memes, newest first. Or jump straight to a year:</p>
         </div>
+      </div>
+      <div class="archive-years">
+        {yearPills.map(p => (
+          <a href={p.href} class="archive-year-pill">{p.label}</a>
+        ))}
       </div>
       <div class="meme-grid" id="archiveGrid">
         {allMemes.map((m, i) => (
@@ -313,19 +322,30 @@ const allMemes = [...memes].sort((a, b) => b.year - a.year || b.popularity - a.p
   letter-spacing: 0.3px;
 }
 
-/* Homepage intro paragraph */
-.home-intro {
-  max-width: 760px;
-  margin: 0 auto;
+/* Archive year navigation */
+.archive-years {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
 }
-.home-intro p {
-  font-size: 16px;
-  line-height: 1.8;
+.archive-year-pill {
+  font-size: 13px;
+  font-weight: 600;
   color: var(--text-dim);
-  margin-bottom: 14px;
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  padding: 6px 15px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.16s ease;
 }
-.home-intro p:last-child { margin-bottom: 0; }
-.home-intro strong { color: var(--text); font-weight: 600; }
+.archive-year-pill:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: white;
+  text-decoration: none;
+}
 
 /* Section background band */
 .section-band {
