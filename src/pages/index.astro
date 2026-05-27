@@ -17,12 +17,6 @@ const essentials = [...memes]
   .sort((a, b) => b.year - a.year)
   .slice(0, 12);
 
-// 🆕 Fresh this year
-const freshMemes = [...memes]
-  .filter(m => m.year === currentYear)
-  .sort((a, b) => b.popularity - a.popularity)
-  .slice(0, 8);
-
 // 🎭 Browse by Vibe — scenario-based entry points
 const vibes = [
   { tag: 'workplace', emoji: '💼', label: 'Work & Burnout', desc: 'Memes your Chinese coworkers live by' },
@@ -68,11 +62,6 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
   <section class="hero">
     <h1>What Do Chinese Internet Memes Mean?</h1>
     <p>The most complete English guide to Chinese internet memes — from <strong>内卷</strong> (involution) to <strong>yyds</strong> (GOAT), every meme explained with cultural context.</p>
-    <div class="hero-badges">
-      <span class="hero-badge">{totalCount} memes</span>
-      <span class="hero-badge">2000–{currentYear}</span>
-      <span class="hero-badge">Updated monthly</span>
-    </div>
     <div class="search-box">
       <input type="text" id="searchInput" placeholder="Search 500+ memes in Chinese, English, or Pinyin..." autocomplete="off" aria-label="Search Chinese memes" />
     </div>
@@ -152,34 +141,12 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
       </section>
     </div>
 
-    <!-- 🆕 Fresh this year -->
+    <!-- Browse all — by year -->
     <section class="container home-section" style="padding-top:48px;">
       <div class="section-head">
         <div>
-          <h2 class="section-heading">🆕 Fresh in {currentYear} — The Newest Chinese Memes</h2>
-          <p class="section-sub">The newest memes and slang to hit the Chinese internet this year.</p>
-        </div>
-      </div>
-      <div class="meme-grid">
-        {freshMemes.map(m => (
-          <MemeCard
-            slug={m.slug} chinese_name={m.chinese_name} english_name={m.english_name}
-            pinyin={m.pinyin} english_explanation={m.english_explanation}
-            year={m.year} status={m.status} tags={m.tags} popularity={m.popularity}
-          />
-        ))}
-      </div>
-      <div class="section-more">
-        <a href={`/year/${currentYear}`} class="section-more-btn">See all {currentYear} memes →</a>
-      </div>
-    </section>
-
-    <!-- Full archive (collapsed) -->
-    <section class="container home-section">
-      <div class="section-head">
-        <div>
-          <h2 class="section-heading">📖 The Full Archive — All Chinese Memes</h2>
-          <p class="section-sub">All {totalCount} memes, newest first. Or jump straight to a year:</p>
+          <h2 class="section-heading">📖 Browse All {totalCount} Memes</h2>
+          <p class="section-sub">Explore the full archive by year — from the BBS era to today.</p>
         </div>
       </div>
       <div class="archive-years">
@@ -187,20 +154,8 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
           <a href={p.href} class="archive-year-pill">{p.label}</a>
         ))}
       </div>
-      <div class="meme-grid" id="archiveGrid">
-        {allMemes.map((m, i) => (
-          <div style={i >= 12 ? 'display:none' : ''}>
-            <MemeCard
-              slug={m.slug} chinese_name={m.chinese_name} english_name={m.english_name}
-              pinyin={m.pinyin} english_explanation={m.english_explanation}
-              year={m.year} status={m.status} tags={m.tags} popularity={m.popularity}
-            />
-          </div>
-        ))}
-      </div>
-      <div id="loadMoreWrap" style="text-align:center;margin:36px 0 20px;">
-        <button id="loadMoreBtn" class="load-more-btn">Load More Memes</button>
-        <div id="loadMoreCount" style="font-size:12px;color:var(--text-muted);margin-top:8px;">Showing 12 of {totalCount}</div>
+      <div class="section-more">
+        <a href="/top-memes" class="section-more-btn">Browse all top memes →</a>
       </div>
     </section>
 
@@ -213,25 +168,6 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
     const searchResults = document.getElementById('searchResults');
     const searchCount = document.getElementById('searchCount');
     const noResults = document.getElementById('noResults');
-    const archiveGrid = document.getElementById('archiveGrid');
-    const loadMoreBtn = document.getElementById('loadMoreBtn');
-    const loadMoreWrap = document.getElementById('loadMoreWrap');
-    const loadMoreCount = document.getElementById('loadMoreCount');
-    const PAGE = 12;
-    let showing = PAGE;
-    const archiveWrappers = Array.from(archiveGrid.children);
-
-    // Load more (archive)
-    loadMoreBtn.addEventListener('click', () => {
-      const next = Math.min(showing + PAGE, totalCount);
-      archiveWrappers.slice(showing, next).forEach(wrap => {
-        wrap.style.display = '';
-        wrap.style.animation = 'fadeIn 0.3s ease';
-      });
-      showing = next;
-      loadMoreCount.textContent = `Showing ${showing} of ${totalCount}`;
-      if (showing >= totalCount) loadMoreWrap.style.display = 'none';
-    });
 
     // Search
     function escapeHtml(s) {
@@ -302,25 +238,6 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
   margin-top: 14px;
 }
 .hero-hint strong { color: var(--accent); font-weight: 600; }
-
-/* Hero data badges */
-.hero-badges {
-  display: flex;
-  justify-content: center;
-  gap: 8px;
-  flex-wrap: wrap;
-  margin: 16px 0 20px;
-}
-.hero-badge {
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--text-dim);
-  background: var(--surface);
-  border: 1px solid var(--border);
-  padding: 5px 14px;
-  border-radius: 50px;
-  letter-spacing: 0.3px;
-}
 
 /* Archive year navigation */
 .archive-years {
@@ -445,32 +362,6 @@ mark.search-hl {
   border-radius: 2px;
   padding: 0 1px;
   font-weight: 600;
-}
-
-.load-more-btn {
-  background: var(--surface);
-  border: 1.5px solid var(--border);
-  color: var(--text-dim);
-  font-family: var(--font-body);
-  font-size: 14px;
-  font-weight: 600;
-  padding: 12px 32px;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.18s ease;
-  letter-spacing: 0.3px;
-}
-.load-more-btn:hover {
-  background: var(--accent);
-  border-color: var(--accent);
-  color: white;
-  box-shadow: 0 4px 14px rgba(194,59,34,0.3);
-  transform: translateY(-1px);
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(8px); }
-  to   { opacity: 1; transform: translateY(0); }
 }
 
 /* Trending ticker */
