@@ -15,7 +15,7 @@ const hotMemes = [...memes]
 const essentials = [...memes]
   .filter(m => m.popularity === 5 && m.status === 'still popular')
   .sort((a, b) => b.year - a.year)
-  .slice(0, 24);
+  .slice(0, 12);
 
 // 🆕 Fresh this year
 const freshMemes = [...memes]
@@ -37,7 +37,7 @@ const vibes = [
 const allMemes = [...memes].sort((a, b) => b.year - a.year || b.popularity - a.popularity);
 ---
 
-<Base title="Chinese Internet Meme Dictionary" description="What do Chinese internet memes mean? Explained in English — 500+ memes from 2000 to today with cultural context.">
+<Base title="Chinese Internet Memes Explained in English" description="What do Chinese internet memes mean? 500+ memes and slang terms explained in English with cultural context — from 内卷 to yyds, 2000 to today.">
 
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
@@ -56,6 +56,11 @@ const allMemes = [...memes].sort((a, b) => b.year - a.year || b.popularity - a.p
   <section class="hero">
     <h1>What Do Chinese Internet Memes Mean?</h1>
     <p>The most complete English guide to Chinese internet memes — from <strong>内卷</strong> (involution) to <strong>yyds</strong> (GOAT), every meme explained with cultural context.</p>
+    <div class="hero-badges">
+      <span class="hero-badge">{totalCount} memes</span>
+      <span class="hero-badge">2000–{currentYear}</span>
+      <span class="hero-badge">Updated monthly</span>
+    </div>
     <div class="search-box">
       <input type="text" id="searchInput" placeholder="Search 500+ memes in Chinese, English, or Pinyin..." autocomplete="off" aria-label="Search Chinese memes" />
     </div>
@@ -63,7 +68,7 @@ const allMemes = [...memes].sort((a, b) => b.year - a.year || b.popularity - a.p
   </section>
 
   <!-- 🔥 Trending ticker -->
-  <div class="container" style="padding-top:20px;">
+  <div class="container" style="padding-top:20px;padding-bottom:12px;">
     <div class="hot-strip">
       <div class="hot-label">🔥 Trending</div>
       <div class="hot-track-wrap">
@@ -92,12 +97,20 @@ const allMemes = [...memes].sort((a, b) => b.year - a.year || b.popularity - a.p
   <!-- Default curated content (hidden during search) -->
   <div id="curatedContent">
 
+    <!-- Intro / about content for SEO + new visitors -->
+    <section class="container" style="padding-top:32px;padding-bottom:8px;">
+      <div class="home-intro">
+        <p>Chinese internet culture moves fast and speaks its own language. Every year, new <strong>Chinese internet memes</strong> and slang terms emerge from Weibo, Douyin, Bilibili, and Xiaohongshu — words like <strong>内卷</strong> (involution), <strong>躺平</strong> (lying flat), and <strong>yyds</strong> (the GOAT) that capture how a whole generation thinks, works, and jokes. Most of it is invisible to English speakers.</p>
+        <p>CNMemes explains it all. Whether you're learning Mandarin, working with Chinese colleagues, following Chinese media, or just curious what's trending online, this dictionary tells you not only what each meme means, but the cultural story behind it — where it came from, why it caught on, and how people actually use it.</p>
+      </div>
+    </section>
+
     <!-- 📚 The Essentials -->
     <section class="container home-section">
       <div class="section-head">
         <div>
-          <h2 class="section-heading">📚 The Essentials</h2>
-          <p class="section-sub">Start here — the must-know memes that define today's Chinese internet.</p>
+          <h2 class="section-heading">📚 The Essentials — Must-Know Chinese Memes</h2>
+          <p class="section-sub">Start here — the hand-picked memes that define today's Chinese internet, used everywhere from group chats to news headlines.</p>
         </div>
       </div>
       <div class="meme-grid">
@@ -115,30 +128,32 @@ const allMemes = [...memes].sort((a, b) => b.year - a.year || b.popularity - a.p
     </section>
 
     <!-- 🎭 Browse by Vibe -->
-    <section class="container home-section">
-      <div class="section-head">
-        <div>
-          <h2 class="section-heading">🎭 Browse by Vibe</h2>
-          <p class="section-sub">Jump into the corner of Chinese internet culture you're curious about.</p>
+    <div class="section-band">
+      <section class="container home-section" style="margin-bottom:0;padding-top:48px;padding-bottom:48px;">
+        <div class="section-head">
+          <div>
+            <h2 class="section-heading">🎭 Browse by Vibe — Chinese Memes by Theme</h2>
+            <p class="section-sub">Jump into the corner of Chinese internet culture you're curious about.</p>
+          </div>
         </div>
-      </div>
-      <div class="vibe-grid">
-        {vibes.map(v => (
-          <a href={`/tag/${v.tag}`} class="vibe-card">
-            <span class="vibe-emoji">{v.emoji}</span>
-            <span class="vibe-label">{v.label}</span>
-            <span class="vibe-desc">{v.desc}</span>
-          </a>
-        ))}
-      </div>
-    </section>
+        <div class="vibe-grid">
+          {vibes.map(v => (
+            <a href={`/tag/${v.tag}`} class="vibe-card">
+              <span class="vibe-emoji">{v.emoji}</span>
+              <span class="vibe-label">{v.label}</span>
+              <span class="vibe-desc">{v.desc}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    </div>
 
     <!-- 🆕 Fresh this year -->
-    <section class="container home-section">
+    <section class="container home-section" style="padding-top:48px;">
       <div class="section-head">
         <div>
-          <h2 class="section-heading">🆕 Fresh in {currentYear}</h2>
-          <p class="section-sub">The newest memes to hit the Chinese internet this year.</p>
+          <h2 class="section-heading">🆕 Fresh in {currentYear} — The Newest Chinese Memes</h2>
+          <p class="section-sub">The newest memes and slang to hit the Chinese internet this year.</p>
         </div>
       </div>
       <div class="meme-grid">
@@ -159,13 +174,13 @@ const allMemes = [...memes].sort((a, b) => b.year - a.year || b.popularity - a.p
     <section class="container home-section">
       <div class="section-head">
         <div>
-          <h2 class="section-heading">📖 The Full Archive</h2>
+          <h2 class="section-heading">📖 The Full Archive — All Chinese Memes</h2>
           <p class="section-sub">All {totalCount} memes, newest first.</p>
         </div>
       </div>
       <div class="meme-grid" id="archiveGrid">
         {allMemes.map((m, i) => (
-          <div style={i >= 24 ? 'display:none' : ''}>
+          <div style={i >= 12 ? 'display:none' : ''}>
             <MemeCard
               slug={m.slug} chinese_name={m.chinese_name} english_name={m.english_name}
               pinyin={m.pinyin} english_explanation={m.english_explanation}
@@ -176,7 +191,7 @@ const allMemes = [...memes].sort((a, b) => b.year - a.year || b.popularity - a.p
       </div>
       <div id="loadMoreWrap" style="text-align:center;margin:36px 0 20px;">
         <button id="loadMoreBtn" class="load-more-btn">Load More Memes</button>
-        <div id="loadMoreCount" style="font-size:12px;color:var(--text-muted);margin-top:8px;">Showing 24 of {totalCount}</div>
+        <div id="loadMoreCount" style="font-size:12px;color:var(--text-muted);margin-top:8px;">Showing 12 of {totalCount}</div>
       </div>
     </section>
 
@@ -193,7 +208,7 @@ const allMemes = [...memes].sort((a, b) => b.year - a.year || b.popularity - a.p
     const loadMoreBtn = document.getElementById('loadMoreBtn');
     const loadMoreWrap = document.getElementById('loadMoreWrap');
     const loadMoreCount = document.getElementById('loadMoreCount');
-    const PAGE = 24;
+    const PAGE = 12;
     let showing = PAGE;
     const archiveWrappers = Array.from(archiveGrid.children);
 
@@ -278,6 +293,47 @@ const allMemes = [...memes].sort((a, b) => b.year - a.year || b.popularity - a.p
   margin-top: 14px;
 }
 .hero-hint strong { color: var(--accent); font-weight: 600; }
+
+/* Hero data badges */
+.hero-badges {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 16px 0 20px;
+}
+.hero-badge {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-dim);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 5px 14px;
+  border-radius: 50px;
+  letter-spacing: 0.3px;
+}
+
+/* Homepage intro paragraph */
+.home-intro {
+  max-width: 760px;
+  margin: 0 auto;
+}
+.home-intro p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--text-dim);
+  margin-bottom: 14px;
+}
+.home-intro p:last-child { margin-bottom: 0; }
+.home-intro strong { color: var(--text); font-weight: 600; }
+
+/* Section background band */
+.section-band {
+  background: var(--bg-subtle);
+  border-top: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-subtle);
+  margin: 8px 0;
+}
 
 .home-section { margin-bottom: 56px; }
 
