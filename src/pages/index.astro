@@ -100,7 +100,7 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
       <div class="section-head">
         <div>
           <h2 class="section-heading">📚 The Essentials — Must-Know Chinese Memes</h2>
-          <p class="section-sub">Start here — the hand-picked memes that define today's Chinese internet, used everywhere from group chats to news headlines.</p>
+          <p class="section-sub">Start here — the hand-picked memes that define today's Chinese internet.</p>
         </div>
       </div>
       <div class="meme-grid">
@@ -117,6 +117,27 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
       </div>
     </section>
 
+    <!-- 🎭 Browse by Vibe -->
+    <div class="section-band">
+      <section class="container home-section" style="margin-bottom:0;padding-top:48px;padding-bottom:48px;">
+        <div class="section-head">
+          <div>
+            <h2 class="section-heading">🎭 Browse by Vibe — Chinese Memes by Theme</h2>
+            <p class="section-sub">Jump into the corner of Chinese internet culture you're curious about.</p>
+          </div>
+        </div>
+        <div class="vibe-grid">
+          {vibes.map(v => (
+            <a href={`/tag/${v.tag}`} class="vibe-card">
+              <span class="vibe-emoji">{v.emoji}</span>
+              <span class="vibe-label">{v.label}</span>
+              <span class="vibe-desc">{v.desc}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    </div>
+
     <!-- Browse all — by year -->
     <section class="container home-section" style="padding-top:48px;">
       <div class="section-head">
@@ -132,25 +153,6 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
       </div>
       <div class="section-more">
         <a href="/top-memes" class="section-more-btn">Browse all top memes →</a>
-      </div>
-    </section>
-
-    <!-- 🎭 Browse by Vibe -->
-    <section class="container home-section" style="padding-top:48px;">
-      <div class="section-head">
-        <div>
-          <h2 class="section-heading">🎭 Browse by Vibe — Chinese Memes by Theme</h2>
-          <p class="section-sub">Jump into the corner of Chinese internet culture you're curious about.</p>
-        </div>
-      </div>
-      <div class="vibe-grid">
-        {vibes.map(v => (
-          <a href={`/tag/${v.tag}`} class="vibe-card">
-            <span class="vibe-emoji">{v.emoji}</span>
-            <span class="vibe-label">{v.label}</span>
-            <span class="vibe-desc">{v.desc}</span>
-          </a>
-        ))}
       </div>
     </section>
 
@@ -229,8 +231,8 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
 <style>
 /* Archive year navigation */
 .archive-years {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(92px, 1fr));
   gap: 8px;
   margin-bottom: 24px;
 }
@@ -240,16 +242,29 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
   color: var(--text-dim);
   background: var(--surface);
   border: 1.5px solid var(--border);
-  padding: 6px 15px;
-  border-radius: 50px;
+  padding: 9px 12px;
+  border-radius: 10px;
   text-decoration: none;
   transition: all 0.16s ease;
+  text-align: center;
 }
 .archive-year-pill:hover {
   background: var(--accent);
   border-color: var(--accent);
   color: white;
   text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  .archive-years { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* Section background band */
+.section-band {
+  background: var(--bg-subtle);
+  border-top: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-subtle);
+  margin: 8px 0;
 }
 
 .home-section { margin-bottom: 56px; }
