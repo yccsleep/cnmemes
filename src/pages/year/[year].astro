@@ -68,6 +68,15 @@ const collectionSchema = {
     "url": `https://cnmemes.com/meme/${m.slug}`
   }))
 };
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://cnmemes.com" },
+    { "@type": "ListItem", "position": 2, "name": `${displayLabel} Chinese Memes`, "item": `https://cnmemes.com/year/${year}` }
+  ]
+};
 ---
 
 <Base
@@ -75,6 +84,7 @@ const collectionSchema = {
   description={`Chinese internet memes from ${displayLabel} explained in English. From ${topMemes} and more — ${yearMemes.length} memes with cultural context and usage examples.`}
 >
   <script type="application/ld+json" set:html={JSON.stringify(collectionSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
 
   <section class="hero" style="padding-bottom:24px;">
     <h1><span class="cn-part">{displayLabel}</span> Chinese Internet Memes</h1>

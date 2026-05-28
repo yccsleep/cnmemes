@@ -42,7 +42,11 @@ const fillMemes = memes.filter(m =>
 const related = [...sameTagMemes, ...fillMemes].slice(0, 4);
 
 const pageTitle = `What Does ${meme.chinese_name} Mean? — ${meme.english_name} Explained`;
-const pageDesc = `What does ${meme.chinese_name} (${meme.pinyin}) mean? It means "${meme.english_name}" — ${meme.english_explanation.slice(0, 110)}...`;
+const descPrefix = `What does ${meme.chinese_name} (${meme.pinyin}) mean? It means "${meme.english_name}" — `;
+const snippetLen = Math.max(0, 155 - descPrefix.length - 3);
+const pageDesc = snippetLen > 15
+  ? `${descPrefix}${meme.english_explanation.slice(0, snippetLen)}...`
+  : descPrefix.slice(0, 155);
 
 // FAQ schema
 const faqItems: any[] = [
@@ -113,7 +117,7 @@ const breadcrumbSchema = {
 ---
 
 <Base title={pageTitle} description={pageDesc}>
-  <div class="meme-detail">
+  <article class="meme-detail">
     <!-- Breadcrumb with correct era-aware link -->
     <div class="breadcrumb">
       <a href="/">Home</a><span>›</span>
@@ -237,7 +241,7 @@ const breadcrumbSchema = {
         <span class="meme-nav-name">{nextMeme.chinese_name} — {nextMeme.english_name}</span>
       </a>
     </nav>
-  </div>
+  </article>
 </Base>
 
 <script define:vars={{ meme }}>

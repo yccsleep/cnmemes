@@ -37,12 +37,38 @@ const tagIntros: Record<string, string> = {
 };
 
 const intro = tagIntros[tag] || `Chinese internet memes about ${tagLabel} — ${tagMemes.length} entries explained in English with cultural context and usage examples.`;
+
+const collectionSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": `${tagLabel} Chinese Memes — ${tagMemes.length} Explained`,
+  "description": intro.slice(0, 200),
+  "url": `https://cnmemes.com/tag/${tag}`,
+  "hasPart": tagMemes.slice(0, 10).map(m => ({
+    "@type": "DefinedTerm",
+    "name": m.chinese_name,
+    "alternateName": m.english_name,
+    "url": `https://cnmemes.com/meme/${m.slug}`
+  }))
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://cnmemes.com" },
+    { "@type": "ListItem", "position": 2, "name": `${tagLabel} Chinese Memes`, "item": `https://cnmemes.com/tag/${tag}` }
+  ]
+};
 ---
 
 <Base
   title={`${tagLabel} Chinese Memes — ${tagMemes.length} Explained`}
   description={`Chinese internet memes about ${tagLabel}. Includes ${topExamples} and ${tagMemes.length - 3} more — each explained in English with cultural context.`}
 >
+  <script type="application/ld+json" set:html={JSON.stringify(collectionSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
   <section class="hero" style="padding-bottom:24px;">
     <h1>Chinese <span class="cn-part">{tagLabel}</span> Memes</h1>
     <p>{tagMemes.length} memes — explained in English with cultural context</p>
