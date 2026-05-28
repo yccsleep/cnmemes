@@ -117,27 +117,6 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
       </div>
     </section>
 
-    <!-- 🎭 Browse by Vibe -->
-    <div class="section-band">
-      <section class="container home-section" style="margin-bottom:0;padding-top:48px;padding-bottom:48px;">
-        <div class="section-head">
-          <div>
-            <h2 class="section-heading">🎭 Browse by Vibe — Chinese Memes by Theme</h2>
-            <p class="section-sub">Jump into the corner of Chinese internet culture you're curious about.</p>
-          </div>
-        </div>
-        <div class="vibe-grid">
-          {vibes.map(v => (
-            <a href={`/tag/${v.tag}`} class="vibe-card">
-              <span class="vibe-emoji">{v.emoji}</span>
-              <span class="vibe-label">{v.label}</span>
-              <span class="vibe-desc">{v.desc}</span>
-            </a>
-          ))}
-        </div>
-      </section>
-    </div>
-
     <!-- Browse all — by year -->
     <section class="container home-section" style="padding-top:48px;">
       <div class="section-head">
@@ -153,6 +132,25 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
       </div>
       <div class="section-more">
         <a href="/top-memes" class="section-more-btn">Browse all top memes →</a>
+      </div>
+    </section>
+
+    <!-- 🎭 Browse by Vibe -->
+    <section class="container home-section" style="padding-top:48px;">
+      <div class="section-head">
+        <div>
+          <h2 class="section-heading">🎭 Browse by Vibe — Chinese Memes by Theme</h2>
+          <p class="section-sub">Jump into the corner of Chinese internet culture you're curious about.</p>
+        </div>
+      </div>
+      <div class="vibe-grid">
+        {vibes.map(v => (
+          <a href={`/tag/${v.tag}`} class="vibe-card">
+            <span class="vibe-emoji">{v.emoji}</span>
+            <span class="vibe-label">{v.label}</span>
+            <span class="vibe-desc">{v.desc}</span>
+          </a>
+        ))}
       </div>
     </section>
 
@@ -252,14 +250,6 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
   border-color: var(--accent);
   color: white;
   text-decoration: none;
-}
-
-/* Section background band */
-.section-band {
-  background: var(--bg-subtle);
-  border-top: 1px solid var(--border-subtle);
-  border-bottom: 1px solid var(--border-subtle);
-  margin: 8px 0;
 }
 
 .home-section { margin-bottom: 56px; }
