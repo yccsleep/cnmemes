@@ -11,11 +11,9 @@ const hotMemes = [...memes]
   .filter(m => m.year >= currentYear - 2 && m.status === 'still popular')
   .sort((a, b) => b.year - a.year || b.popularity - a.popularity);
 
-// 📚 The Essentials — must-know memes: 5-star + still popular, sorted by relevance
-const essentials = [...memes]
-  .filter(m => m.popularity === 5 && m.status === 'still popular')
-  .sort((a, b) => b.year - a.year)
-  .slice(0, 12);
+// 📚 The Essentials — must-know memes: 5-star + still popular, randomly sampled
+const essentialPool = memes.filter(m => m.popularity === 5 && m.status === 'still popular');
+const essentials = [...essentialPool].sort(() => Math.random() - 0.5).slice(0, 12);
 
 // 🎭 Browse by Vibe — scenario-based entry points
 const vibes = [
@@ -65,7 +63,6 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
     <div class="search-box">
       <input type="text" id="searchInput" placeholder="Search 500+ memes in Chinese, English, or Pinyin..." autocomplete="off" aria-label="Search Chinese memes" />
     </div>
-    <div class="hero-hint">New here? Start with <strong>The Essentials</strong> below — the memes everyone should know.</div>
   </section>
 
   <!-- 🔥 Trending ticker -->
@@ -232,13 +229,6 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
 </Base>
 
 <style>
-.hero-hint {
-  font-size: 13px;
-  color: var(--text-muted);
-  margin-top: 14px;
-}
-.hero-hint strong { color: var(--accent); font-weight: 600; }
-
 /* Archive year navigation */
 .archive-years {
   display: flex;
