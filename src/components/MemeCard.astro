@@ -23,7 +23,7 @@ const pageYear = getPageYear(year);
 const yearLabel = eraLabels[pageYear] || String(year);
 ---
 
-<div class="meme-card-wrap">
+<div class={`meme-card-wrap${popularity === 5 ? ' card-featured' : ''}`}>
   <a href={`/meme/${slug}`} class="meme-card">
     <div class="card-cn">{chinese_name}</div>
     <div class="card-en">{english_name}</div>
@@ -68,6 +68,12 @@ const yearLabel = eraLabels[pageYear] || String(year);
 }
 
 .meme-card-wrap:hover::before { opacity: 1; }
+
+.card-featured::before { opacity: 0.75; }
+.card-featured {
+  border-color: var(--accent-border);
+  background: var(--surface-raised);
+}
 
 .meme-card {
   display: block;
