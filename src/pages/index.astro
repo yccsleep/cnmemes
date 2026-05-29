@@ -140,15 +140,6 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
           ))}
         </div>
 
-        <!-- Stickers teaser -->
-        <a href="/stickers" class="stickers-teaser">
-          <span class="stickers-teaser-emoji">🖼️</span>
-          <div class="stickers-teaser-text">
-            <span class="stickers-teaser-title">Visual Meme Dictionary</span>
-            <span class="stickers-teaser-desc">Chinese internet runs on image-based stickers — explore the 表情包 that words can't capture</span>
-          </div>
-          <span class="stickers-teaser-arrow">→</span>
-        </a>
       </section>
     </div>
 
@@ -362,48 +353,6 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
   font-size: 13px;
   color: var(--text-dim);
   line-height: 1.5;
-}
-
-/* Stickers teaser */
-.stickers-teaser {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  margin-top: 14px;
-  padding: 16px 20px;
-  background: var(--surface);
-  border: 1.5px solid var(--border);
-  border-radius: var(--radius-lg);
-  text-decoration: none;
-  transition: all 0.18s ease;
-}
-.stickers-teaser:hover {
-  border-color: var(--accent-border);
-  box-shadow: var(--shadow-sm);
-  transform: translateY(-1px);
-  text-decoration: none;
-}
-.stickers-teaser-emoji { font-size: 28px; flex-shrink: 0; }
-.stickers-teaser-text { flex: 1; min-width: 0; }
-.stickers-teaser-title {
-  display: block;
-  font-family: var(--font-display);
-  font-size: 16px;
-  font-weight: 700;
-  color: var(--text);
-  margin-bottom: 3px;
-}
-.stickers-teaser-desc {
-  display: block;
-  font-size: 13px;
-  color: var(--text-dim);
-  line-height: 1.5;
-}
-.stickers-teaser-arrow {
-  font-size: 18px;
-  color: var(--accent);
-  flex-shrink: 0;
-  font-weight: 700;
 }
 
 /* Search highlight */
