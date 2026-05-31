@@ -167,7 +167,7 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
         ))}
       </div>
       <div class="section-more">
-        <a href="/top-memes" class="section-more-btn">See all top memes →</a>
+        <a href="/memes" class="section-more-btn">Browse all {totalCount} memes →</a>
       </div>
     </section>
 
@@ -261,13 +261,21 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
 .year-section-label {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 8px;
   text-decoration: none;
   color: var(--text);
-  transition: color 0.16s ease;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 10px 14px;
+  transition: all 0.18s ease;
 }
 
-.year-section-label:hover { color: var(--accent); text-decoration: none; }
+.year-section-label:hover {
+  border-color: var(--accent-border);
+  color: var(--accent);
+  text-decoration: none;
+}
 
 .year-num {
   font-family: var(--font-display);

@@ -1,0 +1,186 @@
+---
+import Base from '../layouts/Base.astro';
+import MemeCard from '../components/MemeCard.astro';
+import memes from '../data/memes.json';
+
+const allMemes = [...memes].sort((a, b) => b.year - a.year || b.popularity - a.popularity);
+
+const byYear = allMemes.reduce((acc, m) => {
+  acc[m.year] = acc[m.year] || [];
+  acc[m.year].push(m);
+  return acc;
+}, {} as Record<number, typeof allMemes>);
+
+const years = Object.keys(byYear).map(Number).sort((a, b) => b - a);
+
+const collectionSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "All Chinese Internet Memes — Complete Dictionary",
+  "description": `All ${allMemes.length} Chinese internet memes explained in English, from 2000 to today.`,
+  "url": "https://cnmemes.com/memes",
+  "hasPart": allMemes.slice(0, 10).map(m => ({
+    "@type": "DefinedTerm",
+    "name": m.chinese_name,
+    "alternateName": m.english_name,
+    "url": `https://cnmemes.com/meme/${m.slug}`
+  }))
+};
+---
+
+<Base
+  title="All Chinese Internet Memes — Complete Dictionary"
+  description={`All ${allMemes.length} Chinese internet memes explained in English with cultural context — from the BBS era (2000) to today.`}
+>
+  <script type="application/ld+json" set:html={JSON.stringify(collectionSchema)} />
+
+  <section class="hero">
+    <h1>All Chinese Internet Memes</h1>
+    <p>The complete archive — <strong>{allMemes.length} memes</strong> from the BBS era to today, explained in English with cultural context.</p>
+    <div class="search-box" style="margin-top:20px;">
+      <input type="text" id="allSearch" placeholder="Search all memes..." autocomplete="off" aria-label="Search all memes" />
+    </div>
+  </section>
+
+  <div class="container" style="padding-top:28px;">
+
+    <div class="year-pills" id="yearNav" style="margin-bottom:36px;">
+      {years.map(y => (
+        <a href={`#year-${y}`} class="year-pill">{y} ({byYear[y].length})</a>
+      ))}
+    </div>
+
+    <div id="allGrid">
+    {years.map(y => (
+      <div id={`year-${y}`} class="year-group" style="margin-bottom:56px;">
+        <div class="year-heading">
+          <h2>{y}</h2>
+          <span class="year-count">{byYear[y].length} memes</span>
+        </div>
+        <div class="meme-grid">
+          {byYear[y].map(m => (
+            <MemeCard
+              slug={m.slug}
+              chinese_name={m.chinese_name}
+              english_name={m.english_name}
+              pinyin={m.pinyin}
+              english_explanation={m.english_explanation}
+              year={m.year}
+              status={m.status}
+              tags={m.tags}
+              popularity={m.popularity}
+            />
+          ))}
+        </div>
+      </div>
+    ))}
+    </div>
+
+    <div id="searchResults" class="meme-grid" style="display:none;"></div>
+    <div id="noResults" style="display:none;text-align:center;padding:40px;color:var(--text-dim);">No memes found matching your search.</div>
+
+  </div>
+
+  <script define:vars={{ allMemes }}>
+    const input = document.getElementById('allSearch');
+    const allGrid = document.getElementById('allGrid');
+    const searchResults = document.getElementById('searchResults');
+    const noResults = document.getElementById('noResults');
+    const yearNav = document.getElementById('yearNav');
+
+    input.addEventListener('input', (e) => {
+      const q = e.target.value.toLowerCase().trim();
+      if (!q) {
+        allGrid.style.display = '';
+        yearNav.style.display = '';
+        searchResults.style.display = 'none';
+        searchResults.innerHTML = '';
+        noResults.style.display = 'none';
+        return;
+      }
+
+      allGrid.style.display = 'none';
+      yearNav.style.display = 'none';
+      const matched = allMemes.filter(m => {
+        const h = [m.chinese_name, m.english_name, m.pinyin, m.english_explanation, ...m.tags].join(' ').toLowerCase();
+        return h.includes(q);
+      });
+
+      if (matched.length === 0) {
+        searchResults.style.display = 'none';
+        noResults.style.display = 'block';
+      } else {
+        noResults.style.display = 'none';
+        const statusOrder = { 'still popular': 0, 'classic': 1, 'fading': 2 };
+        searchResults.innerHTML = matched.map(m => {
+          const stars = '★'.repeat(m.popularity) + '☆'.repeat(5 - m.popularity);
+          const statusClass = m.status === 'still popular' ? 'popular' : m.status === 'fading' ? 'fading' : 'classic';
+          return `
+            <div class="meme-card-wrap">
+              <a href="/meme/${m.slug}" class="meme-card">
+                <div class="card-cn">${m.chinese_name}</div>
+                <div class="card-en">${m.english_name}</div>
+                <div class="card-pinyin">${m.pinyin}</div>
+                <div class="card-excerpt">${m.english_explanation.slice(0, 140)}...</div>
+              </a>
+              <div class="card-meta">
+                <span class="tag tag-year">${m.year}</span>
+                <span class="tag tag-${statusClass}">${m.status}</span>
+                <span class="popularity-stars">${stars}</span>
+              </div>
+            </div>
+          `;
+        }).join('');
+        searchResults.style.display = 'grid';
+      }
+    });
+  </script>
+</Base>
+
+<style>
+.year-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.year-pill {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-dim);
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  padding: 6px 14px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.16s ease;
+}
+
+.year-pill:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: white;
+  text-decoration: none;
+}
+
+.year-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--accent);
+}
+
+.year-heading h2 {
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.year-count {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+</style>
