@@ -151,14 +151,14 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
     <section class="container home-section" style="padding-top:48px;">
       <div class="section-head">
         <div>
-          <h2 class="section-heading">📖 Browse All {totalCount} Memes</h2>
+          <h2 class="section-heading">📖 Browse All — Chinese Memes by Year</h2>
           <p class="section-sub">Explore the full archive by year — from the BBS era to today.</p>
         </div>
       </div>
       <div class="year-sections-grid">
         {yearSections.map(ys => (
           <div class="year-section">
-            <a href={ys.href} class="year-section-label">{ys.label} →</a>
+            <a href={ys.href} class="year-section-label">{ys.label}</a>
             <MemeCard {...ys.rep} />
           </div>
         ))}
@@ -244,7 +244,7 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
 /* Archive year navigation */
 .year-sections-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 24px;
   margin-bottom: 24px;
 }
@@ -258,14 +258,24 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
 .year-section-label {
   display: inline-flex;
   align-items: center;
-  gap: 4px;
+  gap: 6px;
   font-family: var(--font-display);
-  font-size: 15px;
-  font-weight: 700;
-  color: var(--text-muted);
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--text);
   text-decoration: none;
-  letter-spacing: 0.2px;
-  transition: color 0.16s ease;
+  padding-bottom: 8px;
+  border-bottom: 2.5px solid var(--accent);
+  transition: color 0.16s ease, border-color 0.16s ease;
+  width: 100%;
+}
+
+.year-section-label::after {
+  content: '→';
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--accent);
+  margin-left: auto;
 }
 
 .year-section-label:hover {
