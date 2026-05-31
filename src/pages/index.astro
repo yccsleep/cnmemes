@@ -160,14 +160,14 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
           <div class="year-section">
             <a href={ys.href} class="year-section-label">
               <span class="year-num">{ys.label}</span>
-              <span class="year-badge">Meme of the Year</span>
+              <span class="year-badge">Top Pick</span>
             </a>
             <MemeCard {...ys.rep} />
           </div>
         ))}
       </div>
       <div class="section-more">
-        <a href="/top-memes" class="section-more-btn">Browse all top memes →</a>
+        <a href="/top-memes" class="section-more-btn">See all top memes →</a>
       </div>
     </section>
 
@@ -256,8 +256,6 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  padding-left: 14px;
-  border-left: 3px solid var(--accent);
 }
 
 .year-section-label {
@@ -281,10 +279,8 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
 
 .year-badge {
   font-size: 11px;
-  font-weight: 700;
+  font-weight: 600;
   color: var(--accent);
-  text-transform: uppercase;
-  letter-spacing: 0.7px;
   background: rgba(194, 59, 34, 0.07);
   padding: 3px 9px;
   border-radius: 20px;
