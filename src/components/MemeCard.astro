@@ -9,9 +9,10 @@ interface Props {
   status: string;
   tags: string[];
   popularity: number;
+  badge?: string;
 }
 
-const { slug, chinese_name, english_name, pinyin, english_explanation, year, status, tags, popularity } = Astro.props;
+const { slug, chinese_name, english_name, pinyin, english_explanation, year, status, tags, popularity, badge } = Astro.props;
 
 const statusClass = status === 'still popular' ? 'popular' : status === 'fading' ? 'fading' : 'classic';
 const stars = '★'.repeat(popularity) + '☆'.repeat(5 - popularity);
@@ -24,6 +25,7 @@ const yearLabel = eraLabels[pageYear] || String(year);
 ---
 
 <div class={`meme-card-wrap${popularity === 5 ? ' card-featured' : ''}`}>
+  {badge && <span class="card-badge">{badge}</span>}
   <a href={`/meme/${slug}`} class="meme-card">
     <div class="card-cn">{chinese_name}</div>
     <div class="card-en">{english_name}</div>
@@ -40,7 +42,7 @@ const yearLabel = eraLabels[pageYear] || String(year);
   </div>
 </div>
 
-<style>
+<style is:global>
 .meme-card-wrap {
   background: var(--surface);
   border: 1.5px solid var(--border);
@@ -49,6 +51,20 @@ const yearLabel = eraLabels[pageYear] || String(year);
   transition: box-shadow var(--transition), transform var(--transition), border-color var(--transition);
   position: relative;
   overflow: hidden;
+}
+
+.card-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--accent);
+  background: rgba(194, 59, 34, 0.08);
+  border: 1px solid var(--accent-border);
+  padding: 2px 8px;
+  border-radius: 20px;
+  pointer-events: none;
 }
 
 .meme-card-wrap::before {
