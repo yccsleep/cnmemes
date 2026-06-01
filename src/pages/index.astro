@@ -95,9 +95,7 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
   <div class="container" id="searchResultsWrap" style="display:none;">
     <h2 class="section-heading"><span id="searchCount">0</span> results</h2>
     <div class="meme-grid" id="searchResults"></div>
-    <div id="noResults" style="display:none;text-align:center;padding:40px;color:var(--text-muted);">
-      No memes found. Try a different search term.
-    </div>
+    <div id="noResults" style="display:none;text-align:center;padding:48px 24px;"></div>
   </div>
 
   <!-- Default curated content (hidden during search) -->
@@ -212,6 +210,14 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
       searchCount.textContent = matched.length;
       if (matched.length === 0) {
         searchResults.innerHTML = '';
+        const safe = escapeHtml(e.target.value.trim());
+        const mailto = `mailto:whycici@gmail.com?subject=${encodeURIComponent('Meme Request: ' + e.target.value.trim())}&body=${encodeURIComponent(`Hi,\n\nI searched for "${e.target.value.trim()}" on cnmemes.com but it wasn't in the dictionary yet.\n\nCould you add it?\n\nThanks!`)}`;
+        noResults.innerHTML = `
+          <p class="no-results-title">No results for "<strong>${safe}</strong>"</p>
+          <p class="no-results-sub">Looks like we haven't covered this one yet.</p>
+          <a href="${mailto}" class="submit-meme-btn">Submit "${safe}" for review →</a>
+          <p class="no-results-note">We'll review and aim to add it within a few days.</p>
+        `;
         noResults.style.display = 'block';
         return;
       }
@@ -243,6 +249,41 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
 </Base>
 
 <style>
+/* No results / meme request */
+.no-results-title {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+.no-results-sub {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
+.submit-meme-btn {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  padding: 10px 24px;
+  border: 1.5px solid var(--accent-border);
+  border-radius: 50px;
+  transition: all 0.18s ease;
+  margin-bottom: 14px;
+}
+.submit-meme-btn:hover {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.no-results-note {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
 /* Archive year navigation */
 .year-sections-grid {
   display: grid;

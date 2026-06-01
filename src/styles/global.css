@@ -603,11 +603,11 @@ a.tag-topic:hover { color: var(--accent); border-color: var(--accent-border); ba
 /* ─── Responsive ─────────────────────────────────────────────── */
 @media (max-width: 768px) {
   .container { padding: 0 20px; }
-  .header-inner { padding: 12px 20px; }
-  .logo-cn { font-size: 18px; }
+  .header-inner { padding: 12px 16px; }
+  .logo-cn { font-size: 17px; white-space: nowrap; }
   .logo-divider, .logo-en { display: none; }
-  .site-nav { gap: 4px; }
-  .site-nav a { padding: 6px 8px; font-size: 13px; }
+  .site-nav { gap: 2px; }
+  .site-nav a { padding: 6px 8px; font-size: 13px; white-space: nowrap; }
   .hero { padding: 40px 20px 28px; }
   .hero p { font-size: 15px; line-height: 1.65; margin-bottom: 16px; }
   .meme-grid { grid-template-columns: repeat(2, 1fr); gap: 14px; }
