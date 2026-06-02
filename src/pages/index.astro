@@ -12,9 +12,23 @@ const hotMemes = [...memes]
   .filter(m => m.year >= currentYear - 2 && m.status === 'still popular')
   .sort((a, b) => b.year - a.year || b.popularity - a.popularity);
 
-// 📚 The Essentials — must-know memes: 5-star + still popular, randomly sampled
-const essentialPool = memes.filter(m => m.popularity === 5 && m.status === 'still popular');
-const essentials = [...essentialPool].sort(() => Math.random() - 0.5).slice(0, 12);
+// 📚 The Essentials — curated gateway memes for English-speaking newcomers
+const essentialSlugs = [
+  'nei-juan',          // 内卷 — involution, the defining concept
+  'tang-ping',         // 躺平 — lying flat, the counter-movement
+  'yong-yuan-de-shen', // yyds — the most-used superlative
+  'da-gong-ren',       // 打工人 — worker identity
+  'bai-lan',           // 摆烂 — giving up gracefully
+  'zhen-xiang-ding-lv',// 真香 — eating your words
+  'xian-yan-bao',      // 显眼包 — attention seeker
+  'cao-tai-ban-zi',    // 草台班子 — imposter syndrome at scale
+  'niu-ma',            // 牛马 — the cattle-horse worker
+  'zun-du-jia-du',     // 尊嘟假嘟 — is it real or fake?
+  'ren-jian-bu-zhi-de',// 人间不值得 — world not worth it
+  'xiao-si',           // 笑死 — dying of laughter
+];
+const essentialMap = Object.fromEntries(memes.map(m => [m.slug, m]));
+const essentials = essentialSlugs.map(s => essentialMap[s]).filter(Boolean);
 
 // 🎭 Browse by Vibe — scenario-based entry points
 const vibes = [
@@ -124,7 +138,7 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
         <div class="section-head">
           <div>
             <h2 class="section-heading">The Essentials — Must-Know Chinese Memes</h2>
-            <p class="section-sub">Start here — the hand-picked memes that define today's Chinese internet.</p>
+            <p class="section-sub">12 memes every English speaker should know — with cultural context, not just translation.</p>
           </div>
         </div>
         <div class="meme-grid">
@@ -147,7 +161,7 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
           <div class="section-head">
             <div>
               <h2 class="section-heading">Image Memes</h2>
-              <p class="section-sub">Iconic reaction faces & viral images.</p>
+              <p class="section-sub">The visual language of Chinese social media.</p>
             </div>
           </div>
           <div class="image-sidebar-grid">
@@ -187,8 +201,8 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
       <section class="container home-section" style="margin-bottom:0;padding-top:48px;padding-bottom:48px;">
         <div class="section-head">
           <div>
-            <h2 class="section-heading">Browse by Vibe — Chinese Memes by Theme</h2>
-            <p class="section-sub">Jump into the corner of Chinese internet culture you're curious about.</p>
+            <h2 class="section-heading">Browse by Vibe</h2>
+            <p class="section-sub">What mood are you in? Explore memes by theme.</p>
           </div>
         </div>
         <div class="vibe-grid">
@@ -210,7 +224,7 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
       <div class="section-head">
         <div>
           <h2 class="section-heading">Browse All — Chinese Memes by Year</h2>
-          <p class="section-sub">Explore the full archive by year — from the BBS era to today.</p>
+          <p class="section-sub">From China's earliest internet jokes to 2025 — every meme, every year.</p>
         </div>
       </div>
       <div class="year-sections-grid">
