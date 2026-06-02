@@ -1,0 +1,325 @@
+---
+import Base from '../../layouts/Base.astro';
+import memes from '../../data/image-memes.json';
+
+export function getStaticPaths() {
+  return memes.map(m => ({ params: { slug: m.slug }, props: { meme: m } }));
+}
+
+const { meme } = Astro.props;
+const stars = '★'.repeat(meme.popularity) + '☆'.repeat(5 - meme.popularity);
+const statusClass = meme.status === 'still popular' ? 'popular' : meme.status === 'fading' ? 'fading' : 'classic';
+
+// Related image memes (same tag, excluding self)
+const related = memes
+  .filter(m => m.slug !== meme.slug && m.tags.some(t => meme.tags.includes(t)))
+  .sort((a, b) => b.popularity - a.popularity)
+  .slice(0, 4);
+
+// Prev / Next
+const allSorted = [...memes].sort((a, b) => b.year - a.year || b.popularity - a.popularity);
+const idx = allSorted.findIndex(m => m.slug === meme.slug);
+const prev = allSorted[idx > 0 ? idx - 1 : allSorted.length - 1];
+const next = allSorted[idx < allSorted.length - 1 ? idx + 1 : 0];
+
+const pageDesc = `${meme.chinese_name} (${meme.pinyin}) — ${meme.english_name}. ${meme.english_explanation.slice(0, 110)}...`;
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": meme.chinese_name,
+  "alternateName": meme.english_name,
+  "description": meme.english_explanation,
+  "url": `https://cnmemes.com/image-meme/${meme.slug}`
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://cnmemes.com" },
+    { "@type": "ListItem", "position": 2, "name": "Image Memes", "item": "https://cnmemes.com/image-memes" },
+    { "@type": "ListItem", "position": 3, "name": meme.chinese_name, "item": `https://cnmemes.com/image-meme/${meme.slug}` }
+  ]
+};
+---
+
+<Base
+  title={`${meme.chinese_name} — ${meme.english_name} | Chinese Image Meme`}
+  description={pageDesc}
+  image={`https://cnmemes.com${meme.image}`}
+  type="article"
+>
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <article class="im-detail">
+
+    <div class="breadcrumb">
+      <a href="/">Home</a><span>›</span>
+      <a href="/image-memes">Image Memes</a><span>›</span>
+      {meme.chinese_name}
+    </div>
+
+    <!-- Main layout: sticky image left, all content right -->
+    <div class="im-main-layout">
+
+      <!-- Left: image + meta (sticky) -->
+      <div class="im-image-col">
+        <div class="im-sticky">
+          <figure class="im-figure">
+            <img
+              src={meme.image}
+              alt={`${meme.chinese_name} — ${meme.english_name} Chinese internet meme`}
+            />
+          </figure>
+          <div class="im-meta-block">
+            <div class="im-meta-row">
+              <span class="tag tag-year">{meme.year}</span>
+              <span class={`tag tag-${statusClass}`}>{meme.status}</span>
+              {meme.tags.map(t => <a href={`/tag/${t}`} class="tag tag-topic">{t}</a>)}
+            </div>
+            <div class="stars-display">{stars}</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: all content -->
+      <div class="im-content-col">
+        <h1 class="im-title">{meme.chinese_name} — {meme.english_name}</h1>
+        <div class="im-pinyin">
+          <span class="pinyin-label">Pronounced</span>
+          <span class="pinyin-text">{meme.pinyin}</span>
+          <span class="pinyin-lang">in Mandarin</span>
+        </div>
+
+        <div class="im-section">
+          <h2 class="section-title main">What Is {meme.chinese_name}?</h2>
+          <p>{meme.english_explanation}</p>
+        </div>
+
+        <div class="im-section">
+          <h2 class="section-title">Origin</h2>
+          <p>{meme.origin_story}</p>
+        </div>
+
+        <div class="im-section">
+          <h2 class="section-title main">Cultural Context</h2>
+          <p>{meme.cultural_context}</p>
+        </div>
+
+        <div class="im-section">
+          <h2 class="section-title">How It's Used</h2>
+          <div class="im-usage-block">
+            <p>{meme.usage}</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Share -->
+    <div class="share-section">
+      <div class="share-label">Share this meme</div>
+      <div class="share-buttons">
+        <button class="share-btn share-x" id="shareX">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622 5.911-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          Share on X
+        </button>
+        <button class="share-btn share-copy" id="copyLink">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+          <span id="copyLinkText">Copy Link</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Explore more -->
+    <div class="explore-more">
+      <span>Explore more:</span>
+      {meme.tags.map(t => <a href={`/tag/${t}`} class="tag tag-topic">{t} →</a>)}
+      <a href="/image-memes" class="tag tag-topic">All Image Memes →</a>
+      <a href="/top-memes" class="tag tag-topic">Top Memes →</a>
+    </div>
+
+    <!-- Related image memes -->
+    {related.length > 0 && (
+      <div class="im-section im-full" style="margin-top:48px;">
+        <h2 class="section-title">Related Image Memes</h2>
+        <div class="im-related-grid">
+          {related.map(r => (
+            <a href={`/image-meme/${r.slug}`} class="im-related-card">
+              <div class="im-related-img">
+                <img src={r.image} alt={r.chinese_name} loading="lazy" />
+              </div>
+              <div class="im-related-body">
+                <div class="im-related-cn">{r.chinese_name}</div>
+                <div class="im-related-en">{r.english_name}</div>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    )}
+
+    <!-- Prev / Next -->
+    <nav class="meme-nav">
+      <a href={`/image-meme/${prev.slug}`} class="meme-nav-btn meme-nav-prev">
+        <span class="meme-nav-dir">← Previous</span>
+        <span class="meme-nav-name">{prev.chinese_name} — {prev.english_name}</span>
+      </a>
+      <a href={`/image-meme/${next.slug}`} class="meme-nav-btn meme-nav-next">
+        <span class="meme-nav-dir">Next →</span>
+        <span class="meme-nav-name">{next.chinese_name} — {next.english_name}</span>
+      </a>
+    </nav>
+
+  </article>
+</Base>
+
+<script define:vars={{ meme }}>
+  const pageUrl = window.location.href;
+  document.getElementById('shareX').addEventListener('click', () => {
+    const text = encodeURIComponent(`${meme.chinese_name} (${meme.pinyin}) = "${meme.english_name}" — Chinese internet meme explained`);
+    window.open(`https://x.com/intent/post?text=${text}&url=${encodeURIComponent(pageUrl)}`, '_blank');
+  });
+  document.getElementById('copyLink').addEventListener('click', () => {
+    navigator.clipboard.writeText(pageUrl).then(() => {
+      const el = document.getElementById('copyLinkText');
+      el.textContent = 'Copied!';
+      setTimeout(() => { el.textContent = 'Copy Link'; }, 2000);
+    });
+  });
+</script>
+
+<style>
+.im-detail {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 28px 28px 64px;
+}
+
+/* Main layout */
+.im-main-layout {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 48px;
+  align-items: start;
+}
+
+/* Sticky image column */
+.im-sticky {
+  position: sticky;
+  top: 80px;
+}
+
+.im-figure {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--bg-subtle);
+  border: 1.5px solid var(--border);
+  margin: 0 0 16px;
+}
+.im-figure img {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+  max-height: 360px;
+}
+
+.im-meta-block { display: flex; flex-direction: column; gap: 8px; }
+.im-meta-row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.stars-display { font-size: 14px; color: #f0a500; letter-spacing: 1px; }
+
+/* Content column */
+.im-title {
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+.im-pinyin {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+.pinyin-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--accent); }
+.pinyin-text { font-style: italic; font-weight: 600; color: var(--accent); }
+.pinyin-lang { font-size: 12px; color: var(--text-muted); }
+
+/* Sections */
+.im-section { margin-bottom: 28px; }
+
+.section-title {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+.section-title.main {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--text);
+}
+.section-title.main::after { display: none; }
+
+.im-section p {
+  font-size: 15.5px;
+  color: var(--text-dim);
+  line-height: 1.75;
+  margin: 0;
+}
+
+.im-usage-block {
+  background: var(--bg-subtle);
+  border-left: 3px solid var(--accent);
+  padding: 14px 18px;
+  border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+}
+.im-usage-block p { font-size: 15px; font-style: italic; color: var(--text-dim); }
+
+/* Related grid */
+.im-related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 16px;
+}
+.im-related-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  text-decoration: none;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+.im-related-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
+  border-color: var(--accent-border);
+  text-decoration: none;
+}
+.im-related-img { aspect-ratio: 1/1; overflow: hidden; background: var(--bg-subtle); }
+.im-related-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.im-related-body { padding: 10px 12px; }
+.im-related-cn { font-family: var(--font-display); font-size: 15px; font-weight: 700; color: var(--text); }
+.im-related-en { font-size: 11px; color: var(--accent); font-weight: 600; }
+
+@media (max-width: 768px) {
+  .im-detail { padding: 20px 20px 48px; }
+  .im-main-layout { grid-template-columns: 1fr; gap: 24px; }
+  .im-sticky { position: static; }
+  .im-title { font-size: 22px; }
+  .im-figure img { max-height: 300px; }
+}
+</style>

@@ -28,18 +28,43 @@ const thisIdx = samePeriodMemes.findIndex(m => m.slug === meme.slug);
 const prevMeme = thisIdx > 0 ? samePeriodMemes[thisIdx - 1] : samePeriodMemes[samePeriodMemes.length - 1];
 const nextMeme = thisIdx < samePeriodMemes.length - 1 ? samePeriodMemes[thisIdx + 1] : samePeriodMemes[0];
 
-// Related memes: prioritise same tag, then fill with high-popularity same-era memes
+// Related memes: 1) same tag 2) same era (±3 years, high popularity) 3) overall popular
 const sameTagMemes = memes.filter(m =>
   m.slug !== meme.slug && m.tags.some(t => meme.tags.includes(t))
-).sort((a, b) => b.popularity - a.popularity);
+).sort((a, b) => b.popularity - a.popularity || Math.abs(a.year - meme.year) - Math.abs(b.year - meme.year));
 
-const fillMemes = memes.filter(m =>
-  m.slug !== meme.slug &&
-  !sameTagMemes.find(s => s.slug === m.slug) &&
-  Math.abs(getPageYear(m.year) - pageYear) <= 1
-).sort((a, b) => b.popularity - a.popularity);
+const seenSlugs = new Set(sameTagMemes.map(m => m.slug));
+seenSlugs.add(meme.slug);
 
-const related = [...sameTagMemes, ...fillMemes].slice(0, 4);
+const sameEraMemes = memes.filter(m =>
+  !seenSlugs.has(m.slug) && Math.abs(m.year - meme.year) <= 3
+).sort((a, b) => b.popularity - a.popularity);
+sameEraMemes.forEach(m => seenSlugs.add(m.slug));
+
+const popularFill = memes.filter(m =>
+  !seenSlugs.has(m.slug) && m.popularity === 5
+).sort(() => Math.random() - 0.5);
+
+const related = [...sameTagMemes, ...sameEraMemes, ...popularFill].slice(0, 4);
+
+// Internal linking: linkify chinese names of other memes in body text
+function linkifyMemes(text: string, currentSlug: string): string {
+  // Build lookup: chinese_name → slug, sorted longest first to avoid partial matches
+  const candidates = memes
+    .filter(m => m.slug !== currentSlug && m.popularity >= 4)
+    .sort((a, b) => b.chinese_name.length - a.chinese_name.length);
+  let result = text;
+  for (const m of candidates) {
+    const escaped = m.chinese_name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    result = result.replace(
+      new RegExp(`(?<!<[^>]*)(${escaped})(?![^<]*>)`, 'g'),
+      `<a href="/meme/${m.slug}" class="inline-meme-link">$1</a>`
+    );
+  }
+  return result;
+}
+const linkedExplanation = linkifyMemes(meme.english_explanation, meme.slug);
+const linkedCultural = linkifyMemes(meme.cultural_context || '', meme.slug);
 
 const pageTitle = `What Does ${meme.chinese_name} Mean? — ${meme.english_name} Explained`;
 const descPrefix = `What does ${meme.chinese_name} (${meme.pinyin}) mean? It means "${meme.english_name}" — `;
@@ -142,7 +167,7 @@ const breadcrumbSchema = {
 
     <div class="meme-section">
       <h2 class="section-title main">What Does {meme.chinese_name} Mean?</h2>
-      <p>{meme.english_explanation}</p>
+      <p set:html={linkedExplanation} /></div>
     </div>
 
     {meme.origin_story && (
@@ -154,7 +179,7 @@ const breadcrumbSchema = {
 
     <div class="meme-section">
       <h2 class="section-title main">Cultural Context</h2>
-      <p>{meme.cultural_context}</p>
+      <p set:html={linkedCultural} /></div>
     </div>
 
     {meme.similar_expressions && (

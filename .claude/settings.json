@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.sixthtone.com)",
+      "WebFetch(domain:mothership.sg)",
+      "WebFetch(domain:commons.wikimedia.org)",
+      "WebFetch(domain:dramapanda.com)",
+      "WebFetch(domain:www.baidu.com)"
+    ]
+  }
+}

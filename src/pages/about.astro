@@ -1,41 +1,45 @@
 ---
 import Base from '../layouts/Base.astro';
 import memes from '../data/memes.json';
+import imageMemes from '../data/image-memes.json';
 
-const totalCount = memes.length;
-const minYear = Math.min(...memes.map(m => m.year));
-const maxYear = Math.max(...memes.map(m => m.year));
+const totalText = memes.length;
+const totalImage = imageMemes.length;
 const fiveStarCount = memes.filter(m => m.popularity === 5).length;
 const stillPopular = memes.filter(m => m.status === 'still popular').length;
+const maxYear = Math.max(...memes.map(m => m.year));
 ---
 
-<Base title="About CNMemes — Chinese Meme Dictionary for English Speakers" description="CNMemes is the most comprehensive English-language dictionary of Chinese internet memes. 500+ entries from 2000 to today, explained with cultural context.">
+<Base
+  title="About — CNMemes Chinese Meme Dictionary"
+  description="CNMemes is the most complete English-language guide to Chinese internet memes — 500+ entries from 2000 to today, each explained with cultural context."
+>
 
 <script type="application/ld+json" set:html={JSON.stringify({
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "CNMemes",
-  "alternateName": "中文梗典",
-  "url": "https://cnmemes.com",
-  "description": "The most comprehensive English-language dictionary of Chinese internet memes, from 2000 to today.",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "email": "whycici@gmail.com",
-    "contactType": "customer support"
+  "@type": "AboutPage",
+  "name": "About CNMemes",
+  "url": "https://cnmemes.com/about",
+  "description": "The most complete English-language dictionary of Chinese internet memes, from 2000 to today.",
+  "mainEntity": {
+    "@type": "WebSite",
+    "name": "CNMemes — 中文梗典",
+    "url": "https://cnmemes.com"
   }
 })}></script>
 
-  <div class="meme-detail">
-    <div class="meme-header">
-      <h1 class="cn-name">About CNMemes</h1>
-      <div class="pinyin">中文梗典 — Your Guide to Chinese Internet Culture</div>
+  <div class="about-wrap">
+
+    <div class="about-hero">
+      <h1>About CNMemes</h1>
+      <p class="about-tagline">中文梗典 — The English guide to Chinese internet culture</p>
     </div>
 
-    <!-- Stats grid -->
+    <!-- Stats -->
     <div class="stats-grid">
       <div class="stat-card">
-        <div class="stat-number">{totalCount}</div>
-        <div class="stat-label">Total Memes</div>
+        <div class="stat-number">{totalText + totalImage}</div>
+        <div class="stat-label">Total Entries</div>
       </div>
       <div class="stat-card">
         <div class="stat-number">2000–{maxYear}</div>
@@ -43,89 +47,144 @@ const stillPopular = memes.filter(m => m.status === 'still popular').length;
       </div>
       <div class="stat-card">
         <div class="stat-number">{fiveStarCount}</div>
-        <div class="stat-label">★★★★★ Viral Memes</div>
+        <div class="stat-label">★★★★★ Viral</div>
       </div>
       <div class="stat-card">
         <div class="stat-number">{stillPopular}</div>
-        <div class="stat-label">Still Used Today</div>
+        <div class="stat-label">Still Active Today</div>
       </div>
     </div>
 
-    <div class="meme-section">
-      <h2 class="section-title">What Is This?</h2>
-      <p>
-        CNMemes is the most comprehensive English-language dictionary of Chinese internet memes and viral expressions. Covering memes from the early 2000s to today and updated monthly, each entry includes detailed explanations, cultural context, and real-world usage examples.
-      </p>
-    </div>
+    <!-- Content -->
+    <div class="about-body">
 
-    <div class="meme-section">
-      <h2 class="section-title">Why Does This Exist?</h2>
-      <p>
-        Chinese internet culture is one of the richest and most creative in the world — but most of it is invisible to English speakers. When someone says "yyds" or "内卷" or "显眼包," there's a whole universe of meaning, history, and social context packed into those characters. CNMemes bridges that gap.
-      </p>
-      <p style="margin-top:12px;">
-        Whether you're learning Chinese, working with Chinese colleagues, following Chinese media, or just curious about what's trending on Weibo and Douyin, this dictionary explains not just what these words mean — but why they matter.
-      </p>
-    </div>
+      <div class="about-section">
+        <h2>What is CNMemes?</h2>
+        <p>CNMemes is an English-language dictionary of Chinese internet memes — the slang, reaction images, phrases, and cultural shorthand that define how hundreds of millions of people communicate online. Every entry is written for people with no prior knowledge of Chinese, and includes where the meme came from, what social moment it captured, and how it's actually used.</p>
+      </div>
 
-    <div class="meme-section">
-      <h2 class="section-title">How Each Entry Works</h2>
-      <p>
-        Every meme includes: the Chinese original, pinyin pronunciation, an English equivalent, a plain-English explanation written for people with zero China background, cultural context explaining the social forces behind the meme, example sentences showing real usage, and for the most viral memes, an origin story tracing exactly where and how it started.
-      </p>
-    </div>
+      <div class="about-section">
+        <h2>Why does it exist?</h2>
+        <p>Chinese internet culture is one of the most creative and fast-moving in the world, but almost none of it crosses the language barrier. When someone says 内卷, yyds, 显眼包, or 摆烂, there's a whole world of meaning packed into those characters. CNMemes exists to make that world accessible.</p>
+        <p>Whether you're learning Chinese, working with Chinese colleagues, following Chinese media, or just curious — this is where you start.</p>
+      </div>
 
-    <div class="meme-section">
-      <h2 class="section-title">Update Schedule</h2>
-      <p>
-        New memes are added monthly. We track Chinese social media trends across Weibo, Douyin, Xiaohongshu, and Bilibili. If you see a meme missing, email us and we'll add it.
-      </p>
-    </div>
+      <div class="about-section">
+        <h2>Two types of memes</h2>
+        <p><strong><a href="/memes">Word memes</a></strong> ({totalText} entries) — internet slang, viral phrases, and expressions. The words Chinese people use online that carry cultural weight no translation can capture: 内卷, 躺平, yyds, 显眼包. Each entry explains what the phrase means, the social context behind it, and how it's actually used in a sentence.</p>
+        <p><strong><a href="/image-memes">Image memes</a></strong> ({totalImage} entries) — reaction faces, viral photos, and meme formats: the visual language of Chinese social media. From Ge You Slump to the Capybara, from Yao Ming Face to the Subject 3 dance — each image meme entry includes origin story, cultural context, and how the image functions as a reaction or template.</p>
+      </div>
 
-    <div class="meme-section">
-      <h2 class="section-title">RSS Feed</h2>
-      <p>
-        Subscribe to our <a href="/rss.xml">RSS feed</a> to get the latest memes delivered to your reader.
-      </p>
-    </div>
+      <div class="about-section">
+        <h2>How entries are written</h2>
+        <p>Each entry includes: the Chinese original, pinyin, an English equivalent or gloss, a plain-English explanation assuming zero background, cultural context explaining the social forces behind the meme, and for the most significant ones, an origin story tracing exactly where it started. Image meme entries also explain how the visual is used as a reaction or format.</p>
+      </div>
 
-    <div class="meme-section">
-      <h2 class="section-title">Contact</h2>
-      <p>
-        Found an error? Have a meme suggestion? Want to collaborate? Reach out at <strong>whycici@gmail.com</strong>.
-      </p>
+      <div class="about-section">
+        <h2>Updates</h2>
+        <p>New entries are added regularly as new memes emerge. If you see something missing, <a href="mailto:whycici@gmail.com">send it in</a> and we'll cover it. You can also subscribe to the <a href="/rss.xml">RSS feed</a> to get new entries as they're published.</p>
+      </div>
+
+      <div class="about-section">
+        <h2>Contact</h2>
+        <p>For meme suggestions, corrections, or collaboration: <a href="mailto:whycici@gmail.com">whycici@gmail.com</a></p>
+      </div>
+
     </div>
   </div>
+
 </Base>
 
 <style>
+.about-wrap {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 56px 32px 96px;
+}
+
+.about-hero {
+  text-align: center;
+  margin-bottom: 48px;
+  padding-bottom: 40px;
+  border-bottom: 1.5px solid var(--border-subtle);
+}
+
+.about-hero h1 {
+  font-family: var(--font-display);
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 10px;
+  letter-spacing: -0.5px;
+}
+
+.about-tagline {
+  font-size: 16px;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-  gap: 14px;
-  margin-bottom: 36px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 48px;
 }
 
 .stat-card {
   background: var(--bg-subtle);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-lg);
   padding: 20px 16px;
   text-align: center;
 }
 
 .stat-number {
   font-family: var(--font-display);
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 700;
   color: var(--accent);
   margin-bottom: 4px;
 }
 
 .stat-label {
-  font-size: 12px;
-  color: var(--text-dim);
+  font-size: 11px;
+  color: var(--text-muted);
   font-weight: 600;
   letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.about-body { display: flex; flex-direction: column; gap: 40px; }
+
+.about-section h2 {
+  font-family: var(--font-display);
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 14px;
+  padding-left: 14px;
+  border-left: 3px solid var(--accent);
+}
+
+.about-section p {
+  font-size: 16px;
+  color: var(--text-dim);
+  line-height: 1.8;
+}
+
+.about-section p + p { margin-top: 10px; }
+
+.about-section a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+@media (max-width: 600px) {
+  .about-wrap { padding: 32px 20px 64px; }
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .about-hero h1 { font-size: 28px; }
+  .about-hero { margin-bottom: 32px; padding-bottom: 28px; }
 }
 </style>

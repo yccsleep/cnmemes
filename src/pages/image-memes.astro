@@ -1,0 +1,258 @@
+---
+import Base from '../layouts/Base.astro';
+import memes from '../data/image-memes.json';
+
+const sorted = [...memes].sort((a, b) => b.year - a.year || b.popularity - a.popularity);
+
+const byYear = sorted.reduce((acc, m) => {
+  acc[m.year] = acc[m.year] || [];
+  acc[m.year].push(m);
+  return acc;
+}, {} as Record<number, typeof sorted>);
+
+const years = Object.keys(byYear).map(Number).sort((a, b) => b - a);
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Chinese Image Memes — Visual Meme Dictionary",
+  "description": `${memes.length} iconic Chinese image memes — reaction faces, viral images, and format memes explained in English.`,
+  "url": "https://cnmemes.com/image-memes"
+};
+---
+
+<Base
+  title="Chinese Image Memes — Visual Meme Dictionary"
+  description={`${memes.length} iconic Chinese image memes decoded in English — reaction faces, viral photos, and format memes, each with origin story and cultural context.`}
+>
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+
+  <section class="hero">
+    <h1>Chinese Image Memes</h1>
+    <p>The visual language of Chinese internet culture — <strong>{memes.length} reaction faces, viral images, and meme formats</strong> decoded in English with cultural context.</p>
+    <div class="search-box" style="margin-top:20px;">
+      <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="11" cy="11" r="8"/>
+        <path d="m21 21-4.35-4.35"/>
+      </svg>
+      <input type="text" id="imSearch" placeholder="Search image memes..." autocomplete="off" aria-label="Search image memes" />
+    </div>
+  </section>
+
+  <div class="container im-wrap">
+
+    <!-- Year nav pills -->
+    <div class="year-pills">
+      {years.map(y => (
+        <a href={`#year-${y}`} class="year-pill">{y} ({byYear[y].length})</a>
+      ))}
+    </div>
+
+    <!-- Grouped by year -->
+    {years.map(y => {
+      return (
+        <div id={`year-${y}`} class="year-group">
+          <div class="year-heading">
+            <h2>{y}</h2>
+            <span class="year-count">{byYear[y].length} memes</span>
+          </div>
+          <div class="im-grid">
+            {byYear[y].map(m => {
+              const sc = m.status === 'still popular' ? 'popular' : m.status === 'fading' ? 'fading' : 'classic';
+              const st = '★'.repeat(m.popularity) + '☆'.repeat(5 - m.popularity);
+              return (
+                <a href={`/image-meme/${m.slug}`} class="im-card" data-search={`${m.chinese_name} ${m.english_name} ${m.pinyin} ${m.tags.join(' ')}`}>
+                  <img src={m.image} alt={m.chinese_name} loading="lazy" class="im-bg-img" width="600" height="400" />
+                  <div class="im-overlay"></div>
+                  <div class="im-content">
+                    <div class="im-cn">{m.chinese_name}</div>
+                    <div class="im-en">{m.english_name}</div>
+                    <div class="im-meta">
+                      <span class="im-tag im-tag-year">{m.year}</span>
+                      <span class={`im-tag im-tag-${sc}`}>{m.status}</span>
+                      {m.tags.slice(0, 1).map(t => (
+                        <span class="im-tag im-tag-topic">{t}</span>
+                      ))}
+                      <span class="im-stars">{st}</span>
+                    </div>
+                  </div>
+                </a>
+              );
+            })}
+          </div>
+        </div>
+      );
+    })}
+
+  </div>
+<script define:vars={{ sorted }}>
+  const input = document.getElementById('imSearch');
+  const groups = document.querySelectorAll('.year-group');
+
+  input.addEventListener('input', e => {
+    const q = e.target.value.toLowerCase().trim();
+    groups.forEach(group => {
+      const cards = group.querySelectorAll('.im-card');
+      let anyVisible = false;
+      cards.forEach(card => {
+        const text = card.getAttribute('data-search') || '';
+        const match = !q || text.toLowerCase().includes(q);
+        card.style.display = match ? '' : 'none';
+        if (match) anyVisible = true;
+      });
+      group.style.display = anyVisible ? '' : 'none';
+    });
+  });
+</script>
+</Base>
+
+<style>
+.im-wrap {
+  padding-top: 28px;
+  padding-bottom: 64px;
+}
+
+/* Year pills — reuse global .year-pill if defined, else define here */
+.year-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.year-pill {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 50px;
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  color: var(--text-dim);
+  text-decoration: none;
+  transition: all 0.18s ease;
+}
+.year-pill:hover {
+  border-color: var(--accent-border);
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.year-group { margin-bottom: 56px; }
+
+
+/* 3-column poster grid */
+.im-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+/* Poster card */
+.im-card {
+  position: relative;
+  display: block;
+  aspect-ratio: 3 / 2;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  text-decoration: none;
+  border: 1.5px solid var(--border);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.im-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 28px rgba(0,0,0,0.2);
+  text-decoration: none;
+}
+
+.im-bg-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+  transition: transform 0.35s ease;
+}
+.im-card:hover .im-bg-img { transform: scale(1.06); }
+
+.im-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    transparent 25%,
+    rgba(0,0,0,0.25) 55%,
+    rgba(0,0,0,0.85) 100%
+  );
+}
+
+.im-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 12px 14px;
+}
+
+.im-cn {
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2;
+  margin-bottom: 2px;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+}
+
+.im-en {
+  font-size: 11px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.82);
+  margin-bottom: 7px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.4);
+}
+
+.im-meta {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+.im-tag {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 50px;
+  white-space: nowrap;
+  backdrop-filter: blur(4px);
+  flex-shrink: 0;
+}
+
+.im-tag-year    { background: rgba(194,59,34,0.55); color: #fff; }
+.im-tag-popular { background: rgba(34,139,34,0.5);  color: #fff; }
+.im-tag-classic { background: rgba(100,80,180,0.5); color: #fff; }
+.im-tag-fading  { background: rgba(180,130,20,0.5); color: #fff; }
+.im-tag-topic   { background: rgba(255,255,255,0.18); color: rgba(255,255,255,0.88); }
+
+.im-stars {
+  font-size: 11px;
+  color: #f0c040;
+  letter-spacing: 0.5px;
+  margin-left: auto;
+  flex-shrink: 0;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.4);
+}
+
+@media (max-width: 768px) {
+  .im-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .im-cn { font-size: 15px; }
+}
+
+@media (max-width: 420px) {
+  .im-grid { grid-template-columns: 1fr; }
+}
+</style>

@@ -33,11 +33,13 @@ const yearLabel = eraLabels[pageYear] || String(year);
     <div class="card-excerpt">{english_explanation}</div>
   </a>
   <div class="card-meta">
-    <a href={`/year/${pageYear}`} class="tag tag-year" onclick="event.stopPropagation()">{yearLabel}</a>
-    <span class={`tag tag-${statusClass}`}>{status}</span>
-    {tags.slice(0, 2).map(t => (
-      <a href={`/tag/${t}`} class="tag tag-topic" onclick="event.stopPropagation()">{t}</a>
-    ))}
+    <div class="card-meta-tags">
+      <a href={`/year/${pageYear}`} class="tag tag-year" onclick="event.stopPropagation()">{yearLabel}</a>
+      <span class={`tag tag-${statusClass}`}>{status}</span>
+      {tags.slice(0, 2).map(t => (
+        <a href={`/tag/${t}`} class="tag tag-topic" onclick="event.stopPropagation()">{t}</a>
+      ))}
+    </div>
     <span class="popularity-stars" title={`Popularity: ${popularity}/5`}>{stars}</span>
   </div>
 </div>
@@ -103,7 +105,7 @@ const yearLabel = eraLabels[pageYear] || String(year);
 
 .card-cn {
   font-family: var(--font-display);
-  font-size: 24px;
+  font-size: 21px;
   font-weight: 700;
   color: var(--text);
   margin-bottom: 2px;
@@ -111,7 +113,7 @@ const yearLabel = eraLabels[pageYear] || String(year);
 }
 
 .card-en {
-  font-size: 14px;
+  font-size: 15px;
   color: var(--accent);
   font-weight: 600;
   margin-bottom: 4px;
@@ -136,12 +138,23 @@ const yearLabel = eraLabels[pageYear] || String(year);
 
 .card-meta {
   display: flex;
-  gap: 6px;
-  flex-wrap: wrap;
   align-items: center;
+  gap: 8px;
+}
+
+.card-meta-tags {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to right, black calc(100% - 16px), transparent 100%);
+  mask-image: linear-gradient(to right, black calc(100% - 16px), transparent 100%);
 }
 
 .popularity-stars {
+  flex-shrink: 0;
   font-size: 12px;
   color: #f0a500;
   letter-spacing: 0.5px;

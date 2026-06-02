@@ -47,6 +47,10 @@ const collectionSchema = {
     <h1>Top Chinese Internet Memes</h1>
     <p>The <strong>{topMemes.length} most viral</strong> Chinese internet memes — rated ★★★★★ — explained in English with cultural context.</p>
     <div class="search-box" style="margin-top:20px;">
+      <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="11" cy="11" r="8"/>
+        <path d="m21 21-4.35-4.35"/>
+      </svg>
       <input type="text" id="topSearch" placeholder="Search top memes..." autocomplete="off" aria-label="Search top memes" />
     </div>
   </section>
@@ -54,7 +58,7 @@ const collectionSchema = {
   <div class="container" style="padding-top:28px;">
 
     <!-- Quick nav by year -->
-    <div class="year-pills" id="yearNav" style="margin-bottom:36px;">
+    <div class="year-pills" id="yearNav">
       {years.map(y => (
         <a href={`#year-${y}`} class="year-pill">{y} ({byYear[y].length})</a>
       ))}
@@ -144,24 +148,6 @@ const collectionSchema = {
 </Base>
 
 <style>
-.year-heading {
-  display: flex;
-  align-items: baseline;
-  gap: 12px;
-  margin-bottom: 20px;
-  padding-bottom: 12px;
-  border-bottom: 2px solid var(--accent);
-}
 
-.year-heading h2 {
-  font-family: var(--font-display);
-  font-size: 28px;
-  font-weight: 700;
-  color: var(--text);
-}
 
-.year-count {
-  font-size: 13px;
-  color: var(--text-muted);
-}
 </style>

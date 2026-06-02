@@ -49,12 +49,12 @@
 
 /* Dark mode */
 [data-theme="dark"] {
-  --bg:            #111110;
-  --bg-subtle:     #18170f;
-  --surface:       #1c1b18;
-  --surface-raised:#222118;
-  --border:        #2e2c26;
-  --border-subtle: #252420;
+  --bg:            #0f0e0d;
+  --bg-subtle:     #161512;
+  --surface:       #232219;
+  --surface-raised:#2b2a20;
+  --border:        #38352d;
+  --border-subtle: #2c2924;
   --text:          #e8e4dc;
   --text-dim:      #9b9488;
   --text-muted:    #6b6560;
@@ -251,7 +251,7 @@ img { max-width: 100%; }
 .hero p {
   font-size: 17px;
   color: var(--text-dim);
-  max-width: 540px;
+  max-width: 65ch;
   margin: 0 auto 18px;
   line-height: 1.7;
 }
@@ -291,7 +291,7 @@ img { max-width: 100%; }
   color: var(--text);
   outline: none;
   transition: border-color var(--transition), box-shadow var(--transition);
-  box-shadow: var(--shadow-sm);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10), 0 1px 4px rgba(0,0,0,0.06);
 }
 
 .search-box input::placeholder { color: var(--text-muted); }
@@ -304,16 +304,16 @@ img { max-width: 100%; }
 /* ─── Year pills ─────────────────────────────────────────────── */
 .year-pills {
   display: flex;
-  gap: 8px;
+  gap: 6px;
   flex-wrap: wrap;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
   justify-content: center;
 }
 
 .year-pill {
-  padding: 7px 18px;
+  padding: 4px 13px;
   border-radius: 50px;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
   border: 1.5px solid var(--border);
   background: var(--surface);
@@ -340,12 +340,14 @@ img { max-width: 100%; }
 /* ─── Tags ───────────────────────────────────────────────────── */
 .tag {
   display: inline-block;
+  flex-shrink: 0;
   font-size: 11px;
   padding: 3px 9px;
   border-radius: 50px;
   letter-spacing: 0.3px;
   font-weight: 600;
   line-height: 1.4;
+  white-space: nowrap;
 }
 
 .tag-classic { background: var(--purple-light); color: var(--purple); }
@@ -781,3 +783,38 @@ a.tag-topic:hover { color: var(--accent); border-color: var(--accent-border); ba
 }
 
 
+
+/* ─── Shared year-group heading (memes, top-memes, image-memes) ─ */
+.year-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1.5px solid var(--border-subtle);
+}
+
+.year-heading h2 {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text-dim);
+}
+
+.year-count {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+/* ─── Inline meme cross-links in detail page text ──────────────── */
+.inline-meme-link {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 2px;
+  font-weight: 600;
+}
+.inline-meme-link:hover {
+  text-decoration-style: solid;
+}
