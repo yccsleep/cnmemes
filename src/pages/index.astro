@@ -137,7 +137,7 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
       <section class="home-section">
         <div class="section-head">
           <div>
-            <h2 class="section-heading">The Essentials — Must-Know Chinese Memes</h2>
+            <h2 class="section-heading">The Essentials</h2>
             <p class="section-sub">12 memes every English speaker should know — with cultural context, not just translation.</p>
           </div>
         </div>
@@ -223,7 +223,7 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
     <section class="container home-section" style="padding-top:48px;">
       <div class="section-head">
         <div>
-          <h2 class="section-heading">Browse All — Chinese Memes by Year</h2>
+          <h2 class="section-heading">Browse by Year</h2>
           <p class="section-sub">From China's earliest internet jokes to 2025 — every meme, every year.</p>
         </div>
       </div>
@@ -241,7 +241,7 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
               <div class="year-card-body">
                 <div class="year-card-cn">{m.chinese_name}</div>
                 <div class="year-card-en">{m.english_name}</div>
-                <div class="year-card-excerpt">{m.english_explanation}</div>
+                <div class="year-card-pinyin">{m.pinyin}</div>
               </div>
               <div class="year-card-meta">
                 <span class={`tag tag-${sc}`}>{m.status}</span>
@@ -624,7 +624,13 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
   font-size: 14px;
   color: var(--accent);
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 4px;
+}
+
+.year-card-pinyin {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-style: italic;
 }
 
 .year-card-excerpt {
