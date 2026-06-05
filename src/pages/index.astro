@@ -52,6 +52,11 @@ const allMemes = [...memes]
   .map(({ slug, chinese_name, english_name, pinyin, english_explanation, year, status, tags, popularity }) =>
     ({ slug, chinese_name, english_name, pinyin, english_explanation, year, status, tags, popularity }));
 
+// Image memes for search — slim payload
+const allImageMemes = [...imageMemes]
+  .map(({ slug, chinese_name, english_name, pinyin, year, status, tags, popularity }) =>
+    ({ slug, chinese_name, english_name, pinyin, year, status, tags, popularity, _type: 'image' }));
+
 // Image meme sidebar preview — random each build
 const imageMemePreview = [...imageMemes]
   .sort(() => Math.random() - 0.5)
@@ -307,7 +312,7 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
     });
   </script>
 
-  <script define:vars={{ allMemes, totalCount }}>
+  <script define:vars={{ allMemes, allImageMemes, totalCount }}>
     const searchInput = document.getElementById('searchInput');
     const curated = document.getElementById('curatedContent');
     const searchWrap = document.getElementById('searchResultsWrap');
@@ -343,9 +348,14 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
         const hay = [m.chinese_name, m.english_name, m.pinyin, m.english_explanation, ...m.tags].join(' ').toLowerCase();
         return hay.includes(q);
       });
+      const matchedImage = allImageMemes.filter(m => {
+        const hay = [m.chinese_name, m.english_name, m.pinyin, ...(m.tags||[])].join(' ').toLowerCase();
+        return hay.includes(q);
+      });
+      const allMatched = [...matched, ...matchedImage];
 
-      searchCount.textContent = matched.length;
-      if (matched.length === 0) {
+      searchCount.textContent = allMatched.length;
+      if (allMatched.length === 0) {
         searchResults.innerHTML = '';
         const safe = escapeHtml(e.target.value.trim());
         const mailto = `mailto:whycici@gmail.com?subject=${encodeURIComponent('Meme Request: ' + e.target.value.trim())}&body=${encodeURIComponent(`Hi,\n\nI searched for "${e.target.value.trim()}" on cnmemes.com but it wasn't in the dictionary yet.\n\nCould you add it?\n\nThanks!`)}`;
@@ -361,7 +371,8 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
       noResults.style.display = 'none';
 
       const re = new RegExp(`(${q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')})`, 'gi');
-      searchResults.innerHTML = matched.map(m => {
+
+      const textCards = matched.map(m => {
         const statusClass = m.status === 'still popular' ? 'popular' : m.status === 'fading' ? 'fading' : 'classic';
         const stars = '★'.repeat(m.popularity) + '☆'.repeat(5 - m.popularity);
         const excerpt = escapeHtml(m.english_explanation).replace(re, '<mark class="search-hl">$1</mark>');
@@ -382,7 +393,29 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
               <span class="popularity-stars">${stars}</span>
             </div>
           </div>`;
-      }).join('');
+      });
+
+      const imageCards = matchedImage.map(m => {
+        const statusClass = m.status === 'still popular' ? 'popular' : m.status === 'fading' ? 'fading' : 'classic';
+        const stars = '★'.repeat(m.popularity) + '☆'.repeat(5 - m.popularity);
+        return `
+          <div class="meme-card-wrap">
+            <a href="/image-meme/${m.slug}" class="meme-card">
+              <div class="card-cn">${m.chinese_name}</div>
+              <div class="card-en">${escapeHtml(m.english_name)} <span style="font-size:10px;color:var(--text-muted);font-weight:400;">· Image Meme</span></div>
+              <div class="card-pinyin">${m.pinyin}</div>
+            </a>
+            <div class="card-meta">
+              <div class="card-meta-tags">
+                <span class="tag tag-year">${m.year}</span>
+                <span class="tag tag-${statusClass}">${m.status}</span>
+              </div>
+              <span class="popularity-stars">${stars}</span>
+            </div>
+          </div>`;
+      });
+
+      searchResults.innerHTML = [...textCards, ...imageCards].join('');
     });
   </script>
 </Base>
