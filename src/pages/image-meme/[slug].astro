@@ -22,7 +22,9 @@ const idx = allSorted.findIndex(m => m.slug === meme.slug);
 const prev = allSorted[idx > 0 ? idx - 1 : allSorted.length - 1];
 const next = allSorted[idx < allSorted.length - 1 ? idx + 1 : 0];
 
-const pageDesc = `${meme.chinese_name} (${meme.pinyin}) — ${meme.english_name}. ${meme.english_explanation.slice(0, 110)}...`;
+const descPrefix = `What does ${meme.chinese_name} (${meme.pinyin}) mean? It's "${meme.english_name}" — `;
+const snippetLen = Math.max(0, 155 - descPrefix.length - 3);
+const pageDesc = `${descPrefix}${meme.english_explanation.slice(0, snippetLen)}...`;
 
 const schema = {
   "@context": "https://schema.org",
@@ -45,7 +47,7 @@ const breadcrumbSchema = {
 ---
 
 <Base
-  title={`${meme.chinese_name} — ${meme.english_name} | Chinese Image Meme`}
+  title={`What Does ${meme.chinese_name} Mean? — ${meme.english_name} Explained`}
   description={pageDesc}
   image={`https://cnmemes.com${meme.image}`}
   type="article"
@@ -86,7 +88,8 @@ const breadcrumbSchema = {
 
       <!-- Right: all content -->
       <div class="im-content-col">
-        <h1 class="im-title">{meme.chinese_name} — {meme.english_name}</h1>
+        <h1 class="im-title">{meme.chinese_name}</h1>
+        <div class="im-en-sub">{meme.english_name}</div>
         <div class="im-pinyin">
           <span class="pinyin-label">Pronounced</span>
           <span class="pinyin-text">{meme.pinyin}</span>
@@ -236,8 +239,15 @@ const breadcrumbSchema = {
   font-size: 26px;
   font-weight: 700;
   color: var(--text);
-  margin-bottom: 10px;
+  margin-bottom: 4px;
   line-height: 1.2;
+}
+
+.im-en-sub {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 12px;
 }
 
 .im-pinyin {
