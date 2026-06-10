@@ -810,7 +810,7 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
 /* Vibe grid */
 .vibe-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 12px;
 }
 
@@ -1074,7 +1074,6 @@ mark.search-hl {
 @media (max-width: 768px) {
   .section-heading { font-size: 21px; }
   .home-section { margin-bottom: 44px; }
-  .vibe-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 480px) {
