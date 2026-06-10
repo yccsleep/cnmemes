@@ -218,67 +218,43 @@ const platformsWithCounts = [...platforms]
     <!-- 2-col: Browse by Year (left 2/3) + All Platforms (right 1/3) -->
     <div class="container browse-layout">
 
-      <!-- Left 2/3: Browse by Year + Browse by Vibe -->
-      <div class="browse-left">
-
-        <section class="home-section" style="padding-top:0;margin-bottom:0;">
-          <div class="section-head">
-            <div>
-              <h2 class="section-heading">Browse by Year</h2>
-              <p class="section-sub">From China's earliest internet jokes to 2025 — every meme, every year.</p>
-            </div>
+      <!-- Left 2/3: Browse by Year -->
+      <section class="browse-left home-section" style="padding-top:0;margin-bottom:0;">
+        <div class="section-head">
+          <div>
+            <h2 class="section-heading">Browse by Year</h2>
+            <p class="section-sub">From China's earliest internet jokes to 2025 — every meme, every year.</p>
           </div>
-          <div class="year-sections-grid">
-            {yearSections.map(ys => {
-              const m = ys.rep;
-              const sc = m.status === 'still popular' ? 'popular' : m.status === 'fading' ? 'fading' : 'classic';
-              const stars = '★'.repeat(m.popularity) + '☆'.repeat(5 - m.popularity);
-              return (
-                <a href={ys.href} class="year-card">
-                  <div class="year-card-header">
-                    <span class="year-card-num">{ys.label}</span>
-                    <span class="year-card-badge">Top Pick</span>
-                  </div>
-                  <div class="year-card-body">
-                    <div class="year-card-cn">{m.chinese_name}</div>
-                    <div class="year-card-en">{m.english_name}</div>
-                    <div class="year-card-pinyin">{m.pinyin}</div>
-                  </div>
-                  <div class="year-card-meta">
-                    <span class={`tag tag-${sc}`}>{m.status}</span>
-                    {m.tags.slice(0, 1).map(t => <span class="tag tag-topic">{t}</span>)}
-                    <span class="year-card-stars">{stars}</span>
-                  </div>
-                </a>
-              );
-            })}
-          </div>
-          <div class="section-more">
-            <a href="/memes" class="section-more-btn">Browse all {totalCount} memes →</a>
-          </div>
-        </section>
-
-        <section class="home-section" style="padding-top:0;margin-bottom:0;">
-          <div class="section-head">
-            <div>
-              <h2 class="section-heading">Browse by Vibe</h2>
-              <p class="section-sub">What mood are you in? Explore memes by theme.</p>
-            </div>
-          </div>
-          <div class="vibe-grid">
-            {vibes.map(v => (
-              <a href={`/tag/${v.tag}`} class="vibe-card">
-                <span class="vibe-icon" set:html={v.icon} />
-                <span class="vibe-text">
-                  <span class="vibe-label">{v.label}</span>
-                  <span class="vibe-desc">{v.desc}</span>
-                </span>
+        </div>
+        <div class="year-sections-grid">
+          {yearSections.map(ys => {
+            const m = ys.rep;
+            const sc = m.status === 'still popular' ? 'popular' : m.status === 'fading' ? 'fading' : 'classic';
+            const stars = '★'.repeat(m.popularity) + '☆'.repeat(5 - m.popularity);
+            return (
+              <a href={ys.href} class="year-card">
+                <div class="year-card-header">
+                  <span class="year-card-num">{ys.label}</span>
+                  <span class="year-card-badge">Top Pick</span>
+                </div>
+                <div class="year-card-body">
+                  <div class="year-card-cn">{m.chinese_name}</div>
+                  <div class="year-card-en">{m.english_name}</div>
+                  <div class="year-card-pinyin">{m.pinyin}</div>
+                </div>
+                <div class="year-card-meta">
+                  <span class={`tag tag-${sc}`}>{m.status}</span>
+                  {m.tags.slice(0, 1).map(t => <span class="tag tag-topic">{t}</span>)}
+                  <span class="year-card-stars">{stars}</span>
+                </div>
               </a>
-            ))}
-          </div>
-        </section>
-
-      </div>
+            );
+          })}
+        </div>
+        <div class="section-more">
+          <a href="/memes" class="section-more-btn">Browse all {totalCount} memes →</a>
+        </div>
+      </section>
 
       <!-- Right 1/3: All Platforms -->
       <aside class="platforms-sidebar">
@@ -320,6 +296,29 @@ const platformsWithCounts = [...platforms]
         </div>
       </aside>
 
+    </div>
+
+    <!-- Browse by Vibe — full container width -->
+    <div class="container">
+      <section class="home-section" style="padding-top:40px;margin-bottom:0;">
+        <div class="section-head">
+          <div>
+            <h2 class="section-heading">Browse by Vibe</h2>
+            <p class="section-sub">What mood are you in? Explore memes by theme.</p>
+          </div>
+        </div>
+        <div class="vibe-grid">
+          {vibes.map(v => (
+            <a href={`/tag/${v.tag}`} class="vibe-card">
+              <span class="vibe-icon" set:html={v.icon} />
+              <span class="vibe-text">
+                <span class="vibe-label">{v.label}</span>
+                <span class="vibe-desc">{v.desc}</span>
+              </span>
+            </a>
+          ))}
+        </div>
+      </section>
     </div>
 
   </div>
@@ -982,40 +981,11 @@ mark.search-hl {
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 32px;
-  align-items: stretch;   /* both columns same height */
+  align-items: start;
   padding-top: 40px;
 }
 
-/* Left column: flex column so vibe section can fill remaining space */
-.browse-left {
-  min-width: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}
-
-/* Year section: natural height, doesn't grow */
-.browse-left > section:first-child { flex-shrink: 0; }
-
-/* Vibe section: grows to fill whatever space is left */
-.browse-left > section:last-child {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 0;
-}
-
-/* Vibe grid stretches its rows to fill available height */
-.browse-left > section:last-child .vibe-grid {
-  flex: 1;
-  align-content: stretch;
-}
-
-/* Vibe cards grow with the row height */
-.browse-left > section:last-child .vibe-card {
-  height: 100%;
-}
-
+.browse-left { min-width: 0; }
 .platforms-sidebar { min-width: 0; }
 
 
