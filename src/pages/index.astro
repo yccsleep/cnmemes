@@ -279,9 +279,10 @@ const platformsWithCounts = [...platforms]
                   <p class="platform-tagline">{p.tagline}</p>
                   <div class="platform-meta">
                     <span class="platform-type">{p.type}</span>
-                    <span class="platform-years">Est. {p.founded}</span>
+                    <span class="platform-years">Est. {p.founded} · Peak: {p.peak_years}</span>
                   </div>
                   <div class="platform-footer">
+                    <span class="platform-count">{p.memeCount} memes</span>
                     <span class="platform-link-arrow">Explore →</span>
                   </div>
                 </div>
@@ -1138,6 +1139,12 @@ mark.search-hl {
   align-items: center;
   justify-content: flex-end;
   margin-top: auto;
+}
+
+.platform-count {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--p-color);
 }
 
 .platform-link-arrow {
