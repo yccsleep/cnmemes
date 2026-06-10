@@ -288,17 +288,29 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
             </div>
           </div>
           <div class="platforms-grid">
-            {platformsWithCounts.map(p => (
-              <a href={`/platform/${p.slug}`} class="platform-card">
-                <div class="platform-card-main">
-                  <div class="platform-name">{p.english_name}</div>
-                  <div class="platform-count">{p.memeCount} memes</div>
-                </div>
-                <div class="platform-card-logo" style={`background-color: ${p.color_light}`}>
-                  <svg viewBox="0 0 24 24" class="platform-card-logo-icon" aria-hidden="true" set:html={`<path d="${p.icon_path}" fill="currentColor"/>`} />
-                </div>
-              </a>
-            ))}
+            {platformsWithCounts.map(p => {
+              const sc = p.status === 'active' ? 'p-active' : p.status === 'declining' ? 'p-fading' : 'p-legacy';
+              const sl = p.status === 'active' ? 'Active' : p.status === 'declining' ? 'Declining' : 'Legacy';
+              return (
+                <a href={`/platform/${p.slug}`} class="platform-card" style={`--pc:${p.color};`}>
+                  <div class="platform-card-header">
+                    <div class="platform-card-icon-wrap">
+                      <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" set:html={`<path d="${p.icon_path}" fill="white"/>`} />
+                    </div>
+                    <span class={`platform-type-tag ${sc}`}>{sl}</span>
+                  </div>
+                  <div class="platform-card-body">
+                    <div class="platform-card-cn">{p.chinese_name}</div>
+                    <div class="platform-card-en">{p.english_name}</div>
+                    <div class="platform-card-tagline">{p.tagline}</div>
+                  </div>
+                  <div class="platform-card-meta">
+                    <span class="platform-card-year">Est. {p.founded}</span>
+                    <span class="platform-card-type">{p.type}</span>
+                  </div>
+                </a>
+              );
+            })}
           </div>
           <div class="section-more">
             <a href="/platforms" class="section-more-btn">Browse all platforms →</a>
@@ -933,88 +945,132 @@ mark.search-hl {
 .browse-left { min-width: 0; }
 .platforms-sidebar { min-width: 0; }
 
-/* Platforms grid: vertical stack in sidebar */
+/* Platforms grid: vertical stack of cards matching year-card style */
 .platforms-grid {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 16px;
   margin-bottom: 4px;
 }
 
-/* Platform card: horizontal layout with logo on right */
+/* Platform card: same structure as year-card (header / body / meta) */
 .platform-card {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding: 12px 16px;
+  flex-direction: column;
   background: var(--surface);
   border: 1.5px solid var(--border);
   border-radius: var(--radius-lg);
+  overflow: hidden;
   text-decoration: none;
-  transition: all 0.18s ease;
-  min-height: 56px;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
 }
 .platform-card:hover {
-  border-color: var(--accent-border);
-  transform: translateY(-2px);
+  transform: translateY(-3px);
   box-shadow: var(--shadow);
+  border-color: var(--accent-border);
   text-decoration: none;
 }
 
-.platform-card-main {
-  flex: 1;
-  min-width: 0;
+/* Header row: coloured stripe with icon + status badge */
+.platform-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--border-subtle);
+  background: var(--bg-subtle);
 }
 
-.platform-name {
-  font-family: var(--font-display);
-  font-size: 14px;
-  font-weight: 700;
-  color: var(--text);
-  margin-bottom: 2px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.platform-count {
-  font-size: 12px;
-  color: var(--text-muted);
-  font-weight: 600;
-}
-
-.platform-card-logo {
-  flex-shrink: 0;
-  width: 40px;
-  height: 40px;
-  border-radius: var(--radius-md);
+.platform-card-icon-wrap {
+  width: 28px;
+  height: 28px;
+  border-radius: 7px;
+  background: var(--pc, var(--accent));
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 12px;
 }
 
-.platform-card-logo-icon {
-  width: 24px;
-  height: 24px;
-  color: white;
+.platform-type-tag {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 20px;
+  border: 1px solid;
+}
+.p-active  { background: rgba(22,160,133,0.1); color: #16a085; border-color: rgba(22,160,133,0.3); }
+.p-fading  { background: rgba(180,130,20,0.1);  color: #b07d10; border-color: rgba(180,130,20,0.3); }
+.p-legacy  { background: rgba(100,80,180,0.1); color: #6050aa; border-color: rgba(100,80,180,0.3); }
+
+/* Body: names + tagline */
+.platform-card-body {
+  flex: 1;
+  padding: 14px 16px 10px;
+}
+
+.platform-card-cn {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 2px;
+  line-height: 1.2;
+}
+
+.platform-card-en {
+  font-size: 13px;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.platform-card-tagline {
+  font-size: 12px;
+  color: var(--text-muted);
+  line-height: 1.45;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Meta row: year + type */
+.platform-card-meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px 12px;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+.platform-card-year {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-muted);
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-subtle);
+  padding: 2px 8px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.platform-card-type {
+  font-size: 11px;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: auto;
 }
 
 @media (max-width: 1100px) {
-  .browse-layout { grid-template-columns: 1fr 280px; gap: 24px; }
-  .platform-card { min-height: 52px; }
-  .platform-card-logo { width: 36px; height: 36px; }
-  .platform-card-logo-icon { width: 20px; height: 20px; }
+  .browse-layout { grid-template-columns: 1fr 260px; gap: 24px; }
 }
 
 @media (max-width: 900px) {
   .browse-layout { grid-template-columns: 1fr; gap: 16px; }
-  .platforms-grid { flex-direction: row; gap: 8px; flex-wrap: wrap; }
-  .platform-card { flex: 1 1 calc(50% - 4px); min-height: auto; flex-direction: column; gap: 8px; padding: 10px 12px; }
-  .platform-card-main { text-align: center; }
-  .platform-card-logo { margin-left: 0; width: 44px; height: 44px; }
-  .platform-card-logo-icon { width: 26px; height: 26px; }
+  .platforms-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
 }
 
 @media (max-width: 768px) {
@@ -1025,13 +1081,8 @@ mark.search-hl {
 
 @media (max-width: 480px) {
   .vibe-grid { grid-template-columns: 1fr; }
-  .platforms-grid { flex-direction: row; grid-template-columns: repeat(3, 1fr); }
-  .platform-card { flex: 1 1 calc(33.33% - 8px); }
-}
-
-@media (max-width: 480px) {
+  .platforms-grid { grid-template-columns: 1fr; }
   .hot-en { display: none; }
   .hot-item { padding: 10px 12px; gap: 6px; }
-  .vibe-grid { grid-template-columns: 1fr; }
 }
 </style>
