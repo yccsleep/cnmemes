@@ -216,7 +216,7 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
       <!-- Left 2/3: Browse by Year + Browse by Vibe -->
       <div class="browse-left">
 
-        <section class="home-section" style="padding-top:0;margin-bottom:40px;">
+        <section class="home-section" style="padding-top:0;margin-bottom:0;">
           <div class="section-head">
             <div>
               <h2 class="section-heading">Browse by Year</h2>
@@ -935,11 +935,40 @@ mark.search-hl {
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 32px;
-  align-items: start;
+  align-items: stretch;   /* both columns same height */
   padding-top: 40px;
 }
 
-.browse-left { min-width: 0; }
+/* Left column: flex column so vibe section can fill remaining space */
+.browse-left {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* Year section: natural height, doesn't grow */
+.browse-left > section:first-child { flex-shrink: 0; }
+
+/* Vibe section: grows to fill whatever space is left */
+.browse-left > section:last-child {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+}
+
+/* Vibe grid stretches its rows to fill available height */
+.browse-left > section:last-child .vibe-grid {
+  flex: 1;
+  align-content: stretch;
+}
+
+/* Vibe cards grow with the row height */
+.browse-left > section:last-child .vibe-card {
+  height: 100%;
+}
+
 .platforms-sidebar { min-width: 0; }
 
 
@@ -974,7 +1003,7 @@ mark.search-hl {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 16px;
+  padding: 12px 18px 10px;
   border-bottom: 1px solid var(--border-subtle);
   background: var(--bg-subtle);
 }
@@ -1000,15 +1029,15 @@ mark.search-hl {
 .p-fading  { background: rgba(180,130,20,0.1);  color: #b07d10; border-color: rgba(180,130,20,0.3); }
 .p-legacy  { background: rgba(100,80,180,0.1); color: #6050aa; border-color: rgba(100,80,180,0.3); }
 
-/* Body: names + tagline */
+/* Body: names + tagline — same padding as year-card-body */
 .platform-card-body {
   flex: 1;
-  padding: 14px 16px 10px;
+  padding: 16px 18px 12px;
 }
 
 .platform-card-cn {
   font-family: var(--font-display);
-  font-size: 20px;
+  font-size: 21px;
   font-weight: 700;
   color: var(--text);
   margin-bottom: 2px;
@@ -1016,28 +1045,29 @@ mark.search-hl {
 }
 
 .platform-card-en {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--accent);
   font-weight: 600;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 .platform-card-tagline {
   font-size: 12px;
   color: var(--text-muted);
-  line-height: 1.45;
+  font-style: italic;
+  line-height: 1.4;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
-/* Meta row: year + type */
+/* Meta row: year + type — same padding as year-card-meta */
 .platform-card-meta {
   display: flex;
   align-items: center;
   gap: 6px;
-  padding: 8px 16px 12px;
+  padding: 10px 18px 14px;
   flex-wrap: nowrap;
   overflow: hidden;
 }
