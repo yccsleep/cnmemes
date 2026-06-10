@@ -8,13 +8,7 @@ import platforms from '../data/platforms.json';
 const totalCount = memes.length;
 const currentYear = Math.max(...memes.map(m => m.year));
 
-// All platforms sorted newest first
-const platformsWithCounts = [...platforms]
-  .sort((a, b) => (b.founded || 0) - (a.founded || 0))
-  .map(p => ({
-    ...p,
-    memeCount: memes.filter(m => (m as any).platform_slug === p.slug).length
-  }));
+// platforms computed after yearSections (below)
 
 // 🔥 Trending ticker — what's hot recently: last 3 years + still popular
 const hotMemes = [...memes]
@@ -87,6 +81,16 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
     .sort((a, b) => b.popularity - a.popularity || (b.status === 'still popular' ? 1 : 0) - (a.status === 'still popular' ? 1 : 0))[0];
   yearSections.push({ label: eraLabels[py] ?? String(py), href: `/year/${py}`, rep });
 }
+
+// Show only as many platform cards as rows in the year grid (2-column grid)
+const platformRowCount = Math.ceil(yearSections.length / 2);
+const platformsWithCounts = [...platforms]
+  .sort((a, b) => (b.founded || 0) - (a.founded || 0))
+  .slice(0, platformRowCount)
+  .map(p => ({
+    ...p,
+    memeCount: memes.filter(m => (m as any).platform_slug === p.slug).length
+  }));
 ---
 
 <Base title="Chinese Internet Memes Explained in English" description="What do Chinese internet memes mean? 500+ memes and slang terms explained in English with cultural context — from 内卷 to yyds, 2000 to today.">
