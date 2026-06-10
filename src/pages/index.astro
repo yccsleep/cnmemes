@@ -372,6 +372,49 @@ const platformsWithCounts = [...platforms]
     });
   </script>
 
+  <script>
+    // Sync platform card heights to match year grid row heights
+    function syncPlatformHeights() {
+      const yearCards = Array.from(document.querySelectorAll('.year-sections-grid .year-card'));
+      const platformCards = Array.from(document.querySelectorAll('.platforms-grid .platform-card'));
+      if (!yearCards.length || !platformCards.length) return;
+
+      // Reset
+      platformCards.forEach(c => { c.style.height = ''; });
+
+      // Group year cards into rows by offsetTop
+      const rows = [];
+      let prevTop = -1;
+      let row = [];
+      yearCards.forEach(card => {
+        const top = card.offsetTop;
+        if (top > prevTop + 5) {
+          if (row.length) rows.push(row);
+          row = [card];
+          prevTop = top;
+        } else {
+          row.push(card);
+        }
+      });
+      if (row.length) rows.push(row);
+
+      // Apply each row's height to the corresponding platform card
+      rows.forEach((row, i) => {
+        if (i >= platformCards.length) return;
+        platformCards[i].style.height = row[0].offsetHeight + 'px';
+      });
+    }
+
+    document.fonts.ready.then(syncPlatformHeights);
+
+    let platformResizeTimer;
+    window.addEventListener('resize', () => {
+      document.querySelectorAll('.platforms-grid .platform-card').forEach(c => { c.style.height = ''; });
+      clearTimeout(platformResizeTimer);
+      platformResizeTimer = setTimeout(syncPlatformHeights, 100);
+    });
+  </script>
+
   <script define:vars={{ allMemes, allImageMemes, totalCount }}>
     const searchInput = document.getElementById('searchInput');
     const curated = document.getElementById('curatedContent');
@@ -980,7 +1023,7 @@ mark.search-hl {
 .platforms-grid {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 20px;   /* same as year-sections-grid */
   margin-bottom: 4px;
 }
 
