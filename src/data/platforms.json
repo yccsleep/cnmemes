@@ -92,7 +92,7 @@
     "color_light": "#F5E8EB",
     "color_dark": "#FF5588",
     "icon_path": "M5 7h14a4 4 0 0 1 4 4v2a4 4 0 0 1-4 4H5a4 4 0 0 1-4-4v-2a4 4 0 0 1 4-4z",
-    "icon_svg": "<rect x='1' y='4' width='22' height='16' rx='3' fill='white'/><text x='12' y='12' text-anchor='middle' dominant-baseline='central' font-size='5.8' font-weight='900' fill='#FF2442' font-family='Noto Serif SC,PingFang SC,Microsoft YaHei,sans-serif'>小红书</text>",
+    "icon_svg": "<text x='12' y='12' text-anchor='middle' dominant-baseline='central' font-size='6' font-weight='900' fill='white' font-family='Noto Serif SC,PingFang SC,Microsoft YaHei,sans-serif'>小红书</text>",
     "url": "https://www.xiaohongshu.com",
     "meme_count": 29
   },
