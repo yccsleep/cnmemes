@@ -1,0 +1,217 @@
+---
+import Base from '../../layouts/Base.astro';
+import memes from '../../data/memes.json';
+import platforms from '../../data/platforms.json';
+
+const memeCounts = memes.reduce((acc, m) => {
+  if (m.platform) acc[m.platform] = (acc[m.platform] || 0) + 1;
+  return acc;
+}, {} as Record<string, number>);
+
+const sorted = [...platforms].sort((a, b) => (memeCounts[b.slug] ?? 0) - (memeCounts[a.slug] ?? 0));
+
+const description = "The major platforms behind Chinese internet culture — from Mop and Tieba to Weibo, Bilibili, Douyin, and Xiaohongshu.";
+---
+
+<Base title="Chinese Internet Platforms — Where Memes Are Born" description={description}>
+  <section class="hero" style="padding-bottom:36px;">
+    <h1>The Platforms Behind the Memes</h1>
+    <p>Chinese internet memes don't emerge from nowhere — each reflects the community, format, and culture of the platform that gave birth to it. From early BBS forums to short-video algorithms, here are the platforms that shaped Chinese internet language.</p>
+  </section>
+
+  <div class="container" style="padding-top:40px;padding-bottom:80px;">
+    <div class="platform-timeline-label">Ordered by founding year</div>
+    <div class="platform-grid">
+      {sorted.map(p => (
+        <a href={`/platform/${p.slug}`} class="platform-card" style={`--p-color:${p.color};`}>
+          <div class="platform-card-main">
+            <div class="platform-card-top">
+              <div class="platform-names">
+                <span class="platform-cn">{p.chinese_name}</span>
+                <span class="platform-en">{p.english_name}</span>
+              </div>
+              <span class={`platform-status-badge status-${p.status}`}>{p.status}</span>
+            </div>
+            <p class="platform-tagline">{p.tagline}</p>
+            <div class="platform-meta">
+              <span class="platform-type">{p.type}</span>
+              <span class="platform-years">Est. {p.founded} · Peak: {p.peak_years}</span>
+            </div>
+            <div class="platform-footer">
+              <span class="platform-count">{memeCounts[p.slug] ?? 0} memes</span>
+              <span class="platform-link-arrow">Explore →</span>
+            </div>
+          </div>
+          <div class="platform-card-logo">
+            <div class="platform-card-logo-wrap">
+              <svg viewBox="0 0 24 24" class="platform-card-logo-icon" aria-hidden="true" set:html={`<path d="${p.icon_path}"/>`} />
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</Base>
+
+<style>
+.platform-timeline-label {
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.platform-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.platform-card {
+  display: flex;
+  flex-direction: row;
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow var(--transition), transform var(--transition), border-color var(--transition);
+}
+
+.platform-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: var(--p-color);
+}
+
+.platform-card:hover {
+  box-shadow: var(--shadow);
+  transform: translateY(-3px);
+  border-color: var(--p-color);
+  text-decoration: none;
+}
+
+.platform-card-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 22px 20px 18px 22px;
+  min-width: 0;
+}
+
+.platform-card-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 22px;
+  flex-shrink: 0;
+  background: color-mix(in srgb, var(--p-color) 6%, var(--bg-subtle));
+}
+
+.platform-card-logo-wrap {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  background: var(--p-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 14px color-mix(in srgb, var(--p-color) 35%, transparent);
+}
+
+.platform-card-logo-icon {
+  width: 34px;
+  height: 34px;
+  fill: #fff;
+  display: block;
+}
+
+.platform-card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.platform-names {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.platform-cn {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--p-color);
+  font-family: var(--font-display);
+}
+
+.platform-en {
+  font-size: 13px;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.platform-status-badge {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding: 3px 9px;
+  border-radius: 12px;
+  white-space: nowrap;
+}
+
+.status-active { background: #d4f5d4; color: #2d8a2d; }
+.status-declining { background: #fff4e6; color: #b8860b; }
+.status-legacy { background: #f0f0f0; color: #666; }
+
+.platform-tagline {
+  font-size: 13px;
+  color: var(--text-dim);
+  font-style: italic;
+  margin: 0;
+}
+
+.platform-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  color: var(--text-muted);
+  flex-wrap: wrap;
+}
+
+.platform-type {
+  background: var(--bg-subtle);
+  padding: 2px 8px;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+.platform-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.platform-count {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--p-color);
+}
+
+.platform-link-arrow {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+</style>

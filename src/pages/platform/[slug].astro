@@ -1,0 +1,164 @@
+---
+import Base from '../../layouts/Base.astro';
+import MemeCard from '../../components/MemeCard.astro';
+import memes from '../../data/memes.json';
+import platforms from '../../data/platforms.json';
+
+export function getStaticPaths() {
+  return platforms.map(p => ({
+    params: { slug: p.slug },
+    props: { platform: p }
+  }));
+}
+
+const { platform } = Astro.props;
+
+const platformMemes = memes
+  .filter(m => m.platform === platform.slug)
+  .sort((a, b) => b.year - a.year || b.popularity - a.popularity);
+
+const byYear = platformMemes.reduce((acc, m) => {
+  acc[m.year] = acc[m.year] || [];
+  acc[m.year].push(m);
+  return acc;
+}, {} as Record<number, typeof platformMemes>);
+
+const years = Object.keys(byYear).map(Number).sort((a, b) => b - a);
+const description = `${platformMemes.length} Chinese internet memes that originated on ${platform.english_name} (${platform.chinese_name}). ${platform.tagline}.`;
+---
+
+<Base title={`${platform.english_name} — Chinese Internet Platform & Memes`} description={description} type="article">
+  <div class="platform-hero" style={`--p-color:${platform.color};`}>
+    <div class="container">
+      <div class="platform-hero-inner">
+        <div class="platform-hero-logo">
+          <svg viewBox="0 0 24 24" class="platform-hero-icon" aria-hidden="true" set:html={`<path d="${platform.icon_path}"/>`} />
+        </div>
+        <div class="platform-hero-text">
+          <h1 class="platform-hero-cn">{platform.chinese_name}</h1>
+          <p class="platform-hero-en">{platform.english_name}</p>
+          <p class="platform-hero-meta">{platform.type} · Founded {platform.founded}</p>
+          <p class="platform-hero-tagline">"{platform.tagline}"</p>
+          <p class="platform-hero-desc">{platform.description}</p>
+          {platform.url && (
+            <a href={platform.url} target="_blank" rel="noopener noreferrer" class="platform-visit-btn">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              Visit {platform.english_name}
+            </a>
+          )}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" style="padding-top:48px;padding-bottom:80px;">
+    <h2 class="memes-title">Memes from {platform.english_name}</h2>
+    {years.map(year => (
+      <div style="margin-bottom:48px;">
+        <h3 style="font-size:20px;margin-bottom:16px;">{year}</h3>
+        <div class="meme-grid">
+          {byYear[year].map(m => (
+            <MemeCard slug={m.slug} chinese_name={m.chinese_name} english_name={m.english_name} pinyin={m.pinyin} english_explanation={m.english_explanation} year={m.year} status={m.status} tags={m.tags} popularity={m.popularity} />
+          ))}
+        </div>
+      </div>
+    ))}
+  </div>
+</Base>
+
+<style>
+.platform-hero {
+  background: var(--bg-subtle);
+  border-bottom: 1px solid var(--border);
+  padding: 48px 0 40px;
+}
+
+.platform-hero-inner {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.platform-hero-logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 16px;
+  background: var(--p-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.platform-hero-icon {
+  width: 40px;
+  height: 40px;
+  fill: #fff;
+}
+
+.platform-hero-cn {
+  font-size: clamp(28px, 5vw, 48px);
+  font-weight: 700;
+  color: var(--p-color);
+  font-family: var(--font-display);
+  margin: 0 0 4px;
+}
+
+.platform-hero-en {
+  font-size: 18px;
+  color: var(--text-dim);
+  margin: 0 0 12px;
+}
+
+.platform-hero-meta {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin: 0 0 16px;
+}
+
+.platform-hero-tagline {
+  font-size: 16px;
+  font-style: italic;
+  color: var(--p-color);
+  margin: 0 0 12px;
+}
+
+.platform-hero-desc {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-dim);
+  margin: 0 0 16px;
+  max-width: 600px;
+}
+
+.platform-visit-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--p-color);
+  border: 1.5px solid var(--p-color);
+  padding: 6px 14px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: all var(--transition);
+}
+
+.platform-visit-btn:hover {
+  background: var(--p-color);
+  color: #fff;
+}
+
+.memes-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.meme-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+</style>
