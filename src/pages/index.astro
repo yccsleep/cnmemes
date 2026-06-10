@@ -85,12 +85,9 @@ for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
 // Show only as many platform cards as rows in the year grid (2-column grid)
 const platformRowCount = Math.ceil(yearSections.length / 2);
 const platformsWithCounts = [...platforms]
-  .sort((a, b) => (b.founded || 0) - (a.founded || 0))
+  .sort((a, b) => (b.meme_count || 0) - (a.meme_count || 0))
   .slice(0, platformRowCount)
-  .map(p => ({
-    ...p,
-    memeCount: memes.filter(m => (m as any).platform_slug === p.slug).length
-  }));
+  .map(p => ({ ...p, memeCount: p.meme_count || 0 }));
 ---
 
 <Base title="Chinese Internet Memes Explained in English" description="What do Chinese internet memes mean? 500+ memes and slang terms explained in English with cultural context — from 内卷 to yyds, 2000 to today.">

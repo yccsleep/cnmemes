@@ -1,14 +1,8 @@
 ---
 import Base from '../../layouts/Base.astro';
-import memes from '../../data/memes.json';
 import platforms from '../../data/platforms.json';
 
-const memeCounts = memes.reduce((acc, m) => {
-  if (m.platform) acc[m.platform] = (acc[m.platform] || 0) + 1;
-  return acc;
-}, {} as Record<string, number>);
-
-const sorted = [...platforms].sort((a, b) => (memeCounts[b.slug] ?? 0) - (memeCounts[a.slug] ?? 0));
+const sorted = [...platforms].sort((a, b) => (b.meme_count || 0) - (a.meme_count || 0));
 
 const description = "The major platforms behind Chinese internet culture — from Mop and Tieba to Weibo, Bilibili, Douyin, and Xiaohongshu.";
 ---
@@ -38,7 +32,7 @@ const description = "The major platforms behind Chinese internet culture — fro
               <span class="platform-years">Est. {p.founded} · Peak: {p.peak_years}</span>
             </div>
             <div class="platform-footer">
-              <span class="platform-count">{memeCounts[p.slug] ?? 0} memes</span>
+              <span class="platform-count">{p.meme_count ?? 0} memes</span>
               <span class="platform-link-arrow">Explore →</span>
             </div>
           </div>
