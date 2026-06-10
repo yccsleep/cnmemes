@@ -91,7 +91,7 @@
     "color": "#FF2442",
     "color_light": "#F5E8EB",
     "color_dark": "#FF5588",
-    "icon_path": "M9 3L7.17 5H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2h-3.17L15 3H9zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.65 0-3 1.35-3 3s1.35 3 3 3 3-1.35 3-3-1.35-3-3-3z",
+    "icon_path": "M8 2h8v6h6v8h-6v6h-8v-6h-6v-8h6z",
     "url": "https://www.xiaohongshu.com",
     "meme_count": 29
   },
