@@ -38,7 +38,7 @@ const description = "The major platforms behind Chinese internet culture — fro
           </div>
           <div class="platform-card-logo">
             <div class="platform-card-logo-wrap">
-              <svg viewBox="0 0 24 24" class="platform-card-logo-icon" aria-hidden="true" set:html={`<path fill-rule="evenodd" d="${p.icon_path}"/>`} />
+              <svg viewBox="0 0 24 24" class="platform-card-logo-icon" aria-hidden="true" set:html={p.icon_svg ?? `<path fill-rule="evenodd" d="${p.icon_path}"/>`} />
             </div>
           </div>
         </a>

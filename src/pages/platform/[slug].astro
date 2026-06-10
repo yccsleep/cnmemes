@@ -80,7 +80,7 @@ const nextPlatform = platforms[idx < platforms.length - 1 ? idx + 1 : 0];
       <div class="platform-hero-inner">
         <!-- Logo -->
         <div class="platform-hero-logo">
-          <svg viewBox="0 0 24 24" class="platform-hero-icon" aria-hidden="true" set:html={`<path fill-rule="evenodd" d="${platform.icon_path}" fill="white"/>`} />
+          <svg viewBox="0 0 24 24" class="platform-hero-icon" aria-hidden="true" set:html={platform.icon_svg ?? `<path fill-rule="evenodd" d="${platform.icon_path}" fill="white"/>`} />
         </div>
 
         <!-- Main info -->
@@ -237,7 +237,7 @@ const nextPlatform = platforms[idx < platforms.length - 1 ? idx + 1 : 0];
             {platforms.filter(p => p.slug !== platform.slug).map(p => (
               <a href={`/platform/${p.slug}`} class="other-platform-link">
                 <div class="other-platform-icon" style={`background-color:${p.color}`}>
-                  <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" set:html={`<path fill-rule="evenodd" d="${p.icon_path}" fill="white"/>`} />
+                  <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" set:html={p.icon_svg ?? `<path fill-rule="evenodd" d="${p.icon_path}" fill="white"/>`} />
                 </div>
                 <span>{p.english_name}</span>
                 <span class="other-platform-cn">{p.chinese_name}</span>
