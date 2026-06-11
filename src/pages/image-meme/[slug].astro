@@ -70,10 +70,15 @@ const breadcrumbSchema = {
       <div class="im-image-col">
         <div class="im-sticky">
           <figure class="im-figure">
-            <img
-              src={meme.image}
-              alt={`${meme.chinese_name} — ${meme.english_name} Chinese internet meme`}
-            />
+            <picture>
+              <source srcset={meme.image.replace(/\.(jpg|jpeg|png)$/i, '.webp')} type="image/webp" />
+              <img
+                src={meme.image}
+                alt={`${meme.chinese_name} — ${meme.english_name} Chinese internet meme`}
+                loading="eager"
+                decoding="async"
+              />
+            </picture>
           </figure>
           <div class="im-meta-block">
             <div class="im-meta-row">

@@ -23,7 +23,8 @@
         "english": "As a startup dog: no funding news, salary on hold, but the dream must go on."
       }
     ],
-    "popularity": 2
+    "popularity": 2,
+    "platform": "zhihu"
   },
   {
     "slug": "xiao-gong-ju",
@@ -48,7 +49,8 @@
         "english": "Our little princess is throwing another fit today."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "bilibili"
   },
   {
     "slug": "ni-zheme-niubi-ni-jiali-ren-zhidao-ma",
@@ -73,7 +75,8 @@
         "english": "He just started learning guitar and already thinks he's naturally gifted — does his family know he's such a genius?"
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "zhihu"
   },
   {
     "slug": "beijing-tan",
@@ -98,7 +101,8 @@
         "english": "Weekends were made for the Beijing Slouch — no plans, no ambitions, just pure horizontal existence."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "zhihu"
   },
   {
     "slug": "badao-zongcai",
@@ -125,7 +129,8 @@
         "english": "Domineering CEO falls for me? Please — he can't even remember my name."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "sha-bai-tian",
@@ -151,7 +156,8 @@
         "english": "The female lead in this drama is such a 傻白甜 — she relies on the male lead to rescue her from literally everything."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "mali-su",
@@ -177,7 +183,8 @@
         "english": "My luck was insane today — I felt like I'd switched on full Mary Sue mode."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "tu-yang-tu-sen-po",
@@ -202,7 +209,8 @@
         "english": "He genuinely thought the project could be done in a month — too young, too simple, sometimes naive."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "weibo"
   },
   {
     "slug": "nuan-nan",
@@ -228,7 +236,8 @@
         "english": "Girls these days prefer a '暖男' over the macho, my-way-or-the-highway type."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "weibo"
   },
   {
     "slug": "nv-shen",
@@ -255,7 +264,8 @@
         "english": "Put on a full glam look today — feeling like an absolute goddess!"
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "nan-shen",
@@ -282,7 +292,8 @@
         "english": "Daniel Wu will forever be god-tier dream guy material in my eyes."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "bai-fu-mei",
@@ -310,7 +321,8 @@
     ],
     "popularity": 5,
     "origin_story": "The female counterpart to 高富帅, describing the ideal woman as fair-skinned (白), rich (富), and beautiful (美). Fair skin has been a beauty standard in East Asia for centuries, tied to the idea that pale skin meant you didn't do outdoor labor.",
-    "similar_expressions": "Similar to the Western 'trophy wife' concept but framed positively. The skin color component reflects deep-rooted East Asian beauty standards very different from Western ideals."
+    "similar_expressions": "Similar to the Western 'trophy wife' concept but framed positively. The skin color component reflects deep-rooted East Asian beauty standards very different from Western ideals.",
+    "platform": "weibo"
   },
   {
     "slug": "gao-fu-shuai",
@@ -338,7 +350,8 @@
     ],
     "popularity": 5,
     "origin_story": "Emerged from Chinese dating culture and social media around 2010-2012, crystallizing the aspirational male ideal of the era: tall (高), rich (富), handsome (帅). Became mainstream by 2015 as a shorthand for the perfect man — and a source of humor about impossible standards.",
-    "similar_expressions": "The Chinese equivalent of a 'ten' or 'a catch.' Similar to how English uses 'tall, dark, and handsome' but with wealth explicitly included."
+    "similar_expressions": "The Chinese equivalent of a 'ten' or 'a catch.' Similar to how English uses 'tall, dark, and handsome' but with wealth explicitly included.",
+    "platform": "weibo"
   },
   {
     "slug": "zhai-nv",
@@ -364,7 +377,8 @@
         "english": "My friend invited me hiking, but as a true homebody girl I couldn't handle it — I made up a headache and turned her down flat."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "tieba"
   },
   {
     "slug": "zhai-nan",
@@ -391,7 +405,8 @@
         "english": "You wouldn't understand the joy of being a 宅男 — just me, my PC, and a crate of instant noodles. Life's complete."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "tieba"
   },
   {
     "slug": "si-zhai",
@@ -417,7 +432,8 @@
         "english": "I haven't left the house in five days straight — guess I really am a hardcore homebody."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "tieba"
   },
   {
     "slug": "san-ci-yuan",
@@ -442,7 +458,8 @@
         "english": "You'd never find someone this perfect in the real world; 2D is just better."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "tieba"
   },
   {
     "slug": "er-ci-yuan",
@@ -470,7 +487,8 @@
     ],
     "popularity": 5,
     "origin_story": "Borrowed from Japanese (二次元, nijigen), literally '2D dimension.' Originally referred to anime and manga characters who exist only in two dimensions. As Chinese anime fandom exploded in the 2010s, the term came to describe the entire subculture of anime, manga, and gaming.",
-    "similar_expressions": "Similar to the English 'anime fan' or 'otaku' (though 宅男/宅女 is the closer Chinese equivalent to otaku). '2D world' versus '3D world' (reality) is a common distinction in fan communities globally."
+    "similar_expressions": "Similar to the English 'anime fan' or 'otaku' (though 宅男/宅女 is the closer Chinese equivalent to otaku). '2D world' versus '3D world' (reality) is a common distinction in fan communities globally.",
+    "platform": "bilibili"
   },
   {
     "slug": "luo-li",
@@ -496,7 +514,8 @@
         "english": "The loli character in this anime is so adorable — she's become the most popular figure of the season."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "tieba"
   },
   {
     "slug": "zheng-tai",
@@ -523,7 +542,8 @@
         "english": "He's already 25, but his face is still so boyishly pretty that he looks nothing like an adult."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "tieba"
   },
   {
     "slug": "yu-jie",
@@ -550,7 +570,8 @@
         "english": "The way she speaks has such a 御姐 vibe — you just can't help but want to do what she says."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "tieba"
   },
   {
     "slug": "meng-mei-zi",
@@ -577,7 +598,8 @@
         "english": "That cute girl in the livestream is way better at the game than I am."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "bilibili"
   },
   {
     "slug": "nv-han-zi",
@@ -603,7 +625,8 @@
         "english": "Don't let her rough-and-ready attitude fool you — she's a total 女汉子 on the outside but surprisingly sensitive deep down."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "qi-pa",
@@ -628,7 +651,8 @@
         "english": "The contestants on '奇葩说' are genuinely impressive — their arguments always catch you completely off guard."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "weibo"
   },
   {
     "slug": "dou-bi",
@@ -653,7 +677,8 @@
         "english": "Whatever, I'm just a dork — I own it."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "weibo"
   },
   {
     "slug": "xue-zha",
@@ -678,7 +703,8 @@
         "english": "The 学霸 pulls an all-nighter grinding practice problems; the 学渣 pulls an all-nighter grinding video games."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "xueba",
@@ -703,7 +729,8 @@
         "english": "My roommate is a total academic overlord — started reviewing the night before finals and still got a perfect score."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "xinji-biao",
@@ -729,7 +756,8 @@
         "english": "Haha, I sneakily grabbed the last piece of cake — I'm such a calculating little schemer."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "zhihu"
   },
   {
     "slug": "lv-cha-biao",
@@ -755,7 +783,8 @@
         "english": "That new coworker acts all sweet and delicate in front of the male managers, but steals credit behind their backs — a true green tea b*tch through and through."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "baobao-xinli-ku",
@@ -780,7 +809,8 @@
         "english": "The blind date they set me up with is absolutely not my type. Baby is suffering inside."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "lei-jue-bu-ai",
@@ -805,7 +835,8 @@
         "english": "Working overtime this much, who has time for romance? I'm too tired to even think about love."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "weibo"
   },
   {
     "slug": "xin-sai",
@@ -832,7 +863,8 @@
       }
     ],
     "popularity": 4,
-    "era": "2010-2014"
+    "era": "2010-2014",
+    "platform": "zhihu"
   },
   {
     "slug": "zui-xuan-minzu-feng",
@@ -857,7 +889,8 @@
         "english": "This video paired with 'The Most Dazzling Ethnic Style' is absolutely perfect — I'm dying of laughter."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "bilibili"
   },
   {
     "slug": "jiangnan-style",
@@ -882,7 +915,8 @@
         "english": "He's dressed head-to-toe in that upscale 'Jiangnan Style' look, but can barely afford the subway fare."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "weibo"
   },
   {
     "slug": "xiao-pingguo",
@@ -908,7 +942,8 @@
         "english": "The aunties in the square are doing their 'Little Apple' dance again — the whole place is buzzing with energy."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "tfboys",
@@ -934,7 +969,8 @@
         "english": "Weibo in 2015 was basically TFBOYS's home turf — the sheer number of fans was overwhelming."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "bilibili"
   },
   {
     "slug": "zhen-huan-ti",
@@ -960,7 +996,8 @@
         "english": "The pearls in that tea shop's drink have greatly pleased this empress; I shall return again tomorrow."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "bilibili"
   },
   {
     "slug": "yuan-fang-ni-zenme-kan",
@@ -987,7 +1024,8 @@
       }
     ],
     "popularity": 3,
-    "era": "2010-2014"
+    "era": "2010-2014",
+    "platform": "weibo"
   },
   {
     "slug": "jia-junpeng",
@@ -1016,7 +1054,8 @@
       }
     ],
     "popularity": 4,
-    "era": "2005-2009"
+    "era": "2005-2009",
+    "platform": "tieba"
   },
   {
     "slug": "huo-jiu-jian",
@@ -1041,7 +1080,8 @@
         "english": "The boss actually gave everyone double bonuses. I've officially lived long enough to see the impossible."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "weibo"
   },
   {
     "slug": "tu-hao",
@@ -1068,7 +1108,8 @@
     ],
     "popularity": 5,
     "origin_story": "Originally meant rural despots or local bullies in pre-Communist China. After China's economic boom, it was repurposed to describe the newly wealthy — especially those who spent extravagantly without taste. A 2013 iPhone gold edition triggered a viral wave of '土豪金' (nouveau riche gold) jokes.",
-    "similar_expressions": "Closer to 'nouveau riche' or 'new money' than simply 'rich.' Like the English 'bougie' but more extreme — think someone who buys a Lamborghini but eats instant noodles."
+    "similar_expressions": "Closer to 'nouveau riche' or 'new money' than simply 'rich.' Like the English 'bougie' but more extreme — think someone who buys a Lamborghini but eats instant noodles.",
+    "platform": "weibo"
   },
   {
     "slug": "ni-xi",
@@ -1095,7 +1136,8 @@
         "english": "This drama is all about an ugly duckling's 逆袭 into a goddess — I was pumped watching every minute of it."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "weibo"
   },
   {
     "slug": "diao-si",
@@ -1123,7 +1165,8 @@
     ],
     "popularity": 5,
     "origin_story": "Started as a crude insult in gaming forums around 2011, targeting poor rural players who couldn't afford good equipment. In a remarkable reversal, the term was reclaimed — millions of young Chinese people self-identified as 屌丝 as an act of ironic pride, rejecting the pressure to be 高富帅.",
-    "similar_expressions": "Similar to how 'nerd' or 'loser' was reclaimed in English culture. The self-deprecating pride is reminiscent of 'I'm a mess and I own it.'"
+    "similar_expressions": "Similar to how 'nerd' or 'loser' was reclaimed in English culture. The self-deprecating pride is reminiscent of 'I'm a mess and I own it.'",
+    "platform": "weibo"
   },
   {
     "slug": "yi-zu",
@@ -1149,7 +1192,8 @@
         "english": "The Ant Tribe in Beijing keeps growing; rising rents are squeezing the life out of them."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "tieba"
   },
   {
     "slug": "bei-piao",
@@ -1174,7 +1218,8 @@
         "english": "Every time I go home for the New Year, relatives ask how I'm doing, and all I can do is smile bitterly and say I'm still drifting."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "weibo"
   },
   {
     "slug": "mogu-tou",
@@ -1199,7 +1244,8 @@
         "english": "Same commute, same pay, no raises in sight — the spirit of Mushroom Head has fully possessed me."
       }
     ],
-    "popularity": 2
+    "popularity": 2,
+    "platform": "zhihu"
   },
   {
     "slug": "biao-qing-bao",
@@ -1226,7 +1272,8 @@
     ],
     "popularity": 5,
     "origin_story": "China's homegrown meme culture exploded around 2015 as WeChat's sticker feature went mainstream. Unlike Western memes that spread via Reddit or Twitter, Chinese memes spread primarily through WeChat and QQ chat groups, making them more personal and conversational.",
-    "similar_expressions": "Directly equivalent to 'meme' or 'reaction image' in English. China's meme ecosystem is parallel to but largely separate from Western internet culture."
+    "similar_expressions": "Directly equivalent to 'meme' or 'reaction image' in English. China's meme ecosystem is parallel to but largely separate from Western internet culture.",
+    "platform": "weibo"
   },
   {
     "slug": "lao-siji",
@@ -1253,7 +1300,8 @@
     ],
     "popularity": 5,
     "origin_story": "Originally trucker slang for an experienced long-haul driver. Around 2015 it mutated into internet slang for someone experienced in navigating risqué or adult content online — 'getting on the bus' meant accessing such content. Later broadened to mean any experienced expert.",
-    "similar_expressions": "Like calling someone a 'veteran' or 'seasoned pro.' The 'driving' metaphor for adult content is similar to how English uses 'Netflix and chill.'"
+    "similar_expressions": "Like calling someone a 'veteran' or 'seasoned pro.' The 'driving' metaphor for adult content is similar to how English uses 'Netflix and chill.'",
+    "platform": "weibo"
   },
   {
     "slug": "yan-zhi-ji-zhengyi",
@@ -1280,7 +1328,8 @@
         "english": "The interviewer lit up the moment he saw her. 'Looks are justice' really isn't just a saying."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "o2o-wu-tu-wu",
@@ -1306,7 +1355,8 @@
         "english": "Back in 2015, slap the letters O2O on anything and investors would throw money at you without blinking."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "weibo"
   },
   {
     "slug": "hulianwang-jia",
@@ -1333,7 +1383,8 @@
         "english": "Our company is launching an Internet Plus eldercare project — basically an app that lets seniors book massages."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "zhihu"
   },
   {
     "slug": "zhuyao-kan-qizhi",
@@ -1359,7 +1410,8 @@
         "english": "This outfit might not be the most stylish on me, but hey, it's mainly about the aura."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "zhuizi-lian",
@@ -1385,7 +1437,8 @@
         "english": "All these influencers have the same awl face and big eyes — you literally can't tell them apart."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "bilibili"
   },
   {
     "slug": "wang-hong-lian",
@@ -1411,7 +1464,8 @@
         "english": "Almost every female streamer on the live platforms has that influencer face now — you literally can't tell them apart."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "xiao-xian-rou",
@@ -1438,7 +1492,8 @@
         "english": "Brands these days love signing fresh meat as spokespeople — huge traffic, and the female fans absolutely open their wallets."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "shijie-name-da-wo-xiang-qu-kankan",
@@ -1465,7 +1520,8 @@
     ],
     "popularity": 5,
     "origin_story": "In May 2015, a schoolteacher in Henan province submitted the shortest resignation letter in Chinese history — just this one sentence. The letter went viral overnight after being posted online, sparking nationwide debate about work-life balance and personal freedom.",
-    "similar_expressions": "Like saying 'I quit' but make it poetry. Similar to 'wanderlust' or 'the world is your oyster' — but with the weight of quitting a stable job behind it."
+    "similar_expressions": "Like saying 'I quit' but make it poetry. Similar to 'wanderlust' or 'the world is your oyster' — but with the weight of quitting a stable job behind it.",
+    "platform": "zhihu"
   },
   {
     "slug": "zhong-yao-de-shi-qing-shuo-san-bian",
@@ -1491,7 +1547,8 @@
         "english": "Don't forget your ID! Don't forget your ID! Don't forget your ID! Important things must be said three times."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "ran-bing-luan",
@@ -1517,7 +1574,8 @@
         "english": "I crammed vocabulary all night long — so what, I still failed the exam."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "duang",
@@ -1543,7 +1601,8 @@
         "english": "The special effects in this movie are pure duang — my eyes can't even handle it.chinese_name"
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "xian-yu-tan",
@@ -1568,7 +1627,8 @@
         "english": "After all those overtime hours this week, I collapsed onto the couch like a salted fish — too lazy to even order delivery."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "zhihu"
   },
   {
     "slug": "xiao-er-bu-yu",
@@ -1593,7 +1653,8 @@
         "english": "My friend asked why I'm still single. I just smiled silently and walked away."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "zhihu"
   },
   {
     "slug": "liang-liang",
@@ -1618,7 +1679,8 @@
         "english": "Didn't sleep well last night — today's exam is absolutely cooked."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "wen-ru-lao-gou",
@@ -1643,7 +1705,8 @@
         "english": "His stocks dropped another 20%, but he was steady as an old dog, just kept eating his instant noodles."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "zhihu"
   },
   {
     "slug": "la-ji",
@@ -1668,7 +1731,8 @@
         "english": "What a garbage teammate — he's the one who ruins every match."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "la-yanjing",
@@ -1693,7 +1757,8 @@
         "english": "I just scrolled past the most cringe-worthy awkward dance video — it was so eye-searing I swiped away immediately."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "b-zhan",
@@ -1721,7 +1786,8 @@
     ],
     "popularity": 5,
     "origin_story": "Bilibili (哔哩哔哩) started in 2009 as an anime video site requiring users to pass a 100-question anime knowledge test to register. It evolved into China's leading video platform for Gen Z — a mix of YouTube, Twitch, and Reddit with a distinctive bullet comment (弹幕) culture where viewer comments fly across the screen.",
-    "similar_expressions": "Like YouTube but with bullet comments (danmaku), a stronger community identity, and originally much higher barrier to entry. The required knowledge test created an in-group culture that persists even as the platform mainstreamed."
+    "similar_expressions": "Like YouTube but with bullet comments (danmaku), a stronger community identity, and originally much higher barrier to entry. The required knowledge test created an in-group culture that persists even as the platform mainstreamed.",
+    "platform": "bilibili"
   },
   {
     "slug": "gui-chu",
@@ -1751,7 +1817,8 @@
     ],
     "popularity": 5,
     "origin_story": "Borrowed from Japanese internet culture (鬼畜, literally 'demon beast'), referring to videos that rapidly repeat audio and video clips to create surreal, hypnotic effects. Chinese Bilibili creators mastered the format, making politicians and celebrities say absurd things through clever editing.",
-    "similar_expressions": "Similar to Western 'YouTube Poop' or 'YTPMV' (YouTube Poop Music Video). The rapid-cut remix style has become a distinct art form in Chinese internet culture."
+    "similar_expressions": "Similar to Western 'YouTube Poop' or 'YTPMV' (YouTube Poop Music Video). The rapid-cut remix style has become a distinct art form in Chinese internet culture.",
+    "platform": "bilibili"
   },
   {
     "slug": "tianyuan-nvquan",
@@ -1777,7 +1844,8 @@
         "english": "Real feminism pursues equality; 'pastoral feminism' just wants privileges."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "weibo"
   },
   {
     "slug": "zhi-nan-ai",
@@ -1805,7 +1873,8 @@
     ],
     "popularity": 5,
     "origin_story": "Coined by Chinese feminist internet communities around 2015-2016 to describe extreme male chauvinism. The '-癌' (cancer) suffix makes it a disease metaphor. Symptoms include telling women how to dress, assuming cooking is women's work, and being baffled by feminism.",
-    "similar_expressions": "Similar to 'toxic masculinity' or 'chauvinist pig' in English feminist discourse. The disease framing is more aggressive than English equivalents."
+    "similar_expressions": "Similar to 'toxic masculinity' or 'chauvinist pig' in English feminist discourse. The disease framing is more aggressive than English equivalents.",
+    "platform": "weibo"
   },
   {
     "slug": "gangtie-zhinan",
@@ -1831,7 +1900,8 @@
         "english": "A Steel-Bro will never understand why his girlfriend needs so many shades of lipstick."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "weibo"
   },
   {
     "slug": "zha-xin-le",
@@ -1856,7 +1926,8 @@
         "english": "Year-end again, wallet still empty — that really hits, man."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "ga-wu",
@@ -1881,7 +1952,8 @@
         "english": "The boss said we were having a meeting, but it turned into an awkward dance-off — this company is genuinely surreal."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "weibo"
   },
   {
     "slug": "ga-liao",
@@ -1906,7 +1978,8 @@
         "english": "Every time I text my crush it turns into a cringe-fest. I'm starting to think I'm just fundamentally bad at this."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "weibo"
   },
   {
     "slug": "gou-dai",
@@ -1931,7 +2004,8 @@
         "english": "Working overtime until midnight again — I might as well just drop dead."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "weibo"
   },
   {
     "slug": "xi-si-ji-kong",
@@ -1958,7 +2032,8 @@
       }
     ],
     "popularity": 4,
-    "era": "2010-2014"
+    "era": "2010-2014",
+    "platform": "weibo"
   },
   {
     "slug": "bu-ming-jue-li",
@@ -1985,7 +2060,8 @@
       }
     ],
     "popularity": 4,
-    "era": "2010-2014"
+    "era": "2010-2014",
+    "platform": "tieba"
   },
   {
     "slug": "xi-da-pu-ben",
@@ -2011,7 +2087,8 @@
         "english": "The company announced an extra day off this year, and every single employee is absolutely ecstatic."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "bilibili"
   },
   {
     "slug": "ren-jian-bu-chai",
@@ -2036,7 +2113,8 @@
         "english": "Don't tell him that shop closed long ago — life is hard enough, let the guy be happy for a moment."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "weibo"
   },
   {
     "slug": "tao-lu",
@@ -2063,7 +2141,8 @@
     ],
     "popularity": 5,
     "origin_story": "Originally a martial arts term for practiced sequences of moves (套路, tào lù). Around 2016 it shifted to mean scripted, predictable behavior in relationships and social situations — especially romantic manipulation tactics. The phrase '套路太深' (the tricks run too deep) became a relationship anthem.",
-    "similar_expressions": "Similar to 'playing games,' 'mind games,' or 'running a script' in English dating culture. Related to 'manipulation tactics' but more neutral — even positive strategies can be called 套路."
+    "similar_expressions": "Similar to 'playing games,' 'mind games,' or 'running a script' in English dating culture. Related to 'manipulation tactics' but more neutral — even positive strategies can be called 套路.",
+    "platform": "weibo"
   },
   {
     "slug": "liu-liu-liu",
@@ -2091,7 +2170,8 @@
     ],
     "popularity": 5,
     "origin_story": "In Chinese internet gaming culture, 666 (liù liù liù) became slang for 'awesome' or 'smooth' because the pronunciation flows effortlessly. Popularized through gaming streams where fans would flood the chat with 666 when a player did something impressive.",
-    "similar_expressions": "Functions like 'GG,' 'insane,' or 'smooth' in English gaming culture. The triple repetition adds emphasis, similar to how English speakers might say 'so, so good.'"
+    "similar_expressions": "Functions like 'GG,' 'insane,' or 'smooth' in English gaming culture. The triple repetition adds emphasis, similar to how English speakers might say 'so, so good.'",
+    "platform": "bilibili"
   },
   {
     "slug": "lao-tie",
@@ -2118,7 +2198,8 @@
     ],
     "popularity": 5,
     "origin_story": "Northeastern Chinese dialect (东北话) for 'buddy' or 'bro,' literally meaning 'old iron.' Exploded nationally through Kuaishou, the short-video platform popular in lower-tier cities and rural areas, where northeastern hosts used it constantly with their audiences.",
-    "similar_expressions": "Like 'bro,' 'homie,' or 'mate' in English — a casual term of endearment for someone you feel close to. The northeastern China origin gives it a slightly working-class, authentic flavor."
+    "similar_expressions": "Like 'bro,' 'homie,' or 'mate' in English — a casual term of endearment for someone you feel close to. The northeastern China origin gives it a slightly working-class, authentic flavor.",
+    "platform": "bilibili"
   },
   {
     "slug": "chi-gua-qunzhong",
@@ -2145,7 +2226,8 @@
     ],
     "popularity": 5,
     "origin_story": "Originated from a news photo where bystanders watched an altercation while eating watermelon — unbothered, just spectating. The image perfectly captured the Chinese internet's relationship with online drama: watching, commenting, but not getting involved.",
-    "similar_expressions": "The Chinese equivalent of 'spectator,' 'popcorn moment,' or 'I'm just here for the drama.' The watermelon eating suggests leisurely, detached observation."
+    "similar_expressions": "The Chinese equivalent of 'spectator,' 'popcorn moment,' or 'I'm just here for the drama.' The watermelon eating suggests leisurely, detached observation.",
+    "platform": "weibo"
   },
   {
     "slug": "youyi-de-xiaochuan-shuo-fan-jiu-fan",
@@ -2170,7 +2252,8 @@
         "english": "He actually took the other side against me — and just like that, our friendship boat went under."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "hong-huang-zhi-li",
@@ -2199,7 +2282,8 @@
     ],
     "popularity": 5,
     "origin_story": "Swimmer Fu Yuanhui's post-race interview at the 2016 Rio Olympics became instantly iconic when she said she had used her '洪荒之力' (primordial/prehistoric power) — ancient Chinese mythological energy from before time itself. The mismatch between ancient cosmic power and swimming a race in a pool was perfectly absurd.",
-    "similar_expressions": "Like pulling energy from the universe itself — hyperbolic beyond 'I gave 110%.' The mythological reference (primordial chaos energy from Chinese cosmology) gave it cosmic weight that transcended sports."
+    "similar_expressions": "Like pulling energy from the universe itself — hyperbolic beyond 'I gave 110%.' The mythological reference (primordial chaos energy from Chinese cosmology) gave it cosmic weight that transcended sports.",
+    "platform": "bilibili"
   },
   {
     "slug": "li-hai-le-wo-de-ge",
@@ -2227,7 +2311,8 @@
     ],
     "popularity": 5,
     "origin_story": "Originally from a viral video where someone praised a friend's achievement with exaggerated reverence. '厉害了' (so impressive) + '我的哥' (my brother/man) created a template for praising both genuine achievements and ridiculous ones with equal theatrical admiration. Used sincerely and ironically.",
-    "similar_expressions": "Like 'get you some' or 'respect' in English — equal parts genuine admiration and ironic hype. The '哥' (older brother/dude) adds casual intimacy to what could be formal praise."
+    "similar_expressions": "Like 'get you some' or 'respect' in English — equal parts genuine admiration and ironic hype. The '哥' (older brother/dude) adds casual intimacy to what could be formal praise.",
+    "platform": "bilibili"
   },
   {
     "slug": "xian-zheng-ta-yi-ge-yi",
@@ -2254,7 +2339,8 @@
     ],
     "popularity": 5,
     "origin_story": "Billionaire Wang Jianlin's 2016 advice to young entrepreneurs: 'Set a small goal first — for example, make 100 million yuan.' The phrase became the template for all absurdly humble claims about enormous amounts. The framing of 100 million as a 'small goal' captured China's wealth gap in one sentence.",
-    "similar_expressions": "Like 'just casually make a billion' — ironic use of modesty framing for enormous figures. Similar to Jeff Bezos giving advice about 'small businesses' while running Amazon."
+    "similar_expressions": "Like 'just casually make a billion' — ironic use of modesty framing for enormous figures. Similar to Jeff Bezos giving advice about 'small businesses' while running Amazon.",
+    "platform": "weibo"
   },
   {
     "slug": "xiao-mubiao",
@@ -2281,7 +2367,8 @@
     ],
     "popularity": 5,
     "origin_story": "In 2016, billionaire Wang Jianlin said in an interview: 'Set a small goal first, for example, earn 100 million yuan.' The contrast between calling 100 million a 'small' goal became an instant meme about China's wealth gap, used to mock both the ultra-rich and one's own modest ambitions.",
-    "similar_expressions": "Like the English ironic use of 'just a small thing' for something enormous. Captures the same energy as a millionaire saying 'just buy a yacht.'"
+    "similar_expressions": "Like the English ironic use of 'just a small thing' for something enormous. Captures the same energy as a millionaire saying 'just buy a yacht.'",
+    "platform": "weibo"
   },
   {
     "slug": "lan-shou-xianggu",
@@ -2310,7 +2397,8 @@
     ],
     "popularity": 5,
     "origin_story": "A 2016 viral video showed a distressed young man saying he felt 难受想哭 (nán shòu xiǎng kū, 'so sad I want to cry'). Internet users noticed that 难受 sounds like 蓝瘦 (blue thin) and 想哭 sounds like 香菇 (mushroom) — creating a nonsensical but phonetically perfect substitute that exploded across social media.",
-    "similar_expressions": "A uniquely Chinese phonetic wordplay meme. Similar to how English memes might replace 'laugh' with 'laff' or use homophones for humor, but the specific substitution here is much more elaborate."
+    "similar_expressions": "A uniquely Chinese phonetic wordplay meme. Similar to how English memes might replace 'laugh' with 'laff' or use homophones for humor, but the specific substitution here is much more elaborate.",
+    "platform": "zhihu"
   },
   {
     "slug": "emmm",
@@ -2335,7 +2423,8 @@
         "english": "He posted another selfie saying he's super low-key... emmm, sure."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "si-ka",
@@ -2361,7 +2450,8 @@
         "english": "Skr skr, the boss complimented me today — I'm absolutely vibing right now."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "bilibili"
   },
   {
     "slug": "yinxing-pinkun-renkou",
@@ -2386,7 +2476,8 @@
         "english": "Don't let the outfits fool you — she's secretly broke, nearly maxed out every credit card she owns."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "xiaohongshu"
   },
   {
     "slug": "fo-xi",
@@ -2414,7 +2505,8 @@
     ],
     "popularity": 5,
     "origin_story": "Appeared in a 2017 Japanese magazine article about 'Buddhist-style men' who were indifferent to romance and career advancement. Exploded in China as young people, exhausted by hyper-competition, embraced the aesthetic of not caring: 佛系购物 (Buddhist shopping — whatever), 佛系恋爱 (Buddhist romance — whatever).",
-    "similar_expressions": "Closest to 'going with the flow,' 'whatever happens, happens,' or IDGAF culture. Captures the same exhausted detachment as 'not my problem' but framed peacefully rather than rudely."
+    "similar_expressions": "Closest to 'going with the flow,' 'whatever happens, happens,' or IDGAF culture. Captures the same exhausted detachment as 'not my problem' but framed peacefully rather than rudely.",
+    "platform": "zhihu"
   },
   {
     "slug": "xia-tou",
@@ -2439,7 +2531,8 @@
         "english": "After that celebrity's scandal broke, fans said they were done with him and unfollowed en masse."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "douyin"
   },
   {
     "slug": "shang-tou",
@@ -2465,7 +2558,8 @@
         "english": "I'm totally head-over-heels for him; I can't stop thinking about him."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "da-lian",
@@ -2491,7 +2585,8 @@
         "english": "The expert predicted the economy would soar this year, but it tanked this hard — that's one loud slap to the face."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "zuo-si",
@@ -2516,7 +2611,8 @@
         "english": "Stop courting disaster — exams are coming and you're still gaming?"
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "weibo"
   },
   {
     "slug": "hua-shi-zuo-si",
@@ -2541,7 +2637,8 @@
         "english": "I stayed up all night gaming and showed up late this morning — got called out by the manager in front of everyone. I'm basically self-destructing in the most creative ways possible."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "zhihu"
   },
   {
     "slug": "ao-zui-chang-de-ye-yong-zui-gui-de-huazhuangpin",
@@ -2566,7 +2663,8 @@
         "english": "Pulling the longest all-nighters and buying the priciest skincare — that's basically our generation's idea of 'taking care of ourselves.'"
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "weibo"
   },
   {
     "slug": "tuo-fa-jiao-lv",
@@ -2591,7 +2689,8 @@
         "english": "The programmer starter pack: plaid shirt, dark circles, and ever-present hair loss anxiety."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "tu-tou",
@@ -2616,7 +2715,8 @@
         "english": "Going bald is just an occupational hazard for programmers — I've made my peace with it."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "chengnian-ren-de-bengkui",
@@ -2641,7 +2741,8 @@
         "english": "Almost lost it on the subway today, but held it together — adult breakdowns aren't meant to be witnessed."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "youqu-de-linghun",
@@ -2666,7 +2767,8 @@
         "english": "He called himself 'an interesting soul,' but three sentences in he was already selling insurance."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "douyin"
   },
   {
     "slug": "hao-kan-de-pi-nang-qian-pian-yi-lv-you-qu-de-ling-hun-wan-li-tiao-yi",
@@ -2691,7 +2793,8 @@
         "english": "He's not particularly good-looking, but he's incredibly interesting — truly a case of pretty faces being common while a fascinating soul is rare."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "douyin"
   },
   {
     "slug": "zhan-lang-er",
@@ -2717,7 +2820,8 @@
         "english": "Some diplomats these days are leaning so hard into the Wolf Warrior style that it's equal parts cringeworthy and hilarious to watch."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "zan-ye-bu-gan-wen",
@@ -2742,7 +2846,8 @@
         "english": "A bizarre announcement appeared in the group chat. I dare not ask what it means — I'll just quietly comply."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "zhihu"
   },
   {
     "slug": "zan-ye-bu-zhidao",
@@ -2767,7 +2872,8 @@
         "english": "How do you solve this math problem? Don't ask me — I'm just handing in a blank sheet."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "hao-hai-yo",
@@ -2792,7 +2898,8 @@
         "english": "Finally a weekend with no work — feeling SO high right now!"
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "weibo"
   },
   {
     "slug": "pao-xiao-ti",
@@ -2817,7 +2924,8 @@
         "english": "Why do I have to put up with all this! I'm a person with dignity too, okay!!!"
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "zhihu"
   },
   {
     "slug": "beiaoer",
@@ -2842,7 +2950,8 @@
         "english": "I wore my new sneakers out today and honestly felt a little show-offy myself."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "zhihu"
   },
   {
     "slug": "diss",
@@ -2867,7 +2976,8 @@
         "english": "Don't think posting a tweet counts as a diss — you actually need to back it up."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "bilibili"
   },
   {
     "slug": "zhongguo-you-xiha",
@@ -2892,7 +3002,8 @@
         "english": "Ever since The Rap of China aired, my coworkers have started rhyming in meetings."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "ni-you-freestyle-ma",
@@ -2917,7 +3028,8 @@
         "english": "The interviewer suddenly asked me to code on the spot — that was the moment I realized I needed some serious freestyle."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "freestyle-fu-li-si-tai-er",
@@ -2942,7 +3054,8 @@
         "english": "Can you freestyle your cooking? Like, not follow the recipe for once?"
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "ying-he",
@@ -2967,7 +3080,8 @@
         "english": "He wrote the entire project from scratch without any framework — a true hardcore programmer."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "weibo"
   },
   {
     "slug": "qiu-sheng-yu-hen-qiang",
@@ -2992,7 +3106,8 @@
         "english": "The second the boss criticized his proposal, he said 'You're absolutely right, I'll redo the whole thing' — classic survival mode activated."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "douyin"
   },
   {
     "slug": "qiu-sheng-yu",
@@ -3017,7 +3132,8 @@
         "english": "When arguing with your girlfriend, apologize first no matter who's right — that's what survival instinct looks like."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "douyin"
   },
   {
     "slug": "xiao-que-sang",
@@ -3043,7 +3159,8 @@
         "english": "I finally had a weekend to sleep in, and the renovation crew upstairs started drilling at 8 a.m. on the dot. Certified, registered petite despair."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "zhihu"
   },
   {
     "slug": "sang-wenhua",
@@ -3068,7 +3185,8 @@
         "english": "My life is a complete mess, but I'm still going to finish this bubble tea."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "weibo"
   },
   {
     "slug": "sang",
@@ -3094,7 +3212,8 @@
         "english": "My life goal is simply to exist. Everything else is up to fate, I guess."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "jia-xi",
@@ -3120,7 +3239,8 @@
         "english": "They already broke up, and she's still out there adding drama in the comment section — I can't even."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "xi-jing",
@@ -3145,7 +3265,8 @@
         "english": "The office drama queen posted another emotional essay in the group chat — this time because the printer jammed."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "weibo"
   },
   {
     "slug": "yang-sheng-peng-ke",
@@ -3170,7 +3291,8 @@
         "english": "Chug a bubble tea, immediately chase it with a vitamin tablet — that's just the daily routine of us wellness punks."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "zhihu"
   },
   {
     "slug": "baowen-bei-li-pao-gouqi",
@@ -3195,7 +3317,8 @@
         "english": "I used to drink and club all night; now it's wolfberries in a thermos. That's life for you."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "bao-wen-bei",
@@ -3220,7 +3343,8 @@
         "english": "Once a rock-and-roll youth, now sipping health tonics from a thermos — time really is merciless."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "youni",
@@ -3245,7 +3369,8 @@
         "english": "Can you not be so greasy? Posting stuff like that on WeChat Moments is genuinely cringe."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "weibo"
   },
   {
     "slug": "pi-yi-xia-hen-kaixin",
@@ -3270,7 +3395,8 @@
         "english": "Went out to play before finishing my homework — feeling great about that little act of defiance. Tomorrow's a thing."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "pi-pi-xia-women-zou",
@@ -3295,7 +3421,8 @@
         "english": "Boss wants overtime again? Mantis Shrimp, let's bolt — see you never, corporate world!"
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "weibo"
   },
   {
     "slug": "ni-de-liangxin-bu-hui-teng-ma",
@@ -3321,7 +3448,8 @@
         "english": "You ate my last pack of instant noodles — doesn't your conscience hurt?chinese_name"
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "hao-yangmao",
@@ -3348,7 +3476,8 @@
     ],
     "popularity": 5,
     "origin_story": "Literally 'shearing wool from sheep,' originally describing taking advantage of promotional offers. Exploded during China's e-commerce discount war (Double 11, 618) when platforms offered insane subsidies. Professional 薅羊毛 communities emerged, sharing strategies to extract maximum value from every deal.",
-    "similar_expressions": "Like 'coupon stacking,' 'deal hunting,' or 'gaming the system.' The sheep/wool metaphor implies the company is the sheep and users are extracting value from it."
+    "similar_expressions": "Like 'coupon stacking,' 'deal hunting,' or 'gaming the system.' The sheep/wool metaphor implies the company is the sheep and users are extracting value from it.",
+    "platform": "xiaohongshu"
   },
   {
     "slug": "o-huo",
@@ -3373,7 +3502,8 @@
         "english": "Just realized the meeting was yesterday... uh oh, I'm done for."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "zhihu"
   },
   {
     "slug": "cai-ji",
@@ -3398,7 +3528,8 @@
         "english": "Stop laughing at me — this is just two scrubs clowning on each other; you're not exactly a pro either."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "cai-de-bu-xing",
@@ -3424,7 +3555,8 @@
         "english": "His PowerPoint was so bad it was beyond saving — the boss just kept shaking his head."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "bilibili"
   },
   {
     "slug": "liang-nv",
@@ -3449,7 +3581,8 @@
         "english": "When my coworker walked in calling me '靓女,' I immediately knew he was about to ask me to cover his overtime shift."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "zhihu"
   },
   {
     "slug": "liang-zai",
@@ -3474,7 +3607,8 @@
         "english": "Handsome, where's your overtime pay? Oh right, there isn't any."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "xiao-ke-ai",
@@ -3500,7 +3634,8 @@
         "english": "You absolute little sweetie, how are you allowed to be this cute?!"
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "xiao-jie-jie",
@@ -3526,7 +3661,8 @@
         "english": "Excuse me, miss, are there any good restaurants around here?"
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "xiao-gege",
@@ -3552,7 +3688,8 @@
         "english": "Excuse me, cutie, is there a coffee shop around here?"
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "lao-muqin",
@@ -3577,7 +3714,8 @@
         "english": "Training new employees is exhausting — every day I'm running on pure old-mother worry and nothing else."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "bei-wei-xiao-zhao",
@@ -3602,7 +3740,8 @@
         "english": "After getting chewed out by a client, Humble Little Zhao still replies: 'Thank you for your valuable feedback!'"
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "zhihu"
   },
   {
     "slug": "shi-chui-2",
@@ -3629,7 +3768,8 @@
         "english": "The smoking gun is here! Screenshots of her private messages have been leaked."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "hu-dui",
@@ -3654,7 +3794,8 @@
         "english": "We're just trash-talking each other for fun — don't take it seriously."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "zhihu"
   },
   {
     "slug": "jianpan-xia",
@@ -3681,7 +3822,8 @@
     ],
     "popularity": 5,
     "origin_story": "Predates 2018 but crystallized during multiple online mob incidents where internet users mass-attacked individuals with little evidence. The 'keyboard knight' fights fierce battles online but would never do anything in real life — their weapon is the keyboard, their battlefield is the comment section.",
-    "similar_expressions": "Equivalent to 'keyboard warrior' in English — almost a direct translation. Also similar to 'armchair activist' for those who feel politically engaged through online outrage."
+    "similar_expressions": "Equivalent to 'keyboard warrior' in English — almost a direct translation. Also similar to 'armchair activist' for those who feel politically engaged through online outrage.",
+    "platform": "douyin"
   },
   {
     "slug": "tai-gang",
@@ -3706,7 +3848,8 @@
         "english": "Don't bother explaining to him — he's just nitpicking and isn't actually listening."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "gang-jing",
@@ -3733,7 +3876,8 @@
     ],
     "popularity": 5,
     "origin_story": "Emerged from Chinese social media around 2017-2018 as comment sections became increasingly combative. A 杠精 will argue any position just to argue — if you say the sky is blue, they'll find a way to disagree. The 精 suffix implies someone who has mastered this skill to a freakish degree.",
-    "similar_expressions": "Like a 'contrarian,' 'devil's advocate addict,' or 'reply guy' in English internet culture. Related to 'trolling' but 杠精 argues sincerely rather than for chaos."
+    "similar_expressions": "Like a 'contrarian,' 'devil's advocate addict,' or 'reply guy' in English internet culture. Related to 'trolling' but 杠精 argues sincerely rather than for chaos.",
+    "platform": "zhihu"
   },
   {
     "slug": "a-wo-si-le",
@@ -3759,7 +3903,8 @@
         "english": "That cat's expression is way too adorable — awsl, I can't handle it!"
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "queren-guo-yanshen",
@@ -3785,7 +3930,8 @@
         "english": "I can tell just by looking at you — you're also the kind of person who works overtime until 10 PM every night."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "zha-nan",
@@ -3812,7 +3958,8 @@
     ],
     "popularity": 5,
     "origin_story": "Emerged from Chinese dating culture online forums where women shared stories of manipulative, commitment-phobic men. The term exploded as social media gave platforms for these stories to spread. By 2018, entire accounts were dedicated to identifying and warning about 渣男 behavior.",
-    "similar_expressions": "Similar to 'fuckboy,' 'player,' or 'trash man' in English dating culture. More specifically implies emotional manipulation and leading people on, rather than just casual dating."
+    "similar_expressions": "Similar to 'fuckboy,' 'player,' or 'trash man' in English dating culture. More specifically implies emotional manipulation and leading people on, rather than just casual dating.",
+    "platform": "douyin"
   },
   {
     "slug": "nan-ren-dou-shi-da-zhu-ti-zi",
@@ -3837,7 +3984,8 @@
         "english": "Posting couple photos online while secretly cheating — yep, all men really are big pig trotters."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "douyin"
   },
   {
     "slug": "da-zhu-ti-zi",
@@ -3862,7 +4010,8 @@
         "english": "My boyfriend forgot our anniversary again. What a big pig trotter."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "douyin"
   },
   {
     "slug": "fei-qiu",
@@ -3887,7 +4036,8 @@
         "english": "Bought lottery tickets again today and won nothing — as expected, I'm a permanent non-chief."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "bilibili"
   },
   {
     "slug": "ou-huang",
@@ -3913,7 +4063,8 @@
         "english": "I've never won the lottery once — you're the Lucky Emperor here, buy me a ticket."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "c-wei-chu-dao",
@@ -3939,7 +4090,8 @@
         "english": "While others were still waiting in line, he debuted center-stage — his project went viral the moment it launched."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "c-wei",
@@ -3967,7 +4119,8 @@
     ],
     "popularity": 5,
     "origin_story": "From the 2018 idol competition reality show 'Produce 101 China.' The center position in a performance lineup, literally 'C position.' Contestants competed intensely for the C position as it determined visibility. Quickly spread beyond entertainment to mean anyone who naturally takes center stage.",
-    "similar_expressions": "Like 'center stage,' 'the spotlight,' or 'top billing.' The reality TV origin mirrors how English terms like 'main character energy' come from entertainment culture."
+    "similar_expressions": "Like 'center stage,' 'the spotlight,' or 'top billing.' The reality TV origin mirrors how English terms like 'main character energy' come from entertainment culture.",
+    "platform": "bilibili"
   },
   {
     "slug": "zhen-xiang",
@@ -3994,7 +4147,8 @@
     ],
     "popularity": 5,
     "origin_story": "From a 2018 reality TV show where contestant Wang Jingze declared he would never eat the show's provided food — then 20 minutes later was filmed eating it enthusiastically. A producer held up a sign: 'I said: This is truly fragrant (真香).' The clip became the template for all hypocrisy.",
-    "similar_expressions": "Perfectly equivalent to 'eating your words' or 'never say never.' The specific 真香 format — declaring you'll never do something, then doing it — is now a universal Chinese internet structure."
+    "similar_expressions": "Perfectly equivalent to 'eating your words' or 'never say never.' The specific 真香 format — declaring you'll never do something, then doing it — is now a universal Chinese internet structure.",
+    "platform": "douyin"
   },
   {
     "slug": "tu-wei-qing-hua",
@@ -4022,7 +4176,8 @@
     ],
     "popularity": 5,
     "origin_story": "Went massively viral around 2018 through short video apps. Rural or working-class creators would deliver cheesy, punny pickup lines with completely straight faces. The contrast between the sincere delivery and the ridiculous content created a new genre of romantic humor.",
-    "similar_expressions": "Like 'dad jokes' crossed with pickup lines. The 'earthy' (土) quality means they're rustic and unsophisticated — sincere in a way that sophisticated urban humor isn't."
+    "similar_expressions": "Like 'dad jokes' crossed with pickup lines. The 'earthy' (土) quality means they're rustic and unsophisticated — sincere in a way that sophisticated urban humor isn't.",
+    "platform": "douyin"
   },
   {
     "slug": "tu-wei",
@@ -4047,7 +4202,8 @@
         "english": "This cringe rustic video was so awkward, yet somehow I watched the whole thing."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "douyin"
   },
   {
     "slug": "lv-xing-qing-wa",
@@ -4072,7 +4228,8 @@
         "english": "I've been raising a Travel Frog and waiting for it to come home every day — my mom finally understands how she feels waiting for me."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "douyin"
   },
   {
     "slug": "fo-xi-yang-wa",
@@ -4097,7 +4254,8 @@
         "english": "Buddhist frog parenting is trending now — people don't even want to grind in games anymore."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "douyin"
   },
   {
     "slug": "zhuan-fa-zhe-tiao-jin-li",
@@ -4122,7 +4280,8 @@
         "english": "The boss is in a great mood today — maybe there's a bonus coming. Quick, forward the koi for good luck."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "xiaohongshu"
   },
   {
     "slug": "jin-li",
@@ -4149,7 +4308,8 @@
     ],
     "popularity": 5,
     "origin_story": "In 2018, Weibo user 信小呆 went viral for sharing her incredible luck — she won a trip sponsored by Alipay with over a million prizes. She became known as a 'koi fish' of good luck. Alipay then ran a campaign asking people to retweet 信小呆 for luck, which 3 million people did within hours.",
-    "similar_expressions": "Like retweeting a 'lucky post' or sharing a chain letter for luck in English culture. The koi fish symbol is deeply embedded in Chinese culture as a symbol of fortune."
+    "similar_expressions": "Like retweeting a 'lucky post' or sharing a chain letter for luck in English culture. The koi fish symbol is deeply embedded in Chinese culture as a symbol of fortune.",
+    "platform": "xiaohongshu"
   },
   {
     "slug": "chun-chun",
@@ -4174,7 +4334,8 @@
         "english": "He treats you so well and you're still hesitating? You're just totally throwing it away."
       }
     ],
-    "popularity": 2
+    "popularity": 2,
+    "platform": "wechat"
   },
   {
     "slug": "duan-she-li",
@@ -4199,7 +4360,8 @@
         "english": "My goal this year is to declutter everything — wardrobe, social circle, career, the whole lot."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "wechat"
   },
   {
     "slug": "li-pu-ta-ma-gei-li-pu-kai-men",
@@ -4224,7 +4386,8 @@
         "english": "The company asked us to 'voluntarily' work overtime for free — that's not just absurd, absurdity had to open the door and let it in."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "douyin"
   },
   {
     "slug": "li-da-pu",
@@ -4251,7 +4414,8 @@
     ],
     "popularity": 5,
     "origin_story": "The intensified version of 离谱 (off the charts). 大 (big) pushes it further — not just off the musical score, but so far off that the score doesn't exist. The graduated scale (离谱 → 离大谱 → 离谱他妈给离谱开门) reflects how Chinese internet humor systematically intensifies expressions.",
-    "similar_expressions": "Like 'off the charts,' 'absolutely unhinged,' or 'that's a lot.' The graduated intensification system (each level more extreme) mirrors how English uses 'crazy → insane → absolutely mental.'"
+    "similar_expressions": "Like 'off the charts,' 'absolutely unhinged,' or 'that's a lot.' The graduated intensification system (each level more extreme) mirrors how English uses 'crazy → insane → absolutely mental.'",
+    "platform": "zhihu"
   },
   {
     "slug": "li-pu",
@@ -4278,7 +4442,8 @@
     ],
     "popularity": 5,
     "origin_story": "Literally 'off the score' (like a musician playing notes not on the sheet music), meaning wildly out of line or absurd. Exploded in 2019-2020 as Chinese social media became saturated with increasingly extreme news stories. '离大谱' (way off the score) is the intensified version.",
-    "similar_expressions": "Like 'off the charts,' 'insane,' 'unhinged,' or 'that's a lot.' The music metaphor (off the score) is similar to how English uses 'off the charts' for excess."
+    "similar_expressions": "Like 'off the charts,' 'insane,' 'unhinged,' or 'that's a lot.' The music metaphor (off the score) is similar to how English uses 'off the charts' for excess.",
+    "platform": "zhihu"
   },
   {
     "slug": "rui-si-bai",
@@ -4303,7 +4468,8 @@
         "english": "You said no straight to your boss's face — respect, genuinely, 瑞思拜."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "san-zhuang-ying-yu",
@@ -4328,7 +4494,8 @@
         "english": "This project is overall OK, it just needs a bit more polishing on the details."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "su-liao-jie-mei",
@@ -4353,7 +4520,8 @@
         "english": "Don't let all that mutual praise on social media fool you — that's textbook plastic-sister energy right there."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "wechat"
   },
   {
     "slug": "pan-ta",
@@ -4378,7 +4546,8 @@
         "english": "Give me this problem — I'll handle it."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "wo-lie-kai-le",
@@ -4403,7 +4572,8 @@
         "english": "I had no idea how to answer the last exam question. I'm done, I'm splitting."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "hao-jiaguo",
@@ -4430,7 +4600,8 @@
     ],
     "popularity": 5,
     "origin_story": "An old Chinese expression of amazement (like 'well I'll be!'), revived in 2019 through meme culture as a reaction to increasingly absurd news and social situations. Used when something is so outrageous that polite language fails — 好家伙 fills the gap where profanity might go.",
-    "similar_expressions": "Like 'well damn,' 'holy moly,' 'no way,' or 'I can't believe it.' The folksy, almost grandpa-ish quality of the expression makes its use by young people inherently funny."
+    "similar_expressions": "Like 'well damn,' 'holy moly,' 'no way,' or 'I can't believe it.' The folksy, almost grandpa-ish quality of the expression makes its use by young people inherently funny.",
+    "platform": "douyin"
   },
   {
     "slug": "wen-hao-lian",
@@ -4455,7 +4626,8 @@
         "english": "Her boyfriend cheated and claimed he was seduced — everyone in the room collectively became a question mark face."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "xiao-pengyou-ni-shifou-you-hen-duo-wenhao",
@@ -4480,7 +4652,8 @@
         "english": "My blind date opened with 'have you bought an apartment yet?' — kid, do you have many question marks?"
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "wechat"
   },
   {
     "slug": "yu-ni-wu-guan",
@@ -4505,7 +4678,8 @@
         "english": "How much I earn is completely none of your business — please stop asking."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "wechat"
   },
   {
     "slug": "yu-nv-wu-gua",
@@ -4530,7 +4704,8 @@
         "english": "He asked me why I quit my job, so I hit him back with three characters: none of your business."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "bai-piao",
@@ -4558,7 +4733,8 @@
     ],
     "popularity": 5,
     "origin_story": "Gaming slang that spread to general internet culture. Originally described players who enjoyed games without paying — especially prevalent as China's mobile gaming market exploded with free-to-play models. The term exploded when streamers and content creators started calling out audiences who consumed content without supporting creators.",
-    "similar_expressions": "Like 'freeloading,' 'getting it for free,' or 'exploiting free trials.' The gaming origin reflects how China's digital economy shaped internet culture."
+    "similar_expressions": "Like 'freeloading,' 'getting it for free,' or 'exploiting free trials.' The gaming origin reflects how China's digital economy shaped internet culture.",
+    "platform": "bilibili"
   },
   {
     "slug": "ao-li-gei",
@@ -4586,7 +4762,8 @@
     ],
     "popularity": 5,
     "origin_story": "A 2019 viral video showed a heavyset man doing an extremely energetic motivational speech, shouting 'Are you excited?! Give it to me!' (奥利给, ào lì gěi — invented nonsense words). His sheer enthusiasm became a perfect meme for manufactured hype, used both sincerely and ironically.",
-    "similar_expressions": "Like 'LET'S GOOO,' 'HYPE,' or 'ARE YOU READY?!' in English hype culture. Works both as genuine excitement and ironic commentary on performative enthusiasm."
+    "similar_expressions": "Like 'LET'S GOOO,' 'HYPE,' or 'ARE YOU READY?!' in English hype culture. Works both as genuine excitement and ironic commentary on performative enthusiasm.",
+    "platform": "bilibili"
   },
   {
     "slug": "chui-bao",
@@ -4611,7 +4788,8 @@
         "english": "The milk tea at this place is absolutely incredible — I'm raving about it nonstop, everyone go now!"
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "shangye-hu-chui",
@@ -4636,7 +4814,8 @@
         "english": "Don't get the wrong idea — we're just doing a bit of reciprocal flattery, purely hyping each other up for show."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "cai-hong-pi",
@@ -4663,7 +4842,8 @@
         "english": "'All the colleagues were blowing rainbow farts at the boss, calling his plan an absolute work of genius.'"
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "kua-kua-qun",
@@ -4688,7 +4868,8 @@
         "english": "Wow! The fact that you resisted external pressures and maintained inner stillness for a full day shows the discipline of a Zen master!"
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "wechat"
   },
   {
     "slug": "kua-kua",
@@ -4713,7 +4894,8 @@
         "english": "The fact that you can engage in such profound self-reflection amid your busy schedule is absolutely breathtaking — your future is limitless!"
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "wechat"
   },
   {
     "slug": "fu-bao",
@@ -4742,7 +4924,8 @@
     ],
     "popularity": 5,
     "origin_story": "Jack Ma (Alibaba founder) defended 996 work culture by calling it a 'blessing' (福报) — a Buddhist term for karmic reward. The backlash was instant and massive. 福报 became deeply sarcastic, used whenever someone tries to frame exploitation as a spiritual benefit.",
-    "similar_expressions": "Like sarcastically calling overwork a 'blessing' or 'character building.' Similar energy to 'exposure bucks' when companies refuse to pay for creative work."
+    "similar_expressions": "Like sarcastically calling overwork a 'blessing' or 'character building.' Similar energy to 'exposure bucks' when companies refuse to pay for creative work.",
+    "platform": "zhihu"
   },
   {
     "slug": "fendou-bi",
@@ -4767,7 +4950,8 @@
         "english": "Don't compare yourself to that hustle bro — he didn't even take Chinese New Year off. You don't need to be like him."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "ling-ling-qi",
@@ -4793,7 +4977,8 @@
         "english": "I heard the department next door is running a 007 schedule — the people there are basically falling apart."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "jiu-jiu-liu",
@@ -4822,7 +5007,8 @@
     ],
     "popularity": 5,
     "origin_story": "In 2019, a GitHub repository called '996.ICU' (work 996, end up in the ICU) went viral globally, documenting tech companies that enforced 9am-9pm six-day work weeks. It triggered China's most visible labor debate in years, with tech billionaires defending it as a 'blessing' and millions of workers sharing burnout stories.",
-    "similar_expressions": "Like 'crunch culture,' 'hustle culture,' or 'always-on work culture' in English tech. The specific numerical format (9-9-6) makes it more concrete and damning than vague English equivalents."
+    "similar_expressions": "Like 'crunch culture,' 'hustle culture,' or 'always-on work culture' in English tech. The specific numerical format (9-9-6) makes it more concrete and damning than vague English equivalents.",
+    "platform": "zhihu"
   },
   {
     "slug": "ning-meng-jing",
@@ -4849,7 +5035,8 @@
     ],
     "popularity": 5,
     "origin_story": "Evolved from the English loanword 'sour' to describe jealousy. 柠檬 (lemon) = sour, 精 = spirit/essence. A 柠檬精 is someone so consumed by jealousy they've essentially become pure lemon juice. The meme format: 'I'm not jealous, I'm just... [turning into a lemon]'",
-    "similar_expressions": "Like 'green with envy' or 'salty' in English. The lemon metaphor for jealousy is uniquely Chinese — English uses 'green' (from 'green-eyed monster') while Chinese uses 'sour.'"
+    "similar_expressions": "Like 'green with envy' or 'salty' in English. The lemon metaphor for jealousy is uniquely Chinese — English uses 'green' (from 'green-eyed monster') while Chinese uses 'sour.'",
+    "platform": "wechat"
   },
   {
     "slug": "wo-tai-nan-le-2",
@@ -4877,7 +5064,8 @@
     ],
     "popularity": 5,
     "origin_story": "From a 2019 viral video of a pet owner explaining his dog's complicated life with complete seriousness: 'I'm having such a hard time' (我太难了). The absurdity of narrating a dog's hardships resonated so deeply that the phrase became the year's anthem of exhausted self-pity.",
-    "similar_expressions": "Like 'this is so hard,' 'I can't even,' or 'adulting is hard' in English. The video origin adds a layer of irony — everyone knows life isn't THAT hard, but it feels that way."
+    "similar_expressions": "Like 'this is so hard,' 'I can't even,' or 'adulting is hard' in English. The video origin adds a layer of irony — everyone knows life isn't THAT hard, but it feels that way.",
+    "platform": "zhihu"
   },
   {
     "slug": "hao-zi-wei-zhi",
@@ -4903,7 +5091,8 @@
         "english": "I failed my exam because I was up all night gaming. Rat tail juice indeed — I really need to get my act together."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "nai-cha-xu-ming",
@@ -4928,7 +5117,8 @@
         "english": "There's no surviving exam week without milk tea life support."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "qiu-tian-de-di-yi-bei-nai-cha",
@@ -4955,7 +5145,8 @@
     ],
     "popularity": 5,
     "origin_story": "A 2020 WeChat Moments trend: send '秋天的第一杯奶茶' (the first milk tea of autumn) to someone, and they'd send you money to buy it as a gift. Started as a romantic gesture, became a cultural ritual. Brands used it heavily for seasonal marketing.",
-    "similar_expressions": "Like seasonal traditions — 'pumpkin spice season' in English — but monetized and gamified. The ritual of asking someone to 'buy you' something digitally is uniquely Chinese WeChat culture."
+    "similar_expressions": "Like seasonal traditions — 'pumpkin spice season' in English — but monetized and gamified. The ritual of asking someone to 'buy you' something digitally is uniquely Chinese WeChat culture.",
+    "platform": "wechat"
   },
   {
     "slug": "po-quan",
@@ -4980,7 +5171,8 @@
         "english": "He broke out of his niche with one funny video — his followers went from a few thousand to several million overnight."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "hu-le",
@@ -5006,7 +5198,8 @@
         "english": "I didn't even pass the first round of interviews. I think my career is already over."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "ta-fang",
@@ -5034,7 +5227,8 @@
     ],
     "popularity": 5,
     "origin_story": "Fan community terminology — when your idol's 'house' (公房, their public image) collapses due to a scandal. The metaphor is vivid: you've built your emotional investment on a foundation, and that foundation just caved in. Major 塌房 events (celebrities caught in fraud, relationship scandals) became cultural events.",
-    "similar_expressions": "Like a celebrity 'falling from grace,' 'getting cancelled,' or 'their image crumbling.' The housing metaphor emphasizes the investment fans make — it's not just disappointment, it's losing something you built."
+    "similar_expressions": "Like a celebrity 'falling from grace,' 'getting cancelled,' or 'their image crumbling.' The housing metaphor emphasizes the investment fans make — it's not just disappointment, it's losing something you built.",
+    "platform": "bilibili"
   },
   {
     "slug": "kong-ping",
@@ -5062,7 +5256,8 @@
         "english": "The comments under this news article look way too uniform — obviously astroturfed."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "fan-quan",
@@ -5089,7 +5284,8 @@
         "english": "Don't turn this into a fandom circus — can we please just have a rational discussion?"
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "chai-mang-he",
@@ -5114,7 +5310,8 @@
         "english": "First day at the new job — total mystery-box moment. Is the boss an angel or a total nightmare? Only one way to find out."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "wechat"
   },
   {
     "slug": "ming-chang-mian",
@@ -5139,7 +5336,8 @@
         "english": "The boss slammed the table out of nowhere in today's meeting — that's definitely the iconic moment of the month."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "tuan-zhang",
@@ -5165,7 +5363,8 @@
         "english": "Without a group buy leader during the lockdown, we might have literally had nothing to eat."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "ren-jian-qing-xing",
@@ -5190,7 +5389,8 @@
         "english": "Everyone else is obsessed with that celebrity, and here I am, the lone clear-headed soul who knows it's all just a manufactured persona."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "wechat"
   },
   {
     "slug": "hou-lang",
@@ -5215,7 +5415,8 @@
         "english": "The older wave took all the opportunities, and now they're here praising us younger ones — truly ironic."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "douyin"
   },
   {
     "slug": "xiaofei-jiangji",
@@ -5240,7 +5441,8 @@
         "english": "Ever since my consumption downgrade, I've discovered that instant noodles are actually pretty decent."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "xiaohongshu"
   },
   {
     "slug": "jing-zhi-qiong",
@@ -5265,7 +5467,8 @@
         "english": "I'm elegantly poor — living in a shared apartment, but I absolutely must have a pour-over coffee every morning."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "xiaohongshu"
   },
   {
     "slug": "yi-shi-gan",
@@ -5290,7 +5493,8 @@
         "english": "Even if I'm spending Valentine's Day alone, I still buy myself flowers — you can't skip the sense of ritual."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "wechat"
   },
   {
     "slug": "fenwei-gan",
@@ -5318,7 +5522,8 @@
     ],
     "popularity": 5,
     "origin_story": "Literally 'atmosphere sense' or 'vibe.' Exploded with China's aesthetic photography culture on Xiaohongshu (Little Red Book). Photos, cafés, apartments, outfits — everything was evaluated for its 氛围感. The term elevated lifestyle aesthetics into a near-spiritual pursuit.",
-    "similar_expressions": "Like 'vibes,' 'aesthetic,' or 'the feeling.' The Chinese version is more deliberately curated than English 'vibes' — 氛围感 is something you construct carefully, not just stumble into."
+    "similar_expressions": "Like 'vibes,' 'aesthetic,' or 'the feeling.' The Chinese version is more deliberately curated than English 'vibes' — 氛围感 is something you construct carefully, not just stumble into.",
+    "platform": "bilibili"
   },
   {
     "slug": "ba-cao",
@@ -5343,7 +5548,8 @@
         "english": "I went to that influencer restaurant I waited two hours for, scratched it off the list — honestly, it was just okay."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "xiaohongshu"
   },
   {
     "slug": "zhong-cao",
@@ -5371,7 +5577,8 @@
     ],
     "popularity": 5,
     "origin_story": "From product recommendation culture — to 种草 (plant grass) means to recommend something so enthusiastically that a desire 'grows' in the listener. The opposite, 拔草 (pull grass), means to talk someone out of a purchase or lose interest. Exploded with China's KOL (Key Opinion Leader) economy.",
-    "similar_expressions": "Like 'to hype,' 'to recommend,' or 'to sell someone on something.' The grass-planting metaphor implies that desire grows organically from a seed — useful for understanding China's massive influencer marketing culture."
+    "similar_expressions": "Like 'to hype,' 'to recommend,' or 'to sell someone on something.' The grass-planting metaphor implies that desire grows organically from a seed — useful for understanding China's massive influencer marketing culture.",
+    "platform": "bilibili"
   },
   {
     "slug": "zhi-bo-dai-huo",
@@ -5399,7 +5606,8 @@
     ],
     "popularity": 5,
     "origin_story": "China invented and perfected livestream commerce at a scale the world hadn't seen. During COVID, millions of small businesses turned to live shopping as physical retail closed. Top streamers like Li Jiaqi could sell 15,000 lipsticks in five minutes. The model transformed Chinese retail permanently.",
-    "similar_expressions": "Like 'live shopping,' 'QVC but on steroids,' or 'influencer commerce.' China's version is far more advanced than Western equivalents — entire supply chains and economies formed around it."
+    "similar_expressions": "Like 'live shopping,' 'QVC but on steroids,' or 'influencer commerce.' China's version is far more advanced than Western equivalents — entire supply chains and economies formed around it.",
+    "platform": "xiaohongshu"
   },
   {
     "slug": "baofuxing-xiaofei",
@@ -5424,7 +5632,8 @@
         "english": "I planned to go on a revenge spending spree, but then I checked my bank balance and had to settle for revenge saving instead."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "xiaohongshu"
   },
   {
     "slug": "yexing-xiaofei",
@@ -5449,7 +5658,8 @@
         "english": "I wildly consumed three pairs of shoes in the livestream last night — wallet's empty but my heart is full."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "xiaohongshu"
   },
   {
     "slug": "bai-lian-hua",
@@ -5476,7 +5686,8 @@
         "english": "The female lead in this drama is yet another white lotus archetype — watching her gave me second-hand embarrassment."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "lv-cha",
@@ -5503,7 +5714,8 @@
     ],
     "popularity": 5,
     "origin_story": "Emerged from Chinese relationship forums around 2013-2014, crystallizing into mainstream use by 2020. A 绿茶 (green tea) person presents as pure, innocent, and delicate — like green tea — while actually calculating and manipulative underneath. The tea metaphor implies they seem healthy and refined but have a bitter edge.",
-    "similar_expressions": "Like 'two-faced,' 'wolf in sheep's clothing,' or someone who plays innocent while pulling strings. More specifically gendered than English equivalents — though the male version (绿茶男) exists."
+    "similar_expressions": "Like 'two-faced,' 'wolf in sheep's clothing,' or someone who plays innocent while pulling strings. More specifically gendered than English equivalents — though the male version (绿茶男) exists.",
+    "platform": "wechat"
   },
   {
     "slug": "bei-tai",
@@ -5528,7 +5740,8 @@
         "english": "Stop being someone's backup plan — it's time to start loving yourself."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "wechat"
   },
   {
     "slug": "gongju-ren",
@@ -5556,7 +5769,8 @@
     ],
     "popularity": 5,
     "origin_story": "From online relationship discussions where certain people are used purely for their utility — the friend who helps you move, the guy who pays for dates but is never romantically considered, the employee who does all the work. Being a 工具人 means being valued only for what you provide, not who you are.",
-    "similar_expressions": "Like 'being used,' 'friendzoned while being exploited,' or a 'utility player' with negative connotations. More specific than English equivalents — the 工具人 knows they're being used and can't or won't stop."
+    "similar_expressions": "Like 'being used,' 'friendzoned while being exploited,' or a 'utility player' with negative connotations. More specific than English equivalents — the 工具人 knows they're being used and can't or won't stop.",
+    "platform": "zhihu"
   },
   {
     "slug": "zui-ti",
@@ -5583,7 +5797,8 @@
     ],
     "popularity": 5,
     "origin_story": "The person who says what you're thinking but were too afraid to say — your 'mouth substitute.' Exploded in 2020 as online personalities who spoke bluntly about taboo topics gained massive followings. Being someone's 嘴替 is a compliment — you've given voice to their suppressed feelings.",
-    "similar_expressions": "Like 'speaking my truth,' 'saying what we're all thinking,' or being someone's 'voice.' Related to the English concept of 'cancelable opinions' — things people think but won't say publicly."
+    "similar_expressions": "Like 'speaking my truth,' 'saying what we're all thinking,' or being someone's 'voice.' Related to the English concept of 'cancelable opinions' — things people think but won't say publicly.",
+    "platform": "bilibili"
   },
   {
     "slug": "yin-yang-guai-qi",
@@ -5610,7 +5825,8 @@
     ],
     "popularity": 5,
     "origin_story": "An ancient Chinese phrase describing yin-yang imbalance, repurposed to describe passive-aggressive, sarcastic communication styles. Went viral as Chinese social media increasingly featured this style — superficially polite comments that are obviously hostile if you read between the lines.",
-    "similar_expressions": "Like 'passive-aggressive,' 'backhanded compliment,' 'sarcastic,' or 'shady' in English. The Chinese concept is specifically about maintaining a veneer of politeness while delivering hostility — the 'bless your heart' phenomenon."
+    "similar_expressions": "Like 'passive-aggressive,' 'backhanded compliment,' 'sarcastic,' or 'shady' in English. The Chinese concept is specifically about maintaining a veneer of politeness while delivering hostility — the 'bless your heart' phenomenon.",
+    "platform": "zhihu"
   },
   {
     "slug": "xian-yu",
@@ -5635,7 +5851,8 @@
         "english": "My boss wants me to chase targets, but I've already become a happy salted fish."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "wo-zhi-hu-hao-jia-huo",
@@ -5660,7 +5877,8 @@
         "english": "He worked until 3 a.m. and still got his performance bonus docked — holy cow, dude."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "wechat"
   },
   {
     "slug": "shi-ge-hen-ren",
@@ -5685,7 +5903,8 @@
         "english": "I walk to work every day to save money; my friends say I'm one ruthless operator."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "lei-mu",
@@ -5710,7 +5929,8 @@
         "english": "Got my payslip — after all the deductions, I take home 2,800 yuan. Moved to tears (of despair)."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "xin-tai-zha-le",
@@ -5735,7 +5955,8 @@
         "english": "I just saw the scope of the final exam and my brain exploded — there's way too much to study!"
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "zhihu"
   },
   {
     "slug": "bangbu-zhu-le",
@@ -5763,7 +5984,8 @@
     ],
     "popularity": 5,
     "origin_story": "A phonetic pun: 蚌埠 (Bengbu) is a city in Anhui province. 蚌埠住了 sounds like 绷不住了 (bēng bù zhù le) — 'can't hold it together anymore' / 'I'm losing it.' The wordplay lets people say they're falling apart while technically just mentioning a city.",
-    "similar_expressions": "Like using wordplay or homophones to express strong emotion indirectly. The city-name pun has no English equivalent — it's a purely Chinese internet phenomenon."
+    "similar_expressions": "Like using wordplay or homophones to express strong emotion indirectly. The city-name pun has no English equivalent — it's a purely Chinese internet phenomenon.",
+    "platform": "bilibili"
   },
   {
     "slug": "beng-bu-zhu-le",
@@ -5788,7 +6010,8 @@
         "english": "The moment he said that with a completely straight face, everyone in the room just lost it."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "wo-ku-le",
@@ -5813,7 +6036,8 @@
         "english": "My boss just sent me a pile of weekend tasks. I'm withered."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "ye-qing-hui",
@@ -5840,7 +6064,8 @@
     ],
     "popularity": 5,
     "origin_story": "Emerged from nostalgia culture in 2020 as millennials' childhood IP (cartoons, games, toys) returned in remakes, sequels, or collaborations. 爷 (grandpa/I) + 青春 (youth) + 回 (return) = 'My youth is back.' Used when anything from your childhood resurfaces.",
-    "similar_expressions": "Like 'nostalgia hit,' 'childhood unlocked,' or 'this brings me back' in English. The use of 爷 (a masculine self-reference implying age and world-weariness) adds ironic gravitas to what is essentially 'I remember this cartoon.'"
+    "similar_expressions": "Like 'nostalgia hit,' 'childhood unlocked,' or 'this brings me back' in English. The use of 爷 (a masculine self-reference implying age and world-weariness) adds ironic gravitas to what is essentially 'I remember this cartoon.'",
+    "platform": "bilibili"
   },
   {
     "slug": "po-fang-le",
@@ -5868,7 +6093,8 @@
     ],
     "popularity": 5,
     "origin_story": "Gaming terminology (防 = defense/shield) meaning your emotional defenses have been penetrated. Used when something hits you unexpectedly hard emotionally — a video, a line of text, a piece of news that gets past your cynical outer shell and makes you genuinely feel something.",
-    "similar_expressions": "Like 'this hit different,' 'I'm not crying, you're crying,' or 'right in the feels.' The gaming metaphor (shields broken) reflects how deeply gaming culture has permeated Chinese internet language."
+    "similar_expressions": "Like 'this hit different,' 'I'm not crying, you're crying,' or 'right in the feels.' The gaming metaphor (shields broken) reflects how deeply gaming culture has permeated Chinese internet language.",
+    "platform": "bilibili"
   },
   {
     "slug": "she-niu",
@@ -5893,7 +6119,8 @@
         "english": "He just started chatting up a stranger on the subway out of nowhere — zero social anxiety, a true 社牛 through and through."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "xiaohongshu"
   },
   {
     "slug": "she-kong",
@@ -5920,7 +6147,8 @@
     ],
     "popularity": 5,
     "origin_story": "Short for 社交恐惧症 (social anxiety disorder), adopted as casual self-identification by introverted young Chinese people. Unlike clinical social anxiety, 社恐 became a trendy identity — people who preferred texting over calling, avoided small talk, and ordered via app to skip human interaction.",
-    "similar_expressions": "Like casually calling yourself 'socially awkward,' 'introverted,' or 'an introvert' in English. The clinical origin (phobia) was diluted into a personality type — similar to how 'OCD' gets casually misused."
+    "similar_expressions": "Like casually calling yourself 'socially awkward,' 'introverted,' or 'an introvert' in English. The clinical origin (phobia) was diluted into a personality type — similar to how 'OCD' gets casually misused.",
+    "platform": "xiaohongshu"
   },
   {
     "slug": "wei-kuan-ren",
@@ -5945,7 +6173,8 @@
         "english": "Final-payment people cheering each other on: once we get through tonight and pay off the balance, we'll finally be free!"
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "xiaohongshu"
   },
   {
     "slug": "fan-er-sai",
@@ -5972,7 +6201,8 @@
     ],
     "popularity": 5,
     "origin_story": "Named after 'The Rose of Versailles,' a manga set in French royalty. In 2020, Chinese blogger 蒙淇淇w described a narrative pattern: wealthy people who complained about their luxury problems in ways that highlighted their wealth while pretending to be humble. The term spread globally to describe humblebrag culture.",
-    "similar_expressions": "The Chinese equivalent of 'humblebrag' — but more systematic and often more elaborate. While English 'humblebrag' is a single statement, 凡尔赛文学 (Versailles Literature) describes an art form."
+    "similar_expressions": "The Chinese equivalent of 'humblebrag' — but more systematic and often more elaborate. While English 'humblebrag' is a single statement, 凡尔赛文学 (Versailles Literature) describes an art form.",
+    "platform": "wechat"
   },
   {
     "slug": "emo",
@@ -5999,7 +6229,8 @@
     ],
     "popularity": 5,
     "origin_story": "Borrowed from English 'emo' (emotional/emo music subculture) but repurposed in Chinese internet to mean feeling sad, melancholic, or in your feelings — without the specific musical connotation. Used as a verb: 我emo了 (I'm emo-ing / feeling sad).",
-    "similar_expressions": "Functions like 'feeling a type of way,' 'in my feelings,' 'having a moment,' or 'vibing sadly' in English. The borrowed English word gives it a trendy, slightly ironic distance from genuine sadness."
+    "similar_expressions": "Functions like 'feeling a type of way,' 'in my feelings,' 'having a moment,' or 'vibing sadly' in English. The borrowed English word gives it a trendy, slightly ironic distance from genuine sadness.",
+    "platform": "zhihu"
   },
   {
     "slug": "jing-shen-nei-hao",
@@ -6027,7 +6258,8 @@
     ],
     "popularity": 5,
     "origin_story": "Psychological concept that became a social media sensation in 2020. Unlike physical exhaustion, 精神内耗 is the energy drain from constant internal conflict — overthinking, self-doubt, rumination. Resonated deeply with China's hyper-competitive youth who were mentally exhausted before they even started work.",
-    "similar_expressions": "Like 'mental drain,' 'rumination,' 'analysis paralysis,' or 'living in your head.' Closer to the psychological concept of 'ego depletion' than casual English equivalents."
+    "similar_expressions": "Like 'mental drain,' 'rumination,' 'analysis paralysis,' or 'living in your head.' Closer to the psychological concept of 'ego depletion' than casual English equivalents.",
+    "platform": "zhihu"
   },
   {
     "slug": "she-chu",
@@ -6055,7 +6287,8 @@
     ],
     "popularity": 5,
     "origin_story": "Borrowed directly from Japanese (社畜, shachiku) — a portmanteau of 会社 (company) and 家畜 (livestock). The image of office workers as corporate cattle resonated immediately with Chinese young professionals facing 996 culture. Japan exported the concept; China adopted and amplified it.",
-    "similar_expressions": "Like 'corporate drone,' 'office drone,' or 'wage slave' in English. The livestock metaphor is more visceral than English equivalents — implying you have no more agency than a farm animal."
+    "similar_expressions": "Like 'corporate drone,' 'office drone,' or 'wage slave' in English. The livestock metaphor is more visceral than English equivalents — implying you have no more agency than a farm animal.",
+    "platform": "zhihu"
   },
   {
     "slug": "mo-yu",
@@ -6083,7 +6316,8 @@
     ],
     "popularity": 5,
     "origin_story": "Ancient Chinese idiom meaning 'fishing in troubled waters' (opportunism), repurposed in modern work culture to mean slacking off at the office. Went mainstream as China's work culture debate intensified in 2020. Entire communities formed around sharing 摸鱼 strategies.",
-    "similar_expressions": "Like 'slacking off,' 'goldbricking,' 'cyberloafing,' or 'quiet quitting' in English. The fishing metaphor implies skill — a good 摸鱼 practitioner does it artfully without getting caught."
+    "similar_expressions": "Like 'slacking off,' 'goldbricking,' 'cyberloafing,' or 'quiet quitting' in English. The fishing metaphor implies skill — a good 摸鱼 practitioner does it artfully without getting caught.",
+    "platform": "bilibili"
   },
   {
     "slug": "tang-ping",
@@ -6111,7 +6345,8 @@
     ],
     "popularity": 5,
     "origin_story": "Emerged from a 2021 post (though roots in 2020) by a man who quit his job, stopped pursuing career goals, and simply lay flat. His manifesto against hustle culture spread rapidly. The government's concerned response — calling躺平 'shameful' — only amplified it.",
-    "similar_expressions": "The Chinese version of 'quiet quitting,' 'opting out,' or 'not playing the game.' More radical than Western equivalents — 躺平 advocates actively reject societal expectations rather than just reducing effort at work."
+    "similar_expressions": "The Chinese version of 'quiet quitting,' 'opting out,' or 'not playing the game.' More radical than Western equivalents — 躺平 advocates actively reject societal expectations rather than just reducing effort at work.",
+    "platform": "zhihu"
   },
   {
     "slug": "nei-juan",
@@ -6141,7 +6376,8 @@
     ],
     "popularity": 5,
     "origin_story": "Academic term from sociologist Clifford Geertz describing societies stuck in increasing complexity with no development. Went viral in 2020 when a photo of a Peking University student doing coursework on a bicycle while cycling to class was shared as the perfect image of competitive self-destruction among Chinese students.",
-    "similar_expressions": "Closest English equivalent is 'rat race' but more specific — involution implies everyone working harder with diminishing collective returns. Like 'competitive self-harm.' Also related to 'credentialism' and 'arms race' dynamics."
+    "similar_expressions": "Closest English equivalent is 'rat race' but more specific — involution implies everyone working harder with diminishing collective returns. Like 'competitive self-harm.' Also related to 'credentialism' and 'arms race' dynamics.",
+    "platform": "zhihu"
   },
   {
     "slug": "da-gong-ren",
@@ -6169,7 +6405,8 @@
     ],
     "popularity": 5,
     "origin_story": "Exploded in October 2020 from a viral short video by creator 'Migrant Worker Zhang Hao' who delivered absurdly motivational speeches about the dignity of being a wage worker. His catchphrase: 'Migrant workers, working souls, migrant workers are the best.' The irony of calling exhausting labor 'glorious' resonated with millions.",
-    "similar_expressions": "The Chinese equivalent of 'wage slave' but reclaimed with ironic pride. Related to 'corporate drone,' 'nine-to-fiver,' and the broader 'I hate Mondays' working culture — but more politically aware."
+    "similar_expressions": "The Chinese equivalent of 'wage slave' but reclaimed with ironic pride. Related to 'corporate drone,' 'nine-to-fiver,' and the broader 'I hate Mondays' working culture — but more politically aware.",
+    "platform": "zhihu"
   },
   {
     "slug": "ying-kong",
@@ -6196,7 +6433,8 @@
         "english": "The moment he started talking he hard-controlled the whole room — everyone was completely frozen."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "er-chuang",
@@ -6224,7 +6462,8 @@
         "english": "The fan remix she made hit a million views — even more popular than the original video."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "zheng-huo",
@@ -6249,7 +6488,8 @@
         "english": "This content creator is an absolute legend — playing a piano piece on an abacus had me dead."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "ying-ma-le",
@@ -6276,7 +6516,8 @@
     ],
     "popularity": 5,
     "origin_story": "Gaming slang — 'winning to the point of numbness.' If you've won so much that winning no longer feels like anything, you've 赢麻了. Went viral as a reaction to overwhelming victories — used both genuinely (national sports wins) and ironically (scoring a small discount).",
-    "similar_expressions": "Like 'winning so hard it doesn't even feel real' or 'too blessed to be stressed.' The numbness angle is interesting — it implies excess success, not just regular success."
+    "similar_expressions": "Like 'winning so hard it doesn't even feel real' or 'too blessed to be stressed.' The numbness angle is interesting — it implies excess success, not just regular success.",
+    "platform": "bilibili"
   },
   {
     "slug": "mai-ta-mai-ta",
@@ -6302,7 +6543,8 @@
         "english": "My friend sent me a photo of the new bubble tea flavor and I instantly went 'buy it buy it' — absolutely no self-control."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "wei-ya",
@@ -6328,7 +6570,8 @@
         "english": "I'm just an ordinary worker, I can't be the next Viya — and I definitely don't want to follow in her footsteps either."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "li-jiaqi",
@@ -6356,7 +6599,8 @@
     ],
     "popularity": 5,
     "origin_story": "Li Jiaqi (Austin Li) became China's most famous livestream host, known for his 'Oh my god, buy it!' catchphrases and ability to sell millions of products in minutes. His 2021 Singles Day stream drew 250 million viewers. When he stumbled in 2022 (tank-shaped cake controversy), it showed how precarious influencer power could be.",
-    "similar_expressions": "Like a celebrity QVC host crossed with a rock star. No direct Western equivalent at his scale — the closest would be if a single Amazon influencer could move entire retail markets with one stream."
+    "similar_expressions": "Like a celebrity QVC host crossed with a rock star. No direct Western equivalent at his scale — the closest would be if a single Amazon influencer could move entire retail markets with one stream.",
+    "platform": "bilibili"
   },
   {
     "slug": "tuo-fen-hui-cai",
@@ -6381,7 +6625,8 @@
         "english": "The scariest critics aren't the antis — they're the former fans who turned around and started stomping."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "bilibili"
   },
   {
     "slug": "ding-liu",
@@ -6407,7 +6652,8 @@
         "english": "This drama assembled three A-list megastars, and it shattered platform records on its very first day of release."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "yuanshen-qidong",
@@ -6433,7 +6679,8 @@
         "english": "The boss said we can leave early today — GENSHIN, LAUNCH!"
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "liu-genghong",
@@ -6458,7 +6705,8 @@
         "english": "You're a Liu Genghong Girl too? All four of us in the dorm have been dancing along with him."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "gu-yong-zhe",
@@ -6483,7 +6731,8 @@
         "english": "Those students quietly grinding through exam prep are the real solitary heroes."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "ji-wa",
@@ -6510,7 +6759,8 @@
     ],
     "popularity": 5,
     "origin_story": "From a chicken injection metaphor — pumping children full of activities and tutoring like injecting a chicken with stimulants. Went viral as Chinese middle-class parenting anxiety peaked: piano lessons, coding classes, English tutoring, math competitions — all before age 10. The government's 双减 policy (reducing homework and tutoring) was partly a response.",
-    "similar_expressions": "Like 'tiger parenting,' 'helicopter parenting,' or 'intensive parenting.' The injection metaphor is more visceral — implying you're artificially stimulating development rather than letting it grow naturally."
+    "similar_expressions": "Like 'tiger parenting,' 'helicopter parenting,' or 'intensive parenting.' The injection metaphor is more visceral — implying you're artificially stimulating development rather than letting it grow naturally.",
+    "platform": "zhihu"
   },
   {
     "slug": "xiao-zhen-zuo-ti-jia",
@@ -6538,7 +6788,8 @@
     ],
     "popularity": 5,
     "origin_story": "A self-deprecating term for students from small cities or rural areas who scored into elite universities through sheer exam performance — but found themselves outcompeted by urban students with better social skills, networks, and cultural capital. The gaokao (college entrance exam) was supposed to level the playing field; 小镇做题家 reveals it didn't.",
-    "similar_expressions": "Like 'first-generation college student struggles' or 'book smart but socially behind.' Related to concepts of cultural capital and the gap between academic success and social success."
+    "similar_expressions": "Like 'first-generation college student struggles' or 'book smart but socially behind.' Related to concepts of cultural capital and the gap between academic success and social success.",
+    "platform": "zhihu"
   },
   {
     "slug": "song-chi-gan",
@@ -6565,7 +6816,8 @@
     ],
     "popularity": 5,
     "origin_story": "The aesthetic opposite of anxiety and overeffort. Viral in 2021-2022 after a story about a family who missed their flight due to passport issues and responded with complete calm — no tears, no shouting. That graceful response to chaos defined 松弛感. The wealthy class's appearance of effortless ease became aspirational.",
-    "similar_expressions": "Like 'effortless cool,' 'the cool girl,' 'sprezzatura' (Italian concept of studied carelessness), or 'old money energy.' The Chinese concept is specifically about handling adversity without visible stress."
+    "similar_expressions": "Like 'effortless cool,' 'the cool girl,' 'sprezzatura' (Italian concept of studied carelessness), or 'old money energy.' The Chinese concept is specifically about handling adversity without visible stress.",
+    "platform": "douyin"
   },
   {
     "slug": "qing-xu-jia-zhi",
@@ -6592,7 +6844,8 @@
     ],
     "popularity": 5,
     "origin_story": "Emerged from relationship and consumer psychology discussions. The idea that products, relationships, and experiences have emotional value beyond their functional value. Went viral as people began explicitly evaluating whether partners, friends, and purchases provided adequate emotional return on investment.",
-    "similar_expressions": "Like 'emotional ROI,' 'does this spark joy,' or evaluating whether something 'fills your cup.' The term makes emotional support transactional in a way that English lacks a direct equivalent for."
+    "similar_expressions": "Like 'emotional ROI,' 'does this spark joy,' or evaluating whether something 'fills your cup.' The term makes emotional support transactional in a way that English lacks a direct equivalent for.",
+    "platform": "douyin"
   },
   {
     "slug": "ping-ti",
@@ -6619,7 +6872,8 @@
     ],
     "popularity": 5,
     "origin_story": "Exploded with China's consumer culture content. 平替 (affordable substitute) became the language of smart consumption: the 平替 of a Chanel bag, the 平替 of luxury skincare. Entire Xiaohongshu accounts were built around finding quality dupes. The 2022 economic slowdown made 平替 culture mainstream.",
-    "similar_expressions": "Like 'dupe,' 'budget alternative,' or 'looks expensive but isn't.' The Chinese concept is more systematized — 平替 hunting is a skill and an identity, not just occasional bargain shopping."
+    "similar_expressions": "Like 'dupe,' 'budget alternative,' or 'looks expensive but isn't.' The Chinese concept is more systematized — 平替 hunting is a skill and an identity, not just occasional bargain shopping.",
+    "platform": "xiaohongshu"
   },
   {
     "slug": "xx-tianhuaban",
@@ -6646,7 +6900,8 @@
     ],
     "popularity": 5,
     "origin_story": "Gaming and streaming slang for the highest possible level in a category — the ceiling. When someone is the 天花板 (ceiling) of beauty, talent, or skill, they've hit the maximum. Went from gaming to describing celebrities and then everything: the beauty ceiling, the cooking ceiling, the 'husband material' ceiling.",
-    "similar_expressions": "Like 'the gold standard,' 'top tier,' or 'the pinnacle.' The ceiling metaphor specifically implies you can't go higher — this is the absolute maximum."
+    "similar_expressions": "Like 'the gold standard,' 'top tier,' or 'the pinnacle.' The ceiling metaphor specifically implies you can't go higher — this is the absolute maximum.",
+    "platform": "bilibili"
   },
   {
     "slug": "bai-lan",
@@ -6674,7 +6929,8 @@
     ],
     "popularity": 5,
     "origin_story": "Sports term meaning to intentionally lose ('tank') for draft picks. Entered mainstream culture in 2021 as young people began openly embracing failure rather than trying and failing. Unlike 躺平 (lying flat, passive), 摆烂 is more active — you're consciously choosing to let things deteriorate.",
-    "similar_expressions": "Like 'letting it burn,' 'not even trying,' or 'embracing the chaos.' More active than 'giving up' — you're making a choice to stop maintaining standards. Related to 'burn it all down' energy."
+    "similar_expressions": "Like 'letting it burn,' 'not even trying,' or 'embracing the chaos.' More active than 'giving up' — you're making a choice to stop maintaining standards. Related to 'burn it all down' energy.",
+    "platform": "zhihu"
   },
   {
     "slug": "tang-ping-zhu-yi",
@@ -6699,7 +6955,8 @@
         "english": "He quit his big-tech job and fully embraced tang ping, spending each day doing only what he loves."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "fan-juan",
@@ -6724,7 +6981,8 @@
         "english": "Everyone's in a credentials arms race, but the anti-involution crowd is starting to ask whether any of it actually means anything."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "juan-wang",
@@ -6750,7 +7008,8 @@
         "english": "Once postgrad exam season hits, the Grind Kings have claimed every single seat in the library."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "hua-bing",
@@ -6778,7 +7037,8 @@
     ],
     "popularity": 5,
     "origin_story": "Literally 'draw a pie' — from the ancient idiom about drawing a pie to satisfy hunger. In modern workplace culture, it means making grand promises that never materialize: salary increases, promotions, equity. The boss is always drawing pies; employees are always hungry.",
-    "similar_expressions": "Like 'dangling a carrot,' 'empty promises,' or 'all talk, no action.' The pie-drawing metaphor perfectly captures the gap between the promise (a beautiful drawing) and reality (you can't eat it)."
+    "similar_expressions": "Like 'dangling a carrot,' 'empty promises,' or 'all talk, no action.' The pie-drawing metaphor perfectly captures the gap between the promise (a beautiful drawing) and reality (you can't eat it).",
+    "platform": "zhihu"
   },
   {
     "slug": "zhi-chang-pua",
@@ -6806,7 +7066,8 @@
     ],
     "popularity": 5,
     "origin_story": "PUA (Pick-Up Artist) tactics crossed from dating into workplace culture. Bosses use PUA techniques on employees: manufactured scarcity ('you're lucky to work here'), gaslighting ('you're too sensitive'), and manufactured competition ('your colleague doesn't complain'). The term exposed these manipulation tactics.",
-    "similar_expressions": "Like 'workplace manipulation,' 'toxic management,' or 'psychological games at work.' The PUA origin (pickup artist tactics) makes it more specific — these are deliberate influence techniques, not just bad management."
+    "similar_expressions": "Like 'workplace manipulation,' 'toxic management,' or 'psychological games at work.' The PUA origin (pickup artist tactics) makes it more specific — these are deliberate influence techniques, not just bad management.",
+    "platform": "zhihu"
   },
   {
     "slug": "shuan-q",
@@ -6834,7 +7095,8 @@
     ],
     "popularity": 5,
     "origin_story": "A phonetic approximation of 'thank you' (谢谢, xiè xiè) that gained viral status in 2021 through a viral video. The deliberately clunky phonetics made it irresistibly funny. Quickly became a multi-purpose expression meaning anything from genuine thanks to exasperated resignation.",
-    "similar_expressions": "Like 'thanks I hate it' or using deliberately broken English for comedy. The phonetic humor — making Chinese words sound like mangled English — is a distinctly internet-era comedy form."
+    "similar_expressions": "Like 'thanks I hate it' or using deliberately broken English for comedy. The phonetic humor — making Chinese words sound like mangled English — is a distinctly internet-era comedy form.",
+    "platform": "zhihu"
   },
   {
     "slug": "jia-ren-men",
@@ -6861,7 +7123,8 @@
     ],
     "popularity": 5,
     "origin_story": "Livestreaming hosts address their audiences as 家人们 (family members) to create intimacy and loyalty. When a streamer calls you 家人, you're part of their family — implying obligation to support them (buy products, tip, subscribe). The parasocial warmth is deliberate and commercially calculated.",
-    "similar_expressions": "Like 'guys,' 'folks,' 'y'all,' or 'friends' in English content creator language. The 'family' framing is more intense — it implies mutual care and obligation rather than casual address."
+    "similar_expressions": "Like 'guys,' 'folks,' 'y'all,' or 'friends' in English content creator language. The 'family' framing is more intense — it implies mutual care and obligation rather than casual address.",
+    "platform": "bilibili"
   },
   {
     "slug": "ni-tian",
@@ -6886,7 +7149,8 @@
         "english": "The company requires employees to clock in and report during vacation — absolutely outrageous move."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "douyin"
   },
   {
     "slug": "na-nie",
@@ -6913,7 +7177,8 @@
     ],
     "popularity": 5,
     "origin_story": "Literally 'grasp and pinch' — a cooking term for knowing exactly how much of something to use. In 2021 internet culture it came to mean perfectly reading and controlling a situation or person. '把你拿捏住了' means 'I've got you figured out completely.'",
-    "similar_expressions": "Like 'having someone pegged,' 'reading someone perfectly,' or 'having someone in the palm of your hand.' The cooking origin gives it a methodical, precise quality — you've measured someone exactly."
+    "similar_expressions": "Like 'having someone pegged,' 'reading someone perfectly,' or 'having someone in the palm of your hand.' The cooking origin gives it a methodical, precise quality — you've measured someone exactly.",
+    "platform": "zhihu"
   },
   {
     "slug": "jue-jue-zi",
@@ -6940,7 +7205,8 @@
     ],
     "popularity": 5,
     "origin_story": "A feminine, cutesy intensifier that exploded through Chinese social media in 2021. Adding 子 (a diminutive suffix) to 绝绝 (absolutely/completely) created something that sounded both extreme and adorable. Quickly became so overused it became a joke about vapid influencer language.",
-    "similar_expressions": "Like 'literally,' 'absolutely,' 'totally,' or 'I can't even' in English influencer speech. The rapid rise and backlash mirrors how English 'literally' became both ubiquitous and mocked."
+    "similar_expressions": "Like 'literally,' 'absolutely,' 'totally,' or 'I can't even' in English influencer speech. The rapid rise and backlash mirrors how English 'literally' became both ubiquitous and mocked.",
+    "platform": "bilibili"
   },
   {
     "slug": "yong-yuan-de-shen",
@@ -6967,7 +7233,8 @@
     ],
     "popularity": 5,
     "origin_story": "Abbreviation of 永远的神 (yǒngyuǎn de shén, 'forever a god'). Originated in esports commentary to describe legendary players. In 2021 it escaped gaming, spreading to describe anything considered the greatest of all time — from Olympic athletes to a good bowl of noodles.",
-    "similar_expressions": "The Chinese version of GOAT (Greatest of All Time). Like English's 'GOAT,' it escalated from sports to general superlative. The 2021 explosion coincided with China's strong Olympic performance, where athletes were constantly called yyds."
+    "similar_expressions": "The Chinese version of GOAT (Greatest of All Time). Like English's 'GOAT,' it escalated from sports to general superlative. The 2021 explosion coincided with China's strong Olympic performance, where athletes were constantly called yyds.",
+    "platform": "bilibili"
   },
   {
     "slug": "qingxu-wending",
@@ -6992,7 +7259,8 @@
         "english": "The layoff list dropped. I was totally emotionally stable — so stable my hands were shaking."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "nei-hao",
@@ -7020,7 +7288,8 @@
     ],
     "popularity": 5,
     "origin_story": "Short for 精神内耗, internal mental drain. In 2022-2023 it became common as a standalone word as the concept spread. The specific Chinese framing emphasizes that the energy drain is self-generated — your own thoughts consuming your resources before you can apply them to the world.",
-    "similar_expressions": "Like 'mental drain,' 'living in your head,' or 'analysis paralysis.' The internal combustion metaphor — you're burning your own fuel without moving — is more specific than English equivalents."
+    "similar_expressions": "Like 'mental drain,' 'living in your head,' or 'analysis paralysis.' The internal combustion metaphor — you're burning your own fuel without moving — is more specific than English equivalents.",
+    "platform": "zhihu"
   },
   {
     "slug": "ban-wei",
@@ -7048,7 +7317,8 @@
     ],
     "popularity": 5,
     "origin_story": "The unmistakable 'work smell' — the subtle changes in posture, expression, energy, and spirit that accumulate from sustained office labor. First recognized in viral photos of people on Monday versus Friday. 班味 is both physical (slumped shoulders, dull eyes) and spiritual (the life drained from your face by the grind).",
-    "similar_expressions": "Like 'office drone energy,' 'Monday face,' or looking 'beaten down by life.' The fact that it's a recognizable 'smell' (味 means smell/flavor) implies it's visceral and impossible to hide."
+    "similar_expressions": "Like 'office drone energy,' 'Monday face,' or looking 'beaten down by life.' The fact that it's a recognizable 'smell' (味 means smell/flavor) implies it's visceral and impossible to hide.",
+    "platform": "zhihu"
   },
   {
     "slug": "kao-yan-re",
@@ -7077,7 +7347,8 @@
     ],
     "popularity": 5,
     "origin_story": "Graduate school applications in China surged as job market competition intensified. In 2023, over 4 million people applied for graduate programs — up from 1 million a decade earlier. Going to graduate school became a way to delay entering a brutal job market, leading to concerns about 考研 being a 'refuge' rather than genuine academic pursuit.",
-    "similar_expressions": "Like 'going back to school when the job market is bad' — using education as shelter from economic difficulty. The scale of China's exam competition makes it more acute than Western equivalents."
+    "similar_expressions": "Like 'going back to school when the job market is bad' — using education as shelter from economic difficulty. The scale of China's exam competition makes it more acute than Western equivalents.",
+    "platform": "zhihu"
   },
   {
     "slug": "kao-gong-re",
@@ -7106,7 +7377,8 @@
     ],
     "popularity": 5,
     "origin_story": "The civil service exam (公务员考试, 国考) attracted record numbers of applicants as private sector uncertainty grew. In 2022, 2 million people competed for 30,000 positions. Young people who once chased tech startup dreams now competed for stable government jobs. The reversal reflected deep economic anxiety.",
-    "similar_expressions": "Like the concept of 'flight to safety' in investing but applied to careers. Mirrors how economic uncertainty in many countries increases interest in government and public sector jobs."
+    "similar_expressions": "Like the concept of 'flight to safety' in investing but applied to careers. Mirrors how economic uncertainty in many countries increases interest in government and public sector jobs.",
+    "platform": "zhihu"
   },
   {
     "slug": "er-jiu",
@@ -7131,7 +7403,8 @@
         "english": "Second Uncle cured my existential anxiety — for at least three days, anyway."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "xiaohongshu"
   },
   {
     "slug": "shang-an-nan",
@@ -7157,7 +7430,8 @@
         "english": "My friend has been taking the civil service exam for three years and still hasn't reached shore — the path just keeps getting harder."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "shang-an",
@@ -7185,7 +7459,8 @@
     ],
     "popularity": 5,
     "origin_story": "Literally 'coming ashore' — reaching land after struggling in water. In Chinese test culture, it means successfully passing a high-stakes exam: the gaokao, civil service exam, or graduate entrance exam. The ocean metaphor captures both the struggle and the relief — you've been drowning, and now you've reached solid ground.",
-    "similar_expressions": "Like 'making it,' 'landing the job,' or 'passing the bar' in English. The water metaphor implies near-drowning struggle — not just success, but survival after nearly failing."
+    "similar_expressions": "Like 'making it,' 'landing the job,' or 'passing the bar' in English. The water metaphor implies near-drowning struggle — not just success, but survival after nearly failing.",
+    "platform": "zhihu"
   },
   {
     "slug": "tou-gan",
@@ -7210,7 +7485,8 @@
         "english": "She went to the concert and didn't post a single thing — total low-key lurker energy."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "douyin"
   },
   {
     "slug": "fa-feng-wen-xue",
@@ -7238,7 +7514,8 @@
     ],
     "popularity": 5,
     "origin_story": "Madness Literature emerged as a coping mechanism during prolonged COVID restrictions. The format: deliberately unhinged, stream-of-consciousness text with escalating absurdity. What began as catharsis became art form — intentional chaos as communication. Companies started using the style in marketing, signaling its mainstream arrival.",
-    "similar_expressions": "Like 'unhinged posting,' 'chaotic energy content,' or 'going feral online.' The literary (文学) framing is important — it's performed madness with craft, not actual breakdown."
+    "similar_expressions": "Like 'unhinged posting,' 'chaotic energy content,' or 'going feral online.' The literary (文学) framing is important — it's performed madness with craft, not actual breakdown.",
+    "platform": "zhihu"
   },
   {
     "slug": "fa-feng",
@@ -7265,7 +7542,8 @@
     ],
     "popularity": 5,
     "origin_story": "As pandemic restrictions created pressure cooker conditions, 发疯文学 (madness literature) emerged — deliberately unhinged, stream-of-consciousness text art. People would write extremely long, chaotic, emotional texts as a coping mechanism and share them as art. The controlled madness was both cathartic and funny.",
-    "similar_expressions": "Like 'unhinged posting,' 'going feral online,' or 'I need everyone to know I'm not okay.' The literary framing is key — 发疯文学 is performed madness, not actual distress."
+    "similar_expressions": "Like 'unhinged posting,' 'going feral online,' or 'I need everyone to know I'm not okay.' The literary framing is key — 发疯文学 is performed madness, not actual distress.",
+    "platform": "zhihu"
   },
   {
     "slug": "bao-gai",
@@ -7290,7 +7568,8 @@
         "english": "When I get back from this trip I'm doing a total self-overhaul — gym, books, early bedtime. No more lying flat!"
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "douyin"
   },
   {
     "slug": "fan-che",
@@ -7315,7 +7594,8 @@
         "english": "I prepared for this presentation for so long, and I still crashed and burned — completely blanked on my lines."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "she-si",
@@ -7342,7 +7622,8 @@
     ],
     "popularity": 5,
     "origin_story": "Short for 社会性死亡 (social death) — a moment of embarrassment so severe it feels like your social existence has ended. Went viral through video compilations of cringe-worthy social situations: sending a message to the wrong group, being called out publicly, making an unrecoverable mistake in front of everyone.",
-    "similar_expressions": "Like 'I want to die,' 'the floor should swallow me,' 'social suicide,' or a 'cringe attack.' The death metaphor for embarrassment is universal — English has similar expressions, but 社死 is more specifically about public humiliation."
+    "similar_expressions": "Like 'I want to die,' 'the floor should swallow me,' 'social suicide,' or a 'cringe attack.' The death metaphor for embarrassment is universal — English has similar expressions, but 社死 is more specifically about public humiliation.",
+    "platform": "douyin"
   },
   {
     "slug": "duobaan-chuanda",
@@ -7369,7 +7650,8 @@
     ],
     "popularity": 5,
     "origin_story": "The neuroscience of dopamine met Chinese fashion content in 2022. Bright, clashing, maximalist outfits — the opposite of quiet luxury — were framed as scientifically mood-boosting. Xiaohongshu filled with dopamine dressing guides. The trend was as much about giving people permission to wear bold colors as it was about fashion.",
-    "similar_expressions": "Like 'dopamine dressing' in English (the term exists there too), 'color therapy,' or 'maximalist fashion.' The neuroscience framing gave fashion choices a rational justification beyond aesthetics."
+    "similar_expressions": "Like 'dopamine dressing' in English (the term exists there too), 'color therapy,' or 'maximalist fashion.' The neuroscience framing gave fashion choices a rational justification beyond aesthetics.",
+    "platform": "douyin"
   },
   {
     "slug": "te-zhong-bing-lv-you",
@@ -7396,7 +7678,8 @@
     ],
     "popularity": 5,
     "origin_story": "College students began sharing extreme budget travel videos — 5 cities in 4 days, sleeping on trains, eating instant noodles. Called 特种兵 (special forces) for their military-level efficiency and endurance. The trend revealed both limited budgets and intense desire to experience the world before career obligations hit.",
-    "similar_expressions": "Like 'backpacker culture,' 'sprint tourism,' or 'extreme budget travel.' The military metaphor (special forces tourism) implies both discipline and discomfort — you're not sightseeing, you're executing a mission."
+    "similar_expressions": "Like 'backpacker culture,' 'sprint tourism,' or 'extreme budget travel.' The military metaphor (special forces tourism) implies both discipline and discomfort — you're not sightseeing, you're executing a mission.",
+    "platform": "xiaohongshu"
   },
   {
     "slug": "qiong-gui-tao-can",
@@ -7423,7 +7706,8 @@
     ],
     "popularity": 5,
     "origin_story": "As China's economic pressures mounted in 2022, discount combo meals at restaurants became a cultural phenomenon. Luckin Coffee's 9.9 RMB coffee, McDonald's 穷鬼套餐, cheap convenience store meals — eating affordably became content. The self-deprecating '穷鬼' (poor ghost) framing made thrift funny rather than shameful.",
-    "similar_expressions": "Like 'broke bitch meal,' 'poverty meal,' or 'budget eats' in English internet culture. The self-deprecating humor mirrors how English speakers joke about 'adulting' and 'eating cereal for dinner.'"
+    "similar_expressions": "Like 'broke bitch meal,' 'poverty meal,' or 'budget eats' in English internet culture. The self-deprecating humor mirrors how English speakers joke about 'adulting' and 'eating cereal for dinner.'",
+    "platform": "xiaohongshu"
   },
   {
     "slug": "liu-genghong-nvhai",
@@ -7448,7 +7732,8 @@
         "english": "My roommate is now a hardcore Liu Genghong Girl — she can do the whole 'Compendium of Materia Medica' routine from memory."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "ci-ke",
@@ -7473,7 +7758,8 @@
         "english": "You have to check the price before picking anything up these days — there are price assassins everywhere."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "xiaohongshu"
   },
   {
     "slug": "ju-ying-lao-ban",
@@ -7499,7 +7785,8 @@
         "english": "Working under a man-baby boss feels less like being an employee and more like being a nanny."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "ling-ling-hou-zheng-dun",
@@ -7526,7 +7813,8 @@
     ],
     "popularity": 5,
     "origin_story": "Stories of Gen Z workers (born after 2000) refusing toxic workplace norms went viral in 2022: recording managers who violated labor law, quitting on the spot when mistreated, demanding contracts be followed literally. Framed as '00后整顿职场' (Gen Z cleaning up the workplace), it thrilled older workers who had simply endured.",
-    "similar_expressions": "Like 'Gen Z won't take it anymore' or the quiet quitting movement — but with more visible confrontation. The specific generational framing (00后) implies both youth and the confidence that comes from having different expectations than previous generations."
+    "similar_expressions": "Like 'Gen Z won't take it anymore' or the quiet quitting movement — but with more visible confrontation. The specific generational framing (00后) implies both youth and the confidence that comes from having different expectations than previous generations.",
+    "platform": "zhihu"
   },
   {
     "slug": "zheng-dun-zhi-chang",
@@ -7553,7 +7841,8 @@
     ],
     "popularity": 5,
     "origin_story": "In 2022, videos of young Gen Z workers refusing to comply with toxic workplace norms went massively viral. They pushed back on unpaid overtime, answered back to rude managers, quit on the spot. The narrative became: '00后开始整顿职场' (Gen Z is cleaning up the workplace), and it thrilled millions of millennials who had complied for years.",
-    "similar_expressions": "Like 'quiet quitting' but more active and confrontational. Related to 'setting limits' and 'work-life balance' movements globally, but with more viral, individual confrontation stories."
+    "similar_expressions": "Like 'quiet quitting' but more active and confrontational. Related to 'setting limits' and 'work-life balance' movements globally, but with more viral, individual confrontation stories.",
+    "platform": "zhihu"
   },
   {
     "slug": "dui-hao-ru-zuo",
@@ -7578,7 +7867,8 @@
         "english": "Don't go assuming that article about 'lying-flat youth' is describing you — oh, you already did, didn't you."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "mbti-mbti",
@@ -7606,7 +7896,8 @@
     ],
     "popularity": 5,
     "origin_story": "The 90-year-old personality test went spectacularly viral in China in 2022, becoming a prerequisite for friendship, dating, and workplace discussions. Job listings requested MBTI types. Dating profiles led with them. INTJ became aspirational; ENFP became the 'free spirit.' The test's pseudoscientific status barely mattered.",
-    "similar_expressions": "Like how Western millennials use MBTI, but 10x more intense. The Chinese MBTI craze happened later but deeper — it became the dominant personality framework in a way Western astrology is for some demographics."
+    "similar_expressions": "Like how Western millennials use MBTI, but 10x more intense. The Chinese MBTI craze happened later but deeper — it became the dominant personality framework in a way Western astrology is for some demographics.",
+    "platform": "xiaohongshu"
   },
   {
     "slug": "e-ren",
@@ -7633,7 +7924,8 @@
     ],
     "popularity": 5,
     "origin_story": "The extrovert counterpart to i人 in the MBTI viral wave. E-types became associated with social energy, networking, and the ability to talk to strangers — qualities that were both admired and gently mocked. '纯e人' (pure E-type) implied someone who physically cannot be alone.",
-    "similar_expressions": "Like 'extrovert' in English, but with the specific MBTI framing that implies a complete personality system. The i/e distinction became a new social shorthand replacing older personality classifications."
+    "similar_expressions": "Like 'extrovert' in English, but with the specific MBTI framing that implies a complete personality system. The i/e distinction became a new social shorthand replacing older personality classifications.",
+    "platform": "xiaohongshu"
   },
   {
     "slug": "i-ren",
@@ -7660,7 +7952,8 @@
     ],
     "popularity": 5,
     "origin_story": "MBTI personality typing went massively viral in China in 2022, with I (introvert) and E (extravert) becoming the most used distinction. '我是i人' (I'm an I-type) became a complete social identity — explaining why you didn't want to call, preferred texting, needed alone time after social events.",
-    "similar_expressions": "Like identifying as an introvert in English, but more systematized and social-media-ready. The MBTI explosion in China mirrored the Western popularity of the test but happened faster and more completely."
+    "similar_expressions": "Like identifying as an introvert in English, but more systematized and social-media-ready. The MBTI explosion in China mirrored the Western popularity of the test but happened faster and more completely.",
+    "platform": "xiaohongshu"
   },
   {
     "slug": "lao-nv",
@@ -7688,7 +7981,8 @@
     ],
     "popularity": 5,
     "origin_story": "Dating app culture created a specific discourse around women who date strategically for financial benefit. 捞女 (fishing girl — one who fishes for wealthy partners) became a major topic as viral videos showed women discussing their relationship 'strategies.' The term sparked fierce gender debates online.",
-    "similar_expressions": "Like 'gold digger' but with more algorithmic precision — 捞女 implies a methodical, calculated approach rather than simple opportunism. The debate around the term mirrors Western arguments about gold-digging vs. financially-aware dating."
+    "similar_expressions": "Like 'gold digger' but with more algorithmic precision — 捞女 implies a methodical, calculated approach rather than simple opportunism. The debate around the term mirrors Western arguments about gold-digging vs. financially-aware dating.",
+    "platform": "xiaohongshu"
   },
   {
     "slug": "xian-yan-bao",
@@ -7715,7 +8009,8 @@
     ],
     "popularity": 5,
     "origin_story": "Originally negative — a 'conspicuous package' drawing unwanted attention. But in 2022-2023 it transformed into something almost celebratory. Being 显眼包 meant being unafraid to stand out, wear bold fashion, take up space. Gen Z reclaimed the word as a badge of unapologetic visibility.",
-    "similar_expressions": "Like 'attention-seeker' used positively, 'main character energy,' or 'maximalist.' The transformation from insult to compliment mirrors how 'extra' became positive in English youth culture."
+    "similar_expressions": "Like 'attention-seeker' used positively, 'main character energy,' or 'maximalist.' The transformation from insult to compliment mirrors how 'extra' became positive in English youth culture.",
+    "platform": "douyin"
   },
   {
     "slug": "xue-gao-ci-ke",
@@ -7742,7 +8037,8 @@
     ],
     "popularity": 5,
     "origin_story": "In summer 2022, videos went viral of people reaching for ice cream in freezers without checking prices, then getting stabbed by the total at checkout — premium ice creams priced at 60-80 RMB hidden among the 3 RMB options. The 'assassin' (刺客) metaphor for hidden high prices quickly expanded to any concealed expensive item.",
-    "similar_expressions": "Like 'price shock,' 'sticker shock,' or 'getting ambushed by a price.' The assassin metaphor implies deliberate concealment — not just expensive, but sneakily expensive."
+    "similar_expressions": "Like 'price shock,' 'sticker shock,' or 'getting ambushed by a price.' The assassin metaphor implies deliberate concealment — not just expensive, but sneakily expensive.",
+    "platform": "xiaohongshu"
   },
   {
     "slug": "na-nie-jing-zhun",
@@ -7767,7 +8063,8 @@
         "english": "She knew I couldn't say no in public, so she asked me right in front of everyone. Perfectly calculated move."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "zhihu"
   },
   {
     "slug": "wei-xx-ke-tou",
@@ -7792,7 +8089,8 @@
         "english": "He fixed the entire system by himself — the whole team is bowing down to him."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "man-jiuye",
@@ -7818,7 +8116,8 @@
         "english": "It's not that he can't find a job — he's just doing the slow employment thing, taking time to actually live a little."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "shuang-fei-yuan-xiao",
@@ -7844,7 +8143,8 @@
         "english": "Students from double-non universities aren't less hardworking — they just started the race from a different line."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "beng-tie-qidong",
@@ -7870,7 +8170,8 @@
         "english": "My friend asked what I was doing this weekend. I said 'HSR mode activated' and he immediately understood."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "bilibili"
   },
   {
     "slug": "yuanshen-tianhuaban",
@@ -7896,7 +8197,8 @@
         "english": "Our company benefits are the Genshin ceiling of the industry — and people still call this good?"
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "bilibili"
   },
   {
     "slug": "zao-ba-ren",
@@ -7921,7 +8223,8 @@
         "english": "Early eight crew, checking in! Stayed up until 2 AM last night, still sitting in class right on time."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "zao-ba",
@@ -7946,7 +8249,8 @@
         "english": "We early-eight people understand each other — none of us have it easy."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "zao-c-wan-a",
@@ -7971,7 +8275,8 @@
         "english": "Sure, I'm doing the morning-C evening-A routine, but I still can't stop staying up late — probably cancels out all the skincare effort."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "douyin"
   },
   {
     "slug": "cheng-shi-man-bu",
@@ -7998,7 +8303,8 @@
     ],
     "popularity": 5,
     "origin_story": "Borrowed from English urban planning (city walk/walkable cities), the term was repurposed in 2023 Chinese internet to mean a specific aesthetic of aimlessly wandering urban streets with a camera. The beauty is in having no destination — a rebellious act in China's goal-oriented culture. Photographs from these walks flood Xiaohongshu.",
-    "similar_expressions": "Like 'flaneur' (the 19th century French concept of urban wandering), 'street photography walks,' or 'getting lost on purpose.' The rejection of productivity is the point — city walking is explicitly useless and therefore meaningful."
+    "similar_expressions": "Like 'flaneur' (the 19th century French concept of urban wandering), 'street photography walks,' or 'getting lost on purpose.' The rejection of productivity is the point — city walking is explicitly useless and therefore meaningful.",
+    "platform": "xiaohongshu"
   },
   {
     "slug": "chou-xiang",
@@ -8025,7 +8331,8 @@
     ],
     "popularity": 5,
     "origin_story": "Chinese internet's term for content so bizarre, surreal, and context-defying that 'abstract' is the only word. Stemming from absurdist meme communities, 抽象 became the aesthetic descriptor for humor that abandons logic entirely. If you need to explain why something is funny, it's not 抽象 enough.",
-    "similar_expressions": "Like 'surreal humor,' 'absurdist,' 'shitposting,' or 'dada meme.' The Chinese 抽象 aesthetic has its own distinct flavor — often involving sudden costume changes, non-sequiturs, and deliberately terrible production values."
+    "similar_expressions": "Like 'surreal humor,' 'absurdist,' 'shitposting,' or 'dada meme.' The Chinese 抽象 aesthetic has its own distinct flavor — often involving sudden costume changes, non-sequiturs, and deliberately terrible production values.",
+    "platform": "douyin"
   },
   {
     "slug": "xx-de-jintou-shi-xx",
@@ -8050,7 +8357,8 @@
         "english": "The end of being an employee is starting a business — and the end of starting a business is being an employee again."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "xiaohongshu"
   },
   {
     "slug": "gongzhu-bing",
@@ -8075,7 +8383,8 @@
         "english": "I know I've got a touch of Princess Syndrome, but what's wrong with being spoiled every once in a while?"
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "douyin"
   },
   {
     "slug": "mei-la-de-feng",
@@ -8100,7 +8409,8 @@
         "english": "The Maillard style really suits my skin tone — wearing it makes me feel like I belong in an upscale coffee shop."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "duobaan-sexi",
@@ -8125,7 +8435,8 @@
         "english": "She wore a full dopamine palette outfit today — yellow top with green pants — and totally turned heads on the street."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "douyin"
   },
   {
     "slug": "xian-cheng-po-luo-men",
@@ -8150,7 +8461,8 @@
         "english": "I work myself to the bone out here, and still can't compete with a county-town Brahmin who just slots into some connected local job."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "xiaohongshu"
   },
   {
     "slug": "er-bin",
@@ -8178,7 +8490,8 @@
     ],
     "popularity": 5,
     "origin_story": "Harbin (哈尔滨) went insanely viral in late 2023/early 2024 as southern Chinese tourists discovered the northern city's ice sculptures and architecture. The city's tourism bureau responded with increasingly elaborate hospitality — putting ice sculptures in airports, offering free activities, local officials personally greeting tourists. '尔滨你让我感受到了被需要' (Harbin, you made me feel needed) became iconic.",
-    "similar_expressions": "Like a destination going viral for exceeding expectations, except the government's enthusiastic response was itself part of the meme. Harbin became a template for how cities could use social media to drive tourism."
+    "similar_expressions": "Like a destination going viral for exceeding expectations, except the government's enthusiastic response was itself part of the meme. Harbin became a template for how cities could use social media to drive tourism.",
+    "platform": "bilibili"
   },
   {
     "slug": "zibo-shaokao",
@@ -8205,7 +8518,8 @@
     ],
     "popularity": 5,
     "origin_story": "In spring 2023, college students who had been quarantined in Zibo during COVID returned to thank the city by visiting and posting about its food. Zibo's government welcomed them with free transportation and dedicated BBQ areas. The hospitality went viral, triggering a tourism wave that overwhelmed the small city — a grassroots phenomenon born from gratitude.",
-    "similar_expressions": "Like a small town going viral for being genuinely welcoming — a story about authentic hospitality rather than manufactured tourism marketing. The origin in COVID gratitude gives it emotional weight."
+    "similar_expressions": "Like a small town going viral for being genuinely welcoming — a story about authentic hospitality rather than manufactured tourism marketing. The origin in COVID gratitude gives it emotional weight.",
+    "platform": "xiaohongshu"
   },
   {
     "slug": "jiubawu-feiwu",
@@ -8231,7 +8545,8 @@
         "english": "Everyone in the '985 Losers' group chat is talking about not being able to find a job — suddenly I don't feel so alone."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "kong-yiji-kunjing",
@@ -8258,7 +8573,8 @@
         "english": "It's not that he can't work in a factory — it's just that he can't bring himself to take off that scholar's robe."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "xiao-hai-jie",
@@ -8283,7 +8599,8 @@
         "english": "The way she comforted her crying classmate — total Little Kid Sis energy, way higher EQ than me."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "douyin"
   },
   {
     "slug": "xiao-hai-ge",
@@ -8308,7 +8625,8 @@
         "english": "Little Kid Bro said 'most worries are self-inflicted,' and I, a full-grown adult, felt personally called out."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "douyin"
   },
   {
     "slug": "gong-zhu-qing-shang-che",
@@ -8333,7 +8651,8 @@
         "english": "Every time he picks me up he says 'Princess, your chariot awaits' — it's almost too sweet to handle."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "douyin"
   },
   {
     "slug": "da-zi",
@@ -8360,7 +8679,8 @@
     ],
     "popularity": 5,
     "origin_story": "Traditional friendships require deep emotional investment. 搭子 is the pragmatic alternative — someone who does a specific activity with you without the full weight of friendship. You might have a 饭搭子 (meal partner), 健身搭子 (gym partner), or 旅游搭子 (travel partner) who you barely know otherwise.",
-    "similar_expressions": "Like 'activity partner,' 'gym buddy,' or 'Netflix buddy' — but more formalized. The concept reflects both modern urban loneliness and a practical solution to wanting companionship without the vulnerability of deep friendship."
+    "similar_expressions": "Like 'activity partner,' 'gym buddy,' or 'Netflix buddy' — but more formalized. The concept reflects both modern urban loneliness and a practical solution to wanting companionship without the vulnerability of deep friendship.",
+    "platform": "douyin"
   },
   {
     "slug": "kong-yiji-wenxue",
@@ -8388,7 +8708,8 @@
     ],
     "popularity": 5,
     "origin_story": "Lu Xun's 1919 short story character Kong Yiji — an educated man too proud to do manual labor, too poor to live like a scholar — became a meme in 2023 when a young graduate wrote: 'My degree is a long robe I can never take off.' The post crystallized the experience of millions of overeducated, underemployed youth.",
-    "similar_expressions": "Like 'overeducated and underpaid,' 'too qualified to be happy,' or the concept of 'credential inflation.' The literary reference gives it historical weight — China has been producing 孔乙己 for over a century."
+    "similar_expressions": "Like 'overeducated and underpaid,' 'too qualified to be happy,' or the concept of 'credential inflation.' The literary reference gives it historical weight — China has been producing 孔乙己 for over a century.",
+    "platform": "zhihu"
   },
   {
     "slug": "yang-sheng-z-shi-dai",
@@ -8413,7 +8734,8 @@
         "english": "My friend asked me to go clubbing, but I stayed home soaking my feet and listening to white noise — fully confirmed Wellness Gen-Z."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "douyin"
   },
   {
     "slug": "li-zhi-nao",
@@ -8439,7 +8761,8 @@
         "english": "She says her Quit-Brain has been going on for three months now, but she still hasn't dared to bring it up."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "jiang-ben-zeng-xiao",
@@ -8468,7 +8791,8 @@
     ],
     "popularity": 5,
     "origin_story": "Corporate buzzword 降本增效 (cut costs, increase efficiency) was satirized as 降本增笑 (cut costs, increase laughs/ridicule) as companies made increasingly absurd cost-cutting decisions while claiming efficiency. The parody captured perfectly how corporate speak sanitizes painful decisions.",
-    "similar_expressions": "Like 'corporate synergies' or 'right-sizing' as corporate euphemisms. The wordplay (笑 rhymes with 效) makes it a precise linguistic skewer of management speak."
+    "similar_expressions": "Like 'corporate synergies' or 'right-sizing' as corporate euphemisms. The wordplay (笑 rhymes with 效) makes it a precise linguistic skewer of management speak.",
+    "platform": "zhihu"
   },
   {
     "slug": "sishiwu-du-tang",
@@ -8494,7 +8818,8 @@
         "english": "My boss asked me to work overtime, so I went full 45-degree mode — finished the task and walked right out the door."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "huo-ren-wei-si",
@@ -8519,7 +8844,8 @@
         "english": "A friend asked how I was doing lately, and I just said 'half-dead while alive' — just barely getting by."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "zhihu"
   },
   {
     "slug": "huo-ren-gan",
@@ -8544,7 +8870,8 @@
         "english": "All these influencers are so polished they don't feel human at all. It's exhausting to watch."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "douyin"
   },
   {
     "slug": "bao-bao-xiong",
@@ -8569,7 +8896,8 @@
         "english": "She's such a Baby Bear — say one slightly harsh thing and she pouts for the rest of the day."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "zhihu"
   },
   {
     "slug": "city-bu-city",
@@ -8596,7 +8924,8 @@
     ],
     "popularity": 5,
     "origin_story": "From a viral video of a foreign tourist in China who kept asking '这个city不city啊' (is this city/urbane or not?), using 'city' as an adjective meaning cosmopolitan or sophisticated. The broken Mandarin-English hybrid became a template, used to evaluate anything for its urban, cool, or modern quality.",
-    "similar_expressions": "Like asking 'is this fancy/cool?' but as a bilingual code-switch. Reflects China's relationship with urban aspiration and the influence of English words in youth vocabulary."
+    "similar_expressions": "Like asking 'is this fancy/cool?' but as a bilingual code-switch. Reflects China's relationship with urban aspiration and the influence of English words in youth vocabulary.",
+    "platform": "douyin"
   },
   {
     "slug": "ai-xie-zuo",
@@ -8622,7 +8951,8 @@
         "english": "The teacher said no AI writing, but I did it anyway — it's not like he can tell the difference."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "ai-huihua",
@@ -8647,7 +8977,8 @@
         "english": "Did you draw this avatar yourself or is it AI-generated? It looks almost too perfect."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "douyin"
   },
   {
     "slug": "ba-duan-jin",
@@ -8672,7 +9003,8 @@
         "english": "My feed is flooded with people posting their Eight-Piece Brocade check-ins — Gen-Z is now competing with grandpa for the wellness lifestyle lane."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "bali-aoyun-geng",
@@ -8697,7 +9029,8 @@
         "english": "Got chewed out by my boss today, so I comforted myself with a Paris Olympics meme: the ref might be rigged, but I've got a gold medal in my heart."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "bilibili"
   },
   {
     "slug": "wo-zhen-de-hui-xie",
@@ -8725,7 +9058,8 @@
     ],
     "popularity": 5,
     "origin_story": "From a viral Douyin comment: someone was so exasperated by a situation they wrote '我真的会谢' (I will truly be grateful... for the chance to disappear). The 谢 (thank) creates absurd politeness in the face of total exhaustion. Used when a situation is so ridiculous the only response is defeated irony.",
-    "similar_expressions": "Like 'I can't even,' 'I'm done,' or 'thanks I hate it.' The deliberate politeness ('thank you') applied to exasperating situations is the source of humor — it's too formal for how broken the speaker feels."
+    "similar_expressions": "Like 'I can't even,' 'I'm done,' or 'thanks I hate it.' The deliberate politeness ('thank you') applied to exasperating situations is the source of humor — it's too formal for how broken the speaker feels.",
+    "platform": "zhihu"
   },
   {
     "slug": "hei-shenhua-wukong",
@@ -8754,7 +9088,8 @@
     ],
     "popularity": 5,
     "origin_story": "China's first AAA game release in August 2024, based on Journey to the West. Broke Steam sales records and became a cultural event beyond gaming — proof that Chinese game development had reached global standards. The government promoted it as cultural soft power; gamers saw it as national pride.",
-    "similar_expressions": "Like 'Elden Ring' or 'The Last of Us' level cultural impact but with added national significance. No Western game carries the weight of proving an entire industry's global capability."
+    "similar_expressions": "Like 'Elden Ring' or 'The Last of Us' level cultural impact but with added national significance. No Western game carries the weight of proving an entire industry's global capability.",
+    "platform": "bilibili"
   },
   {
     "slug": "haerbin-dong-li",
@@ -8781,7 +9116,8 @@
     ],
     "popularity": 5,
     "origin_story": "During Harbin's 2024 viral tourism wave, the humble 冻梨 (frozen pear) — a cheap local snack — became a luxury icon. Served in fancy presentation at hotel buffets, photographed with elaborate backdrops, the frozen pear was elevated from peasant food to must-try delicacy purely through internet attention and ironic reverence.",
-    "similar_expressions": "Like when a humble food gets 'elevated' by internet virality — similar to how croissants, birria tacos, or specific regional foods suddenly become national trends through social media."
+    "similar_expressions": "Like when a humble food gets 'elevated' by internet virality — similar to how croissants, birria tacos, or specific regional foods suddenly become national trends through social media.",
+    "platform": "xiaohongshu"
   },
   {
     "slug": "tianshui-malatang",
@@ -8808,7 +9144,8 @@
     ],
     "popularity": 5,
     "origin_story": "Following Zibo's viral tourism moment, Tianshui in Gansu province went viral in early 2024 for its distinctive malatang (spicy hot pot). Unlike Zibo (which was an organic grassroots moment), Tianshui's viral moment showed how cities had learned to actively court tourism virality. The government response was immediate and enthusiastic.",
-    "similar_expressions": "Like a food destination going viral — similar to how certain restaurants in the West suddenly get 3-hour waits after a viral review. But the Chinese version involves entire cities, government coordination, and millions of tourists in weeks."
+    "similar_expressions": "Like a food destination going viral — similar to how certain restaurants in the West suddenly get 3-hour waits after a viral review. But the Chinese version involves entire cities, government coordination, and millions of tourists in weeks.",
+    "platform": "xiaohongshu"
   },
   {
     "slug": "fan-xiang-xiao-fei",
@@ -8833,7 +9170,8 @@
         "english": "Reverse consumption isn't about being broke — it's about seeing through the myth of brand markups."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "xiaohongshu"
   },
   {
     "slug": "bai-ren-fan",
@@ -8860,7 +9198,8 @@
     ],
     "popularity": 5,
     "origin_story": "Viral photos and videos of stereotypically bland Western (especially American) lunches — plain crackers, unadorned chicken breast, raw vegetables with no seasoning — became a meme in China about cultural food differences. '白人饭' started as observation, then became shorthand for any aggressively unseasoned, textureless, joyless meal.",
-    "similar_expressions": "Like 'sad desk lunch,' 'office worker food,' or the stereotype of bland Western food. The observation reflects genuine cultural differences in food attitudes — Chinese cuisine philosophy and Western diet culture are genuinely quite different."
+    "similar_expressions": "Like 'sad desk lunch,' 'office worker food,' or the stereotype of bland Western food. The observation reflects genuine cultural differences in food attitudes — Chinese cuisine philosophy and Western diet culture are genuinely quite different.",
+    "platform": "xiaohongshu"
   },
   {
     "slug": "chouxiang-wenxue",
@@ -8885,7 +9224,8 @@
         "english": "The alarm rang. I stared at the ceiling, felt the call of existentialism, and ultimately chose to lie flat once more."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "douyin"
   },
   {
     "slug": "cui-pi-daxuesheng",
@@ -8913,7 +9253,8 @@
     ],
     "popularity": 5,
     "origin_story": "Videos went viral in 2024 of college students injuring themselves in absurdly minor accidents — spraining an ankle stepping off a curb, breaking a wrist opening a bottle. '脆皮' (crispy skin, fragile) described a generation raised with less physical hardship than previous ones, leading to bodies unable to handle basic challenges.",
-    "similar_expressions": "Like 'soft generation,' 'can't handle anything,' or the stereotype of fragile youth. The food metaphor (crispy skin = brittle) is vivid — these students shatter under the slightest pressure."
+    "similar_expressions": "Like 'soft generation,' 'can't handle anything,' or the stereotype of fragile youth. The food metaphor (crispy skin = brittle) is vivid — these students shatter under the slightest pressure.",
+    "platform": "zhihu"
   },
   {
     "slug": "shai-bei",
@@ -8938,7 +9279,8 @@
         "english": "Young people are all into sunning their backs now — they call it replenishing yang energy, but really it's just lying flat in the sun."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "douyin"
   },
   {
     "slug": "shui-ling-ling",
@@ -8965,7 +9307,8 @@
     ],
     "popularity": 5,
     "origin_story": "Originally describing dewy, hydrated, luminous skin — the Chinese beauty ideal of 水光肌 (water-light skin). In 2024, '水灵灵地' became a viral meme modifier, used to describe anything doing something with fresh-faced, innocent energy. '水灵灵地上班' (going to work all dewy and fresh) captured the contrast between youthful appearance and grim reality.",
-    "similar_expressions": "Like 'dewy,' 'fresh-faced,' or 'wide-eyed' — but used ironically. The contrast between 水灵灵 (luminous and innocent) and grim situations creates the humor."
+    "similar_expressions": "Like 'dewy,' 'fresh-faced,' or 'wide-eyed' — but used ironically. The contrast between 水灵灵 (luminous and innocent) and grim situations creates the humor.",
+    "platform": "zhihu"
   },
   {
     "slug": "pang-dong-lai",
@@ -8993,7 +9336,8 @@
     ],
     "popularity": 5,
     "origin_story": "A regional supermarket chain from Henan province became a national cultural phenomenon in 2024-2025 for its extraordinary employee treatment: mandatory 5-day work weeks, annual forced vacations, high wages, and free mental health days. In a country of 996 culture, a business visibly valuing employee wellbeing became aspirational and almost utopian.",
-    "similar_expressions": "Like Costco or REI in America — companies praised for treating employees well — but more extreme.胖东来 became a symbol of what Chinese work culture could be, making it both inspiring and melancholy."
+    "similar_expressions": "Like Costco or REI in America — companies praised for treating employees well — but more extreme.胖东来 became a symbol of what Chinese work culture could be, making it both inspiring and melancholy.",
+    "platform": "zhihu"
   },
   {
     "slug": "ma-mian-qun",
@@ -9020,7 +9364,8 @@
     ],
     "popularity": 5,
     "origin_story": "The 马面裙 (horse-face skirt) — a traditional Han Chinese pleated skirt — became Gen Z's it-girl garment in 2024-2025. Worn to school, offices, and shopping malls, it was both a fashion statement and a cultural identity marker. Demand exceeded supply; factories in Cao County, Shandong became famous for producing them.",
-    "similar_expressions": "Like a traditional garment becoming a modern fashion item — similar to how Japanese young people wear kimono-inspired clothing, or how Korean hanbok elements appear in streetwear. But more specifically a grassroots revival, not designer-driven."
+    "similar_expressions": "Like a traditional garment becoming a modern fashion item — similar to how Japanese young people wear kimono-inspired clothing, or how Korean hanbok elements appear in streetwear. But more specifically a grassroots revival, not designer-driven.",
+    "platform": "bilibili"
   },
   {
     "slug": "xin-zhong-shi",
@@ -9047,7 +9392,8 @@
     ],
     "popularity": 5,
     "origin_story": "A design and fashion movement blending traditional Chinese aesthetics (hanfu silhouettes, ink wash painting, classical motifs) with contemporary styling. Exploded as China's cultural confidence grew — young people choosing Chinese-influenced fashion over purely Western styles. Ma Mian skirts became the defining garment.",
-    "similar_expressions": "Like 'chinoiserie' (Western incorporation of Chinese aesthetics) reversed — Chinese people incorporating their own traditional aesthetics into modern life. Related to global movements that reclaim cultural heritage fashion."
+    "similar_expressions": "Like 'chinoiserie' (Western incorporation of Chinese aesthetics) reversed — Chinese people incorporating their own traditional aesthetics into modern life. Related to global movements that reclaim cultural heritage fashion.",
+    "platform": "douyin"
   },
   {
     "slug": "bao-zhu-fan-wan",
@@ -9073,7 +9419,8 @@
         "english": "Word is AI can write code now, and developers are shaking in their boots, wondering how to keep their jobs."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "manus-wai-lai-ci",
@@ -9099,7 +9446,8 @@
         "english": "I finally scored a Manus invite code, but after ten minutes with it I couldn't be bothered to continue."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "zhihu"
   },
   {
     "slug": "ren-xing-ji-qi-ren",
@@ -9125,7 +9473,8 @@
         "english": "A friend asked what my weekend plans were and I blanked — humanoid robots don't have plans, we just charge up and go on standby."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "ji-qi-ren-niu-yang-ge",
@@ -9151,7 +9500,8 @@
         "english": "That robot at the launch event was literally doing the yangge dance — peak tech meets peak corniness, an absolute masterpiece."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "chunwan-jiqiren",
@@ -9177,7 +9527,8 @@
         "english": "Drop the act — your 'full of energy and positivity' social media feed is just a Spring Gala Robot performance."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "yi-ren-you",
@@ -9202,7 +9553,8 @@
         "english": "Done waiting around for people to sync schedules — just going solo, leaving whenever I want."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "douyin"
   },
   {
     "slug": "yi-ren-shi",
@@ -9227,7 +9579,8 @@
         "english": "The ultimate zen of eating alone: no one to fight over the last piece of meat."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "douyin"
   },
   {
     "slug": "bu-xiu-tu",
@@ -9252,7 +9605,8 @@
         "english": "Her unfiltered photos actually look better than the heavily edited ones — confidence really is the best filter."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "douyin"
   },
   {
     "slug": "qu-lv-jing",
@@ -9277,7 +9631,8 @@
         "english": "She posted a filter-free travel photo dump so brutally real it made everyone reconsider their Sanya vacation plans."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "douyin"
   },
   {
     "slug": "qu-ai-wei",
@@ -9303,7 +9658,8 @@
         "english": "A lot of people are now making money specifically by removing the AI smell from other people's writing — it's basically a new profession."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "ren-wei",
@@ -9328,7 +9684,8 @@
         "english": "His apology video finally felt human — like he actually meant it for once."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "douyin"
   },
   {
     "slug": "xu-ni-lian-ren",
@@ -9354,7 +9711,8 @@
         "english": "Honestly, a virtual lover is less hassle than a real relationship — at least they won't pick fights with you."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "douyin"
   },
   {
     "slug": "ai-da-zi",
@@ -9379,7 +9737,8 @@
         "english": "Not sure how to reply to your boss's message? Ask your AI buddy to polish it for you."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "douyin"
   },
   {
     "slug": "dong-de-dou-dong",
@@ -9404,7 +9763,8 @@
         "english": "How he got that promotion had nothing to do with ability — those who know, know."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "shuang-wen-xian-shi-ban",
@@ -9429,7 +9789,8 @@
         "english": "Power fantasy IRL: I saw through the scam instantly, turned away with total swagger — then walked into the wrong door and stood there awkwardly for three seconds."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "zhihu"
   },
   {
     "slug": "ai-tidai-jiaolv",
@@ -9458,7 +9819,8 @@
     ],
     "popularity": 5,
     "origin_story": "As AI capabilities expanded rapidly in 2025, widespread fear about job displacement emerged across Chinese society. Unlike previous automation anxieties (factory robots), AI threatened white-collar knowledge workers who had assumed their skills were safe. The anxiety was particularly acute among recent graduates.",
-    "similar_expressions": "Like 'automation anxiety,' 'AI job displacement fears,' or the concept of 'technological unemployment.' The Chinese version carries extra weight because the job market was already stressed from other economic factors."
+    "similar_expressions": "Like 'automation anxiety,' 'AI job displacement fears,' or the concept of 'technological unemployment.' The Chinese version carries extra weight because the job market was already stressed from other economic factors.",
+    "platform": "zhihu"
   },
   {
     "slug": "fan-xiang-tang-ping",
@@ -9483,7 +9845,8 @@
         "english": "He looks like he's slacking off every day, but he came in first on the quarterly review — that's the art of reverse lying flat."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "zhihu"
   },
   {
     "slug": "deepseek-re",
@@ -9511,7 +9874,8 @@
     ],
     "popularity": 5,
     "origin_story": "Chinese AI company DeepSeek released models in early 2025 that matched or exceeded leading American AI at a fraction of the cost, using fewer advanced chips. The shock — that China had achieved this despite export controls — triggered a global AI industry reassessment and made DeepSeek a symbol of technological competition.",
-    "similar_expressions": "Like 'Sputnik moment' (America's shock at Soviet space achievement) but for AI. The DeepSeek release was both a genuine technical achievement and a geopolitical statement."
+    "similar_expressions": "Like 'Sputnik moment' (America's shock at Soviet space achievement) but for AI. The DeepSeek release was both a genuine technical achievement and a geopolitical statement.",
+    "platform": "xiaohongshu"
   },
   {
     "slug": "ai-wei",
@@ -9539,7 +9903,8 @@
     ],
     "popularity": 5,
     "origin_story": "As AI-generated content flooded Chinese social media in 2025, users developed sensitivity to its distinctive signatures: unnaturally smooth phrasing, generic examples, hollow positivity, and a certain weightlessness. '这篇文章AI味太重了' (this article reeks of AI) became a common quality judgment.",
-    "similar_expressions": "Like 'this sounds like ChatGPT wrote it,' 'AI slop,' or 'uncanny valley writing.' The '味' (smell/flavor) metaphor implies it's something you can sense even if you can't define it precisely."
+    "similar_expressions": "Like 'this sounds like ChatGPT wrote it,' 'AI slop,' or 'uncanny valley writing.' The '味' (smell/flavor) metaphor implies it's something you can sense even if you can't define it precisely.",
+    "platform": "zhihu"
   },
   {
     "slug": "sai-bo-qing-ming",
@@ -9564,7 +9929,8 @@
         "english": "The shopping app that got me through four years of college just shut down. Cyber Qingming today — here's a flower for you, old friend."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "douyin"
   },
   {
     "slug": "cun-chao",
@@ -9589,7 +9955,8 @@
         "english": "Village Super League proves you don't need money for joy — just a patch of grass and some heart."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "xiaohongshu"
   },
   {
     "slug": "cun-ba",
@@ -9614,7 +9981,8 @@
         "english": "Village BA reminds us that the best games don't need big-name sponsors."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "xiaohongshu"
   },
   {
     "slug": "wei-duan-ju",
@@ -9640,7 +10008,8 @@
         "english": "The plots in micro-dramas are totally over the top, but watching a couple of episodes after work is genuinely stress-relieving."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "xiaohongshu"
   },
   {
     "slug": "hui-gui-ren-wei",
@@ -9665,7 +10034,8 @@
         "english": "His WeChat Moments finally feel like a real person again — not like a walking advertisement."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "douyin"
   },
   {
     "slug": "tan-ji-da-gong-ren",
@@ -9690,7 +10060,8 @@
         "english": "The only advantage we carbon-based worker drones have over AI is probably that we can still enjoy a cup of milk tea."
       }
     ],
-    "popularity": 3
+    "popularity": 3,
+    "platform": "zhihu"
   },
   {
     "slug": "gui-ji-da-gong-ren",
@@ -9716,7 +10087,8 @@
         "english": "Silicon-based worker drones don't need sleep, which is exactly why my boss feels fine texting at 2 a.m."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "zhihu"
   },
   {
     "slug": "ai-ban-lv",
@@ -9742,7 +10114,8 @@
         "english": "He chats with his AI companion every day and says it's way less stressful than dealing with real people."
       }
     ],
-    "popularity": 4
+    "popularity": 4,
+    "platform": "douyin"
   },
   {
     "slug": "bu-zuo-si-jiu-bu-hui-si",
@@ -9769,7 +10142,8 @@
         "chinese": "发了那条朋友圈之后被老板看见了，不作死就不会死啊。",
         "english": "His boss saw that WeChat post he made. No zuo no die."
       }
-    ]
+    ],
+    "platform": "weibo"
   },
   {
     "slug": "you-qian-ren-xing",
@@ -9795,7 +10169,8 @@
         "chinese": "有钱任性，不需要理由。",
         "english": "When you've got money, you don't need a reason."
       }
-    ]
+    ],
+    "platform": "weibo"
   },
   {
     "slug": "dan-shen-gou",
@@ -9821,7 +10196,8 @@
         "chinese": "秀恩爱请绕道，这里是单身狗保护区。",
         "english": "Take your PDA elsewhere — this is a protected zone for single dogs."
       }
-    ]
+    ],
+    "platform": "weibo"
   },
   {
     "slug": "shuang-shi-yi",
@@ -9847,7 +10223,8 @@
         "chinese": "双十一前先把钱藏起来，不然肯定全花光。",
         "english": "Hide the money before Double Eleven, or it'll all be gone."
       }
-    ]
+    ],
+    "platform": "weibo"
   },
   {
     "slug": "du-ji-tang",
@@ -9873,7 +10250,8 @@
         "chinese": "每天给自己喝一碗毒鸡汤，保持清醒。",
         "english": "Have a bowl of toxic chicken soup every day to stay clear-headed."
       }
-    ]
+    ],
+    "platform": "weibo"
   },
   {
     "slug": "shuai-guo",
@@ -9899,7 +10277,8 @@
         "chinese": "互相甩锅，没有一个人愿意承担责任。",
         "english": "Everyone's throwing the pot at each other — no one wants to take responsibility."
       }
-    ]
+    ],
+    "platform": "zhihu"
   },
   {
     "slug": "zha-nv",
@@ -9925,7 +10304,8 @@
         "chinese": "渣女语录：我们只是朋友，但又不只是朋友。",
         "english": "Trash woman quote: 'We're just friends, but also not just friends.'"
       }
-    ]
+    ],
+    "platform": "weibo"
   },
   {
     "slug": "peng-ci",
@@ -9951,7 +10331,8 @@
         "chinese": "幸好有行车记录仪，碰瓷的人拿不到钱。",
         "english": "Good thing there was a dashcam — the scammer couldn't get any money."
       }
-    ]
+    ],
+    "platform": "wechat"
   },
   {
     "slug": "ren-jian-bu-zhi-de",
@@ -9977,7 +10358,8 @@
         "chinese": "外卖送错了，人间不值得。",
         "english": "Food delivery got the order wrong. The world isn't worth it."
       }
-    ]
+    ],
+    "platform": "zhihu"
   },
   {
     "slug": "xiao-zhu-pei-qi",
@@ -10003,7 +10385,8 @@
         "chinese": "他买了个佩奇手表，真是社会人。",
         "english": "He bought a Peppa Pig watch — what a true man of the streets."
       }
-    ]
+    ],
+    "platform": "douyin"
   },
   {
     "slug": "dui",
@@ -10029,7 +10412,8 @@
         "chinese": "我忍不了了，要去怼他。",
         "english": "I can't take it anymore — I'm going to confront him."
       }
-    ]
+    ],
+    "platform": "xiaohongshu"
   },
   {
     "slug": "guan-xuan",
@@ -10056,7 +10440,8 @@
         "chinese": "官宣之后，他的代言全部撤了。",
         "english": "After the announcement, all his brand deals disappeared."
       }
-    ]
+    ],
+    "platform": "bilibili"
   },
   {
     "slug": "you-bei-x-dao",
@@ -10082,7 +10467,8 @@
         "chinese": "有被他帅到，不行了。",
         "english": "His looks actually hit — I can't handle it."
       }
-    ]
+    ],
+    "platform": "bilibili"
   },
   {
     "slug": "ji-mei",
@@ -10108,7 +10494,8 @@
         "chinese": "集美，你这个口红颜色绝了。",
         "english": "Queen, that lipstick color on you is everything."
       }
-    ]
+    ],
+    "platform": "bilibili"
   },
   {
     "slug": "duan-qin",
@@ -10135,7 +10522,8 @@
         "chinese": "断亲不是不孝，是保护自己。",
         "english": "Cutting off family isn't unfilial — it's self-protection."
       }
-    ]
+    ],
+    "platform": "zhihu"
   },
   {
     "slug": "xiao-hong-shu",
@@ -10161,7 +10549,8 @@
         "chinese": "我在小红书上被种草了这款面霜，必须买。",
         "english": "I got totally sold on this face cream through Xiaohongshu — have to buy it."
       }
-    ]
+    ],
+    "platform": "douyin"
   },
   {
     "slug": "me-me-da",
@@ -10187,7 +10576,8 @@
         "chinese": "谢谢你的礼物，么么哒～",
         "english": "Thank you for the gift, kiss kiss~"
       }
-    ]
+    ],
+    "platform": "weibo"
   },
   {
     "slug": "fo-xi-fu-mu",
@@ -10212,7 +10602,8 @@
         "chinese": "佛系父母说起来容易，看到别人孩子拿奖还是会慌。",
         "english": "Being chill parents sounds easy until you see other kids winning awards."
       }
-    ]
+    ],
+    "platform": "zhihu"
   },
   {
     "slug": "fo-xi-sheng-huo",
@@ -10237,7 +10628,8 @@
         "chinese": "佛系生活的核心：都行，随便，无所谓。",
         "english": "Core of Buddhist-style living: anything goes, whatever, doesn't matter."
       }
-    ]
+    ],
+    "platform": "zhihu"
   },
   {
     "slug": "fo-xi-qing-nian",
@@ -10262,7 +10654,8 @@
         "chinese": "佛系青年最大的特点：都行。",
         "english": "The biggest trait of Buddhist-style youth: whatever's fine."
       }
-    ]
+    ],
+    "platform": "zhihu"
   },
   {
     "slug": "xin-xiao-dai",
@@ -10287,7 +10680,8 @@
         "chinese": "转发这个，愿你成为下一个信小呆。",
         "english": "Forward this — may you be the next Xin Xiaodai."
       }
-    ]
+    ],
+    "platform": "bilibili"
   },
   {
     "slug": "quan-hong-chan",
@@ -10312,7 +10706,8 @@
         "chinese": "她家乡变成了打卡圣地，游客排队去看。",
         "english": "Her hometown became a pilgrimage site — tourists lining up to visit."
       }
-    ]
+    ],
+    "platform": "bilibili"
   },
   {
     "slug": "ying-yong",
@@ -10337,7 +10732,8 @@
         "chinese": "应援物料做得太好看了，想买一套。",
         "english": "The fan support merchandise looks amazing — want to buy a set."
       }
-    ]
+    ],
+    "platform": "bilibili"
   },
   {
     "slug": "da-bang",
@@ -10362,7 +10758,8 @@
         "chinese": "打榜文化导致专辑销量虚高，没有意义。",
         "english": "Chart-voting culture inflated album sales artificially — it's meaningless."
       }
-    ]
+    ],
+    "platform": "bilibili"
   },
   {
     "slug": "san-fen",
@@ -10387,7 +10784,8 @@
         "chinese": "散粉压力小，不用花那么多钱和时间。",
         "english": "Being a loose fan has less pressure — don't have to spend as much money and time."
       }
-    ]
+    ],
+    "platform": "bilibili"
   },
   {
     "slug": "shu-ju-nv-gong",
@@ -10414,7 +10812,8 @@
         "chinese": "我已经从数据女工退休了，不值得搞这些。",
         "english": "I've retired from being a data girl-worker — not worth it."
       }
-    ]
+    ],
+    "platform": "bilibili"
   },
   {
     "slug": "ya-qing-jie",
@@ -10439,7 +10838,8 @@
         "chinese": "游戏停服了，爷青结，再也回不去了。",
         "english": "The game servers are shutting down. My youth has ended — can never go back."
       }
-    ]
+    ],
+    "platform": "xiaohongshu"
   },
   {
     "slug": "zhan-jie",
@@ -10464,7 +10864,8 @@
         "chinese": "她是他们家最有名的站姐，跟了三年了。",
         "english": "She's the most famous fan site sister for this group — followed them for three years."
       }
-    ]
+    ],
+    "platform": "bilibili"
   },
   {
     "slug": "yang-le-ge-yang",
@@ -10489,7 +10890,8 @@
         "chinese": "全国人民都在玩羊了个羊，你也去打卡了吗？",
         "english": "The whole country is playing Sheep A Sheep — have you done today's challenge yet?"
       }
-    ]
+    ],
+    "platform": "bilibili"
   },
   {
     "slug": "gu-ai-ling",
@@ -10514,7 +10916,8 @@
         "chinese": "她的表现真的让人叹服，不管争议多大。",
         "english": "Her performance was genuinely breathtaking, whatever the controversy."
       }
-    ]
+    ],
+    "platform": "xiaohongshu"
   },
   {
     "slug": "chao-hua",
@@ -10539,7 +10942,8 @@
         "chinese": "超话排名掉了，粉丝们开始紧张了。",
         "english": "The Super Topic ranking dropped — fans are getting anxious."
       }
-    ]
+    ],
+    "platform": "bilibili"
   },
   {
     "slug": "lu-ren-fen",
@@ -10564,7 +10968,8 @@
         "chinese": "他路人缘好，路人粉比死忠粉还多。",
         "english": "He has great passerby appeal — more casual supporters than hardcore fans."
       }
-    ]
+    ],
+    "platform": "bilibili"
   },
   {
     "slug": "sha-fa",
@@ -10590,7 +10995,8 @@
         "english": "You stole my sofa, I'm so mad."
       }
     ],
-    "era": "2000-2004"
+    "era": "2000-2004",
+    "platform": "mop"
   },
   {
     "slug": "ding",
@@ -10616,7 +11022,8 @@
         "english": "Everyone bump this — let more people see it."
       }
     ],
-    "era": "2000-2004"
+    "era": "2000-2004",
+    "platform": "mop"
   },
   {
     "slug": "guan-shui",
@@ -10642,7 +11049,8 @@
         "english": "This board is full of spam posts — can't find anything substantive."
       }
     ],
-    "era": "2000-2004"
+    "era": "2000-2004",
+    "platform": "mop"
   },
   {
     "slug": "qian-shui",
@@ -10668,7 +11076,8 @@
         "english": "Stop lurking — come out and share your thoughts."
       }
     ],
-    "era": "2000-2004"
+    "era": "2000-2004",
+    "platform": "mop"
   },
   {
     "slug": "ma-jia",
@@ -10694,7 +11103,8 @@
         "english": "I have several alt accounts — different ones for different places."
       }
     ],
-    "era": "2000-2004"
+    "era": "2000-2004",
+    "platform": "mop"
   },
   {
     "slug": "tong-xie",
@@ -10720,7 +11130,8 @@
         "english": "This 'fellow student' makes a really good point."
       }
     ],
-    "era": "2000-2004"
+    "era": "2000-2004",
+    "platform": "mop"
   },
   {
     "slug": "ban-zhu",
@@ -10746,7 +11157,8 @@
         "english": "Mods, come out and clean this up — all garbage posts here."
       }
     ],
-    "era": "2000-2004"
+    "era": "2000-2004",
+    "platform": "mop"
   },
   {
     "slug": "you-mu-you",
@@ -10772,7 +11184,8 @@
         "english": "Does anyone else feel like crying when they hear this song?"
       }
     ],
-    "era": "2000-2004"
+    "era": "2000-2004",
+    "platform": "mop"
   },
   {
     "slug": "da-jiang-you",
@@ -10801,7 +11214,8 @@
         "english": "I don't understand politics — just passing through to buy soy sauce."
       }
     ],
-    "era": "2005-2009"
+    "era": "2005-2009",
+    "platform": "tieba"
   },
   {
     "slug": "he-xie",
@@ -10830,7 +11244,8 @@
         "english": "Be careful talking about that topic — the river crab might get it."
       }
     ],
-    "era": "2005-2009"
+    "era": "2005-2009",
+    "platform": "tieba"
   },
   {
     "slug": "shan-zhai",
@@ -10859,7 +11274,8 @@
         "english": "The shanzhai version of the Spring Gala was more popular online than the official one."
       }
     ],
-    "era": "2005-2009"
+    "era": "2005-2009",
+    "platform": "qq"
   },
   {
     "slug": "gei-li",
@@ -10887,7 +11303,8 @@
         "english": "This government policy is pretty solid — ordinary people are satisfied."
       }
     ],
-    "era": "2005-2009"
+    "era": "2005-2009",
+    "platform": "tieba"
   },
   {
     "slug": "wo-ba-shi-li-gang",
@@ -10916,7 +11333,8 @@
         "english": "Who do you think you are? Is your dad Li Gang or something?"
       }
     ],
-    "era": "2010-2014"
+    "era": "2010-2014",
+    "platform": "weibo"
   },
   {
     "slug": "zheng-neng-liang",
@@ -10943,7 +11361,8 @@
         "english": "Another official 'positive energy' post — gives me a toothache."
       }
     ],
-    "era": "2010-2014"
+    "era": "2010-2014",
+    "platform": "weibo"
   },
   {
     "slug": "shang-bu-qi",
@@ -10971,7 +11390,8 @@
         "english": "Rejected again — too fragile for this."
       }
     ],
-    "era": "2010-2014"
+    "era": "2010-2014",
+    "platform": "weibo"
   },
   {
     "slug": "kun-die",
@@ -10998,7 +11418,8 @@
         "english": "This guide is completely wrong — absolute scam."
       }
     ],
-    "era": "2010-2014"
+    "era": "2010-2014",
+    "platform": "weibo"
   },
   {
     "slug": "gao-da-shang",
@@ -11025,7 +11446,8 @@
         "english": "The PowerPoint looks classy and polished, but the content is hollow."
       }
     ],
-    "era": "2010-2014"
+    "era": "2010-2014",
+    "platform": "weibo"
   },
   {
     "slug": "ye-shi-zui-le",
@@ -11052,7 +11474,8 @@
         "english": "He said what? I'm drunk — where's the logic?"
       }
     ],
-    "era": "2010-2014"
+    "era": "2010-2014",
+    "platform": "zhihu"
   },
   {
     "slug": "tu-hao-wo-men-zuo-peng-you",
@@ -11079,7 +11502,8 @@
         "english": "You won the lottery? Rich guy, let's be friends, haha."
       }
     ],
-    "era": "2010-2014"
+    "era": "2010-2014",
+    "platform": "weibo"
   },
   {
     "slug": "wang-hong",
@@ -11107,7 +11531,8 @@
         "english": "The influencer economy has changed many people's career choices."
       }
     ],
-    "era": "2010-2014"
+    "era": "2010-2014",
+    "platform": "weibo"
   },
   {
     "slug": "jie-cao",
@@ -11134,7 +11559,8 @@
         "english": "Principles scattered everywhere, but the traffic came."
       }
     ],
-    "era": "2010-2014"
+    "era": "2010-2014",
+    "platform": "weibo"
   },
   {
     "slug": "wo-le-ge-qu",
@@ -11161,7 +11587,8 @@
         "english": "Holy cow, how could you do this?"
       }
     ],
-    "era": "2010-2014"
+    "era": "2010-2014",
+    "platform": "weibo"
   },
   {
     "slug": "ni-ma",
@@ -11188,7 +11615,8 @@
         "english": "What the absolute heck — this is impossible!"
       }
     ],
-    "era": "2010-2014"
+    "era": "2010-2014",
+    "platform": "weibo"
   },
   {
     "slug": "dan-teng",
@@ -11215,7 +11643,8 @@
         "english": "Waited three hours in line — genuinely painful in a pointless way."
       }
     ],
-    "era": "2010-2014"
+    "era": "2010-2014",
+    "platform": "tieba"
   },
   {
     "slug": "fu-yun",
@@ -11242,7 +11671,8 @@
         "english": "Heartbroken, but it's all fleeting clouds — life goes on."
       }
     ],
-    "era": "2010-2014"
+    "era": "2010-2014",
+    "platform": "weibo"
   },
   {
     "slug": "ren-xing",
@@ -11269,7 +11699,8 @@
         "english": "Money = doing whatever I want — bought three identical coats."
       }
     ],
-    "era": "2010-2014"
+    "era": "2010-2014",
+    "platform": "weibo"
   },
   {
     "slug": "ni-dong-de",
@@ -11296,7 +11727,8 @@
         "english": "The specific situation — you know — I can't say more."
       }
     ],
-    "era": "2010-2014"
+    "era": "2010-2014",
+    "platform": "weibo"
   },
   {
     "slug": "hold-zhu",
@@ -11321,7 +11753,8 @@
         "chinese": "这么多任务同时来，我快hold不住了。",
         "english": "So many tasks at once — I'm barely holding it together."
       }
-    ]
+    ],
+    "platform": "weibo"
   },
   {
     "slug": "zhi-wei-bo",
@@ -11347,7 +11780,8 @@
         "chinese": "2011年大家都爱织围脖，那时候微博真的很有意思。",
         "english": "Everyone loved knitting scarves in 2011 — Weibo was genuinely fun back then."
       }
-    ]
+    ],
+    "platform": "weibo"
   },
   {
     "slug": "tu-cao",
@@ -11374,7 +11808,8 @@
         "chinese": "吐槽归吐槽，但你得承认他确实有几分道理。",
         "english": "Roasting aside, you have to admit he has a point."
       }
-    ]
+    ],
+    "platform": "weibo"
   },
   {
     "slug": "da-v",
@@ -11402,7 +11837,8 @@
         "chinese": "那时候大V的一句话比媒体报道还管用。",
         "english": "Back then, one word from a big V was more effective than media coverage."
       }
-    ]
+    ],
+    "platform": "tieba"
   },
   {
     "slug": "jie-di-qi",
@@ -11427,7 +11863,8 @@
         "chinese": "她的视频很接地气，拍的都是真实生活。",
         "english": "Her videos are so relatable — she films real life."
       }
-    ]
+    ],
+    "platform": "weibo"
   },
   {
     "slug": "duo-shou-dang",
@@ -11453,7 +11890,8 @@
         "chinese": "我又网购了，彻底的剁手党一枚。",
         "english": "I shopped online again — a true member of the chop-hand club."
       }
-    ]
+    ],
+    "platform": "weibo"
   },
   {
     "slug": "sheng-wu-ke-lian",
@@ -11479,7 +11917,8 @@
         "chinese": "头发又剪短了，生无可恋啊。",
         "english": "My hair got cut too short again — nothing left to live for."
       }
-    ]
+    ],
+    "platform": "zhihu"
   },
   {
     "slug": "gan-jue-shen-ti-bei-tao-kong",
@@ -11505,7 +11944,8 @@
         "chinese": "期末复习三天三夜，感觉身体被掏空了。",
         "english": "Three days and nights of exam cramming — my body feels completely hollowed out."
       }
-    ]
+    ],
+    "platform": "zhihu"
   },
   {
     "slug": "liao",
@@ -11531,7 +11971,8 @@
         "chinese": "被她这么一撩，我心跳加速了。",
         "english": "The way she teased me sent my heart racing."
       }
-    ]
+    ],
+    "platform": "weibo"
   },
   {
     "slug": "hai-wang",
@@ -11557,7 +11998,8 @@
         "chinese": "海王才不会轻易删联系方式，机会要留着。",
         "english": "An Aquaman never deletes contacts easily — gotta keep the options open."
       }
-    ]
+    ],
+    "platform": "douyin"
   },
   {
     "slug": "ke-ke-ai-ai",
@@ -11583,7 +12025,8 @@
         "chinese": "你今天穿这样，可可爱爱的。",
         "english": "The way you're dressed today is just so adorably cute."
       }
-    ]
+    ],
+    "platform": "wechat"
   },
   {
     "slug": "tuo-kou-xiu",
@@ -11608,7 +12051,8 @@
         "chinese": "脱口秀大会播出后，她成了全网最红的女演员之一。",
         "english": "After Talk Show Conference aired, she became one of the most popular female performers online."
       }
-    ]
+    ],
+    "platform": "zhihu"
   },
   {
     "slug": "fang-kai-le",
@@ -11634,7 +12078,8 @@
         "chinese": "放开了之后，几乎人人都阳了。",
         "english": "After it opened up, almost everyone got COVID."
       }
-    ]
+    ],
+    "platform": "douyin"
   },
   {
     "slug": "xiao-sha-tang-ju",
@@ -11660,7 +12105,8 @@
         "chinese": "哈尔滨人把小砂糖橘们宠坏了，什么都给免费。",
         "english": "Harbin people spoiled the little mandarin oranges — everything was free."
       }
-    ]
+    ],
+    "platform": "xiaohongshu"
   },
   {
     "slug": "man-xue-fu-huo",
@@ -11686,7 +12132,8 @@
         "chinese": "吃完这顿饭，感觉满血复活了。",
         "english": "After finishing this meal, I feel fully revived."
       }
-    ]
+    ],
+    "platform": "bilibili"
   },
   {
     "slug": "dian-zi-zha-cai",
@@ -11713,7 +12160,8 @@
         "chinese": "这个剧特别适合当电子榨菜，不用认真看。",
         "english": "This show is perfect as background content — you don't have to actually pay attention."
       }
-    ]
+    ],
+    "platform": "douyin"
   },
   {
     "slug": "zuo-fu-wo-cheng",
@@ -11742,7 +12190,8 @@
         "chinese": "这种解释跟做俯卧撑有什么区别？",
         "english": "How is this explanation any different from 'doing push-ups'?"
       }
-    ]
+    ],
+    "platform": "tieba"
   },
   {
     "slug": "duo-mao-mao",
@@ -11771,7 +12220,8 @@
         "chinese": "这个解释堪比躲猫猫，没人会信的。",
         "english": "This explanation is on par with hide-and-seek — nobody believes it."
       }
-    ]
+    ],
+    "platform": "tieba"
   },
   {
     "slug": "cheng-hui-wan",
@@ -11799,7 +12249,8 @@
         "chinese": "看到这个操作，只能说城会玩了。",
         "english": "Seeing this move — all I can say is, city people sure know how to play."
       }
-    ]
+    ],
+    "platform": "weibo"
   },
   {
     "slug": "sha-diao",
@@ -11828,7 +12279,8 @@
         "chinese": "你真是个沙雕，但我喜欢你。",
         "english": "You're such a dummy, but I like you."
       }
-    ]
+    ],
+    "platform": "weibo"
   },
   {
     "slug": "wo-bu-yao-ni-jue-de",
@@ -11857,7 +12309,8 @@
         "chinese": "他就是那种我不要你觉得的人，说什么都没用。",
         "english": "He's exactly that 'I don't want your opinion' type — nothing you say matters."
       }
-    ]
+    ],
+    "platform": "wechat"
   },
   {
     "slug": "zhen-xiang-ding-lv",
@@ -11885,7 +12338,8 @@
         "chinese": "又一次印证了真香定律，上周说不喝奶茶，今天喝了三杯。",
         "english": "The True Fragrance Law confirmed again — said no milk tea last week, had three cups today."
       }
-    ]
+    ],
+    "platform": "douyin"
   },
   {
     "slug": "dai-jie-zou",
@@ -11912,7 +12366,8 @@
         "chinese": "他们家粉丝又在带节奏了，把黑料说成白的。",
         "english": "Their fans are steering the narrative again — turning bad news into good."
       }
-    ]
+    ],
+    "platform": "weibo"
   },
   {
     "slug": "an-li",
@@ -11940,7 +12395,8 @@
         "chinese": "被朋友安利了一家餐厅，果然很好吃。",
         "english": "A friend pushed this restaurant on me — turns out it's genuinely delicious."
       }
-    ]
+    ],
+    "platform": "bilibili"
   },
   {
     "slug": "da-call",
@@ -11968,7 +12424,8 @@
         "chinese": "为我们的团队打call，加油！",
         "english": "Cheering for our team — let's go!"
       }
-    ]
+    ],
+    "platform": "bilibili"
   },
   {
     "slug": "shen-xian-da-jia",
@@ -11996,7 +12453,8 @@
         "chinese": "决赛这两个队，神仙打架，看得过瘾！",
         "english": "These two teams in the final — gods fighting, absolutely thrilling to watch!"
       }
-    ]
+    ],
+    "platform": "bilibili"
   },
   {
     "slug": "ke-tang",
@@ -12024,7 +12482,8 @@
         "chinese": "我磕这对CP磕了三年，终于官宣了！",
         "english": "I've been shipping this CP for three years — they finally went official!"
       }
-    ]
+    ],
+    "platform": "bilibili"
   },
   {
     "slug": "cp",
@@ -12053,7 +12512,8 @@
         "chinese": "这对CP的互动太甜了，官宣是早晚的事。",
         "english": "This CP's interactions are so sweet — going official is just a matter of time."
       }
-    ]
+    ],
+    "platform": "bilibili"
   },
   {
     "slug": "bao-gan",
@@ -12081,7 +12541,8 @@
         "chinese": "为了赶这个活动，玩家们纷纷爆肝。",
         "english": "Players went into liver-exploding mode to grind this event."
       }
-    ]
+    ],
+    "platform": "bilibili"
   },
   {
     "slug": "ge-le",
@@ -12109,7 +12570,8 @@
         "chinese": "这款游戏又跳票了，开发商鸽玩家已经三次了。",
         "english": "The game got delayed again — developers have bailed on players three times now."
       }
-    ]
+    ],
+    "platform": "xiaohongshu"
   },
   {
     "slug": "po-tian-de-fu-gui",
@@ -12136,7 +12598,8 @@
         "chinese": "这个品牌突然爆火，不知道能不能接住这泼天的富贵。",
         "english": "This brand suddenly went viral — wonder if they can handle the fortune pouring down on them."
       }
-    ]
+    ],
+    "platform": "xiaohongshu"
   },
   {
     "slug": "ting-quan",
@@ -12163,7 +12626,8 @@
         "chinese": "你就是不听劝，早说了那条路堵，你偏不走高速。",
         "english": "You never take advice — told you that road would be jammed, but you refused to take the highway."
       }
-    ]
+    ],
+    "platform": "xiaohongshu"
   },
   {
     "slug": "chao-zuo-ye",
@@ -12190,7 +12654,8 @@
         "chinese": "这个商业模式不是创新，就是在抄作业。",
         "english": "This business model isn't innovation — it's just copying homework."
       }
-    ]
+    ],
+    "platform": "douyin"
   },
   {
     "slug": "zhu-da-yi-ge",
@@ -12218,7 +12683,8 @@
         "chinese": "她主打一个神秘感，从不解释自己的行为。",
         "english": "Her whole thing is mystery — never explains herself."
       }
-    ]
+    ],
+    "platform": "xiaohongshu"
   },
   {
     "slug": "yao-yao-ling-xian",
@@ -12247,7 +12713,8 @@
         "chinese": "他们的产品还没到货，就已经说自己遥遥领先了。",
         "english": "Their product hasn't even shipped and they're already claiming to be far and away the leader."
       }
-    ]
+    ],
+    "platform": "douyin"
   },
   {
     "slug": "cao-tai-ban-zi",
@@ -12275,7 +12742,8 @@
         "chinese": "看他们的处理方式，完全是草台班子的水平。",
         "english": "Looking at how they handled it — total amateur-hour operation."
       }
-    ]
+    ],
+    "platform": "zhihu"
   },
   {
     "slug": "xiao-si",
@@ -12303,7 +12771,8 @@
         "chinese": "笑死我了，他居然真的信了。",
         "english": "I'm dead — he actually believed it."
       }
-    ]
+    ],
+    "platform": "wechat"
   },
   {
     "slug": "ma-le",
@@ -12331,7 +12800,8 @@
         "chinese": "连续加班一个月，整个人都麻了。",
         "english": "A month of straight overtime — I'm completely flatlined."
       }
-    ]
+    ],
+    "platform": "zhihu"
   },
   {
     "slug": "ji-le",
@@ -12359,7 +12829,8 @@
         "chinese": "看了一眼比分，寄了，输定了。",
         "english": "Glanced at the score — it's over, we're definitely losing."
       }
-    ]
+    ],
+    "platform": "bilibili"
   },
   {
     "slug": "hong-wen",
@@ -12387,7 +12858,8 @@
         "chinese": "别红温啊，开个玩笑而已。",
         "english": "Don't get all heated — it's just a joke."
       }
-    ]
+    ],
+    "platform": "douyin"
   },
   {
     "slug": "niu-ma",
@@ -12415,7 +12887,8 @@
         "chinese": "牛马的命，哪有资格谈梦想。",
         "english": "The life of an ox and horse — what right do we have to talk about dreams?"
       }
-    ]
+    ],
+    "platform": "zhihu"
   },
   {
     "slug": "yi-lao-shi-qiu-fang-guo",
@@ -12443,7 +12916,8 @@
         "chinese": "这周的工作太多了，已老实求放过。",
         "english": "Too much work this week — I surrender, please have mercy."
       }
-    ]
+    ],
+    "platform": "douyin"
   },
   {
     "slug": "na-za-le",
@@ -12471,7 +12945,8 @@
         "chinese": "考砸了？那咋了，明年再来。",
         "english": "Failed the exam? So what — try again next year."
       }
-    ]
+    ],
+    "platform": "zhihu"
   },
   {
     "slug": "ba-bi-q",
@@ -12499,7 +12974,8 @@
         "chinese": "完了完了，芭比Q了，老板看到了。",
         "english": "It's over, it's over, we're toast — the boss saw."
       }
-    ]
+    ],
+    "platform": "bilibili"
   },
   {
     "slug": "lao-liu",
@@ -12527,7 +13003,8 @@
         "chinese": "躲在角落阴人，你这个老六。",
         "english": "Hiding in the corner to ambush people — you absolute sneak."
       }
-    ]
+    ],
+    "platform": "bilibili"
   },
   {
     "slug": "gan-fan-ren",
@@ -12555,7 +13032,8 @@
         "chinese": "工作再累，干饭人的快乐不能少。",
         "english": "However tiring work gets, a serious eater's joy must not be cut."
       }
-    ]
+    ],
+    "platform": "xiaohongshu"
   },
   {
     "slug": "shu-shu-wen-xue",
@@ -12583,7 +13061,8 @@
         "chinese": "这种好事哪轮得到鼠鼠我啊。",
         "english": "Good things like this would never come to a lowly rat like me."
       }
-    ]
+    ],
+    "platform": "zhihu"
   },
   {
     "slug": "wa-ya-wa",
@@ -12611,7 +13090,8 @@
         "chinese": "挖呀挖火得莫名其妙，但确实洗脑。",
         "english": "'Dig dig dig' went viral for no clear reason, but it really was an earworm."
       }
-    ]
+    ],
+    "platform": "bilibili"
   },
   {
     "slug": "zun-du-jia-du",
@@ -12639,7 +13119,8 @@
         "chinese": "他真的这么说了？尊嘟假嘟。",
         "english": "He really said that? Weally?"
       }
-    ]
+    ],
+    "platform": "douyin"
   },
   {
     "slug": "ming-yun-de-chi-lun",
@@ -12667,7 +13148,8 @@
         "chinese": "看到这张照片，命运的齿轮开始转动了。",
         "english": "Looking at this photo — that's when the gears of fate started turning."
       }
-    ]
+    ],
+    "platform": "douyin"
   },
   {
     "slug": "gao-chou-xiang",
@@ -12695,7 +13177,8 @@
         "chinese": "别跟我讲道理，我们这是搞抽象。",
         "english": "Don't try to reason with me — what we're doing here is pure absurdism."
       }
-    ]
+    ],
+    "platform": "xiaohongshu"
   },
   {
     "slug": "dun",
@@ -12723,7 +13206,8 @@
         "chinese": "这件衣服好看，蹲个链接。",
         "english": "This outfit looks great — waiting for someone to drop the link."
       }
-    ]
+    ],
+    "platform": "bilibili"
   },
   {
     "slug": "ma-zhu",
@@ -12751,7 +13235,8 @@
         "chinese": "先码住，周末再慢慢看。",
         "english": "Bookmarking this for now — I'll go through it slowly this weekend."
       }
-    ]
+    ],
+    "platform": "xiaohongshu"
   },
   {
     "slug": "zhong-er-bing",
@@ -12779,7 +13264,8 @@
         "chinese": "翻到以前的日记，满满的中二病，太羞耻了。",
         "english": "Found my old diary — pure eighth-grader syndrome, so embarrassing."
       }
-    ]
+    ],
+    "platform": "weibo"
   },
   {
     "slug": "ao-jiao",
@@ -12807,7 +13293,8 @@
         "chinese": "「我才不是为你做的呢」——典型的傲娇。",
         "english": "'It's not like I did it for you' — classic tsundere."
       }
-    ]
+    ],
+    "platform": "weibo"
   },
   {
     "slug": "fu-hei",
@@ -12835,7 +13322,8 @@
         "chinese": "这个角色又可爱又腹黑，特别有魅力。",
         "english": "This character is both cute and secretly scheming — very charming."
       }
-    ]
+    ],
+    "platform": "weibo"
   },
   {
     "slug": "mai-meng",
@@ -12863,7 +13351,8 @@
         "chinese": "连官方账号都开始卖萌了，挺接地气。",
         "english": "Even the official account started acting cute — pretty relatable."
       }
-    ]
+    ],
+    "platform": "weibo"
   },
   {
     "slug": "ren-rou-sou-suo",
@@ -12890,7 +13379,8 @@
         "chinese": "人肉搜索是把双刃剑，能伸张正义也能伤害无辜。",
         "english": "Human flesh search is a double-edged sword — it can deliver justice or harm the innocent."
       }
-    ]
+    ],
+    "platform": "tieba"
   },
   {
     "slug": "qian-fang-gao-neng",
@@ -12918,7 +13408,8 @@
         "chinese": "弹幕都在刷前方高能，我都不敢往下看了。",
         "english": "The danmu is all 'high energy ahead' — I'm scared to keep watching."
       }
-    ]
+    ],
+    "platform": "bilibili"
   },
   {
     "slug": "ying-gang",
@@ -12946,7 +13437,8 @@
         "chinese": "实力不够就别硬刚，要讲策略。",
         "english": "If you're not strong enough, don't go head-on — you need strategy."
       }
-    ]
+    ],
+    "platform": "bilibili"
   },
   {
     "slug": "qiu-chui-de-chui",
@@ -12974,7 +13466,8 @@
         "chinese": "这次真是求锤得锤，再也没法狡辩了。",
         "english": "This time the proof really landed — no more weaseling out of it."
       }
-    ]
+    ],
+    "platform": "bilibili"
   },
   {
     "slug": "shang-zhuo",
@@ -13002,7 +13495,8 @@
         "chinese": "终于轮到我们这代人上桌了。",
         "english": "It's finally our generation's turn to take a seat at the table."
       }
-    ]
+    ],
+    "platform": "zhihu"
   },
   {
     "slug": "ga-le",
@@ -13030,7 +13524,8 @@
         "chinese": "我养的花又嘎了，养啥死啥。",
         "english": "My plant kicked the bucket again — everything I grow dies."
       }
-    ]
+    ],
+    "platform": "bilibili"
   },
   {
     "slug": "ting-wo-shuo-xie-xie-ni",
@@ -13058,6 +13553,7 @@
         "chinese": "那段时间到处都在播听我说谢谢你，听到耳朵起茧。",
         "english": "For a while 'listen to me say thank you' was playing everywhere — heard it till my ears were numb."
       }
-    ]
+    ],
+    "platform": "douyin"
   }
 ]

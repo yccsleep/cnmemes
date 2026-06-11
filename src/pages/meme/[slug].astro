@@ -101,12 +101,14 @@ if (meme.origin_story) {
 }
 
 const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": faqItems };
+const isoDate = `${meme.year}-01-01`;
 const definedTermSchema = {
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": meme.chinese_name,
   "alternateName": [meme.english_name, meme.pinyin],
   "description": meme.english_explanation,
+  "dateCreated": isoDate,
   "inDefinedTermSet": {
     "@type": "DefinedTermSet",
     "name": "CNMemes — Chinese Internet Meme Dictionary",
@@ -141,7 +143,7 @@ const breadcrumbSchema = {
 };
 ---
 
-<Base title={pageTitle} description={pageDesc}>
+<Base title={pageTitle} description={pageDesc} type="article">
   <article class="meme-detail">
     <!-- Breadcrumb with correct era-aware link -->
     <div class="breadcrumb">

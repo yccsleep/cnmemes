@@ -1,3 +1,6 @@
+/* Self-hosted Source Sans 3 variable font (latin only for performance) */
+@import '@fontsource-variable/source-sans-3/wght.css';
+
 /* ─── Variables ─────────────────────────────────────────────── */
 :root {
   /* Colors */
@@ -29,7 +32,7 @@
 
   /* Typography */
   --font-display:  'Noto Serif SC', 'Georgia', serif;
-  --font-body:     'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+  --font-body:     'Source Sans 3 Variable', 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
 
 
   /* Layout */
@@ -816,6 +819,55 @@ a.tag-topic:hover { color: var(--accent); border-color: var(--accent-border); ba
   font-size: 12px;
   color: var(--text-muted);
   font-weight: 500;
+}
+
+/* ─── Platform origin badge (meme detail page) ──────────────────── */
+.platform-origin {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.platform-origin-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+.platform-origin-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 5px 14px;
+  border-radius: 50px;
+  border: 1.5px solid var(--p-color, var(--accent));
+  color: var(--p-color, var(--accent));
+  background: transparent;
+  text-decoration: none;
+  transition: background var(--transition), color var(--transition);
+}
+
+.platform-origin-link:hover {
+  background: color-mix(in srgb, var(--p-color, var(--accent)) 10%, transparent);
+  text-decoration: none;
+}
+
+.platform-origin-cn {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.platform-origin-en {
+  font-size: 12px;
+  font-weight: 600;
+  opacity: 0.85;
 }
 
 /* ─── Inline meme cross-links in detail page text ──────────────── */
