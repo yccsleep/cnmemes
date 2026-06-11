@@ -74,7 +74,6 @@ const seenYears = new Set<number>();
 for (const y of [...new Set(memes.map(m => m.year))].sort((a, b) => b - a)) {
   const py = pageYearOf(y);
   if (seenYears.has(py)) continue;
-  if (py === 2026) continue;
   seenYears.add(py);
   const rep = [...memes]
     .filter(m => pageYearOf(m.year) === py)
@@ -767,16 +766,6 @@ const platformsWithCounts = [...platforms]
   font-style: italic;
 }
 
-.year-card-excerpt {
-  font-size: 13px;
-  color: var(--text-dim);
-  line-height: 1.6;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
 .year-card-meta {
   display: flex;
   align-items: center;
@@ -1094,16 +1083,6 @@ mark.search-hl {
   padding: 3px 9px;
   border-radius: 12px;
   white-space: nowrap;
-}
-.status-active   { background: #d4f5d4; color: #2d8a2d; }
-.status-declining { background: #fff4e6; color: #b8860b; }
-.status-legacy   { background: #f0f0f0; color: #666; }
-
-.platform-tagline {
-  font-size: 13px;
-  color: var(--text-dim);
-  font-style: italic;
-  margin: 0;
 }
 
 .platform-meta {

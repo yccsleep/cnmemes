@@ -373,6 +373,11 @@ a.tag-topic:hover { color: var(--accent); border-color: var(--accent-border); ba
 .status-dot.popular { background: var(--green);  }
 .status-dot.fading  { background: var(--gold);   }
 
+/* Platform status badges */
+.status-active   { background: #d4f5d4; color: #2d8a2d; }
+.status-declining { background: #fff4e6; color: #b8860b; }
+.status-legacy   { background: #f0f0f0; color: #666; }
+
 /* ─── Meme grid ──────────────────────────────────────────────── */
 .meme-grid {
   display: grid;

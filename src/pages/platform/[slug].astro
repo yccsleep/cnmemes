@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import MemeCard from '../../components/MemeCard.astro';
 import memes from '../../data/memes.json';
+import imageMemes from '../../data/image-memes.json';
 import platforms from '../../data/platforms.json';
 
 export function getStaticPaths() {
@@ -24,6 +25,10 @@ const byYear = platformMemes.reduce((acc, m) => {
 }, {} as Record<number, typeof platformMemes>);
 
 const years = Object.keys(byYear).map(Number).sort((a, b) => b - a);
+
+const platformImageMemes = imageMemes
+  .filter(m => (m as any).platform === platform.slug)
+  .sort((a, b) => b.year - a.year || b.popularity - a.popularity);
 
 const statusLabel: Record<string, string> = {
   active: 'Active',
@@ -158,32 +163,6 @@ const nextPlatform = platforms[idx < platforms.length - 1 ? idx + 1 : 0];
           </div>
         </section>
 
-        <!-- Memes from this platform -->
-        <section class="p-section" style="margin-top:48px;">
-          <h2 class="p-section-title">Memes from {platform.english_name}</h2>
-          {platformMemes.length > 0 ? (
-            years.map(year => (
-              <div class="year-group">
-                <h3 class="year-group-label">{year}</h3>
-                <div class="meme-grid">
-                  {byYear[year].map(m => (
-                    <MemeCard
-                      slug={m.slug} chinese_name={m.chinese_name} english_name={m.english_name}
-                      pinyin={m.pinyin} english_explanation={m.english_explanation}
-                      year={m.year} status={m.status} tags={m.tags} popularity={m.popularity}
-                    />
-                  ))}
-                </div>
-              </div>
-            ))
-          ) : (
-            <div class="no-memes-notice">
-              <p>We haven't tagged platform-specific memes yet. Browse all memes and filter by topic to find content related to {platform.english_name} culture.</p>
-              <a href="/memes" class="section-more-btn">Browse all memes →</a>
-            </div>
-          )}
-        </section>
-
       </div>
 
       <!-- Right: sidebar -->
@@ -249,6 +228,62 @@ const nextPlatform = platforms[idx < platforms.length - 1 ? idx + 1 : 0];
       </aside>
     </div>
 
+    <!-- Memes from this platform (full-width 3-col) -->
+    <section class="p-memes-section">
+      <h2 class="p-section-title">Memes from {platform.english_name}</h2>
+      {platformMemes.length > 0 ? (
+        years.map(year => (
+          <div class="year-group">
+            <h3 class="year-group-label">{year}</h3>
+            <div class="meme-grid">
+              {byYear[year].map(m => (
+                <MemeCard
+                  slug={m.slug} chinese_name={m.chinese_name} english_name={m.english_name}
+                  pinyin={m.pinyin} english_explanation={m.english_explanation}
+                  year={m.year} status={m.status} tags={m.tags} popularity={m.popularity}
+                />
+              ))}
+            </div>
+          </div>
+        ))
+      ) : (
+        <div class="no-memes-notice">
+          <p>We haven't tagged platform-specific memes yet. Browse all memes and filter by topic to find content related to {platform.english_name} culture.</p>
+          <a href="/memes" class="section-more-btn">Browse all memes →</a>
+        </div>
+      )}
+    </section>
+
+    {platformImageMemes.length > 0 && (
+      <section class="p-memes-section" style="margin-top:40px;">
+        <h2 class="p-section-title">Image Memes from {platform.english_name}</h2>
+        <div class="im-grid">
+          {platformImageMemes.map(m => {
+            const sc = m.status === 'still popular' ? 'popular' : m.status === 'fading' ? 'fading' : 'classic';
+            const st = '★'.repeat(m.popularity) + '☆'.repeat(5 - m.popularity);
+            return (
+              <a href={`/image-meme/${m.slug}`} class="im-card">
+                <picture>
+                  <source srcset={m.image.replace(/\.(jpg|jpeg|png)$/i, '.webp')} type="image/webp" />
+                  <img src={m.image} alt={m.chinese_name} loading="lazy" class="im-bg-img" />
+                </picture>
+                <div class="im-overlay" />
+                <div class="im-content">
+                  <div class="im-cn">{m.chinese_name}</div>
+                  <div class="im-en">{m.english_name}</div>
+                  <div class="im-meta">
+                    <span class="im-tag im-tag-year">{m.year}</span>
+                    <span class={`im-tag im-tag-${sc}`}>{m.status}</span>
+                    <span class="im-stars">{st}</span>
+                  </div>
+                </div>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+    )}
+
     <!-- Prev / Next navigation -->
     <nav class="platform-nav">
       <a href={`/platform/${prevPlatform.slug}`} class="platform-nav-btn platform-nav-prev">
@@ -265,6 +300,37 @@ const nextPlatform = platforms[idx < platforms.length - 1 ? idx + 1 : 0];
 </Base>
 
 <style>
+/* ─── Image meme grid ─── */
+.im-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+.im-card {
+  position: relative;
+  display: block;
+  aspect-ratio: 3 / 2;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  text-decoration: none;
+  border: 1.5px solid var(--border);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.im-card:hover { transform: translateY(-4px); box-shadow: 0 10px 28px rgba(0,0,0,0.2); text-decoration: none; }
+.im-bg-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: top center; display: block; }
+.im-overlay { position: absolute; inset: 0; background: linear-gradient(to bottom, transparent 25%, rgba(0,0,0,0.25) 55%, rgba(0,0,0,0.85) 100%); }
+.im-content { position: absolute; bottom: 0; left: 0; right: 0; padding: 10px 12px; }
+.im-cn { font-family: var(--font-display); font-size: 16px; font-weight: 700; color: #fff; line-height: 1.2; margin-bottom: 2px; text-shadow: 0 2px 8px rgba(0,0,0,0.6); }
+.im-en { font-size: 11px; font-weight: 600; color: rgba(255,255,255,0.82); margin-bottom: 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; text-shadow: 0 1px 3px rgba(0,0,0,0.4); }
+.im-meta { display: flex; align-items: center; gap: 5px; flex-wrap: nowrap; overflow: hidden; }
+.im-tag { font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 50px; white-space: nowrap; backdrop-filter: blur(4px); flex-shrink: 0; }
+.im-tag-year    { background: rgba(194,59,34,0.55); color: #fff; }
+.im-tag-popular { background: rgba(34,139,34,0.5);  color: #fff; }
+.im-tag-classic { background: rgba(100,80,180,0.5); color: #fff; }
+.im-tag-fading  { background: rgba(180,130,20,0.5); color: #fff; }
+.im-stars { font-size: 11px; color: #f0c040; letter-spacing: 0.5px; margin-left: auto; flex-shrink: 0; text-shadow: 0 1px 3px rgba(0,0,0,0.4); }
+@media (max-width: 768px) { .im-grid { grid-template-columns: repeat(2, 1fr); } }
+
 /* ─── Hero ─── */
 .platform-hero {
   background: var(--bg-subtle);
@@ -493,9 +559,15 @@ const nextPlatform = platforms[idx < platforms.length - 1 ? idx + 1 : 0];
   border-bottom: 1px solid var(--border-subtle);
 }
 
+.p-memes-section {
+  margin-top: 48px;
+  padding-top: 40px;
+  border-top: 1px solid var(--border-subtle);
+}
+
 .meme-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
@@ -664,22 +736,6 @@ const nextPlatform = platforms[idx < platforms.length - 1 ? idx + 1 : 0];
   color: var(--text);
 }
 
-/* ─── Breadcrumb ─── */
-.breadcrumb {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 13px;
-  color: var(--text-muted);
-  margin-bottom: 0;
-}
-.breadcrumb a {
-  color: var(--text-muted);
-  text-decoration: none;
-  transition: color 0.15s;
-}
-.breadcrumb a:hover { color: var(--accent); }
-.breadcrumb span { color: var(--border); }
 
 /* ─── Responsive ─── */
 @media (max-width: 900px) {
@@ -687,6 +743,7 @@ const nextPlatform = platforms[idx < platforms.length - 1 ? idx + 1 : 0];
   .platform-layout { grid-template-columns: 1fr; gap: 32px; }
   .platform-sidebar { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
   .p-sidebar-card { margin-bottom: 0; }
+  .meme-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 600px) {
@@ -694,5 +751,6 @@ const nextPlatform = platforms[idx < platforms.length - 1 ? idx + 1 : 0];
   .platform-nav { grid-template-columns: 1fr; }
   .platform-sidebar { grid-template-columns: 1fr; }
   .known-for-grid { grid-template-columns: 1fr; }
+  .meme-grid { grid-template-columns: 1fr; }
 }
 </style>
