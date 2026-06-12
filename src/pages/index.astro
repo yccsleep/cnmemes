@@ -21,14 +21,12 @@ const essentialSlugs = [
   'tang-ping',         // 躺平 — lying flat, the counter-movement
   'yong-yuan-de-shen', // yyds — the most-used superlative
   'da-gong-ren',       // 打工人 — worker identity
-  'bai-lan',           // 摆烂 — giving up gracefully
-  'zhen-xiang-ding-lv',// 真香 — eating your words
-  'xian-yan-bao',      // 显眼包 — attention seeker
+  'bai-lan',           // 摆烂 — let it rot / quiet quitting
+  'zhen-xiang',        // 真香 — eating your words
   'cao-tai-ban-zi',    // 草台班子 — imposter syndrome at scale
-  'niu-ma',            // 牛马 — the cattle-horse worker
-  'zun-du-jia-du',     // 尊嘟假嘟 — is it real or fake?
-  'ren-jian-bu-zhi-de',// 人间不值得 — world not worth it
-  'xiao-si',           // 笑死 — dying of laughter
+  'fan-er-sai',        // 凡尔赛 — humble bragging Versailles-style
+  'chi-gua-qunzhong',  // 吃瓜群众 — popcorn-eating bystanders
+  'fo-xi',             // 佛系 — Buddhist-mode / radical chill
 ];
 const essentialMap = Object.fromEntries(memes.map(m => [m.slug, m]));
 const essentials = essentialSlugs.map(s => essentialMap[s]).filter(Boolean);
@@ -63,7 +61,7 @@ const allImageMemes = [...imageMemes]
 // Image meme sidebar preview — random each build
 const imageMemePreview = [...imageMemes]
   .sort(() => Math.random() - 0.5)
-  .slice(0, 6);
+  .slice(0, 5);
 
 // Year sections with representative meme (deduplicated, era-aware, sorted newest first)
 const eraLabels: Record<number, string> = { 2004: '2000–2004', 2009: '2005–2009', 2014: '2010–2014' };
@@ -113,7 +111,7 @@ const platformsWithCounts = [...platforms]
         <circle cx="11" cy="11" r="8"/>
         <path d="m21 21-4.35-4.35"/>
       </svg>
-      <input type="text" id="searchInput" placeholder="Try: 内卷, yyds, 躺平, involution..." autocomplete="off" aria-label="Search Chinese memes" />
+      <input type="text" id="searchInput" placeholder="Try: 内卷, yyds, 躺平, 凡尔赛..." autocomplete="off" aria-label="Search Chinese memes" />
     </div>
   </section>
 
@@ -153,7 +151,7 @@ const platformsWithCounts = [...platforms]
         <div class="section-head">
           <div>
             <h2 class="section-heading">The Essentials</h2>
-            <p class="section-sub">12 memes every English speaker should know — with cultural context, not just translation.</p>
+            <p class="section-sub">10 memes every English speaker should know — with cultural context, not just translation.</p>
           </div>
         </div>
         <div class="meme-grid">
@@ -185,7 +183,7 @@ const platformsWithCounts = [...platforms]
               const st = '★'.repeat(m.popularity) + '☆'.repeat(5 - m.popularity);
               return (
                 <a href={`/image-meme/${m.slug}`} class="sb-card">
-                  <img src={m.image} alt={m.chinese_name} loading="lazy" class="sb-bg-img" />
+                  <img src={m.image} alt={`${m.chinese_name} — ${m.english_name} Chinese internet meme`} loading="lazy" class="sb-bg-img" />
                   <div class="sb-overlay"></div>
                   <div class="sb-card-content">
                     <div class="sb-card-cn">{m.chinese_name}</div>
@@ -219,7 +217,7 @@ const platformsWithCounts = [...platforms]
         <div class="section-head">
           <div>
             <h2 class="section-heading">Browse by Year</h2>
-            <p class="section-sub">From China's earliest internet jokes to 2025 — every meme, every year.</p>
+            <p class="section-sub">From China's earliest internet jokes to today — every meme, every year.</p>
           </div>
         </div>
         <div class="year-sections-grid">
@@ -248,7 +246,7 @@ const platformsWithCounts = [...platforms]
           })}
         </div>
         <div class="section-more">
-          <a href="/memes" class="section-more-btn">Browse all {totalCount} memes →</a>
+          <a href="/memes" class="section-more-btn">Browse all memes →</a>
         </div>
       </section>
 
@@ -360,6 +358,7 @@ const platformsWithCounts = [...platforms]
     }
 
     document.fonts.ready.then(syncSidebarHeights);
+    setTimeout(syncSidebarHeights, 1500);
 
     let resizeTimer;
     window.addEventListener('resize', () => {
@@ -404,6 +403,7 @@ const platformsWithCounts = [...platforms]
     }
 
     document.fonts.ready.then(syncPlatformHeights);
+    setTimeout(syncPlatformHeights, 1500);
 
     let platformResizeTimer;
     window.addEventListener('resize', () => {
@@ -530,6 +530,18 @@ const platformsWithCounts = [...platforms]
   align-items: start;
 }
 
+/* Essentials: fixed height, large character focal point */
+.essentials-layout :global(.meme-card-wrap) {
+  height: 205px;
+  display: flex;
+  flex-direction: column;
+}
+.essentials-layout :global(.meme-card) { flex: 1; display: flex; flex-direction: column; justify-content: center; }
+.essentials-layout :global(.card-cn)      { font-size: 32px; margin-bottom: 5px; line-height: 1.15; }
+.essentials-layout :global(.card-en)      { font-size: 15px; font-weight: 700; margin-bottom: 6px; }
+.essentials-layout :global(.card-pinyin)  { font-size: 12px; margin-bottom: 0; }
+.essentials-layout :global(.card-excerpt) { display: none; }
+
 .image-sidebar { min-width: 0; }
 
 /* Sidebar card grid: 1 col, each card full width */
@@ -544,12 +556,12 @@ const platformsWithCounts = [...platforms]
 .sb-card {
   position: relative;
   display: block;
+  height: 205px;
   border-radius: var(--radius-lg);
   overflow: hidden;
   text-decoration: none;
   border: 1.5px solid var(--border);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  aspect-ratio: 3 / 2;
 }
 .sb-card:hover {
   transform: translateY(-3px);
@@ -1028,6 +1040,7 @@ mark.search-hl {
   justify-content: center;
   padding: 0 22px;
   flex-shrink: 0;
+  background: rgba(194, 59, 34, 0.06);
   background: color-mix(in srgb, var(--p-color) 6%, var(--bg-subtle));
 }
 
@@ -1039,6 +1052,7 @@ mark.search-hl {
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 4px 14px rgba(194, 59, 34, 0.35);
   box-shadow: 0 4px 14px color-mix(in srgb, var(--p-color) 35%, transparent);
 }
 

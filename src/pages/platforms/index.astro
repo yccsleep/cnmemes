@@ -5,9 +5,24 @@ import platforms from '../../data/platforms.json';
 const sorted = [...platforms].sort((a, b) => (b.meme_count || 0) - (a.meme_count || 0));
 
 const description = "The major platforms behind Chinese internet culture — from Mop and Tieba to Weibo, Bilibili, Douyin, and Xiaohongshu.";
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Chinese Internet Platforms — Where Memes Are Born",
+  "description": description,
+  "url": "https://cnmemes.com/platforms",
+  "hasPart": platforms.map(p => ({
+    "@type": "WebPage",
+    "name": `${p.english_name} (${p.chinese_name})`,
+    "url": `https://cnmemes.com/platform/${p.slug}`,
+    "description": p.tagline
+  }))
+};
 ---
 
 <Base title="Chinese Internet Platforms — Where Memes Are Born" description={description}>
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
   <section class="hero" style="padding-bottom:36px;">
     <h1>The Platforms Behind the Memes</h1>
     <p>Chinese internet memes don't emerge from nowhere — each reflects the community, format, and culture of the platform that gave birth to it. From early BBS forums to short-video algorithms, here are the platforms that shaped Chinese internet language.</p>
@@ -22,7 +37,12 @@ const description = "The major platforms behind Chinese internet culture — fro
             <div class="platform-card-top">
               <div class="platform-names">
                 <span class="platform-cn">{p.chinese_name}</span>
-                <span class="platform-en">{p.english_name}</span>
+                <div class="platform-en-row">
+                  <span class="platform-en">{p.english_name}</span>
+                  {(p as any).international_equivalent && (
+                    <span class="platform-equiv">≈ {(p as any).international_equivalent}</span>
+                  )}
+                </div>
               </div>
               <span class={`platform-status-badge status-${p.status}`}>{p.status}</span>
             </div>
@@ -106,6 +126,7 @@ const description = "The major platforms behind Chinese internet culture — fro
   justify-content: center;
   padding: 0 22px;
   flex-shrink: 0;
+  background: rgba(194, 59, 34, 0.06);
   background: color-mix(in srgb, var(--p-color) 6%, var(--bg-subtle));
 }
 
@@ -117,6 +138,7 @@ const description = "The major platforms behind Chinese internet culture — fro
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 4px 14px rgba(194, 59, 34, 0.35);
   box-shadow: 0 4px 14px color-mix(in srgb, var(--p-color) 35%, transparent);
 }
 
@@ -169,6 +191,10 @@ const description = "The major platforms behind Chinese internet culture — fro
   color: var(--text-dim);
   font-style: italic;
   margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .platform-meta {
@@ -185,6 +211,21 @@ const description = "The major platforms behind Chinese internet culture — fro
   padding: 2px 8px;
   border-radius: 4px;
   border: 1px solid var(--border);
+}
+
+.platform-en-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: nowrap;
+}
+
+.platform-equiv {
+  font-size: 11px;
+  color: var(--text-dim);
+  font-weight: 500;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .platform-footer {

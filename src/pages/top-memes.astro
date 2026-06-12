@@ -137,6 +137,7 @@ const collectionSchema = {
             </a>
             <div class="card-meta">
               <span class="tag tag-year">${m.year}</span>
+              ${m.tags.slice(0, 1).map(t => `<a href="/tag/${t}" class="tag tag-topic">${t}</a>`).join('')}
               <span class="popularity-stars">★★★★★</span>
             </div>
           </div>

@@ -157,7 +157,7 @@ const breadcrumbSchema = {
           {related.map(r => (
             <a href={`/image-meme/${r.slug}`} class="im-related-card">
               <div class="im-related-img">
-                <img src={r.image} alt={r.chinese_name} loading="lazy" />
+                <img src={r.image} alt={`${r.chinese_name} — ${r.english_name} Chinese internet meme`} loading="lazy" />
               </div>
               <div class="im-related-body">
                 <div class="im-related-cn">{r.chinese_name}</div>

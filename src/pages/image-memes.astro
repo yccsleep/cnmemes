@@ -64,7 +64,7 @@ const schema = {
                 <a href={`/image-meme/${m.slug}`} class="im-card" data-search={`${m.chinese_name} ${m.english_name} ${m.pinyin} ${m.tags.join(' ')}`}>
                   <picture>
                     <source srcset={m.image.replace(/\.(jpg|jpeg|png)$/i, '.webp')} type="image/webp" />
-                    <img src={m.image} alt={m.chinese_name} loading="lazy" class="im-bg-img" width="600" height="400" />
+                    <img src={m.image} alt={`${m.chinese_name} — ${m.english_name} Chinese internet meme`} loading="lazy" class="im-bg-img" width="600" height="400" />
                   </picture>
                   <div class="im-overlay"></div>
                   <div class="im-content">
@@ -115,28 +115,6 @@ const schema = {
   padding-bottom: 64px;
 }
 
-/* Year pills — reuse global .year-pill if defined, else define here */
-.year-pills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-.year-pill {
-  font-size: 13px;
-  font-weight: 600;
-  padding: 6px 14px;
-  border-radius: 50px;
-  background: var(--surface);
-  border: 1.5px solid var(--border);
-  color: var(--text-dim);
-  text-decoration: none;
-  transition: all 0.18s ease;
-}
-.year-pill:hover {
-  border-color: var(--accent-border);
-  color: var(--accent);
-  text-decoration: none;
-}
 
 .year-group { margin-bottom: 56px; }
 

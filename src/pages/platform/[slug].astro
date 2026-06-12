@@ -200,6 +200,12 @@ const nextPlatform = platforms[idx < platforms.length - 1 ? idx + 1 : 0];
                 </span>
               </dd>
             </div>
+            {(platform as any).international_equivalent && (
+              <div class="p-fact-row">
+                <dt>Similar To</dt>
+                <dd>{(platform as any).international_equivalent}</dd>
+              </div>
+            )}
           </dl>
           {platform.url && (
             <a href={platform.url} target="_blank" rel="noopener noreferrer" class="platform-visit-btn sidebar-visit">
@@ -419,19 +425,17 @@ const nextPlatform = platforms[idx < platforms.length - 1 ? idx + 1 : 0];
   align-items: center;
   gap: 0;
   margin-bottom: 20px;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  overflow: hidden;
   width: fit-content;
 }
 
 .platform-stat {
   display: flex;
   flex-direction: column;
-  gap: 2px;
-  padding: 10px 20px;
+  gap: 3px;
+  padding: 0 20px 0 0;
 }
+
+.platform-stat:first-child { padding-left: 0; }
 
 .stat-label {
   font-size: 10px;
@@ -442,15 +446,17 @@ const nextPlatform = platforms[idx < platforms.length - 1 ? idx + 1 : 0];
 }
 
 .stat-value {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 700;
   color: var(--text);
 }
 
 .stat-divider {
   width: 1px;
-  align-self: stretch;
+  height: 32px;
   background: var(--border);
+  margin: 0 20px 0 0;
+  align-self: center;
 }
 
 /* Visit button */
@@ -642,7 +648,7 @@ const nextPlatform = platforms[idx < platforms.length - 1 ? idx + 1 : 0];
 }
 .p-fact-row dd {
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--text);
   text-align: right;
   margin: 0;
