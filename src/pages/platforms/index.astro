@@ -4,12 +4,12 @@ import platforms from '../../data/platforms.json';
 
 const sorted = [...platforms].sort((a, b) => (b.meme_count || 0) - (a.meme_count || 0));
 
-const description = "The major platforms behind Chinese internet culture — from Mop and Tieba to Weibo, Bilibili, Douyin, and Xiaohongshu.";
+const description = "Chinese meme platforms: Weibo微博, Bilibili B站, Douyin抖音, Zhihu知乎 | 10 social platforms generating Chinese memes | Cultural epicenters explained";
 
 const schema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  "name": "Chinese Internet Platforms — Where Memes Are Born",
+  "name": "Platforms Behind Chinese Memes: Weibo, Douyin, Bilibili & More",
   "description": description,
   "url": "https://cnmemes.com/platforms",
   "hasPart": platforms.map(p => ({
@@ -21,7 +21,7 @@ const schema = {
 };
 ---
 
-<Base title="Chinese Internet Platforms — Where Memes Are Born" description={description}>
+<Base title="Platforms Behind Chinese Memes: Weibo, Douyin, Bilibili..." description={description}>
   <script type="application/ld+json" set:html={JSON.stringify(schema)} />
   <section class="hero" style="padding-bottom:36px;">
     <h1>The Platforms Behind the Memes</h1>

@@ -121,6 +121,27 @@ const definedTermSchema = {
   "url": `https://cnmemes.com/meme/${meme.slug}`
 };
 
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": pageTitle,
+  "description": pageDesc,
+  "url": `https://cnmemes.com/meme/${meme.slug}`,
+  "datePublished": isoDate,
+  "dateModified": isoDate,
+  "author": {
+    "@type": "Organization",
+    "name": "CNMemes"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CNMemes",
+    "url": "https://cnmemes.com"
+  },
+  "image": "https://cnmemes.com/og-image.png",
+  "keywords": `${meme.chinese_name}, ${meme.english_name}, ${meme.pinyin}, Chinese meme, ${meme.tags.join(', ')}`
+};
+
 const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -309,6 +330,7 @@ const breadcrumbSchema = {
   });
 </script>
 
+<script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
 <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
 <script type="application/ld+json" set:html={JSON.stringify(definedTermSchema)} />
 <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
