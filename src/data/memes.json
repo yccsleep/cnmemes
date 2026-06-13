@@ -210,7 +210,7 @@
       }
     ],
     "popularity": 3,
-    "platform": "weibo"
+    "platform": "wechat"
   },
   {
     "slug": "nuan-nan",
@@ -378,7 +378,7 @@
       }
     ],
     "popularity": 3,
-    "platform": "tieba"
+    "platform": "weibo"
   },
   {
     "slug": "zhai-nan",
@@ -942,7 +942,7 @@
       }
     ],
     "popularity": 4,
-    "platform": "weibo"
+    "platform": "wechat"
   },
   {
     "slug": "tfboys",
@@ -1078,7 +1078,7 @@
       }
     ],
     "popularity": 4,
-    "platform": "weibo"
+    "platform": "wechat"
   },
   {
     "slug": "tu-hao",
@@ -1270,7 +1270,7 @@
     "popularity": 5,
     "origin_story": "China's homegrown meme culture exploded around 2015 as WeChat's sticker feature went mainstream. Unlike Western memes that spread via Reddit or Twitter, Chinese memes spread primarily through WeChat and QQ chat groups, making them more personal and conversational.",
     "similar_expressions": "Directly equivalent to 'meme' or 'reaction image' in English. China's meme ecosystem is parallel to but largely separate from Western internet culture.",
-    "platform": "bilibili"
+    "platform": "wechat"
   },
   {
     "slug": "lao-siji",
@@ -1599,7 +1599,7 @@
       }
     ],
     "popularity": 4,
-    "platform": "bilibili"
+    "platform": "weibo"
   },
   {
     "slug": "xian-yu-tan",
@@ -1651,7 +1651,7 @@
       }
     ],
     "popularity": 3,
-    "platform": "zhihu"
+    "platform": "wechat"
   },
   {
     "slug": "liang-liang",
@@ -1924,7 +1924,7 @@
       }
     ],
     "popularity": 4,
-    "platform": "zhihu"
+    "platform": "weibo"
   },
   {
     "slug": "ga-wu",
@@ -2029,7 +2029,7 @@
       }
     ],
     "popularity": 4,
-    "platform": "tieba"
+    "platform": "wechat"
   },
   {
     "slug": "bu-ming-jue-li",
@@ -2083,7 +2083,7 @@
       }
     ],
     "popularity": 3,
-    "platform": "tieba"
+    "platform": "weibo"
   },
   {
     "slug": "ren-jian-bu-chai",
@@ -2166,7 +2166,7 @@
     "popularity": 5,
     "origin_story": "In Chinese internet gaming culture, 666 (liù liù liù) became slang for 'awesome' or 'smooth' because the pronunciation flows effortlessly. Popularized through gaming streams where fans would flood the chat with 666 when a player did something impressive.",
     "similar_expressions": "Functions like 'GG,' 'insane,' or 'smooth' in English gaming culture. The triple repetition adds emphasis, similar to how English speakers might say 'so, so good.'",
-    "platform": "kuaishou"
+    "platform": "weibo"
   },
   {
     "slug": "lao-tie",
@@ -2393,7 +2393,7 @@
     "popularity": 5,
     "origin_story": "A 2016 viral video showed a distressed young man saying he felt 难受想哭 (nán shòu xiǎng kū, 'so sad I want to cry'). Internet users noticed that 难受 sounds like 蓝瘦 (blue thin) and 想哭 sounds like 香菇 (mushroom) — creating a nonsensical but phonetically perfect substitute that exploded across social media.",
     "similar_expressions": "A uniquely Chinese phonetic wordplay meme. Similar to how English memes might replace 'laugh' with 'laff' or use homophones for humor, but the specific substitution here is much more elaborate.",
-    "platform": "weibo"
+    "platform": "mop"
   },
   {
     "slug": "emmm",
@@ -2554,7 +2554,7 @@
       }
     ],
     "popularity": 4,
-    "platform": "bilibili"
+    "platform": "douyin"
   },
   {
     "slug": "da-lian",
@@ -2894,7 +2894,7 @@
       }
     ],
     "popularity": 4,
-    "platform": "kuaishou"
+    "platform": "douyin"
   },
   {
     "slug": "pao-xiao-ti",
@@ -2920,7 +2920,7 @@
       }
     ],
     "popularity": 3,
-    "platform": "mop"
+    "platform": "weibo"
   },
   {
     "slug": "beiaoer",
@@ -3444,7 +3444,7 @@
       }
     ],
     "popularity": 4,
-    "platform": "bilibili"
+    "platform": "wechat"
   },
   {
     "slug": "hao-yangmao",
@@ -3603,7 +3603,7 @@
       }
     ],
     "popularity": 4,
-    "platform": "kuaishou"
+    "platform": "douyin"
   },
   {
     "slug": "xiao-ke-ai",
@@ -4006,7 +4006,7 @@
       }
     ],
     "popularity": 4,
-    "platform": "weibo"
+    "platform": "wechat"
   },
   {
     "slug": "fei-qiu",
@@ -4059,7 +4059,7 @@
       }
     ],
     "popularity": 4,
-    "platform": "bilibili"
+    "platform": "tieba"
   },
   {
     "slug": "c-wei-chu-dao",
@@ -4086,7 +4086,7 @@
       }
     ],
     "popularity": 4,
-    "platform": "weibo"
+    "platform": "tieba"
   },
   {
     "slug": "c-wei",
@@ -4115,7 +4115,7 @@
     "popularity": 5,
     "origin_story": "From the 2018 idol competition reality show 'Produce 101 China.' The center position in a performance lineup, literally 'C position.' Contestants competed intensely for the C position as it determined visibility. Quickly spread beyond entertainment to mean anyone who naturally takes center stage.",
     "similar_expressions": "Like 'center stage,' 'the spotlight,' or 'top billing.' The reality TV origin mirrors how English terms like 'main character energy' come from entertainment culture.",
-    "platform": "weibo"
+    "platform": "tieba"
   },
   {
     "slug": "zhen-xiang",
@@ -4410,7 +4410,7 @@
     "popularity": 5,
     "origin_story": "The intensified version of 离谱 (off the charts). 大 (big) pushes it further — not just off the musical score, but so far off that the score doesn't exist. The graduated scale (离谱 → 离大谱 → 离谱他妈给离谱开门) reflects how Chinese internet humor systematically intensifies expressions.",
     "similar_expressions": "Like 'off the charts,' 'absolutely unhinged,' or 'that's a lot.' The graduated intensification system (each level more extreme) mirrors how English uses 'crazy → insane → absolutely mental.'",
-    "platform": "zhihu"
+    "platform": "douyin"
   },
   {
     "slug": "li-pu",
@@ -4438,7 +4438,7 @@
     "popularity": 5,
     "origin_story": "Literally 'off the score' (like a musician playing notes not on the sheet music), meaning wildly out of line or absurd. Exploded in 2019-2020 as Chinese social media became saturated with increasingly extreme news stories. '离大谱' (way off the score) is the intensified version.",
     "similar_expressions": "Like 'off the charts,' 'insane,' 'unhinged,' or 'that's a lot.' The music metaphor (off the score) is similar to how English uses 'off the charts' for excess.",
-    "platform": "zhihu"
+    "platform": "douyin"
   },
   {
     "slug": "rui-si-bai",
@@ -4490,7 +4490,7 @@
       }
     ],
     "popularity": 4,
-    "platform": "zhihu"
+    "platform": "wechat"
   },
   {
     "slug": "su-liao-jie-mei",
@@ -5167,7 +5167,7 @@
       }
     ],
     "popularity": 4,
-    "platform": "bilibili"
+    "platform": "douyin"
   },
   {
     "slug": "hu-le",
@@ -5223,7 +5223,7 @@
     "popularity": 5,
     "origin_story": "Fan community terminology — when your idol's 'house' (公房, their public image) collapses due to a scandal. The metaphor is vivid: you've built your emotional investment on a foundation, and that foundation just caved in. Major 塌房 events (celebrities caught in fraud, relationship scandals) became cultural events.",
     "similar_expressions": "Like a celebrity 'falling from grace,' 'getting cancelled,' or 'their image crumbling.' The housing metaphor emphasizes the investment fans make — it's not just disappointment, it's losing something you built.",
-    "platform": "bilibili"
+    "platform": "weibo"
   },
   {
     "slug": "kong-ping",
@@ -5793,7 +5793,7 @@
     "popularity": 5,
     "origin_story": "The person who says what you're thinking but were too afraid to say — your 'mouth substitute.' Exploded in 2020 as online personalities who spoke bluntly about taboo topics gained massive followings. Being someone's 嘴替 is a compliment — you've given voice to their suppressed feelings.",
     "similar_expressions": "Like 'speaking my truth,' 'saying what we're all thinking,' or being someone's 'voice.' Related to the English concept of 'cancelable opinions' — things people think but won't say publicly.",
-    "platform": "bilibili"
+    "platform": "douyin"
   },
   {
     "slug": "yin-yang-guai-qi",
@@ -5925,7 +5925,7 @@
       }
     ],
     "popularity": 4,
-    "platform": "bilibili"
+    "platform": "wechat"
   },
   {
     "slug": "xin-tai-zha-le",
@@ -6006,7 +6006,7 @@
       }
     ],
     "popularity": 4,
-    "platform": "zhihu"
+    "platform": "bilibili"
   },
   {
     "slug": "wo-ku-le",
@@ -6429,7 +6429,7 @@
       }
     ],
     "popularity": 4,
-    "platform": "bilibili"
+    "platform": "douyin"
   },
   {
     "slug": "er-chuang",
@@ -7284,7 +7284,7 @@
     "popularity": 5,
     "origin_story": "Short for 精神内耗, internal mental drain. In 2022-2023 it became common as a standalone word as the concept spread. The specific Chinese framing emphasizes that the energy drain is self-generated — your own thoughts consuming your resources before you can apply them to the world.",
     "similar_expressions": "Like 'mental drain,' 'living in your head,' or 'analysis paralysis.' The internal combustion metaphor — you're burning your own fuel without moving — is more specific than English equivalents.",
-    "platform": "zhihu"
+    "platform": "douyin"
   },
   {
     "slug": "ban-wei",
@@ -7590,7 +7590,7 @@
       }
     ],
     "popularity": 4,
-    "platform": "weibo"
+    "platform": "wechat"
   },
   {
     "slug": "she-si",
@@ -7618,7 +7618,7 @@
     "popularity": 5,
     "origin_story": "Short for 社会性死亡 (social death) — a moment of embarrassment so severe it feels like your social existence has ended. Went viral through video compilations of cringe-worthy social situations: sending a message to the wrong group, being called out publicly, making an unrecoverable mistake in front of everyone.",
     "similar_expressions": "Like 'I want to die,' 'the floor should swallow me,' 'social suicide,' or a 'cringe attack.' The death metaphor for embarrassment is universal — English has similar expressions, but 社死 is more specifically about public humiliation.",
-    "platform": "weibo"
+    "platform": "wechat"
   },
   {
     "slug": "duobaan-chuanda",
@@ -7728,7 +7728,7 @@
       }
     ],
     "popularity": 4,
-    "platform": "douyin"
+    "platform": "wechat"
   },
   {
     "slug": "ci-ke",
@@ -7781,7 +7781,7 @@
       }
     ],
     "popularity": 4,
-    "platform": "zhihu"
+    "platform": "weibo"
   },
   {
     "slug": "ling-ling-hou-zheng-dun",
@@ -8245,7 +8245,7 @@
       }
     ],
     "popularity": 4,
-    "platform": "douyin"
+    "platform": "bilibili"
   },
   {
     "slug": "zao-c-wan-a",
@@ -8379,7 +8379,7 @@
       }
     ],
     "popularity": 4,
-    "platform": "weibo"
+    "platform": "tieba"
   },
   {
     "slug": "mei-la-de-feng",
@@ -8757,7 +8757,7 @@
       }
     ],
     "popularity": 4,
-    "platform": "zhihu"
+    "platform": "xiaohongshu"
   },
   {
     "slug": "jiang-ben-zeng-xiao",
@@ -8920,7 +8920,7 @@
     "popularity": 5,
     "origin_story": "From a viral video of a foreign tourist in China who kept asking '这个city不city啊' (is this city/urbane or not?), using 'city' as an adjective meaning cosmopolitan or sophisticated. The broken Mandarin-English hybrid became a template, used to evaluate anything for its urban, cool, or modern quality.",
     "similar_expressions": "Like asking 'is this fancy/cool?' but as a bilingual code-switch. Reflects China's relationship with urban aspiration and the influence of English words in youth vocabulary.",
-    "platform": "douyin"
+    "platform": "mop"
   },
   {
     "slug": "ai-xie-zuo",
@@ -8999,7 +8999,7 @@
       }
     ],
     "popularity": 4,
-    "platform": "xiaohongshu"
+    "platform": "douyin"
   },
   {
     "slug": "bali-aoyun-geng",
@@ -9025,7 +9025,7 @@
       }
     ],
     "popularity": 4,
-    "platform": "weibo"
+    "platform": "douyin"
   },
   {
     "slug": "wo-zhen-de-hui-xie",
@@ -9220,7 +9220,7 @@
       }
     ],
     "popularity": 4,
-    "platform": "bilibili"
+    "platform": "douyin"
   },
   {
     "slug": "cui-pi-daxuesheng",
@@ -9360,7 +9360,7 @@
     "popularity": 5,
     "origin_story": "The 马面裙 (horse-face skirt) — a traditional Han Chinese pleated skirt — became Gen Z's it-girl garment in 2024-2025. Worn to school, offices, and shopping malls, it was both a fashion statement and a cultural identity marker. Demand exceeded supply; factories in Cao County, Shandong became famous for producing them.",
     "similar_expressions": "Like a traditional garment becoming a modern fashion item — similar to how Japanese young people wear kimono-inspired clothing, or how Korean hanbok elements appear in streetwear. But more specifically a grassroots revival, not designer-driven.",
-    "platform": "xiaohongshu"
+    "platform": "douyin"
   },
   {
     "slug": "xin-zhong-shi",
@@ -9759,7 +9759,7 @@
       }
     ],
     "popularity": 4,
-    "platform": "zhihu"
+    "platform": "wechat"
   },
   {
     "slug": "shuang-wen-xian-shi-ban",
@@ -9815,7 +9815,7 @@
     "popularity": 5,
     "origin_story": "As AI capabilities expanded rapidly in 2025, widespread fear about job displacement emerged across Chinese society. Unlike previous automation anxieties (factory robots), AI threatened white-collar knowledge workers who had assumed their skills were safe. The anxiety was particularly acute among recent graduates.",
     "similar_expressions": "Like 'automation anxiety,' 'AI job displacement fears,' or the concept of 'technological unemployment.' The Chinese version carries extra weight because the job market was already stressed from other economic factors.",
-    "platform": "zhihu"
+    "platform": "xiaohongshu"
   },
   {
     "slug": "fan-xiang-tang-ping",
@@ -10083,7 +10083,7 @@
       }
     ],
     "popularity": 4,
-    "platform": "zhihu"
+    "platform": "weibo"
   },
   {
     "slug": "ai-ban-lv",
@@ -10246,7 +10246,7 @@
         "english": "Have a bowl of toxic chicken soup every day to stay clear-headed."
       }
     ],
-    "platform": "weibo"
+    "platform": "wechat"
   },
   {
     "slug": "shuai-guo",
@@ -10834,7 +10834,7 @@
         "english": "The game servers are shutting down. My youth has ended — can never go back."
       }
     ],
-    "platform": "bilibili"
+    "platform": "wechat"
   },
   {
     "slug": "zhan-jie",
@@ -10990,7 +10990,7 @@
         "english": "You stole my sofa, I'm so mad."
       }
     ],
-    "platform": "mop"
+    "platform": "tieba"
   },
   {
     "slug": "ding",
@@ -11016,7 +11016,7 @@
         "english": "Everyone bump this — let more people see it."
       }
     ],
-    "platform": "mop"
+    "platform": "tieba"
   },
   {
     "slug": "guan-shui",
@@ -11042,7 +11042,7 @@
         "english": "This board is full of spam posts — can't find anything substantive."
       }
     ],
-    "platform": "mop"
+    "platform": "tieba"
   },
   {
     "slug": "qian-shui",
@@ -11146,7 +11146,7 @@
         "english": "Mods, come out and clean this up — all garbage posts here."
       }
     ],
-    "platform": "mop"
+    "platform": "tieba"
   },
   {
     "slug": "you-mu-you",
@@ -12307,7 +12307,7 @@
         "english": "The True Fragrance Law confirmed again — said no milk tea last week, had three cups today."
       }
     ],
-    "platform": "douyin"
+    "platform": "wechat"
   },
   {
     "slug": "dai-jie-zou",
@@ -12567,7 +12567,7 @@
         "english": "This brand suddenly went viral — wonder if they can handle the fortune pouring down on them."
       }
     ],
-    "platform": "xiaohongshu"
+    "platform": "wechat"
   },
   {
     "slug": "ting-quan",
@@ -13030,7 +13030,7 @@
         "english": "Good things like this would never come to a lowly rat like me."
       }
     ],
-    "platform": "bilibili"
+    "platform": "tieba"
   },
   {
     "slug": "wa-ya-wa",
@@ -13175,7 +13175,7 @@
         "english": "This outfit looks great — waiting for someone to drop the link."
       }
     ],
-    "platform": "bilibili"
+    "platform": "xiaohongshu"
   },
   {
     "slug": "ma-zhu",
@@ -13377,7 +13377,7 @@
         "english": "The danmu is all 'high energy ahead' — I'm scared to keep watching."
       }
     ],
-    "platform": "tieba"
+    "platform": "bilibili"
   },
   {
     "slug": "ying-gang",
