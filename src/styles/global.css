@@ -682,14 +682,19 @@ a.tag-topic:hover { color: var(--accent); border-color: var(--accent-border); ba
   align-items: center;
   overflow: hidden;
   width: 100%;
+  transition: all 0.3s ease;
+}
+
+/* Desktop leaderboard 728x90 */
+.ad-leaderboard {
   min-height: 0;
   height: auto;
 }
 
-/* Desktop leaderboard 728x90 – height only when ad loads */
-.ad-leaderboard {
-  aspect-ratio: 728 / 90;
-  max-height: 90px;
+/* When ad loads, allow full height */
+.ad-leaderboard ins {
+  min-height: 90px;
+  display: block;
 }
 
 /* Sidebar 300x250 */
@@ -708,22 +713,19 @@ a.tag-topic:hover { color: var(--accent); border-color: var(--accent-border); ba
 
 @media (max-width: 768px) {
   .ad-sidebar { display: none; }
-  .ad-leaderboard {
-    aspect-ratio: 728 / 100;
-    max-height: 100px;
+  .ad-leaderboard ins {
+    min-height: 100px;
   }
   .ad-mobile { display: flex; }
   .ad-container { margin: 20px auto; }
 }
 
 @media (max-width: 480px) {
-  .ad-leaderboard {
-    aspect-ratio: 320 / 60;
-    max-height: 60px;
+  .ad-leaderboard ins {
+    min-height: 60px;
   }
-  .ad-mobile {
-    aspect-ratio: 320 / 60;
-    max-height: 60px;
+  .ad-mobile ins {
+    min-height: 60px;
   }
   .ad-container { margin: 16px auto; }
 }
