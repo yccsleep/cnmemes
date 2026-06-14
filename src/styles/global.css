@@ -674,7 +674,7 @@ a.tag-topic:hover { color: var(--accent); border-color: var(--accent-border); ba
   .meme-grid { grid-template-columns: 1fr; }
 }
 
-/* ─── Google Ads containers – dynamic height ──────────────────── */
+/* ─── Google Ads containers – no forced height, let ads auto-size ─ */
 .ad-container {
   margin: 28px auto;
   display: flex;
@@ -682,7 +682,6 @@ a.tag-topic:hover { color: var(--accent); border-color: var(--accent-border); ba
   align-items: center;
   overflow: hidden;
   width: 100%;
-  transition: all 0.3s ease;
 }
 
 /* Desktop leaderboard 728x90 */
@@ -691,10 +690,8 @@ a.tag-topic:hover { color: var(--accent); border-color: var(--accent-border); ba
   height: auto;
 }
 
-/* When ad loads, allow full height */
 .ad-leaderboard ins {
-  min-height: 90px;
-  display: block;
+  display: inline-block;
 }
 
 /* Sidebar 300x250 */
@@ -713,20 +710,11 @@ a.tag-topic:hover { color: var(--accent); border-color: var(--accent-border); ba
 
 @media (max-width: 768px) {
   .ad-sidebar { display: none; }
-  .ad-leaderboard ins {
-    min-height: 100px;
-  }
   .ad-mobile { display: flex; }
   .ad-container { margin: 20px auto; }
 }
 
 @media (max-width: 480px) {
-  .ad-leaderboard ins {
-    min-height: 60px;
-  }
-  .ad-mobile ins {
-    min-height: 60px;
-  }
   .ad-container { margin: 16px auto; }
 }
 
