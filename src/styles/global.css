@@ -676,12 +676,12 @@ a.tag-topic:hover { color: var(--accent); border-color: var(--accent-border); ba
 
 /* ─── Google Ads containers – no forced height, let ads auto-size ─ */
 .ad-container {
-  margin: 28px auto;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
   width: 100%;
+  margin: 0;
 }
 
 /* Desktop leaderboard 728x90 */
