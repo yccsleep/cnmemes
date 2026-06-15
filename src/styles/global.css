@@ -668,7 +668,6 @@ a.tag-topic:hover { color: var(--accent); border-color: var(--accent-border); ba
   .meme-detail { padding: 40px 24px 64px; }
   .meme-header .cn-name { font-size: 28px; }
   .site-nav a { font-size: 14px; padding: 7px 10px; }
-  .ad-container { margin: 24px auto; }
 }
 
 @media (max-width: 480px) {
@@ -721,11 +720,6 @@ a.tag-topic:hover { color: var(--accent); border-color: var(--accent-border); ba
 @media (max-width: 768px) {
   .ad-sidebar { display: none; }
   .ad-mobile { display: flex; }
-  .ad-container { margin: 20px auto; }
-}
-
-@media (max-width: 480px) {
-  .ad-container { margin: 16px auto; }
 }
 
 /* ─── Share buttons ──────────────────────────────────────────── */
