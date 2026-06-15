@@ -51,7 +51,7 @@ const vibes = [
 const allMemes = [...memes]
   .sort((a, b) => b.year - a.year || b.popularity - a.popularity)
   .map(({ slug, chinese_name, english_name, pinyin, english_explanation, year, status, tags, popularity }) =>
-    ({ slug, chinese_name, english_name, pinyin, english_explanation, year, status, tags, popularity }));
+    ({ slug, chinese_name, english_name, pinyin, english_explanation: english_explanation.slice(0, 180), year, status, tags, popularity }));
 
 // Image memes for search — slim payload
 const allImageMemes = [...imageMemes]

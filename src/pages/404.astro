@@ -10,6 +10,19 @@ const suggestions = [...memes]
 ---
 
 <Base title="Page Not Found" description="This page doesn't exist — but we have 500+ Chinese internet memes that do.">
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "CNMemes — Chinese Meme Dictionary",
+    "url": "https://cnmemes.com",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://cnmemes.com/?search={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  })}></script>
+
   <div style="max-width:600px;margin:0 auto;padding:80px 28px;text-align:center;">
 
     <div style="font-family:var(--font-display);font-size:80px;line-height:1;margin-bottom:16px;">囧</div>
