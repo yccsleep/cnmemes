@@ -686,9 +686,10 @@ a.tag-topic:hover { color: var(--accent); border-color: var(--accent-border); ba
   .meme-grid { grid-template-columns: 1fr; }
 }
 
-/* ─── Google Ads containers – no forced height, let ads auto-size ─ */
+/* ─── Google Ads containers ──────────────────────────────────── */
+/* TODO: delete "display:none" when AdSense account is approved */
 .ad-container {
-  display: contents;
+  display: none;
   width: 100%;
   margin: 0;
 }
