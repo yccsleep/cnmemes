@@ -31,8 +31,8 @@
   --hot-cn:        #c23b22;
 
   /* Typography */
-  --font-display:  'Noto Serif SC', 'Georgia', serif;
-  --font-body:     'Source Sans 3 Variable', 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+  --font-display:  'PingFang SC', 'Noto Serif SC', 'STSong', 'SimSun', 'Georgia', serif;
+  --font-body:     'PingFang SC', 'Microsoft YaHei', 'Source Sans 3 Variable', 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
 
 
   /* Layout */
