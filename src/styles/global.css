@@ -686,22 +686,22 @@ a.tag-topic:hover { color: var(--accent); border-color: var(--accent-border); ba
   .meme-grid { grid-template-columns: 1fr; }
 }
 
-/* ─── Google Ads containers ──────────────────────────────────── */
-/* TODO: delete "display:none" when AdSense account is approved */
+/* ─── Google Ads – auto-show when loaded, hidden when empty ───── */
 .ad-container {
-  display: none;
+  display: block;
   width: 100%;
   margin: 0;
+  text-align: center;
 }
 
-/* Desktop leaderboard 728x90 */
 .ad-leaderboard {
   min-height: 0;
   height: auto;
 }
 
-.ad-leaderboard ins {
-  display: inline-block;
+/* Hide empty ad slots — they auto-appear when AdSense serves an ad */
+.ad-leaderboard ins:empty {
+  display: none;
 }
 
 /* Sidebar 300x250 */
