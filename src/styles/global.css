@@ -206,6 +206,72 @@ img { max-width: 100%; }
   transform: scale(1.05);
 }
 
+/* ─── Hamburger menu (mobile) ────────────────────────────────── */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.hamburger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--text);
+  border-radius: 2px;
+  transition: all 0.25s ease;
+}
+
+.hamburger[aria-expanded="true"] span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.hamburger[aria-expanded="true"] span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger[aria-expanded="true"] span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+@media (max-width: 768px) {
+  .hamburger { display: flex; }
+  .site-nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--surface);
+    border-bottom: 1.5px solid var(--border);
+    flex-direction: column;
+    padding: 12px 20px 16px;
+    gap: 4px;
+    box-shadow: var(--shadow-lg);
+    z-index: 99;
+  }
+  .site-nav.nav-open { display: flex; }
+  .site-nav a {
+    padding: 12px 16px;
+    font-size: 16px;
+    border-radius: var(--radius);
+  }
+  .site-nav a:hover { background: var(--bg-subtle); text-decoration: none; }
+  .site-nav .theme-btn {
+    margin: 8px 0 0;
+    align-self: flex-start;
+    padding: 10px 16px;
+    font-size: 16px;
+  }
+  .header-inner { position: relative; }
+}
+
 /* ─── Hero ───────────────────────────────────────────────────── */
 .hero {
   text-align: center;
@@ -638,9 +704,6 @@ a.tag-topic:hover { color: var(--accent); border-color: var(--accent-border); ba
   .header-inner { padding: 12px 16px; }
   .logo-cn { font-size: 17px; white-space: nowrap; }
   .logo-divider, .logo-en { display: none; }
-  .site-nav { gap: 4px; }
-  .site-nav a { padding: 10px 10px; font-size: 13px; white-space: nowrap; }
-  .theme-btn { flex-shrink: 0; padding: 8px 12px; margin-left: 0; }
   .hero { padding: 40px 20px 28px; }
   .hero p { font-size: 15px; line-height: 1.65; margin-bottom: 16px; }
   .meme-grid { grid-template-columns: repeat(2, 1fr); gap: 14px; }
@@ -672,9 +735,6 @@ a.tag-topic:hover { color: var(--accent); border-color: var(--accent-border); ba
 }
 
 @media (max-width: 480px) {
-  /* Show fewer nav items, ensure touch-friendly sizing */
-  .site-nav a[href="/image-memes"] { display: none; }
-  .site-nav a { font-size: 13px; padding: 10px 10px; }
   .year-pills { gap: 8px; }
   .year-pill { padding: 10px 16px; font-size: 13px; }
   .hero h1 { font-size: 24px; }

@@ -126,7 +126,10 @@ const fullTitle = `${title} | CNMemes`;
         <span class="logo-divider"></span>
         <span class="logo-en">CNMemes</span>
       </a>
-      <nav class="site-nav" aria-label="Main navigation">
+      <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="siteNav" aria-label="Main navigation">
         <a href="/top-memes">Top Memes</a>
         <a href="/image-memes">Image Memes</a>
         <a href="/platforms">Platforms</a>
@@ -135,6 +138,24 @@ const fullTitle = `${title} | CNMemes`;
       </nav>
     </div>
   </header>
+
+  <script is:inline>
+    // Hamburger menu toggle
+    (function(){
+      const btn = document.getElementById('hamburgerBtn');
+      const nav = document.getElementById('siteNav');
+      if (btn && nav) {
+        btn.addEventListener('click', function(){
+          const open = nav.classList.toggle('nav-open');
+          btn.setAttribute('aria-expanded', open);
+        });
+        // Close on nav link click
+        nav.querySelectorAll('a').forEach(function(a){
+          a.addEventListener('click', function(){ nav.classList.remove('nav-open'); btn.setAttribute('aria-expanded','false'); });
+        });
+      }
+    })();
+  </script>
 
   <script>
     // Dark mode: persist preference, default light
