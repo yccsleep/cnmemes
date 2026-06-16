@@ -241,7 +241,7 @@ img { max-width: 100%; }
 }
 
 @media (max-width: 768px) {
-  .hamburger { display: flex; }
+  .hamburger { display: flex; margin-left: auto; }
   .site-nav {
     display: none;
     position: absolute;
