@@ -129,12 +129,12 @@ const fullTitle = `${title} | CNMemes`;
       <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
+      <button id="themeToggle" aria-label="Toggle dark mode" class="theme-btn">🌙</button>
       <nav class="site-nav" id="siteNav" aria-label="Main navigation">
         <a href="/top-memes">Top Memes</a>
         <a href="/image-memes">Image Memes</a>
         <a href="/platforms">Platforms</a>
         <a href="/about">About</a>
-        <button id="themeToggle" aria-label="Toggle dark mode" class="theme-btn">🌙</button>
       </nav>
     </div>
   </header>
@@ -184,7 +184,7 @@ const fullTitle = `${title} | CNMemes`;
   <footer class="site-footer">
     <div class="container">
       <div class="footer-links">
-        <div style="flex:2;min-width:220px;max-width:480px;">
+        <div class="footer-col">
           <div class="footer-col-title">Browse by Topic</div>
           <div class="footer-col-links">
             <a href="/tag/workplace">Workplace</a>
@@ -203,7 +203,7 @@ const fullTitle = `${title} | CNMemes`;
             <a href="/tag/lifestyle">Lifestyle</a>
           </div>
         </div>
-        <div style="flex-shrink:0;text-align:left;">
+        <div class="footer-col">
           <div class="footer-col-title">Pages</div>
           <div class="footer-col-links">
             <a href="/memes">All Memes</a>
