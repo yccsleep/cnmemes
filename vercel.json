@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "/:path((?!ads\\.txt).*)",
+      "has": [{ "type": "host", "value": "cnmemes.com" }],
+      "destination": "https://www.cnmemes.com/:path",
+      "permanent": true
+    }
+  ]
+}
