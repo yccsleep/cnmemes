@@ -16562,5 +16562,39 @@
         "english": "He started reviewing the night before the exam and got first place. Absolutely smashed it."
       }
     ]
+  },
+  {
+    "slug": "bei-shou-fu-shu",
+    "chinese_name": "背手负鼠",
+    "pinyin": "bèi shǒu fù shǔ",
+    "english_name": "Hands-Behind-Back Possum / The Dignified Defeat Meme",
+    "year": 2026,
+    "status": "still popular",
+    "tags": [
+      "self-deprecation",
+      "workplace",
+      "humor"
+    ],
+    "popularity": 5,
+    "platform": "xiaohongshu",
+    "chinese_explanation": "2026年最火的打工人精神动物。一只误闯民宅的北美负鼠背手直立的照片走红网络，配以窝囊又体面的文案如'事情终于有了新的退展'，完美代言了年轻人表面从容、内心崩溃的生活状态。",
+    "english_explanation": "背手负鼠 (Hands-Behind-Back Possum) is the spiritual animal of the Chinese worker in 2026. The meme originated from a photograph of a North American possum that had wandered into someone's home and was captured standing on its hind legs, paws clasped behind its back like a middle manager surveying a failing project. The posture is impossibly human: dignified, contemplative, slightly defeated — the body language of someone who has accepted their circumstances with exhausted grace. The possum's pose launched a thousand captions, each funnier and more painfully relatable than the last: '事情终于有了新的退展' (things have finally taken a new step backward), '我能扛起什么责任，我是个溜肩啊' (what responsibility can I shoulder, I have sloping shoulders), '收到，办不到' (received, won't do). The possum became the icon of a specific mid-2020s mood: not angry, not desperate, just... managing. Still standing. Hands behind back. Waiting for the next thing to go wrong with quiet, philosophical resignation.",
+    "cultural_context": "The possum joins a lineage of Chinese internet spirit animals that chart the emotional trajectory of a generation: 鼠鼠 (the rat, representing卑微 self-deprecation), 吗喽 (the monkey, representing愤怒 resistance), 卡皮巴拉 (the capybara, representing佛系 tranquility), and now 背手负鼠 — the possum, representing体面窝囊 (dignified defeat). Each animal marks a different strategy for coping with a world that refuses to cooperate. The possum's specific genius is its ambiguity. Is it dignified or pathetic? Resigned or strategizing? The hands behind the back could be a gesture of patience or of restraint. This ambiguity is what makes it such a versatile meme template. The meme's explosion on Xiaohongshu (41.6万 discussions, 8000万 views) and its adoption by brands from 安慕希 to 王者荣耀 confirms its status as 2026's defining visual meme.",
+    "origin_story": "The original photograph was taken by a homeowner in North America who found a possum in their house standing in this remarkably human pose. The image circulated on English-language internet before being discovered by Chinese netizens, who immediately recognized its meme potential. It exploded on Xiaohongshu in May 2026, with users competing to write the most painfully relatable captions. The possum was quickly adopted by corporate social media accounts (安慕希, 名创优品, 王者荣耀, 淘宝) for their own marketing, and by June it had become the undisputed meme of the year.",
+    "similar_expressions": [
+      "卡皮巴拉 (kǎ pí bā lā)",
+      "吗喽 (ma lóu)",
+      "鼠鼠 (shǔ shǔ)"
+    ],
+    "examples": [
+      {
+        "chinese": "领导问项目进度，我：事情终于有了新的退展。配图背手负鼠。",
+        "english": "Boss asks about project progress. Me: Things have finally taken a new step backward. [attaches possum image]"
+      },
+      {
+        "chinese": "加完班站在公司门口等车，我就是那只背手负鼠。",
+        "english": "Standing outside the office waiting for my ride after overtime — I am that possum."
+      }
+    ]
   }
 ]
