@@ -2656,38 +2656,6 @@
     "origin_story": "友谊的小船说翻就翻 (The Ship of Friendship Capsizes Without Warning) went viral in early 2016, originating from a series of illustrations by cartoonist 喃东尼 that depicted two penguin friends whose friendship 'ship' suddenly capsizes over minor disagreements. The illustrations were endlessly remixed with different scenarios — the friend who doesn't repay money, the friend who spoils TV shows, the friend who eats your food without asking. The meme's runaway popularity led to a registered trademark battle, with multiple companies filing for the phrase."
   },
   {
-    "slug": "hong-huang-zhi-li",
-    "chinese_name": "洪荒之力",
-    "pinyin": "hóng huāng zhī lì",
-    "english_name": "Primordial Force / The Power of Chaos",
-    "year": 2016,
-    "status": "classic",
-    "tags": [
-      "fandom",
-      "humor",
-      "workplace"
-    ],
-    "chinese_explanation": "源自傅园慧奥运采访，形容用尽全身力气、竭尽所能的夸张表达，带有自嘲和幽默色彩。",
-    "english_explanation": "When Chinese swimmer Fu Yuanhui told a reporter at the 2016 Rio Olympics that she had used her 'primordial force' to win bronze, she accidentally launched a meme for the ages. The phrase, borrowed from ancient mythology to describe the raw energy at the dawn of creation, became the go-to hyperbole for anyone who has ever given absolutely everything — at the gym, at work, or just getting out of bed on a Monday morning.",
-    "cultural_context": "Fu Yuanhui's candid, hilariously expressive post-race interview broke the mold of the typically composed Chinese athlete. Her unscripted enthusiasm resonated widely on social media, where younger Chinese netizens were hungry for authenticity. The meme also tapped into a broader 'lying flat' era mood — the irony of invoking cosmic, universe-birthing energy just to survive everyday exhaustion. The term originated and spread primarily on Weibo.",
-    "examples": [
-      {
-        "chinese": "我已经用尽洪荒之力了，这份报告终于写完了。",
-        "english": "I've unleashed my primordial force — I finally finished this report."
-      },
-      {
-        "chinese": "减肥这件事我用了洪荒之力，结果只瘦了一斤。",
-        "english": "I summoned the primordial force of the universe to lose weight, and I dropped a whole pound."
-      }
-    ],
-    "popularity": 5,
-    "origin_story": "Swimmer Fu Yuanhui's post-race interview at the 2016 Rio Olympics became instantly iconic when she said she had used her '洪荒之力' (primordial/prehistoric power) — ancient Chinese mythological energy from before time itself. The mismatch between ancient cosmic power and swimming a race in a pool was perfectly absurd.",
-    "similar_expressions": [
-      "Like pulling energy from the universe itself — hyperbolic beyond 'I gave 110%.' The mythological reference (primordial chaos energy from Chinese cosmology) gave it cosmic weight that transcended sports."
-    ],
-    "platform": "weibo"
-  },
-  {
     "slug": "li-hai-le-wo-de-ge",
     "chinese_name": "厉害了我的哥",
     "pinyin": "lì hài le wǒ de gē",
@@ -14191,38 +14159,6 @@
     "platform": "weibo"
   },
   {
-    "slug": "zhen-xiang-ding-lv",
-    "chinese_name": "真香定律",
-    "pinyin": "zhēn xiāng dìng lǜ",
-    "english_name": "The True Fragrance Law / You'll Always Come Around",
-    "year": 2018,
-    "status": "classic",
-    "popularity": 4,
-    "tags": [
-      "humor",
-      "internet-culture",
-      "self-deprecation"
-    ],
-    "chinese_explanation": "源自真香梗，指人们总会对自己曾经否定的事物产生兴趣的普遍规律，是真香现象的总结性定律。",
-    "english_explanation": "The universal law derived from \"真香\": you will inevitably like the thing you said you'd never like.  Emerging around 2018, stated formally as a law of human nature, it predicts with certainty that declared aversions will become attractions given enough time.\n\n'真香定律' is invoked prophetically ('the True Fragrance Law says you'll love this') or retrospectively ('and the True Fragrance Law strikes again'). It's both a joke about human inconsistency and a genuine psychological observation.",
-    "cultural_context": "The formalization of 真香 into a 定律 (law) reflects Chinese internet's love of systematizing humor — taking a joke and giving it the weight of natural law. The 真香定律 acknowledges that everyone has Wang Jingze moments, that declarations of 'never' are essentially promissory notes to your future self who will eat their words.",
-    "similar_expressions": [
-      "Like 'never say never,' 'you'll come around,' or 'give it time.' The 'law' framing elevates it from individual experience to universal principle — it's not that you specifically will change your mind, it's that this is how humans work."
-    ],
-    "examples": [
-      {
-        "chinese": "真香定律从不失效，你迟早会喜欢上的。",
-        "english": "The True Fragrance Law never fails — you'll like it eventually."
-      },
-      {
-        "chinese": "又一次印证了真香定律，上周说不喝奶茶，今天喝了三杯。",
-        "english": "The True Fragrance Law confirmed again — said no milk tea last week, had three cups today."
-      }
-    ],
-    "platform": "wechat",
-    "origin_story": "The '真香定律' (True Fragrance Law) was formalized on WeChat around 2018 as a pseudo-scientific principle derived from the viral 真香 (true fragrance) meme featuring Wang Jingze, a young man from the rural reality show '变形计' (X-Change) who declared he would rather starve than eat rural food — then immediately tucked in with enthusiasm, declaring '真香!' (truly fragrant/delicious!). The formalization of this moment into a 'law' reflected Chinese internet culture's love of systematizing humor — taking a joke and giving it the weight of natural science. The True Fragrance Law states with certainty that declared aversions will become attractions given enough time, that 'I will never' statements are essentially promissory notes to a future self who will enthusiastically do the thing being rejected. The law is invoked both prophetically ('the True Fragrance Law says you'll love this') and retrospectively ('the True Fragrance Law strikes again'), creating a framework that transforms individual inconsistency into universal human nature. The joke works because everyone recognizes the pattern in themselves — the law's predictive power derives from shared experience of being wrong about what we will and will not like, elevated to the status of inescapable fate."
-  },
-  {
     "slug": "dai-jie-zou",
     "chinese_name": "带节奏",
     "pinyin": "dài jié zòu",
@@ -15697,39 +15633,6 @@
     ]
   },
   {
-    "slug": "jiong",
-    "chinese_name": "囧",
-    "pinyin": "jiǒng",
-    "english_name": "Awkward / The Jiong Meme",
-    "year": 2008,
-    "status": "still popular",
-    "tags": [
-      "humor",
-      "internet-culture"
-    ],
-    "popularity": 4,
-    "platform": "weibo",
-    "chinese_explanation": "象形文字'囧'代表尴尬的表情，像两个大眼睛张开的脸。衍生出了整个网络表情梗文化。",
-    "english_explanation": "A Chinese character that resembles a face with bulging eyes expressing awkwardness or embarrassment.  Emerging around 2008, became the foundation for an entire visual meme culture and emoticon language online.",
-    "examples": [
-      {
-        "chinese": "看到这个结果我的脸就像囧字。",
-        "english": "When I saw that result, my face looked just like 囧."
-      },
-      {
-        "chinese": "😦囧 这就是我现在的表情。",
-        "english": "😦 That's literally my face right now."
-      }
-    ],
-    "cultural_context": "囧 is the ur-meme of the Chinese internet — a character that predates the web by over two millennia, repurposed by a generation of netizens who saw a face where their ancestors saw a window. The original meaning of 囧 (jiǒng) was 'bright' or 'patterned window,' but its modern life began when users on early Chinese forums noticed that the character's visual form — a square frame with two slanted strokes inside — uncannily resembled a face with wide-open eyes and a downturned mouth.\n\nThis moment of collective pareidolia sparked an explosion of creativity: 囧 became the foundation for emoticon sets, sticker packs, merchandise, and even a 2008 movie titled '囧男孩' (Orz Boyz). The character's ability to convey complex emotions — awkwardness, embarrassment, speechlessness, gentle despair — with a single glyph made it the perfect vehicle for a text-based internet culture that valued efficiency and wit. 囧's legacy is visible in every Chinese emoji keyboard and sticker app today; it proved that ancient characters could be reborn as digital-native expression. The term originated and spread primarily on Weibo.",
-    "origin_story": "囧's transformation from obscure classical character to internet sensation began around 2005-2006 on Taiwanese forums and quickly spread to mainland Chinese platforms like Tianya and Tieba. Users posted the character as a standalone reaction to awkward situations, and its visual similarity to the Japanese emoticon orz (a kneeling, defeated figure) created a natural association. By 2008, 囧 had become so ubiquitous that it appeared in mainstream advertising, television shows, and even academia as a case study of internet-driven semantic change.",
-    "similar_expressions": [
-      "orz",
-      "233 (ér sān sān)",
-      "无语 (wú yǔ)"
-    ]
-  },
-  {
     "slug": "du-fu-hen-mang",
     "chinese_name": "杜甫很忙",
     "pinyin": "Dù Fǔ hěn máng",
@@ -16590,40 +16493,6 @@
       {
         "chinese": "方案改了第八版，客户说还是用第一版。如何呢又能怎。",
         "english": "Eighth revision of the proposal, client says let's go with the first version. So what, what can you do."
-      }
-    ]
-  },
-  {
-    "slug": "bei-shou-fu-shu",
-    "chinese_name": "背手负鼠",
-    "pinyin": "bèi shǒu fù shǔ",
-    "english_name": "Hands-Behind-Back Possum / The Dignified Defeat Meme",
-    "year": 2026,
-    "status": "still popular",
-    "tags": [
-      "self-deprecation",
-      "workplace",
-      "humor"
-    ],
-    "popularity": 5,
-    "platform": "xiaohongshu",
-    "chinese_explanation": "2026年最火的打工人精神动物。一只误闯民宅的北美负鼠背手直立的照片走红网络，配以窝囊又体面的文案如'事情终于有了新的退展'，完美代言了年轻人表面从容、内心崩溃的生活状态。",
-    "english_explanation": "背手负鼠 (Hands-Behind-Back Possum) is the spiritual animal of the Chinese worker in 2026. The meme originated from a photograph of a North American possum that had wandered into someone's home and was captured standing on its hind legs, paws clasped behind its back like a middle manager surveying a failing project. The posture is impossibly human: dignified, contemplative, slightly defeated — the body language of someone who has accepted their circumstances with exhausted grace.\n\nThe possum's pose launched a thousand captions, each funnier and more painfully relatable than the last: '事情终于有了新的退展' (things have finally taken a new step backward), '我能扛起什么责任，我是个溜肩啊' (what responsibility can I shoulder, I have sloping shoulders), '收到，办不到' (received, won't do). The possum became the icon of a specific mid-2020s mood: not angry, not desperate, just... managing. Still standing. Hands behind back. Waiting for the next thing to go wrong with quiet, philosophical resignation.",
-    "cultural_context": "The possum joins a lineage of Chinese internet spirit animals that chart the emotional trajectory of a generation: 鼠鼠 (the rat, representing卑微 self-deprecation), 吗喽 (the monkey, representing愤怒 resistance), 卡皮巴拉 (the capybara, representing佛系 tranquility), and now 背手负鼠 — the possum, representing体面窝囊 (dignified defeat). Each animal marks a different strategy for coping with a world that refuses to cooperate.\n\nThe possum's specific genius is its ambiguity. Is it dignified or pathetic? Resigned or strategizing? The hands behind the back could be a gesture of patience or of restraint. This ambiguity is what makes it such a versatile meme template — it can express any flavor of modern malaise while maintaining plausible deniability about how you really feel. The meme's explosion on Xiaohongshu (41.6万 discussions, 8000万 views) and its adoption by brands from 安慕希 to 王者荣耀 confirms its status as 2026's defining visual meme.",
-    "origin_story": "The original photograph was taken by a homeowner in North America who found a possum in their house standing in this remarkably human pose. The image circulated on English-language internet before being discovered by Chinese netizens, who immediately recognized its meme potential. It exploded on Xiaohongshu in May 2026, with users competing to write the most painfully relatable captions. The possum was quickly adopted by corporate social media accounts (安慕希, 名创优品, 王者荣耀, 淘宝) for their own marketing, and by June it had become the undisputed meme of the year.",
-    "similar_expressions": [
-      "卡皮巴拉 (kǎ pí bā lā)",
-      "吗喽 (ma lóu)",
-      "鼠鼠 (shǔ shǔ)"
-    ],
-    "examples": [
-      {
-        "chinese": "领导问项目进度，我：事情终于有了新的退展。配图背手负鼠。",
-        "english": "Boss asks about project progress. Me: Things have finally taken a new step backward. [attaches possum image]"
-      },
-      {
-        "chinese": "加完班站在公司门口等车，我就是那只背手负鼠。",
-        "english": "Standing outside the office waiting for my ride after overtime — I am that possum."
       }
     ]
   },
