@@ -16732,5 +16732,339 @@
         "english": "Don't want to be a provider, don't want to be a simp. Are there no normal relationships anymore?"
       }
     ]
+  },
+  {
+    "slug": "ji-ni-tai-mei",
+    "chinese_name": "鸡你太美",
+    "pinyin": "jī nǐ tài měi",
+    "english_name": "Chicken You're Too Beautiful / Cai Xukun Air-Ear Meme",
+    "year": 2019,
+    "status": "still popular",
+    "tags": [
+      "fandom",
+      "humor",
+      "internet-culture"
+    ],
+    "popularity": 5,
+    "platform": "bilibili",
+    "chinese_explanation": "蔡徐坤在《偶像练习生》中演唱只因你太美，因语速快被空耳成鸡你太美。配以篮球舞的魔性画面，成为2019年现象级全网玩梗，至今仍是中国互联网最具辨识度的空耳梗之一。",
+    "english_explanation": "鸡你太美 (Chicken You're Too Beautiful) is arguably the most successful 空耳 (air-ear / phonetic mishearing) meme in Chinese internet history. In 2019, Cai Xukun (蔡徐坤), a massively popular idol, appeared in a talent show clip singing '只因你太美' (zhǐ yīn nǐ tài měi, only because you're too beautiful). Delivered at speed with Cai's distinctive intonation, the line sounded unmistakably like '鸡你太美' (jī nǐ tài měi, chicken you're too beautiful). The accompanying video of Cai performing an earnest, slightly awkward basketball-themed dance made the meme inescapable. The meme exploded on Bilibili, where creators produced thousands of remixes: Cai dunking on NBA legends, the audio dubbed over nature documentaries, the dance inserted into movie scenes. Cai Xukun's agency sent legal notices to Bilibili, which only amplified the meme through the Streisand effect. Despite periodic crackdowns, 鸡你太美 has survived five-plus years and remains instantly recognizable to virtually every Chinese internet user under 35.",
+    "cultural_context": "鸡你太美 represents the apex of Chinese internet 空耳 culture — the art of creatively mishearing lyrics to create absurd new meanings. While 空耳 has been a feature of Chinese internet culture since the early forum days, 鸡你太美 elevated it to a national sport. The legal threats from Cai's agency added a layer of forbidden-fruit appeal, making the meme not just a joke but a minor cultural battleground over who controls a public figure's image.",
+    "origin_story": "The original clip came from 偶像练习生 (Idol Producer), a 2018 survival show where Cai Xukun was a contestant and eventual winner. In his introductory performance, he sang an original song containing '只因你太美.' The combination of rapid delivery and distinctive vocal style created perfect conditions for the 空耳. The clip went viral on Bilibili in early 2019. Cai's selection as NBA Chinese New Year ambassador provided the basketball connection. Legal threats from Cai's agency in April 2019 were met with mockery, cementing the meme's status as an act of cultural defiance.",
+    "similar_expressions": [
+      "只因你太美 (zhǐ yīn nǐ tài měi)",
+      "空耳 (kōng ěr)",
+      "律师函警告 (lǜ shī hán jǐng gào)"
+    ],
+    "examples": [
+      {
+        "chinese": "他在KTV唱了只因你太美，全场喊：鸡你太美！",
+        "english": "He sang the Cai Xukun song at KTV. The whole room shouted: CHICKEN YOU'RE TOO BEAUTIFUL!"
+      },
+      {
+        "chinese": "五年了，鸡你太美从梗变成了非物质文化遗产。",
+        "english": "Five years later, Chicken You're Too Beautiful has evolved from a meme into intangible cultural heritage."
+      }
+    ]
+  },
+  {
+    "slug": "shen-ma-dou-shi-fu-yun",
+    "chinese_name": "神马都是浮云",
+    "pinyin": "shén mǎ dōu shì fú yún",
+    "english_name": "Everything is Just Floating Clouds / Nothing Matters",
+    "year": 2010,
+    "status": "classic",
+    "tags": [
+      "self-deprecation",
+      "humor"
+    ],
+    "popularity": 5,
+    "platform": "tieba",
+    "chinese_explanation": "什么的谐音，2010年年度网络热词。神马都是浮云表达一切皆虚幻、不必太在意的豁达态度，成为一代人的口头禅和QQ签名标配。",
+    "english_explanation": "神马都是浮云 (Even Divine Horses are Just Floating Clouds / Everything is Fleeting) was the defining catchphrase of 2010. The phrase layers two linguistic innovations: 神马 (shén mǎ, divine horse) is a deliberate mispronunciation of 什么 (shén me, what/everything), and 浮云 (fú yún, floating clouds) is a classical Chinese metaphor for transient, illusory things. Together they form a complete philosophy: nothing really matters, everything passes, don't take it too seriously. The phrase captured a specific post-2008 Chinese mood — ironic detachment from grades, jobs, relationships, money. It appeared everywhere: QQ signatures, forum posts, Weibo, even official media. By end of 2010, it was the #1 internet catchphrase of the year.",
+    "cultural_context": "神马都是浮云 belongs to the golden age of Chinese internet 谐音 culture. The 浮云 metaphor connects the phrase to a thousand-year literary tradition — clouds as transience symbols in Chinese poetry since the Tang Dynasty — giving the meme cultural depth that purely internet-native terms lack. It is simultaneously deeply traditional and aggressively contemporary.",
+    "origin_story": "The phrase emerged from Tieba in mid-2010 and spread to Weibo and QQ. Its exact origin is disputed, but consensus traces it to a Tieba post where a user dismissed an argument with '神马都是浮云, 何必较真.' The phrase's brevity and philosophical tone made it highly quotable, and it became the default way to express detached indifference online.",
+    "similar_expressions": [
+      "浮云 (fú yún)",
+      "淡定 (dàn dìng)",
+      "无所谓 (wú suǒ wèi)"
+    ],
+    "examples": [
+      {
+        "chinese": "考试没考好？神马都是浮云，下学期再来。",
+        "english": "Failed the exam? Everything is floating clouds, try again next semester."
+      },
+      {
+        "chinese": "2010年的QQ签名清一色都是神马都是浮云。",
+        "english": "Every QQ signature in 2010 was uniformly: Everything is floating clouds."
+      }
+    ]
+  },
+  {
+    "slug": "yi-yan-bu-he-jiu",
+    "chinese_name": "一言不合就",
+    "pinyin": "yī yán bù hé jiù",
+    "english_name": "At the Slightest Disagreement / Trigger-Happy Prefix",
+    "year": 2016,
+    "status": "classic",
+    "tags": [
+      "humor",
+      "internet-culture"
+    ],
+    "popularity": 4,
+    "platform": "weibo",
+    "chinese_explanation": "2016年流行语，原指话不投机就动手，后被扩展为万能前缀：一言不合就开车、就辞职、就发自拍。夸张表达动不动就做某事的行为模式。",
+    "english_explanation": "一言不合就X (At the Slightest Disagreement, Just X) was the great action-prefix of 2016. Originally meaning 'the conversation went badly so they started fighting,' it was repurposed as a template for any impulsive, disproportionate, or amusingly abrupt behavior. Variations included: 一言不合就开车 (start making dirty jokes), 一言不合就辞职 (quit), 一言不合就发自拍 (post selfies), 一言不合就发红包 (send money). The humor came from the gap between the dramatic setup and the trivial action. The template remains in active use whenever someone wants to frame an action as amusingly impulsive.",
+    "cultural_context": "一言不合就X exemplifies the Chinese internet's love of structural templates — fixed linguistic frames that can be infinitely filled with variable content. This template-based humor is characteristic of Chinese internet culture, where the ability to produce a clever variation on a known pattern is valued as highly as creating something entirely new.",
+    "origin_story": "一言不合 is a classical Chinese idiom describing people who come to blows over minor verbal disputes. Its modern internet career began on Weibo in early 2016 when users appended absurd actions to the classical setup. The template's flexibility made it instantly popular, and by mid-2016 it was one of the most-used comment formats on Chinese social media.",
+    "similar_expressions": [
+      "动不动就 (dòng bù dòng jiù)",
+      "说X就X (shuō X jiù X)",
+      "主打一个 (zhǔ dǎ yī gè)"
+    ],
+    "examples": [
+      {
+        "chinese": "一言不合就辞职，这届年轻人是真的勇。",
+        "english": "Quitting at the slightest disagreement — this generation is truly fearless."
+      },
+      {
+        "chinese": "别人一言不合就发自拍，我一言不合就发吃的。",
+        "english": "Others post selfies, I post food pics at the slightest provocation."
+      }
+    ]
+  },
+  {
+    "slug": "wo-ke-neng-xx-le-jia-xx",
+    "chinese_name": "我可能XX了假XX",
+    "pinyin": "wǒ kě néng XX le jiǎ XX",
+    "english_name": "I Might Have X'd a Fake X / Fake Everything Meme",
+    "year": 2017,
+    "status": "classic",
+    "tags": [
+      "self-deprecation",
+      "humor"
+    ],
+    "popularity": 4,
+    "platform": "weibo",
+    "chinese_explanation": "2017年流行句式。我可能喝了假酒/读了假书/考了假试——用假字自嘲一切不如意。源自游戏玩家装备强化失败后的吐槽，后演变为对生活的全面自嘲。",
+    "english_explanation": "我可能XX了假XX (I Might Have X'd a Fake X) was the self-deprecation template of 2017. Take any disappointment, re-frame it as having received a counterfeit version of reality. Failed the exam? 'I might have studied a fake textbook.' Relationship falling apart? 'I might be dating a fake girlfriend.' Everything going wrong? 'I might be living a fake life.' The meme's genius was its inversion of blame: if things aren't working, it's not your fault, you just got the counterfeit version of existence. It offered a face-saving way to acknowledge defeat through absurdist humor.",
+    "cultural_context": "我可能XX了假XX is part of a long Chinese internet tradition of creative self-deprecation. By framing failure through absurdism (the textbook was counterfeit!), the speaker disarms criticism while inviting shared laughter. The template coincided with a cultural moment of young Chinese embracing ironic failure narratives alongside 佛系 and 丧 culture.",
+    "origin_story": "The template originated in Chinese gaming communities in late 2016, where players whose equipment enhancement attempts failed complained of using 'fake enhancement stones.' It jumped to Weibo in early 2017 when a user posted '我可能喝了假酒' after a disappointing night. The template went viral within days.",
+    "similar_expressions": [
+      "假的假的 (jiǎ de jiǎ de)",
+      "尊嘟假嘟 (zūn dū jiǎ dū)",
+      "佛系 (fó xì)"
+    ],
+    "examples": [
+      {
+        "chinese": "复习了一周考了59。我可能读了假书。",
+        "english": "Studied a week, scored 59. I might have read a fake textbook."
+      },
+      {
+        "chinese": "今天周五？我可能过了假的一周。",
+        "english": "It's Friday already? I might have lived a fake week."
+      }
+    ]
+  },
+  {
+    "slug": "wang-yi-yun",
+    "chinese_name": "网抑云",
+    "pinyin": "wǎng yì yún",
+    "english_name": "NetEase Cloud Depression / Emo Comment Culture",
+    "year": 2020,
+    "status": "still popular",
+    "tags": [
+      "self-deprecation",
+      "humor",
+      "internet-culture"
+    ],
+    "popularity": 5,
+    "platform": "weibo",
+    "chinese_explanation": "网易云音乐的讽刺称呼。网抑云谐音网易云，抑指抑郁。嘲讽该平台歌曲评论区充斥着假装抑郁、无病呻吟的悲情文学，每到深夜就有大量emo文字涌现。",
+    "english_explanation": "网抑云 (NetEase Depression Cloud) is the most devastating brand mockery in Chinese internet history. One character edit: take 网易云音乐 (NetEase Cloud Music), replace 易 (yì, easy) with 抑 (yì, depressed), and you've renamed a major music platform as a mental health crisis. The term emerged around 2020 when users noticed NetEase Cloud Music's comment sections had become a competitive depression marketplace — every song, no matter how upbeat, had users competing to be the most tragically broken. The classic 网抑云 comment: 'I'm XX years old, burdened with debt, my girlfriend left me, my cat died, listening to this on the rooftop.' The more tragic, the more likes. 8pm became designated '网抑云 time.' NetEase responded with content moderation and a healing mode, but the label stuck. It's now shorthand for any performative online sadness.",
+    "cultural_context": "网抑云 is simultaneously a critique of performative sadness and documentation of genuine loneliness among young Chinese. The line between faking depression for likes and actually being depressed is impossible to draw. The term reflects cultural skepticism toward public emotional display while pointing to real psychological distress. It's a joke about mental health that is itself a symptom of the thing it's joking about.",
+    "origin_story": "The term was coined on Weibo in 2020, playing on the 网易/网抑 homophone. It went viral after users compiled screenshots of the most absurdly tragic NetEase comments — a 14-year-old claiming to have experienced the worst pain life can offer, divorces described in graphic detail under love songs. NetEase acknowledged the term and introduced a Soul Healing Station feature partly in response.",
+    "similar_expressions": [
+      "emo (ē mò)",
+      "深夜emo (shēn yè ē mò)",
+      "丧文化 (sàng wén huà)"
+    ],
+    "examples": [
+      {
+        "chinese": "晚上八点了，网抑云时间到。今天你emo了吗？",
+        "english": "It's 8pm, NetEase Depression time. Have you emo'd today?"
+      },
+      {
+        "chinese": "打开网抑云，随便一首歌的评论区都比我的日记伤感。",
+        "english": "Open NetEase Depression Cloud, any song's comment section is sadder than my diary."
+      }
+    ]
+  },
+  {
+    "slug": "ni-shi-wo-de-shen",
+    "chinese_name": "你是我的神",
+    "pinyin": "nǐ shì wǒ de shén",
+    "english_name": "You Are My God / Excessive Worship Meme",
+    "year": 2022,
+    "status": "still popular",
+    "tags": [
+      "fandom",
+      "humor"
+    ],
+    "popularity": 4,
+    "platform": "weibo",
+    "chinese_explanation": "源自2022年综艺节目中海清对欧豪单膝跪地、双手合十说出你是我的神的名场面。因其过度夸张的崇拜姿态成为万能玩梗模板，用于讽刺过度追捧或表达夸张赞美。",
+    "english_explanation": "你是我的神 (You Are My God) is the sound of admiration becoming so intense it becomes comedy. In a 2022 variety show, veteran actress Hai Qing (海清) spontaneously knelt before young actor Ou Hao (欧豪), clasped her hands in prayer, and declared with trembling sincerity: '你是我的神!' The sheer disproportion between the gesture (religious worship) and context (reality TV) created an instant classic. The clip went viral, and netizens began deploying the phrase for any situation requiring absurdly excessive praise: a friend who brought coffee is your god, a coworker who fixed the printer is your god. The phrase's power comes from its complete ambiguity — impossible to tell if sincere or sarcastic.",
+    "cultural_context": "你是我的神 joined the pantheon of Chinese variety show moments that became permanent internet vocabulary, alongside 真香 (Wang Jingze eating his words) and 我不要你觉得我要我觉得 (Huang Xiaoming). The meme reflects the Chinese internet's tendency to use hyperbolic worship language ironically, having exhausted sincere superlatives through years of fan culture inflation.",
+    "origin_story": "The moment occurred during a 2022 episode of 演员请就位. Hai Qing, serving as a mentor, was so moved by Ou Hao's performance that she walked to the stage and performed spontaneous secular worship — kneeling, clasped hands, voice trembling. The clip was immediately screenshotted and shared across Weibo, Douyin, and Bilibili. By end of 2022, it was one of the year's most-referenced variety show moments.",
+    "similar_expressions": [
+      "真香 (zhēn xiāng)",
+      "YYDS (yǒng yuǎn de shén)",
+      "封神 (fēng shén)"
+    ],
+    "examples": [
+      {
+        "chinese": "同事帮我改了PPT，我差点跪下：你是我的神！",
+        "english": "Colleague helped fix my PPT, I almost knelt: YOU ARE MY GOD!"
+      },
+      {
+        "chinese": "外卖五分钟送到。你是我的神，我说的。",
+        "english": "Delivery arrived in five minutes. You're my god, I said what I said."
+      }
+    ]
+  },
+  {
+    "slug": "xia-si-bao-bao-le",
+    "chinese_name": "吓死宝宝了",
+    "pinyin": "xià sǐ bǎo bǎo le",
+    "english_name": "Scared Baby to Death / Adorable Shock Meme",
+    "year": 2015,
+    "status": "classic",
+    "tags": [
+      "humor",
+      "self-deprecation"
+    ],
+    "popularity": 4,
+    "platform": "weibo",
+    "chinese_explanation": "2015年全网刷屏的卖萌惊吓体。用宝宝自称表达被吓到，将成年人的惊吓包装成幼儿式的夸张反应。源自综艺节目王宝强的口头禅，后成为万能惊吓表达。",
+    "english_explanation": "吓死宝宝了 (Scared Baby to Death) was the adorable overreaction that conquered 2015. Replace the first-person pronoun with 宝宝 (baby), and suddenly you're not a frightened adult — you're a precious infant terribly startled by the world. The phrase was applied to everything: horror movie jump-scares, a coworker appearing behind you, seeing this month's credit card bill. Its versatility came from the gap between exaggerated language and usually mundane trigger. It was part of a broader '宝宝' discourse including 宝宝心里苦 (baby is suffering inside) and the phenomenon of adults using baby-ish language for ironic emotional expression.",
+    "cultural_context": "吓死宝宝了 belongs to a specific moment when ironic self-infantilization was the dominant mode of Chinese internet emotional expression. Calling yourself 宝宝 allowed emotional honesty within a culture that often discourages direct emotional expression — you were being sincere, but also being funny about it. The 宝宝 trend faded as a dominant mode but left permanent traces in Chinese internet vocabulary.",
+    "origin_story": "The phrase has two competing origins. One traces it to a 2015 variety show where actor Wang Baoqiang (王宝强) — whose name literally contains 宝宝 — used the phrase in his distinctive accent. Another traces it to the broader 宝宝 trend sweeping social media in 2014-2015. Regardless, it exploded on Weibo in mid-2015 and was one of the year's most-used catchphrases.",
+    "similar_expressions": [
+      "宝宝心里苦 (bǎo bǎo xīn lǐ kǔ)",
+      "吓尿了 (xià niào le)",
+      "慌了 (huāng le)"
+    ],
+    "examples": [
+      {
+        "chinese": "突然发现明天是周一。吓死宝宝了！",
+        "english": "Just realized tomorrow is Monday. Scared baby to death!"
+      },
+      {
+        "chinese": "看了个恐怖片，全程都在喊吓死宝宝了。",
+        "english": "Watched a horror movie, the entire time: SCARED BABY! SCARED BABY!"
+      }
+    ]
+  },
+  {
+    "slug": "yue-guang-zu",
+    "chinese_name": "月光族",
+    "pinyin": "yuè guāng zú",
+    "english_name": "Moonlight Clan / Paycheck-to-Paycheck Tribe",
+    "year": 2003,
+    "status": "classic",
+    "tags": [
+      "consumerism",
+      "self-deprecation",
+      "lifestyle"
+    ],
+    "popularity": 4,
+    "platform": "weibo",
+    "chinese_explanation": "月光族指每月花光工资、没有任何储蓄的年轻群体。月指每月，光指花光，2003年由媒体创造，精准定义了消费主义时代中国年轻人的金钱观，至今仍是社会讨论的热点标签。",
+    "english_explanation": "月光族 (Moonlight Clan / Paycheck-to-Paycheck Tribe) is a Chinese linguistic invention so perfect it should be exported globally. The name is a triple pun: 月 (yuè, moon/month), 光 (guāng, light/empty), and 族 (zú, tribe/clan). Read one way, it's the Moonlight Tribe — poetic. Read another, it's the Monthly Empty Tribe — bank accounts illuminated by nothing but moonlight by payday. Coined by Chinese media in 2003, the term described young urban professionals earning decent salaries but saving nothing, spending everything on dining, fashion, and consumer pleasures. Unlike their parents' generation shaped by scarcity, the 月光族 represented a fundamental break with Chinese financial culture — the first generation to treat consumption as lifestyle. The term has been in continuous use for over 20 years.",
+    "cultural_context": "月光族 named a generation gap fundamentally about money. Every generation of young Chinese workers since 2003 has been accused of being 月光族 by their elders, and every generation has reclaimed the label with a mix of defiance and self-deprecation. Spawned variants like 月欠族 (those who run out before month-end) and 月盈族 (those who actually save), but the original endures. It's less a temporary meme than a permanent addition to the Chinese sociological vocabulary.",
+    "origin_story": "月光族 was coined by Chinese financial media around 2002-2003, during the early consumer revolution. As salaries rose and goods became widely available, a distinct spending pattern emerged among young urban workers: earn, spend, repeat, nothing left. The term's poetic construction — moonlight as both illumination and emptiness — made it immediately memorable. It was popularized through lifestyle magazines and TV segments about generational spending habits.",
+    "similar_expressions": [
+      "月欠族 (yuè qiàn zú)",
+      "剁手党 (duò shǒu dǎng)",
+      "精致穷 (jīng zhì qióng)"
+    ],
+    "examples": [
+      {
+        "chinese": "工资刚到账三天就空了。我就是月光族本族。",
+        "english": "Salary arrived three days ago, already gone. I am the Moonlight Clan incarnate."
+      },
+      {
+        "chinese": "爸妈那代存钱，我们这代月光。时代真的变了。",
+        "english": "Our parents saved. We moonlight. Times have truly changed."
+      }
+    ]
+  },
+  {
+    "slug": "xian-mu-ji-du-hen",
+    "chinese_name": "羡慕嫉妒恨",
+    "pinyin": "xiàn mù jí dù hèn",
+    "english_name": "Envy, Jealousy, Hate / The Escalating Bitter Trinity",
+    "year": 2010,
+    "status": "classic",
+    "tags": [
+      "self-deprecation",
+      "humor"
+    ],
+    "popularity": 4,
+    "platform": "weibo",
+    "chinese_explanation": "2010年流行语，将羡慕、嫉妒、恨三种递进情绪串联成一个词，精准表达了从欣赏到酸楚再到咬牙切齿的情感升级。已成为日常口语中描述眼红的标准表达。",
+    "english_explanation": "羡慕嫉妒恨 (Envy, Jealousy, Hate) is a linguistic escalator — three emotions in ascending intensity, delivered as a single compound word. Start with 羡慕 (envy — benign acknowledgment), progress to 嫉妒 (jealousy — now it's personal), and arrive at 恨 (hatred — pure resentment). Three distinct states collapsed into one breath, capturing the precise trajectory of watching a friend's vacation photos while stuck at work. The phrase emerged from Weibo in 2010 and immediately resonated because it described a universal experience nobody had named: the specific slide from 'good for them!' toward 'I hope their flight gets delayed.' Unlike static 'envy,' 羡慕嫉妒恨 captures the escalatory nature of social-media-induced resentment. The term has fully naturalized into everyday Chinese — used without irony, without awareness of its internet origins.",
+    "cultural_context": "羡慕嫉妒恨 is one of the most successful examples of an internet-born term achieving full integration into standard Chinese. Used in newspapers, television, academic papers, and everyday conversation — many users have no idea it originated as a Weibo joke. The compound structure follows Chinese word-formation patterns (progressive intensification) while being entirely novel, demonstrating how internet language can be simultaneously innovative and respectful of linguistic tradition.",
+    "origin_story": "The phrase first appeared on Weibo in early 2010, filling a genuine lexical gap: Chinese had individual words for envy, jealousy, and hatred, but no expression for the progressive cascade between them. By late 2010, it had been picked up by mainstream media, and by 2011 appeared in official publications. It's now listed in some modern Chinese dictionaries as an example of internet-originated vocabulary.",
+    "similar_expressions": [
+      "酸了 (suān le)",
+      "柠檬精 (níng méng jīng)",
+      "眼红 (yǎn hóng)"
+    ],
+    "examples": [
+      {
+        "chinese": "朋友又去旅游了，我羡慕嫉妒恨地看着他的朋友圈。",
+        "english": "Friend went traveling again. I scrolled through his Moments with envy, jealousy, and hatred."
+      },
+      {
+        "chinese": "看到别人年终奖发六个月，内心只有羡慕嫉妒恨。",
+        "english": "Seeing someone get a six-month bonus — pure envy-jealousy-hate in my heart."
+      }
+    ]
+  },
+  {
+    "slug": "shai-xing-fu",
+    "chinese_name": "晒",
+    "pinyin": "shài",
+    "english_name": "Sun-Drying / Flexing / Showing Off Online",
+    "year": 2007,
+    "status": "classic",
+    "tags": [
+      "consumerism",
+      "internet-culture",
+      "lifestyle"
+    ],
+    "popularity": 4,
+    "platform": "weibo",
+    "chinese_explanation": "晒的本义是在阳光下晾晒，2007年引申为在网络上公开分享、展示和炫耀。从晒工资到晒幸福到晒娃，一个晒字定义了社交媒体时代的分享文化。",
+    "english_explanation": "晒 (shài, to sun-dry / to air out) is a verb whose semantic expansion perfectly mirrors the rise of Chinese social media. Originally meaning to spread things under sunlight to dry (晒衣服, 晒被子), it extended around 2007 to the digital realm: 晒工资 (post your pay stub online), 晒幸福 (post couple photos), 晒娃 (flood the feed with baby pictures), 晒美食, 晒旅游. The metaphor is elegant: just as you air out laundry in public view, you air out your life on social media. But sun-drying is practical and modest — you're not showing off laundry, just airing it. 晒 preserves this ambiguity: is someone genuinely sharing or flexing? The term refuses to distinguish. Every 晒 is simultaneously sharing and showing off. The word has become so fundamental to Chinese internet vocabulary that discussing social media behavior without it is almost impossible.",
+    "cultural_context": "晒 represents a uniquely Chinese approach to social media sharing. Unlike English terms like flexing or humblebragging — each carrying specific moral judgments — 晒 is morally neutral. You can 晒 your poverty as easily as 晒 your wealth. This neutrality has made it an essential conceptual tool for navigating China's social media landscape. The term spawned 晒客 (shài kè, sun-drying guests) — people whose primary social media activity is sharing aspects of their lives.",
+    "origin_story": "The extended meaning emerged on Chinese forums around 2006-2007. The first major usage was 晒工资 (salary sun-drying), where users anonymously posted pay stubs for comparison, sparking nationwide conversations about income transparency. Usage expanded to 晒幸福, 晒娃, and eventually any online self-disclosure. By 2010, 晒 was standard vocabulary, and by 2015 it appeared in authoritative dictionaries with its extended meaning.",
+    "similar_expressions": [
+      "炫富 (xuàn fù)",
+      "凡尔赛 (fán ěr sài)",
+      "种草 (zhòng cǎo)"
+    ],
+    "examples": [
+      {
+        "chinese": "朋友圈又有人在晒新房了。这个月第三个。",
+        "english": "Someone's airing out their new house on Moments again. Third one this month."
+      },
+      {
+        "chinese": "我也不是想炫耀，就是晒一下今年的年终奖。",
+        "english": "I'm not trying to show off, just airing out this year's bonus."
+      }
+    ]
   }
 ]
