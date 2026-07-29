@@ -12131,14 +12131,14 @@
     "pinyin": "jí měi",
     "english_name": "Besties / Queens (Phonetic Corruption)",
     "year": 2020,
-    "status": "fading",
-    "popularity": 3,
+    "status": "still popular",
+    "popularity": 4,
     "tags": [
       "fandom"
     ],
-    "chinese_explanation": "\"姐妹\"的谐音字，源自主播口音，用于称呼女性朋友或粉丝，后泛指闺蜜。",
+    "chinese_explanation": "“姐妹”的谐音，源自快手主播郭老师口音。原为女性互相称呼的亲切用语，2025-2026年随着性别话语升级，从正面互助词演变为被两方争夺的性别身份标签，成为“散帅”等男性反讽词的直接镜像。",
     "english_explanation": "A phonetic corruption of \"姐妹\" (jiěmèi, sisters/besties) that went viral because of a streamer's distinctive accent.  Emerging around 2020, when the host addressed her audience as \"姐妹\", it came out sounding like \"集美\", which was then spelled out in the chat. The accidental mishearing became the term itself — a perfect example of how Chinese internet creates language from accidents.",
-    "cultural_context": "Reflects how Chinese livestreaming culture creates language — the intimacy of the streamer-viewer relationship (calling viewers 'sisters') combined with the real-time chaos of chat created an accidental neologism. The fact that it caught on shows how livestream culture shapes Chinese internet vocabulary in ways TV and social media don't.",
+    "cultural_context": "集美's journey from wholesome sisterhood to contested linguistic territory mirrors the trajectory of Chinese internet gender discourse itself. When it first emerged around 2020, it was simple and warm: a Kuaishou streamer's accent turned 姐妹 (sisters) into 集美 (gathered beauties), and women across the internet adopted it as their own. It was the verbal equivalent of linking arms. By 2025-2026, however, 集美 had been pulled into the gravity well of gender polarization. The term became associated with specific types of online feminist discourse — the '集美们冲' (sisters, attack!) call-to-action, the gender grievance narrative, the solidarity that sometimes felt more like conscription. Male users responded by creating their own mirror term: 散帅 (scattered sunshine). What was once an innocent phonetic quirk had become a battlefield. The term itself didn't change — the world around it did.",
     "similar_expressions": [
       "Like 'besties,' 'girlies,' or 'queens' in English address to female friends or fans. The specific origin (accent mishearing) has no English parallel, but the sentiment of feminine solidarity address is universal."
     ],
@@ -16662,6 +16662,74 @@
       {
         "chinese": "别叫我顶梁柱，叫我散帅。阳光开朗大男孩，不被定义。",
         "english": "Don't call me the breadwinner, call me scattered sunshine. A sunny, cheerful big boy, undefined by labels."
+      }
+    ]
+  },
+  {
+    "slug": "xiao-xian-nv",
+    "chinese_name": "小仙女",
+    "pinyin": "xiǎo xiān nǚ",
+    "english_name": "Little Fairy / Entitled Princess (Ironic)",
+    "year": 2024,
+    "status": "still popular",
+    "tags": [
+      "identity",
+      "romance",
+      "humor"
+    ],
+    "popularity": 5,
+    "platform": "douyin",
+    "chinese_explanation": "原指年轻可爱、纯洁美好的女孩。2024-2025年经历语义翻转，演变为讽刺女性双重标准、无理取闹的反讽标签。“小仙女生气啦”等句式成为性别对立的标志性表达。",
+    "english_explanation": "小仙女 (Little Fairy) has undergone one of the most dramatic semantic reversals in recent Chinese internet history. Originally a warm, affectionate term for a lovely young woman — the kind of pure, ethereal creature who floats through life trailing kindness — it has been completely hollowed out and refilled with sarcasm. In its 2024-2025 usage, calling someone a 小仙女 is almost never a compliment. It's an eye-roll. It means: 'Here comes the princess, expecting special treatment while contributing nothing.' The term's transformation maps perfectly onto the escalating gender tensions of Chinese social media. What was once sincere admiration became ironic, then sarcastic, then openly hostile — a complete 180 in connotation while the surface form remained identical.",
+    "cultural_context": "小仙女 represents a specific form of semantic warfare that has become characteristic of Chinese internet gender discourse: the weaponization of formerly positive terms. By retaining the surface form while inverting the meaning, users create a linguistic booby trap — what sounds like a compliment is actually an attack, and anyone who objects can be dismissed as 'not getting the joke.' The term's evolution also reflects the collapse of shared meaning in online gender discourse. When both sides of a debate use the same word to mean completely opposite things — sincere admiration vs. biting sarcasm — communication becomes a hall of mirrors where nobody is sure what anyone actually means.",
+    "origin_story": "小仙女 has been a common Chinese term of endearment for decades, derived from celestial maidens in Chinese mythology. Its internet career began on Weibo and Douyin as sincere praise. The semantic shift began around 2023-2024, paralleling the rise of gender-polarized discourse. Male-dominated forums and comment sections began using 小仙女 with heavy irony to mock behavior they perceived as entitled. By 2025, the ironic usage had become so dominant that sincere usage was effectively impossible without clarification.",
+    "similar_expressions": [
+      "集美 (jí měi)",
+      "捞女 (lāo nǚ)",
+      "田园女权 (tián yuán nǚ quán)"
+    ],
+    "examples": [
+      {
+        "chinese": "他说AA制，她直接翻脸。评论区：小仙女生气啦～",
+        "english": "He suggested splitting the bill, she got angry on the spot. Comments: The little fairy is upset~"
+      },
+      {
+        "chinese": "又当又立，真是小仙女本仙了。",
+        "english": "Wants to have it both ways — truly the fairyest of little fairies."
+      }
+    ]
+  },
+  {
+    "slug": "gong-yang-zhe",
+    "chinese_name": "供养者",
+    "pinyin": "gōng yǎng zhě",
+    "english_name": "Provider / Walking ATM Boyfriend",
+    "year": 2024,
+    "status": "still popular",
+    "tags": [
+      "romance",
+      "self-deprecation",
+      "workplace"
+    ],
+    "popularity": 4,
+    "platform": "douyin",
+    "chinese_explanation": "指在婚恋关系中仅提供经济支持却得不到情感回报的男性角色。源自婚恋博主的分析框架，后被网友标签化。与“力工”相似但侧重经济供养而非体力付出，是当代婚恋经济学的核心概念。",
+    "english_explanation": "供养者 (Provider / Sustainer) describes a man whose role in a relationship is reduced to a single function: providing money. Not a partner, not a lover, not a companion — a walking ATM with a heartbeat. The term comes from the vocabulary of Chinese dating coaches, who popularized a taxonomy of male roles: the 供养者 (provider — pays for everything, receives nothing), the 情人 (lover — desired but not depended on), and the ideal man who somehow manages to be both. In the 供养者 archetype, the tragedy is not just financial exploitation — it's emotional invisibility. He pays for dinner, covers the rent, buys the bags, and in return receives tolerance. Not love. Not desire. Just the grim transactional calculus of a relationship where one person's only value is their wallet.",
+    "cultural_context": "供养者 is part of a broader semantic ecosystem around Chinese dating economics. The term sits alongside 力工 (laborer — physical/financial sacrifice), 舔狗 (simp — emotional self-degradation), and 备胎 (spare tire — backup option). Together, these terms form a taxonomy of male disadvantage in modern Chinese relationships. The 供养者 is in some ways the most existentially troubling: unlike the 舔狗 who at least has the dignity of actively pursuing someone, or the 力工 who might be respected (if exploited) for his labor, the 供养者 is simply... funded. His presence is tolerated because of what he provides. This cold economic framing of love has been both embraced (as realism) and criticized (as reducing relationships to crude transactions).",
+    "origin_story": "供养者 emerged from Chinese dating advice content on Douyin and Weibo around 2023-2024. Relationship coaches began using a three-category system: 供养者 (provider), 情人 (lover), and the ideal combination. The framework went viral because it gave a name to an experience many men recognized but couldn't articulate — being valued only for what you provide. The term's usage exploded in 2025 alongside the broader gender discourse wave that also produced 力工, 散帅, and 捞女.",
+    "similar_expressions": [
+      "力工 (lì gōng)",
+      "舔狗 (tiǎn gǒu)",
+      "备胎 (bèi tāi)"
+    ],
+    "examples": [
+      {
+        "chinese": "他发现女朋友只在要钱的时候对他好。朋友说：你就是个供养者。",
+        "english": "He realized his girlfriend was only nice when she needed money. Friend said: You're just a provider."
+      },
+      {
+        "chinese": "不想当供养者，也不想当舔狗。难道就没有正常的关系吗？",
+        "english": "Don't want to be a provider, don't want to be a simp. Are there no normal relationships anymore?"
       }
     ]
   }
