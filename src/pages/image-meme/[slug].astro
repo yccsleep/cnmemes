@@ -1,12 +1,14 @@
 ---
 import Base from '../../layouts/Base.astro';
 import memes from '../../data/image-memes.json';
+import { webpSrc } from '../../utils/image';
 
 export function getStaticPaths() {
   return memes.map(m => ({ params: { slug: m.slug }, props: { meme: m } }));
 }
 
 const { meme } = Astro.props;
+const webp = webpSrc(meme.image);
 const stars = '★'.repeat(meme.popularity) + '☆'.repeat(5 - meme.popularity);
 const statusClass = meme.status === 'still popular' ? 'popular' : meme.status === 'fading' ? 'fading' : 'classic';
 
@@ -71,7 +73,7 @@ const breadcrumbSchema = {
         <div class="im-sticky">
           <figure class="im-figure">
             <picture>
-              <source srcset={meme.image.replace(/\.(jpg|jpeg|png)$/i, '.webp')} type="image/webp" />
+              {webp && <source srcset={webp} type="image/webp" />}
               <img
                 src={meme.image}
                 alt={`${meme.chinese_name} — ${meme.english_name} Chinese internet meme`}

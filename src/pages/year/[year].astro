@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import MemeCard from '../../components/MemeCard.astro';
 import memes from '../../data/memes.json';
+import { yearPages } from '../../utils/site';
 
 // Era groupings: map each specific year to its representative slug
 const eraConfig: Record<number, { slug: number; label: string; years: number[] }> = {
@@ -12,11 +13,7 @@ const eraConfig: Record<number, { slug: number; label: string; years: number[] }
 
 // Only generate pages for: era representative years + 2015 onwards
 export function getStaticPaths() {
-  const eraReps = new Set([2004, 2009, 2014]);
-  const recentYears = [...new Set(memes.map(m => m.year))].filter(y => y >= 2015);
-  const allPageYears = [...eraReps, ...recentYears];
-
-  return allPageYears.map(y => ({
+  return yearPages.map(y => ({
     params: { year: String(y) },
     props: { year: y }
   }));

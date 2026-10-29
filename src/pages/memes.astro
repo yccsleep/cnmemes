@@ -3,7 +3,20 @@ import Base from '../layouts/Base.astro';
 import MemeCard from '../components/MemeCard.astro';
 import memes from '../data/memes.json';
 
-const allMemes = [...memes].sort((a, b) => b.year - a.year || b.popularity - a.popularity);
+// Slim payload: search only needs a short excerpt, not the full article text.
+const allMemes = [...memes]
+  .sort((a, b) => b.year - a.year || b.popularity - a.popularity)
+  .map(({ slug, chinese_name, english_name, pinyin, english_explanation, year, status, tags, popularity }) => ({
+    slug,
+    chinese_name,
+    english_name,
+    pinyin,
+    english_explanation: english_explanation.slice(0, 180),
+    year,
+    status,
+    tags,
+    popularity,
+  }));
 
 const byYear = allMemes.reduce((acc, m) => {
   acc[m.year] = acc[m.year] || [];

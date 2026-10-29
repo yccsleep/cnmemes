@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import ImageMemeCard from '../components/ImageMemeCard.astro';
 import memes from '../data/image-memes.json';
 
 const sorted = [...memes].sort((a, b) => b.year - a.year || b.popularity - a.popularity);
@@ -57,31 +58,19 @@ const schema = {
             <span class="year-count">{byYear[y].length} memes</span>
           </div>
           <div class="im-grid">
-            {byYear[y].map(m => {
-              const sc = m.status === 'still popular' ? 'popular' : m.status === 'fading' ? 'fading' : 'classic';
-              const st = '★'.repeat(m.popularity) + '☆'.repeat(5 - m.popularity);
-              return (
-                <a href={`/image-meme/${m.slug}`} class="im-card" data-search={`${m.chinese_name} ${m.english_name} ${m.pinyin} ${m.tags.join(' ')}`}>
-                  <picture>
-                    <source srcset={m.image.replace(/\.(jpg|jpeg|png)$/i, '.webp')} type="image/webp" />
-                    <img src={m.image} alt={`${m.chinese_name} — ${m.english_name} Chinese internet meme`} loading="lazy" class="im-bg-img" width="600" height="400" />
-                  </picture>
-                  <div class="im-overlay"></div>
-                  <div class="im-content">
-                    <div class="im-cn">{m.chinese_name}</div>
-                    <div class="im-en">{m.english_name}</div>
-                    <div class="im-meta">
-                      <span class="im-tag im-tag-year">{m.year}</span>
-                      <span class={`im-tag im-tag-${sc}`}>{m.status}</span>
-                      {m.tags.slice(0, 1).map(t => (
-                        <span class="im-tag im-tag-topic">{t}</span>
-                      ))}
-                      <span class="im-stars">{st}</span>
-                    </div>
-                  </div>
-                </a>
-              );
-            })}
+            {byYear[y].map(m => (
+              <ImageMemeCard
+                slug={m.slug}
+                chinese_name={m.chinese_name}
+                english_name={m.english_name}
+                pinyin={m.pinyin}
+                year={m.year}
+                status={m.status}
+                tags={m.tags}
+                popularity={m.popularity}
+                image={m.image}
+              />
+            ))}
           </div>
         </div>
       );
@@ -126,111 +115,8 @@ const schema = {
   gap: 16px;
 }
 
-/* Poster card */
-.im-card {
-  position: relative;
-  display: block;
-  aspect-ratio: 3 / 2;
-  border-radius: var(--radius-lg);
-  overflow: hidden;
-  text-decoration: none;
-  border: 1.5px solid var(--border);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-.im-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 10px 28px rgba(0,0,0,0.2);
-  text-decoration: none;
-}
-
-.im-bg-img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: top center;
-  display: block;
-  transition: transform 0.35s ease;
-}
-.im-card:hover .im-bg-img { transform: scale(1.06); }
-
-.im-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    to bottom,
-    transparent 25%,
-    rgba(0,0,0,0.25) 55%,
-    rgba(0,0,0,0.85) 100%
-  );
-}
-
-.im-content {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 12px 14px;
-}
-
-.im-cn {
-  font-family: var(--font-display);
-  font-size: 17px;
-  font-weight: 700;
-  color: #fff;
-  line-height: 1.2;
-  margin-bottom: 2px;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.6);
-}
-
-.im-en {
-  font-size: 11px;
-  font-weight: 600;
-  color: rgba(255,255,255,0.82);
-  margin-bottom: 7px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.4);
-}
-
-.im-meta {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  flex-wrap: nowrap;
-  overflow: hidden;
-}
-
-.im-tag {
-  font-size: 10px;
-  font-weight: 700;
-  padding: 2px 6px;
-  border-radius: 50px;
-  white-space: nowrap;
-  backdrop-filter: blur(4px);
-  flex-shrink: 0;
-}
-
-.im-tag-year    { background: rgba(194,59,34,0.55); color: #fff; }
-.im-tag-popular { background: rgba(34,139,34,0.5);  color: #fff; }
-.im-tag-classic { background: rgba(100,80,180,0.5); color: #fff; }
-.im-tag-fading  { background: rgba(180,130,20,0.5); color: #fff; }
-.im-tag-topic   { background: rgba(255,255,255,0.18); color: rgba(255,255,255,0.88); }
-
-.im-stars {
-  font-size: 11px;
-  color: #f0c040;
-  letter-spacing: 0.5px;
-  margin-left: auto;
-  flex-shrink: 0;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.4);
-}
-
 @media (max-width: 768px) {
   .im-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
-  .im-cn { font-size: 15px; }
 }
 
 @media (max-width: 420px) {

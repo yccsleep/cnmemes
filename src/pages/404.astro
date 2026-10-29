@@ -1,12 +1,13 @@
 ---
 import Base from '../layouts/Base.astro';
 import memes from '../data/memes.json';
+import { seededShuffle, monthSeed } from '../utils/shuffle';
 
-// Pick 3 random high-popularity memes to suggest
-const suggestions = [...memes]
-  .filter(m => m.popularity === 5)
-  .sort(() => Math.random() - 0.5)
-  .slice(0, 3);
+// Pick 3 high-popularity memes to suggest — rotates monthly, deterministic
+const suggestions = seededShuffle(
+  memes.filter(m => m.popularity === 5),
+  `not-found-${monthSeed()}`
+).slice(0, 3);
 ---
 
 <Base title="Page Not Found" description="This page doesn't exist — but we have 500+ Chinese internet memes that do.">
